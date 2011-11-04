@@ -8,21 +8,48 @@
   Written By:  Paul Romano
   Date:        9/1/2011
   ===============================================================
+
+  NOTE: The original specification gave an atom densities for natural Ga, W, Ni,
+  Cu, and Zr. Since the ENDF/B-VII cross sections with MCNP do not have natural
+  isotopes, they have been broken up into individual isotopes according to IUPAC
+  recommended isotopic abundances as follows:
+  
+  Ga-69 (60.108%) Ga-71 (39.892%)
+  W-180 (0.12%) W-182 (26.50%) W-183 (14.31%) W-184 (30.64%) W-186 (28.43%)
+  Ni-58 (68.0769%) Ni-60 (26.2231%) Ni-61 (1.1399%) Ni-62 (3.6345%) Ni-64 (0.9256%)
+  Cu-63 (69.17%) Cu-65 (30.83%)
+  Zr-90 (51.45%) Zr-91 (11.22%) Zr-92 (17.15%) Zr-94 (17.38%) Zr-96 (2.80%)
+  
+  WARNING: The ENDF/B-VII.0 release does not have W-180 so it is not included.
   -->
 
   <material id="1">
     <density value="0.04070346" units="atom/b-cm" />
-    <nuclide name="Pu-239" xs="03c" ao="0.037291" />
-    <nuclide name="Pu-240" xs="03c" ao="0.0019277" />
-    <nuclide name="Pu-241" xs="03c" ao="0.00012196" />
-    <nuclide name="Ga-nat" xs="03c" ao="0.0013628" />
+    <nuclide name="94239" xs="70c" ao="0.037291" />
+    <nuclide name="94240" xs="70c" ao="0.0019277" />
+    <nuclide name="94241" xs="70c" ao="0.00012196" />
+    <nuclide name="31069" xs="70c" ao="8.19151824e-4" />
+    <nuclide name="31071" xs="70c" ao="5.43648176e-4" />
   </material>
   <material id="2">
     <density value="0.06605308" units="atom/b-cm" />
-    <nuclide name="W-nat" xs="03c" ao="0.051468" />
-    <nuclide name="Ni-nat" xs="03c" ao="0.0097124" />
-    <nuclide name="Cu-nat" xs="03c" ao="0.0040774" />
-    <nuclide name="Zr-nat" xs="03c" ao="0.00079528" />
+    <!-- <nuclide name="74180" xs="70c" ao="6.17616e-05" /> -->
+    <nuclide name="74182" xs="70c" ao="0.01363902" />
+    <nuclide name="74183" xs="70c" ao="0.0073650708" />
+    <nuclide name="74184" xs="70c" ao="0.0157697952" />
+    <nuclide name="74186" xs="70c" ao="0.0146323524" />
+    <nuclide name="28058" xs="70c" ao="0.0066119008356" />
+    <nuclide name="28060" xs="70c" ao="0.0025468923644" />
+    <nuclide name="28061" xs="70c" ao="0.0001107116476" />
+    <nuclide name="28062" xs="70c" ao="0.000352997178" />
+    <nuclide name="28064" xs="70c" ao="8.98979744e-05" />
+    <nuclide name="29063" xs="70c" ao="0.00282033758" />
+    <nuclide name="29065" xs="70c" ao="0.00125706242" />
+    <nuclide name="40090" xs="70c" ao="0.00040917156" />
+    <nuclide name="40091" xs="70c" ao="8.9230416e-05" />
+    <nuclide name="40092" xs="70c" ao="0.00013639052" />
+    <nuclide name="40094" xs="70c" ao="0.000138219664" />
+    <nuclide name="40096" xs="70c" ao="2.226784e-05" />
   </material>
 
 </materials>
