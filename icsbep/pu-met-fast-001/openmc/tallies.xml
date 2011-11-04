@@ -5,9 +5,7 @@
     <filters>
       <cell>1</cell>
     </filters>
-
     <macros>total scatter absorption fission nu-fission</macros>
-
   </tally>
 
 </tallies>

@@ -10,11 +10,7 @@
   ==========================================
   -->
 
-  <cell id="1">
-    <universe>0</universe>
-    <material>1</material>
-    <surfaces>-1</surfaces>
-  </cell>
+  <cell id="1" material="1" surfaces="-1" />
 
   <surface id="1">
     <type>sphere</type>

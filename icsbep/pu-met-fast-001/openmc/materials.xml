@@ -8,14 +8,23 @@
   Written By:  Paul Romano
   Date:        9/1/2011
   ==========================================
+  
+  NOTE: The original specification gave an atom density of 1.3752 x 10^-3 for
+  Ga. Since the ENDF/B-VII cross sections with MCNP do not have natural Ga, it
+  has been broken up into individual isotopes according to IUPAC recommended
+  isotopic abundances as follows:
+  
+  Ga-69 (60.108%)
+  Ga-71 (39.892%)
   -->
 
   <material id="1">
     <density value="0.04029014" units="atom/b-cm" />
-    <nuclide name="Pu-239" xs="03c" ao="0.037047" />
-    <nuclide name="Pu-240" xs="03c" ao="0.0017512" />
-    <nuclide name="Pu-241" xs="03c" ao="0.00011674" />
-    <nuclide name="Ga-nat" xs="03c" ao="0.0013752" />
+    <nuclide name="94239" xs="70c" ao="0.037047" />
+    <nuclide name="94240" xs="70c" ao="0.0017512" />
+    <nuclide name="94241" xs="70c" ao="0.00011674" />
+    <nuclide name="31069" xs="70c" ao="8.26605216e-4" />
+    <nuclide name="31071" xs="70c" ao="5.48594784e-4" />
   </material>
 
 </materials>
