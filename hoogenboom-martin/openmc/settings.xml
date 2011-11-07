@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<settings>
+
+  <criticality>
+    <cycles>20</cycles>
+    <inactive>10</inactive>
+    <particles>1000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>-0.63 -0.63 -10 0.63 0.63 10</coeffs>
+  </source>
+
+</settings>
