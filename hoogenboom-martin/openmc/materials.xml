@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!-- Fuel composition -->
+  <material id="1">
+    <density value="10.062" units="g/cc" />
+    <nuclide name="92234" xs="70c" ao="4.9476e-6" />
+    <nuclide name="92235" xs="70c" ao="4.8218e-4" />
+    <nuclide name="92236" xs="70c" ao="9.0402e-5" />
+    <nuclide name="92238" xs="70c" ao="2.1504e-2" />
+    <nuclide name="92237" xs="70c" ao="7.3733e-6" />
+    <nuclide name="93237" xs="70c" ao="1.5148e-6" />
+    <nuclide name="94239" xs="70c" ao="1.3955e-4" />
+    <nuclide name="94240" xs="70c" ao="3.4405e-5" />
+    <nuclide name="94241" xs="70c" ao="2.1439e-5" />
+    <nuclide name="94242" xs="70c" ao="3.7422e-6" />
+    <nuclide name="95241" xs="70c" ao="4.5041e-7" />
+    <nuclide name="95242" xs="70c" ao="9.2301e-9" />
+    <nuclide name="95243" xs="70c" ao="4.7878e-7" />
+    <nuclide name="96242" xs="70c" ao="1.0485e-7" />
+    <nuclide name="96243" xs="70c" ao="1.4268e-9" />
+    <nuclide name="96244" xs="70c" ao="8.8756e-8" />
+    <nuclide name="96245" xs="70c" ao="3.5285e-9" />
+    <nuclide name="42095" xs="70c" ao="2.6497e-5" />
+    <nuclide name="43099" xs="70c" ao="3.2772e-5" />
+    <nuclide name="44101" xs="70c" ao="3.0742e-5" />
+    <nuclide name="44103" xs="70c" ao="2.3505e-6" />
+    <nuclide name="47109" xs="70c" ao="2.0009e-6" />
+    <nuclide name="54135" xs="70c" ao="1.0801e-8" />
+    <nuclide name="55133" xs="70c" ao="3.4612e-5" />
+    <nuclide name="60143" xs="70c" ao="2.6078e-5" />
+    <nuclide name="60145" xs="70c" ao="1.9898e-5" />
+    <nuclide name="62147" xs="70c" ao="1.6128e-6" />
+    <nuclide name="62149" xs="70c" ao="1.1627e-7" />
+    <nuclide name="62150" xs="70c" ao="7.1727e-6" />
+    <nuclide name="62151" xs="70c" ao="5.4947e-7" />
+    <nuclide name="62152" xs="70c" ao="3.0221e-6" />
+    <nuclide name="63153" xs="70c" ao="2.6209e-6" />
+    <nuclide name="64155" xs="70c" ao="1.5369e-9" />
+    <nuclide name="8016"  xs="70c" ao="4.5737e-2" />
+  </material>
+
+  <!-- Cladding composition -->
+  <material id="2">
+    <density value="5.77" units="g/cc" />
+    <nuclide name="40090" xs="70c" ao="0.5145" />
+    <nuclide name="40091" xs="70c" ao="0.1122" />
+    <nuclide name="40092" xs="70c" ao="0.1715" />
+    <nuclide name="40094" xs="70c" ao="0.1738" />
+    <nuclide name="40096" xs="70c" ao="0.0280" />
+  </material>
+
+  <!-- Hot borated water -->
+  <material id="3">
+    <density value="0.07416" units="atom/b-cm" />
+    <nuclide name="1001" xs="70c" ao="2.0" />
+    <nuclide name="8016" xs="70c" ao="1.0" />
+    <nuclide name="5010" xs="70c" ao="6.490e-4" />
+    <nuclide name="5011" xs="70c" ao="2.689e-3" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Cold borated water -->
+  <material id="4">
+    <density value="0.06614" units="atom/b-cm" />
+    <nuclide name="1001" xs="70c" ao="2.0" />
+    <nuclide name="8016" xs="70c" ao="1.0" />
+    <nuclide name="5010" xs="70c" ao="6.490e-4" />
+    <nuclide name="5011" xs="70c" ao="2.689e-3" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+</materials>
