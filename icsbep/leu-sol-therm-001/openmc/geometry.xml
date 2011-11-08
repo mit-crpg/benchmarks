@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =================================================================
+  Description: Unreflected UO2F2+H2O Cylindrical Assembly, SHEBA-II
+  Case:        LEU-SOL-THERM-001
+  Written By:  Paul Romano
+  Date:        11/8/2011
+  =================================================================
+  -->
+ 
+  <surface id="1" type="z-plane" coeffs="-40.0" boundary="vacuum" />
+  <surface id="2" type="z-plane" coeffs="-37.1425" />
+  <surface id="3" type="z-plane" coeffs="7.6575" />
+  <surface id="4" type="z-plane" coeffs="39.375" />
+  <surface id="5" type="z-plane" coeffs="41.28" boundary="vacuum" />
+  <surface id="6" type="z-cylinder" coeffs="0. 0. 2.54" />
+  <surface id="7" type="z-cylinder" coeffs="0. 0. 3.175" />
+  <surface id="8" type="z-cylinder" coeffs="0. 0. 24.4475" />
+  <surface id="9" type="z-cylinder" coeffs="0. 0. 25.4" boundary="vacuum" />
+
+  <cell id="1" material="2" surfaces="1 -2 -6"  />   <!-- Air at bottom of thimble -->
+  <cell id="2" material="1" surfaces="1 -2  6 -9" /> <!-- Vessel bottom -->
+  <cell id="3" material="2" surfaces="2 -4 -6" />    <!-- Air in thimble -->
+  <cell id="4" material="1" surfaces="2 -4  6 -7" /> <!-- Thimble -->
+  <cell id="5" material="3" surfaces="2 -3  7 -8" /> <!-- Fuel solution -->
+  <cell id="6" material="2" surfaces="3 -4  7 -8" /> <!-- Air above fuel -->
+  <cell id="7" material="1" surfaces="2 -4 8 -9" />  <!-- Outer Tank -->
+  <cell id="8" material="2" surfaces="4 -5 -6" />    <!-- Air at top of thimble -->
+  <cell id="9" material="1" surfaces="4 -5 6 -9" />  <!-- Cover -->
+
+</geometry>
