@@ -31,7 +31,7 @@
 
   <!-- Air -->
   <material id="2">
-    <density value="5.0306" units="atom/b-cm" />
+    <density value="5.0306e-5" units="atom/b-cm" />
     <nuclide name="7014" xs="70c" ao="3.5214e-5" />
     <nuclide name="8016" xs="70c" ao="1.5092e-5" />
   </material>
@@ -46,6 +46,7 @@
     <nuclide name="1001"  xs="70c" ao="5.6179e-2" />
     <nuclide name="8016"  xs="70c" ao="3.2967e-2" />
     <nuclide name="9019"  xs="70c" ao="5.1035e-3" />
+    <sab name="lwtr" xs="10t" />
   </material>
 
 </materials>
