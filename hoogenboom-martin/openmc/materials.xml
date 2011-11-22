@@ -1,73 +1,186 @@
 <?xml version="1.0"?>
 <materials>
 
+  <default_xs>70c</default_xs>
+
   <!-- Fuel composition -->
   <material id="1">
     <density value="10.062" units="g/cc" />
-    <nuclide name="92234" xs="70c" ao="4.9476e-6" />
-    <nuclide name="92235" xs="70c" ao="4.8218e-4" />
-    <nuclide name="92236" xs="70c" ao="9.0402e-5" />
-    <nuclide name="92238" xs="70c" ao="2.1504e-2" />
-    <nuclide name="93237" xs="70c" ao="7.3733e-6" />
-    <nuclide name="94238" xs="70c" ao="1.5148e-6" />
-    <nuclide name="94239" xs="70c" ao="1.3955e-4" />
-    <nuclide name="94240" xs="70c" ao="3.4405e-5" />
-    <nuclide name="94241" xs="70c" ao="2.1439e-5" />
-    <nuclide name="94242" xs="70c" ao="3.7422e-6" />
-    <nuclide name="95241" xs="70c" ao="4.5041e-7" />
-    <nuclide name="95242" xs="70c" ao="9.2301e-9" />
-    <nuclide name="95243" xs="70c" ao="4.7878e-7" />
-    <nuclide name="96242" xs="70c" ao="1.0485e-7" />
-    <nuclide name="96243" xs="70c" ao="1.4268e-9" />
-    <nuclide name="96244" xs="70c" ao="8.8756e-8" />
-    <nuclide name="96245" xs="70c" ao="3.5285e-9" />
-    <nuclide name="42095" xs="70c" ao="2.6497e-5" />
-    <nuclide name="43099" xs="70c" ao="3.2772e-5" />
-    <nuclide name="44101" xs="70c" ao="3.0742e-5" />
-    <nuclide name="44103" xs="70c" ao="2.3505e-6" />
-    <nuclide name="47109" xs="70c" ao="2.0009e-6" />
-    <nuclide name="54135" xs="70c" ao="1.0801e-8" />
-    <nuclide name="55133" xs="70c" ao="3.4612e-5" />
-    <nuclide name="60143" xs="70c" ao="2.6078e-5" />
-    <nuclide name="60145" xs="70c" ao="1.9898e-5" />
-    <nuclide name="62147" xs="70c" ao="1.6128e-6" />
-    <nuclide name="62149" xs="70c" ao="1.1627e-7" />
-    <nuclide name="62150" xs="70c" ao="7.1727e-6" />
-    <nuclide name="62151" xs="70c" ao="5.4947e-7" />
-    <nuclide name="62152" xs="70c" ao="3.0221e-6" />
-    <nuclide name="63153" xs="70c" ao="2.6209e-6" />
-    <nuclide name="64155" xs="70c" ao="1.5369e-9" />
-    <nuclide name="8016"  xs="70c" ao="4.5737e-2" />
+    <nuclide name="92234" ao="4.9476e-6" />
+    <nuclide name="92235" ao="4.8218e-4" />
+    <nuclide name="92236" ao="9.0402e-5" />
+    <nuclide name="92238" ao="2.1504e-2" />
+    <nuclide name="93237" ao="7.3733e-6" />
+    <nuclide name="94238" ao="1.5148e-6" />
+    <nuclide name="94239" ao="1.3955e-4" />
+    <nuclide name="94240" ao="3.4405e-5" />
+    <nuclide name="94241" ao="2.1439e-5" />
+    <nuclide name="94242" ao="3.7422e-6" />
+    <nuclide name="95241" ao="4.5041e-7" />
+    <nuclide name="95242" ao="9.2301e-9" />
+    <nuclide name="95243" ao="4.7878e-7" />
+    <nuclide name="96242" ao="1.0485e-7" />
+    <nuclide name="96243" ao="1.4268e-9" />
+    <nuclide name="96244" ao="8.8756e-8" />
+    <nuclide name="96245" ao="3.5285e-9" />
+    <nuclide name="42095" ao="2.6497e-5" />
+    <nuclide name="43099" ao="3.2772e-5" />
+    <nuclide name="44101" ao="3.0742e-5" />
+    <nuclide name="44103" ao="2.3505e-6" />
+    <nuclide name="47109" ao="2.0009e-6" />
+    <nuclide name="54135" ao="1.0801e-8" />
+    <nuclide name="55133" ao="3.4612e-5" />
+    <nuclide name="60143" ao="2.6078e-5" />
+    <nuclide name="60145" ao="1.9898e-5" />
+    <nuclide name="62147" ao="1.6128e-6" />
+    <nuclide name="62149" ao="1.1627e-7" />
+    <nuclide name="62150" ao="7.1727e-6" />
+    <nuclide name="62151" ao="5.4947e-7" />
+    <nuclide name="62152" ao="3.0221e-6" />
+    <nuclide name="63153" ao="2.6209e-6" />
+    <nuclide name="64155" ao="1.5369e-9" />
+    <nuclide name="8016"  ao="4.5737e-2" />
   </material>
 
   <!-- Cladding composition -->
   <material id="2">
     <density value="5.77" units="g/cc" />
-    <nuclide name="40090" xs="70c" ao="0.5145" />
-    <nuclide name="40091" xs="70c" ao="0.1122" />
-    <nuclide name="40092" xs="70c" ao="0.1715" />
-    <nuclide name="40094" xs="70c" ao="0.1738" />
-    <nuclide name="40096" xs="70c" ao="0.0280" />
+    <nuclide name="40090" ao="0.5145" />
+    <nuclide name="40091" ao="0.1122" />
+    <nuclide name="40092" ao="0.1715" />
+    <nuclide name="40094" ao="0.1738" />
+    <nuclide name="40096" ao="0.0280" />
   </material>
 
   <!-- Hot borated water -->
   <material id="3">
     <density value="0.07416" units="atom/b-cm" />
-    <nuclide name="1001" xs="70c" ao="2.0" />
-    <nuclide name="8016" xs="70c" ao="1.0" />
-    <nuclide name="5010" xs="70c" ao="6.490e-4" />
-    <nuclide name="5011" xs="70c" ao="2.689e-3" />
+    <nuclide name="1001" ao="2.0" />
+    <nuclide name="8016" ao="1.0" />
+    <nuclide name="5010" ao="6.490e-4" />
+    <nuclide name="5011" ao="2.689e-3" />
     <sab name="lwtr" xs="10t" />
   </material>
 
   <!-- Cold borated water -->
   <material id="4">
     <density value="0.06614" units="atom/b-cm" />
-    <nuclide name="1001" xs="70c" ao="2.0" />
-    <nuclide name="8016" xs="70c" ao="1.0" />
-    <nuclide name="5010" xs="70c" ao="6.490e-4" />
-    <nuclide name="5011" xs="70c" ao="2.689e-3" />
+    <nuclide name="1001" ao="2.0" />
+    <nuclide name="8016" ao="1.0" />
+    <nuclide name="5010" ao="6.490e-4" />
+    <nuclide name="5011" ao="2.689e-3" />
     <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- RPV Composition -->
+  <material id="5">
+    <density value="7.9" units="g/cm3" />
+    <!--
+    <nuclide name="Fe" wo="96.3" />
+    <nuclide name="Ni" wo="1.0" />
+    <nuclide name="Mn" wo="1.0" />
+    <nuclide name="Mo" wo="0.6" />
+    <nuclide name="Si" wo="0.4" />
+    <nuclide name="Cr" wo="0.25" />
+    <nuclide name="C"  wo="0.25" />
+    <nuclide name="Cu" wo="0.2" />
+    -->
+  </material>
+
+  <!-- Lower radial reflector -->
+  <material id="6">
+    <density value="4.32" units="g/cm3" />
+    <nuclide name="1001" wo="0.0095661" />
+    <nuclide name="8016" wo="0.0759107" />
+    <nuclide name="5010" wo="3.08409e-5" />
+    <nuclide name="5011" wo="1.40499e-4" />
+    <!--
+    <nuclide name="Fe" wo="0.6309028" />
+    <nuclide name="Ni" wo="0.0822917" />
+    <nuclide name="Mn" wo="0.0182870" />
+    <nuclide name="Si" wo="0.0091435" />
+    <nuclide name="Cr" wo="0.1737269" />
+    -->
+  </material>
+
+  <!-- Upper radial reflector -->
+  <material id="7">
+    <density value="4.28" units="g/cm3" />
+    <nuclide name="1001" wo="0.0086117" />
+    <nuclide name="8016" wo="0.0683369" />
+    <nuclide name="5010" wo="2.77638e-5" />
+    <nuclide name="5011" wo="1.26481e-4" />
+    <!--
+    <nuclide name="Fe" wo="" />
+    <nuclide name="Ni" wo="" />
+    <nuclide name="Mn" wo="" />
+    <nuclide name="Si" wo="" />
+    <nuclide name="Cr" wo="" />
+    -->
+  </material>
+
+  <!-- Bottom plate region -->
+  <material id="8">
+    <density value="7.184" units="g/cm3" />
+    <nuclide name="1001" wo="0.0011505" />
+    <nuclide name="8016" wo="0.0091296" />
+    <nuclide name="5010" wo="3.70915e-6" />
+    <nuclide name="5011" wo="1.68974e-5" />
+    <!--
+    <nuclide name="Fe" wo="" />
+    <nuclide name="Ni" wo="" />
+    <nuclide name="Mn" wo="" />
+    <nuclide name="Si" wo="" />
+    <nuclide name="Cr" wo="" />
+    -->
+  </material>
+
+  <!-- Bottom nozzle region -->
+  <material id="9">
+    <density value="2.53" units="g/cm3" />
+    <nuclide name="1001" wo="0.0245014" />
+    <nuclide name="8016" wo="0.1944274" />
+    <nuclide name="5010" wo="7.89917e-5" />
+    <nuclide name="5011" wo="3.59854e-4" />
+    <!--
+    <nuclide name="Fe" wo="" />
+    <nuclide name="Ni" wo="" />
+    <nuclide name="Mn" wo="" />
+    <nuclide name="Si" wo="" />
+    <nuclide name="Cr" wo="" />
+    -->
+  </material>
+
+  <!-- Top nozzle region -->
+  <material id="10">
+    <density value="1.746" units="g/cm3" />
+    <nuclide name="1001" wo="0.0358870" />
+    <nuclide name="8016" wo="0.2847761" />
+    <nuclide name="5010" wo="1.15699e-4" />
+    <nuclide name="5011" wo="5.27075e-4" />
+    <!--
+    <nuclide name="Fe" wo="" />
+    <nuclide name="Ni" wo="" />
+    <nuclide name="Mn" wo="" />
+    <nuclide name="Si" wo="" />
+    <nuclide name="Cr" wo="" />
+    -->
+  </material>
+
+  <!-- Top plate region -->
+  <material id="11">
+    <density value="4.28" units="g/cm3" />
+    <nuclide name="1001" wo="0.0086117" />
+    <nuclide name="8016" wo="0.0683369" />
+    <nuclide name="5010" wo="2.77638e-5" />
+    <nuclide name="5011" wo="1.26481e-4" />
+    <!--
+    <nuclide name="Fe" wo="" />
+    <nuclide name="Ni" wo="" />
+    <nuclide name="Mn" wo="" />
+    <nuclide name="Si" wo="" />
+    <nuclide name="Cr" wo="" />
+    -->
   </material>
 
 </materials>
