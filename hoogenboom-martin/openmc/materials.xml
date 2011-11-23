@@ -113,22 +113,22 @@
     <nuclide name="5010" wo="3.08409e-5" />
     <nuclide name="5011" wo="1.40499e-4" />
     <nuclide name="26054" wo="0.035620772088" />
-    <nuclide name="25056" wo="0.579805982228" />
+    <nuclide name="26056" wo="0.579805982228" />
     <nuclide name="26057" wo="0.01362750048" />
     <nuclide name="26058" wo="0.001848545204" />
-    <nuclide name="28058" wo="0.0560216383173" />
-    <nuclide name="28060" wo="0.0215794347827" />
-    <nuclide name="28061" wo="0.0009380430883" />
-    <nuclide name="28062" wo="0.0029908918365" />
-    <nuclide name="28064" wo="0.0007616919752" />
+    <nuclide name="28058" wo="0.055298376566" />
+    <nuclide name="28060" wo="0.022034425592" />
+    <nuclide name="28061" wo="0.000973510811" />
+    <nuclide name="28062" wo="0.003155886695" />
+    <nuclide name="28064" wo="0.000829500336" />
     <nuclide name="25055" wo="0.0182870" />
-    <nuclide name="14028" wo="0.008432410005" />
-    <nuclide name="14029" wo="0.000428372975" />
-    <nuclide name="14030" wo="0.00028271702" />
-    <nuclide name="24050" wo="0.00755712015" />
-    <nuclide name="24052" wo="0.145564032241" />
-    <nuclide name="24053" wo="0.016505792769" />
-    <nuclide name="24054" wo="0.004108641185" />
+    <nuclide name="14028" wo="0.00839976771" />
+    <nuclide name="14029" wo="0.00044199679" />
+    <nuclide name="14030" wo="0.0003017355" />
+    <nuclide name="24050" wo="0.007251360806" />
+    <nuclide name="24052" wo="0.145407678031" />
+    <nuclide name="24053" wo="0.016806340306" />
+    <nuclide name="24054" wo="0.004261520857" />
   </material>
 
   <!-- Upper radial reflector / Top plate region -->
@@ -139,22 +139,22 @@
     <nuclide name="5010" wo="2.77638e-5" />
     <nuclide name="5011" wo="1.26481e-4" />
     <nuclide name="26054" wo="0.035953677186" />
-    <nuclide name="25056" wo="0.585224740891" />
+    <nuclide name="26056" wo="0.585224740891" />
     <nuclide name="26057" wo="0.01375486056" />
     <nuclide name="26058" wo="0.001865821363" />
-    <nuclide name="28058" wo="0.0565451496783" />
-    <nuclide name="28060" wo="0.0217810904217" />
-    <nuclide name="28061" wo="0.0009468089193" />
-    <nuclide name="28062" wo="0.0030188411415" />
-    <nuclide name="28064" wo="0.0007688098392" />
+    <nuclide name="28058" wo="0.055815129186" />
+    <nuclide name="28060" wo="0.022240333032" />
+    <nuclide name="28061" wo="0.000982608081" />
+    <nuclide name="28062" wo="0.003185377845" />
+    <nuclide name="28064" wo="0.000837251856" />
     <nuclide name="25055" wo="0.0184579" />
-    <nuclide name="14028" wo="0.00851126067" />
-    <nuclide name="14029" wo="0.00043237865" />
-    <nuclide name="14030" wo="0.00028536068" />
-    <nuclide name="24050" wo="0.00762774675" />
-    <nuclide name="24052" wo="0.146924430445" />
-    <nuclide name="24053" wo="0.016660051005" />
-    <nuclide name="24054" wo="0.004147039325" />
+    <nuclide name="14028" wo="0.00847831314" />
+    <nuclide name="14029" wo="0.00044612986" />
+    <nuclide name="14030" wo="0.000304557" />
+    <nuclide name="24050" wo="0.00731912987" />
+    <nuclide name="24052" wo="0.146766614995" />
+    <nuclide name="24053" wo="0.01696340737" />
+    <nuclide name="24054" wo="0.004301347765" />
   </material>
 
   <!-- Bottom plate region -->
@@ -165,22 +165,22 @@
     <nuclide name="5010" wo="3.70915e-6" />
     <nuclide name="5011" wo="1.68974e-5" />
     <nuclide name="26054" wo="0.03855611055" />
-    <nuclide name="25056" wo="0.627585036425" />
+    <nuclide name="26056" wo="0.627585036425" />
     <nuclide name="26057" wo="0.014750478" />
     <nuclide name="26058" wo="0.002000875025" />
-    <nuclide name="28058" wo="0.0606380690601" />
-    <nuclide name="28060" wo="0.0233576756399" />
-    <nuclide name="28061" wo="0.0010153419871" />
-    <nuclide name="28062" wo="0.0032373545505" />
-    <nuclide name="28064" wo="0.0008244587624" />
+    <nuclide name="28058" wo="0.059855207342" />
+    <nuclide name="28060" wo="0.023850159704" />
+    <nuclide name="28061" wo="0.001053732407" />
+    <nuclide name="28062" wo="0.003415945715" />
+    <nuclide name="28064" wo="0.000897854832" />
     <nuclide name="25055" wo="0.0197940" />
-    <nuclide name="14028" wo="0.00912731031" />
-    <nuclide name="14029" wo="0.00046367445" />
-    <nuclide name="14030" wo="0.00030601524" />
-    <nuclide name="24050" wo="0.00817986615" />
-    <nuclide name="24052" wo="0.157559265481" />
-    <nuclide name="24053" wo="0.017865955929" />
-    <nuclide name="24054" wo="0.004447214585" />
+    <nuclide name="14028" wo="0.00909197802" />
+    <nuclide name="14029" wo="0.00047842098" />
+    <nuclide name="14030" wo="0.000326601" />
+    <nuclide name="24050" wo="0.007848910646" />
+    <nuclide name="24052" wo="0.157390026871" />
+    <nuclide name="24053" wo="0.018191270146" />
+    <nuclide name="24054" wo="0.004612692337" />
   </material>
 
   <!-- Bottom nozzle region -->
@@ -191,22 +191,22 @@
     <nuclide name="5010" wo="7.89917e-5" />
     <nuclide name="5011" wo="3.59854e-4" />
     <nuclide name="26054" wo="0.030411411144" />
-    <nuclide name="25056" wo="0.495012237964" />
+    <nuclide name="26056" wo="0.495012237964" />
     <nuclide name="26057" wo="0.01163454624" />
     <nuclide name="26058" wo="0.001578204652" />
-    <nuclide name="28058" wo="0.0478287195561" />
-    <nuclide name="28060" wo="0.0184235371439" />
-    <nuclide name="28061" wo="0.0008008584031" />
-    <nuclide name="28062" wo="0.0025534870305" />
-    <nuclide name="28064" wo="0.0006502978664" />
+    <nuclide name="28058" wo="0.047211231662" />
+    <nuclide name="28060" wo="0.018811987544" />
+    <nuclide name="28061" wo="0.000831139127" />
+    <nuclide name="28062" wo="0.002694352115" />
+    <nuclide name="28064" wo="0.000708189552" />
     <nuclide name="25055" wo="0.0156126" />
-    <nuclide name="14028" wo="0.007199204049" />
-    <nuclide name="14029" wo="0.000365725155" />
-    <nuclide name="14030" wo="0.000241370796" />
-    <nuclide name="24050" wo="0.0064519287" />
-    <nuclide name="24052" wo="0.124276012378" />
-    <nuclide name="24053" wo="0.014091902202" />
-    <nuclide name="24054" wo="0.00350777273" />
+    <nuclide name="14028" wo="0.007171335558" />
+    <nuclide name="14029" wo="0.000377356542" />
+    <nuclide name="14030" wo="0.0002576079" />
+    <nuclide name="24050" wo="0.006190885148" />
+    <nuclide name="24052" wo="0.124142524198" />
+    <nuclide name="24053" wo="0.014348496148" />
+    <nuclide name="24054" wo="0.003638294506" />
   </material>
 
   <!-- Top nozzle region -->
@@ -217,22 +217,22 @@
     <nuclide name="5010" wo="1.15699e-4" />
     <nuclide name="5011" wo="5.27075e-4" />
     <nuclide name="26054" wo="0.02644016154" />
-    <nuclide name="25056" wo="0.43037146399" />
+    <nuclide name="26056" wo="0.43037146399" />
     <nuclide name="26057" wo="0.0101152584" />
     <nuclide name="26058" wo="0.00137211607" />
-    <nuclide name="28058" wo="0.0415830724425" />
-    <nuclide name="28060" wo="0.0160177250575" />
-    <nuclide name="28061" wo="0.0006962794175" />
-    <nuclide name="28062" wo="0.0022200434625" />
-    <nuclide name="28064" wo="0.00056537962" />
+    <nuclide name="28058" wo="0.04104621835" />
+    <nuclide name="28060" wo="0.0163554502" />
+    <nuclide name="28061" wo="0.000722605975" />
+    <nuclide name="28062" wo="0.002342513875" />
+    <nuclide name="28064" wo="0.0006157116" />
     <nuclide name="25055" wo="0.0135739" />
-    <nuclide name="14028" wo="0.006259082787" />
-    <nuclide name="14029" wo="0.000317966265" />
-    <nuclide name="14030" wo="0.000209850948" />
-    <nuclide name="24050" wo="0.00560940765" />
-    <nuclide name="24052" wo="0.108047507491" />
-    <nuclide name="24053" wo="0.012251720019" />
-    <nuclide name="24054" wo="0.003049712435" />
+    <nuclide name="14028" wo="0.006234853554" />
+    <nuclide name="14029" wo="0.000328078746" />
+    <nuclide name="14030" wo="0.0002239677" />
+    <nuclide name="24050" wo="0.005382452306" />
+    <nuclide name="24052" wo="0.107931450781" />
+    <nuclide name="24053" wo="0.012474806806" />
+    <nuclide name="24054" wo="0.003163190107" />
   </material>
 
   <!-- Top of Fuel Assemblies -->
