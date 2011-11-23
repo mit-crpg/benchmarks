@@ -75,16 +75,34 @@
   <!-- RPV Composition -->
   <material id="5">
     <density value="7.9" units="g/cm3" />
-    <!--
-    <nuclide name="Fe" wo="96.3" />
-    <nuclide name="Ni" wo="1.0" />
-    <nuclide name="Mn" wo="1.0" />
-    <nuclide name="Mo" wo="0.6" />
-    <nuclide name="Si" wo="0.4" />
-    <nuclide name="Cr" wo="0.25" />
-    <nuclide name="C"  wo="0.25" />
-    <nuclide name="Cu" wo="0.2" />
-    -->
+    <nuclide name="26054" wo="0.05437098" />
+    <nuclide name="26056" wo="0.88500663" />
+    <nuclide name="26057" wo="0.0208008" />
+    <nuclide name="26058" wo="0.00282159" />
+    <nuclide name="28058" wo="0.0067198" />
+    <nuclide name="28060" wo="0.0026776" />
+    <nuclide name="28061" wo="0.0001183" />
+    <nuclide name="28062" wo="0.0003835" />
+    <nuclide name="28064" wo="0.0001008" />
+    <nuclide name="25055" wo="0.01" />
+    <nuclide name="42092" wo="0.000849" />
+    <nuclide name="42094" wo="0.0005418" />
+    <nuclide name="42095" wo="0.0009438" />
+    <nuclide name="42096" wo="0.0010002" />
+    <nuclide name="42097" wo="0.0005796" />
+    <nuclide name="42098" wo="0.0014814" />
+    <nuclide name="42100" wo="0.0006042" />
+    <nuclide name="14028" wo="0.00367464" />
+    <nuclide name="14029" wo="0.00019336" />
+    <nuclide name="14030" wo="0.000132" />
+    <nuclide name="24050" wo="0.00010435" />
+    <nuclide name="24052" wo="0.002092475" />
+    <nuclide name="24053" wo="0.00024185" />
+    <nuclide name="24054" wo="6.1325e-05" />
+    <nuclide name="6012" wo="0.0024710392648" />
+    <nuclide name="6013" wo="2.89607352038e-05" />
+    <nuclide name="29063" wo="0.0013696" />
+    <nuclide name="29065" wo="0.0006304" />
   </material>
 
   <!-- Lower radial reflector -->
@@ -215,6 +233,34 @@
     <nuclide name="24052" wo="0.108047507491" />
     <nuclide name="24053" wo="0.012251720019" />
     <nuclide name="24054" wo="0.003049712435" />
+  </material>
+
+  <!-- Top of Fuel Assemblies -->
+  <material id="11">
+    <density value="3.044" units="g/cm3" />
+    <nuclide name="1001" wo="0.0162913" />
+    <nuclide name="8016" wo="0.1292776" />
+    <nuclide name="5010" wo="5.25228e-5" />
+    <nuclide name="5011" wo="2.39272e-4" />
+    <nuclide name="40090" wo="0.43313403903" />
+    <nuclide name="40091" wo="0.09549277374" />
+    <nuclide name="40092" wo="0.14759527104" />
+    <nuclide name="40094" wo="0.15280552077" />
+    <nuclide name="40096" wo="0.02511169542" />
+  </material>
+
+  <!-- Bottom of Fuel Assemblies -->
+  <material id="12">
+    <density value="1.762" units="g/cm3" />
+    <nuclide name="1001" wo="0.0292856" />
+    <nuclide name="8016" wo="0.2323919" />
+    <nuclide name="5010" wo="9.44159e-5" />
+    <nuclide name="5011" wo="4.30120e-4" />
+    <nuclide name="40090" wo="0.3741373658" />
+    <nuclide name="40091" wo="0.0824858164" />
+    <nuclide name="40092" wo="0.1274914944" />
+    <nuclide name="40094" wo="0.1319920622" />
+    <nuclide name="40096" wo="0.0216912612" />
   </material>
 
 </materials>
