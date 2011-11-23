@@ -99,8 +99,7 @@
     <nuclide name="24052" wo="0.002092475" />
     <nuclide name="24053" wo="0.00024185" />
     <nuclide name="24054" wo="6.1325e-05" />
-    <nuclide name="6012" wo="0.0024710392648" />
-    <nuclide name="6013" wo="2.89607352038e-05" />
+    <nuclide name="6000"  wo="0.0025" />
     <nuclide name="29063" wo="0.0013696" />
     <nuclide name="29065" wo="0.0006304" />
   </material>
@@ -129,6 +128,7 @@
     <nuclide name="24052" wo="0.145407678031" />
     <nuclide name="24053" wo="0.016806340306" />
     <nuclide name="24054" wo="0.004261520857" />
+    <sab name="lwtr" xs="10t" />
   </material>
 
   <!-- Upper radial reflector / Top plate region -->
@@ -155,6 +155,7 @@
     <nuclide name="24052" wo="0.146766614995" />
     <nuclide name="24053" wo="0.01696340737" />
     <nuclide name="24054" wo="0.004301347765" />
+    <sab name="lwtr" xs="10t" />
   </material>
 
   <!-- Bottom plate region -->
@@ -181,6 +182,7 @@
     <nuclide name="24052" wo="0.157390026871" />
     <nuclide name="24053" wo="0.018191270146" />
     <nuclide name="24054" wo="0.004612692337" />
+    <sab name="lwtr" xs="10t" />
   </material>
 
   <!-- Bottom nozzle region -->
@@ -207,6 +209,7 @@
     <nuclide name="24052" wo="0.124142524198" />
     <nuclide name="24053" wo="0.014348496148" />
     <nuclide name="24054" wo="0.003638294506" />
+    <sab name="lwtr" xs="10t" />
   </material>
 
   <!-- Top nozzle region -->
@@ -233,6 +236,7 @@
     <nuclide name="24052" wo="0.107931450781" />
     <nuclide name="24053" wo="0.012474806806" />
     <nuclide name="24054" wo="0.003163190107" />
+    <sab name="lwtr" xs="10t" />
   </material>
 
   <!-- Top of Fuel Assemblies -->
@@ -247,6 +251,7 @@
     <nuclide name="40092" wo="0.14759527104" />
     <nuclide name="40094" wo="0.15280552077" />
     <nuclide name="40096" wo="0.02511169542" />
+    <sab name="lwtr" xs="10t" />
   </material>
 
   <!-- Bottom of Fuel Assemblies -->
@@ -261,6 +266,7 @@
     <nuclide name="40092" wo="0.1274914944" />
     <nuclide name="40094" wo="0.1319920622" />
     <nuclide name="40096" wo="0.0216912612" />
+    <sab name="lwtr" xs="10t" />
   </material>
 
 </materials>
