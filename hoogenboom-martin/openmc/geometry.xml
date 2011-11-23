@@ -5,11 +5,19 @@
   <surface id="2" type="z-cylinder" coeffs="0. 0. 0.475" />
   <surface id="3" type="z-cylinder" coeffs="0. 0. 0.56" />
   <surface id="4" type="z-cylinder" coeffs="0. 0. 0.62" />
-  <surface id="5" type="x-plane" coeffs="-10.709" boundary="vacuum" />
-  <surface id="6" type="x-plane" coeffs="10.709" boundary="vacuum" />
-  <surface id="7" type="y-plane" coeffs="-10.709" boundary="vacuum" />
-  <surface id="8" type="y-plane" coeffs="10.709" boundary="vacuum" />
+  <surface id="5" type="z-cylinder" coeffs="0. 0. 187.6" />
+  <surface id="6" type="z-cylinder" coeffs="0. 0. 209.0" />
+  <surface id="7" type="z-cylinder" coeffs="0. 0. 229.0" />
+  <surface id="8" type="z-cylinder" coeffs="0. 0. 249.0" boundary="vacuum" />
 
+  <surface id="31" type="z-plane" coeffs="-229.0" boundary="vacuum" />
+  <surface id="32" type="z-plane" coeffs="-199.0" />
+  <surface id="33" type="z-plane" coeffs="-193.0" />
+  <surface id="34" type="z-plane" coeffs="-183.0" />
+  <surface id="35" type="z-plane" coeffs="183.0" />
+  <surface id="36" type="z-plane" coeffs="203.0" />
+  <surface id="37" type="z-plane" coeffs="215.0" />
+  <surface id="38" type="z-plane" coeffs="223.0" boundary="vacuum" />
 
   <!-- Fuel pin, cladding, water -->
   <cell id="1" universe="1" material="1" surfaces="-1" />
@@ -48,6 +56,21 @@
   </lattice>
 
   <!-- containing cell for assembly -->
-  <cell id="7" universe="0" fill="100" surfaces="5 -6 7 -8" />
+  <surface id="105" type="x-plane" coeffs="-10.709" boundary="vacuum" />
+  <surface id="106" type="x-plane" coeffs="10.709" boundary="vacuum" />
+  <surface id="107" type="y-plane" coeffs="-10.709" boundary="vacuum" />
+  <surface id="108" type="y-plane" coeffs="10.709" boundary="vacuum" />
+  <cell id="7" universe="0" fill="100" surfaces="105 -106 107 -108" />
+
+  <cell material="8"  surfaces="  -7 31 -32" /> <!-- Lower core plate region -->
+  <cell material="9"  surfaces="  -5 32 -33" /> <!-- Bottom nozzle region -->
+  <cell material="12" surfaces="  -5 33 -34" /> <!-- Bottom FA region -->
+  <cell material="11" surfaces="  -5 35 -36" /> <!-- Top FA region -->
+  <cell material="10" surfaces="  -5 36 -37" /> <!-- Top nozzle region -->
+  <cell material="7"  surfaces="  -7 37 -38" /> <!-- Upper plate region -->
+  <cell material="4"  surfaces="6 -7 32 -37" /> <!-- Downcomer -->
+  <cell material="5"  surfaces="7 -8 31 -38" /> <!-- RPV -->
+  <cell material="6"  surfaces="5 -6 32 -34" /> <!-- Bottom of radial reflector -->
+  <cell material="7"  surfaces="5 -6 35 -37" /> <!-- Top of radial reflector -->
 
 </geometry>
