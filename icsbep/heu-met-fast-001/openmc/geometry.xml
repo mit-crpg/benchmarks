@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==========================================================
+  Description: Bare, Highly Enriched Uranium Sphere (Godiva)
+  Case:        HEU-MET-FAST-001
+  Written By:  Paul Romano
+  Date:        11/28/2011
+  ==========================================================
+  -->
+
+  <surface id="1"  type="sphere" coeffs="0. 0. 0. 1.0216" />
+  <surface id="2"  type="sphere" coeffs="0. 0. 0. 1.0541" />
+  <surface id="3"  type="sphere" coeffs="0. 0. 0. 6.2809" />
+  <surface id="4"  type="sphere" coeffs="0. 0. 0. 6.2937" />
+  <surface id="5"  type="sphere" coeffs="0. 0. 0. 7.7525" />
+  <surface id="6"  type="sphere" coeffs="0. 0. 0. 7.7620" />
+  <surface id="7"  type="sphere" coeffs="0. 0. 0. 8.2527" />
+  <surface id="8"  type="sphere" coeffs="0. 0. 0. 8.2610" />
+  <surface id="9"  type="sphere" coeffs="0. 0. 0. 8.7062" />
+  <surface id="10" type="sphere" coeffs="0. 0. 0. 8.7499" boundary="vacuum" />
+
+  <cell id="1"  material="1" surfaces="-1" />
+  <cell id="2"  material="7" surfaces="1 -2" />
+  <cell id="3"  material="2" surfaces="2 -3" />
+  <cell id="4"  material="7" surfaces="3 -4" />
+  <cell id="5"  material="3" surfaces="4 -5" />
+  <cell id="6"  material="7" surfaces="5 -6" />
+  <cell id="7"  material="4" surfaces="6 -7" />
+  <cell id="8"  material="7" surfaces="7 -8" />
+  <cell id="9"  material="5" surfaces="8 -9" />
+  <cell id="10" material="6" surfaces="9 -10" />
+
+</geometry>
