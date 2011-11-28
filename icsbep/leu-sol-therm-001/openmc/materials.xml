@@ -9,43 +9,45 @@
   Date:        11/8/2011
   =================================================================
   -->
+
+  <default_xs>70c</default_xs>
  
   <!-- SS304L -->
   <material id="1">
     <density value="7.8419" units="g/cm3" />
-    <nuclide name="24050" xs="70c" ao="0.0007103206" />
-    <nuclide name="24052" xs="70c" ao="0.01369782572" />
-    <nuclide name="24053" xs="70c" ao="0.00155322348" />
-    <nuclide name="24054" xs="70c" ao="0.0003866302" />
-    <nuclide name="25055" xs="70c" ao="1.7192e-3" />
-    <nuclide name="26054" xs="70c" ao="0.0035092211" />
-    <nuclide name="26056" xs="70c" ao="0.05508726652" />
-    <nuclide name="26057" xs="70c" ao="0.00127220522" />
-    <nuclide name="26058" xs="70c" ao="0.00016930716" />
-    <nuclide name="28058" xs="70c" ao="0.0049299929442" />
-    <nuclide name="28060" xs="70c" ao="0.0018990244558" />
-    <nuclide name="28061" xs="70c" ao="8.25492782e-05" />
-    <nuclide name="28062" xs="70c" ao="0.000263203221" />
-    <nuclide name="28064" xs="70c" ao="6.70301008e-05" />
+    <nuclide name="Cr-50" ao="0.0007103206" />
+    <nuclide name="Cr-52" ao="0.01369782572" />
+    <nuclide name="Cr-53" ao="0.00155322348" />
+    <nuclide name="Cr-54" ao="0.0003866302" />
+    <nuclide name="Mn-55" ao="1.7192e-3" />
+    <nuclide name="Fe-54" ao="0.0035092211" />
+    <nuclide name="Fe-56" ao="0.05508726652" />
+    <nuclide name="Fe-57" ao="0.00127220522" />
+    <nuclide name="Fe-58" ao="0.00016930716" />
+    <nuclide name="Ni-58" ao="0.0049299929442" />
+    <nuclide name="Ni-60" ao="0.0018990244558" />
+    <nuclide name="Ni-61" ao="8.25492782e-05" />
+    <nuclide name="Ni-62" ao="0.000263203221" />
+    <nuclide name="Ni-64" ao="6.70301008e-05" />
   </material>
 
   <!-- Air -->
   <material id="2">
     <density value="5.0306e-5" units="atom/b-cm" />
-    <nuclide name="7014" xs="70c" ao="3.5214e-5" />
-    <nuclide name="8016" xs="70c" ao="1.5092e-5" />
+    <nuclide name="N-14" ao="3.5214e-5" />
+    <nuclide name="O-16" ao="1.5092e-5" />
   </material>
 
   <!-- Fuel Solution -->
   <material id="3">
     <density value="9.6726e-2" units="atom/b-cm" />
-    <nuclide name="92234" xs="70c" ao="6.7855e-7" />
-    <nuclide name="92235" xs="70c" ao="1.2377e-4" />
-    <nuclide name="92236" xs="70c" ao="1.2085e-6" />
-    <nuclide name="92238" xs="70c" ao="2.3508e-3" />
-    <nuclide name="1001"  xs="70c" ao="5.6179e-2" />
-    <nuclide name="8016"  xs="70c" ao="3.2967e-2" />
-    <nuclide name="9019"  xs="70c" ao="5.1035e-3" />
+    <nuclide name="U-234" ao="6.7855e-7" />
+    <nuclide name="U-235" ao="1.2377e-4" />
+    <nuclide name="U-236" ao="1.2085e-6" />
+    <nuclide name="U-238" ao="2.3508e-3" />
+    <nuclide name="H-1"   ao="5.6179e-2" />
+    <nuclide name="O-16"  ao="3.2967e-2" />
+    <nuclide name="F-19"  ao="5.1035e-3" />
     <sab name="lwtr" xs="10t" />
   </material>
 

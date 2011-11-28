@@ -18,13 +18,15 @@
   Ga-71 (39.892%)
   -->
 
+  <default_xs>70c</default_xs>
+
   <material id="1">
     <density value="0.04029014" units="atom/b-cm" />
-    <nuclide name="94239" xs="70c" ao="0.037047" />
-    <nuclide name="94240" xs="70c" ao="0.0017512" />
-    <nuclide name="94241" xs="70c" ao="0.00011674" />
-    <nuclide name="31069" xs="70c" ao="8.26605216e-4" />
-    <nuclide name="31071" xs="70c" ao="5.48594784e-4" />
+    <nuclide name="Pu-239" ao="0.037047" />
+    <nuclide name="Pu-240" ao="0.0017512" />
+    <nuclide name="Pu-241" ao="0.00011674" />
+    <nuclide name="Ga-69"  ao="8.26605216e-4" />
+    <nuclide name="Ga-71"  ao="5.48594784e-4" />
   </material>
 
 </materials>

@@ -10,18 +10,20 @@
       ====================================================
   -->
 
+  <default_xs>70c</default_xs>
+
   <!-- Fuel composed of 99.02 a/o U-238 and 0.98 a/o U-235 -->
   <material id="1">
     <density value="18.8" units="g/cc" />
-    <nuclide name="92238" xs="70c" ao="99.02" />
-    <nuclide name="92235" xs="70c" ao="0.98" />
+    <nuclide name="U-238" ao="99.02" />
+    <nuclide name="U-235" ao="0.98" />
   </material>
 
   <!-- Water at 1 g/cc -->
   <material id="2">
     <density value="1.0" units="g/cc" />
-    <nuclide name="1001"  xs="70c" ao="2.0" />
-    <nuclide name="8016" xs="70c" ao="1.0" />
+    <nuclide name="H-1"  ao="2.0" />
+    <nuclide name="O-16" ao="1.0" />
     <sab name="lwtr" xs="10t" />
   </material>
 
