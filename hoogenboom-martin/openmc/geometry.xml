@@ -23,7 +23,7 @@
   <!-- All geometry on base universe -->
   <cell id="1"  fill="200"    surfaces="  -6 34 -35" /> <!-- Lower core -->
   <cell id="2"  fill="201"    surfaces="  -6 35 -36" /> <!-- Upper core -->
-  <cell id="3"  material="8"  surfaces="  -6 31 -32" /> <!-- Lower core plate region -->
+  <cell id="3"  material="8"  surfaces="  -7 31 -32" /> <!-- Lower core plate region -->
   <cell id="4"  material="9"  surfaces="  -5 32 -33" /> <!-- Bottom nozzle region -->
   <cell id="5"  material="12" surfaces="  -5 33 -34" /> <!-- Bottom FA region -->
   <cell id="6"  material="11" surfaces="  -5 36 -37" /> <!-- Top FA region -->
