@@ -4,12 +4,15 @@
   <criticality>
     <cycles>20</cycles>
     <inactive>10</inactive>
-    <particles>1000</particles>
+    <particles>5000</particles>
   </criticality>
 
   <source>
     <type>box</type>
-    <coeffs>-0.63 -0.63 -10 0.63 0.63 10</coeffs>
+    <coeffs>
+      -160 -160 -183
+       160  160  183
+    </coeffs>
   </source>
 
 </settings>
