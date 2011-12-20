@@ -15,4 +15,9 @@
     </coeffs>
   </source>
 
+  <entropy_box>
+    -182.07 -182.07 -183.00
+     182.07  182.07  183.00
+  </entropy_box>
+
 </settings>
