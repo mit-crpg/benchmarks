@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ================================================================
+  Description: U-233 Sphere surrounded by U-235 (10 kg Experiment)
+  Case:        U233-MET-FAST-002
+  Written By:  Paul Romano
+  Date:        1/2/2012
+  ================================================================
+  -->
+
+  <cell id="1" material="1" surfaces="-1" />
+  <cell id="2" material="2" surfaces="1 -2" />
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 5.0444" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 6.2661" boundary="vacuum" />
+
+</geometry>
