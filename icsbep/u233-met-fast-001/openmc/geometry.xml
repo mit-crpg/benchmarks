@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==========================================
+  Description: Bare U-233 Jezebel Benchmark
+  Case:        U233-MET-FAST-001
+  Written By:  Paul Romano
+  Date:        1/2/2012
+  ==========================================
+  -->
+
+  <cell id="1" material="1" surfaces="-1" />
+
+  <surface id="1">
+    <type>sphere</type>
+    <coeffs>0. 0. 0. 5.9838</coeffs>
+    <boundary>vacuum</boundary>
+  </surface>
+
+</geometry>
