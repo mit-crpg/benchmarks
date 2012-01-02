@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =================================================
+  Description: U-233 Sphere surrounded by Tungsten
+  Case:        U233-MET-FAST-004 (10 kg Experiment)
+  Written By:  Paul Romano
+  Date:        1/2/2012
+  =================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <material id="1">
+    <density value="18.621" units="g/cm3" />
+    <nuclide name="U-233" ao="4.7253e-2" />
+    <nuclide name="U-234" ao="5.2705e-4" />
+    <nuclide name="U-238" ao="3.2975e-4" />
+  </material>
+
+  <material id="2">
+    <density value="17.21" units="g/cm3" />
+    <!-- <nuclide name="W-180" ao="6.17616e-05" /> -->
+    <nuclide name="W-182" ao="0.01363902" />
+    <nuclide name="W-183" ao="0.0073650708" />
+    <nuclide name="W-184" ao="0.0157697952" />
+    <nuclide name="W-186" ao="0.0146323524" />
+    <nuclide name="Ni-58" ao="0.0066119008356" />
+    <nuclide name="Ni-60" ao="0.0025468923644" />
+    <nuclide name="Ni-61" ao="0.0001107116476" />
+    <nuclide name="Ni-62" ao="0.000352997178" />
+    <nuclide name="Ni-64" ao="8.98979744e-05" />
+    <nuclide name="Cu-63" ao="0.00282033758" />
+    <nuclide name="Cu-65" ao="0.00125706242" />
+    <nuclide name="Zr-90" ao="0.00040917156" />
+    <nuclide name="Zr-91" ao="8.9230416e-05" />
+    <nuclide name="Zr-92" ao="0.00013639052" />
+    <nuclide name="Zr-94" ao="0.000138219664" />
+    <nuclide name="Zr-96" ao="2.226784e-05" />
+  </material>
+
+</materials>
