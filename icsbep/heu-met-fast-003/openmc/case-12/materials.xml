@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==========================================================
+  Description: Topsy Reflected Oralloy Spherical Assembly
+  Case:        HEU-MET-FAST-003 8.0-in Nickel reflector
+  Written By:  Paul Romano
+  Date:        1/3/2012
+  ==========================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Oralloy -->
+  <material id="1">
+    <density value="18.75" units="g/cm3" />
+    <nuclide name="U-234" ao="4.9210e-4" />
+    <nuclide name="U-235" ao="4.4917e-2" />
+    <nuclide name="U-238" ao="2.5993e-3" />
+  </material>
+
+  <!-- Nickel -->
+  <material id="2">
+    <density value="8.90" units="g/cm3" />
+    <nuclide name="Ni-58" ao="0.062169186618" />
+    <nuclide name="Ni-60" ao="0.023947459382" />
+    <nuclide name="Ni-61" ao="0.001040979478" />
+    <nuclide name="Ni-62" ao="0.00331909809" />
+    <nuclide name="Ni-64" ao="0.000845276432" />
+  </material>
+
+</materials>
