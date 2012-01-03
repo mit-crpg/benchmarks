@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =========================================================
+  Description: Big Ten Improved Benchmark (from MCNP suite)
+  Case:        IEU-MET-FAST-007 Case 4
+  Written By:  Paul Romano
+  Date:        1/3/2012
+  =========================================================
+  -->
+
+  <surface id="1"  type="z-cylinder" coeffs="0. 0.  2.25014" />
+  <surface id="2"  type="z-cylinder" coeffs="0. 0.  3.10996" />
+  <surface id="3"  type="z-cylinder" coeffs="0. 0.  7.62000" />
+  <surface id="4"  type="z-cylinder" coeffs="0. 0. 12.54604" />
+  <surface id="5"  type="z-cylinder" coeffs="0. 0. 26.67000" />
+  <surface id="6"  type="z-cylinder" coeffs="0. 0. 41.91000" boundary="vacuum" />
+  <surface id="7"  type="z-plane"    coeffs="-57.46750" boundary="vacuum" />
+  <surface id="8"  type="z-plane"    coeffs="-41.73361" />
+  <surface id="9"  type="z-plane"    coeffs="-38.24644" />
+  <surface id="10" type="z-plane"    coeffs="-22.39010" />
+  <surface id="11" type="z-plane"    coeffs="  4.35102" />
+  <surface id="12" type="z-plane"    coeffs=" 17.16665" />
+  <surface id="13" type="z-plane"    coeffs=" 23.81250" />
+  <surface id="14" type="z-plane"    coeffs=" 39.05250" boundary="vacuum" />
+
+  <cell id="1"  material="2" surfaces="   -3   8 -10" />
+  <cell id="2"  material="2" surfaces="   -4  10 -11" />
+  <cell id="3"  material="2" surfaces="   -2  11 -13" />
+  <cell id="4"  material="2" surfaces="   -1  13 -14" />
+  <cell id="5"  material="3" surfaces="3  -5   8  -9" />
+  <cell id="6"  material="1" surfaces="3  -5   9 -10" />
+  <cell id="7"  material="1" surfaces="4  -5  10 -11" />
+  <cell id="8"  material="1" surfaces="2  -5  11 -12" />
+  <cell id="9"  material="3" surfaces="2  -5  12 -13" />
+  <cell id="10" material="4" surfaces="5  -6   7 -14" />
+  <cell id="11" material="4" surfaces="   -5   7  -8" />
+  <cell id="12" material="4" surfaces="1  -5  13 -14" />
+
+</geometry>

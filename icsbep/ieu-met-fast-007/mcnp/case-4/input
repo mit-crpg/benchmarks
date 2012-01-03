@@ -1,0 +1,49 @@
+Big Ten IEU-MET-FAST-007 Improved Benchmark Case 4
+1     2     0.047609      -3   8 -10           $ bottom 10% cylinder
+2     2     0.047609      -4  10 -11           $ lower 10% cylinder
+3     2     0.047609      -2  11 -13           $ upper 10% cylinder
+4     2     0.047609      -1  13 -14           $ top 10% cylinder
+5     3     0.048196   3  -5   8  -9           $ bottom natural U plate
+6     1     0.048159   2  -5   9 -12 #1 #2 #3  $ homogenized HEU + natural U
+7     3     0.048196   2  -5  12 -13           $ top natural U plate
+8     4     0.047779   5  -6   7 -14           $ DU outer annulus
+9     4     0.047779      -5   7  -8           $ DU bottom annulus
+10    4     0.047779   1  -5  13 -14           $ DU top annulus
+11    0                (6:-7:14)
+
+1     cz    2.25014          $ outer radius of top 10% cylinder
+2     cz    3.10996          $ outer radius of upper 10% cylinder
+3     cz    7.62000          $ outer radius of bottom 10% cylinder
+4     cz   12.54604          $ outer radius of lower 10% cylinder
+5     cz   26.67000          $ inner radius of DU reflector annulus
+6     cz   41.91000          $ outer radius of DU reflector annulus
+7     pz  -57.46750          $ bottom of DU reflector
+8     pz  -41.73361          $ top of DU reflector bottom
+9     pz  -38.24644          $ bottom of homogenized HEU and natural U
+10    pz  -22.39010          $ bottom of bottom 10% cyliner
+11    pz    4.35102          $ bottom of lower 10% cylinder
+12    pz   17.16665          $ top of homogenized HEU and natural U
+13    pz   23.81250          $ bottom of DU reflector top
+14    pz   39.05250          $ top of DU reflector
+
+c     Homogenized HEU, Natural U, and Voids
+m1    92234.70c 5.4058e-5
+      92235.70c 4.9831e-3
+      92236.70c 1.3733e-5
+      92238.70c 4.3108e-2
+c     Intermediate Enriched Uranium (10 wt%)
+m2    92234.70c 2.4761e-5
+      92235.70c 4.8461e-3
+      92236.70c 4.3348e-5
+      92238.70c 4.2695e-2
+c     Natural Uranium
+m3    92234.70c 2.6518e-6
+      92235.70c 3.4701e-4
+      92238.70c 4.7846e-2
+c     Depleted Uranium
+m4    92234.70c 2.8672e-7
+      92235.70c 1.0058e-4
+      92236.70c 1.1468e-6
+      92238.70c 4.7677e-2
+kcode 10000 1.0 100 3000
+ksrc  0. 0. 0.
