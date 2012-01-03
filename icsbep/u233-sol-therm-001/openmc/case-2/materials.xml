@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =================================================
+  Description: Unreflected sphere of U233 nitrate
+  Case:        U233-SOL-THERM-001 Experiment 2
+  Written By:  Paul Romano
+  Date:        1/2/2012
+  =================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- UO2(NO3)2 Solution -->
+  <material id="1">
+    <density value="0.10016" units="atom/b-cm" />
+    <nuclide name="U-233"  ao="4.5093e-5" />
+    <nuclide name="U-234"  ao="7.4451e-7" />
+    <nuclide name="U-235"  ao="1.8305e-8" />
+    <nuclide name="U-238"  ao="2.8917e-7" />
+    <nuclide name="N-14"   ao="1.2248e-4" />
+    <nuclide name="H-1"    ao="6.6362e-2" />
+    <nuclide name="O-16"   ao="3.361522136e-2" />
+    <nuclide name="O-17"   ao="1.277864e-5" />
+    <nuclide name="B-10"   ao="2.6481e-7" />
+    <nuclide name="B-11"   ao="1.0659e-6" />
+    <nuclide name="Th-232" ao="2.0489e-7" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Type 1100 Aluminum -->
+  <material id="2">
+    <density value="2.71" units="g/cm3" />
+    <nuclide name="Al-27" ao="0.059881" />
+    <nuclide name="Si-28" ao="0.0002009685163" />
+    <nuclide name="Si-29" ao="1.020458385e-05" />
+    <nuclide name="Si-30" ao="6.72689985e-06" />
+    <nuclide name="Fe-54" ao="6.404951e-06" />
+    <nuclide name="Fe-56" ao="0.0001005440332" />
+    <nuclide name="Fe-57" ao="2.3220002e-06" />
+    <nuclide name="Fe-58" ao="3.090156e-07" />
+    <nuclide name="Cu-63" ao="3.55284788e-05" />
+    <nuclide name="Cu-65" ao="1.58355212e-05" />
+    <nuclide name="Mn-55" ao="1.4853e-05" />
+  </material>
+
+</materials>
