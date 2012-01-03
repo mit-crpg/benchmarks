@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ===============================================================
+  Description: Polyethylene-reflected sphere of 90% U-235, VNIIEF
+  Case:        HEU-MET-FAST-020 Simplified model
+  Written By:  Paul Romano
+  Date:        1/3/2012
+  ===============================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- HEU -->
+  <material id="1">
+    <density value="0.04852249" units="atom/b-cm" />
+    <nuclide name="U-234" ao="5.2428e-4" />
+    <nuclide name="U-235" ao="4.2315e-2" />
+    <nuclide name="U-238" ao="4.3901e-3" />
+    <nuclide name="C-Nat" ao="1.0548e-3" />
+    <nuclide name="Fe-54" ao="1.08874815e-05" />
+    <nuclide name="Fe-56" ao="0.0001709101758" />
+    <nuclide name="Fe-57" ao="3.9470613e-06" />
+    <nuclide name="Fe-58" ao="5.252814e-07" />
+    <!-- <nuclide name="W-180" ao="6.2448e-08" /> -->
+    <nuclide name="W-182" ao="1.37906e-05" />
+    <nuclide name="W-183" ao="7.446924e-06" />
+    <nuclide name="W-184" ao="1.5945056e-05" />
+    <nuclide name="W-186" ao="1.4794972e-05" />
+  </material>
+
+  <!-- Polyethylene -->
+  <material id="2">
+    <density value="0.116567" units="atom/b-cm" />
+    <nuclide name="H-1"   ao="7.7711e-2" />
+    <nuclide name="C-Nat" ao="3.8856e-2" />
+    <sab name="poly" xs="10t" />
+  </material>
+
+</materials>
