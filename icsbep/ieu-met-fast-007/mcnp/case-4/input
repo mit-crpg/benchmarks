@@ -26,6 +26,8 @@ Big Ten IEU-MET-FAST-007 Improved Benchmark Case 4
 13    pz   23.81250          $ bottom of DU reflector top
 14    pz   39.05250          $ top of DU reflector
 
+c     Set importance for all cells to one
+imp:n 1.0 9r 0.0
 c     Homogenized HEU, Natural U, and Voids
 m1    92234.70c 5.4058e-5
       92235.70c 4.9831e-3
@@ -47,3 +49,4 @@ m4    92234.70c 2.8672e-7
       92238.70c 4.7677e-2
 kcode 10000 1.0 100 3000
 ksrc  0. 0. 0.
+
