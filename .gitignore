@@ -1,2 +1,11 @@
 # emacs backups
 *~
+
+# mcnp output
+out?
+srct?
+runtp?
+mcta?
+
+# output files
+*.out
