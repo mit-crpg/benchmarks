@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==========================================================================
+  Description: Jemima, Natural U Reflected Assembly of Uranium Plates
+  Case:        IEU-MET-FAST-002
+  Written By:  Paul Romano
+  Date:        1/8/2012
+  ==========================================================================
+  -->
+
+  <surface id="1"  type="z-plane" coeffs="0.0" boundary="vacuum" />
+  <surface id="2"  type="z-plane" coeffs="7.62" />
+  <surface id="3"  type="z-plane" coeffs="39.571" />
+  <surface id="4"  type="z-plane" coeffs="47.0894" boundary="vacuum" />
+  <surface id="5"  type="z-cylinder" coeffs="0. 0. 19.05" />
+  <surface id="6"  type="z-cylinder" coeffs="0. 0. 26.6446" boundary="vacuum" />
+
+  <cell id="1" material="2" surfaces="1 -2   -6" />
+  <cell id="2" material="1" surfaces="2 -3   -5" />
+  <cell id="3" material="2" surfaces="2 -3 5 -6" />
+  <cell id="4" material="2" surfaces="3 -4   -6" />
+
+</geometry>
