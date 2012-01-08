@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ============================================================
+  Description: Steel-reflected Spherical Assembly of 36% U-235
+  Case:        IEU-MET-FAST-005 Simplified model
+  Written By:  Paul Romano
+  Date:        1/8/2012
+  ============================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Inner void -->
+  <material id="1">
+    <density value="1e-12" units="atom/b-cm" />
+    <nuclide name="O-16" ao="1.0" />
+  </material>
+
+  <!-- 36 wt% U-235 -->
+  <material id="2">
+    <density value="0.047947501" units="atom/b-cm" />
+    <nuclide name="U-234" ao="1.5511e-4" />
+    <nuclide name="U-235" ao="1.7154e-2" />
+    <nuclide name="U-238" ao="2.9297e-2" />
+    <nuclide name="C-Nat" ao="1.0711e-5" />
+    <!-- <nuclide name="W-180" ao="1.28532e-08" /> -->
+    <nuclide name="W-182" ao="2.838415e-06" />
+    <nuclide name="W-183" ao="1.5327441e-06" />
+    <nuclide name="W-184" ao="3.2818504e-06" />
+    <nuclide name="W-186" ao="3.0451373e-06" />
+    <nuclide name="Fe-54" ao="7.203378e-06" />
+    <nuclide name="Fe-56" ao="0.0001130776296" />
+    <nuclide name="Fe-57" ao="2.6114556e-06" />
+    <nuclide name="Fe-58" ao="3.475368e-07" />
+    <nuclide name="Cu-63" ao="0.000185313347" />
+    <nuclide name="Cu-65" ao="8.2596653e-05" />
+    <nuclide name="Ni-58" ao="0.00019747747152" />
+    <nuclide name="Ni-60" ao="7.606796848e-05" />
+    <nuclide name="Ni-61" ao="3.30662192e-06" />
+    <nuclide name="Ni-62" ao="1.05429576e-05" />
+    <nuclide name="Ni-64" ao="2.68498048e-06" />
+  </material>
+
+  <!-- Steel reflector #1 -->
+  <material id="3">
+    <density value="0.08160123" units="atom/b-cm" />
+    <nuclide name="Fe-54" ao="0.00463420825" />
+    <nuclide name="Fe-56" ao="0.0727471589" />
+    <nuclide name="Fe-57" ao="0.00168004915" />
+    <nuclide name="Fe-58" ao="0.0002235837" />
+    <nuclide name="C-Nat" ao="1.1251e-3" />
+    <nuclide name="Si-28" ao="0.00014791799286" />
+    <nuclide name="Si-29" ao="7.51083597e-06" />
+    <nuclide name="Si-30" ao="4.95117117e-06" />
+    <nuclide name="Cr-50" ao="1.12922205e-05" />
+    <nuclide name="Cr-52" ao="0.0002177592321" />
+    <nuclide name="Cr-53" ao="2.46921489e-05" />
+    <nuclide name="Cr-54" ao="6.1463985e-06" />
+    <nuclide name="Mn-55" ao="0.00032796" />
+    <nuclide name="Ni-58" ao="0.00015674706225" />
+    <nuclide name="Ni-60" ao="6.037868775e-05" />
+    <nuclide name="Ni-61" ao="2.62461975e-06" />
+    <nuclide name="Ni-62" ao="8.36843625e-06" />
+    <nuclide name="Ni-64" ao="2.131194e-06" />
+    <nuclide name="Cu-63" ao="0.000147090005" />
+    <nuclide name="Cu-65" ao="6.5559995e-05" />
+  </material>
+
+  <!-- Steel reflector #2 -->
+  <material id="4">
+    <density value="0.08273641" units="atom/b-cm" />
+    <nuclide name="Fe-54" ao="0.0046986786" />
+    <nuclide name="Fe-56" ao="0.07375920552" />
+    <nuclide name="Fe-57" ao="0.00170342172" />
+    <nuclide name="Fe-58" ao="0.00022669416" />
+    <nuclide name="C-Nat" ao="1.1407e-3" />
+    <nuclide name="Si-28" ao="0.00014997471517" />
+    <nuclide name="Si-29" ao="7.615270215e-06" />
+    <nuclide name="Si-30" ao="5.020014615e-06" />
+    <nuclide name="Cr-50" ao="1.14495095e-05" />
+    <nuclide name="Cr-52" ao="0.0002207923939" />
+    <nuclide name="Cr-53" ao="2.50360851e-05" />
+    <nuclide name="Cr-54" ao="6.2320115e-06" />
+    <nuclide name="Mn-55" ao="0.00033253" />
+    <nuclide name="Ni-58" ao="0.00015892552305" />
+    <nuclide name="Ni-60" ao="6.121782695e-05" />
+    <nuclide name="Ni-61" ao="2.66109655e-06" />
+    <nuclide name="Ni-62" ao="8.48474025e-06" />
+    <nuclide name="Ni-64" ao="2.1608132e-06" />
+    <nuclide name="Cu-63" ao="0.000149137437" />
+    <nuclide name="Cu-65" ao="6.6472563e-05" />
+  </material>
+
+</materials>
