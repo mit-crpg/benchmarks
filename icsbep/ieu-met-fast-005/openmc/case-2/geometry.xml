@@ -18,6 +18,6 @@
   <cell id="1" material="1" surfaces="  -1" />
   <cell id="2" material="2" surfaces="1 -2" />
   <cell id="3" material="3" surfaces="2 -3" />
-  <cell id="3" material="3" surfaces="3 -4" />
+  <cell id="4" material="4" surfaces="3 -4" />
 
 </geometry>
