@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ==========================================================================
+  Description: Jemima, Natural U Reflected Assembly of Uranium Plates
+  Case:        IEU-MET-FAST-002
+  Written By:  Paul Romano
+  Date:        1/8/2012
+  ==========================================================================
+  -->
+ 
+  <criticality>
+    <cycles>3000</cycles>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>
+      -10.0 -10.0  0.0
+      10.0  10.0 47.0894
+    </coeffs>
+  </source>
+
+</settings>

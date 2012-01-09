@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =================================================
+  Description: Bare Spherical Assembly of 36% U-235
+  Case:        IEU-MET-FAST-003 Simplified model
+  Written By:  Paul Romano
+  Date:        1/8/2012
+  =================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- 36 wt% U-235 -->
+  <material id="1">
+    <density value="0.048180487" units="atom/b-cm" />
+    <nuclide name="U-234" ao="1.5272e-4" />
+    <nuclide name="U-235" ao="1.7118e-2" />
+    <nuclide name="U-238" ao="2.9211e-2" />
+    <nuclide name="C-Nat" ao="7.7389e-4" />
+    <nuclide name="Fe-54" ao="7.047901e-06" />
+    <nuclide name="Fe-56" ao="0.0001106369732" />
+    <nuclide name="Fe-57" ao="2.5550902e-06" />
+    <nuclide name="Fe-58" ao="3.400356e-07" />
+    <!-- <nuclide name="W-180" ao="1.21044e-08" /> -->
+    <nuclide name="W-182" ao="2.673055e-06" />
+    <nuclide name="W-183" ao="1.4434497e-06" />
+    <nuclide name="W-184" ao="3.0906568e-06" />
+    <nuclide name="W-186" ao="2.8677341e-06" />
+    <nuclide name="Cu-63" ao="0.000263765961" />
+    <nuclide name="Cu-65" ao="0.000117564039" />
+    <nuclide name="Ni-58" ao="0.00028107590472" />
+    <nuclide name="Ni-60" ao="0.00010826993528" />
+    <nuclide name="Ni-61" ao="4.70641912e-06" />
+    <nuclide name="Ni-62" ao="1.50061236e-05" />
+    <nuclide name="Ni-64" ao="3.82161728e-06" />
+  </material>
+
+</materials>
