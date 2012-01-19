@@ -25,6 +25,9 @@
 
 <!-- pin-cell construction -->
 
+
+<!-- pin-cell construction -->
+
   <!-- Water pin-cell -->
   <cell id="11">
     <universe>  1 </universe>
@@ -38,9 +41,9 @@
   </cell>
 
   <!-- 6% GD + Natural Uranium pin-cell -->
-  <cell id="21"><!-- fuel --> 
+  <cell id="21"><!-- fuel -->
     <universe>  2 </universe>
-    <material>  2 </material>
+    <material>  3 </material>
     <surfaces> -1 </surfaces>
   </cell>
   <cell id="22"><!-- clad -->
@@ -55,7 +58,7 @@
   </cell>
 
   <!-- 2.00% Enriched UO2 pin-cell -->
-  <cell id="31"><!-- fuel --> 
+  <cell id="31"><!-- fuel -->
     <universe>  3 </universe>
     <material>  3 </material>
     <surfaces> -1 </surfaces>
@@ -123,109 +126,54 @@
   </cell>
 
 
-
 <!-- Assembly construction -->
 
   <!-- Assembly Surfaces -->
   <surface id="4">
     <type>   x-plane </type>
-    <coeffs> -10.3888 </coeffs>
+    <coeffs> -0.6493 </coeffs>
+    <boundary> reflective </boundary>
   </surface>
   <surface id="5">
     <type>  x-plane </type>
-    <coeffs> 10.3888 </coeffs>
+    <coeffs> 0.6493 </coeffs>
+    <boundary> reflective </boundary>
   </surface>
   <surface id="6">
     <type>   y-plane </type>
-    <coeffs> -10.3888 </coeffs>
+    <coeffs> -0.6493 </coeffs>
+    <boundary> reflective </boundary>
   </surface>
   <surface id="7">
     <type>  y-plane </type>
-    <coeffs> 10.3888 </coeffs>
+    <coeffs> 0.6493 </coeffs>
+    <boundary> reflective </boundary>
+  </surface>
+  <surface id="8">
+    <type> z-plane </type>
+    <coeffs> -0.5 </coeffs>
+    <boundary> reflective </boundary>
+  </surface>
+  <surface id="9">
+    <type> z-plane </type>
+    <coeffs> 0.5 </coeffs>
+    <boundary> reflective </boundary>
   </surface>
 
   <!-- Assembly Type 2 -->
   <lattice id="20">
     <type>         rectangular </type>
-    <dimension>          16 16 </dimension>
-    <origin> -10.3888 -10.3888 </origin>
+    <dimension>          1  1  </dimension>
+    <origin> -0.6493 -0.6493 </origin>
     <width>    1.2986 1.2986 </width>
     <universes>
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-      3 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3
-      3 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-      3 3 3 3 3 3 3 1 1 3 3 3 3 3 3 3
-      3 3 3 3 3 3 3 1 1 3 3 3 3 3 3 3
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-      3 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3
-      3 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+      3
     </universes>
   </lattice>
   <cell id="2">
-    <universe>       200 </universe>
+    <universe>       0 </universe>
     <fill>            20 </fill>
-    <surfaces>        -3 </surfaces>
-  </cell>
-
-
-
-<!-- Core construction -->
-
-  <!-- Core Surfaces -->
-  <surface id="8">
-    <type>        x-plane </type>
-    <coeffs>      -10.3888 </coeffs>
-    <boundary> reflective </boundary>
-  </surface>
-  <surface id="9">
-    <type>        x-plane </type>
-    <coeffs>       10.3888 </coeffs>
-    <boundary> reflective </boundary>
-  </surface>
-  <surface id="10">
-    <type>        y-plane </type>
-    <coeffs>      -10.3888 </coeffs>
-    <boundary> reflective </boundary>
-  </surface>
-  <surface id="11">
-    <type>        y-plane </type>
-    <coeffs>       10.3888 </coeffs>
-    <boundary> reflective </boundary>
-  </surface>
-  <surface id="12">
-    <type>        z-plane </type>
-    <coeffs>         -0.5 </coeffs>
-    <boundary> reflective </boundary>
-  </surface>
-  <surface id="13">
-    <type>        z-plane </type>
-    <coeffs>          0.5 </coeffs>
-    <boundary> reflective </boundary>
-  </surface>
-
-  <!-- Core lattice -->
-
-  <lattice id="99">
-    <type>         rectangular </type>
-    <dimension>            1 1 </dimension>
-    <origin> -10.3888 -10.3888   </origin>
-    <width>    20.7776 20.7776 </width>
-    <universes>            200 </universes>
-  </lattice>
-
-  <!-- Core Bounding Cell -->
-  <cell id="1">
-    <universe> 0 </universe>
-    <fill> 99 </fill>
-    <surfaces> 8 -9 10 -11 12 -13 </surfaces>
+    <surfaces>4 -5 6 -7 8 -9</surfaces>
   </cell>
 
 </geometry>
