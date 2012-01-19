@@ -19,7 +19,7 @@
   <!-- Starting source -->
   <source>
     <type>box</type>
-    <coeffs>-10.3888 -10.3888 -0.5 10.3888 10.3888 0.5</coeffs>
+    <coeffs>-0.6493 -0.6493 -0.5 0.6493 0.6493 0.5</coeffs>
   </source>
 
 </settings>
