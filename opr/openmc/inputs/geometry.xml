@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <geometry>
 
-
-
 <!-- pin-cell surfaces -->
 
   <!-- fuel pellet surface -->
@@ -36,7 +34,7 @@
   <cell id="12">
     <universe> 1 </universe>
     <material> 1 </material>
-    <surfaces> 3 </material>
+    <surfaces> 3 </surfaces>
   </cell>
 
   <!-- 6% GD + Natural Uranium pin-cell -->
@@ -131,19 +129,19 @@
   <!-- Assembly Surfaces -->
   <surface id="4">
     <type>   x-plane </type>
-    <coeffs> -10.388 </coeffs>
+    <coeffs> -10.3888 </coeffs>
   </surface>
   <surface id="5">
     <type>  x-plane </type>
-    <coeffs> 10.388 </coeffs>
+    <coeffs> 10.3888 </coeffs>
   </surface>
   <surface id="6">
     <type>   y-plane </type>
-    <coeffs> -10.388 </coeffs>
+    <coeffs> -10.3888 </coeffs>
   </surface>
   <surface id="7">
     <type>  y-plane </type>
-    <coeffs> 10.388 </coeffs>
+    <coeffs> 10.3888 </coeffs>
   </surface>
 
   <!-- Assembly Type 2 -->
@@ -151,7 +149,7 @@
     <type>         rectangular </type>
     <dimension>          16 16 </dimension>
     <origin> -10.3888 -10.3888 </origin>
-    <width>    20.7776 20.7776 </width>
+    <width>    1.2986 1.2986 </width>
     <universes>
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
@@ -174,7 +172,7 @@
   <cell id="2">
     <universe>       200 </universe>
     <fill>            20 </fill>
-    <surfaces> 4 -5 6 -7 </surfaces>
+    <surfaces>        -3 </surfaces>
   </cell>
 
 
@@ -184,22 +182,22 @@
   <!-- Core Surfaces -->
   <surface id="8">
     <type>        x-plane </type>
-    <coeffs>      -10.388 </coeffs>
+    <coeffs>      -10.3888 </coeffs>
     <boundary> reflective </boundary>
   </surface>
   <surface id="9">
     <type>        x-plane </type>
-    <coeffs>       10.388 </coeffs>
+    <coeffs>       10.3888 </coeffs>
     <boundary> reflective </boundary>
   </surface>
   <surface id="10">
     <type>        y-plane </type>
-    <coeffs>      -10.388 </coeffs>
+    <coeffs>      -10.3888 </coeffs>
     <boundary> reflective </boundary>
   </surface>
   <surface id="11">
     <type>        y-plane </type>
-    <coeffs>       10.388 </coeffs>
+    <coeffs>       10.3888 </coeffs>
     <boundary> reflective </boundary>
   </surface>
   <surface id="12">
@@ -214,10 +212,11 @@
   </surface>
 
   <!-- Core lattice -->
+
   <lattice id="99">
     <type>         rectangular </type>
     <dimension>            1 1 </dimension>
-    <origin> -10.3888 -10.3888 </origin>
+    <origin> -10.3888 -10.3888   </origin>
     <width>    20.7776 20.7776 </width>
     <universes>            200 </universes>
   </lattice>
