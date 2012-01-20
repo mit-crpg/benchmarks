@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+
+  <!-- Path for cross section library -->
+  <cross_sections> 
+    /opt/mcnp/xs/openmc_xs.xml
+  </cross_sections>
+
+  <!-- Parameters for criticality calculation -->
+  <criticality>
+    <cycles>110</cycles>
+    <inactive>10</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <!-- How verbose output should be -->
+  <verbosity value="7" />
+
+  <!-- Starting source -->
+  <source>
+    <type>box</type>
+    <coeffs>-10.3888 -10.3888 -0.5 10.3888 10.3888 0.5</coeffs>
+  </source>
+
+</settings>
