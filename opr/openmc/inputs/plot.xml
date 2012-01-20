@@ -2,8 +2,8 @@
 <plot>
 
   <origin> 0.0 0.0 0.0 </origin>
-  <width> 20.7776 20.7776 </width>
+  <width> 63.3328 63.3328 </width>
   <basis>xy</basis>
-  <pixel>0.05</pixel>
+  <pixel>1.0</pixel>
 
 </plot>

@@ -59,7 +59,7 @@
 
 <!-- material 7: Cladding -->
   <material id="7">
-    <density id="6.55" units="g/cc" />
+    <density value="6.55" units="g/cc" />
     <nuclide name="Zr-90" xs="70c" wo="1.0" />
   </material>
 
