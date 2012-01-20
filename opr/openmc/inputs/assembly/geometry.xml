@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geometry>
+
+<!-- pin-cell surfaces -->
+
+  <surface id="1" type="z-cylinder" coeffs="0.0 0.0 0.413"/>
+  <surface id="2" type="z-cylinder" coeffs="0.0 0.0 0.485"/>
+  <surface id="3" type="sphere"     coeffs="0.0 0.0 0.0 400.0"/>
+
+
+<!-- pin-cell construction -->
+
+  <!-- Water pin-cell -->
+  <cell id="11" universe="1" material="1" surfaces="-3"/>
+  <cell id="12" universe="1" material="1" surfaces=" 3"/>
+
+  <!-- 6% GD + Natural Uranium pin-cell -->
+  <cell id="21" universe="2" material="2" surfaces="  -1"/>
+  <cell id="22" universe="2" material="7" surfaces="1 -2"/>
+  <cell id="23" universe="2" material="1" surfaces="   2"/>
+
+  <!-- 2.00% Enriched UO2 pin-cell -->
+  <cell id="31" universe="3" material="3" surfaces="  -1"/>
+  <cell id="32" universe="3" material="7" surfaces="1 -2"/>
+  <cell id="33" universe="3" material="1" surfaces="   2"/>
+
+  <!-- 2.37% Enriched UO2 pin-cell -->
+  <cell id="41" universe="4" material="4" surfaces="  -1"/>
+  <cell id="42" universe="4" material="7" surfaces="1 -2"/>
+  <cell id="43" universe="4" material="1" surfaces="   2"/>
+
+  <!-- 2.87% Enriched UO2 pin-cell -->
+  <cell id="51" universe="5" material="5" surfaces="  -1"/>
+  <cell id="52" universe="5" material="7" surfaces="1 -2"/>
+  <cell id="53" universe="5" material="1" surfaces="   2"/>
+
+  <!-- 3.37% Enriched UO2 pin-cell -->
+  <cell id="61" universe="6" material="6" surfaces="  -1"/>
+  <cell id="62" universe="6" material="7" surfaces="1 -2"/>
+  <cell id="63" universe="6" material="1" surfaces="   2"/>
+
+
+<!-- Assembly construction -->
+
+  <!-- Assembly Type 2 -->
+  <lattice id="20" type="rectangular" dimension="16 16">
+    <origin> -10.3888 -10.3888 </origin>
+    <width>    1.2986 1.2986 </width>
+    <universes>
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+      3 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3
+      3 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+      3 3 3 3 3 3 3 1 1 3 3 3 3 3 3 3
+      3 3 3 3 3 3 3 1 1 3 3 3 3 3 3 3
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+      3 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3
+      3 3 3 1 1 3 3 3 3 3 3 1 1 3 3 3
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+    </universes>
+  </lattice>
+  <cell id="2" universe="200" fill="20" surfaces="-3"/>
+
+
+<!-- Core construction -->
+
+  <!-- Core Surfaces -->
+  <surface id="4" type="x-plane" coeffs="-10.3888" boundary="reflective"/>
+  <surface id="5" type="x-plane" coeffs=" 10.3888" boundary="reflective"/>
+  <surface id="6" type="y-plane" coeffs="-10.3888" boundary="reflective"/>
+  <surface id="7" type="y-plane" coeffs=" 10.3888" boundary="reflective"/>
+  <surface id="8" type="z-plane" coeffs="    -0.5" boundary="reflective"/>
+  <surface id="9" type="z-plane" coeffs="     0.5" boundary="reflective"/>
+
+  <!-- Core lattice -->
+  <lattice id="99" type="rectangular" dimension="1 1">
+    <origin> -10.3888 -10.3888   </origin>
+    <width>    20.7776 20.7776 </width>
+    <universes>            200 </universes>
+  </lattice>
+
+  <!-- Core Bounding Cell -->
+  <cell id="1" universe="0" fill="99" surfaces="4 -5 6 -7 8 -9"/>
+
+</geometry>
