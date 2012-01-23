@@ -60,7 +60,11 @@
 <!-- material 7: Cladding -->
   <material id="7">
     <density value="6.55" units="g/cc" />
-    <nuclide name="Zr-90" xs="70c" wo="1.0" />
+    <nuclide name="Zr-90" xs="70c" ao="0.5145" />
+    <nuclide name="Zr-91" xs="70c" ao="0.1122" />
+    <nuclide name="Zr-92" xs="70c" ao="0.1715" />
+    <nuclide name="Zr-94" xs="70c" ao="0.1738" />
+    <nuclide name="Zr-96" xs="70c" ao="0.0280" />
   </material>
 
 </materials>

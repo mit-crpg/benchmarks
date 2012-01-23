@@ -174,21 +174,35 @@
 <!-- Core construction -->
 
   <!-- Core Surfaces -->
-  <surface id="4" type="x-plane" coeffs="-31.1664" boundary="reflective"/>
-  <surface id="5" type="x-plane" coeffs=" 31.1664" boundary="reflective"/>
-  <surface id="6" type="y-plane" coeffs="-31.1664" boundary="reflective"/>
-  <surface id="7" type="y-plane" coeffs=" 31.1664" boundary="reflective"/>
-  <surface id="8" type="z-plane" coeffs="    -0.5" boundary="reflective"/>
-  <surface id="9" type="z-plane" coeffs="     0.5" boundary="reflective"/>
+  <surface id="4" type="x-plane" coeffs="-176.6096" boundary="vacuum"/>
+  <surface id="5" type="x-plane" coeffs=" 176.6096" boundary="vacuum"/>
+  <surface id="6" type="y-plane" coeffs="-176.6096" boundary="vacuum"/>
+  <surface id="7" type="y-plane" coeffs=" 176.6096" boundary="vacuum"/>
+  <surface id="8" type="z-plane" coeffs="   -100.0" boundary="reflective"/>
+  <surface id="9" type="z-plane" coeffs="    100.0" boundary="reflective"/>
 
   <!-- Core lattice -->
-  <lattice id="99" type="rectangular" dimension="3 3">
-    <origin> -31.1664 -31.1664 </origin>
+  <lattice id="99" type="rectangular" dimension="17 17">
+    <origin> -176.6096 -176.6096 </origin>
     <width>   20.7776  20.7776 </width>
     <universes>
-      600 200 300
-      200 100 200
-      500 200 400
+      100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+      100 100 100 100 100 100 300 500 300 500 300 100 100 100 100 100 100
+      100 100 100 100 300 500 600 200 600 200 600 500 300 100 100 100 100
+      100 100 100 500 600 400 200 600 200 600 200 400 600 500 100 100 100
+      100 100 300 600 400 200 400 200 400 200 400 200 400 600 300 100 100
+      100 100 500 400 200 600 200 400 200 400 200 600 200 400 500 100 100
+      100 300 600 200 400 200 400 200 600 200 400 200 400 200 600 300 100
+      100 500 200 600 200 400 200 400 200 400 200 400 200 600 200 500 100
+      100 300 600 200 400 200 600 200 200 200 600 200 400 200 600 300 100
+      100 500 200 600 200 400 200 400 200 400 200 400 200 600 200 500 100
+      100 300 600 200 400 200 400 200 600 200 400 200 400 200 600 300 100
+      100 100 500 400 200 600 200 400 200 400 200 600 200 400 500 100 100
+      100 100 300 600 400 200 400 200 400 200 400 200 400 600 300 100 100
+      100 100 100 500 600 400 200 600 200 600 200 400 600 500 100 100 100
+      100 100 100 100 300 500 600 200 600 200 600 500 300 100 100 100 100
+      100 100 100 100 100 100 300 500 300 500 300 100 100 100 100 100 100
+      100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
     </universes>
   </lattice>
 
