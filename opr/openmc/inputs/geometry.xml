@@ -178,8 +178,8 @@
   <surface id="5" type="x-plane" coeffs=" 176.6096" boundary="vacuum"/>
   <surface id="6" type="y-plane" coeffs="-176.6096" boundary="vacuum"/>
   <surface id="7" type="y-plane" coeffs=" 176.6096" boundary="vacuum"/>
-  <surface id="8" type="z-plane" coeffs="     -0.5" boundary="reflective"/>
-  <surface id="9" type="z-plane" coeffs="      0.5" boundary="reflective"/>
+  <surface id="8" type="z-plane" coeffs="   -100.0" boundary="reflective"/>
+  <surface id="9" type="z-plane" coeffs="    100.0" boundary="reflective"/>
 
   <!-- Core lattice -->
   <lattice id="99" type="rectangular" dimension="17 17">
