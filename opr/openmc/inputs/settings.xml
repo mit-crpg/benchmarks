@@ -8,8 +8,8 @@
 
   <!-- Parameters for criticality calculation -->
   <criticality>
-    <cycles>110</cycles>
-    <inactive>10</inactive>
+    <cycles>1100</cycles>
+    <inactive>100</inactive>
     <particles>10000</particles>
   </criticality>
 
