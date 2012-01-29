@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  =======================================================
+  Description: Sphere of Low-enriched Uranium Oxyfluoride
+  Case:        LEU-SOL-THERM-002 Experiment 3
+  Written By:  Paul Romano
+  Date:        1/29/2012
+  =======================================================
+  -->
+
+  <criticality>
+    <cycles>3000</cycles>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>-1 -1 -1  1  1  1</coeffs>
+  </source>
+
+</settings>
