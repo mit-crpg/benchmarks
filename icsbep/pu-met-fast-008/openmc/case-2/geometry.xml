@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =============================================================
+  Description: Plutonium sphere reflected by Thorium using Thor
+  Case:        PU-MET-FAST-008
+  Written By:  Paul Romano
+  Date:        1/29/2012
+  =============================================================
+  -->
+
+  <cell id="1" material="1" surfaces="-1" />
+  <cell id="2" material="2" surfaces="1 -2 3 -4" />
+
+  <surface id="1" type="sphere"     coeffs="0. 0. 0. 5.310" />
+  <surface id="2" type="z-cylinder" coeffs="0. 0. 26.67" boundary="vacuum" />
+  <surface id="3" type="z-plane"    coeffs="     -26.67" boundary="vacuum" />
+  <surface id="4" type="z-plane"    coeffs="      26.67" boundary="vacuum" />
+
+</geometry>
