@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ==================================================
+  Description: Steel reflected Pu-239 sphere, VNIIEF
+  Case:        PU-MET-FAST-025 Simplified model
+  Written By:  Paul Romano
+  Date:        1/30/2012
+  ==================================================
+  -->
+
+ 
+  <criticality>
+    <cycles>3000</cycles>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>-1 -1 -1  1  1  1</coeffs>
+  </source>
+
+</settings>

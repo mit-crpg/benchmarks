@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==================================================
+  Description: Steel reflected Pu-239 sphere, VNIIEF
+  Case:        PU-MET-FAST-025 Simplified model
+  Written By:  Paul Romano
+  Date:        1/30/2012
+  ==================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 6.00" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 7.55" boundary="vacuum" />
+
+  <cell id="1" material="1" surfaces="-1" />
+  <cell id="2" material="2" surfaces="1 -2" />
+
+</geometry>
