@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ===================================================
+  Description: Plutonium sphere reflected by Aluminum
+  Case:        PU-MET-FAST-009
+  Written By:  Paul Romano
+  Date:        1/29/2012
+  ===================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <material id="1">
+    <density value="15.90" units="g/cm3" />
+    <nuclide name="Pu-239" ao="3.7592e-2" />
+    <nuclide name="Pu-240" ao="1.9349e-3" />
+    <nuclide name="Pu-241" ao="1.1797e-4" />
+    <nuclide name="Ga-69" ao="0.000825463164" />
+    <nuclide name="Ga-71" ao="0.000547836836" />
+  </material>
+
+  <material id="2">
+    <density value="2.82" units="g/cm3" />
+    <nuclide name="Al-27" ao="0.058787" />
+    <nuclide name="Cu-63" ao="0.00081337003" />
+    <nuclide name="Cu-65" ao="0.00036252997" />
+    <nuclide name="Si-28" ao="0.00022307597539" />
+    <nuclide name="Si-29" ao="1.1327134905e-5" />
+    <nuclide name="Si-30" ao="7.466889705e-6" />
+    <nuclide name="Mn-55" ao="0.00024729" />
+    <nuclide name="Mg-24" ao="0.000275959464" />
+    <nuclide name="Mg-25" ao="3.4936e-5" />
+    <nuclide name="Mg-26" ao="3.8464536e-5" />
+  </material>
+
+</materials>
