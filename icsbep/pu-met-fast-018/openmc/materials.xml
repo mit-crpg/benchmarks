@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ====================================================
+  Description: Plutonium sphere reflected by Beryllium
+  Case:        PU-MET-FAST-018
+  Written By:  Paul Romano
+  Date:        1/29/2012
+  ====================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <material id="1">
+    <density value="15.778" units="g/cm3" />
+    <nuclide name="Pu-239" ao="3.7291e-2" />
+    <nuclide name="Pu-240" ao="1.9277e-3" />
+    <nuclide name="Pu-241" ao="1.2196e-4" />
+    <nuclide name="Ga-69" ao="0.000819151824" />
+    <nuclide name="Ga-71" ao="0.000543648176" />
+  </material>
+
+  <material id="2">
+    <density value="1.83" units="g/cm3" />
+    <nuclide name="Be-9" ao="1.1984e-1" />
+    <nuclide name="O-16" ao="0.001377076512" />
+    <nuclide name="O-17" ao="5.23488e-07" />
+    <sab name="be" xs="10t" />
+  </material>
+
+</materials>
