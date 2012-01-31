@@ -10,12 +10,8 @@
   ==========================================
   -->
 
-  <cell id="1" material="1" surfaces="-1" />
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 6.3849" boundary="vacuum" />
 
-  <surface id="1">
-    <type>sphere</type>
-    <coeffs>0. 0. 0. 6.3849</coeffs>
-    <boundary>vacuum</boundary>
-  </surface>
+  <cell id="1" material="1" surfaces="-1" />
 
 </geometry>
