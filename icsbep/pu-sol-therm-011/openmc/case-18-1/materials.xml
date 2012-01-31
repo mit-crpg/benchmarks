@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ======================================================
+  Description: Bare Sphere of Plutonium Nitrate Solution
+  Case:        PU-SOL-INTER-011 Case 18-1
+  Written By:  Paul Romano
+  Date:        1/31/2012
+  ======================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Plutonium nitrate solution -->
+  <material id="1">
+    <density value="1.0662" units="g/cm3" />
+    <nuclide name="Pu-239" ao="5.3938e-05" />
+    <nuclide name="Pu-240" ao="2.3549e-06" />
+    <nuclide name="N-14"   ao="7.3930e-04" />
+    <nuclide name="H-1"    ao="6.5147e-02" />
+    <nuclide name="O-16"   ao="3.4521e-02" />
+    <nuclide name="O-17"   ao="1.3123e-05" />
+    <nuclide name="Fe-54"  ao="7.5634e-08" />
+    <nuclide name="Fe-56"  ao="1.1873e-06" />
+    <nuclide name="Fe-57"  ao="2.7420e-08" />
+    <nuclide name="Fe-58"  ao="3.6491e-09" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- 347 Stainless Steel -->
+  <material id="2">
+    <density value="8.0" units="g/cm3" />
+    <nuclide name="Fe-54" ao="3.5296e-03" />
+    <nuclide name="Fe-56" ao="5.5407e-02" />
+    <nuclide name="Fe-57" ao="1.2796e-03" />
+    <nuclide name="Fe-58" ao="1.7029e-04" />
+    <nuclide name="Cr-50" ao="7.2466e-04" />
+    <nuclide name="Cr-52" ao="1.3974e-02" />
+    <nuclide name="Cr-53" ao="1.5846e-03" />
+    <nuclide name="Cr-54" ao="3.9443e-04" />
+    <nuclide name="Ni-58" ao="6.7058e-03" />
+    <nuclide name="Ni-60" ao="2.5831e-03" />
+    <nuclide name="Ni-61" ao="1.1228e-04" />
+    <nuclide name="Ni-62" ao="3.5801e-04" />
+    <nuclide name="Ni-64" ao="9.1175e-05" />
+  </material>
+
+  <!-- Cadmium -->
+  <material id="3">
+    <density value="8.65" units="g/cm3" />
+    <nuclide name="Cd-106" ao="5.7925e-04" />
+    <nuclide name="Cd-108" ao="4.1243e-04" />
+    <nuclide name="Cd-110" ao="5.7879e-03" />
+    <nuclide name="Cd-111" ao="5.9315e-03" />
+    <nuclide name="Cd-112" ao="1.1182e-02" />
+    <nuclide name="Cd-113" ao="5.6627e-03" />
+    <nuclide name="Cd-114" ao="1.3313e-02" />
+    <nuclide name="Cd-116" ao="3.4709e-03" />
+  </material>
+
+</materials>
