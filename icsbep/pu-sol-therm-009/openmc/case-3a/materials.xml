@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =============================================================
+  Description: Unreflected sphere of Plutonium Nitrate Solution
+  Case:        PU-SOL-INTER-009 Case 3A
+  Written By:  Paul Romano
+  Date:        1/30/2012
+  =============================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Plutonium nitrate solution -->
+  <material id="1">
+    <density value="0.1004157" units="atom/b-cm" />
+    <nuclide name="Pu-238" ao="9.7592e-10" />
+    <nuclide name="Pu-239" ao="2.3201e-05" />
+    <nuclide name="Pu-240" ao="5.9809e-07" />
+    <nuclide name="Pu-241" ao="1.7720e-08" />
+    <nuclide name="Pu-242" ao="3.2939e-09" />
+    <nuclide name="N-14"   ao="7.6076e-04" />
+    <nuclide name="H-1"    ao="6.5121e-02" />
+    <nuclide name="O-16"   ao="3.4497e-02" />
+    <nuclide name="O-17"   ao="1.3114e-05" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- 1100 Aluminum -->
+  <material id="2">
+    <density value="2.71" units="g/cm3" />
+    <nuclide name="Al-27"  ao="5.9881e-02" />
+    <nuclide name="Si-28"  ao="3.4835e-04" />
+    <nuclide name="Si-29"  ao="1.7688e-05" />
+    <nuclide name="Si-30"  ao="1.1660e-05" />
+    <nuclide name="Cu-63"  ao="3.5528e-05" />
+    <nuclide name="Cu-65"  ao="1.5836e-05" />
+    <nuclide name="Zn-Nat" ao="2.4958e-05" />
+    <nuclide name="Mn-55"  ao="1.4853e-05" />
+  </material>
+
+</materials>
