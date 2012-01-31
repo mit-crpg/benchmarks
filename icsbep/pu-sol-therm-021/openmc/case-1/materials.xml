@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =============================================================
+  Description: Unreflected sphere of Plutonium Nitrate Solution
+  Case:        PU-SOL-THERM-021 Case 1
+  Written By:  Paul Romano
+  Date:        1/31/2012
+  =============================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Plutonium nitrate solution -->
+  <material id="1">
+    <density value="0.1007852" units="atom/b-cm" />
+    <nuclide name="Pu-238" ao="5.9197e-09" />
+    <nuclide name="Pu-239" ao="9.3366e-05" />
+    <nuclide name="Pu-240" ao="4.5680e-06" />
+    <nuclide name="Pu-241" ao="2.7573e-07" />
+    <nuclide name="Pu-242" ao="8.7324e-09" />
+    <nuclide name="N-14"   ao="6.3382e-04" />
+    <nuclide name="H-1"    ao="6.5515e-02" />
+    <nuclide name="O-16"   ao="3.4525e-02" />
+    <nuclide name="O-17"   ao="1.3124e-05" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- 304L Stainless Steel -->
+  <material id="2">
+    <density value="7.92" units="g/cm3" />
+    <nuclide name="Fe-54" ao="3.4693e-03" />
+    <nuclide name="Fe-56" ao="5.4461e-02" />
+    <nuclide name="Fe-57" ao="1.2577e-03" />
+    <nuclide name="Fe-58" ao="1.6738e-04" />
+    <nuclide name="Cr-50" ao="7.5725e-04" />
+    <nuclide name="Cr-52" ao="1.4603e-02" />
+    <nuclide name="Cr-53" ao="1.6558e-03" />
+    <nuclide name="Cr-54" ao="4.1217e-04" />
+    <nuclide name="Ni-58" ao="5.2557e-03" />
+    <nuclide name="Ni-60" ao="2.0245e-03" />
+    <nuclide name="Ni-61" ao="8.8004e-05" />
+    <nuclide name="Ni-62" ao="2.8059e-04" />
+    <nuclide name="Ni-64" ao="7.1459e-05" />
+    <nuclide name="Mn-55" ao="1.7363e-03" />
+  </material>
+
+</materials>
