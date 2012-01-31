@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==============================================================
+  Description: k-inf Experiment Intermediate Spectrum for Pu-239
+  Case:        PU-COMP-INTER-001
+  Written By:  Paul Romano
+  Date:        1/30/2012
+  ==============================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 100.0" boundary="reflective" />
+
+  <cell id="1" material="1" surfaces="-1" />
+
+</geometry>
