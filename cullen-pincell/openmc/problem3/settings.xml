@@ -11,14 +11,17 @@
   -->
 
   <criticality>
-    <cycles>500</cycles>
-    <inactive>50</inactive>
+    <cycles>200</cycles>
+    <inactive>20</inactive>
     <particles>10000</particles>
   </criticality>
 
   <source>
     <type>box</type>
-    <coeffs>-2 -2 -2  2  2  2</coeffs>
+    <coeffs>
+    -1.27 -1.27 -1.0
+     1.27  1.27  1.0
+    </coeffs>
   </source>
 
 </settings>
