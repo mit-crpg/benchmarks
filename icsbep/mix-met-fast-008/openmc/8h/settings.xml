@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ==========================================
+  Description: ZEBRA k-infinity experiment
+  Case:        MIX-MET-FAST-008 Case 8H
+  Written By:  Paul Romano
+  Date:        2/5/2011
+  ==========================================
+  -->
+
+  <criticality>
+    <cycles>3000</cycles>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>
+      -2.62720 -2.62720 -1.11125
+       2.62720  2.62720  1.11125
+    </coeffs>
+  </source>
+
+</settings>
