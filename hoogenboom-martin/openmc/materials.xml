@@ -52,7 +52,7 @@
     <nuclide name="Zr-96" ao="0.0280" />
   </material>
 
-  <!-- Hot borated water -->
+  <!-- Cold borated water -->
   <material id="3">
     <density value="0.07416" units="atom/b-cm" />
     <nuclide name="H-1" ao="2.0" />
@@ -62,7 +62,7 @@
     <sab name="lwtr" xs="10t" />
   </material>
 
-  <!-- Cold borated water -->
+  <!-- Hot borated water -->
   <material id="4">
     <density value="0.06614" units="atom/b-cm" />
     <nuclide name="H-1"  ao="2.0" />

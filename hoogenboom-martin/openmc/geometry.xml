@@ -44,7 +44,7 @@
   <cell id="25" universe="2" material="2" surfaces="3 -4" />
   <cell id="26" universe="2" material="3" surfaces="4"    />
 
-  <!-- Fuel pin, cladding, cold water -->
+  <!-- Fuel pin, cladding, hot water -->
   <cell id="27" universe="3" material="1" surfaces="-1"   />
   <cell id="28" universe="3" material="2" surfaces="1 -2" />
   <cell id="29" universe="3" material="4" surfaces="2"    />
