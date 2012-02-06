@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ===========================================================
+  Description: Idealized Oralloy sphere on Lucite ring in H2O
+  Case:        HEU-MET-FAST-004 Three-dimensional
+  Written By:  Paul Romano
+  Date:        2/5/2012
+  ===========================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 6.5537" />
+
+  <surface id="2" type="z-plane" coeffs="-32.500" boundary="vacuum" />
+  <surface id="3" type="z-plane" coeffs="-7.752" />
+  <surface id="4" type="z-plane" coeffs="-5.212" />
+  <surface id="5" type="z-plane" coeffs="23.054" boundary="vacuum" />
+
+  <surface id="6" type="z-cylinder" coeffs="0.0 0.0 3.974" />
+  <surface id="7" type="z-cylinder" coeffs="0.0 0.0 12.700" />
+  <surface id="8" type="z-cylinder" coeffs="0.0 0.0 30.000" boundary="vacuum" />
+
+  <cell id="1" material="1" surfaces="-1" />        <!-- Oralloy sphere -->
+  <cell id="2" material="3" surfaces="2 -3 1 -8" /> <!-- Water -->
+  <cell id="3" material="3" surfaces="3 -4 1 -6" /> <!-- Water -->
+  <cell id="4" material="2" surfaces="3 -4 6 -7" /> <!-- Seat as hollow cyl -->
+  <cell id="5" material="3" surfaces="3 -4 7 -8" /> <!-- Water -->
+  <cell id="6" material="3" surfaces="4 -5 1 -8" /> <!-- Water -->
+
+</geometry>

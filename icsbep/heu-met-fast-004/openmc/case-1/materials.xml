@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ===========================================================
+  Description: Idealized Oralloy sphere on Lucite ring in H2O
+  Case:        HEU-MET-FAST-004 Three-dimensional
+  Written By:  Paul Romano
+  Date:        2/5/2012
+  ===========================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Oralloy -->
+  <material id="1">
+    <density value="18.794" units="g/cm3" />
+    <nuclide name="U-234" ao="5.3678e-4" />
+    <nuclide name="U-235" ao="4.7033e-2" />
+    <nuclide name="U-236" ao="9.5896e-5" />
+    <nuclide name="U-238" ao="4.7782e-4" />
+  </material>
+
+  <!-- Lucite -->
+  <material id="2">
+    <density value="1.2" units="g/cm3" />
+    <nuclide name="H-1"   ao="5.7745e-2" />
+    <nuclide name="C-Nat" ao="3.6090e-2" />
+    <nuclide name="O-16"  ao="1.4435e-2" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Water -->
+  <material id="3">
+    <density value="0.99927" units="g/cm3" />
+    <nuclide name="H-1"  ao="6.6807e-2" />
+    <nuclide name="O-16" ao="3.3403e-2" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+</materials>

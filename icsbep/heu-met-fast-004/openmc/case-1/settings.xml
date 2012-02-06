@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ===========================================================
+  Description: Idealized Oralloy sphere on Lucite ring in H2O
+  Case:        HEU-MET-FAST-004 Three-dimensional
+  Written By:  Paul Romano
+  Date:        2/5/2012
+  ===========================================================
+  -->
+
+  <criticality>
+    <cycles>3000</cycles>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>
+      -1.0 -1.0 -1.0
+       1.0  1.0  1.0
+    </coeffs>
+  </source>
+
+</settings>
