@@ -70,7 +70,7 @@
   <lattice id="100">
     <type>rectangular</type>
     <dimension>17 17</dimension>
-    <origin>-10.71 -10.71</origin>
+    <lower_left>-10.71 -10.71</lower_left>
     <width>1.26 1.26</width>
     <universes>
       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
@@ -97,7 +97,7 @@
   <lattice id="101">
     <type>rectangular</type>
     <dimension>17 17</dimension>
-    <origin>-10.71 -10.71</origin>
+    <lower_left>-10.71 -10.71</lower_left>
     <width>1.26 1.26</width>
     <universes>
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
@@ -124,7 +124,7 @@
   <lattice id="200">
     <type>rectangular</type>
     <dimension>21 21</dimension>
-    <origin>-224.91 -224.91</origin>
+    <lower_left>-224.91 -224.91</lower_left>
     <width>21.42 21.42</width>
     <universes>
       5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
@@ -155,7 +155,7 @@
   <lattice id="201">
     <type>rectangular</type>
     <dimension>21 21</dimension>
-    <origin>-224.91 -224.91</origin>
+    <lower_left>-224.91 -224.91</lower_left>
     <width>21.42 21.42</width>
     <universes>
       7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7

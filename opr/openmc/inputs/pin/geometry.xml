@@ -164,7 +164,7 @@
   <lattice id="20">
     <type>         rectangular </type>
     <dimension>          1  1  </dimension>
-    <origin> -0.6493 -0.6493 </origin>
+    <lower_left> -0.6493 -0.6493 </lower_left>
     <width>    1.2986 1.2986 </width>
     <universes>
       3

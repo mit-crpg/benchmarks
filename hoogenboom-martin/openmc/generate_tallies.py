@@ -30,7 +30,7 @@ for i, assem in enumerate(assemblies):
     x, y = assem
     fh.write('  <mesh id="{0}">\n'.format(i+1))
     fh.write('    <type>rectangular</type>\n')
-    fh.write('    <origin>{0} {1}</origin>\n'.format(
+    fh.write('    <lower_left>{0} {1}</lower_left>\n'.format(
             -182.07 + 21.42*(x-1), -182.07 + 21.42*(y-1)))
     fh.write('    <width>1.26 1.26</width>\n')
     fh.write('    <dimension>17 17</dimension>\n')

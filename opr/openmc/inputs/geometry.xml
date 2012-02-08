@@ -47,7 +47,7 @@
 
   <!-- Assembly Type 2 -->
   <lattice id="20" type="rectangular" dimension="16 16">
-    <origin> -10.3888 -10.3888 </origin>
+    <lower_left> -10.3888 -10.3888 </lower_left>
     <width>    1.2986 1.2986 </width>
     <universes>
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
@@ -72,7 +72,7 @@
 
   <!-- Assembly Type 3 -->
   <lattice id="30" type="rectangular" dimension="16 16">
-    <origin> -10.3888 -10.3888 </origin>
+    <lower_left> -10.3888 -10.3888 </lower_left>
     <width>    1.2986 1.2986 </width>
     <universes>
       4 4 5 5 5 5 5 5 5 5 5 5 5 5 4 4
@@ -97,7 +97,7 @@
 
   <!-- Assembly Type 4 -->
   <lattice id="40" type="rectangular" dimension="16 16">
-    <origin> -10.3888 -10.3888 </origin>
+    <lower_left> -10.3888 -10.3888 </lower_left>
     <width>    1.2986 1.2986 </width>
     <universes>
       4 4 5 5 5 5 5 5 5 5 5 5 5 5 4 4
@@ -122,7 +122,7 @@
 
   <!-- Assembly Type 5 -->
   <lattice id="50" type="rectangular" dimension="16 16">
-    <origin> -10.3888 -10.3888 </origin>
+    <lower_left> -10.3888 -10.3888 </lower_left>
     <width>    1.2986 1.2986 </width>
     <universes>
       5 5 6 6 6 6 6 6 6 6 6 6 6 6 5 5
@@ -147,7 +147,7 @@
 
   <!-- Assembly Type 6 -->
   <lattice id="60" type="rectangular" dimension="16 16">
-    <origin> -10.3888 -10.3888 </origin>
+    <lower_left> -10.3888 -10.3888 </lower_left>
     <width>    1.2986 1.2986 </width>
     <universes>
       5 5 6 6 6 6 6 6 6 6 6 6 6 6 5 5
@@ -183,7 +183,7 @@
 
   <!-- Core lattice -->
   <lattice id="99" type="rectangular" dimension="17 17">
-    <origin> -176.6096 -176.6096 </origin>
+    <lower_left> -176.6096 -176.6096 </lower_left>
     <width>   20.7776  20.7776 </width>
     <universes>
       100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100

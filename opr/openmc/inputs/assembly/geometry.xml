@@ -44,7 +44,7 @@
 
   <!-- Assembly Type 2 -->
   <lattice id="20" type="rectangular" dimension="16 16">
-    <origin> -10.3888 -10.3888 </origin>
+    <lower_left> -10.3888 -10.3888 </lower_left>
     <width>    1.2986 1.2986 </width>
     <universes>
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
@@ -80,7 +80,7 @@
 
   <!-- Core lattice -->
   <lattice id="99" type="rectangular" dimension="1 1">
-    <origin> -10.3888 -10.3888   </origin>
+    <lower_left> -10.3888 -10.3888   </lower_left>
     <width>    20.7776 20.7776 </width>
     <universes>            200 </universes>
   </lattice>
