@@ -39,7 +39,7 @@ for i, assem in enumerate(assemblies):
     fh.write('    <filters>\n')
     fh.write('      <mesh>{0}</mesh>\n'.format(i+1))
     fh.write('    </filters>\n')
-    fh.write('    <macros>nu-fission</macros>\n')
+    fh.write('    <scores>nu-fission</scores>\n')
     fh.write('  </tally>\n\n')
 
 # Write closing tags

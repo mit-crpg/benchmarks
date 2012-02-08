@@ -140,7 +140,7 @@
         1.90546E+01 1.99526E+01 2.00000E+01
       </energy>
     </filters>
-    <macros>flux</macros>
+    <scores>flux</scores>
   </tally>
 
 </tallies>
