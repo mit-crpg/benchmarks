@@ -2,7 +2,8 @@ Monte Carlo Performance Benchmark, version 1.2, July 2011
 c
 c  Core Lattice (Lower Half)
 c
-1     0  25 -26 27 -28 34 -35  imp:n=1 lat=1 fill=-10:10 -10:10 0:0
+100   0 -6  34 -35  fill=10  imp:n=1
+1     0  25 -26 27 -28  imp:n=1 lat=1 u=10 fill=-10:10 -10:10 0:0
       5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
       5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
       5 5 5 5 5 5 5 6 6 6 6 6 6 6 5 5 5 5 5 5 5
@@ -28,7 +29,8 @@ c
 c  Core Lattice (Lower Half)
 c
 c
-2     0  25 -26 27 -28 35 -36  imp:n=1 lat=1 fill=-10:10 -10:10 0:0
+200   0  -6  35 -36  fill=20 imp:n=1
+2     0  25 -26 27 -28  imp:n=1 lat=1 u=20 fill=-10:10 -10:10 0:0
       7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7
       7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7
       7 7 7 7 7 7 7 8 8 8 8 8 8 8 7 7 7 7 7 7 7
@@ -90,7 +92,7 @@ c
 c
 c  Water Assembly (Lower half)
 c
-50     3  0.07164  21 -22 23 -24   u=5 imp:n=1
+50     3  0.07164  25 -26 27 -28   u=5 imp:n=1
 c
 c  Fuel Assembly Lattice (Lower half)
 c
@@ -115,7 +117,7 @@ c
 c
 c  Water Assembly (Upper half)
 c
-70    4  0.06614  21 -22 23 -24  u=7 imp:n=1
+70    4  0.06614  25 -26 27 -28  u=7 imp:n=1
 c
 c  Fuel Assembly Lattice (Upper half)
 c
@@ -157,7 +159,7 @@ c
 25    px -10.71
 26    px  10.71
 27    py -10.71
-28    py -10.71
+28    py  10.71
 31    pz -229.0
 32    pz -199.0
 33    pz -193.0
