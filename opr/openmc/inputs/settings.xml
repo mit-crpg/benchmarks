@@ -11,7 +11,16 @@
   <!-- Starting source -->
   <source>
     <type>box</type>
-    <coeffs>-176.6096 -176.6096 -0.5 176.6096 176.6096 0.5</coeffs>
+    <coeffs>
+      -176.6096 -176.6096 -100
+       176.6096  176.6096  100
+    </coeffs>
   </source>
+
+  <entropy>
+    <dimension>17 17 1</dimension>
+    <lower_left>-176.6096 -176.6096 -100</lower_left>
+    <upper_right>176.6096  176.6096  100</upper_right>
+  </entropy>
 
 </settings>
