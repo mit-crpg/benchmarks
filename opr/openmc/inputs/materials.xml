@@ -8,6 +8,7 @@
     <nuclide name="O-16" xs="70c" wo="0.8872" />
     <nuclide name="B-10" xs="70c" wo="0.0002" />
     <nuclide name="B-11" xs="70c" wo="0.0008" />
+    <sab name="lwtr" xs="10t" />
   </material>
 
 <!-- material 2: 6% GD+NU -->
