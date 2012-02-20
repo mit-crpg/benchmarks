@@ -25,10 +25,6 @@ opr
 
 .. _INDC(USA)-107: http://www-nds.iaea.org/publications/indc/indc-usa-0107.pdf
 
-.. _Monte Carlo Performance Benckmark:
-.. http://www.oecd-nea.org/dbprog/MonteCarloPerformanceBenchmark.htm
+.. _Monte Carlo Performance Benchmark: http://www.oecd-nea.org/dbprog/MonteCarloPerformanceBenchmark.htm
 
-.. _International Handbook of Evaluated Criticality Safety Benchmark
-.. Experiments: http://icsbep.inel.gov/handbook.shtml
-
-.. _Lee et al.: 
+.. _International Handbook of Evaluated Criticality Safety Benchmark Experiments: http://icsbep.inel.gov/handbook.shtml
