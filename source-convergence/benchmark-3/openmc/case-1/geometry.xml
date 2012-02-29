@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =================================================================
+  Description: Three thick one-dimensional slabs
+  Case:        OECD/NEA Source Convergence Benchmark 3, Case 1 
+  Written By:  Paul Romano
+  Date:        2/29/2012
+  =================================================================
+  -->
+ 
+  <surface id="1" type="x-plane" coeffs="0.0" boundary="vacuum" />
+  <surface id="2" type="x-plane" coeffs="20.0" />
+  <surface id="3" type="x-plane" coeffs="40.0" />
+  <surface id="4" type="x-plane" coeffs="70.0" boundary="vacuum" />
+
+  <surface id="10" type="y-plane" coeffs="-10.0" boundary="reflective" />
+  <surface id="11" type="y-plane" coeffs="10.0" boundary="reflective" />
+  <surface id="12" type="z-plane" coeffs="-10.0" boundary="reflective" />
+  <surface id="13" type="z-plane" coeffs="10.0" boundary="reflective" />
+
+  <cell id="1" material="1" surfaces="1 -2 10 -11 12 -13" />
+  <cell id="2" material="2" surfaces="2 -3 10 -11 12 -13" />
+  <cell id="3" material="1" surfaces="3 -4 10 -11 12 -13" />
+
+</geometry>

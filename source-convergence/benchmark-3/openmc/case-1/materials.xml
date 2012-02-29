@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =================================================================
+  Description: Three thick one-dimensional slabs
+  Case:        OECD/NEA Source Convergence Benchmark 3, Case 1 
+  Written By:  Paul Romano
+  Date:        2/29/2012
+  =================================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Uranyl Nitrate -->
+  <material id="1">
+    <density value="0.0994869" units="atom/b-cm" />
+    <nuclide name="H-1"   ao="5.9347e-02" />
+    <nuclide name="N-14"  ao="2.1220e-03" />
+    <nuclide name="O-16"  ao="3.7258e-02" />
+    <nuclide name="U-235" ao="7.6864e-05" />
+    <nuclide name="U-238" ao="6.8303e-04" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Water -->
+  <material id="2">
+    <density value="0.099987" units="atom/b-cm" />
+    <nuclide name="H-1" ao="6.6658e-02" />
+    <nuclide name="O-16" ao="3.3329e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+</materials>

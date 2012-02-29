@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  =================================================================
+  Description: Three thick one-dimensional slabs
+  Case:        OECD/NEA Source Convergence Benchmark 3, Case 1 
+  Written By:  Paul Romano
+  Date:        2/29/2012
+  =================================================================
+  -->
+
+  <criticality>
+    <cycles>1000</cycles>
+    <inactive>100</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>
+      0.  -10. -10.
+      70.  10. 10.
+    </coeffs>
+  </source>
+
+  <entropy>
+    <lower_left>0. -10. -10.</lower_left>
+    <upper_right>70. 10. 10.</upper_right>
+  </entropy>
+
+</settings>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<plots>
+
+  <!--
+  =================================================================
+  Description: Three thick one-dimensional slabs
+  Case:        OECD/NEA Source Convergence Benchmark 3, Case 1 
+  Written By:  Paul Romano
+  Date:        2/29/2012
+  =================================================================
+  -->
+
+  <plot id="1">
+    <origin>35. 0. 0.</origin>
+    <width>70. 10.</width>
+    <pixels>100 100</pixels>
+  </plot>
+
+</plots>
