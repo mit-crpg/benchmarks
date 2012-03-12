@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <geometry>
 
-  <!-- CASE 1 FUEL ASSEMBLY -->
+  <!-- CASE 5 FUEL ASSEMBLY -->
   <lattice id="11" type="rectangular" dimension="15 15">
     <lower_left> -12.2682 -12.2682 </lower_left>
     <width>    1.63576 1.63576 </width>
@@ -611,8 +611,7 @@
   <!-- Core Surfaces -->
   <surface id="10" type="z-plane"    coeffs="       -81.662" boundary="vacuum"/>
   <surface id="20" type="z-plane"    coeffs="        81.662" boundary="vacuum"/>
-  <surface id="30" type="z-cylinder" coeffs="0.0 0.0 76.200" />
-  <surface id="40" type="z-cylinder" coeffs="0.0 0.0 77.470" boundary="vacuum"/>
+  <surface id="30" type="z-cylinder" coeffs="0.0 0.0 76.200" boundary="vacuum"/>
 
   <!-- Core lattice -->
   <lattice id="99" type="rectangular" dimension="7 7">
@@ -631,6 +630,5 @@
 
   <!-- Core Bounding Cell -->
   <cell id="1111" universe="0" fill="99"   surfaces="10 -20 -30"/>
-  <cell id="1112" universe="0" material="3" surfaces="10 -20 30 -40"/>
 
 </geometry>
