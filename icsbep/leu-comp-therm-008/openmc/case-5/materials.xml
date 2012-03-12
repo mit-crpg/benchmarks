@@ -55,7 +55,7 @@
   <!-- material 4: Pyrex -->
   <material id="4">
     <density value="0.07078021" units="atom/b-cm" />
-    <nuclide name="B-10" ao="9.7591e-04" />
+    <nuclide name="B-10" ao="9.7491e-04" />
     <nuclide name="B-11" ao="3.9241e-03" />
     <nuclide name="O-16" ao="4.4829e-02" />
     <nuclide name="Na-23" ao="1.7444e-03" />
