@@ -1,5 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <settings>
+
+  <!--
+  ==========================================================
+  Description: B&W Critical Lattices Core XI
+  Case:        LEU-COMP-THERM Loading 8
+  Written By:  Nick Horelik, Paul Romano
+  Date:        03/12/2012
+  ==========================================================
+  -->
 
   <!-- Parameters for criticality calculation -->
   <criticality>

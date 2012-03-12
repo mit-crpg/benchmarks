@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <plots>
 
+  <!--
+  ==========================================================
+  Description: B&W Critical Lattices Core XI
+  Case:        LEU-COMP-THERM Loading 8
+  Written By:  Nick Horelik, Paul Romano
+  Date:        03/12/2012
+  ==========================================================
+  -->
+
   <plot id="1" type="slice" basis="xy" color="mat">
     <origin> 0.0 0.0 0.0 </origin>
     <width> 155 155 </width>

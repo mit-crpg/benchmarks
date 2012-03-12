@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <geometry>
 
+  <!--
+  ==========================================================
+  Description: B&W Critical Lattices Core XI
+  Case:        LEU-COMP-THERM Loading 7
+  Written By:  Nick Horelik, Paul Romano
+  Date:        03/12/2012
+  ==========================================================
+  -->
+
   <!-- CASE 7 FUEL ASSEMBLY -->
   <lattice id="11" type="rectangular" dimension="15 15">
     <lower_left> -12.2682 -12.2682 </lower_left>

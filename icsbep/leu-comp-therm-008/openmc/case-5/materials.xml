@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <materials>
 
+  <!--
+  ==========================================================
+  Description: B&W Critical Lattices Core XI
+  Case:        LEU-COMP-THERM Loading 5
+  Written By:  Nick Horelik, Paul Romano
+  Date:        03/12/2012
+  ==========================================================
+  -->
+
   <default_xs>70c</default_xs>
 
   <!-- Water with 1182 PPM Boron -->
