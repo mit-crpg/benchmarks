@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<materials>
+
+  <default_xs>70c</default_xs>
+
+  <!-- Water with 1384 PPM Boron -->
+  <material id="1">
+    <density value="0.99823" units="g/cc" />
+    <nuclide name="H-1"  ao="6.6737e-02" />
+    <nuclide name="O-16" ao="3.3369e-02" />
+    <nuclide name="B-10" ao="1.5359e-05" />
+    <nuclide name="B-11" ao="6.1824e-05" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Fuel (2.459 w/o with B-10 for impurities) -->
+  <material id="2">
+    <density value="10.24" units="g/cc" />
+    <nuclide name="U-234" ao="4.5689e-06" />
+    <nuclide name="U-235" ao="5.6868e-04" />
+    <nuclide name="U-238" ao="2.2268e-02" />
+    <nuclide name="O-16"  ao="4.5683e-02" />
+    <nuclide name="B-10"  ao="2.6055e-07" />
+  </material>
+
+  <!-- Fuel Aluminum 6061 cladding -->
+  <material id="3">
+    <density value="2.5052" units="g/cc" />
+    <nuclide name="Al-27" ao="9.7480e-01" />
+    <nuclide name="Mn-55" ao="7.4378e-04" />
+    <nuclide name="Mg-24" ao="8.8532e-03" />
+    <nuclide name="Mg-25" ao="1.1208e-03" />
+    <nuclide name="Mg-26" ao="1.2340e-03" />
+    <nuclide name="Si-28" ao="5.3675e-03" />
+    <nuclide name="Si-29" ao="2.7255e-04" />
+    <nuclide name="Si-30" ao="1.7966e-04" />
+    <nuclide name="Ti-46" ao="7.0407e-05" />
+    <nuclide name="Ti-47" ao="6.3494e-05" />
+    <nuclide name="Ti-48" ao="6.2914e-04" />
+    <nuclide name="Ti-49" ao="4.6170e-05" />
+    <nuclide name="Ti-50" ao="4.4207e-05" />
+    <nuclide name="Cr-50" ao="4.5514e-05" />
+    <nuclide name="Cr-52" ao="8.7769e-04" />
+    <nuclide name="Cr-53" ao="9.9523e-05" />
+    <nuclide name="Cr-54" ao="2.4773e-05" />
+    <nuclide name="Fe-54" ao="1.9958e-04" />
+    <nuclide name="Fe-56" ao="3.1330e-03" />
+    <nuclide name="Fe-57" ao="7.2355e-05" />
+    <nuclide name="Fe-58" ao="9.6292e-06" />
+    <nuclide name="Cu-63" ao="7.4129e-04" />
+    <nuclide name="Cu-65" ao="3.3041e-04" />
+    <nuclide name="Zn-Nat" ao="1.0415e-03" />
+  </material>
+
+  <!-- Al2O3 -->
+  <material id="4">
+    <density value="1.3132" units="g/cm3" />
+    <nuclide name="O-16"  ao="2.3036e-02" />
+    <nuclide name="Al-27" ao="1.5357e-02" />
+  </material>
+
+  <!-- Cladding for Al2O3 Perturbing Rods -->
+  <material id="5">
+    <density value="0.059687" units="atom/b-cm" />
+    <nuclide name="Mg-24" ao="5.2843e-04" />
+    <nuclide name="Mg-25" ao="6.6898e-05" />
+    <nuclide name="Mg-26" ao="7.3655e-05" />
+    <nuclide name="Al-27" ao="5.8183e-02" />
+    <nuclide name="Si-28" ao="3.2037e-04" />
+    <nuclide name="Si-29" ao="1.6267e-05" />
+    <nuclide name="Si-30" ao="1.0724e-05" />
+    <nuclide name="Ti-46" ao="4.2025e-06" />
+    <nuclide name="Ti-47" ao="3.7899e-06" />
+    <nuclide name="Ti-48" ao="3.7552e-05" />
+    <nuclide name="Ti-49" ao="2.7558e-06" />
+    <nuclide name="Ti-50" ao="2.6386e-06" />
+    <nuclide name="Cr-50" ao="2.7174e-06" />
+    <nuclide name="Cr-52" ao="5.2403e-05" />
+    <nuclide name="Cr-53" ao="5.9421e-06" />
+    <nuclide name="Cr-54" ao="1.4791e-06" />
+    <nuclide name="Mn-55" ao="4.4395e-05" />
+    <nuclide name="Fe-54" ao="1.1912e-05" />
+    <nuclide name="Fe-56" ao="1.8699e-04" />
+    <nuclide name="Fe-57" ao="4.3185e-06" />
+    <nuclide name="Fe-58" ao="5.7472e-07" />
+    <nuclide name="Cu-63" ao="4.4247e-05" />
+    <nuclide name="Cu-65" ao="1.9721e-05" />
+    <nuclide name="Zn-Nat" ao="6.2164e-05" />
+  </material>
+
+</materials>
