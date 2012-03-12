@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<materials>
+
+  <default_xs>70c</default_xs>
+
+  <!-- material 1: Water with 794 PPM Boron -->
+  <material id="1">
+    <density value="0.99823" units="g/cc" />
+    <nuclide name="H-1"  ao="6.6737e-02" />
+    <nuclide name="O-16" ao="3.3369e-02" />
+    <nuclide name="B-10" ao="8.8117e-06" />
+    <nuclide name="B-11" ao="3.5468e-05" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- material 2: Fuel (2.459 w/o with B-10 for impurities) -->
+  <material id="2">
+    <density value="10.24" units="g/cc" />
+    <nuclide name="U-234" ao="4.5689e-06" />
+    <nuclide name="U-235" ao="5.6868e-04" />
+    <nuclide name="U-238" ao="2.2268e-02" />
+    <nuclide name="O-16"  ao="4.5683e-02" />
+    <nuclide name="B-10"  ao="2.6055e-07" />
+  </material>
+
+  <!-- material 3: Fuel Aluminum 6061 cladding -->
+  <material id="3">
+    <density value="2.5052" units="g/cc" />
+    <nuclide name="Al-27" ao="9.7480e-01" />
+    <nuclide name="Mn-55" ao="7.4378e-04" />
+    <nuclide name="Mg-24" ao="8.8532e-03" />
+    <nuclide name="Mg-25" ao="1.1208e-03" />
+    <nuclide name="Mg-26" ao="1.2340e-03" />
+    <nuclide name="Si-28" ao="5.3675e-03" />
+    <nuclide name="Si-29" ao="2.7255e-04" />
+    <nuclide name="Si-30" ao="1.7966e-04" />
+    <nuclide name="Ti-46" ao="7.0407e-05" />
+    <nuclide name="Ti-47" ao="6.3494e-05" />
+    <nuclide name="Ti-48" ao="6.2914e-04" />
+    <nuclide name="Ti-49" ao="4.6170e-05" />
+    <nuclide name="Ti-50" ao="4.4207e-05" />
+    <nuclide name="Cr-50" ao="4.5514e-05" />
+    <nuclide name="Cr-52" ao="8.7769e-04" />
+    <nuclide name="Cr-53" ao="9.9523e-05" />
+    <nuclide name="Cr-54" ao="2.4773e-05" />
+    <nuclide name="Fe-54" ao="1.9958e-04" />
+    <nuclide name="Fe-56" ao="3.1330e-03" />
+    <nuclide name="Fe-57" ao="7.2355e-05" />
+    <nuclide name="Fe-58" ao="9.6292e-06" />
+    <nuclide name="Cu-63" ao="7.4129e-04" />
+    <nuclide name="Cu-65" ao="3.3041e-04" />
+    <nuclide name="Zn-Nat" ao="1.0415e-03" />
+  </material>
+
+  <!-- material 4: Pyrex -->
+  <material id="4">
+    <density value="0.07078021" units="atom/b-cm" />
+    <nuclide name="B-10" ao="9.7491e-04" />
+    <nuclide name="B-11" ao="3.9241e-03" />
+    <nuclide name="O-16" ao="4.4829e-02" />
+    <nuclide name="Na-23" ao="1.7444e-03" />
+    <nuclide name="Al-27" ao="1.0018e-03" />
+    <nuclide name="Si-28" ao="1.6884e-02" />
+    <nuclide name="Si-29" ao="8.5730e-04" />
+    <nuclide name="Si-30" ao="5.6513e-04" />
+  </material>
+
+</materials>
