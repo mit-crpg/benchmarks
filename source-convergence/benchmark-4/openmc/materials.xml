@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ====================================================
+  Description: Infinite array of fuel pins
+  Case:        OECD/NEA Source Convergence Benchmark 4
+  Written by:  Ruaridh Macdonald
+  Date:        3/5/2012
+  ====================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- U fuel -->
+  <material id="1">
+    <density value="0.04805" units="atom/b-cm" />
+    <nuclide name="U-235"  ao="4.549e-02" />
+    <nuclide name="U-238"  ao="2.560e-03" />
+  </material>
+
+  <!-- Air -->
+  <material id="2">
+    <density value="5.406e-05" units="atom/b-cm" />
+    <nuclide name="N-14" ao="4.3250e-05" />
+    <nuclide name="O-16" ao="1.0810e-05"  />
+  </material>
+
+</materials>

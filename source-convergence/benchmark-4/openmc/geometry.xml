@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ====================================================
+  Description: Infinite array of fuel pins
+  Case:        OECD/NEA Source Convergence Benchmark 4
+  Written by:  Ruaridh Macdonald
+  Date:        3/5/2012
+  ====================================================
+  -->
+
+  <!-- Spheres -->
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 8.71" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 10."  />
+
+  <!-- Bounding planes -->
+  <surface id="10" type="x-plane" coeffs="-200.0" boundary="vacuum" />
+  <surface id="11" type="x-plane" coeffs="200.0"  boundary="vacuum" />
+  <surface id="12" type="y-plane" coeffs="-200.0" boundary="vacuum" />
+  <surface id="13" type="y-plane" coeffs="200.0"  boundary="vacuum" />
+  <surface id="14" type="z-plane" coeffs="-20.0" boundary="vacuum" />
+  <surface id="15" type="z-plane" coeffs="20.0"  boundary="vacuum" />
+
+  <!-- Outermost cell and lattice -->
+  <cell id="1" fill="100" surfaces="10 -11 12 -13 14 -15" />
+  <lattice id="100" type="rectangular" dimension="5 5" lower_left="-200. -200." width="80. 80.">
+    <universes>
+      1 1 1 1 1
+      1 1 1 1 1
+      1 1 2 1 1
+      1 1 1 1 1
+      1 1 1 1 1
+    </universes>
+  </lattice>
+
+  <!-- Small metal sphere -->
+  <cell id="10" universe="1" material="1" surfaces="-1" />
+  <cell id="11" universe="1" material="2" surfaces="1"  />
+
+  <!-- Large metal sphere -->
+  <cell id="20" universe="2" material="1" surfaces="-2" />
+  <cell id="21" universe="2" material="2" surfaces="2"  />
+
+</geometry>
