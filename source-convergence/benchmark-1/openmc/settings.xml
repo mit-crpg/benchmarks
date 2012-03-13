@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ==============================================================
+  Description: Infinite array of fuel pins
+  Case:        OECD/NEA Source Convergence Benchmark 1, Case 1
+  Written by:  Ruaridh Macdonald
+  Date:        3/5/2012
+  ==============================================================
+  -->
+
+  <criticality>
+    <cycles>520</cycles>
+    <inactive>20</inactive>
+    <particles>1000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>
+      0. 0. 0.
+      648. 81. 360.
+    </coeffs>
+  </source>
+
+  <entropy>
+    <lower_left>0. 0. 0.</lower_left>
+    <upper_right>648. 81. 360.</upper_right>
+  </entropy>
+
+</settings>

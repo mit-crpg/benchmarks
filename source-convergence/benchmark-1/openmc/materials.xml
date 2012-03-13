@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==============================================================
+  Description: Infinite array of fuel pins
+  Case:        OECD/NEA Source Convergence Benchmark 1, Case 1
+  Written by:  Ruaridh Macdonald
+  Date:        3/5/2012
+  ==============================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- UO2 fuel -->
+  <material id="1">
+    <density value="0.06925613" units="atom/b-cm" />
+    <nuclide name="U-235"  ao="2.2380e-02" />
+    <nuclide name="U-238"  ao="8.2213e-04" />
+    <nuclide name="O-16"   ao="4.6054e-02" />
+  </material>
+
+  <!-- Zirconium Clad -->
+  <material id="2">
+    <density value="4.2910e-02" units="atom/b-cm" />
+    <nuclide name="Zr-90" ao="2.2077e-02" />
+    <nuclide name="Zr-91" ao="4.8145e-03" />
+    <nuclide name="Zr-92" ao="7.3591e-03" />
+    <nuclide name="Zr-94" ao="7.4578e-03" />
+    <nuclide name="Zr-96" ao="1.2015e-03" />
+  </material>
+
+  <!-- Water -->
+  <material id="3">
+    <density value="0.100059" units="atom/b-cm" />
+    <nuclide name="H-1"  ao="6.6706e-02" />
+    <nuclide name="O-16" ao="3.3353e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Iron -->
+  <material id="4">
+    <density value="8.3770e-02" units="atom/b-cm" />
+    <nuclide name="Fe-54" ao="4.8964e-03" />
+    <nuclide name="Fe-56" ao="7.6862e-02" />
+    <nuclide name="Fe-57" ao="1.7751e-03" />
+    <nuclide name="Fe-58" ao="2.3623e-04" />
+  </material>
+
+  <!-- Concrete -->
+  <material id="5">
+    <density value="0.0725757" units="atom/b-cm" />
+    <nuclide name="H-1"   ao="5.5437e-03" />
+    <nuclide name="C-Nat" ao="6.9793e-03" />
+    <nuclide name="Si-28" ao="7.1115e-03" />
+    <nuclide name="Si-29" ao="3.6110e-04" />
+    <nuclide name="Si-30" ao="2.3804e-04" />
+    <nuclide name="Ca-40" ao="8.6850e-03" />
+    <nuclide name="Ca-42" ao="5.7965e-05" />
+    <nuclide name="Ca-43" ao="1.2095e-05" />
+    <nuclide name="Ca-44" ao="1.8689e-04" />
+    <nuclide name="Ca-46" ao="3.5836e-07" />
+    <nuclide name="Ca-48" ao="1.6754e-05" />
+    <nuclide name="O-16" ao="4.3383e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+</materials>
