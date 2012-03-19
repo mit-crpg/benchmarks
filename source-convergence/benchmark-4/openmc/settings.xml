@@ -11,7 +11,7 @@
   -->
 
   <criticality>
-    <cycles>1000</cycles>
+    <batches>1000</batches>
     <inactive>50</inactive>
     <particles>10000</particles>
   </criticality>

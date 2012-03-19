@@ -3,7 +3,7 @@
 
   <!-- Parameters for criticality calculation -->
   <criticality>
-    <cycles>110</cycles>
+    <batches>110</batches>
     <inactive>10</inactive>
     <particles>10000</particles>
   </criticality>
