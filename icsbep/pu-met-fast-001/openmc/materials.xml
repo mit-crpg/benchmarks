@@ -21,7 +21,7 @@
   <default_xs>70c</default_xs>
 
   <material id="1">
-    <density value="0.04029014" units="atom/b-cm" />
+    <density value="15.61" units="g/cm3" />
     <nuclide name="Pu-239" ao="0.037047" />
     <nuclide name="Pu-240" ao="0.0017512" />
     <nuclide name="Pu-241" ao="0.00011674" />
