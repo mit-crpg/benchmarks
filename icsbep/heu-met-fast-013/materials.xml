@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =========================================================
+  Description: Sphere of HEU Reflected by Steel
+  Case:        HEU-MET-FAST-013
+  Written By:  Katie Biegel
+  Date:        3.19.2012
+  =========================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Void -->
+  <material id="1">
+    <density value="1e-12" units="atom/b-cm" />
+    <nuclide name="O-16" ao="1.0" />
+  </material>
+
+  <!-- HEU -->
+  <material id="2">
+    <density units="sum" />
+    <nuclide name="U-234" ao="5.2209e-4" />
+    <nuclide name="U-235" ao="4.1011e-2" />
+    <nuclide name="U-236" ao="8.8453e-5" />
+    <nuclide name="U-238" ao="4.0989e-3" />
+    <nuclide name="C-Nat" ao="3.9946e-4" />
+    <nuclide name="Fe-54" ao="7.911792e-6" />
+    <nuclide name="Fe-56" ao="0.000124198214" />
+    <nuclide name="Fe-57" ao="2.8682784e-6" />
+    <nuclide name="Fe-58" ao="3.817152e-7" />
+    <nuclide name="Ni-58" ao=".000230392653" />
+    <nuclide name="Ni-60" ao="8.8747e-5" />
+    <nuclide name="Ni-61" ao="3.85776357e-6" />
+    <nuclide name="Ni-62" ao="1.230023835e-5" />
+    <nuclide name="Ni-64" ao="3.1325e-6" />
+    <nuclide name="Cu-63" ao="5.044706e-4" />
+    <nuclide name="Cu-65" ao="2.248494e-4" />
+    <!-- <nuclide name="W-180" ao="1.494e-8" /> -->
+    <nuclide name="W-182" ao="3.3142e-6" />
+    <nuclide name="W-183" ao="1.781595e-6" />
+    <nuclide name="W-184" ao="3.81468e-6" />
+    <nuclide name="W-186" ao="3.539535e-6" />
+  </material>
+
+  <!-- Steel -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="Fe-54" ao=".0048253" />
+    <nuclide name="Fe-56" ao=".0757475" />
+    <nuclide name="Fe-57" ao=".0017493" />
+    <nuclide name="Fe-58" ao=".0002328" />
+    <nuclide name="C-Nat" ao="7.7554e-4" />
+    <nuclide name="Si-28" ao=".00032119" />
+    <nuclide name="Si-29" ao=".000016309" />
+    <nuclide name="Si-30" ao=".000010751" />
+    <nuclide name="Cr-50" ao="2.91901445e-6" />
+    <nuclide name="Cr-52" ao="5.629028809e-5" />
+    <nuclide name="Cr-53" ao="6.38286681e-6" />
+    <nuclide name="Cr-54" ao="1.58883065e-6" />
+    <nuclide name="Mn-55" ao="4.4508e-4" />
+  </material>
+
+  <!-- Fe -->
+  <material id="4">
+    <density units="sum" />
+    <nuclide name="Fe-54" ao="4.7446e-3" />
+    <nuclide name="Fe-56" ao="7.448e-2" />
+    <nuclide name="Fe-57" ao="1.7201e-3" />
+    <nuclide name="Fe-58" ao="2.2891e-4" />
+  </material>
+
+</materials>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  =========================================================
+  Description: Sphere of HEU Reflected by Steel
+  Case:        HEU-MET-FAST-013 Simplified model
+  Written By:  Katie Biegel
+  Date:        4.5.2012
+  =========================================================
+  -->
+ 
+  <criticality>
+    <batches>150</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>-1. -1. -1. 1. 1. 1.</coeffs>
+  </source>
+
+</settings>
