@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==========================================================
+  Description: Bare HEU cylinder, VNIITF
+  Case:        HEU-MET-FAST-015
+  Written By:  Jedidiah Phillips
+  Date:        3/13/2012
+  ==========================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Bottom -->
+  <material id="1">
+    <density value="18.6216" units="g/cm3" />
+    <nuclide name="U-234" ao="5.6597e-4" />
+    <nuclide name="U-235" ao="4.5774e-2" />
+    <nuclide name="U-238" ao="1.3381e-3" />
+    <nuclide name="C-Nat" ao="1.0270e-4" />
+    <!-- <nuclide name="W-180" ao="1.4639e-09" /> -->
+    <nuclide name="W-182" ao="3.2474e-07" />
+    <nuclide name="W-183" ao="1.7457e-07" />
+    <nuclide name="W-184" ao="3.7378e-07" />
+    <nuclide name="W-186" ao="3.4682e-07" />
+    <nuclide name="Fe-54" ao="2.9342e-06" />
+    <nuclide name="Fe-56" ao="4.6061e-05" />
+    <nuclide name="Fe-57" ao="1.0638e-06" />
+    <nuclide name="Fe-58" ao="1.4157e-07" />
+  </material>
+
+  <!-- Top -->
+  <material id="2">
+    <density value="18.5963" units="g/cm3" />
+    <nuclide name="U-234" ao="5.6404e-4" />
+    <nuclide name="U-235" ao="4.5708e-2" />
+    <nuclide name="U-238" ao="1.3404e-3" />
+    <nuclide name="C-Nat" ao="1.0256e-4" />
+    <!-- <nuclide name="W-180" ao="1.4620e-09" /> -->
+    <nuclide name="W-182" ao="3.2431e-07" />
+    <nuclide name="W-183" ao="1.7434e-07" />
+    <nuclide name="W-184" ao="3.7329e-07" />
+    <nuclide name="W-186" ao="3.4636e-07" />
+    <nuclide name="Fe-54" ao="2.9302e-06" />
+    <nuclide name="Fe-56" ao="4.5997e-05" />
+    <nuclide name="Fe-57" ao="1.0623e-06" />
+    <nuclide name="Fe-58" ao="1.4137e-07" />
+  </material>
+
+  <!-- Steel Diaphragm and Steel Plate -->
+  <material id="3">
+    <density value="7.6" units="g/cm3" />
+    <nuclide name="Fe-54" ao="4.7422e-03" />
+    <nuclide name="Fe-56" ao="7.4443e-02" />
+    <nuclide name="Fe-57" ao="1.7192e-03" />
+    <nuclide name="Fe-58" ao="2.2880e-04" />
+  </material>
+
+  <!-- Void -->
+  <material id="4">
+    <density value="5.0306e-12" units="atom/b-cm" />
+    <nuclide name="O-16" ao="1.5092e-5" />
+  </material>
+
+</materials>
