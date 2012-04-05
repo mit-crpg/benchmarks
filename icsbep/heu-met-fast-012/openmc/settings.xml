@@ -17,8 +17,6 @@
    <particles>10000</particles>
  </criticality>
 
- <trace></trace>
-
  <source>
    <type>box</type>
    <coeffs>-1 -1 -1 1 1 1</coeffs>
