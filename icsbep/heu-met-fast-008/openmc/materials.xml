@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<materials>
+
+ <!--
+ ===================================================
+ Description: Bare Sphere of Highly Enriched Uranium
+ Case:        HEU-MET-FAST-008
+ Written By:  Steven Fine
+ Date:        3/15/2012
+ ===================================================
+ -->
+
+ <default_xs>70c</default_xs>
+
+ <material id="1">
+   <density value="18.0050" units="g/cm3" />
+   <nuclide name="U-235" ao="4.1031e-2" />
+   <nuclide name="U-238" ao="4.1021e-3" />
+   <nuclide name="U-234" ao="5.2273e-4" />
+   <nuclide name="U-236" ao="8.8071e-5" />
+   <nuclide name="C-Nat" ao="3.8642e-4" />
+   <nuclide name="Fe-54" ao="7.9270e-06" />
+   <nuclide name="Fe-56" ao="1.2444e-04" />
+   <nuclide name="Fe-57" ao="2.8738e-06" />
+   <nuclide name="Fe-58" ao="3.8245e-07" />
+   <nuclide name="W-182" ao="3.3049e-06" />
+   <nuclide name="W-183" ao="1.7766e-06" />
+   <nuclide name="W-184" ao="3.8040e-06" />
+   <nuclide name="W-186" ao="3.5296e-06" />
+   <nuclide name="Cu-63" ao="4.9132e-04" />
+   <nuclide name="Cu-65" ao="2.1899e-04" />
+   <nuclide name="Ni-58" ao="2.2439e-04" />
+   <nuclide name="Ni-60" ao="8.6434e-05" />
+   <nuclide name="Ni-61" ao="3.7572e-06" />
+   <nuclide name="Ni-62" ao="1.1980e-05" />
+   <nuclide name="Ni-64" ao="3.0509e-06" />
+ </material>
+
+ <material id="2">
+   <density value="18.5581" units="g/cm3" />
+   <nuclide name="U-235" ao="4.2698e-2" />
+   <nuclide name="U-238" ao="4.0143e-3" />
+   <nuclide name="U-234" ao="5.3154e-4" />
+   <nuclide name="U-236" ao="1.7489e-4" />
+   <nuclide name="C-Nat" ao="1.4403e-4" />
+   <nuclide name="Fe-54" ao="2.2195e-06" />
+   <nuclide name="Fe-56" ao="3.4841e-05" />
+   <nuclide name="Fe-57" ao="8.0463e-07" />
+   <nuclide name="Fe-58" ao="1.0708e-07" />
+   <nuclide name="W-182" ao="1.6160e-07" />
+   <nuclide name="W-183" ao="8.6873e-08" />
+   <nuclide name="W-184" ao="1.8601e-07" />
+   <nuclide name="W-186" ao="1.7259e-07" />
+   <nuclide name="Al-27" ao="5.4473e-4" />
+ </material>
+
+ <material id="3">
+   <density value="7.5278" units="g/cm3" />
+   <nuclide name="Fe-54" ao="4.7446e-03" />
+   <nuclide name="Fe-56" ao="7.4480e-02" />
+   <nuclide name="Fe-57" ao="1.7201e-03" />
+   <nuclide name="Fe-58" ao="2.2891e-04" />
+ </material>
+
+ <material id="4">
+   <density value="8.6913" units="g/cm3" />
+   <nuclide name="Cu-63" ao="5.6972e-02" />
+   <nuclide name="Cu-65" ao="2.5393e-02" />
+ </material>
+
+ <material id="5">
+   <density value="1e-12" units="atom/b-cm" />
+   <nuclide name="O-16" ao="1.0" />
+ </material>
+
+</materials>
