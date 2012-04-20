@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =========================================================
+  Description: Sphere of HEU Reflected by Beryllium
+  Case:        HEU-MET-FAST-009 Case 1
+  Written By:  Katie Biegel
+  Date:        4.20.2012
+  =========================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Void -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="O-16" ao="1.0e-12" />
+  </material>
+
+  <!-- HEU -->
+  <material id="2">
+    <density units="sum" />
+    <nuclide name="U-234" ao="5.2195e-4" />
+    <nuclide name="U-235" ao="4.1000e-2" />
+    <nuclide name="U-236" ao="8.8422e-5" />
+    <nuclide name="U-238" ao="4.0977e-3" />
+    <nuclide name="C-Nat" ao="3.9932e-4" />
+    <nuclide name="Fe-54" ao="7.9089e-6" />
+    <nuclide name="Fe-56" ao="1.2415e-4" />
+    <nuclide name="Fe-57" ao="2.8672e-6" />
+    <nuclide name="Fe-58" ao="3.8157e-7" />
+    <nuclide name="W-182" ao="3.3129e-6" />
+    <nuclide name="W-183" ao="1.7809e-6" />
+    <nuclide name="W-184" ao="3.8131e-6" />
+    <nuclide name="W-186" ao="3.5381e-6" />
+    <nuclide name="Cu-63" ao="5.0725e-4" />
+    <nuclide name="Cu-65" ao="2.2609e-4" />
+    <nuclide name="Ni-58" ao="2.3166e-4" />
+    <nuclide name="Ni-60" ao="8.9235e-5" />
+    <nuclide name="Ni-61" ao="3.8790e-6" />
+    <nuclide name="Ni-62" ao="1.2368e-5" />
+    <nuclide name="Ni-64" ao="3.1497e-6" />
+  </material>
+
+  <!-- Be Reflector -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="Be-9" ao="1.2080e-1" />
+    <nuclide name="O-16" ao="8.2022e-5" />
+    <nuclide name="O-17" ao="3.1180e-8" />
+    <nuclide name="C-Nat" ao="1.0019e-4" />
+    <nuclide name="Fe-54" ao="2.9770e-6" />
+    <nuclide name="Fe-56" ao="4.6732e-5" />
+    <nuclide name="Fe-57" ao="1.0792e-6" />
+    <nuclide name="Fe-58" ao="1.4363e-7" />
+  </material>
+
+  <!-- Fe -->
+  <material id="4">
+    <density units="sum" />
+    <nuclide name="Fe-54" ao="4.7446e-3" />
+    <nuclide name="Fe-56" ao="7.4480e-2" />
+    <nuclide name="Fe-57" ao="1.7201e-3" />
+    <nuclide name="Fe-58" ao="2.2891e-4" />
+  </material>
+
+</materials>
