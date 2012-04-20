@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =========================================================
+  Description: HEU Sphere Reflected by Beryllium
+  Case:        HEU-MET-FAST-009 Case 1 Simplified Model
+  Written By:  Katie Biegel
+  Date:        3.29.2012
+  =========================================================
+  -->
+  <surface id="1" type="x-cylinder" coeffs="0. 0. .6" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 7.55" />
+  <surface id="3" type="sphere" coeffs="0. 0. 0. 8.35" />
+  <surface id="4" type="sphere" coeffs="0. 0. 2.06 7.55" />
+  <surface id="5" type="sphere" coeffs="0. 0. 2.06 8.35" />
+  <surface id="6" type="x-cylinder" coeffs="0. 2.06 .6" />
+  <surface id="7" type="z-cylinder" coeffs="0. 0. 7.75" />
+  <surface id="8" type="z-plane" coeffs="-.15" />
+  <surface id="9" type="z-plane" coeffs="0." />
+  <surface id="10" type="z-plane" coeffs="1.86" />
+  <surface id="11" type="z-plane" coeffs="2.06" />
+  <surface id="12" type="z-plane" coeffs="2.21" />
+  <surface id="13" type="sphere" coeffs="0. 0. 0. 11." boundary="vacuum" />
+  <surface id="14" type="z-cylinder" coeffs="0. 0. 1.1" />
+  <surface id="15" type="sphere" coeffs="0. 0. 2.06 11." boundary="vacuum" />
+  <surface id="16" type="z-cylinder" coeffs="0. 0. 11" boundary="vacuum" />
+
+  <cell id="1" material="1" surfaces="-1 -2" />
+  <cell id="2" material="2" surfaces="1 -2" />
+  <cell id="3" material="2" surfaces="2 -3 -9 1" />
+  <cell id="4" material="1" surfaces="2 -3 -9 -1" />
+  <cell id="5" material="1" surfaces="8 -9 3 -16 -13" />
+  <cell id="6" material="1" surfaces="9 -10 2 -16" />
+  <cell id="7" material="1" surfaces="10 -11 2 -7" />
+  <cell id="8" material="1" surfaces="11 2 -4" />
+  <cell id="9" material="1" surfaces="11 4 -5 -6" />
+  <cell id="10" material="2" surfaces="11 4 -5 6" />
+  <cell id="11" material="4" surfaces="10 -11 7 -16" />
+  <cell id="12" material="1" surfaces="11 -12 5 -16 -15" />
+  <cell id="13" material="3" surfaces="3 -13 -8" />
+  <cell id="14" material="1" surfaces="5 -14 -15 12" />
+  <cell id="15" material="3" surfaces="5 14 -15 12" />
+
+</geometry>
