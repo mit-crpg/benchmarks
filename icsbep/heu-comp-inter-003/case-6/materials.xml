@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =========================================================
+  Description: Reflected Uranium-Hydride Critical Assembly
+  Case:        HEU-COMP-INTER-003 Case 6
+  Written By:  Katie Biegel
+  Date:        4.21.2012
+  =========================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Void -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="O-16" ao="1.0e-12" />
+  </material>
+
+  <!-- Al -->
+  <material id="2">
+    <density units="sum" />
+    <nuclide name="Al-27" ao="6.0239e-2" />
+  </material>
+
+  <!-- D38 -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="U-235" ao="9.7360e-5" />
+    <nuclide name="U-238" ao="4.7969e-2" />
+  </material>
+
+  <!-- SAE 1020 Steel -->
+  <material id="4">
+    <density units="sum" />
+    <nuclide name="Fe-54" ao="4.0487e-3" />
+    <nuclide name="Fe-56" ao="6.3555e-2" />
+    <nuclide name="Fe-57" ao="1.4678e-3" />
+    <nuclide name="Fe-58" ao="1.9533e-4" />
+    <nuclide name="C-Nat" ao="5.4977e-4" />
+    <nuclide name="Mn-55" ao="1.6969e-4" />
+  </material>
+
+  <!-- HEU, Can I -->
+  <material id="51">
+    <density units="sum" />
+    <nuclide name="H-1" ao="7.3863e-2" />
+    <nuclide name="H-2" ao="8.4952e-6" />
+    <nuclide name="O-16" ao="8.5520e-4" />
+    <nuclide name="O-17" ao="3.2510e-7" />
+    <nuclide name="C-Nat" ao="1.4562e-4" />
+    <nuclide name="N-14" ao="1.3543e-3" />
+    <nuclide name="N-15" ao="5.0022e-6" />
+    <nuclide name="Fe-54" ao="2.1438e-6" />
+    <nuclide name="Fe-56" ao="3.3653e-5" />
+    <nuclide name="Fe-57" ao="7.7719e-7" />
+    <nuclide name="Fe-58" ao="1.0343e-7" />
+    <nuclide name="Au-197" ao="3.3980e-4" />
+    <nuclide name="U-234" ao="2.5279e-4" />
+    <nuclide name="U-235" ao="2.3450e-2" />
+    <nuclide name="U-236" ao="1.1027e-4" />
+    <nuclide name="U-238" ao="1.3421e-3" />
+  </material>
+
+  <!-- HEU, Can II -->
+  <material id="52">
+    <density units="sum" />
+    <nuclide name="H-1" ao="7.5387e-2" />
+    <nuclide name="H-2" ao="8.6705e-6" />
+    <nuclide name="O-16" ao="5.6681e-4" />
+    <nuclide name="O-17" ao="2.1547e-7" />
+    <nuclide name="C-Nat" ao="1.9893e-4" />
+    <nuclide name="N-14" ao="1.9627e-4" />
+    <nuclide name="N-15" ao="7.2492e-7" />
+    <nuclide name="Fe-54" ao="2.2366e-6" />
+    <nuclide name="Fe-56" ao="3.5111e-5" />
+    <nuclide name="Fe-57" ao="8.1086e-7" />
+    <nuclide name="Fe-58" ao="1.0791e-7" />
+    <nuclide name="Au-197" ao="3.3787e-4" />
+    <nuclide name="U-234" ao="2.5484e-4" />
+    <nuclide name="U-235" ao="2.3409e-2" />
+    <nuclide name="U-236" ao="1.0757e-4" />
+    <nuclide name="U-238" ao="1.3371e-3" />
+  </material>
+
+  <!-- HEU, Can III -->
+  <material id="53">
+    <density units="sum" />
+    <nuclide name="H-1" ao="6.9905e-2" />
+    <nuclide name="H-2" ao="8.0400e-6" />
+    <nuclide name="O-16" ao="4.8406e-4" />
+    <nuclide name="O-17" ao="1.8401e-7" />
+    <nuclide name="C-Nat" ao="1.5288e-4" />
+    <nuclide name="N-14" ao="2.0568e-4" />
+    <nuclide name="N-15" ao="7.5970e-7" />
+    <nuclide name="Fe-54" ao="6.0589e-6" />
+    <nuclide name="Fe-56" ao="9.5112e-5" />
+    <nuclide name="Fe-57" ao="2.1966e-6" />
+    <nuclide name="Fe-58" ao="2.9232e-7" />
+    <nuclide name="Au-197" ao="3.4242e-4" />
+    <nuclide name="U-234" ao="2.5651e-4" />
+    <nuclide name="U-235" ao="2.3550e-2" />
+    <nuclide name="U-236" ao="1.0829e-4" />
+    <nuclide name="U-238" ao="1.3584e-3" />
+  </material>
+
+  <!-- HEU, Can IV -->
+  <material id="54">
+    <density units="sum" />
+    <nuclide name="H-1" ao="7.2717e-2" />
+    <nuclide name="H-2" ao="8.3634e-6" />
+    <nuclide name="O-16" ao="6.3689e-4" />
+    <nuclide name="O-17" ao="2.4211e-7" />
+    <nuclide name="C-Nat" ao="1.5539e-4" />
+    <nuclide name="N-14" ao="2.4310e-4" />
+    <nuclide name="N-15" ao="8.9792e-7" />
+    <nuclide name="Fe-54" ao="1.1944e-6" />
+    <nuclide name="Fe-56" ao="1.8750e-5" />
+    <nuclide name="Fe-57" ao="4.3302e-7" />
+    <nuclide name="Fe-58" ao="5.7627e-8" />
+    <nuclide name="Au-197" ao="3.4196e-4" />
+    <nuclide name="U-234" ao="2.4873e-4" />
+    <nuclide name="U-235" ao="2.2939e-2" />
+    <nuclide name="U-236" ao="1.0390e-4" />
+    <nuclide name="U-238" ao="1.3117e-3" />
+  </material>
+
+  <!-- Fe -->
+  <material id="6">
+    <density units="sum" />
+    <nuclide name="Fe-54" ao="5.0170e-2" />
+    <nuclide name="Fe-56" ao="7.8756e-2" />
+    <nuclide name="Fe-57" ao="1.8188e-3" />
+    <nuclide name="Fe-58" ao="2.4205e-4" />
+  </material>
+
+</materials>
