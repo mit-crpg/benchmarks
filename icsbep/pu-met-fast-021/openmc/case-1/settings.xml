@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ==========================================================
+  Description: Pu cylinder reflected by Be, assembly 50
+  Case:        pu-met-fast-021-case-1
+  Written By:  Jedidiah Phillips
+  Date:        4/6/2012
+  ==========================================================
+  -->
+ 
+  <criticality>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>0 0 0 1 1 1</coeffs>
+  </source>
+
+</settings>
