@@ -54,6 +54,7 @@
     <nuclide name="Fe-56" ao="4.6732e-5" />
     <nuclide name="Fe-57" ao="1.0792e-6" />
     <nuclide name="Fe-58" ao="1.4363e-7" />
+    <sab name="be" xs="10t" />
   </material>
 
   <!-- Fe -->
