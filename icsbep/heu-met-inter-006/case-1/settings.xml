@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  =========================================================
+  Description: ZEUS Criticality Experiments
+  Case:        HEU-MET-INTER-006 Case 1
+  Written By:  Katie Biegel
+  Date:        4.25.2012
+  =========================================================
+  -->
+ 
+  <criticality>
+    <batches>1500</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <type>box</type>
+    <coeffs>-1. -1. 70. 1. 1. 72.</coeffs>
+  </source>
+
+</settings>
