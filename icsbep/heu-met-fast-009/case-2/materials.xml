@@ -49,6 +49,11 @@
     <nuclide name="Be-9" ao="6.7634e-2" />
     <nuclide name="O-16" ao="6.7608e-2" />
     <nuclide name="O-17" ao="2.5701e-5" />
+    <sab name="be/o" xs="10t" />
+    <!--
+        Once there is support for multiple S(a,b) tables in OpenMC, we'll need
+        to add the following additional table: <sab name="o/be" xs="10t" />
+    -->
   </material>
 
   <!-- Fe -->
