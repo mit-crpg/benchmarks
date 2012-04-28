@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =========================================================
+  Description: ZEUS Criticality Experiments
+  Case:        HEU-MET-INTER-006 Case 1
+  Written By:  Katie Biegel
+  Date:        4.26.2012
+  =========================================================
+  -->
+
+<!-- Lower reflector -->
+  <surface id="1" type="z-plane" coeffs="-5.7912" boundary="vacuum" />
+  <surface id="2" type="z-plane" coeffs="0." />
+  <surface id="3" type="z-plane" coeffs="19.61496" />
+  <surface id="4" type="z-plane" coeffs="25.96496" />
+  <surface id="5" type="z-plane" coeffs="40.39216" />
+<!-- Unit 1 -->
+  <surface id="6" type="z-plane" coeffs="42.40688" />
+  <surface id="7" type="z-plane" coeffs="42.70660" />
+  <surface id="8" type="z-plane" coeffs="44.72132" />
+<!-- Unit 2 -->
+  <surface id="9" type="z-plane" coeffs="46.73604" />
+  <surface id="10" type="z-plane" coeffs="47.03576" />
+  <surface id="11" type="z-plane" coeffs="49.05048" />
+<!-- Unit 3 -->
+  <surface id="12" type="z-plane" coeffs="51.06520" />
+  <surface id="13" type="z-plane" coeffs="51.36492" />
+  <surface id="14" type="z-plane" coeffs="53.37964" />
+<!-- Unit 4 -->
+  <surface id="15" type="z-plane" coeffs="55.39436" />
+  <surface id="16" type="z-plane" coeffs="55.69408" />
+  <surface id="17" type="z-plane" coeffs="57.70880" />
+<!-- Unit 5 -->
+  <surface id="18" type="z-plane" coeffs="59.72352" />
+  <surface id="19" type="z-plane" coeffs="60.02324" />
+  <surface id="20" type="z-plane" coeffs="62.03796" />
+<!-- Unit 6 -->
+  <surface id="21" type="z-plane" coeffs="64.05268" />
+  <surface id="22" type="z-plane" coeffs="64.35240" />
+  <surface id="23" type="z-plane" coeffs="66.36712" />
+<!-- Unit 7 -->
+  <surface id="24" type="z-plane" coeffs="68.38184" />
+  <surface id="25" type="z-plane" coeffs="68.68156" />
+  <surface id="26" type="z-plane" coeffs="70.69628" />
+<!-- Unit 8 -->
+  <surface id="27" type="z-plane" coeffs="72.71100" />
+  <surface id="28" type="z-plane" coeffs="73.01072" />
+  <surface id="29" type="z-plane" coeffs="75.02544" />
+<!-- Unit 9 -->
+  <surface id="30" type="z-plane" coeffs="77.04016" />
+  <surface id="31" type="z-plane" coeffs="77.33988" />
+  <surface id="32" type="z-plane" coeffs="79.35460" />
+<!-- Upper shielding -->
+  <surface id="33" type="z-plane" coeffs="79.59725" />
+  <surface id="34" type="z-plane" coeffs="94.02445" />
+  <surface id="35" type="z-plane" coeffs="123.90120" boundary="vacuum" />
+<!-- Cylindrical surfaces -->
+  <surface id="36" type="z-cylinder" coeffs="0. 0. 2.54" />
+  <surface id="37" type="z-cylinder" coeffs="0. 0. 3.1496" />
+  <surface id="38" type="z-cylinder" coeffs="0. 0. 3.175" />
+  <surface id="39" type="z-cylinder" coeffs="0. 0. 4.7625" />
+  <surface id="40" type="z-cylinder" coeffs="0. 0. 19.05" />
+  <surface id="41" type="z-cylinder" coeffs="0. 0. 26.67" />
+  <surface id="42" type="z-cylinder" coeffs="0. 0. 26.797" />
+<!-- Vertical planes -->
+  <surface id="43" type="x-plane" coeffs="-27.94" />
+  <surface id="44" type="x-plane" coeffs="27.94" />
+  <surface id="45" type="y-plane" coeffs="-27.94" />
+  <surface id="46" type="y-plane" coeffs="27.94" />
+  <surface id="47" type="x-plane" coeffs="-44.1452" boundary="vacuum" />
+  <surface id="48" type="x-plane" coeffs="44.1452" boundary="vacuum" />
+  <surface id="49" type="y-plane" coeffs="-44.1452" boundary="vacuum" />
+  <surface id="50" type="y-plane" coeffs="44.1452" boundary="vacuum" />
+
+<!-- Aluminum rod -->
+  <cell id="1" material="1" surfaces="1 -11 -36" />
+  <cell id="2" material="5" surfaces="1 -11 36 -37" />
+  <cell id="3" material="1" surfaces="1 -11 37 -38" />
+<!-- Lower Shielding -->
+  <cell id="4" material="1" surfaces="1 -2 47 -48 49 -50" />
+  <cell id="5" material="1" surfaces="2 -3 38 -42" />
+  <cell id="6" material="1" surfaces="3 -4 38 -40" />
+  <cell id="7" material="5" surfaces="3 -4 39 -41" />
+  <cell id="8" material="1" surfaces="3 -4 41 -42" />
+  <cell id="9" material="4" surfaces="4 -5 38 -41" />
+  <cell id="10" material="1" surfaces="4 -5 41 -42" />
+<!-- Unit 1 -->
+  <cell id="11" material="3" surfaces="5 -6 38 -41" />
+  <cell id="12" material="2" surfaces="6 -7 38 -40" />
+  <cell id="13" material="1" surfaces="6 -7 40 -41" />
+  <cell id="14" material="3" surfaces="7 -8 38 -41" />
+<!-- Unit 2 -->
+  <cell id="15" material="3" surfaces="8 -9 38 -41" />
+  <cell id="16" material="2" surfaces="9 -10 38 -41" />
+  <cell id="17" material="3" surfaces="10 -11 38 -41" />
+<!-- Unit 3 -->
+  <cell id="18" material="3" surfaces="11 -12 -41" />
+  <cell id="19" material="2" surfaces="12 -13 -41" />
+  <cell id="20" material="3" surfaces="13 -14 -41" />
+<!-- Unit 4 -->
+  <cell id="21" material="3" surfaces="14 -15 -41" />
+  <cell id="22" material="2" surfaces="15 -16 -41" />
+  <cell id="23" material="3" surfaces="16 -17 -41" />
+<!-- Unit 5 -->
+  <cell id="24" material="3" surfaces="17 -18 -41" />
+  <cell id="25" material="2" surfaces="18 -19 -41" />
+  <cell id="26" material="3" surfaces="19 -20 -41" />
+<!-- Unit 6 -->
+  <cell id="27" material="3" surfaces="20 -21 -41" />
+  <cell id="28" material="2" surfaces="21 -22 -41" />
+  <cell id="29" material="3" surfaces="22 -23 -41" />
+<!-- Unit 7 -->
+  <cell id="30" material="3" surfaces="23 -24 -41" />
+  <cell id="31" material="2" surfaces="24 -25 -41" />
+  <cell id="32" material="3" surfaces="25 -26 -41" />
+<!-- Unit 8 -->
+  <cell id="33" material="3" surfaces="26 -27 -41" />
+  <cell id="34" material="2" surfaces="27 -28 -41" />
+  <cell id="35" material="3" surfaces="28 -29 -41" />
+<!-- Unit 9 -->
+  <cell id="36" material="3" surfaces="29 -30 -41" />
+  <cell id="37" material="2" surfaces="30 -31 -41" />
+  <cell id="38" material="3" surfaces="31 -32 -41" />
+<!-- Upper shielding -->
+  <cell id="39" material="1" surfaces="32 -33 -41" />
+  <cell id="40" material="4" surfaces="33 -34 -42" />
+  <cell id="41" material="1" surfaces="34 -35 43 -44 45 -46" />
+  <cell id="42" material="4" surfaces="34 -35 47 -43 49 -50" />
+  <cell id="43" material="4" surfaces="34 -35 44 -48 49 -50" />
+  <cell id="44" material="4" surfaces="34 -35 43 -44 49 -45" />
+  <cell id="45" material="4" surfaces="34 -35 43 -44 46 -50" />
+<!-- Side shielding -->
+  <cell id="46" material="1" surfaces="5 -33 41 -42" />
+  <cell id="47" material="4" surfaces="2 -34 42 47 -48 49 -50" />
+
+</geometry>
