@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==========================================================
+  Description: Sphere of Plutonium Reflected by Depleted
+               Uranium
+  Case:        PU-MET-FAST-020
+  Written By:  Steven Fine
+  Date:        4/5/2012
+  ==========================================================
+  -->
+
+ <default_xs>70c</default_xs>
+
+ <material id="1">
+   <density value="15.4757" units="g/cm3" />
+   <nuclide name="Pu-239" ao="3.3930e-02" />
+   <nuclide name="Pu-240" ao="3.5043e-03" />
+   <nuclide name="Pu-241" ao="3.9189e-04" />
+   <nuclide name="Ga-69" ao="1.3287e-03" />
+   <nuclide name="Ga-71" ao="8.8181e-04" />
+   <nuclide name="C-Nat" ao="3.0246e-04" />
+   <nuclide name="Fe-54" ao="1.9011e-05" />
+   <nuclide name="Fe-56" ao="2.9843e-04" />
+   <nuclide name="Fe-57" ao="6.8920e-06" />
+   <nuclide name="Fe-58" ao="9.1720e-07" />
+   <nuclide name="W-182" ao="1.9725e-05" />
+   <nuclide name="W-183" ao="1.0604e-05" />
+   <nuclide name="W-184" ao="2.2704e-05" />
+   <nuclide name="W-186" ao="2.1067e-05" />
+   <nuclide name="Ni-58" ao="9.6581e-04" />
+   <nuclide name="Ni-60" ao="3.7203e-04" />
+   <nuclide name="Ni-61" ao="1.6172e-05" />
+   <nuclide name="Ni-62" ao="5.1563e-05" />
+   <nuclide name="Ni-64" ao="1.3131e-05" />
+ </material>
+
+ <material id="2">
+   <density value="18.56798" units="g/cm3" />
+   <nuclide name="U-235" ao="2.3787e-04" />
+   <nuclide name="U-238" ao="4.6738e-02" />
+ </material>
+
+ <material id="3">
+   <density value="2.78" units="g/cm3" />
+   <nuclide name="Al-27" ao="5.8077e-2" />
+   <nuclide name="Mg-24" ao="8.1612e-04" />
+   <nuclide name="Mg-25" ao="1.0332e-04" />
+   <nuclide name="Mg-26" ao="1.1376e-04" />
+   <nuclide name="Mn-55" ao="1.8284-4" />
+   <nuclide name="Cu-63" ao="7.8363e-04" />
+   <nuclide name="Cu-65" ao="3.4927e-04" />
+ </material>
+
+ <material id="4">
+   <density value="7.5278" units="g/cm3" />
+   <nuclide name="Fe-54" ao="4.7446e-03" />
+   <nuclide name="Fe-56" ao="7.4480e-02" />
+   <nuclide name="Fe-57" ao="1.7201e-03" />
+   <nuclide name="Fe-58" ao="2.2891e-04" />
+ </material>
+
+ <material id="5">
+   <density value="1e-12" units="atom/b-cm" />
+   <nuclide name="O-16" ao="1.0" />
+ </material>
+
+</materials>
+
