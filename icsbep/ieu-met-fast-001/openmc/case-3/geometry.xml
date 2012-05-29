@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==========================================================
+  Description: The Early Jemima Experiments: Bare Cylindrical
+               Configurations of Enriched and Natural Uranium
+  Case:        IEU-MET-FAST-001
+               Case-3
+  Written By:  Steven Fine
+  Date:        5/6/2012
+  ==========================================================
+  --> 
+
+  <surface id="3" type="z-cylinder" coeffs="0. 0. 1.74625" />
+  <surface id="7" type="z-cylinder" coeffs="0. 0. 4.60375" />
+  <surface id="8" type="z-cylinder" coeffs="0. 0. 12.06500" />
+  <surface id="10" type="z-cylinder" coeffs="0. 0. 12.66939" />
+  <surface id="11" type="z-cylinder" coeffs="0. 0. 12.70000" />
+  <surface id="12" type="z-cylinder" coeffs="0. 0. 13.33500" />
+  <surface id="14" type="z-cylinder" coeffs="0. 0. 13.67711" />
+  <surface id="17" type="z-cylinder" coeffs="0. 0. 15.29416" />
+  <surface id="18" type="z-cylinder" coeffs="0. 0. 15.82055" />
+  <surface id="19" type="z-cylinder" coeffs="0. 0. 17.19650" />
+  <surface id="20" type="z-cylinder" coeffs="0. 0. 19.22627" boundary="vacuum" />
+  <surface id="21" type="z-cylinder" coeffs="0. 0. 21.00000" boundary="vacuum" />
+
+  <surface id="101" type="z-plane" coeffs="0.000" />
+  <surface id="103" type="z-plane" coeffs="0.604" />
+  <surface id="106" type="z-plane" coeffs="1.408" />
+  <surface id="108" type="z-plane" coeffs="2.012" />
+  <surface id="109" type="z-plane" coeffs="2.616" />
+  <surface id="112" type="z-plane" coeffs="3.420" />
+  <surface id="114" type="z-plane" coeffs="4.024" />
+  <surface id="115" type="z-plane" coeffs="4.628" />
+  <surface id="118" type="z-plane" coeffs="5.432" />
+  <surface id="120" type="z-plane" coeffs="6.036" />
+  <surface id="121" type="z-plane" coeffs="6.640" />
+  <surface id="124" type="z-plane" coeffs="7.444" />
+  <surface id="126" type="z-plane" coeffs="8.048" />
+  <surface id="127" type="z-plane" coeffs="8.652" />
+  <surface id="130" type="z-plane" coeffs="9.456" />
+  <surface id="132" type="z-plane" coeffs="10.060" />
+  <surface id="133" type="z-plane" coeffs="10.664" /> 
+  <surface id="136" type="z-plane" coeffs="11.468" />
+  <surface id="138" type="z-plane" coeffs="12.072" />
+  <surface id="139" type="z-plane" coeffs="12.676" />
+  <surface id="142" type="z-plane" coeffs="13.480" />
+  <surface id="144" type="z-plane" coeffs="14.084" />
+  <surface id="146" type="z-plane" coeffs="14.688" />
+  <surface id="149" type="z-plane" coeffs="15.492" />
+  <surface id="151" type="z-plane" coeffs="16.096" />
+  <surface id="153" type="z-plane" coeffs="16.700" />
+  <surface id="155" type="z-plane" coeffs="17.504" />
+  <surface id="157" type="z-plane" coeffs="18.108" />
+  <surface id="159" type="z-plane" coeffs="18.712" />
+  <surface id="161" type="z-plane" coeffs="19.516" />
+  <surface id="163" type="z-plane" coeffs="20.120" />
+  <surface id="165" type="z-plane" coeffs="20.724" />
+  <surface id="167" type="z-plane" coeffs="21.528" /> 
+  <surface id="169" type="z-plane" coeffs="22.132" />
+  <surface id="171" type="z-plane" coeffs="22.736" />
+  <surface id="173" type="z-plane" coeffs="23.540" />
+  <surface id="175" type="z-plane" coeffs="24.144" />
+  <surface id="177" type="z-plane" coeffs="24.748" />
+  <surface id="179" type="z-plane" coeffs="24.9729" boundary="vacuum" />
+  <surface id="201" type="z-plane" coeffs="-0.3175" />
+  <surface id="202" type="z-plane" coeffs="-0.9525" /> 
+  <surface id="203" type="z-plane" coeffs="-3.1750" />
+  <surface id="204" type="z-plane" coeffs="-4.7625" />
+  <surface id="205" type="z-plane" coeffs="-6.0325" />
+  <surface id="206" type="z-plane" coeffs="-8.5725" boundary="vacuum" />
+
+
+  <cell id="51" material="1" surfaces="101 -103 -12" />
+  <cell id="52" material="2" surfaces="103 -106 -12" />
+  <cell id="53" material="1" surfaces="106 -108 -12" />
+  <cell id="54" material="1" surfaces="108 -109 -12" />
+  <cell id="55" material="2" surfaces="109 -112 -12" />
+  <cell id="56" material="1" surfaces="112 -114 -12" />
+  <cell id="57" material="1" surfaces="114 -115 -12" />
+  <cell id="58" material="2" surfaces="115 -118 -12" />
+  <cell id="59" material="1" surfaces="118 -120 -12" />
+  <cell id="60" material="1" surfaces="120 -121 -12" />
+  <cell id="61" material="2" surfaces="121 -124 -12" />
+  <cell id="62" material="1" surfaces="124 -126 -12" />
+  <cell id="63" material="1" surfaces="126 -127 -12" />
+  <cell id="64" material="2" surfaces="127 -130 -12" />
+  <cell id="65" material="1" surfaces="130 -132 -12" />
+  <cell id="66" material="1" surfaces="132 -133 -12" />
+  <cell id="67" material="2" surfaces="133 -136 -12" />
+  <cell id="68" material="1" surfaces="136 -138 -12" />
+  <cell id="69" material="1" surfaces="138 -139 -12" />
+  <cell id="70" material="2" surfaces="139 -142 -12" />
+  <cell id="71" material="1" surfaces="142 -144 -12" />
+  <cell id="72" material="1" surfaces="144 -146 -10" />
+  <cell id="73" material="2" surfaces="146 -149 -12" />
+  <cell id="74" material="1" surfaces="149 -151 -12" />
+  <cell id="75" material="1" surfaces="151 -153 -12" />
+  <cell id="76" material="2" surfaces="153 -155 -12" />
+  <cell id="77" material="1" surfaces="155 -157 -12" />
+  <cell id="78" material="1" surfaces="157 -159 -12" />
+  <cell id="79" material="2" surfaces="159 -161 -12" />
+  <cell id="80" material="1" surfaces="161 -163 -12" />
+  <cell id="81" material="1" surfaces="163 -165 -12" />
+  <cell id="82" material="2" surfaces="165 -167 -12" />
+  <cell id="83" material="1" surfaces="167 -169 -12" />
+  <cell id="84" material="1" surfaces="169 -171 -12" />
+  <cell id="85" material="2" surfaces="171 -173 -12" />
+  <cell id="86" material="1" surfaces="173 -175 -12" />
+  <cell id="87" material="1" surfaces="175 -177 -12" />
+  <cell id="88" material="1" surfaces="177 -179 -12" />
+
+  <cell id="103" material="3" surfaces="144 -146 10 -17" />
+  <cell id="106" material="6" surfaces="201 -101 -8" />
+  <cell id="107" material="6" surfaces="202 -201 3 -8" />
+  <cell id="108" material="3" surfaces="202 -101 8 -18" />
+  <cell id="110" material="3" surfaces="203 -201 -3" />
+  <cell id="111" material="3" surfaces="205 -203 -7" />
+  <cell id="112" material="3" surfaces="204 -202 12 -14" />
+  <cell id="114" material="6" surfaces="204 -202 14 -21" />
+  <cell id="118" material="3" surfaces="205 -204 11 -19" />
+  <cell id="119" material="6" surfaces="205 -204 7 -11" />
+  <cell id="120" material="5" surfaces="206 -205 -20" />
+  <cell id="122" material="6" surfaces="205 -204 19 -21" />
+  <cell id="123" material="6" surfaces="206 -205 2- -21" />
+  <cell id="113" material="6" surfaces="3 -12 -202 203" />
+  <cell id="1132" material="6" surfaces="-203 -12 204 7" />
+  <cell id="121" material="6" surfaces="-21 12 -179 146" />
+  <cell id="1212" material="6" surfaces="-21 17 -146 144" />
+  <cell id="1213" material="6" surfaces="-21 12 -144 101" />
+  <cell id="1214" material="6" surfaces="-21 18 -101 202" />
+
+
+<geometry/>
