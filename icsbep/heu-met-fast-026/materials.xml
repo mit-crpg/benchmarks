@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =========================================================
+  Description: Tinkertoy II
+  Case:        HEU-MET-FAST-026 Case 11
+  Written By:  Katie Biegel
+  Date:        6.6.2012
+  =========================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+
+  <!-- HEU -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="4.8271e-4" />
+    <nuclide name="U-235" ao="4.4797e-2" />
+    <nuclide name="U-236" ao="9.5723e-5" />
+    <nuclide name="U-238" ao="2.6577e-3" />
+  </material>
+
+  <!-- Stainless Steel -->
+  <material id="2">
+    <density units="sum" />
+    <nuclide name="C-Nat" ao="3.1691e-4" />
+    <nuclide name="Mn-55" ao="1.7321e-3" />
+    <nuclide name="Si-28" ao="1.5624e-3" />
+    <nuclide name="Si-29" ao="7.9333e-5" />
+    <nuclide name="Si-30" ao="5.2296e-5" />
+    <nuclide name="Cr-50" ao="7.1571e-4" />
+    <nuclide name="Cr-52" ao="1.3802e-2" />
+    <nuclide name="Cr-53" ao="1.5650e-3" />
+    <nuclide name="Cr-54" ao="3.8956e-4" />
+    <nuclide name="Fe-54" ao="3.5280e-3" />
+    <nuclide name="Fe-56" ao="5.5383e-2" />
+    <nuclide name="Fe-57" ao="1.2790e-3" />
+    <nuclide name="Fe-58" ao="1.7022e-4" />
+    <nuclide name="Ni-58" ao="4.4137e-3" />
+    <nuclide name="Ni-60" ao="1.7001e-3" />
+    <nuclide name="Ni-61" ao="7.3904e-5" />
+    <nuclide name="Ni-62" ao="2.3564e-4" />
+    <nuclide name="Ni-64" ao="6.0010e-5" />
+    <sab name="fe56" xs="10t" />
+  </material>
+
+  <!-- Concrete -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="H-1" ao="1.4866e-2" />
+    <nuclide name="H-2" ao="1.7098e-6" />
+    <nuclide name="C-Nat" ao="3.8144e-3" />
+    <nuclide name="O-16" ao="4.1503e-2" />
+    <nuclide name="O-17" ao="1.5777e-5" />
+    <nuclide name="Na-23" ao="3.0400e-4" />
+    <nuclide name="Mg-24" ao="4.6367e-4" />
+    <nuclide name="Mg-25" ao="5.8700e-5" />
+    <nuclide name="Mg-26" ao="6.4629e-5" />
+    <nuclide name="Al-27" ao="7.3500e-4" />
+    <nuclide name="Si-28" ao="5.5679e-3" />
+    <nuclide name="Si-29" ao="2.8272e-4" />
+    <nuclide name="Si-30" ao="1.8637e-4" />
+    <nuclide name="Ca-40" ao="1.1234e-2" />
+    <nuclide name="Ca-42" ao="7.4974e-5" />
+    <nuclide name="Ca-43" ao="1.5644e-5" />
+    <nuclide name="Ca-44" ao="2.4173e-4" />
+    <nuclide name="Ca-46" ao="4.6352e-7" />
+    <nuclide name="Ca-48" ao="2.1670e-5" />
+    <nuclide name="Fe-54" ao="1.1503e-5" />
+    <nuclide name="Fe-56" ao="1.8057e-4" />
+    <nuclide name="Fe-57" ao="4.1702e-6" />
+    <nuclide name="Fe-58" ao="5.5498e-7" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Void -->
+  <material id="4">
+    <density units="sum" />
+    <nuclide name="O-16" ao="1.0e-15" />
+  </material>
+
+</materials>
