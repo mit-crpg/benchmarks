@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ==========================================================
+  Description: Tinkertoy II
+  Case:        HEU-MET-FAST-026 Case 11
+  Written By:  Katie Biegel
+  Date:        6.6.2012
+  ==========================================================
+  -->
+ 
+  <criticality>
+   <batches>1000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <type>point</type>
+    <coeffs>0. 0. 0.</coeffs>
+  </source>
+
+</settings>
