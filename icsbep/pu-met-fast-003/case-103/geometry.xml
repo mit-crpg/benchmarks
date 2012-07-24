@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==========================================================
+  Description: 3x3x3 Pu Buttons
+  Case:        PU-MET-FAST-003 Case 103
+  Written By:  Katie Biegel
+  Date:        7.12.2012
+  ==========================================================
+  -->
+
+  <surface id="1"  type="z-cylinder" coeffs="0. 0. .5556" />
+  <surface id="2" type="z-cylinder" coeffs="0. 0. 3.104" />
+  <surface id="3" type="z-cylinder" coeffs="0. 0. 3.241" />
+  <surface id="4" type="z-cylinder" coeffs="0. 0. 3.2625" />
+  <surface id="5" type="z-cylinder" coeffs="0. 0. 3.2995" />
+  <surface id="6" type="z-cylinder" coeffs="0. 0. 3.326" />
+  <surface id="7" type="z-cylinder" coeffs="0. 0. 3.425" />
+  <surface id="8" type="z-cylinder" coeffs="0. 0. 3.609" />
+
+ <!-- Tabletop -->
+  <surface id="9" type="z-plane" coeffs="0." boundary="vacuum" />
+  <surface id="10" type="z-plane" coeffs="30." />
+
+ <!-- Support Shoe -->
+  <surface id="11" type="z-plane" coeffs="32.54" />
+  <surface id="12" type="z-plane" coeffs="34.04" />
+  <surface id="13" type="z-plane" coeffs="35.34" />
+  <surface id="14" type="z-plane" coeffs="40.205" />
+
+ <!-- Spacer 1 -->
+  <surface id="15" type="z-plane" coeffs="40.84" />
+
+ <!-- Pu Part 1 -->
+  <surface id="16" type="z-plane" coeffs="42.695" />
+  <surface id="17" type="z-plane" coeffs="43.33" />
+  <surface id="18" type="z-plane" coeffs="43.351" />
+  <surface id="19" type="z-plane" coeffs="47.984" />
+  <surface id="20" type="z-plane" coeffs="48.071" />
+
+ <!-- Spacer 2 -->
+  <surface id="21" type="z-plane" coeffs="48.55" />
+
+ <!-- Pu Part 2 -->
+  <surface id="22" type="z-plane" coeffs="50.405" />
+  <surface id="23" type="z-plane" coeffs="51.04" />
+  <surface id="24" type="z-plane" coeffs="51.061" />
+  <surface id="25" type="z-plane" coeffs="55.694" />
+  <surface id="26" type="z-plane" coeffs="55.781" />
+
+ <!-- Spacer 3 -->
+  <surface id="27" type="z-plane" coeffs="56.26" />
+
+ <!-- Pu Part 3 -->
+  <surface id="28" type="z-plane" coeffs="58.115" />
+  <surface id="29" type="z-plane" coeffs="58.75" />
+  <surface id="30" type="z-plane" coeffs="58.771" />
+  <surface id="31" type="z-plane" coeffs="63.404" />
+  <surface id="32" type="z-plane" coeffs="63.491" />
+
+ <!-- Empty Support Tube -->
+  <surface id="33" type="z-plane" coeffs="63.97" />
+  <surface id="34" type="z-plane" coeffs="78.274" boundary="vacuum" />
+
+ <!-- Misc. Tabletop Specs -->
+  <surface id="35" type="x-plane" coeffs="-66." boundary="vacuum" />
+  <surface id="36" type="x-plane" coeffs="-14.4" />
+  <surface id="37" type="x-plane" coeffs="14.4" />
+  <surface id="38" type="x-plane" coeffs="66." boundary="vacuum" />
+  <surface id="39" type="y-plane" coeffs="-23." boundary="vacuum" />
+  <surface id="40" type="y-plane" coeffs="-14.4" />
+  <surface id="41" type="y-plane" coeffs="14.4" />
+  <surface id="42" type="y-plane" coeffs="23." boundary="vacuum" />
+
+
+<!-- Tabletop -->
+  <cell id="1" material="7" surfaces="9 -10 35 -38 39 -42" />
+  <cell id="2" material="11" surfaces="10 -11 35 -38 39 -42" />
+
+<!-- Single Pu Column -->
+ <!-- Support Shoe -->
+  <cell id="3" universe="1" material="8" surfaces="-1 11 -14" />
+  <cell id="4" universe="1" material="2" surfaces="1 -8 11 -12" />
+  <cell id="5" universe="1" material="2" surfaces="1 -8 12 -13" />
+  <cell id="6" universe="1" material="10" surfaces="1 -4 13 -14" />
+  <cell id="7" universe="1" material="8" surfaces="-3 14 -15" />
+  <cell id="8" universe="1" material="2" surfaces="3 -8 13 -15" />
+ <!-- Spacer 1 and Pu Part 1 -->
+  <cell id="9" universe="1" material="10" surfaces="-2 15 -16" />
+  <cell id="10" universe="1" material="3" surfaces="2 -6 15 -16" />
+  <cell id="11" universe="1" material="4" surfaces="-5 16 -17" />
+  <cell id="12" universe="1" material="10" surfaces="5 -6 16 -17" />
+  <cell id="13" universe="1" material="9" surfaces="-5 17 -18" />
+  <cell id="14" universe="1" material="10" surfaces="5 -6 17 -18" />
+  <cell id="15" universe="1" material="1" surfaces="-4 18 -19" />
+  <cell id="16" universe="1" material="3" surfaces="4 -5 18 -19" />
+  <cell id="17" universe="1" material="10" surfaces="5 -6 18 -19" />
+  <cell id="18" universe="1" material="3" surfaces="-5 19 -20" />
+  <cell id="19" universe="1" material="10" surfaces="5 -6 19 -20" />
+  <cell id="20" universe="1" material="5" surfaces="-5 20 -21" />
+  <cell id="21" universe="1" material="10" surfaces="5 -6 20 -21" />
+ <!-- Spacer 2 and Pu Part 2 -->
+  <cell id="22" universe="1" material="10" surfaces="-2 21 -22" />
+  <cell id="23" universe="1" material="3" surfaces="2 -6 21 -22" />
+  <cell id="24" universe="1" material="4" surfaces="-5 22 -23" />
+  <cell id="25" universe="1" material="10" surfaces="5 -6 22 -23" />
+  <cell id="26" universe="1" material="9" surfaces="-5 23 -24" />
+  <cell id="27" universe="1" material="10" surfaces="5 -6 23 -24" />
+  <cell id="28" universe="1" material="1" surfaces="-4 24 -25" />
+  <cell id="29" universe="1" material="3" surfaces="4 -5 24 -25" />
+  <cell id="30" universe="1" material="10" surfaces="5 -6 24 -25" />
+  <cell id="31" universe="1" material="3" surfaces="-5 25 -26" />
+  <cell id="32" universe="1" material="10" surfaces="5 -6 25 -26" />
+  <cell id="33" universe="1" material="5" surfaces="-5 26 -27" />
+  <cell id="34" universe="1" material="10" surfaces="5 -6 26 -27" />
+ <!-- Spacer 3 and Pu Part 3 -->
+  <cell id="35" universe="1" material="10" surfaces="-2 27 -28" />
+  <cell id="36" universe="1" material="3" surfaces="2 -6 27 -28" />
+  <cell id="37" universe="1" material="4" surfaces="-5 28 -29" />
+  <cell id="38" universe="1" material="10" surfaces="5 -6 28 -29" />
+  <cell id="39" universe="1" material="9" surfaces="-5 29 -30" />
+  <cell id="40" universe="1" material="10" surfaces="5 -6 29 -30" />
+  <cell id="41" universe="1" material="1" surfaces="-4 30 -31" />
+  <cell id="42" universe="1" material="3" surfaces="4 -5 30 -31" />
+  <cell id="43" universe="1" material="10" surfaces="5 -6 30 -31" />
+  <cell id="44" universe="1" material="3" surfaces="-5 31 -32" />
+  <cell id="45" universe="1" material="10" surfaces="5 -6 31 -32" />
+  <cell id="46" universe="1" material="5" surfaces="-5 32 -33" />
+  <cell id="47" universe="1" material="10" surfaces="5 -6 32 -33" />
+ <!-- Misc. Support Tube -->
+  <cell id="48" universe="1" material="10" surfaces="-6 33 -34" />
+  <cell id="49" universe="1" material="10" surfaces="6 -7 15 -34" />
+  <cell id="59" universe="1" material="6" surfaces="7 -8 15 -34" />
+  <cell id="51" universe="1" material="10" surfaces="8 11 -34" />
+
+  <lattice id="2" universe="2" type="rectangular" dimension="3 3">
+    <lower_left>-14.4 -14.4</lower_left>
+    <width>9.60 9.60</width>
+    <universes>
+      1 1 1
+      1 1 1
+      1 1 1
+    </universes>
+  </lattice>
+
+ <!-- Lattice Container/Void -->
+  <cell id="52" fill="2" surfaces="36 -37 40 -41 11 -34" />
+  <cell id="53" material="10" surfaces="35 -36 39 -42 11 -34" />
+  <cell id="54" material="10" surfaces="37 -38 39 -42 11 -34" />
+  <cell id="55" material="10" surfaces="36 -37 39 -40 11 -34" />
+  <cell id="56" material="10" surfaces="36 -37 41 -42 11 -34" />
+
+</geometry>
