@@ -17,11 +17,13 @@
   </criticality>
 
   <source>
-    <type>box</type>
-    <coeffs>
-      0. 0. 0.
-      648. 81. 360.
-    </coeffs>
+    <space>
+      <type>box</type>
+      <parameters>
+        0. 0. 0.
+        648. 81. 360.
+      </parameters>
+    </space>
   </source>
 
   <entropy>

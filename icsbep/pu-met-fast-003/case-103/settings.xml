@@ -17,8 +17,10 @@
   </criticality>
 
   <source>
-    <type>point</type>
-    <coeffs>0. 0. 56.</coeffs>
+    <space>
+      <type>point</type>
+      <parameters>0. 0. 56.</parameters>
+    </space>
   </source>
 
 </settings>

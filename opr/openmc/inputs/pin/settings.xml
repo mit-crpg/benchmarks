@@ -10,8 +10,10 @@
 
   <!-- Starting source -->
   <source>
-    <type>box</type>
-    <coeffs>-0.6493 -0.6493 -0.5 0.6493 0.6493 0.5</coeffs>
+    <space>
+      <type>box</type>
+      <parameters>-0.6493 -0.6493 -0.5 0.6493 0.6493 0.5</parameters>
+    </space>
   </source>
 
 </settings>

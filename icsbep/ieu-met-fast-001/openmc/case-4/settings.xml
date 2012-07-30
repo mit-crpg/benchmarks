@@ -21,8 +21,10 @@
 <!--<trace>1 1 23</trace>-->
 
  <source>
-   <type>box</type>
-   <coeffs>-1 -1 -1 1 1 1</coeffs>
+   <space>
+     <type>box</type>
+     <parameters>-1 -1 -1 1 1 1</parameters>
+   </space>
  </source>
 
 </settings>

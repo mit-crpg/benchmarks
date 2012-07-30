@@ -17,8 +17,10 @@
   </criticality>
 
   <source>
-    <type>box</type>
-    <coeffs>-.6 -.6 5.17  .6  .6  6.17</coeffs>
+    <space>
+      <type>box</type>
+      <parameters>-.6 -.6 5.17  .6  .6  6.17</parameters>
+    </space>
   </source>
 
 </settings>

@@ -8,11 +8,13 @@
   </criticality>
 
   <source>
-    <type>box</type>
-    <coeffs>
-      -160 -160 -183
-       160  160  183
-    </coeffs>
+    <space>
+      <type>box</type>
+      <parameters>
+        -160 -160 -183
+         160  160  183
+      </parameters>
+    </space>
   </source>
 
   <entropy>

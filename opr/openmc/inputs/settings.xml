@@ -10,11 +10,13 @@
 
   <!-- Starting source -->
   <source>
-    <type>box</type>
-    <coeffs>
-      -176.6096 -176.6096 -100
-       176.6096  176.6096  100
-    </coeffs>
+    <space>
+      <type>box</type>
+      <parameters>
+        -176.6096 -176.6096 -100
+         176.6096  176.6096  100
+      </parameters>
+    </space>
   </source>
 
   <entropy>

@@ -19,11 +19,13 @@
 
   <!-- Starting source -->
   <source>
-    <type>box</type>
-    <coeffs>
-      -10.0 -10.0 -81.662
-       10.0  10.0  81.662
-    </coeffs>
+    <space>
+      <type>box</type>
+      <parameters>
+        -10.0 -10.0 -81.662
+         10.0  10.0  81.662
+      </parameters>
+    </space>
   </source>
 
   <!-- Shannon Entropy -->
