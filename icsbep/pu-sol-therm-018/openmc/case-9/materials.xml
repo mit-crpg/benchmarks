@@ -14,7 +14,7 @@
 
   <!-- fissile solution -->
   <material id="1">
-    <density value="0.0997071" units="atom/b-cm" />
+    <density units="sum" />
     <nuclide name="Pu-238"  ao="2.0831e-07" />
     <nuclide name="Pu-239"  ao="4.2266e-05" />
     <nuclide name="Pu-240"  ao="4.3641e-05" />
@@ -54,16 +54,10 @@
 
   <!-- water -->
   <material id="3">
-    <density value="0.099754" units="atom/b-cm" />
+    <density value="0.99754" units="g/cm3" />
     <nuclide name="H-1"  ao="6.6691e-02" />
     <nuclide name="O-16" ao="3.3346e-02" />
     <sab name="lwtr" xs="10t" />
-  </material>
-
-  <!-- 'void' -->
-  <material id="4">
-    <density value="1e-12" units="atom/b-cm" />
-    <nuclide name="O-16" ao="1.0" />
   </material>
 
 </materials>
