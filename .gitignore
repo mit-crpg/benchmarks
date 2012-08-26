@@ -1,14 +1,15 @@
 # emacs backups
 *~
 
-# mcnp output
+# MCNP output files
 out?
 srct?
 runtp?
 mcta?
 comou?
 
-# output files
+# OpenMP output files
 *.out
+*.binary
 *.h5
 *.ppm
