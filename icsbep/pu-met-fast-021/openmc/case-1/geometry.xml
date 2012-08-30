@@ -76,7 +76,8 @@
   <cell id="17" material="3" surfaces="21 -22 -33" />
   <cell id="18" material="3" surfaces="23 -24 -33" />
   <cell id="19" material="3" surfaces="26 -27 -33" />
-  <cell id="20" material="3" surfaces="2 -27 33 -32" />
+  <cell id="20" material="3" surfaces="2 -14 33 -32" />
+  <cell id="21" material="3" surfaces="15 -27 33 -32" />
 
   <!-- Plutonium -->
   <cell id="21" material="1" surfaces="3 -5 -33" />
