@@ -12,14 +12,8 @@
 
   <default_xs>70c</default_xs>
 
-  <!-- Void -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="O-16" ao="1.0e-12" />
-  </material>
-
   <!-- HEU -->
-  <material id="2">
+  <material id="1">
     <density units="sum" />
     <nuclide name="U-234" ao="5.2195e-4" />
     <nuclide name="U-235" ao="4.1000e-2" />
@@ -44,7 +38,7 @@
   </material>
 
   <!-- Be Reflector -->
-  <material id="3">
+  <material id="2">
     <density units="sum" />
     <nuclide name="Be-9" ao="1.2080e-1" />
     <nuclide name="O-16" ao="8.2022e-5" />
@@ -58,7 +52,7 @@
   </material>
 
   <!-- Fe -->
-  <material id="4">
+  <material id="3">
     <density units="sum" />
     <nuclide name="Fe-54" ao="4.7446e-3" />
     <nuclide name="Fe-56" ao="7.4480e-2" />
