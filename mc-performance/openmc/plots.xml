@@ -10,6 +10,7 @@
 
   <plot id="2">
     <type>slice</type>
+    <color>mat</color>
     <origin>0. 0. -10.</origin>
     <width>21.42 21.42</width>
     <pixels>1000 1000</pixels>
