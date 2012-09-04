@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<plots>
+
+  <plot id="1" type="slice">
+    <color>mat</color>
+    <basis>yz</basis>
+    <origin>0. 0. 0.</origin>
+    <width>35 35</width>
+    <pixels>1000 1000</pixels>
+  </plot>
+
+  <plot id="2" type="slice">
+    <color>cell</color>
+    <basis>yz</basis>
+    <origin>0. 0. 0.</origin>
+    <width>35 35</width>
+    <pixels>1000 1000</pixels>
+  </plot>
+
+</plots>
