@@ -14,35 +14,35 @@
 
   <!-- HEU -->
   <material id="1">
-    <density units="sum" />
-    <nuclide name="U-234" ao="5.2209e-4" />
-    <nuclide name="U-235" ao="4.1011e-2" />
-    <nuclide name="U-236" ao="8.8453e-5" />
-    <nuclide name="U-238" ao="4.0989e-3" />
-    <nuclide name="C-Nat" ao="3.9946e-4" />
-    <nuclide name="Fe-54" ao="7.9118e-6" />
-    <nuclide name="Fe-56" ao="1.2420e-4" />
-    <nuclide name="Fe-57" ao="2.8683e-6" />
-    <nuclide name="Fe-58" ao="3.8172e-7" />
-    <nuclide name="W-182" ao="3.3142e-6" />
-    <nuclide name="W-183" ao="1.7816e-6" />
-    <nuclide name="W-184" ao="3.8147e-6" />
-    <nuclide name="W-186" ao="3.5395e-6" />
-    <nuclide name="Cu-63" ao="5.0447e-4" />
-    <nuclide name="Cu-65" ao="2.2485e-4" />
-    <nuclide name="Ni-58" ao="2.3039e-4" />
-    <nuclide name="Ni-60" ao="8.8747e-5" />
-    <nuclide name="Ni-61" ao="3.8578e-6" />
-    <nuclide name="Ni-62" ao="1.2300e-5" />
-    <nuclide name="Ni-64" ao="3.1325e-6" />
+    <density value="17.9989" units="g/cm3" />
+    <nuclide name="U-234" ao="5.2209e-04" />
+    <nuclide name="U-235" ao="4.1011e-02" />
+    <nuclide name="U-236" ao="8.8453e-05" />
+    <nuclide name="U-238" ao="4.0989e-03" />
+    <nuclide name="C-Nat" ao="3.9946e-04" />
+    <nuclide name="Fe-54" ao="7.9118e-06" />
+    <nuclide name="Fe-56" ao="1.2420e-04" />
+    <nuclide name="Fe-57" ao="2.8683e-06" />
+    <nuclide name="Fe-58" ao="3.8172e-07" />
+    <nuclide name="W-182" ao="3.3142e-06" />
+    <nuclide name="W-183" ao="1.7816e-06" />
+    <nuclide name="W-184" ao="3.8147e-06" />
+    <nuclide name="W-186" ao="3.5395e-06" />
+    <nuclide name="Cu-63" ao="5.0447e-04" />
+    <nuclide name="Cu-65" ao="2.2485e-04" />
+    <nuclide name="Ni-58" ao="2.3039e-04" />
+    <nuclide name="Ni-60" ao="8.8747e-05" />
+    <nuclide name="Ni-61" ao="3.8578e-06" />
+    <nuclide name="Ni-62" ao="1.2300e-05" />
+    <nuclide name="Ni-64" ao="3.1325e-06" />
   </material>
 
   <!-- BeO Reflector -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="Be-9" ao="6.7634e-2" />
-    <nuclide name="O-16" ao="6.7608e-2" />
-    <nuclide name="O-17" ao="2.5701e-5" />
+    <nuclide name="Be-9" ao="6.7634e-02" />
+    <nuclide name="O-16" ao="6.7608e-02" />
+    <nuclide name="O-17" ao="2.5701e-05" />
     <sab name="be/o" xs="10t" />
     <!--
         Once there is support for multiple S(a,b) tables in OpenMC, we'll need
@@ -52,11 +52,18 @@
 
   <!-- Fe -->
   <material id="3">
-    <density units="sum" />
-    <nuclide name="Fe-54" ao="4.7446e-3" />
-    <nuclide name="Fe-56" ao="7.4480e-2" />
-    <nuclide name="Fe-57" ao="1.7201e-3" />
-    <nuclide name="Fe-58" ao="2.2891e-4" />
+    <density value="7.5278" units="g/cm3" />
+    <nuclide name="Fe-54" ao="4.7446e-03" />
+    <nuclide name="Fe-56" ao="7.4480e-02" />
+    <nuclide name="Fe-57" ao="1.7201e-03" />
+    <nuclide name="Fe-58" ao="2.2891e-04" />
+  </material>
+
+  <!-- Copper -->
+  <material id="4">
+    <density value="8.6913" units="g/cm3" />
+    <nuclide name="Cu-63" ao="6.9170e-01" />
+    <nuclide name="Cu-65" ao="3.0830e-01" />
   </material>
 
 </materials>
