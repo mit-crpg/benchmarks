@@ -9,39 +9,50 @@
   Date:        4.20.2012
   =========================================================
   -->
-  <surface id="1"  type="x-cylinder" coeffs="0. 0. .6" />
-  <surface id="2"  type="sphere"     coeffs="0. 0. 0. 7.55" />
-  <surface id="3"  type="sphere"     coeffs="0. 0. 0. 8.35" />
-  <surface id="4"  type="sphere"     coeffs="0. 0. 2.74 7.55" />
-  <surface id="5"  type="sphere"     coeffs="0. 0. 2.74 8.35" />
-  <surface id="6"  type="x-cylinder" coeffs="0. 2.74 .6" />
-  <surface id="7"  type="z-cylinder" coeffs="0. 0. 7.75" />
-  <surface id="8"  type="z-plane"    coeffs="-.15" />
-  <surface id="9"  type="z-plane"    coeffs="0." />
-  <surface id="10" type="z-plane"    coeffs="2.54" />
-  <surface id="11" type="z-plane"    coeffs="2.74" />
-  <surface id="12" type="z-plane"    coeffs="2.89" />
-  <surface id="13" type="sphere"     coeffs="0. 0. 0. 11."   boundary="vacuum" />
-  <surface id="14" type="z-cylinder" coeffs="0. 0. 1.1" />
-  <surface id="15" type="sphere"     coeffs="0. 0. 2.74 11." boundary="vacuum" />
-  <surface id="16" type="z-cylinder" coeffs="0. 0. 11"       boundary="vacuum" />
-  <surface id="17" type="sphere"     coeffs="0. 0. 0. 1.4" />
 
-  <cell id="1"  material="void" surfaces="-1  -2" />
-  <cell id="2"  material="1"    surfaces=" 1  -2" />
-  <cell id="3"  material="1"    surfaces=" 2  -3  -9   1" />
-  <cell id="4"  material="void" surfaces=" 2  -3  -9  -1" />
-  <cell id="5"  material="void" surfaces=" 8  -9   3 -16 -13" />
-  <cell id="6"  material="void" surfaces=" 9 -10   2 -16" />
-  <cell id="7"  material="void" surfaces="10 -11   2  -7" />
-  <cell id="8"  material="void" surfaces="11   2  -4" />
-  <cell id="9"  material="void" surfaces="11   4  -5  -6" />
-  <cell id="10" material="1"    surfaces="11   4  -5   6" />
-  <cell id="11" material="3"    surfaces="10 -11   7 -16" />
-  <cell id="12" material="void" surfaces="11 -12   5 -16 -15" />
-  <cell id="13" material="2"    surfaces=" 3 -13  -8" />
-  <cell id="14" material="void" surfaces=" 5 -14 -15  12" />
-  <cell id="15" material="2"    surfaces=" 5  14 -15  12" />
-  <cell id="16" material="void" surfaces="-1   2 -17" />
+  <surface id="1"  type="sphere"     coeffs="0. 0. 0. 1.4" />
+  <surface id="2"  type="z-cylinder" coeffs="0. 0. 7.75" />
+  <surface id="3"  type="sphere"     coeffs="0. 0. 0. 7.55" />
+  <surface id="4"  type="sphere"     coeffs="0. 0. 2.74   7.55" />
+  <surface id="5"  type="sphere"     coeffs="0. 0. 0. 8.35" />
+  <surface id="6"  type="sphere"     coeffs="0. 0. 2.74   8.35" />
+  <surface id="7"  type="sphere"     coeffs="0. 0. 0. 11" />
+  <surface id="8"  type="sphere"     coeffs="0. 0. 2.74  11" />
+  <surface id="9"  type="sphere"     coeffs="0. 0. 0. 11.15" />
+  <surface id="10" type="z-plane"    coeffs="0" />
+  <surface id="11" type="z-plane"    coeffs="2.54" />
+  <surface id="12" type="z-plane"    coeffs="2.74" />
+  <surface id="13" type="z-cylinder" coeffs="0. 0. 9.7" />
+  <surface id="14" type="z-cylinder" coeffs="0. 0. 2.5" />
+  <surface id="15" type="z-cylinder" coeffs="0. 0. 14"  boundary="vacuum" />
+  <surface id="16" type="z-cylinder" coeffs="0. 0. 1.1" />
+  <surface id="17" type="y-cylinder" coeffs="0. 0. 0.6" />
+  <surface id="18" type="y-cylinder" coeffs="0. 2.74 0.6" />
+  <surface id="19" type="z-plane"    coeffs="-0.15" />
+  <surface id="20" type="z-plane"    coeffs="2.89" />
+  <surface id="21" type="z-plane"    coeffs="-14.15" boundary="vacuum" />
+  <surface id="22" type="z-plane"    coeffs="14"     boundary="vacuum" />
+
+  <cell id="1"  material="void" surfaces="  1  -3 -17" />              <!-- equatorial hole -->
+  <cell id="2"  material="void" surfaces="-16   6  -8  12" />          <!-- polar hole in reflector -->
+  <cell id="3"  material="1"    surfaces="  1  -3  17" />              <!-- U sphere -->
+  <cell id="4"  material="void" surfaces="  3  -4  12" />              <!-- spherical crit gap -->
+  <cell id="5"  material="1"    surfaces="  3  -5 -10  17" />          <!-- bottom U -->
+  <cell id="6"  material="1"    surfaces="  4  -6  12  18" />          <!-- top U -->
+  <cell id="7"  material="2"    surfaces="  5  -7 -19" />              <!-- bottom reflector -->
+  <cell id="8"  material="2"    surfaces="  6  -8  20  16" />          <!-- top reflector -->
+  <cell id="9"  material="void" surfaces="  3  10 -11 -15" />          <!-- crit gap -->
+  <cell id="10" material="3"    surfaces="  2  11 -12 -15" />          <!-- diaphragm -->
+  <cell id="11" material="void" surfaces="  7 -15 -10  13  21" />      <!-- bottom void -->
+  <cell id="12" material="void" surfaces="  8 -15  12 -22" />          <!-- top void -->
+  <cell id="13" material="4"    surfaces="  7  -9 -13 -10" />          <!-- Cu cup -->
+  <cell id="14" material="3"    surfaces="  9  21 -14 -10" />          <!-- Fe shaft -->
+  <cell id="15" material="void" surfaces="  9 -15  14 -13 -10  21" />  <!-- bottom void 2 -->
+  <cell id="16" material="void" surfaces="  3  -2  11 -12" />          <!-- void gap -->
+  <cell id="17" material="void" surfaces="  5  -7  19 -10" />          <!-- bottom Be cut -->
+  <cell id="18" material="void" surfaces="  6  -8  12 -20" />          <!-- top Be cut -->
+  <cell id="19" material="void" surfaces="-10   3  -5 -17" />          <!-- bottom U groove -->
+  <cell id="20" material="void" surfaces="  4  -6  12 -18" />          <!-- top U groove -->
+  <cell id="21" material="void" surfaces=" -1" />                      <!-- central cavity -->
 
 </geometry>
