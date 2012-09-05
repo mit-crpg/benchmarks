@@ -12,14 +12,8 @@
 
   <default_xs>70c</default_xs>
 
-  <!-- Void -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="O-16" ao="1.0e-12" />
-  </material>
-
   <!-- HEU -->
-  <material id="2">
+  <material id="1">
     <density units="sum" />
     <nuclide name="U-234" ao="4.9483e-4" />
     <nuclide name="U-235" ao="4.4918e-2" />
@@ -28,22 +22,22 @@
   </material>
 
   <!-- Graphite -->
-  <material id="3">
+  <material id="2">
     <density units="sum" />
     <nuclide name="C-Nat" ao="8.5380e-2" />
     <sab name="grph" xs="10t" />
   </material>
 
   <!-- Cu -->
-  <material id="4">
-    <density units="sum" />
+  <material id="3">
+    <density value="8.7351" units="g/cm3" />
     <nuclide name="Cu-63" ao="5.7259e-2" />
     <nuclide name="Cu-65" ao="2.5521e-2" />
   </material>
 
   <!-- Al 6061-T6 -->
-  <material id="5">
-    <density units="sum" />
+  <material id="4">
+    <density value="2.6657" units="g/cm3" />
     <nuclide name="Mg-24" ao="5.2172e-4" />
     <nuclide name="Mg-25" ao="6.6049e-5" />
     <nuclide name="Mg-26" ao="7.2720e-5" />

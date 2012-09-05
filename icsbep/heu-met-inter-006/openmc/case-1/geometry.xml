@@ -10,64 +10,64 @@
   =========================================================
   -->
 
-<!-- Lower reflector -->
+  <!-- Lower reflector -->
   <surface id="1" type="z-plane" coeffs="-5.7912" boundary="vacuum" />
   <surface id="2" type="z-plane" coeffs="0." />
   <surface id="3" type="z-plane" coeffs="3.4972" />
   <surface id="4" type="z-plane" coeffs="9.8472" />
   <surface id="5" type="z-plane" coeffs="24.2744" />
-<!-- Unit 1 -->
+  <!-- Unit 1 -->
   <surface id="6" type="z-plane" coeffs="28.30384" />
   <surface id="7" type="z-plane" coeffs="28.60356" />
   <surface id="8" type="z-plane" coeffs="32.633" />
-<!-- Unit 2 -->
+  <!-- Unit 2 -->
   <surface id="9" type="z-plane" coeffs="36.66244" />
   <surface id="10" type="z-plane" coeffs="36.96216" />
   <surface id="11" type="z-plane" coeffs="40.9916" />
-<!-- Unit 3 -->
+  <!-- Unit 3 -->
   <surface id="12" type="z-plane" coeffs="45.02104" />
   <surface id="13" type="z-plane" coeffs="45.32076" />
   <surface id="14" type="z-plane" coeffs="49.3502" />
-<!-- Unit 4 -->
+  <!-- Unit 4 -->
   <surface id="15" type="z-plane" coeffs="53.37964" />
   <surface id="16" type="z-plane" coeffs="53.67936" />
   <surface id="17" type="z-plane" coeffs="57.7088" />
-<!-- Unit 5 -->
+  <!-- Unit 5 -->
   <surface id="18" type="z-plane" coeffs="61.73824" />
   <surface id="19" type="z-plane" coeffs="62.03796" />
   <surface id="20" type="z-plane" coeffs="66.0674" />
-<!-- Unit 6 -->
+  <!-- Unit 6 -->
   <surface id="21" type="z-plane" coeffs="70.09684" />
   <surface id="22" type="z-plane" coeffs="70.39656" />
   <surface id="23" type="z-plane" coeffs="74.426" />
-<!-- Unit 7 -->
+  <!-- Unit 7 -->
   <surface id="24" type="z-plane" coeffs="78.45544" />
   <surface id="25" type="z-plane" coeffs="78.75516" />
   <surface id="26" type="z-plane" coeffs="82.7846" />
-<!-- Unit 8 -->
+  <!-- Unit 8 -->
   <surface id="27" type="z-plane" coeffs="86.81404" />
   <surface id="28" type="z-plane" coeffs="87.11376" />
   <surface id="29" type="z-plane" coeffs="91.1432" />
-<!-- Unit 9 -->
+  <!-- Unit 9 -->
   <surface id="30" type="z-plane" coeffs="95.17264" />
   <surface id="31" type="z-plane" coeffs="95.47236" />
   <surface id="32" type="z-plane" coeffs="99.5018" />
-<!-- Unit 10 -->
+  <!-- Unit 10 -->
   <surface id="33" type="z-plane" coeffs="103.53124" />
   <surface id="34" type="z-plane" coeffs="103.83096" />
   <surface id="35" type="z-plane" coeffs="107.8604" />
-<!-- Upper shielding -->
+  <!-- Upper shielding -->
   <surface id="36" type="z-plane" coeffs="108.6104" />
   <surface id="37" type="z-plane" coeffs="123.0376" />
   <surface id="38" type="z-plane" coeffs="123.9012" boundary="vacuum" />
-<!-- Cylindrical surfaces -->
+  <!-- Cylindrical surfaces -->
   <surface id="39" type="z-cylinder" coeffs="0. 0. 2.54" />
   <surface id="40" type="z-cylinder" coeffs="0. 0. 3.1496" />
   <surface id="41" type="z-cylinder" coeffs="0. 0. 3.175" />
   <surface id="42" type="z-cylinder" coeffs="0. 0. 4.7625" />
   <surface id="43" type="z-cylinder" coeffs="0. 0. 26.67" />
   <surface id="44" type="z-cylinder" coeffs="0. 0. 26.797" />
-<!-- Vertical planes -->
+  <!-- Vertical planes -->
   <surface id="45" type="x-plane" coeffs="-27.94" />
   <surface id="46" type="x-plane" coeffs="27.94" />
   <surface id="47" type="y-plane" coeffs="-27.94" />
@@ -79,72 +79,72 @@
 
 
 
-<!-- Alignment rod -->
-  <cell id="1" material="1" surfaces="1 -17 -39" />
-  <cell id="2" material="5" surfaces="1 -17 39 -40" />
-  <cell id="3" material="1" surfaces="1 -17 40 -41" />
-<!-- Lower reflector -->
-  <cell id="4" material="1" surfaces="1 -2 41 49 -50 51 -52" />
-  <cell id="5" material="1" surfaces="2 -3 41 -44" />
-  <cell id="6" material="4" surfaces="2 -3 44 49 -50 51 -52" />
-  <cell id="7" material="1" surfaces="3 -4 41 -42" />
-  <cell id="8" material="5" surfaces="3 -4 42 -43" />
-  <cell id="9" material="1" surfaces="3 -4 43 -44" />
-  <cell id="10" material="4" surfaces="3 -4 44 49 -50 51 -52" />
-  <cell id="11" material="4" surfaces="4 -5 41 -43" />
-  <cell id="12" material="1" surfaces="4 -5 43 -44" />
-  <cell id="13" material="4" surfaces="4 -5 44 49 -50 51 -52" />
-<!-- Unit 1 -->
-  <cell id="14" material="3" surfaces="5 -6 41 -43" />
-  <cell id="15" material="2" surfaces="6 -7 41 -43" />
-  <cell id="16" material="3" surfaces="7 -8 41 -43" />
-<!-- Unit 2 -->
-  <cell id="17" material="3" surfaces="8 -9 41 -43" />
-  <cell id="18" material="2" surfaces="9 -10 41 -43" />
-  <cell id="19" material="3" surfaces="10 -11 41 -43" />
-<!-- Unit 3 -->
-  <cell id="20" material="3" surfaces="11 -12 41 -43" />
-  <cell id="21" material="2" surfaces="12 -13 41 -43" />
-  <cell id="22" material="3" surfaces="13 -14 41 -43" />
-<!-- Unit 4 -->
-  <cell id="23" material="3" surfaces="14 -15 41 -43" />
-  <cell id="24" material="2" surfaces="15 -16 41 -43" />
-  <cell id="25" material="3" surfaces="16 -17 41 -43" />
-<!-- Unit 5 -->
-  <cell id="26" material="3" surfaces="17 -18 -43" />
-  <cell id="27" material="2" surfaces="18 -19 -43" />
-  <cell id="28" material="3" surfaces="19 -20 -43" />
-<!-- Unit 6 -->
-  <cell id="29" material="3" surfaces="20 -21 -43" />
-  <cell id="30" material="2" surfaces="21 -22 -43" />
-  <cell id="31" material="3" surfaces="22 -23 -43" />
-<!-- Unit 7 -->
-  <cell id="32" material="3" surfaces="23 -24 -43" />
-  <cell id="33" material="2" surfaces="24 -25 -43" />
-  <cell id="34" material="3" surfaces="25 -26 -43" />
-<!-- Unit 8 -->
-  <cell id="35" material="3" surfaces="26 -27 -43" />
-  <cell id="36" material="2" surfaces="27 -28 -43" />
-  <cell id="37" material="3" surfaces="28 -29 -43" />
-<!-- Unit 9 -->
-  <cell id="38" material="3" surfaces="29 -30 -43" />
-  <cell id="39" material="2" surfaces="30 -31 -43" />
-  <cell id="40" material="3" surfaces="31 -32 -43" />
-<!-- Unit 10 -->
-  <cell id="41" material="3" surfaces="32 -33 -43" />
-  <cell id="42" material="2" surfaces="33 -34 -43" />
-  <cell id="43" material="3" surfaces="34 -35 -43" />
-<!-- Upper shielding -->
-  <cell id="44" material="1" surfaces="35 -36 -43" />
-  <cell id="45" material="4" surfaces="36 -37 -44" />
-<!-- Vertical cells -->
-  <cell id="46" material="1" surfaces="5 -36 43 -44" />
-  <cell id="47" material="4" surfaces="5 -37 44 49 -50 51 -52" />
-<!-- Top -->
-  <cell id="48" material="1" surfaces="37 -38 45 -46 47 -48" />
-  <cell id="49" material="4" surfaces="37 -38 49 -45 51 -52" />
-  <cell id="50" material="4" surfaces="37 -38 46 -50 51 -52" />
-  <cell id="51" material="4" surfaces="37 -38 45 -46 51 -47" />
-  <cell id="52" material="4" surfaces="37 -38 45 -46 48 -52" />
+  <!-- Alignment rod -->
+  <cell id="1" material="void" surfaces="1 -17 -39" />
+  <cell id="2" material="4" surfaces="1 -17 39 -40" />
+  <cell id="3" material="void" surfaces="1 -17 40 -41" />
+  <!-- Lower reflector -->
+  <cell id="4" material="void" surfaces="1 -2 41 49 -50 51 -52" />
+  <cell id="5" material="void" surfaces="2 -3 41 -44" />
+  <cell id="6" material="3" surfaces="2 -3 44 49 -50 51 -52" />
+  <cell id="7" material="void" surfaces="3 -4 41 -42" />
+  <cell id="8" material="4" surfaces="3 -4 42 -43" />
+  <cell id="9" material="void" surfaces="3 -4 43 -44" />
+  <cell id="10" material="3" surfaces="3 -4 44 49 -50 51 -52" />
+  <cell id="11" material="3" surfaces="4 -5 41 -43" />
+  <cell id="12" material="void" surfaces="4 -5 43 -44" />
+  <cell id="13" material="3" surfaces="4 -5 44 49 -50 51 -52" />
+  <!-- Unit 1 -->
+  <cell id="14" material="2" surfaces="5 -6 41 -43" />
+  <cell id="15" material="1" surfaces="6 -7 41 -43" />
+  <cell id="16" material="2" surfaces="7 -8 41 -43" />
+  <!-- Unit 2 -->
+  <cell id="17" material="2" surfaces="8 -9 41 -43" />
+  <cell id="18" material="1" surfaces="9 -10 41 -43" />
+  <cell id="19" material="2" surfaces="10 -11 41 -43" />
+  <!-- Unit 3 -->
+  <cell id="20" material="2" surfaces="11 -12 41 -43" />
+  <cell id="21" material="1" surfaces="12 -13 41 -43" />
+  <cell id="22" material="2" surfaces="13 -14 41 -43" />
+  <!-- Unit 4 -->
+  <cell id="23" material="2" surfaces="14 -15 41 -43" />
+  <cell id="24" material="1" surfaces="15 -16 41 -43" />
+  <cell id="25" material="2" surfaces="16 -17 41 -43" />
+  <!-- Unit 5 -->
+  <cell id="26" material="2" surfaces="17 -18 -43" />
+  <cell id="27" material="1" surfaces="18 -19 -43" />
+  <cell id="28" material="2" surfaces="19 -20 -43" />
+  <!-- Unit 6 -->
+  <cell id="29" material="2" surfaces="20 -21 -43" />
+  <cell id="30" material="1" surfaces="21 -22 -43" />
+  <cell id="31" material="2" surfaces="22 -23 -43" />
+  <!-- Unit 7 -->
+  <cell id="32" material="2" surfaces="23 -24 -43" />
+  <cell id="33" material="1" surfaces="24 -25 -43" />
+  <cell id="34" material="2" surfaces="25 -26 -43" />
+  <!-- Unit 8 -->
+  <cell id="35" material="2" surfaces="26 -27 -43" />
+  <cell id="36" material="1" surfaces="27 -28 -43" />
+  <cell id="37" material="2" surfaces="28 -29 -43" />
+  <!-- Unit 9 -->
+  <cell id="38" material="2" surfaces="29 -30 -43" />
+  <cell id="39" material="1" surfaces="30 -31 -43" />
+  <cell id="40" material="2" surfaces="31 -32 -43" />
+  <!-- Unit 10 -->
+  <cell id="41" material="2" surfaces="32 -33 -43" />
+  <cell id="42" material="1" surfaces="33 -34 -43" />
+  <cell id="43" material="2" surfaces="34 -35 -43" />
+  <!-- Upper shielding -->
+  <cell id="44" material="void" surfaces="35 -36 -43" />
+  <cell id="45" material="3" surfaces="36 -37 -44" />
+  <!-- Vertical cells -->
+  <cell id="46" material="void" surfaces="5 -36 43 -44" />
+  <cell id="47" material="3" surfaces="5 -37 44 49 -50 51 -52" />
+  <!-- Top -->
+  <cell id="48" material="void" surfaces="37 -38 45 -46 47 -48" />
+  <cell id="49" material="3" surfaces="37 -38 49 -45 51 -52" />
+  <cell id="50" material="3" surfaces="37 -38 46 -50 51 -52" />
+  <cell id="51" material="3" surfaces="37 -38 45 -46 51 -47" />
+  <cell id="52" material="3" surfaces="37 -38 45 -46 48 -52" />
 
 </geometry>
