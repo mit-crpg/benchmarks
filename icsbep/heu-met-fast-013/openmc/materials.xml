@@ -12,63 +12,72 @@
 
   <default_xs>70c</default_xs>
 
-  <!-- Void -->
-  <material id="1">
-    <density value="1e-12" units="atom/b-cm" />
-    <nuclide name="O-16" ao="1.0" />
-  </material>
-
   <!-- HEU -->
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="U-234" ao="5.2209e-4" />
-    <nuclide name="U-235" ao="4.1011e-2" />
-    <nuclide name="U-236" ao="8.8453e-5" />
-    <nuclide name="U-238" ao="4.0989e-3" />
-    <nuclide name="C-Nat" ao="3.9946e-4" />
-    <nuclide name="Fe-54" ao="7.911792e-6" />
-    <nuclide name="Fe-56" ao="0.000124198214" />
-    <nuclide name="Fe-57" ao="2.8682784e-6" />
-    <nuclide name="Fe-58" ao="3.817152e-7" />
-    <nuclide name="Ni-58" ao=".000230392653" />
-    <nuclide name="Ni-60" ao="8.8747e-5" />
-    <nuclide name="Ni-61" ao="3.85776357e-6" />
-    <nuclide name="Ni-62" ao="1.230023835e-5" />
-    <nuclide name="Ni-64" ao="3.1325e-6" />
-    <nuclide name="Cu-63" ao="5.044706e-4" />
-    <nuclide name="Cu-65" ao="2.248494e-4" />
-    <!-- <nuclide name="W-180" ao="1.494e-8" /> -->
-    <nuclide name="W-182" ao="3.3142e-6" />
-    <nuclide name="W-183" ao="1.781595e-6" />
-    <nuclide name="W-184" ao="3.81468e-6" />
-    <nuclide name="W-186" ao="3.539535e-6" />
+  <material id="1">
+    <density value="17.9989" units="g/cm3" />
+    <nuclide name="U-234" ao="5.2209e-04" />
+    <nuclide name="U-235" ao="4.1011e-02" />
+    <nuclide name="U-236" ao="8.8453e-05" />
+    <nuclide name="U-238" ao="4.0989e-03" />
+    <nuclide name="C-Nat" ao="3.9946e-04" />
+    <!-- Fe at 1.3536e-4 atom/b-cm -->
+    <nuclide name="Fe-54" ao="7.9118e-06" />
+    <nuclide name="Fe-56" ao="1.2420e-04" />
+    <nuclide name="Fe-57" ao="2.8683e-06" />
+    <nuclide name="Fe-58" ao="3.8172e-07" />
+    <!-- W at 1.2340e-5 atom/b-cm -->
+    <nuclide name="W-182" ao="3.2849e-06" />
+    <nuclide name="W-183" ao="1.7659e-06" />
+    <nuclide name="W-184" ao="3.7810e-06" />
+    <nuclide name="W-186" ao="3.5083e-06" />
+    <!-- Cu at 7.2932e-4 atom/b-cm -->
+    <nuclide name="Cu-63" ao="5.0447e-04" />
+    <nuclide name="Cu-65" ao="2.2485e-04" />
+    <!-- Ni at 3.3843e-4 atom/b-cm -->
+    <nuclide name="Ni-58" ao="2.3039e-04" />
+    <nuclide name="Ni-60" ao="8.8747e-05" />
+    <nuclide name="Ni-61" ao="3.8578e-06" />
+    <nuclide name="Ni-62" ao="1.2300e-05" />
+    <nuclide name="Ni-64" ao="3.1325e-06" />
   </material>
 
   <!-- Steel -->
-  <material id="3">
+  <material id="2">
     <density units="sum" />
-    <nuclide name="Fe-54" ao=".0048253" />
-    <nuclide name="Fe-56" ao=".0757475" />
-    <nuclide name="Fe-57" ao=".0017493" />
-    <nuclide name="Fe-58" ao=".0002328" />
-    <nuclide name="C-Nat" ao="7.7554e-4" />
-    <nuclide name="Si-28" ao=".00032119" />
-    <nuclide name="Si-29" ao=".000016309" />
-    <nuclide name="Si-30" ao=".000010751" />
-    <nuclide name="Cr-50" ao="2.91901445e-6" />
-    <nuclide name="Cr-52" ao="5.629028809e-5" />
-    <nuclide name="Cr-53" ao="6.38286681e-6" />
-    <nuclide name="Cr-54" ao="1.58883065e-6" />
-    <nuclide name="Mn-55" ao="4.4508e-4" />
+    <!-- Fe at 8.2555e-2 atom/b-cm -->
+    <nuclide name="Fe-54" ao="4.8253e-03" />
+    <nuclide name="Fe-56" ao="7.5748e-02" />
+    <nuclide name="Fe-57" ao="1.7493e-03" />
+    <nuclide name="Fe-58" ao="2.3281e-04" />
+    <!-- C at 7.7554e-4 atom/b-cm -->
+    <nuclide name="C-Nat" ao="7.7554e-04" />
+    <!-- Si at 3.4825e-4 atom/b-cm -->
+    <nuclide name="Si-28" ao="3.2119e-04" />
+    <nuclide name="Si-29" ao="1.6309e-05" />
+    <nuclide name="Si-30" ao="1.0751e-05" />
+    <!-- Cr at 6.7181e-5 atom/b-cm -->
+    <nuclide name="Cr-50" ao="2.9190e-06" />
+    <nuclide name="Cr-52" ao="5.6290e-05" />
+    <nuclide name="Cr-53" ao="6.3829e-06" />
+    <nuclide name="Cr-54" ao="1.5888e-06" />
+    <!-- Mn at 4.4508e-4 atom/b-cm -->
+    <nuclide name="Mn-55" ao="4.4508e-04" />
   </material>
 
-  <!-- Fe -->
+  <!-- Pure Fe -->
+  <material id="3">
+    <density value="7.5278" units="g/cm3" />
+    <nuclide name="Fe-54" ao="4.7446e-03" />
+    <nuclide name="Fe-56" ao="7.4480e-02" />
+    <nuclide name="Fe-57" ao="1.7201e-03" />
+    <nuclide name="Fe-58" ao="2.2891e-04" />
+  </material>
+
+  <!-- Copper -->
   <material id="4">
-    <density units="sum" />
-    <nuclide name="Fe-54" ao="4.7446e-3" />
-    <nuclide name="Fe-56" ao="7.448e-2" />
-    <nuclide name="Fe-57" ao="1.7201e-3" />
-    <nuclide name="Fe-58" ao="2.2891e-4" />
+    <density value="8.6913" units="g/cm3" />
+    <nuclide name="Cu-63" ao="5.6972e-02" />
+    <nuclide name="Cu-65" ao="2.5393e-02" />
   </material>
 
 </materials>
