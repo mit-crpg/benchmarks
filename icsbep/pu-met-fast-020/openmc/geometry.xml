@@ -11,46 +11,43 @@
   ==========================================================
   -->
 
- <surface id="1" type="sphere" coeffs="0. 0. 0. 1.4" /> 
- <surface id="2" type="sphere" coeffs="0. 0. 0.61 1.4" />
- <surface id="3" type="sphere" coeffs="0. 0. 0. 5.35" />
- <surface id="4" type="sphere" coeffs="0. 0. 0.61 5.35" />
- <surface id="5" type="sphere" coeffs="0. 0. 0. 9.15" />
- <surface id="6" type="sphere" coeffs="0. 0. 0.61 9.15" />
- <surface id="7" type="sphere" coeffs="0. 0. 0. 13.0" />
- <surface id="8" type="sphere" coeffs="0. 0. 0.61 13.0" />
- <surface id="9" type="sphere" coeffs="0. 0. 0. 13.2" />
+  <surface id="1"  type="sphere"     coeffs="0. 0. 0. 1.4" /> 
+  <surface id="2"  type="sphere"     coeffs="0. 0. 0.61 1.4" />
+  <surface id="3"  type="sphere"     coeffs="0. 0. 0. 5.35" />
+  <surface id="4"  type="sphere"     coeffs="0. 0. 0.61 5.35" />
+  <surface id="5"  type="sphere"     coeffs="0. 0. 0. 9.15" />
+  <surface id="6"  type="sphere"     coeffs="0. 0. 0.61 9.15" />
+  <surface id="7"  type="sphere"     coeffs="0. 0. 0. 13.0" />
+  <surface id="8"  type="sphere"     coeffs="0. 0. 0.61 13.0" />
+  <surface id="9"  type="sphere"     coeffs="0. 0. 0. 13.2" />
+  <surface id="10" type="z-plane"    coeffs="0.0" />
+  <surface id="11" type="z-plane"    coeffs="0.41" />
+  <surface id="12" type="z-plane"    coeffs="0.61" />
+  <surface id="13" type="z-cylinder" coeffs="0. 0. 11." />
+  <surface id="14" type="z-cylinder" coeffs="0. 0. 2.5" />
+  <surface id="15" type="z-cylinder" coeffs="0. 0. 15." boundary="vacuum" />
+  <surface id="16" type="z-cylinder" coeffs="0. 0. 0.5" />
+  <surface id="17" type="z-cylinder" coeffs="0. 0. 1.75" />
+  <surface id="18" type="z-plane"    coeffs="-16.2" boundary="vacuum" />
+  <surface id="19" type="z-plane"    coeffs="14.0"  boundary="vacuum" />
 
- <surface id="10" type="z-plane" coeffs="0.0" />
- <surface id="11" type="z-plane" coeffs="0.41" />
- <surface id="12" type="z-plane" coeffs="0.61" />
-
- <surface id="13" type="z-cylinder" coeffs="0. 0. 11." />
- <surface id="14" type="z-cylinder" coeffs="0. 0. 2.5" />
- <surface id="15" type="sphere" coeffs="0. 0. 0. 16." boundary="vacuum" />
- <surface id="17" type="z-cylinder" coeffs="0. 0. 1.75" />
- <surface id="16" type="z-cylinder" coeffs="0. 0. 0.5" />
-
-
- <cell id="1" material="1" surfaces="1 -3 -10" />
- <cell id="2" material="1" surfaces="2 -4 12" />
- <cell id="3" material="2" surfaces="3 -5 -10 17" />
- <cell id="4" material="2" surfaces="4 -6 12 17" />
- <cell id="5" material="2" surfaces="5 -7 -10" />
- <cell id="6" material="2" surfaces="6 -8 12 16" />
- <cell id="7" material="3" surfaces="7 -9 -13 -10" />
- <cell id="8" material="3" surfaces="9 -15 -14 -10" />
- <cell id="9" material="4" surfaces="11 -12 -15" />
- <cell id="10" material="5" surfaces="-1 -10" />
- <cell id="11" material="5" surfaces="-2 12" />
- <cell id="12" material="5" surfaces="10 -11 -15" />
- <cell id="13" material="5" surfaces="7 -15 -10 13" />
- <cell id="14" material="5" surfaces="8 -15 12" />
- <cell id="15" material="5" surfaces="9 -15 14 -13 -10" />
- <cell id="16" material="5" surfaces="3 -5 -17 -10" />
- <cell id="17" material="5" surfaces="4 -6 -17 12" />
- <cell id="18" material="5" surfaces="4 -8 12 -16" />
- <cell id="19" material="5" surfaces="15" />
+  <cell id="1"  material="1"    surfaces=" 1  -3 -10" />
+  <cell id="2"  material="1"    surfaces=" 2  -4  12" />
+  <cell id="3"  material="2"    surfaces=" 3  -5 -10  17" />
+  <cell id="4"  material="2"    surfaces=" 4  -6  12  17" />
+  <cell id="5"  material="2"    surfaces=" 5  -7 -10" />
+  <cell id="6"  material="2"    surfaces=" 6  -8  12  16" />
+  <cell id="7"  material="3"    surfaces=" 7  -9 -13 -10" />
+  <cell id="8"  material="3"    surfaces=" 9  18 -14 -10" />
+  <cell id="9"  material="4"    surfaces="11 -12 -15" />
+  <cell id="10" material="void" surfaces="-1 -10" />
+  <cell id="11" material="void" surfaces="-2  12" />
+  <cell id="12" material="void" surfaces="10 -11 -15" />
+  <cell id="13" material="void" surfaces=" 7 -15 -10  13  18" />
+  <cell id="14" material="void" surfaces=" 8 -15  12 -19" />
+  <cell id="15" material="void" surfaces=" 9  18  14 -13 -10" />
+  <cell id="16" material="void" surfaces=" 3  -5 -17 -10" />
+  <cell id="17" material="void" surfaces=" 4  -6 -17  12" />
+  <cell id="18" material="void" surfaces=" 6  -8  12 -16" />
  
 </geometry>
-
