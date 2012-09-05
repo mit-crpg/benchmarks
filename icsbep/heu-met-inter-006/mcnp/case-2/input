@@ -1,0 +1,142 @@
+ZEUS-2  9 Units, 6 C Plates/Unit, HEU-MET-INTER-006 case 2
+c    Comet Hardware
+1    2  -2.6657     11  -12   47  -48              $ Platen
+2    2  -2.6657      9  -19   44  -45              $ Alignment Tube
+c    Reflector Regions
+3    4  -8.7351      1   -4    5   -8   10  -41  49  $ Below Top Reflector
+4    4  -8.7351      1   -4    5   -8   41  -42      $ Upper Reflector
+5    4  -8.7351      1   -4    5   -8   42  -43 #40  $ Hollow Reflector
+6    4  -8.7351     12  -13   46  -48                $ Bottom Reflector
+c    Column of Platters
+7    3  8.5821e-02  13  -14   46  -48            $ Unit 1, Lower Gr
+8    1  4.8176e-02  14  -15   46  -48            $ Unit 1, Inner HEU
+9    3  8.5821e-02  15  -16   46  -48            $ Unit 1, Upper Gr
+10   3  8.5821e-02  16  -17   46  -48            $ Unit 2, Lower Gr
+11   1  4.8176e-02  17  -18   46  -48            $ Unit 2, Inner HEU
+12   3  8.5821e-02  18  -19   46  -48            $ Unit 2, Upper Gr
+13   3  8.5821e-02  19  -20  -48                 $ Unit 3, Lower 
+14   1  4.8176e-02  20  -21  -48                 $ Unit 3, Inner HEU
+15   3  8.5821e-02  21  -22  -48                 $ Unit 3, Upper Gr
+16   3  8.5821e-02  22  -23  -48                 $ Unit 4, Lower Gr
+17   1  4.8176e-02  23  -24  -48                 $ Unit 4, Inner HEU
+18   3  8.5821e-02  24  -25  -48                 $ Unit 4, Upper Gr
+19   3  8.5821e-02  25  -26  -48                 $ Unit 5, Lower Gr
+20   1  4.8176e-02  26  -27  -48                 $ Unit 5, Inner HEU
+21   3  8.5821e-02  27  -28  -48                 $ Unit 5, Upper Gr
+22   3  8.5821e-02  28  -29  -48                 $ Unit 6, Lower Gr
+23   1  4.8176e-02  29  -30  -48                 $ Unit 6, Inner HEU
+24   3  8.5821e-02  30  -31  -48                 $ Unit 6, Upper Gr
+25   3  8.5821e-02  31  -32  -48                 $ Unit 7, Lower Gr
+26   1  4.8176e-02  32  -33  -48                 $ Unit 7, Inner HEU
+27   3  8.5821e-02  33  -34  -48                 $ Unit 7, Upper Gr
+28   3  8.5821e-02  34  -35  -48                 $ Unit 8, Lower Gr
+29   1  4.8176e-02  35  -36  -48                 $ Unit 8, Inner HEU
+30   3  8.5821e-02  36  -37  -48                 $ Unit 8, Upper Gr
+31   3  8.5821e-02  37  -38  -48                 $ Unit 9, Lower Gr
+32   1  4.8176e-02  38  -39  -48                 $ Unit 9, Inner HEU
+33   3  8.5821e-02  39  -40  -48                 $ Unit 9, Upper Gr
+c    Internal Voids
+34   0              11  -12   45  -47            $ A-Tube - Platen Gap
+35   0              10  -11   45  -49            $ A-Tube - Refl Gap
+36   0               9  -19  -44                 $ Inside Alignment Tube
+37   0              12  -19   45  -46            $ Tube-Platter Gap
+38   0              11  -41   48  -49            $ Platter-Reflector Gap
+39   0              40  -41  -48                 $ Column-Upper Reflector Gap
+40   0               2   -3    6   -7   42  -43  $ Above Top Reflector
+c    External Voids
+41   0              -1   10                      $ Left of Side Reflectors
+42   0               4   10                      $ Right of Side Reflectors
+43   0               1   -4   -5   10            $ Front of Side Reflectors
+44   0               1   -4    8   10            $ Behind Side Reflectors
+45   0               1   -4    5   -8   43       $ Above Side Reflectors
+46   0             -10   #2  #36                 $ Below Reflectors
+
+1    px  -44.14520    $ Left Reflector Edge
+2    px  -27.94000    $ Left Int Reflector Edge
+3    px   27.94000    $ Right Int Reflector Edge
+4    px   44.14520    $ Right Reflector Edge
+5    py  -44.14520    $ Front Reflector Edge
+6    py  -27.94000    $ Front Int Reflector Edge
+7    py   27.94000    $ Back Int Reflector Edge
+8    py   44.14520    $ Back Reflector Edge
+9    pz   -5.79120    $ Bottom of Alignment Tube
+10   pz    0.0        $ Bottom of Reflectors
+11   pz   24.24384    $ Bottom of Platen
+12   pz   30.59384    $ Top of Platen
+13   pz   45.02104    $ Column Reflector
+14   pz   48.04312    $ 1st Unit: Lower Gr
+15   pz   48.34284    $ 1st Unit: HEU
+16   pz   51.36492    $ 1st Unit: Upper Gr
+17   pz   54.38700    $ 2nd Unit: Lower Gr
+18   pz   54.68672    $ 2nd Unit: HEU
+19   pz   57.70880    $ 2nd Unit: Upper Gr
+20   pz   60.73088    $ 3rd Unit: Lower Gr
+21   pz   61.03060    $ 3rd Unit: HEU
+22   pz   64.05268    $ 3rd Unit: Upper Gr
+23   pz   67.07476    $ 4th Unit: Lower Gr
+24   pz   67.37448    $ 4th Unit: HEU
+25   pz   70.39656    $ 4th Unit: Upper Gr
+26   pz   73.41864    $ 5th Unit: Lower Gr
+27   pz   73.71836    $ 5th Unit: HEU
+28   pz   76.74044    $ 5th Unit: Upper Gr
+29   pz   79.76252    $ 6th Unit: Lower Gr
+30   pz   80.06224    $ 6th Unit: HEU
+31   pz   83.08432    $ 6th Unit: Upper Gr
+32   pz   86.10640    $ 7th Unit: Lower Gr
+33   pz   86.40612    $ 7th Unit: HEU
+34   pz   89.42820    $ 7th Unit: Upper Gr
+35   pz   92.45028    $ 8th Unit: Lower Gr
+36   pz   92.75000    $ 8th Unit: HEU
+37   pz   95.77208    $ 8th Unit: Upper Gr
+38   pz   98.79416    $ 9th Unit: Lower Gr
+39   pz   99.09388    $ 9th Unit: HEU
+40   pz  102.11596    $ 9th Unit: Upper Gr
+41   pz  102.89540    $ Top of Corner Reflectors
+42   pz  117.32260    $ Top Reflector
+43   pz  123.90120    $ Top of Side Reflectors
+44   cz    2.5400     $ 1.0-in Radius
+45   cz    3.1496     $ 1.24-in. Radius
+46   cz    3.1750     $ 1.25-in. Radius
+47   cz    4.7625     $ 1.875-in. Radius
+48   cz   26.6700     $ Platter OR
+49   cz   26.7970     $ Corner Reflector IR
+
+c    Average HEU (93.22 wt.%)
+m1   92234.70c  4.9576e-04
+     92235.70c  4.4941e-02
+     92236.70c  1.5931e-04
+     92238.70c  2.5799e-03
+c    Aluminum 6061 (2.6657 g/cc)
+m2   12024.70c  5.2172e-04
+     12025.70c  6.6049e-05
+     12026.70c  7.2720e-05
+     13027.70c  5.7816e-02
+     14028.70c  3.1630e-04
+     14029.70c  1.6061e-05
+     14030.70c  1.0587e-05
+     22046.70c  2.0745e-06
+     22047.70c  1.8709e-06
+     22048.70c  1.8538e-05
+     22049.70c  1.3604e-06
+     22050.70c  1.3026e-06
+     24050.70c  3.3537e-06
+     24052.70c  6.4673e-05
+     24053.70c  7.3333e-06
+     24054.70c  1.8254e-06
+     25055.70c  2.1915e-05
+     26054.70c  5.8807e-06
+     26056.70c  9.2314e-05
+     26057.70c  2.1319e-06
+     26058.70c  2.8372e-07
+     29063.70c  4.8053e-05
+     29065.70c  2.1418e-05
+     30000.70c  3.0687e-05
+c    Graphite (1.7117 g/cc)
+m3   6000.70c   8.5821e-02
+mt3  grph.10t
+c    Average Copper (8.7351 g/cc)
+m4   29063.70c  5.7259e-02
+     29065.70c  2.5521e-02
+kcode 10000 1.0 20 3000
+ksrc  0.0  -15.0   48.17287
+imp:n 1 39r 0 5r
