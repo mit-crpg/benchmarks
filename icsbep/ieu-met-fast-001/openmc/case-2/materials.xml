@@ -13,53 +13,52 @@
   --> 
 
 
-<default_xs>70c</default_xs>
+  <default_xs>70c</default_xs>
 
- <material id="1">
-   <density value="18.9926" units="g/cm3" />
-   <nuclide name="U-234" ao="2.6428e-06" />
-   <nuclide name="U-235" ao="3.4597e-04" />
-   <nuclide name="U-238" ao="4.7702e-02" />
- </material>
+  <!-- Tuballoy -->
+  <material id="1">
+    <density value="18.9926" units="g/cm3" />
+    <nuclide name="U-234" ao="2.6428e-06" />
+    <nuclide name="U-235" ao="3.4597e-04" />
+    <nuclide name="U-238" ao="4.7702e-02" />
+  </material>
 
- <material id="2">
-   <density value="18.7296" units="g/cm3" />
-   <nuclide name="U-234" ao="4.9157e-04" />
-   <nuclide name="U-235" ao="4.4825e-02" />
-   <nuclide name="U-238" ao="2.6391e-03" />
- </material>
+  <!-- Oralloy -->
+  <material id="2">
+    <density value="18.7296" units="g/cm3" />
+    <nuclide name="U-234" ao="4.9157e-04" />
+    <nuclide name="U-235" ao="4.4825e-02" />
+    <nuclide name="U-238" ao="2.6391e-03" />
+  </material>
 
- <material id="3">
-   <density value="2.77" units="g/cm3" />
-   <nuclide name="Mg-24" ao="8.1320e-04" />
-   <nuclide name="Mg-25" ao="1.0295e-04" />
-   <nuclide name="Mg-26" ao="1.1335e-04" />
-   <nuclide name="Al-27" ao="5.7868e-02" />
-   <nuclide name="Mn-55" ao="1.5182e-04" />
-   <nuclide name="Cu-63" ao="7.9891e-04" />
-   <nuclide name="Cu-65" ao="3.5609e-04" />
- </material>
+  <!-- 2024 Aluminum -->
+  <material id="3">
+    <density value="2.77" units="g/cm3" />
+    <nuclide name="Mg-24" ao="8.1320e-04" />
+    <nuclide name="Mg-25" ao="1.0295e-04" />
+    <nuclide name="Mg-26" ao="1.1335e-04" />
+    <nuclide name="Al-27" ao="5.7868e-02" />
+    <nuclide name="Mn-55" ao="1.5182e-04" />
+    <nuclide name="Cu-63" ao="7.9891e-04" />
+    <nuclide name="Cu-65" ao="3.5609e-04" />
+  </material>
 
- <material id="5">
-   <density value="7.93" units="g/cm3" />
-   <nuclide name="Cr-50" ao="7.1832e-04" />
-   <nuclide name="Cr-52" ao="1.3852e-02" />
-   <nuclide name="Cr-53" ao="1.5707e-03" />
-   <nuclide name="Cr-54" ao="3.9098e-04" />
-   <nuclide name="Fe-54" ao="3.6986e-03" />
-   <nuclide name="Fe-56" ao="5.8060e-02" />
-   <nuclide name="Fe-57" ao="1.3409e-03" />
-   <nuclide name="Fe-58" ao="1.7844e-04" />
-   <nuclide name="Ni-58" ao="4.4315e-03" />
-   <nuclide name="Ni-60" ao="1.7070e-03" />
-   <nuclide name="Ni-61" ao="7.4202e-05" />
-   <nuclide name="Ni-62" ao="2.3659e-04" />
-   <nuclide name="Ni-64" ao="6.0252e-05" />
- </material>
-
- <material id="6">
-   <density value="1e-12" units="atom/b-cm" />
-   <nuclide name="O-16" ao="1.0" />
- </material>
+  <!-- Stainless Steel -->
+  <material id="4">
+    <density value="7.93" units="g/cm3" />
+    <nuclide name="Cr-50" ao="7.1832e-04" />
+    <nuclide name="Cr-52" ao="1.3852e-02" />
+    <nuclide name="Cr-53" ao="1.5707e-03" />
+    <nuclide name="Cr-54" ao="3.9098e-04" />
+    <nuclide name="Fe-54" ao="3.6986e-03" />
+    <nuclide name="Fe-56" ao="5.8060e-02" />
+    <nuclide name="Fe-57" ao="1.3409e-03" />
+    <nuclide name="Fe-58" ao="1.7844e-04" />
+    <nuclide name="Ni-58" ao="4.4315e-03" />
+    <nuclide name="Ni-60" ao="1.7070e-03" />
+    <nuclide name="Ni-61" ao="7.4202e-05" />
+    <nuclide name="Ni-62" ao="2.3659e-04" />
+    <nuclide name="Ni-64" ao="6.0252e-05" />
+  </material>
 
 </materials>
