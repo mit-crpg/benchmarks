@@ -97,10 +97,4 @@
     <nuclide name="Cu-65" ao="2.2809e-04" />
   </material>
 
-  <!-- Void -->
-  <material id="7">
-    <density value="5.0306e-12" units="atom/b-cm" />
-    <nuclide name="O-16" ao="1.5092e-5" />
-  </material>
-
 </materials>

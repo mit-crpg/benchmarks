@@ -91,8 +91,8 @@
   <cell id="31" material="1" surfaces="24 -26 -33" />
 
   <!-- Void -->
-  <cell id="32" material="7" surfaces="14 -15 -31" />
-  <cell id="33" material="7" surfaces="4 -25 31 -30" />
-  <cell id="34" material="7" surfaces="27 -28 -30" />
+  <cell id="32" material="void" surfaces="14 -15 -31" />
+  <cell id="33" material="void" surfaces="4 -25 31 -30" />
+  <cell id="34" material="void" surfaces="27 -28 -30" />
 
 </geometry>
