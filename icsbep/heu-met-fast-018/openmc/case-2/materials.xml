@@ -12,28 +12,25 @@
 
   <default_xs>70c</default_xs>
 
-  <!-- Void -->
-  <material id="1">
-    <density value="1e-12" units="atom/b-cm" />
-    <nuclide name="O-16" ao="1.0" />
-  </material>
-
   <!-- HEU -->
-  <material id="2">
-    <density value="0.0483021" units="atom/b-cm" />
-    <nuclide name="U-234" ao="5.2111e-4" />
-    <nuclide name="U-235" ao="4.2064e-2" />
-    <nuclide name="U-238" ao="4.3626e-3" />
-    <nuclide name="C-Nat" ao="1.1074e-3" />
-    <nuclide name="Fe-54" ao="1.129254e-05" />
-    <nuclide name="Fe-56" ao="0.000177268728" />
-    <nuclide name="Fe-57" ao="4.093908e-06" />
-    <nuclide name="Fe-58" ao="5.44824e-07" />
-    <!-- <nuclide name="W-180" ao="6.45576e-08" /> -->
-    <nuclide name="W-182" ao="1.425647e-05" />
-    <nuclide name="W-183" ao="7.6984938e-06" />
-    <nuclide name="W-184" ao="1.64837072e-05" />
-    <nuclide name="W-186" ao="1.52947714e-05" />
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="5.2111e-04" />
+    <nuclide name="U-235" ao="4.2064e-02" />
+    <nuclide name="U-238" ao="4.3626e-03" />
+    <nuclide name="C-Nat" ao="1.1074e-03" />
+    <!-- C at 1.1074e-3 atom/b-cm -->
+    <nuclide name="C-Nat" ao="1.1074e-03" />
+    <!-- Fe at 1.9320e-4 atom/b-cm -->
+    <nuclide name="Fe-54" ao="1.1293e-05" />
+    <nuclide name="Fe-56" ao="1.7727e-04" />
+    <nuclide name="Fe-57" ao="4.0939e-06" />
+    <nuclide name="Fe-58" ao="5.4482e-07" />
+    <!-- W at 5.3798e-5 atom/b-cm -->
+    <nuclide name="W-182" ao="1.4321e-05" />
+    <nuclide name="W-183" ao="7.6985e-06" />
+    <nuclide name="W-184" ao="1.6484e-05" />
+    <nuclide name="W-186" ao="1.5295e-05" />
   </material>
 
 </materials>

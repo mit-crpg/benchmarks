@@ -12,14 +12,8 @@
 
   <default_xs>70c</default_xs>
 
-  <!-- Void -->
-  <material id="1">
-    <density value="1e-12" units="atom/b-cm" />
-    <nuclide name="O-16" ao="1.0" />
-  </material>
-
   <!-- HEU -->
-  <material id="2">
+  <material id="1">
     <density value="0.048223993" units="atom/b-cm" />
     <nuclide name="U-234" ao="5.2104e-4" />
     <nuclide name="U-235" ao="4.2055e-2" />
@@ -37,7 +31,7 @@
   </material>
 
   <!-- Duralumin reflector -->
-  <material id="3">
+  <material id="2">
     <density value="0.05593712" units="atom/b-cm" />
     <nuclide name="Al-27" ao="5.3934e-2" />
     <nuclide name="Fe-54" ao="5.7691319e-05" />

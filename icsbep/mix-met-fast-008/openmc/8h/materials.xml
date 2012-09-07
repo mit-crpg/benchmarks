@@ -87,10 +87,4 @@
     <nuclide name="V-Nat"  ao="9.2127e-05" />
   </material>
 
-  <!-- Void -->
-  <material id="4">
-    <density value="1e-12" units="atom/b-cm" />
-    <nuclide name="O-16" ao="1.0" />
-  </material>
-
 </materials>

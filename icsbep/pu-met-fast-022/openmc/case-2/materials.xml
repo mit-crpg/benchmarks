@@ -12,14 +12,8 @@
 
   <default_xs>70c</default_xs>
 
-  <!-- Void -->
-  <material id="1">
-    <density value="1e-12" units="atom/b-cm" />
-    <nuclide name="O-16" ao="1.0" />
-  </material>
-
   <!-- 98% Pu-239 in delta phase -->
-  <material id="2">
+  <material id="1">
     <density value="0.04178839" units="atom/b-cm" />
     <nuclide name="Pu-239" ao="3.6623e-2" />
     <nuclide name="Pu-240" ao="6.6951e-4" />

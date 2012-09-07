@@ -12,14 +12,8 @@
 
   <default_xs>70c</default_xs>
 
-  <!-- Void -->
-  <material id="1">
-    <density value="1e-12" units="atom/b-cm" />
-    <nuclide name="O-16" ao="1.0" />
-  </material>
-
   <!-- 98% Pu-239 in delta phase -->
-  <material id="2">
+  <material id="1">
     <density value="0.04184626" units="atom/b-cm" />
     <nuclide name="Pu-239" ao="3.6603e-2" />
     <nuclide name="Pu-240" ao="6.6913e-4" />
@@ -38,7 +32,7 @@
   </material>
 
   <!-- Graphite -->
-  <material id="3">
+  <material id="2">
     <density value="9.1842e-2" units="atom/b-cm" />
     <nuclide name="C-Nat" ao="1.0" />
     <sab name="grph" xs="10t" />

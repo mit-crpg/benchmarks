@@ -12,14 +12,8 @@
 
   <default_xs>70c</default_xs>
 
-  <!-- Void -->
-  <material id="1">
-    <density value="1e-12" units="atom/b-cm" />
-    <nuclide name="O-16" ao="1.0" />
-  </material>
-
   <!-- 98% Pu-239 in delta phase -->
-  <material id="2">
+  <material id="1">
     <density value="0.04186408" units="atom/b-cm" />
     <nuclide name="Pu-239" ao="3.6603e-2" />
     <nuclide name="Pu-240" ao="6.6917e-4" />
@@ -38,7 +32,7 @@
   </material>
 
   <!-- Steel reflector 1 -->
-  <material id="3">
+  <material id="2">
     <density value="0.081736" units="atom/b-cm" />
     <nuclide name="Fe-54" ao="0.0046418652" />
     <nuclide name="Fe-56" ao="0.07286735664" />
@@ -63,7 +57,7 @@
   </material>
 
   <!-- Steel reflector 2 -->
-  <material id="4">
+  <material id="3">
     <density value="0.08122453" units="atom/b-cm" />
     <nuclide name="Fe-54" ao="0.00461281555" />
     <nuclide name="Fe-56" ao="0.07241133926" />
