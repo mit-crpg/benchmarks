@@ -3,8 +3,8 @@
 
   <!--
   ==========================================================
-  Description: Pu cylinder reflected by Be, assembly 50
-  Case:        pu-met-fast-021-case-1
+  Description: Pu cylinder reflected by BeO, assembly 51
+  Case:        pu-met-fast-021-case-2
   Written By:  Jedidiah Phillips
   Date:        4/6/2012
   ==========================================================
@@ -19,10 +19,9 @@
   <source>
     <space>
       <type>box</type>
-      <parameters>-.6 -.6 5.17  .6  .6  6.17</parameters>
+      <parameters>0 0 0 1 1 1</parameters>
     </space>
   </source>
 
 </settings>
-
 
