@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ===============================================================
+  Description: LWBR Core SB-2 1/2
+  Case:        U233-COMP-THERM-001 Case 3
+  Written By:  Paul Romano
+  Date:        9/6/2012
+  ===============================================================
+  -->
+
+  <criticality>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <space type="box">
+      <parameters>
+        -8.27532 -7.35584 -25.8191
+         8.27532  7.35584  25.8191
+      </parameters>
+    </space>
+  </source>
+
+  <entropy>
+    <lower_left>-8.27532 -7.35584 -25.8191</lower_left>
+    <upper_right>8.27532  7.35584  25.8191</upper_right>
+  </entropy>
+
+</settings>

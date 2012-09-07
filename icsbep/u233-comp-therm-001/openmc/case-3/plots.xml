@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<plots>
+
+  <!--
+  ===============================================================
+  Description: LWBR Core SB-2 1/2
+  Case:        U233-COMP-THERM-001 Case 3
+  Written By:  Paul Romano
+  Date:        9/6/2012
+  ===============================================================
+  -->
+
+  <plot id="1" color="mat">
+    <basis>xy</basis>
+    <origin>0. 0. 0.</origin>
+    <width>20. 20.</width>
+    <pixels>2000 2000</pixels>
+  </plot>
+
+  <plot id="2" color="mat">
+    <basis>xy</basis>
+    <origin>0. 0. 18.</origin>
+    <width>20. 20.</width>
+    <pixels>2000 2000</pixels>
+  </plot>
+
+  <plot id="3" color="mat">
+    <basis>xy</basis>
+    <origin>0. 0. 30.</origin>
+    <width>20. 20.</width>
+    <pixels>2000 2000</pixels>
+  </plot>
+
+</plots>
+

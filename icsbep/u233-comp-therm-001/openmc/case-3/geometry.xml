@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ===============================================================
+  Description: LWBR Core SB-2 1/2
+  Case:        U233-COMP-THERM-001 Case 3
+  Written By:  Paul Romano
+  Date:        9/6/2012
+  ===============================================================
+  -->
+
+  <surface id="1"  type="z-cylinder" coeffs="0. 0. 42.18" boundary="vacuum" /> <!-- Reflector Outer Radius -->
+  <surface id="2"  type="z-cylinder" coeffs="0. 0. 0.26797" />       <!-- Fuel Outer Radius -->
+  <surface id="3"  type="z-cylinder" coeffs="0. 0. 0.27940" />       <!-- Clad Inner Radius -->
+  <surface id="4"  type="z-cylinder" coeffs="0. 0. 0.32385" />       <!-- Clad Outer Radius -->
+
+  <!-- Axial positions -->
+  <surface id="5"  type="z-plane" coeffs="-56.2991" boundary="vacuum" />   <!-- Bottom of Relector -->
+  <surface id="6"  type="z-plane" coeffs="-25.8191" />                      <!-- Bottom of End Plug -->
+  <surface id="7"  type="z-plane" coeffs="-19.05" />                        <!-- Bottom of Fuel -->
+  <surface id="8"  type="z-plane" coeffs="16.05" />                         <!-- Bottom of Control Blades -->
+  <surface id="9"  type="z-plane" coeffs="19.05" />                         <!-- Top of Fuel -->
+  <surface id="10" type="z-plane" coeffs="25.8191" />                       <!-- Top of End Plug -->
+  <surface id="11" type="z-plane" coeffs="56.2991" boundary="vacuum" />     <!-- Top of Reflector -->
+
+  <!-- Edges of core -->
+  <surface id="12" type="x-plane" coeffs="-8.27532" /> <!-- Left Edge of Core -->
+  <surface id="13" type="x-plane" coeffs="8.27532" />  <!-- Right Edge of Core -->
+  <surface id="14" type="y-plane" coeffs="-7.35584" /> <!-- Front Edge of Core -->
+  <surface id="15" type="y-plane" coeffs="7.35584" />  <!-- Back Edge of Core -->
+
+  <!-- Surfaces for control blades within lattice -->
+  <surface id="21" type="x-plane" coeffs="-0.37084" />
+  <surface id="22" type="x-plane" coeffs="0.37084" />
+  <surface id="23" type="y-plane" coeffs="-0.37084" />
+  <surface id="24" type="y-plane" coeffs="0.37084" />
+
+  <!-- Surfaces for control blades above lattice -->
+  <surface id="25" type="x-plane" coeffs="-3.81" />
+  <surface id="26" type="x-plane" coeffs="3.81" />
+  <surface id="27" type="y-plane" coeffs="-5.60578" />  <!-- Control Blade D -->
+  <surface id="28" type="y-plane" coeffs="-5.42798" />  <!-- Control Blade D -->
+  <surface id="29" type="y-plane" coeffs="-1.92786" />  <!-- Control Blade C -->
+  <surface id="30" type="y-plane" coeffs="-1.75006" />  <!-- Control Blade C -->
+  <surface id="31" type="y-plane" coeffs="1.75006" />   <!-- Control Blade B -->
+  <surface id="32" type="y-plane" coeffs="1.92786" />   <!-- Control Blade B -->
+  <surface id="33" type="y-plane" coeffs="5.42798" />   <!-- Control Blade A -->
+  <surface id="34" type="y-plane" coeffs="5.60578" />   <!-- Control Blade A -->
+
+  <!-- fuel pin universe, no control blade -->
+  <cell id="101" universe="1" material="5"    surfaces="-2  7 -9" /> <!-- Fuel Pin -->
+  <cell id="102" universe="1" material="1"    surfaces="-2 -7" />    <!-- Bottom End Plug -->
+  <cell id="103" universe="1" material="1"    surfaces="-2  9" />    <!-- Top End Plug -->
+  <cell id="104" universe="1" material="void" surfaces=" 2 -3" />    <!-- Void -->
+  <cell id="105" universe="1" material="1"    surfaces=" 3 -4" />    <!-- Cladding -->
+  <cell id="106" universe="1" material="3"    surfaces=" 4" />       <!-- Water -->
+
+  <!-- fuel pin universe, control blade bottom -->
+  <cell id="201" universe="2" material="5"    surfaces="-2  7 -9" />  <!-- Fuel Pin -->
+  <cell id="202" universe="2" material="1"    surfaces="-2 -7" />     <!-- Bottom End Plug -->
+  <cell id="203" universe="2" material="1"    surfaces="-2  9" />     <!-- Top End Plug -->
+  <cell id="204" universe="2" material="void" surfaces=" 2 -3" />     <!-- Void -->
+  <cell id="205" universe="2" material="1"    surfaces=" 3 -4" />     <!-- Cladding -->
+  <cell id="206" universe="2" material="3"    surfaces=" 4 -8" />     <!-- Water -->
+  <cell id="207" universe="2" material="3"    surfaces=" 4  8  23" /> <!-- Water -->
+  <cell id="208" universe="2" material="4"    surfaces="    8 -23" /> <!-- Control Blade -->
+
+  <!-- fuel pin universe, control blade top -->
+  <cell id="301" universe="3" material="5"    surfaces="-2  7 -9" />  <!-- Fuel Pin -->
+  <cell id="302" universe="3" material="1"    surfaces="-2 -7" />     <!-- Bottom End Plug -->
+  <cell id="303" universe="3" material="1"    surfaces="-2  9" />     <!-- Top End Plug -->
+  <cell id="304" universe="3" material="void" surfaces=" 2 -3" />     <!-- Void -->
+  <cell id="305" universe="3" material="1"    surfaces=" 3 -4" />     <!-- Cladding -->
+  <cell id="306" universe="3" material="3"    surfaces=" 4 -8" />     <!-- Water -->
+  <cell id="307" universe="3" material="3"    surfaces=" 4  8 -24" /> <!-- Water -->
+  <cell id="308" universe="3" material="4"    surfaces="    8  24" /> <!-- Control Blade -->
+
+  <!-- fuel pin universe, control blade lower-right -->
+  <cell id="401" universe="4" material="5"    surfaces="-2  7 -9" />      <!-- Fuel Pin -->
+  <cell id="402" universe="4" material="1"    surfaces="-2 -7" />         <!-- Bottom End Plug -->
+  <cell id="403" universe="4" material="1"    surfaces="-2  9" />         <!-- Top End Plug -->
+  <cell id="404" universe="4" material="void" surfaces=" 2 -3" />         <!-- Void -->
+  <cell id="405" universe="4" material="1"    surfaces=" 3 -4" />         <!-- Cladding -->
+  <cell id="406" universe="4" material="3"    surfaces=" 4 -8" />         <!-- Water -->
+  <cell id="407" universe="4" material="3"    surfaces=" 4  8  23" />     <!-- Water -->
+  <cell id="408" universe="4" material="3"    surfaces=" 4  8 -23 -22" /> <!-- Water -->
+  <cell id="409" universe="4" material="4"    surfaces="    8 -23  22" /> <!-- Control Blade -->
+
+  <!-- fuel pin universe, control blade lower-left -->
+  <cell id="501" universe="5" material="5"    surfaces="-2  7 -9" />      <!-- Fuel Pin -->
+  <cell id="502" universe="5" material="1"    surfaces="-2 -7" />         <!-- Bottom End Plug -->
+  <cell id="503" universe="5" material="1"    surfaces="-2  9" />         <!-- Top End Plug -->
+  <cell id="504" universe="5" material="void" surfaces=" 2 -3" />         <!-- Void -->
+  <cell id="505" universe="5" material="1"    surfaces=" 3 -4" />         <!-- Cladding -->
+  <cell id="506" universe="5" material="3"    surfaces=" 4 -8" />         <!-- Water -->
+  <cell id="507" universe="5" material="3"    surfaces=" 4  8  23" />     <!-- Water -->
+  <cell id="508" universe="5" material="3"    surfaces=" 4  8 -23  21" /> <!-- Water -->
+  <cell id="509" universe="5" material="4"    surfaces="    8 -23 -21" /> <!-- Control Blade -->
+
+  <!-- fuel pin universe, control blade upper-right -->
+  <cell id="601" universe="6" material="5"    surfaces="-2  7 -9" />      <!-- Fuel Pin -->
+  <cell id="602" universe="6" material="1"    surfaces="-2 -7" />         <!-- Bottom End Plug -->
+  <cell id="603" universe="6" material="1"    surfaces="-2  9" />         <!-- Top End Plug -->
+  <cell id="604" universe="6" material="void" surfaces=" 2 -3" />         <!-- Void -->
+  <cell id="605" universe="6" material="1"    surfaces=" 3 -4" />         <!-- Cladding -->
+  <cell id="606" universe="6" material="3"    surfaces=" 4 -8" />         <!-- Water -->
+  <cell id="607" universe="6" material="3"    surfaces=" 4  8 -24" />     <!-- Water -->
+  <cell id="608" universe="6" material="3"    surfaces=" 4  8  24 -22" /> <!-- Water -->
+  <cell id="609" universe="6" material="4"    surfaces="    8  24  22" /> <!-- Control Blade -->
+
+  <!-- fuel pin universe, control blade upper-left -->
+  <cell id="701" universe="7" material="5"    surfaces="-2  7 -9" />      <!-- Fuel Pin -->
+  <cell id="702" universe="7" material="1"    surfaces="-2 -7" />         <!-- Bottom End Plug -->
+  <cell id="703" universe="7" material="1"    surfaces="-2  9" />         <!-- Top End Plug -->
+  <cell id="704" universe="7" material="void" surfaces=" 2 -3" />         <!-- Void -->
+  <cell id="705" universe="7" material="1"    surfaces=" 3 -4" />         <!-- Cladding -->
+  <cell id="706" universe="7" material="3"    surfaces=" 4 -8" />         <!-- Water -->
+  <cell id="707" universe="7" material="3"    surfaces=" 4  8 -24" />     <!-- Water -->
+  <cell id="708" universe="7" material="3"    surfaces=" 4  8  24  21" /> <!-- Water -->
+  <cell id="709" universe="7" material="4"    surfaces="    8  24 -21" /> <!-- Control Blade -->
+
+  <cell id="7"  material="4" surfaces="10 -11 25 -26 27 -28" />  <!-- Control Blade D -->
+  <cell id="8"  material="4" surfaces="10 -11 25 -26 29 -30" />  <!-- Control Blade C -->
+  <cell id="9"  material="4" surfaces="10 -11 25 -26 31 -32" />  <!-- Control Blade B -->
+  <cell id="10" material="4" surfaces="10 -11 25 -26 33 -34" />  <!-- Control Blade A -->
+
+  <!-- Lattice -->
+  <cell id="11" fill="100"   surfaces=" 6 -10 12 -13 14 -15" />
+  <lattice id="100">
+    <type>rectangular</type>
+    <dimension>18 16</dimension>
+    <lower_left>-8.27532 -7.35584</lower_left>
+    <width>0.91948 0.91948</width>
+    <universes>
+      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+      1 1 1 1 4 2 2 2 2 2 2 2 2 5 1 1 1 1
+      1 1 1 1 6 3 3 3 3 3 3 3 3 7 1 1 1 1
+      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+      1 1 1 1 4 2 2 2 2 2 2 2 2 5 1 1 1 1
+      1 1 1 1 6 3 3 3 3 3 3 3 3 7 1 1 1 1
+      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+      1 1 1 1 4 2 2 2 2 2 2 2 2 5 1 1 1 1
+      1 1 1 1 6 3 3 3 3 3 3 3 3 7 1 1 1 1
+      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+      1 1 1 1 4 2 2 2 2 2 2 2 2 5 1 1 1 1
+      1 1 1 1 6 3 3 3 3 3 3 3 3 7 1 1 1 1
+      1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    </universes>
+  </lattice>
+
+  <cell id="14" material="3" surfaces="-1  5  -6" />              <!-- Bottom Reflector -->
+  <cell id="15" material="3" surfaces="-1  6 -10 -12" />          <!-- Middle Left Reflector -->
+  <cell id="16" material="3" surfaces="-1  6 -10  13" />          <!-- Middle Right Reflector -->
+  <cell id="17" material="3" surfaces="-1  6 -10  12 -13 -14" />  <!-- Middle Front Reflector -->
+  <cell id="18" material="3" surfaces="-1  6 -10  12 -13  15" />  <!-- Middle Back Reflector -->
+  <cell id="19" material="3" surfaces="-1 10 -11 -27" />          <!-- Top Reflector -->
+  <cell id="20" material="3" surfaces="-1 10 -11  27 -28 -25" />  <!-- Top Reflector -->
+  <cell id="21" material="3" surfaces="-1 10 -11  27 -28  26"  /> <!-- Top Reflector -->
+  <cell id="22" material="3" surfaces="-1 10 -11  28 -29" />      <!-- Top Reflector -->
+  <cell id="23" material="3" surfaces="-1 10 -11  29 -30 -25" />  <!-- Top Reflector -->
+  <cell id="24" material="3" surfaces="-1 10 -11  29 -30  26" />  <!-- Top Reflector -->
+  <cell id="25" material="3" surfaces="-1 10 -11  30 -31" />      <!-- Top Reflector -->
+  <cell id="26" material="3" surfaces="-1 10 -11  31 -32 -25" />  <!-- Top Reflector -->
+  <cell id="27" material="3" surfaces="-1 10 -11  31 -32  26" />  <!-- Top Reflector -->
+  <cell id="28" material="3" surfaces="-1 10 -11  32 -33" />      <!-- Top Reflector -->
+  <cell id="29" material="3" surfaces="-1 10 -11  33 -34 -25" />  <!-- Top Reflector -->
+  <cell id="30" material="3" surfaces="-1 10 -11  33 -34  26" />  <!-- Top Reflector -->
+  <cell id="31" material="3" surfaces="-1 10 -11  34" />          <!-- Top Reflector -->
+
+</geometry>

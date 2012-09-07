@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ===============================================================
+  Description: LWBR Core SB-2 1/2
+  Case:        U233-COMP-THERM-001 Case 3
+  Written By:  Paul Romano
+  Date:        9/6/2012
+  ===============================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Zircaloy-2 -->
+  <material id="1">
+    <density value="6.5420" units="g/cm3" />
+    <!-- Zr at 4.2537e-2 atom/b-cm -->
+    <nuclide name="Zr-90" ao="2.1885e-02" />
+    <nuclide name="Zr-91" ao="4.7727e-03" />
+    <nuclide name="Zr-92" ao="7.2951e-03" />
+    <nuclide name="Zr-94" ao="7.3929e-03" />
+    <nuclide name="Zr-96" ao="1.1910e-03" />
+    <!-- Sn at 4.9918e-4 atom/b-cm -->
+    <nuclide name="Sn-112" ao="4.8420e-06" />
+    <nuclide name="Sn-114" ao="3.2946e-06" />
+    <nuclide name="Sn-115" ao="1.6972e-06" />
+    <nuclide name="Sn-116" ao="7.2581e-05" />
+    <nuclide name="Sn-117" ao="3.8337e-05" />
+    <nuclide name="Sn-118" ao="1.2090e-04" />
+    <nuclide name="Sn-119" ao="4.2880e-05" />
+    <nuclide name="Sn-120" ao="1.6263e-04" />
+    <nuclide name="Sn-122" ao="2.3112e-05" />
+    <nuclide name="Sn-124" ao="2.8903e-05" />
+  </material>
+
+  <!-- Polyethylene -->
+  <material id="2">
+    <density value="0.9183" units="g/cm3" />
+    <nuclide name="H-1"   ao="7.8854e-02" />
+    <nuclide name="C-Nat" ao="3.9427e-02" />
+    <sab name="poly" xs="10t" />
+  </material>
+
+  <!-- Water -->
+  <material id="3">
+    <density value="0.9982" units="g/cm3" />
+    <nuclide name="H-1" ao="6.6735e-02" />
+    <!-- O at 3.3368e-2 atom/b-cm -->
+    <nuclide name="O-16" ao="3.3355e-02" />
+    <nuclide name="O-17" ao="1.3347e-05" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Borated Steel -->
+  <material id="4">
+    <density value="7.8744" units="g/cm3" />
+    <!-- Fe at 5.9259e-2 atom/b-cm -->
+    <nuclide name="Fe-54" ao="3.4637e-03" />
+    <nuclide name="Fe-56" ao="5.4373e-02" />
+    <nuclide name="Fe-57" ao="1.2557e-03" />
+    <nuclide name="Fe-58" ao="1.6711e-04" />
+    <!-- Cr at 1.7428e-2 atom/b-cm -->
+    <nuclide name="Cr-50" ao="7.5725e-04" />
+    <nuclide name="Cr-52" ao="1.4603e-02" />
+    <nuclide name="Cr-53" ao="1.6558e-03" />
+    <nuclide name="Cr-54" ao="4.1217e-04" />
+    <!-- Mn at 8.6816e-4 atom/b-cm -->
+    <nuclide name="Mn-55" ao="8.6816e-04" />
+    <!-- Ni at 7.5171e-3 atom/b-cm -->
+    <nuclide name="Ni-58" ao="5.1174e-03" />
+    <nuclide name="Ni-60" ao="1.9712e-03" />
+    <nuclide name="Ni-61" ao="8.5687e-05" />
+    <nuclide name="Ni-62" ao="2.7321e-04" />
+    <nuclide name="Ni-64" ao="6.9578e-05" />
+  </material>
+
+  <!-- UO2-ZrO2 Seed Fuel (97.19 w/o U-233) -->
+  <material id="5">
+    <density value="6.4833" units="g/cm3" />
+    <nuclide name="U-233" ao="3.9891e-03" />
+    <nuclide name="U-234" ao="6.3690e-05" />
+    <nuclide name="U-238" ao="4.5759e-05" />
+    <nuclide name="O-16"  ao="5.3932e-02" />
+    <!-- Zr at 2.2867e-2 atom/b-cm -->
+    <nuclide name="Zr-90" ao="1.1765e-02" />
+    <nuclide name="Zr-91" ao="2.5657e-03" />
+    <nuclide name="Zr-92" ao="3.9217e-03" />
+    <nuclide name="Zr-94" ao="3.9743e-03" />
+    <nuclide name="Zr-96" ao="6.4028e-04" />
+  </material>
+
+</materials>

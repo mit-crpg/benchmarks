@@ -1,0 +1,105 @@
+BAPL SB Criticals  Core 2 1/2, U233-COMP-THERM-001 case 3
+1     5   0.080898  -2   7  -9  u=1                 $ Fuel Pin
+2     1   -6.5420   -2  -7      u=1                 $ Bottom End Plug
+3     1   -6.5420   -2   9      u=1                 $ Top End Plug
+4     0              2  -3      u=1                 $ Void
+5     1   -6.5420    3  -4      u=1                 $ Cladding
+6     3   -0.9982    4          u=1                 $ Water
+7     4   -7.8744    8 -11  13 -16    19   -20      $ Control Blade D
+8     4   -7.8744    8 -11  13 -16    21   -22      $ Control Blade C
+9     4   -7.8744    8 -11  13 -16    25   -26      $ Control Blade B
+10    4   -7.8744    8 -11  13 -16    27   -28      $ Control Blade A
+11    0   -15  14 -24  23  lat=1  u=2 
+          fill=-9:8 -8:7 0:0   1  287r                 $ Fuel Pin Array
+12    0    12 -17  18 -29  6 -10 #7  #8  #9 #10 fill=2 $ Core
+13    3   -0.9982   -1  10 -11   #7  #8  #9 #10        $ Top Reflector
+14    3   -0.9982   -1   5  -6                         $ Bottom Reflector
+15    3   -0.9982   -1   6 -10   -12                   $ Left Reflector
+16    3   -0.9982   -1   6 -10    17                   $ Right Reflector
+17    3   -0.9982   -1   6 -10    12   -17   -18       $ Front Reflector
+18    3   -0.9982   -1   6 -10    12   -17    29       $ Back Reflector
+19    0              1:-5:11
+
+1     cz     42.18                               $ Reflector Outer Radius
+2     c/z     0.45974   0.45974   0.26797        $ Fuel Outer Radius
+3     c/z     0.45974   0.45974   0.27940        $ Clad Inner Radius
+4     c/z     0.45974   0.45974   0.32385        $ Clad Outer Radius
+5     pz    -56.2991                             $ Bottom of Relector
+6     pz    -25.8191                             $ Bottom of End Plug
+7     pz    -19.05                               $ Bottom of Fuel
+8     pz     16.05                               $ Bottom of Control Blades
+9     pz     19.05                               $ Top of Fuel
+10    pz     25.8191                             $ Top of End Plug
+11    pz     56.2991                             $ Top of Reflector
+12    px     -8.27532                            $ Left Edge of Core
+13    px     -3.81                               $ Left Edge of Control Blades
+14    px      0.0                                $ Left Edge of Cell
+15    px      0.91948                            $ Right Edge of Cell
+16    px      3.81                               $ Right Edge of Control Blades
+17    px      8.27532                            $ Right Edge of Core
+18    py     -7.35584                            $ Front Edge of Core
+19    py     -5.60578                            $ Front Edge of Control Blade D
+20    py     -5.42798                            $ Back Edge of Control Blade D
+21    py     -1.92786                            $ Front Edge of Control Blade C
+22    py     -1.75006                            $ Back Edge of Control Blade C
+23    py      0.0                                $ Front Edge of Cell
+24    py      0.91948                            $ Back Edge of Cell
+25    py      1.75006                            $ Front Edge of Control Blade B
+26    py      1.92786                            $ Back Edge of Control Blade B
+27    py      5.42798                            $ Front Edge of Control Blade A
+28    py      5.60578                            $ Back Edge of Control Blade A
+29    py      7.35584                            $ Back Edge of Core
+
+c    Zircaloy-2 Cladding
+m1   40090.70c  2.1885e-02
+     40091.70c  4.7727e-03
+     40092.70c  7.2951e-03
+     40094.70c  7.3929e-03
+     40096.70c  1.1910e-03
+     50112.70c  4.8420e-06
+     50114.70c  3.2946e-06
+     50115.70c  1.6972e-06
+     50116.70c  7.2581e-05
+     50117.70c  3.8337e-05
+     50118.70c  1.2090e-04
+     50119.70c  4.2880e-05
+     50120.70c  1.6263e-04
+     50122.70c  2.3112e-05
+     50124.70c  2.8903e-05
+c    Polyethylene
+m2   1001.70c  7.8854e-02
+     6000.70c  3.9427e-02
+mt2  poly.10t
+c    Water
+m3   1001.70c  6.6735e-2
+     8016.70c  3.3355e-2
+     8017.70c  1.3347e-5
+mt3  lwtr.10t
+c    Borated Steel
+m4   26054.70c  3.4637e-03
+     26056.70c  5.4373e-02
+     26057.70c  1.2557e-03
+     26058.70c  1.6711e-04
+     24050.70c  7.5725e-04
+     24052.70c  1.4603e-02
+     24053.70c  1.6558e-03
+     24054.70c  4.1217e-04
+     25055.70c  8.6816e-04
+     28058.70c  5.1174e-03
+     28060.70c  1.9712e-03
+     28061.70c  8.5687e-05
+     28062.70c  2.7321e-04
+     28064.70c  6.9578e-05
+c    UO2-ZrO2 Seed Fuel (97.19 w/o U-233)
+m5   92233.70c  3.9891e-03
+     92234.70c  6.3690e-05
+     92238.70c  4.5759e-05
+     8016.70c   5.3932e-02
+     40090.70c  1.1765e-02
+     40091.70c  2.5657e-03
+     40092.70c  3.9217e-03
+     40094.70c  3.9743e-03
+     40096.70c  6.4028e-04
+kcode 10000 1.0 20 3000
+ksrc  0.48 0.48 0.
+imp:n 1 17r 0
