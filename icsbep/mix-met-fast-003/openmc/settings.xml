@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ===================================================
+  Description: Sphere of Pu surrounded by HEU, VNIITF
+  Case:        MIX-MET-FAST-003
+  Written By:  Paul Romano
+  Date:        9/7/2012
+  ===================================================
+  -->
+
+  <criticality>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </criticality>
+
+  <source>
+    <space type="point" parameters="0. 0. 0." />
+  </source>
+
+</settings>

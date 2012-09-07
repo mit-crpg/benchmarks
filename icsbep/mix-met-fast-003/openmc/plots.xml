@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<plots>
+
+  <!--
+  ===================================================
+  Description: Sphere of Pu surrounded by HEU, VNIITF
+  Case:        MIX-MET-FAST-003
+  Written By:  Paul Romano
+  Date:        9/7/2012
+  ===================================================
+  -->
+
+  <plot id="1" color="mat">
+    <basis>yz</basis>
+    <origin>0. 0. 0.</origin>
+    <width>30. 30.</width>
+    <pixels>1000 1000</pixels>
+  </plot>
+
+</plots>
