@@ -57,10 +57,10 @@
 
   <!-- Duralumin base and top -->
   <cell id="3"  material="4" surfaces=" 2  -4 -30  31" />
-  <cell id="4"  material="4" surfaces="25 -27 -30  31" />
+  <cell id="4"  material="4" surfaces="25 -28 -30  31" />
 
   <!-- Duralumin top cylindrical shell -->
-  <cell id="6"  material="5" surfaces="15 -27 -31  32" />
+  <cell id="6"  material="5" surfaces="15 -28 -31  32" />
 
   <!-- Duralumin bottom cylindrical shell -->
   <cell id="7"  material="6" surfaces=" 2 -14 -31  32" />
