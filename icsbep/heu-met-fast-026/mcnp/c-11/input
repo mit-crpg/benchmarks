@@ -23,7 +23,19 @@ c  STS 18.720 cm  7.6-cm thick reflector
 18   4   -0.93        5  -10   16  -17   18  -29            $ Front Reflector
 19   4   -0.93        5  -10   13  -16   18  -19            $ Left Reflector
 20   4   -0.93        5  -10   13  -16   28  -29            $ Right Reflector
-21   0               -4:11:-12:17:-18:29
+c    Concrete Room
+21   0           31 -32 36 -37 40 -41 (-4:11:-12:17:-18:29) $ Room void
+22   0           31 -32 35 -37 41 -42                       $ Room void
+23   3  7.96492e-02     30 -33 34 -38 39 -40                $ floor of room
+24   3  7.96492e-02     30 -33 34 -36 40 -41                $ ledge
+25   3  7.96492e-02     30 -33 34 -35 41 -42                $ wall above ledge (south)
+26   3  7.96492e-02     30 -31 35 -36 41 -42                $ wall above ledge (west)
+27   3  7.96492e-02     32 -33 35 -36 41 -42                $ wall above ledge (east)
+28   3  7.96492e-02     30 -31 36 -37 40 -42                $ west wall
+29   3  7.96492e-02     32 -33 36 -37 40 -42                $ east wall
+30   3  7.96492e-02     30 -33 37 -38 40 -42                $ north wall
+31   3  7.96492e-02     30 -33 34 -38 42 -43                $ ceiling of room
+32   0                 -30:33:-34:38:-39:43
 
 1    cz       5.742                 $ Radius of HEU Cylinder
 2    c/z      0   -4.2735  0.254    $ Radius of Left SS Rod
@@ -54,6 +66,22 @@ c  STS 18.720 cm  7.6-cm thick reflector
 27   px      30.458                 $ Right Edge of Right Paraffin Ggap
 28   px      45.306                 $ Left Edge of Right Paraffin Sheet
 29   px      52.906                 $ Right Edge of Right Paraffin Sheet
+c    Surfaces for room
+30   px    -496.57                  $ outside surface of concrete room
+31   px    -344.17                  $ inside surface of concrete room
+32   px     554.99                  $ inside surface of concrete room
+33   px     600.71                  $ outside surface of concrete room
+34   py    -624.84                  $ outside surface of concrete room
+35   py    -563.88                  $ inside surface of concrete room above 12 ft level
+36   py    -502.92                  $ inside surface of concrete room below 12 ft level
+37   py     428.96                  $ inside surface of concrete room
+38   py     581.36                  $ outside surface of concrete room
+c    Heights in room -- these vary for each case
+39   pz    -265.3725                $ bottom of room
+40   pz    -173.9325                $ floor of room
+41   pz     191.8275                $ 12 ft high ledge in room
+42   pz     905.5675                $ ceiling of room
+43   pz     936.0475                $ top of room
 
 c    HEU
 m1   92234.70c  4.8271e-04
@@ -110,4 +138,4 @@ m4   1001.70c  8.2565e-02
 mt4  poly.10t
 kcode 10000 1.0 20 3000
 ksrc  0  0  0
-imp:n 1 19r 0
+imp:n 1 30r 0
