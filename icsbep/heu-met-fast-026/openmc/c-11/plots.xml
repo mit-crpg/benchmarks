@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <plots>
 
+  <!--
+  ==========================================================
+  Description: Tinkertoy II
+  Case:        HEU-MET-FAST-026 Case c-11
+  Written By:  Katie Biegel, Paul Romano
+  Date:        6/6/2012, 9/9/2012
+  ==========================================================
+  -->
+
   <plot id="1" color="mat">
     <basis>yz</basis>
     <origin>6.8405 0. 0.</origin>
