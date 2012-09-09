@@ -49,33 +49,33 @@
   <cell id="1" material="2" surfaces="-1 15 -18" />
   <cell id="2" material="2" surfaces="-2 15 -18" />
   <cell id="3" material="1" surfaces="-3 1 2 15 -16" />
-  <cell id="4" material="4" surfaces="-3 1 2 16 -17" />
+  <cell id="4" material="void" surfaces="-3 1 2 16 -17" />
   <cell id="5" material="1" surfaces="-3 1 2 17 -18" />
 
   <cell id="6" material="2" surfaces="-4 15 -18" />
   <cell id="7" material="2" surfaces="-5 15 -18" />
   <cell id="8" material="1" surfaces="-6 4 5 15 -16" />
-  <cell id="9" material="4" surfaces="-6 4 5 16 -17" />
+  <cell id="9" material="void" surfaces="-6 4 5 16 -17" />
   <cell id="10" material="1" surfaces="-6 4 5 17 -18" />
 
   <cell id="11" material="2" surfaces="-7 15 -18" />
   <cell id="12" material="2" surfaces="-8 15 -18" />
   <cell id="13" material="1" surfaces="-9 7 8 15 -16" />
-  <cell id="14" material="4" surfaces="-9 7 8 16 -17" />
+  <cell id="14" material="void" surfaces="-9 7 8 16 -17" />
   <cell id="15" material="1" surfaces="-9 7 8 17 -18" />
 
   <cell id="16" material="2" surfaces="-10 15 -18" />
   <cell id="17" material="2" surfaces="-11 15 -18" />
   <cell id="18" material="1" surfaces="-12 10 11 15 -16" />
-  <cell id="19" material="4" surfaces="-12 10 11 16 -17" />
+  <cell id="19" material="void" surfaces="-12 10 11 16 -17" />
   <cell id="20" material="1" surfaces="-12 10 11 17 -18" />
 
-  <cell id="21" material="4" surfaces="23 -24 28 -29 14 -15" />
-  <cell id="22" material="4" surfaces="23 -24 28 -29 15 -16 3 6 9 12" />
-  <cell id="23" material="4" surfaces="23 -24 28 -29 16 -17" />
-  <cell id="24" material="4" surfaces="23 -24 28 -29 17 -18 3 6 9 12" />
-  <cell id="25" material="4" surfaces="23 -24 28 -29 18 -19" />
-  <cell id="26" material="4" surfaces="23 -24 27 -29 19 -20" />
+  <cell id="21" material="void" surfaces="23 -24 28 -29 14 -15" />
+  <cell id="22" material="void" surfaces="23 -24 28 -29 15 -16 3 6 9 12" />
+  <cell id="23" material="void" surfaces="23 -24 28 -29 16 -17" />
+  <cell id="24" material="void" surfaces="23 -24 28 -29 17 -18 3 6 9 12" />
+  <cell id="25" material="void" surfaces="23 -24 28 -29 18 -19" />
+  <cell id="26" material="void" surfaces="23 -24 27 -29 19 -20" />
 
   <cell id="27" material="3" surfaces="22 -25 26 -30 13 -14" />
   <cell id="28" material="3" surfaces="23 -24 27 -28 14 -19" />

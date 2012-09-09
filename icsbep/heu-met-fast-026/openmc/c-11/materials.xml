@@ -75,10 +75,4 @@
     <sab name="lwtr" xs="10t" />
   </material>
 
-  <!-- Void -->
-  <material id="4">
-    <density units="sum" />
-    <nuclide name="O-16" ao="1.0e-15" />
-  </material>
-
 </materials>

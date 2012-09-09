@@ -1,14 +1,11 @@
+<?xml version="1.0"?>
 <plots>
-  <plot id="1">
-    <type>slice</type>
+
+  <plot id="1" color="mat">
+    <basis>yz</basis>
     <origin>6.8405 0. 0.</origin>
     <width>1500. 1500.</width>
     <pixels>3000 3000</pixels>
-    <color>mat</color>
-    <basis>yz</basis>
-    <col_spec id="1" rgb="204 204 0" />
-    <col_spec id="2" rgb="51 51 51" />
-    <col_spec id="3" rgb="80 80 80" />
-    <col_spec id="4" rgb="204 204 244" />
   </plot>
+
 </plots>
