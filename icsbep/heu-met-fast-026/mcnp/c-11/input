@@ -9,20 +9,20 @@ c  STS 18.720 cm  7.6-cm thick reflector
 7    0               -9    6  -15   14  -25   22    u=2
                       lat=1  fill=-1:1 -1:1 -1:1   1  26r   $ 3x3x3 Array
 8    0                5  -10   13  -16   19  -28    fill=2  $ Core
-9    0                4   -5   12  -17   20  -21            $ Left Void
-10   0                4   -5   12  -17   23  -24            $ Center Void
-11   0                4   -5   12  -17   26  -27            $ Right Void
-12   4   -0.93        4   -5   12  -17   18  -29
+9    0                4   -5   13  -16   20  -21            $ Left Void
+10   0                4   -5   13  -16   23  -24            $ Center Void
+11   0                4   -5   13  -16   26  -27            $ Right Void
+12   4   -0.93        4   -5   13  -16   19  -28
                      #9  #10  #11                           $ Lower Reflector
-13   0               10  -11   12  -17   20  -21            $ Left Void
-14   0               10  -11   12  -17   23  -24            $ Center Void
-15   0               10  -11   12  -17   26  -27            $ Right Void
-16   4   -0.93       10  -11   12  -17   18  -29
+13   0               10  -11   13  -16   20  -21            $ Left Void
+14   0               10  -11   13  -16   23  -24            $ Center Void
+15   0               10  -11   13  -16   26  -27            $ Right Void
+16   4   -0.93       10  -11   13  -16   19  -28
                     #13  #14  #15                           $ Upper Reflector
-17   4   -0.93        5  -10   12  -13   18  -29            $ Back Reflector
-18   4   -0.93        5  -10   16  -17   18  -29            $ Front Reflector
-19   4   -0.93        5  -10   13  -16   18  -19            $ Left Reflector
-20   4   -0.93        5  -10   13  -16   28  -29            $ Right Reflector
+17   4   -0.93        4  -11   12  -13   18  -29            $ Back Reflector
+18   4   -0.93        4  -11   16  -17   18  -29            $ Front Reflector
+19   4   -0.93        4  -11   13  -16   18  -19            $ Left Reflector
+20   4   -0.93        4  -11   13  -16   28  -29            $ Right Reflector
 c    Concrete Room
 21   0           31 -32 36 -37 40 -41 (-4:11:-12:17:-18:29) $ Room void
 22   0           31 -32 35 -37 41 -42                       $ Room void
