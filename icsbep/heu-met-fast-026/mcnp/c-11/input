@@ -1,11 +1,11 @@
 Tinkertoy 2, 3x3x3 Array, paraffin reflector, HEU-MET-FAST-026 c-11
 c  STS 18.720 cm  7.6-cm thick reflector
-1    1   -18.76      -1   #2   #3    7   -8         u=1     $ HEU Cylinder
+1    1   -18.76      -1    2    3    7   -8         u=1     $ HEU Cylinder
 2    2   0.087058    -2                             u=1     $ Left SS Rod
 3    2   0.087058    -3                             u=1     $ Right SS Rod
 4    0                1    7   -8                   u=1     $ Side Void
-5    0               #2   #3   -7                   u=1     $ Bottom Void
-6    0               #2   #3    8                   u=1     $ Top Void
+5    0                2    3   -7                   u=1     $ Bottom Void
+6    0                2    3    8                   u=1     $ Top Void
 7    0               -9    6  -15   14  -25   22    u=2
                       lat=1  fill=-1:1 -1:1 -1:1   1  26r   $ 3x3x3 Array
 8    0                5  -10   13  -16   19  -28    fill=2  $ Core
