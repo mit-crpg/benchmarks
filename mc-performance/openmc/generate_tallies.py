@@ -36,9 +36,7 @@ for i, assem in enumerate(assemblies):
     fh.write('    <dimension>17 17</dimension>\n')
     fh.write('  </mesh>\n')
     fh.write('  <tally id="{0}">\n'.format(i+1))
-    fh.write('    <filters>\n')
-    fh.write('      <mesh>{0}</mesh>\n'.format(i+1))
-    fh.write('    </filters>\n')
+    fh.write('    <filter type="mesh" bins="{0}" />\n'.format(i+1))
     fh.write('    <scores>nu-fission</scores>\n')
     fh.write('  </tally>\n\n')
 
