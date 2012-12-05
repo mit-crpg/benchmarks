@@ -11,11 +11,11 @@
   -->
 
   <!-- Parameters for criticality calculation -->
-  <criticality>
+  <eigenvalue>
     <batches>20</batches>
     <inactive>10</inactive>
     <particles>10000</particles>
-  </criticality>
+  </eigenvalue>
 
   <!-- Starting source -->
   <source>
