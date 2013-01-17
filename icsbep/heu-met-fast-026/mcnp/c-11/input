@@ -1,5 +1,16 @@
 Tinkertoy 2, 3x3x3 Array, paraffin reflector, HEU-MET-FAST-026 c-11
 c  STS 18.720 cm  7.6-cm thick reflector
+c 
+c This model is slightly difference than what appears in the MCNP criticality
+c validation suite. The following changes have been made:
+c 
+c 1) The gaps in the paraffin in the MCNP suite model extend the entire length
+c    of the paraffin. Figure 8 in the benchmark specification shows that this is
+c    not right.
+c
+c 2) The concrete walls of the room are absent in the MCNP suite model. They
+c    have been included here.
+c
 1    1   -18.76      -1    2    3    7   -8         u=1     $ HEU Cylinder
 2    2   0.087058    -2                             u=1     $ Left SS Rod
 3    2   0.087058    -3                             u=1     $ Right SS Rod
