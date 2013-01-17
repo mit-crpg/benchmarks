@@ -1,4 +1,9 @@
 MIX-COMP-THERM-002 PNL-32: square lattice, pitch=2.20914 cm, 0.9 ppm
+c
+c This model differs slightly from the MCNP criticality validation suite. The
+c diagonal egg-crate in the fuel cell universe was only half complete in the 
+c MCNP suite -- it has been corrected here.
+c
 1    0               21 23 -25 4 -12 fill=11  imp:n=1  $ Cube for Fuelled Core
 2    4  0.100059     21 23 -25 (1 -2:14 -15)  imp:n=1  $ Bottom and Top Refl
 3    5  0.059721     21 23 -25 2 -4           imp:n=1  $ Aluminum Plate
