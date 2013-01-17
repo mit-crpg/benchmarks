@@ -18,6 +18,10 @@ Sphere of HEU reflected by steel, HEU-MET-FAST-013
 17   0                4  -6  11 -16
 18   0               15:-17:18
  
+c This model differs slightly from the model that appears in the MCNP
+c criticality validation suite (see LA-UR-10-06230). The steel supports here 
+c are cut off by a cylinder and planes, whereas in the MCNP validation suite 
+c model a sphere of radius 14 is used, creating an artificial curvature.
 1    so    1.4
 2    cz    7.75
 3    so    7.55

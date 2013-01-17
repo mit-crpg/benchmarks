@@ -19,6 +19,11 @@ Pu sphere reflected by depleted U, VNIITF, PU-MET-FAST-020
 18   0               6  -8  12 -16
 19   0              15:-18:19
 
+c This model differs slightly from the model that appears in the MCNP 
+c criticality validation suite (see LA-UR-10-06230). The duralumin/steel 
+c supports here are cut off by a cylinder and planes, whereas in the MCNP
+c validation suite model a sphere of radius 16 is used, creating an
+c artificial curvature.
 1    so   1.4
 2    sz   0.61   1.4
 3    so   5.35
