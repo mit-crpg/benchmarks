@@ -1,4 +1,13 @@
 Reflected U-Hydride critical assembly, HEU-COMP-INTER-003 case 6
+c
+c This model differs slightly from the model in the MCNP criticality validation
+c suite. The following changes were made:
+c
+c 1) Surface 10 had an incorrect radius. It's been changed here to 10.0609.
+c 2) Surface 11 was removed (surface 10 is used instead).
+c 3) The iron sleeve in the MCNP suite was modeled as stainless steel. It has
+c    been changed to pure Fe at the correct density.
+c
 1    15   0.060240   -10   12  -13
 2    11   0.048066     9  -10   13  -33
 3    11   0.048066    -6   13  -14
