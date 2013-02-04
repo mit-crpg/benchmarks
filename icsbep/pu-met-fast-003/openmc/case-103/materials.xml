@@ -5,54 +5,56 @@
   =========================================================
   Description: 3x3x3 Pu Buttons
   Case:        PU-MET-FAST-003 Case 103
-  Written By:  Katie Biegel
-  Date:        7.12.2012
+  Written By:  Katie Biegel, Paul Romano
+  Date:        7/12/2012, 2/4/2013
   =========================================================
   -->
 
   <default_xs>70c</default_xs>
 
-
   <!-- Pure Pu -->
   <material id="1">
-    <density units="sum" />
-    <nuclide name="Pu-239" ao="4.6010e-2" />
-    <nuclide name="Pu-240" ao="2.9236e-3" />
-    <nuclide name="Pu-241" ao="2.2433e-4" />
-    <nuclide name="Pu-242" ao="4.8566e-6" />
+    <density value="19.522" units="g/cm3" />
+    <nuclide name="Pu-239" ao="4.6010e-02" />
+    <nuclide name="Pu-240" ao="2.9236e-03" />
+    <nuclide name="Pu-241" ao="2.2433e-04" />
+    <nuclide name="Pu-242" ao="4.8566e-06" />
   </material>
 
-  <!-- Al: Shoe -->
+  <!-- Aluminum  -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="Al-27" ao="2.9260e-2" />
+    <nuclide name="Al-27" ao="6.0263e-02" />
   </material>
 
-  <!-- 3004 Al Can Bottom  -->
+  <!-- Aluminum  -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="Al-27" ao="6.0263e-2" />
-  </material>
-
-  <!-- Al Heat Sink: Bottom -->
-  <material id="4">
-    <density units="sum" />
-    <nuclide name="Al-27" ao="3.0139e-2" />
+    <nuclide name="Al-27" ao="5.3031e-02" />
   </material>
 
   <!-- Al Heat Sink: Top -->
+  <material id="4">
+    <density units="sum" />
+    <nuclide name="Al-27" ao="3.6742e-02" />
+  </material>
+
+  <!-- Al Heat Sink: Bottom -->
   <material id="5">
     <density units="sum" />
-    <nuclide name="Al-27" ao="3.6742e-2" />
+    <nuclide name="Al-27" ao="3.0139e-02" />
   </material>
 
-  <!-- Al Support Tube -->
+  <!-- Steel -->
   <material id="6">
     <density units="sum" />
-    <nuclide name="Al-27" ao="5.7002e-2" />
+    <nuclide name="Fe-54" ao="4.9169e-03" />
+    <nuclide name="Fe-56" ao="7.7185e-02" />
+    <nuclide name="Fe-57" ao="1.7825e-03" />
+    <nuclide name="Fe-58" ao="2.3722e-04" />
   </material>
 
-  <!-- Steel: Tabletop -->
+  <!-- Steel (Table Support at 7% density) -->
   <material id="7">
     <density units="sum" />
     <nuclide name="Fe-54" ao="3.4418e-4" />
@@ -64,31 +66,11 @@
   <!-- Stainless Steel: Shoe -->
   <material id="8">
     <density units="sum" />
-    <nuclide name="Fe-54" ao="4.5539e-4" />
-    <nuclide name="Fe-56" ao="7.1486e-3" />
-    <nuclide name="Fe-57" ao="1.6509e-4" />
-    <nuclide name="Fe-58" ao="2.1971e-5" />
-  </material>
-
-  <!-- Steel: Can Lid -->
-  <material id="9">
-    <density units="sum" />
-    <nuclide name="Fe-54" ao="4.9169e-3" />
-    <nuclide name="Fe-56" ao="7.7185e-2" />
-    <nuclide name="Fe-57" ao="1.7825e-3" />
-    <nuclide name="Fe-58" ao="2.3722e-4" />
-  </material>
-
-  <!-- Void -->
-  <material id="10">
-    <density units="sum" />
-    <nuclide name="O-16" ao="1.0e-15" />
-  </material>
-
-  <!-- Al Tabletop -->
-  <material id="11">
-    <density units="sum" />
-    <nuclide name="Al-27" ao=".05303144" />
+    <nuclide name="Al-27" ao="2.9260e-02" />
+    <nuclide name="Fe-54" ao="4.5539e-04" />
+    <nuclide name="Fe-56" ao="7.1486e-03" />
+    <nuclide name="Fe-57" ao="1.6509e-04" />
+    <nuclide name="Fe-58" ao="2.1971e-05" />
   </material>
 
 </materials>
