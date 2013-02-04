@@ -1,0 +1,145 @@
+3x3x3 Array of Pu Buttons, ref. PU-MET-FAST-003 case 103
+c
+c Differences between this an MCNP Validation suite model:
+c
+c 1) Density of cells 1, 9, 19, 29 changed to match benchmark specification.
+c 2) Isotopic abundances adjusted to match IUPAC recommendation.
+c
+1    7  0.0058885    1   -2    3   -4    5   -6            $ table support
+2    3  0.053031     1   -2    3   -4    6   -7            $ table top
+c    universe 1:  Tube with Plutonium Buttons and Spacers
+3    8  0.037051   -8  -32                      u=1        $ shoe
+4    0              8   -9  -28                 u=1        $ bottom spacer void
+5    2  0.060263    8   -9   28  -29            u=1        $ bottom spacer
+6    0              8   -9   29  -32            u=1        $ bottom spacer gap
+7    0             26  -32                      u=1        $ void above sink
+8    2  0.060263   32                           u=1        $ tube
+c    Bottom Plutonium Button
+9    5  0.030139    9  -10  -31                 u=1        $ bottom heat sink
+10   6  0.084122   10  -11  -31                 u=1        $ steel lid
+11   1  0.049163   11  -12  -30                 u=1        $ plutonium button
+12   2  0.060263   11  -12   30  -31            u=1        $ aluminum shell
+13   2  0.060263   12  -13  -31                 u=1        $ aluminum bottom
+14   4  0.036744   13  -14  -31                 u=1        $ top heat sink
+15   0              9  -14   31  -32            u=1        $ gap
+c    Region between Bottom and Middle Buttons
+16   0             14  -15  -28                 u=1        $ inner spacer void
+17   2  0.060263   14  -15   28  -29            u=1        $ spacer
+18   0             14  -15   29  -32            u=1        $ outer spacer void
+c    Middle Plutonium Button
+19   5  0.030139   15  -16  -31                 u=1        $ bottom heat sink
+20   6  0.084122   16  -17  -31                 u=1        $ steel lid
+21   1  0.049163   17  -18  -30                 u=1        $ plutonium button
+22   2  0.060263   17  -18   30  -31            u=1        $ aluminum shell
+23   2  0.060263   18  -19  -31                 u=1        $ aluminum bottom
+24   4  0.036744   19  -20  -31                 u=1        $ top heat sink
+25   0             15  -20   31  -32            u=1        $ gap
+c    Region between Middle and Top Buttons
+26   0             20  -21  -28                 u=1        $ inner spacer void
+27   2  0.060263   20  -21   28  -29            u=1        $ spacer
+28   0             20  -21   29  -32            u=1        $ outer spacer void
+c    Top Plutonium Button
+29   5  0.030139   21  -22  -31                 u=1        $ bottom heat sink
+30   6  0.084122   22  -23  -31                 u=1        $ steel lid
+31   1  0.049163   23  -24  -30                 u=1        $ plutonium button
+32   2  0.060263   23  -24   30  -31            u=1        $ aluminum shell
+33   2  0.060263   24  -25  -31                 u=1        $ aluminum bottom
+34   4  0.036744   25  -26  -31                 u=1        $ top heat sink
+35   0             21  -26   31  -32            u=1        $ gap
+c    3 x 3 x 3 Array
+36   0            -33                           u=2 fill=1 $ X + Y + tube
+37   like 36 but trcl=( 0.0   9.60   0.0)                  $ X + Y - tube
+38   like 36 but trcl=( 0.0  -9.60   0.0)                  $ X - Y + tube
+39   like 36 but trcl=( 9.60  0.0    0.0)                  $ X + Y - tube
+40   like 36 but trcl=( 9.60  9.60   0.0)                  $ X - Y + tube
+41   like 36 but trcl=( 9.60 -9.60   0.0)                  $ X + Y - tube
+42   like 36 but trcl=(-9.60  0.0    0.0)                  $ X + Y - tube
+43   like 36 but trcl=(-9.60  9.60   0.0)                  $ X - Y + tube
+44   like 36 but trcl=(-9.60 -9.60   0.0)                  $ X + Y - tube
+45   0             #36  #37  #38  #39  #40  #41
+                   #42  #43  #44                u=2        $ fuel on table
+46   0               1   -2    3   -4    7  -27     fill=2 $ above table top
+c
+47   0              -1:2:-3:4:-5:27          
+
+1    px  -66.000                            $ left edge
+2    px   66.000                            $ right edge
+3    py  -23.000                            $ front edge
+4    py   23.000                            $ back edge
+5    pz  -32.540                            $ bottom of table support
+6    pz   -2.540                            $ bottom of table top
+7    pz    0.0                              $ top of table top
+8    pz    8.300                            $ top of shoe
+9    pz   14.529                            $ top of bottom spacer
+10   pz   15.164                            $ top of bottom heat sink
+11   pz   15.185                            $ top of steel lid
+12   pz   19.818                            $ top of bottom button
+13   pz   19.905                            $ top of aluminum
+14   pz   20.384                            $ top of top heat sink
+15   pz   22.239                            $ top of middle spacer
+16   pz   22.874                            $ top of bottom heat sink
+17   pz   22.895                            $ top of steel lid
+18   pz   27.528                            $ top of middle button
+19   pz   27.615                            $ top of aluminum
+20   pz   28.094                            $ top of top heat sink
+21   pz   29.949                            $ top of top spacer
+22   pz   30.584                            $ top of bottom heat sink
+23   pz   30.605                            $ top of steel lid
+24   pz   35.238                            $ top of middle button
+25   pz   35.325                            $ top of aluminum
+26   pz   35.804                            $ top of top heat sink
+27   pz   45.733                            $ top
+28   cz    3.1040                           $ spacer IR
+29   cz    3.3260                           $ spacer OR
+30   cz    3.2625                           $ button OR
+31   cz    3.2995                           $ heat sink OR
+32   cz    3.4250                           $ tube IR
+33   cz    3.6090                           $ tube OR
+
+kcode   10000 1.0 100 600
+imp:n   1.0   45r   0.0
+mode    n
+totnu
+ksrc     -9.60  -9.60  17.50     0.0   -9.60  17.50
+          9.60  -9.60  17.50    -9.60   0.0   17.50
+          0.0    0.0   17.50     9.60   0.0   17.50
+         -9.60   9.60  17.50     0.0    9.60  17.50
+          9.60   9.60  17.50    -9.60  -9.60  25.21
+          0.0   -9.60  25.21     9.60  -9.60  25.21
+         -9.60   0.0   25.21     0.0    0.0   25.21
+          9.60   0.0   25.21    -9.60   9.60  25.21
+          0.0    9.60  25.21     9.60   9.60  25.21
+         -9.60  -9.60  32.92     0.0   -9.60  32.92
+          9.60  -9.60  32.92    -9.60   0.0   32.92
+          0.0    0.0   32.92     9.60   0.0   32.92
+         -9.60   9.60  32.92     0.0    9.60  32.92
+          9.60   9.60  32.92
+c    Plutonium
+m1   94239.70c  4.6010e-02
+     94240.70c  2.2936e-03
+     94241.70c  2.2433e-04
+     94242.70c  4.8566e-06
+c    Aluminum
+m2   13027.70c  6.0263e-02
+c    Aluminum (Table Top -- 88% nominal density)
+m3   13027.70c  5.3031e-02
+c    Aluminum (Top Heat Sink)
+m4   13027.70c  3.6742e-02
+c    Aluminum (Bottom Heat Sink)
+m5   13027.70c  3.0139e-02
+c    Steel
+m6   26054.70c  4.9169e-03
+     26056.70c  7.7185e-02
+     26057.70c  1.7825e-03
+     26058.70c  2.3722e-04
+c    Steel (Table Support -- 7% nominal density)
+m7   26054.70c  3.4418e-04
+     26056.70c  5.4029e-03
+     26057.70c  1.2478e-04
+     26058.70c  1.6606e-05
+c    Al 2024
+m8   13027.70c  2.9260e-02
+     26054.70c  4.5539e-04
+     26056.70c  7.1486e-03
+     26057.70c  1.6509e-04
+     26058.70c  2.1971e-05
