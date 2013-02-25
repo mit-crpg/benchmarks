@@ -15,30 +15,30 @@
   <!-- Uranium Nitrate Solution -->
   <material id="1">
     <density value="1.0387" units="g/cm3" />
-    <nuclide name="U-234" ao="7.1630e-7" />
-    <nuclide name="U-235" ao="6.3904e-5" />
-    <nuclide name="U-236" ao="1.8438e-7" />
-    <nuclide name="U-238" ao="3.7311e-6" />
-    <nuclide name="N-14"  ao="2.3909e-4" />
-    <nuclide name="B-10"  ao="2.0725e-6" />
-    <nuclide name="B-11"  ao="8.3421e-6" />
-    <nuclide name="O-16"  ao="0.03371318412" />
-    <nuclide name="O-17"  ao="1.281588e-05" />
-    <nuclide name="H-1"   ao="6.5815e-2" />
+    <nuclide name="U-234" ao="7.1630e-07" />
+    <nuclide name="U-235" ao="6.3904e-05" />
+    <nuclide name="U-236" ao="1.8438e-07" />
+    <nuclide name="U-238" ao="3.7311e-06" />
+    <nuclide name="N-14"  ao="2.3909e-04" />
+    <nuclide name="B-10"  ao="2.0725e-06" />
+    <nuclide name="B-11"  ao="8.3421e-06" />
+    <nuclide name="O-16"  ao="3.3713e-02" />
+    <nuclide name="O-17"  ao="1.2816e-05" />
+    <nuclide name="H-1"   ao="6.5815e-02" />
     <sab name="lwtr" xs="10t" />
   </material>
 
   <!-- Type 1100 Aluminum -->
   <material id="2">
     <density value="2.71" units="g/cm3" />
-    <nuclide name="Al-27"  ao="5.9699e-2" />
-    <nuclide name="Si-28"  ao="0.00050912638994" />
-    <nuclide name="Si-29"  ao="2.585192463e-5" />
-    <nuclide name="Si-30"  ao="1.704168543e-5" />
-    <nuclide name="Cu-63"  ao="3.55284788e-5" />
-    <nuclide name="Cu-65"  ao="1.58355212e-5" />
-    <nuclide name="Zn-Nat" ao="2.4958e-5" />
-    <nuclide name="Mn-55"  ao="1.4853e-5" />
+    <nuclide name="Al-27"  ao="5.9699e-02" />
+    <nuclide name="Si-28"  ao="5.0913e-04" />
+    <nuclide name="Si-29"  ao="2.5852e-05" />
+    <nuclide name="Si-30"  ao="1.7042e-05" />
+    <nuclide name="Cu-63"  ao="3.5528e-05" />
+    <nuclide name="Cu-65"  ao="1.5836e-05" />
+    <nuclide name="Zn-Nat" ao="2.4958e-05" />
+    <nuclide name="Mn-55"  ao="1.4853e-05" />
   </material>
 
 </materials>
