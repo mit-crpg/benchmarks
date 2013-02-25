@@ -15,19 +15,19 @@
   <!-- HEU -->
   <material id="1">
     <density value="0.04852249" units="atom/b-cm" />
-    <nuclide name="U-234" ao="5.2428e-4" />
-    <nuclide name="U-235" ao="4.2315e-2" />
-    <nuclide name="U-238" ao="4.3901e-3" />
-    <nuclide name="C-Nat" ao="1.0548e-3" />
-    <nuclide name="Fe-54" ao="1.08874815e-05" />
-    <nuclide name="Fe-56" ao="0.0001709101758" />
-    <nuclide name="Fe-57" ao="3.9470613e-06" />
-    <nuclide name="Fe-58" ao="5.252814e-07" />
-    <!-- <nuclide name="W-180" ao="6.2448e-08" /> -->
-    <nuclide name="W-182" ao="1.37906e-05" />
-    <nuclide name="W-183" ao="7.446924e-06" />
-    <nuclide name="W-184" ao="1.5945056e-05" />
-    <nuclide name="W-186" ao="1.4794972e-05" />
+    <nuclide name="U-234" ao="5.2428e-04" />
+    <nuclide name="U-235" ao="4.2315e-02" />
+    <nuclide name="U-238" ao="4.3901e-03" />
+    <nuclide name="C-Nat" ao="1.0548e-03" />
+    <nuclide name="Fe-54" ao="1.0887e-05" />
+    <nuclide name="Fe-56" ao="1.7091e-04" />
+    <nuclide name="Fe-57" ao="3.9471e-06" />
+    <nuclide name="Fe-58" ao="5.2528e-07" />
+    <!-- W-180 has been added to W-182 -->
+    <nuclide name="W-182" ao="1.3853e-05" />
+    <nuclide name="W-183" ao="7.4469e-06" />
+    <nuclide name="W-184" ao="1.5945e-05" />
+    <nuclide name="W-186" ao="1.4795e-05" />
   </material>
 
   <!-- Polyethylene -->
