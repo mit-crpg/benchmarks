@@ -20,7 +20,7 @@ c    Bottom Plutonium Button
 11   1  0.049163   11  -12  -30                 u=1        $ plutonium button
 12   2  0.060263   11  -12   30  -31            u=1        $ aluminum shell
 13   2  0.060263   12  -13  -31                 u=1        $ aluminum bottom
-14   4  0.036744   13  -14  -31                 u=1        $ top heat sink
+14   4  0.036742   13  -14  -31                 u=1        $ top heat sink
 15   0              9  -14   31  -32            u=1        $ gap
 c    Region between Bottom and Middle Buttons
 16   0             14  -15  -28                 u=1        $ inner spacer void
@@ -32,7 +32,7 @@ c    Middle Plutonium Button
 21   1  0.049163   17  -18  -30                 u=1        $ plutonium button
 22   2  0.060263   17  -18   30  -31            u=1        $ aluminum shell
 23   2  0.060263   18  -19  -31                 u=1        $ aluminum bottom
-24   4  0.036744   19  -20  -31                 u=1        $ top heat sink
+24   4  0.036742   19  -20  -31                 u=1        $ top heat sink
 25   0             15  -20   31  -32            u=1        $ gap
 c    Region between Middle and Top Buttons
 26   0             20  -21  -28                 u=1        $ inner spacer void
@@ -44,7 +44,7 @@ c    Top Plutonium Button
 31   1  0.049163   23  -24  -30                 u=1        $ plutonium button
 32   2  0.060263   23  -24   30  -31            u=1        $ aluminum shell
 33   2  0.060263   24  -25  -31                 u=1        $ aluminum bottom
-34   4  0.036744   25  -26  -31                 u=1        $ top heat sink
+34   4  0.036742   25  -26  -31                 u=1        $ top heat sink
 35   0             21  -26   31  -32            u=1        $ gap
 c    3 x 3 x 3 Array
 36   0            -33                           u=2 fill=1 $ X + Y + tube
@@ -116,7 +116,7 @@ ksrc     -9.60  -9.60  17.50     0.0   -9.60  17.50
           9.60   9.60  32.92
 c    Plutonium
 m1   94239.70c  4.6010e-02
-     94240.70c  2.2936e-03
+     94240.70c  2.9236e-03
      94241.70c  2.2433e-04
      94242.70c  4.8566e-06
 c    Aluminum
