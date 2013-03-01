@@ -70,13 +70,13 @@ c  Fuel pin, cladding, cold water
 c
 21     1  -10.062      -1  u=1    imp:n=1
 22     2  -5.77      1 -2  u=1    imp:n=1
-23     3  0.07164    2     u=1    imp:n=1
+23     3  0.07416    2     u=1    imp:n=1
 c
 c  Instrumentation guide tube w/ cold water
 c
-24     3   0.07164     -3  u=2    imp:n=1
+24     3   0.07416     -3  u=2    imp:n=1
 25     2  -5.77      3 -4  u=2    imp:n=1
-26     3   0.07164   4     u=2    imp:n=1
+26     3   0.07416   4     u=2    imp:n=1
 c
 c  Fuel pin, cladding, hot water
 c
@@ -92,7 +92,7 @@ c
 c
 c  Water Assembly (Lower half)
 c
-50     3  0.07164  25 -26 27 -28   u=5 imp:n=1
+50     3  0.07416  25 -26 27 -28   u=5 imp:n=1
 c
 c  Fuel Assembly Lattice (Lower half)
 c
