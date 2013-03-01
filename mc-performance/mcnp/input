@@ -61,7 +61,7 @@ c
 6      11  -3.044      -5 36 -37   imp:n=1    $ top FA region
 7      10  -1.746      -5 37 -38   imp:n=1    $ top nozzle region
 8      7   -4.28       -7 38 -39   imp:n=1    $ upper plate region
-9      4   0.06614   6 -7 32 -38   imp:n=1    $ downcomer
+9      3   0.07416   6 -7 32 -38   imp:n=1    $ downcomer
 10     5   -7.9      7 -8 31 -39   imp:n=1    $ reactor pressure vessel
 11     6   -4.32     5 -6 32 -34   imp:n=1    $ bottom of radial reflector
 12     7   -4.28     5 -6 36 -38   imp:n=1    $ top of radial reflector
