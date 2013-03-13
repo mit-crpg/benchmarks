@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<tallies>
+  <tally id="1">
+    <filter type="material" bins="1" />
+    <filter type="energy" bins="1E-1 2E-1"/>
+    <scores>flux total</scores>
+    <estimator>analog</estimator>
+  </tally>
+  
+  <tally id="2">
+    <filter type="material" bins="1" />
+    <filter type="energy" bins="1E-1 2E-1"/>
+    <scores>flux-10 total-10</scores>
+    <estimator>analog</estimator>
+  </tally>
+  
+  <tally id="3">
+    <filter type="material" bins="1" />
+    <filter type="energy" bins="1E-1 1.25E-1 1.75E-1 2E-1"/>
+    <scores>flux total</scores>
+    <estimator>analog</estimator>
+  </tally>
+  
+  <assume_separate> no </assume_separate>
+
+</tallies>

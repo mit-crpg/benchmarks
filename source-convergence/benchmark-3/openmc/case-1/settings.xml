@@ -9,12 +9,20 @@
   Date:        2/29/2012
   =================================================================
   -->
-
+  <!--
   <criticality>
     <batches>1000</batches>
     <inactive>100</inactive>
     <particles>10000</particles>
   </criticality>
+  -->
+  
+  <criticality>
+    <batches> 60 </batches>
+    <inactive> 10 </inactive>
+    <particles> 20000 </particles>
+  </criticality>
+  
 
   <source>
     <space>
@@ -30,5 +38,13 @@
     <lower_left>0. -10. -10.</lower_left>
     <upper_right>70. 10. 10.</upper_right>
   </entropy>
+
+  <survival_biasing> true </survival_biasing>
+  
+  <state_point>
+    <interval> 10 </interval>
+  </state_point>
+  
+  <output> summary cross_sections tallies </output>
 
 </settings>
