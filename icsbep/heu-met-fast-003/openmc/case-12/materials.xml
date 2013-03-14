@@ -23,11 +23,12 @@
   <!-- Nickel -->
   <material id="2">
     <density value="8.90" units="g/cm3" />
-    <nuclide name="Ni-58" ao="0.062169186618" />
-    <nuclide name="Ni-60" ao="0.023947459382" />
-    <nuclide name="Ni-61" ao="0.001040979478" />
-    <nuclide name="Ni-62" ao="0.00331909809" />
-    <nuclide name="Ni-64" ao="0.000845276432" />
+    <!-- Ni at 9.1322e-2 atom/b-cm -->
+    <nuclide name="Ni-58" ao="6.2169e-02" />
+    <nuclide name="Ni-60" ao="2.3947e-02" />
+    <nuclide name="Ni-61" ao="1.0410e-03" />
+    <nuclide name="Ni-62" ao="3.3191e-03" />
+    <nuclide name="Ni-64" ao="8.4528e-04" />
   </material>
 
 </materials>

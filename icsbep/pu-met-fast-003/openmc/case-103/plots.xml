@@ -1,21 +1,34 @@
+<?xml version="1.0"?>
 <plots>
-  <plot id="1">
-    <type>slice</type>
+
+  <!--
+  =========================================================
+  Description: 3x3x3 Pu Buttons
+  Case:        PU-MET-FAST-003 Case 103
+  Written By:  Katie Biegel, Paul Romano
+  Date:        7/12/2012, 2/4/2013
+  =========================================================
+  -->
+
+  <plot id="1" color="mat">
+    <basis>xz</basis>
     <origin>0. 0. 0.</origin>
     <width>100. 100.</width>
-    <pixels>3000 3000</pixels>
-    <color>mat</color>
-    <basis>xz</basis>
-    <col_spec id="1" rgb="0 0 150" />
-    <col_spec id="2" rgb="160 160 0" />
-    <col_spec id="3" rgb="180 180 0" />
-    <col_spec id="4" rgb="200 200 0" />
-    <col_spec id="5" rgb="215 215 0" />
-    <col_spec id="6" rgb="230 230 0" />
-    <col_spec id="7" rgb="100 0 0" />
-    <col_spec id="8" rgb="150 0 0" />
-    <col_spec id="9" rgb="200 0 0" />
-    <col_spec id="10" rgb="0 0 30" />
-    <col_spec id="11" rgb="0 0 100" />
+    <pixels>1000 1000</pixels>
   </plot>
+
+  <plot id="2" color="mat">
+    <basis>xy</basis>
+    <origin>0. 0. 16.</origin>
+    <width>32. 32.</width>
+    <pixels>1000 1000</pixels>
+  </plot>
+
+  <plot id="3" color="mat">
+    <basis>xy</basis>
+    <origin>0. 0. 16.</origin>
+    <width>9.6 9.6</width>
+    <pixels>1000 1000</pixels>
+  </plot>
+
 </plots>

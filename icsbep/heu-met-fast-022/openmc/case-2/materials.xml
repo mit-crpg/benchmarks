@@ -15,31 +15,31 @@
   <!-- HEU -->
   <material id="1">
     <density value="0.048223993" units="atom/b-cm" />
-    <nuclide name="U-234" ao="5.2104e-4" />
-    <nuclide name="U-235" ao="4.2055e-2" />
-    <nuclide name="U-238" ao="4.3629e-3" />
-    <nuclide name="C-Nat" ao="1.0482e-3" />
-    <nuclide name="Fe-54" ao="1.0821433e-05" />
-    <nuclide name="Fe-56" ao="0.0001698733556" />
-    <nuclide name="Fe-57" ao="3.9231166e-06" />
-    <nuclide name="Fe-58" ao="5.220948e-07" />
+    <nuclide name="U-234" ao="5.2104e-04" />
+    <nuclide name="U-235" ao="4.2055e-02" />
+    <nuclide name="U-238" ao="4.3629e-03" />
+    <nuclide name="C-Nat" ao="1.0482e-03" />
+    <nuclide name="Fe-54" ao="1.0821e-05" />
+    <nuclide name="Fe-56" ao="1.6987e-04" />
+    <nuclide name="Fe-57" ao="3.9231e-06" />
+    <nuclide name="Fe-58" ao="5.2209e-07" />
     <!-- <nuclide name="W-180" ao="6.20556e-08" /> -->
-    <nuclide name="W-182" ao="1.3703945e-05" />
-    <nuclide name="W-183" ao="7.4001303e-06" />
-    <nuclide name="W-184" ao="1.58448632e-05" />
-    <nuclide name="W-186" ao="1.47020059e-05" />
+    <nuclide name="W-182" ao="1.3704e-05" />
+    <nuclide name="W-183" ao="7.4001e-06" />
+    <nuclide name="W-184" ao="1.5845e-05" />
+    <nuclide name="W-186" ao="1.4702e-05" />
   </material>
 
   <!-- Duralumin reflector -->
   <material id="2">
     <density value="0.05593712" units="atom/b-cm" />
     <nuclide name="Al-27" ao="5.3934e-2" />
-    <nuclide name="Fe-54" ao="5.7691319e-05" />
-    <nuclide name="Fe-56" ao="0.0009056303308" />
-    <nuclide name="Fe-57" ao="2.09149538e-05" />
-    <nuclide name="Fe-58" ao="2.7833964e-06" />
-    <nuclide name="Cu-63" ao="0.00070283637" />
-    <nuclide name="Cu-65" ao="0.00031326363" />
+    <nuclide name="Fe-54" ao="5.7691e-05" />
+    <nuclide name="Fe-56" ao="9.0563e-04" />
+    <nuclide name="Fe-57" ao="2.0915e-05" />
+    <nuclide name="Fe-58" ao="2.7834e-06" />
+    <nuclide name="Cu-63" ao="7.0284e-04" />
+    <nuclide name="Cu-65" ao="3.1326e-04" />
   </material>
 
 </materials>

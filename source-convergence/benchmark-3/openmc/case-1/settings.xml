@@ -9,20 +9,12 @@
   Date:        2/29/2012
   =================================================================
   -->
-  <!--
-  <criticality>
+
+  <eigenvalue>
     <batches>1000</batches>
     <inactive>100</inactive>
     <particles>10000</particles>
-  </criticality>
-  -->
-  
-  <criticality>
-    <batches> 60 </batches>
-    <inactive> 10 </inactive>
-    <particles> 20000 </particles>
-  </criticality>
-  
+  </eigenvalue>
 
   <source>
     <space>

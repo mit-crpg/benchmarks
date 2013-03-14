@@ -540,30 +540,6 @@
   </lattice>
   <cell id="650" universe="650" fill="65" surfaces="-99"/>
 
-  <!-- Driver Assembly 25 -->
-  <lattice id="25" type="rectangular" dimension="15 15">
-    <lower_left> -12.2682 -12.2682 </lower_left>
-    <width>    1.63576 1.63576 </width>
-    <universes>
-      2 2 2 1 1 1 1 1 1 1 1 1 1 1 1
-      2 2 2 1 1 1 1 1 1 1 1 1 1 1 1
-      2 2 2 2 2 2 2 2 2 2 2 2 2 1 1
-      2 2 2 2 2 2 2 2 2 2 2 2 2 1 1
-      2 2 2 2 2 2 2 2 2 2 2 2 2 1 1
-      2 2 2 2 2 2 2 2 2 2 2 2 2 1 1
-      2 2 2 2 2 2 2 2 2 2 2 2 2 1 1
-      2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
-      2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
-      2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
-      2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
-      2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
-      2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
-      2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
-      2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
-    </universes>
-  </lattice>
-  <cell id="250" universe="250" fill="25" surfaces="-99"/>
-
   <!-- Driver Assembly 66 -->
   <lattice id="66" type="rectangular" dimension="15 15">
     <lower_left> -12.2682 -12.2682 </lower_left>

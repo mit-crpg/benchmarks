@@ -96,7 +96,7 @@
   <cell id="113"  material="void" surfaces="3 -12 -202 203" />
   <cell id="1132" material="void" surfaces="-203 -12 204 7" />
   <cell id="121"  material="void" surfaces="-21 17 -161 202" />
-  <cell id="113"  material="void" surfaces="-161 131 12 -17" />
-  <cell id="1132" material="void" surfaces="12 -129 -17 101" />
+  <cell id="124"  material="void" surfaces="-161 131 12 -17" />
+  <cell id="125"  material="void" surfaces="12 -129 -17 101" />
 
 </geometry>

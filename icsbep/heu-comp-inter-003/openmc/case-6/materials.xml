@@ -28,6 +28,7 @@
   <!-- SAE 1020 Steel -->
   <material id="3">
     <density value="6.45" units="g/cm3" />
+    <!-- Fe at 6.9267e-02 atom/b-cm -->
     <nuclide name="Fe-54" ao="4.0487e-03" />
     <nuclide name="Fe-56" ao="6.3555e-02" />
     <nuclide name="Fe-57" ao="1.4678e-03" />

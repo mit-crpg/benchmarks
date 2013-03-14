@@ -10,11 +10,11 @@
   =================================================================
   -->
  
-  <criticality>
+  <eigenvalue>
     <batches>3000</batches>
     <inactive>20</inactive>
     <particles>10000</particles>
-  </criticality>
+  </eigenvalue>
 
   <source>
     <space>

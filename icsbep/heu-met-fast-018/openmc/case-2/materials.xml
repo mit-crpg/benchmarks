@@ -18,7 +18,6 @@
     <nuclide name="U-234" ao="5.2111e-04" />
     <nuclide name="U-235" ao="4.2064e-02" />
     <nuclide name="U-238" ao="4.3626e-03" />
-    <nuclide name="C-Nat" ao="1.1074e-03" />
     <!-- C at 1.1074e-3 atom/b-cm -->
     <nuclide name="C-Nat" ao="1.1074e-03" />
     <!-- Fe at 1.9320e-4 atom/b-cm -->

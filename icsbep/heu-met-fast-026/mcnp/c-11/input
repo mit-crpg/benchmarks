@@ -1,14 +1,44 @@
 Tinkertoy 2, 3x3x3 Array, paraffin reflector, HEU-MET-FAST-026 c-11
 c  STS 18.720 cm  7.6-cm thick reflector
+c 
+c This model is slightly difference than what appears in the MCNP criticality
+c validation suite. The following changes have been made:
+c 
+c 1) The gaps in the paraffin in the MCNP suite model extend the entire length
+c    of the paraffin. Figure 8 in the benchmark specification shows that this is
+c    not right.
+c
+c 2) The concrete walls of the room are absent in the MCNP suite model. They
+c    have been included here.
+c
+c 3) The stainless steel rods extend only to the top and bottom of the HEU
+c    cylinders. The MCNP suite model had the steel rods extending beyond the
+c    cylinders. See Figure 7 in the benchmark specification.
+c
 1    1   -18.76      -1    2    3    7   -8         u=1     $ HEU Cylinder
-2    2   0.087058    -2                             u=1     $ Left SS Rod
-3    2   0.087058    -3                             u=1     $ Right SS Rod
+2    2   0.087058    -2    7                        u=1     $ Left SS Rod
+3    2   0.087058    -3    7                        u=1     $ Right SS Rod
 4    0                1    7   -8                   u=1     $ Side Void
-5    0                2    3   -7                   u=1     $ Bottom Void
+5    0                         -7                   u=1     $ Bottom Void
 6    0                2    3    8                   u=1     $ Top Void
-7    0               -9    6  -15   14  -25   22    u=2
-                      lat=1  fill=-1:1 -1:1 -1:1   1  26r   $ 3x3x3 Array
-8    0                5  -10   13  -16   19  -28    fill=2  $ Core
+41   1   -18.76      -1    2    3    7   -8         u=2     $ HEU Cylinder
+42   2   0.087058    -2                             u=2     $ Left SS Rod
+43   2   0.087058    -3                             u=2     $ Right SS Rod
+44   0                1    7   -8                   u=2     $ Side Void
+45   0                2    3   -7                   u=2     $ Bottom Void
+46   0                2    3    8                   u=2     $ Top Void
+51   1   -18.76      -1    2    3    7   -8         u=3     $ HEU Cylinder
+52   2   0.087058    -2   -8                        u=3     $ Left SS Rod
+53   2   0.087058    -3   -8                        u=3     $ Right SS Rod
+54   0                1    7   -8                   u=3     $ Side Void
+55   0                2    3   -7                   u=3     $ Bottom Void
+56   0                          8                   u=3     $ Top Void
+7    0               -9    6  -15   14  -25   22    u=4     $ 3x3x3 Array
+                      lat=1  fill=-1:1 -1:1 -1:1
+                      1 2 3    1 2 3    1 2 3
+                      1 2 3    1 2 3    1 2 3
+                      1 2 3    1 2 3    1 2 3
+8    0                5  -10   13  -16   19  -28    fill=4  $ Core
 9    0                4   -5   13  -16   20  -21            $ Left Void
 10   0                4   -5   13  -16   23  -24            $ Center Void
 11   0                4   -5   13  -16   26  -27            $ Right Void
@@ -138,4 +168,4 @@ m4   1001.70c  8.2565e-02
 mt4  poly.10t
 kcode 10000 1.0 20 3000
 ksrc  0  0  0
-imp:n 1 30r 0
+imp:n 1 42r 0

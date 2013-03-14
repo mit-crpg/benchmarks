@@ -1,4 +1,9 @@
 BAPL SB Criticals  Core 2 1/2, U233-COMP-THERM-001 case 3
+c
+c This model differs slightly from the MCNP criticality validation suite. The
+c x,y dimensions of the lattice have been reversed so that the control blades 
+c are seated correctly.
+c
 1     5   0.080898  -2   7  -9  u=1                 $ Fuel Pin
 2     1   -6.5420   -2  -7      u=1                 $ Bottom End Plug
 3     1   -6.5420   -2   9      u=1                 $ Top End Plug

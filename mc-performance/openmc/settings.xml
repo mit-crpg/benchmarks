@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <settings>
 
-  <criticality>
-    <batches>50</batches>
-    <inactive>5</inactive>
-    <particles>10000</particles>
-  </criticality>
+  <eigenvalue>
+    <batches>20</batches>
+    <inactive>10</inactive>
+    <particles>5000</particles>
+  </eigenvalue>
 
   <source>
     <space>
