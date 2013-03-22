@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =====================================================================
+  Description: Bare, Highly Enriched Uranium Sphere (Godiva) Simplified
+  Case:        HEU-MET-FAST-001 case 2
+  Written By:  Paul Romano
+  Date:        2013-03-22
+  =====================================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 8.7407" boundary="vacuum" />
+  <cell id="1" material="1" surfaces="-1" />
+
+</geometry>
