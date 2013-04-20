@@ -12,7 +12,7 @@
     <nuclide name="Pu-240" ao="6.86872E-5" />
     <nuclide name="Pu-241" ao="3.43436E-5" />
     <nuclide name="Pu-242" ao="2.28957E-5" />
-</material>
+  </material>
 
   <material id="2">
     <density value="0.04218380000" units="atom/b-cm" />
