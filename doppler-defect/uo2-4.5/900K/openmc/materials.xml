@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <materials>
 
-  <default_xs>72c</default_xs>
+  <default_xs>71c</default_xs>
 
   <material id="1">
     <density value="0.06902493" units="atom/b-cm" />
