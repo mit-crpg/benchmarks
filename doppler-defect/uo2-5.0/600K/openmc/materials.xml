@@ -12,7 +12,7 @@
   </material>
 
   <material id="2">
-    <density value="0.04218380000" units="atom/b-cm" />
+    <density value="0.0421838" units="atom/b-cm" />
     <nuclide name="Zr-90" ao="0.5145" />
     <nuclide name="Zr-91" ao="0.1122" />
     <nuclide name="Zr-92" ao="0.1715" />
