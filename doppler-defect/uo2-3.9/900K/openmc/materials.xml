@@ -5,10 +5,10 @@
 
   <material id="1">
     <density value="0.0690200804" units="atom/b-cm" />
-    <nuclide name="O-16" ao="4.60134E-2" />
-    <nuclide name="U-234" ao="7.29740E-6" />
-    <nuclide name="U-235" ao="9.08283E-4" />
-    <nuclide name="U-238" ao="2.20911E-2" />
+    <nuclide name="O-16" ao="4.60134e-02" />
+    <nuclide name="U-234" ao="7.29740e-06" />
+    <nuclide name="U-235" ao="9.08283e-04" />
+    <nuclide name="U-238" ao="2.20911e-02" />
   </material>
 
   <material id="2">

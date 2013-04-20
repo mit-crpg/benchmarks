@@ -5,13 +5,13 @@
 
   <material id="1">
     <density value="0.0689855028" units="atom/b-cm" />
-    <nuclide name="O-16" ao="4.59904E-2" />
-    <nuclide name="U-235" ao="1.62283E-4" />
-    <nuclide name="U-238" ao="2.23761E-2" />
-    <nuclide name="Pu-239" ao="2.05524E-4" />
-    <nuclide name="Pu-240" ao="1.37016E-4" />
-    <nuclide name="Pu-241" ao="6.85079E-5" />
-    <nuclide name="Pu-242" ao="4.56719E-5" />
+    <nuclide name="O-16" ao="4.59904e-02" />
+    <nuclide name="U-235" ao="1.62283e-04" />
+    <nuclide name="U-238" ao="2.23761e-02" />
+    <nuclide name="Pu-239" ao="2.05524e-04" />
+    <nuclide name="Pu-240" ao="1.37016e-04" />
+    <nuclide name="Pu-241" ao="6.85079e-05" />
+    <nuclide name="Pu-242" ao="4.56719e-05" />
   </material>
 
   <material id="2">
