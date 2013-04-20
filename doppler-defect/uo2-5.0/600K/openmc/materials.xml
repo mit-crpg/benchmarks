@@ -3,14 +3,16 @@
 
   <default_xs>71c</default_xs>
 
+  <!-- 5.0 wt% UO2 at 600 K -->
   <material id="1">
-    <density value="0.06920956998" units="atom/b-cm" />
-    <nuclide name="O-16" ao="4.61397e-02" />
+    <density units="sum" />
+    <nuclide name="O-16"  ao="4.61397e-02" />
     <nuclide name="U-234" ao="9.37998e-06" />
     <nuclide name="U-235" ao="1.16749e-03" />
     <nuclide name="U-238" ao="2.18930e-02" />
   </material>
 
+  <!-- Zircaloy -->
   <material id="2">
     <density value="0.0421838" units="atom/b-cm" />
     <nuclide name="Zr-90" ao="0.5145" />
