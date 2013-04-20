@@ -19,12 +19,13 @@
     <nuclide name="Zr-96" ao="0.0280" />
   </material>
 
+  <!-- Water at 600 K -->
   <material id="3">
-    <density value="0.06640022310" units="atom/b-cm" />
-    <nuclide name="H-1" ao="4.42326E-2" />
-    <nuclide name="B-10" ao="1.02133E-5" />
-    <nuclide name="B-11" ao="4.11098E-5" />
-    <nuclide name="O-16" ao="2.21163E-2" />
+    <density units="sum" />
+    <nuclide name="H-1"  ao="4.42326e-02" />
+    <nuclide name="B-10" ao="1.02133e-05" />
+    <nuclide name="B-11" ao="4.11098e-05" />
+    <nuclide name="O-16" ao="2.21163e-02" />
     <sab name="lwtr" xs="16t" />
   </material>
 
