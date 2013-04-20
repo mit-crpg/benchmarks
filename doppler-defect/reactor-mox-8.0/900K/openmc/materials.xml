@@ -3,17 +3,19 @@
 
   <default_xs>71c</default_xs>
 
+  <!-- 8.0 wt% Reactor-Recycle MOX at 900 K -->
   <material id="1">
-    <density value="0.068956123" units="atom/b-cm" />
-    <nuclide name="O-16" ao="4.59708e-02" />
-    <nuclide name="U-235" ao="1.52347e-04" />
-    <nuclide name="U-238" ao="2.10061e-02" />
-    <nuclide name="Pu-239" ao="8.22094e-04" />
-    <nuclide name="Pu-240" ao="5.48063e-04" />
-    <nuclide name="Pu-241" ao="2.74031e-04" />
-    <nuclide name="Pu-242" ao="1.82688e-04" />
+    <density units="sum" />
+    <nuclide name="O-16"   xs="72c" ao="4.59708e-02" />
+    <nuclide name="U-235"  xs="72c" ao="1.52347e-04" />
+    <nuclide name="U-238"  xs="72c" ao="2.10061e-02" />
+    <nuclide name="Pu-239" xs="72c" ao="8.22094e-04" />
+    <nuclide name="Pu-240" xs="72c" ao="5.48063e-04" />
+    <nuclide name="Pu-241" xs="72c" ao="2.74031e-04" />
+    <nuclide name="Pu-242" xs="72c" ao="1.82688e-04" />
   </material>
 
+  <!-- Zircaloy -->
   <material id="2">
     <density value="0.0421838" units="atom/b-cm" />
     <nuclide name="Zr-90" ao="0.5145" />
