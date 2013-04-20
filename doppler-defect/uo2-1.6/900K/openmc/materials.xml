@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<materials>
+
+  <default_xs>72c</default_xs>
+
+  <material id="1">
+    <density value="0.06900213591" units="atom/b-cm" />
+    <nuclide name="O-16" ao="4.60014E-2" />
+    <nuclide name="U-234" ao="2.99391E-6" />
+    <nuclide name="U-235" ao="3.72642E-4" />
+    <nuclide name="U-238" ao="2.26251E-2" />
+  </material>
+
+  <material id="2">
+    <density value="0.04218380000" units="atom/b-cm" />
+    <nuclide name="Zr-90" ao="0.5145" />
+    <nuclide name="Zr-91" ao="0.1122" />
+    <nuclide name="Zr-92" ao="0.1715" />
+    <nuclide name="Zr-94" ao="0.1738" />
+    <nuclide name="Zr-96" ao="0.0280" />
+  </material>
+
+  <material id="3">
+    <density value="0.06640022310" units="atom/b-cm" />
+    <nuclide name="H-1" xs="71c" ao="4.42326E-2" />
+    <nuclide name="B-10" xs="71c" ao="1.02133E-5" />
+    <nuclide name="B-11" xs="71c" ao="4.11098E-5" />
+    <nuclide name="O-16" xs="71c" ao="2.21163E-2" />
+    <sab name="lwtr" xs="16t" />
+  </material>
+
+</materials>

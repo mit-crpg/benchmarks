@@ -6,6 +6,10 @@ This repository contains a collection of benchmark models for the OpenMC and
 other Monte Carlo particle transport codes. The following benchmark models are
 currently available:
 
+doppler-defect
+  Benchmark for Doppler reactivity defect by Russell Mosteller. Described in
+  LA-UR-06-2968_.
+
 icsbep 
   Problems from the `International Handbook of Evaluated Criticality Safety
   Benchmark Experiments`_.
@@ -27,6 +31,8 @@ source-convergence
   The `OECD/NEA Source Convergence Benchmarks`_ which include a checkboard
   storage of assemblies, a pincell array with irradiated fuel, three thick
   one-dimensional slabs, and an array of interacting spheres.
+
+.. _LA-UR-06-2968: http://mcd.ans.org/jb/bench/Doppler/Overview.pdf
 
 .. _International Handbook of Evaluated Criticality Safety Benchmark Experiments: http://icsbep.inel.gov/handbook.shtml
 

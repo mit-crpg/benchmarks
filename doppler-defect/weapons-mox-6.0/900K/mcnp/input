@@ -1,0 +1,51 @@
+UO2 Fuel Composition at 900K (atoms/b-cm)
+c
+c  Cell Cards
+c
+ 1  1  0.06897849659 8 -9 -1          tmp=7.7555992302E-8 imp:n=1 $ fuel pellet
+ 2  0                8 -9  1 -2                               imp:n=1 $ void gap
+ 3  2  0.04218380000 8 -9  2 -3           tmp=7.7555992302E-8 imp:n=1 $ cladding
+ 4  3  0.06640022310 8 -9  4 -5  6 -7 3   tmp=5.1703994868E-8 imp:n=1 $ moderator
+ 5  0                -8:9:-4:5:-6:7                           imp:n=0 $ void/boundary
+
+c Surface Cards
+c
+  1  cz  0.39433    $ Outer Radius of Fuel -cm
+  2  cz  0.40226    $ Inner Radius of Cladding -cm
+  3  cz  0.45972    $ Outer Radius of Cladding -cm
+ *4  px -0.63339    $ west pitch boundary -cm
+ *5  px  0.63339    $ east pitch boundary -cm
+ *6  py -0.63339    $ south pitch boundary -cm
+ *7  py  0.63339    $ north pitch boundary -cm
+ *8  pz -0.50000    $ bottom boundary -cm
+ *9  pz  0.50000    $ top boundary -cm
+
+c Data Cards
+c
+ mode n
+ kcode 1000000 1.0 20 500
+ ksrc 0.0 0.0 0.0
+ hsrc 10 -0.63339 0.63339 10 -0.63339 0.63339 1 -0.50000 0.50000
+c
+c Materials
+c
+m1   8016.72c   4.59857E-2
+     92235.72c  1.55659E-4
+     92238.72c  2.14628E-2
+     94239.72c  1.28638E-3
+     94240.72c  8.10859E-5
+     94241.72c  5.49735E-6
+     94242.72c  1.37434E-6
+c
+m2   40090.72c  0.5145
+     40091.72c  0.1122
+     40092.72c  0.1715
+     40094.72c  0.1738
+     40096.72c  0.0280
+c
+m3   1001.71c   4.42326E-2
+     5010.71c   1.02133E-5
+     5011.71c   4.11098E-5
+     8016.71c   2.21163E-2
+c
+mt3 lwtr.16t
