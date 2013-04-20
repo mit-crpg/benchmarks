@@ -4,7 +4,7 @@ c  Cell Cards
 c
  1  1  0.06896591700 8 -9 -1              tmp=7.7555992302e-08 imp:n=1 $ fuel pellet
  2  0                8 -9  1 -2                               imp:n=1 $ void gap
- 3  2  0.04218380000 8 -9  2 -3           tmp=7.7555992302e-08 imp:n=1 $ cladding
+ 3  2  0.04218380000 8 -9  2 -3           tmp=5.1703994868e-08 imp:n=1 $ cladding
  4  3  0.06640022310 8 -9  4 -5  6 -7 3   tmp=5.1703994868e-08 imp:n=1 $ moderator
  5  0                -8:9:-4:5:-6:7                           imp:n=0 $ void/boundary
 
