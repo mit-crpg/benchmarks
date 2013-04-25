@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<materials>
+
+  <default_xs>71c</default_xs>
+
+  <!-- 1.0 wt% Weapons-Grade MOX at 600 K -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="O-16"   ao="4.61154e-02" />
+    <nuclide name="U-235"  ao="1.64368e-04" />
+    <nuclide name="U-238"  ao="2.26636e-02" />
+    <nuclide name="Pu-239" ao="2.14958e-04" />
+    <nuclide name="Pu-240" ao="1.35497e-05" />
+    <nuclide name="Pu-241" ao="9.18623e-07" />
+    <nuclide name="Pu-242" ao="2.29656e-07" />
+  </material>
+
+  <!-- Zircaloy -->
+  <material id="2">
+    <density value="0.0421838" units="atom/b-cm" />
+    <nuclide name="Zr-90" ao="0.5145" />
+    <nuclide name="Zr-91" ao="0.1122" />
+    <nuclide name="Zr-92" ao="0.1715" />
+    <nuclide name="Zr-94" ao="0.1738" />
+    <nuclide name="Zr-96" ao="0.0280" />
+  </material>
+
+  <!-- Water at 600 K -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="H-1"  ao="4.42326e-02" />
+    <nuclide name="B-10" ao="1.02133e-05" />
+    <nuclide name="B-11" ao="4.11098e-05" />
+    <nuclide name="O-16" ao="2.21163e-02" />
+    <sab name="lwtr" xs="16t" />
+  </material>
+
+</materials>
