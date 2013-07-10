@@ -28,16 +28,7 @@
   <!-- Aluminum Tank -->
   <material id="2">
     <density units="sum" />
-    <element name="Al" ao="5.9469e-02" />
-    <element name="C"  ao="2.6231e-04" />
-    <element name="Si" ao="1.3768e-03" />
-    <element name="P"  ao="3.8530e-05" />
-    <element name="S"  ao="2.8282e-05" />
-    <element name="Cr" ao="1.6985e-02" />
-    <element name="Mn" ao="1.1209e-03" />
-    <element name="Fe" ao="5.9852e-02" />
-    <element name="Ni" ao="7.5400e-03" />
-    <element name="Mo" ao="8.9563e-06" />
+    <nuclide name="Al-27" ao="5.9469e-02" />
   </material>
 
 </materials>

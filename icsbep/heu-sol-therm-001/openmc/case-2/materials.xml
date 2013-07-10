@@ -25,10 +25,9 @@
     <sab name="lwtr" xs="10t" />
   </material>
 
-  <!-- Aluminum Tank -->
+  <!-- SS-304 Tank -->
   <material id="2">
     <density units="sum" />
-    <element name="Al" ao="5.9469e-02" />
     <element name="C"  ao="2.6231e-04" />
     <element name="Si" ao="1.3768e-03" />
     <element name="P"  ao="3.8530e-05" />
