@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ============================================================
+  Description: Minimally reflected cylinders of Uranyl Nitrate
+  Case:        HEU-SOL-THERM-001 Experiment 7
+  Written By:  Paul Romano
+  Date:        7/9/2013
+  ============================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Uranyl Nitrate Solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="3.6132e-06" />
+    <nuclide name="U-235" ao="3.2800e-04" />
+    <nuclide name="U-236" ao="1.5214e-06" />
+    <nuclide name="U-238" ao="1.8673e-05" />
+    <element name="O"     ao="3.4945e-02" />
+    <nuclide name="N-14"  ao="8.7645e-04" />
+    <nuclide name="H-1"   ao="6.3397e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Aluminum Tank -->
+  <material id="2">
+    <density units="sum" />
+    <nuclide name="Al-27" ao="5.9469e-02" />
+  </material>
+
+</materials>
