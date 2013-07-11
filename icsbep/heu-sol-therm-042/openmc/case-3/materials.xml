@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ============================================================
+  Description: Unreflected large cylinders of Uranium Nitrate
+  Case:        HEU-SOL-THERM-042 Case 3
+  Written By:  Paul Romano
+  Date:        7/10/2013
+  ============================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Uranyl Nitrate Solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="4.0870e-07" />
+    <nuclide name="U-235" ao="3.6438e-05" />
+    <nuclide name="U-236" ao="2.1041e-07" />
+    <nuclide name="U-238" ao="2.0477e-06" />
+    <nuclide name="N-14"  ao="1.1898e-04" />
+    <nuclide name="H-1"   ao="6.6310e-02" />
+    <element name="O"     ao="3.3570e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- SS-304 Tank -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Fe" ao="5.8200e-02" />
+    <element name="C"  ao="3.1687e-04" />
+    <element name="Cr" ao="1.5554e-02" />
+    <element name="Ni" ao="9.7273e-03" />
+    <element name="Mo" ao="1.2397e-03" />
+    <element name="N"  ao="3.3966e-04" />
+  </material>
+
+</materials>
