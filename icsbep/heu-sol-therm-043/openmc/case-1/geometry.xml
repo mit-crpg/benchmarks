@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==========================================================
+  Description: Unreflected Sphere of Uranium Oxyfluoride
+  Case:        HEU-SOL-THERM-043 Case 1
+  Written By:  Paul Romano
+  Date:        7/11/2013
+  ==========================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 15.9572" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 16.0842" boundary="vacuum" />
+
+  <cell id="1" material="1" surfaces="  -1" /> <!-- UO2F2 -->
+  <cell id="2" material="2" surfaces="1 -2" /> <!-- aluminum -->
+
+</geometry>
