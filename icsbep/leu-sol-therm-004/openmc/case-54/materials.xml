@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<materials>
+ 
+  <!--
+  ========================================================================
+  Description: STACY: Water Reflected 10% Enriched Uranyl Nitrate Solution
+  Case:        LEU-SOL-THERM-004 Case 54
+  Written By:  Paul Romano
+  Date:        7/13/2013
+  ========================================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Uranyl Nitrate Solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="4.6378e-07" />
+    <nuclide name="U-235" ao="5.7551e-05" />
+    <nuclide name="U-236" ao="5.7480e-08" />
+    <nuclide name="U-238" ao="5.1262e-04" />
+    <nuclide name="H-1"   ao="5.8561e-02" />
+    <nuclide name="N-14"  ao="2.5144e-03" />
+    <element name="O"     ao="3.7278e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Stainless steel -->
+  <material id="2">
+    <density units="sum" />
+    <element name="C"  ao="4.3736e-05" />
+    <element name="Si" ao="1.0627e-03" />
+    <element name="Mn" ao="1.1561e-03" />
+    <element name="P"  ao="1.3170e-05" />
+    <element name="S"  ao="1.9782e-06" />
+    <element name="Ni" ao="8.3403e-03" />
+    <element name="Cr" ao="1.6775e-02" />
+    <element name="Fe" ao="5.9421e-02" />
+  </material>
+
+  <!-- Water at 25 C -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="H-1" ao="6.6658e-02" />
+    <element name="O"   ao="3.3329e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Air -->
+  <material id="4">
+    <density units="sum" />
+    <nuclide name="N-14" ao="3.9016e-05" />
+    <element name="O"    ao="1.0409e-05" />
+  </material>
+
+</materials>

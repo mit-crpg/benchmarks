@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ========================================================================
+  Description: STACY: Water Reflected 10% Enriched Uranyl Nitrate Solution
+  Case:        LEU-SOL-THERM-004 Case 33
+  Written By:  Paul Romano
+  Date:        7/13/2013
+  ========================================================================
+  -->
+
+  <surface id="1"  type="z-cylinder" coeffs="0. 0. 29.5" />
+  <surface id="2"  type="z-cylinder" coeffs="0. 0. 29.8" />
+  <surface id="3"  type="z-cylinder" coeffs="0. 0. 59.8" boundary="vacuum" />
+  <surface id="4"  type="z-plane"    coeffs="-32.0" boundary="vacuum" />
+  <surface id="5"  type="z-plane"    coeffs=" -2.0" />
+  <surface id="6"  type="z-plane"    coeffs="  0.0" />
+  <surface id="7"  type="z-plane"    coeffs=" 52.93" />
+  <surface id="8"  type="z-plane"    coeffs="150.0" />
+  <surface id="9"  type="z-plane"    coeffs="152.5" />
+  <surface id="10" type="z-plane"    coeffs="172.5" boundary="vacuum" />
+
+  <cell id="1" material="3" surfaces="4 -5    -3" /> <!-- lower reflector -->
+  <cell id="2" material="2" surfaces="5 -6    -1" /> <!-- bottom of core tank -->
+  <cell id="3" material="1" surfaces="6 -7    -1" /> <!-- fuel solution -->
+  <cell id="4" material="4" surfaces="7 -8    -1" /> <!-- air -->
+  <cell id="5" material="2" surfaces="8 -9    -1" /> <!-- top of core tank -->
+  <cell id="6" material="2" surfaces="5 -9  1 -2" /> <!-- side of core tank -->
+  <cell id="7" material="3" surfaces="5 -9  2 -3" /> <!-- side reflector -->
+  <cell id="8" material="3" surfaces="9 -10   -3" /> <!-- top reflector -->
+
+</geometry>
