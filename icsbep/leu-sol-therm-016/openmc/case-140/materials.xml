@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<materials>
+ 
+  <!--
+  ========================================================================
+  Description: STACY: Slabs of 10% Enriched Uranyl Nitrate Solution
+  Case:        LEU-SOL-THERM-016 Case 140
+  Written By:  Paul Romano
+  Date:        7/14/2013
+  ========================================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Uranyl Nitrate Solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="6.4101e-07" />
+    <nuclide name="U-235" ao="7.9545e-05" />
+    <nuclide name="U-236" ao="7.9446e-08" />
+    <nuclide name="U-238" ao="7.0852e-04" />
+    <nuclide name="H-1"   ao="5.8778e-02" />
+    <nuclide name="N-14"  ao="2.1527e-03" />
+    <element name="O"     ao="3.7137e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Stainless steel -->
+  <material id="2">
+    <density units="sum" />
+    <element name="C"  ao="7.1567e-05" />
+    <element name="Si" ao="7.1415e-03" />
+    <element name="Mn" ao="9.9095e-03" />
+    <element name="P"  ao="5.0879e-05" />
+    <element name="S"  ao="1.0424e-06" />
+    <element name="Ni" ao="8.5600e-03" />
+    <element name="Cr" ao="1.6725e-02" />
+    <element name="Fe" ao="5.9560e-02" />
+  </material>
+
+  <!-- Water at 25 C -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="H-1" ao="6.6658e-02" />
+    <element name="O"   ao="3.3329e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- Air -->
+  <material id="4">
+    <density units="sum" />
+    <nuclide name="N-14" ao="3.9016e-05" />
+    <element name="O"    ao="1.0409e-05" />
+  </material>
+
+</materials>

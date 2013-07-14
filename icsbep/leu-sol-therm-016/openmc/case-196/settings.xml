@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ========================================================================
+  Description: STACY: Slabs of 10% Enriched Uranyl Nitrate Solution
+  Case:        LEU-SOL-THERM-016 Case 196
+  Written By:  Paul Romano
+  Date:        7/14/2013
+  ========================================================================
+  -->
+
+  <eigenvalue>
+    <batches>5100</batches>
+    <inactive>100</inactive>
+    <particles>20000</particles>
+  </eigenvalue>
+
+  <source>
+    <space type="point">
+      <parameters>0. 0. 0.</parameters>
+    </space>
+  </source>
+
+</settings>
