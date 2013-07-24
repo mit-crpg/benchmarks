@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==========================================================
+  Description: Water-reflected Sphere of Uranium Oxyfluoride
+  Case:        HEU-SOL-THERM-009 Case 1
+  Written By:  Paul Romano
+  Date:        7/9/2013
+  ==========================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 11.5177" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 11.6764" />
+  <surface id="3" type="sphere" coeffs="0. 0. 0. 35.0" boundary="vacuum" />
+
+  <cell id="1" material="1" surfaces="  -1" /> <!-- UO2F2 -->
+  <cell id="2" material="2" surfaces="1 -2" /> <!-- aluminum -->
+  <cell id="3" material="3" surfaces="2 -3" /> <!-- water -->
+
+</geometry>

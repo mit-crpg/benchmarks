@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ===============================================================
+  Description: Reflected uranyl-fluoride solutions in heavy water
+  Case:        HEU-SOL-THERM-004 Case 1
+  Written By:  Paul Romano
+  Date:        7/15/2013
+  ===============================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 17.088" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 17.189" />
+  <surface id="3" type="sphere" coeffs="0. 0. 0. 44.367" />
+  <surface id="4" type="sphere" coeffs="0. 0. 0. 44.621" boundary="vacuum" />
+
+  <cell id="1" material="1" surfaces="  -1" /> <!-- solution -->
+  <cell id="2" material="2" surfaces="1 -2" /> <!-- steel -->
+  <cell id="3" material="3" surfaces="2 -3" /> <!-- reflector -->
+  <cell id="4" material="2" surfaces="3 -4" /> <!-- steel -->
+
+</geometry>

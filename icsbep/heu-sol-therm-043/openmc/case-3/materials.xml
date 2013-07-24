@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==========================================================
+  Description: Unreflected Sphere of Uranium Oxyfluoride
+  Case:        HEU-SOL-THERM-043 Case 3
+  Written By:  Paul Romano
+  Date:        7/11/2013
+  ==========================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Uranium Oxyfluoride Solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="5.8643e-07" />
+    <nuclide name="U-235" ao="4.7739e-05" />
+    <nuclide name="U-238" ao="2.8625e-06" />
+    <nuclide name="F-19"  ao="1.0238e-04" />
+    <element name="O"     ao="3.3332e-02" />
+    <nuclide name="H-1"   ao="6.6459e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- 1100 Aluminum -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Al" ao="5.9699e-02" />
+    <element name="Si" ao="5.5202e-04" />
+    <element name="Cu" ao="5.1364e-05" />
+    <element name="Zn" ao="2.4958e-05" />
+    <element name="Mn" ao="1.4853e-05" />
+  </material>
+
+</materials>

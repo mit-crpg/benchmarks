@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ===============================================================
+  Description: Reflected uranyl-fluoride solutions in heavy water
+  Case:        HEU-SOL-THERM-004 Case 2
+  Written By:  Paul Romano
+  Date:        7/15/2013
+  ===============================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- UO2F2/D2O Solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="1.2415e-05" />
+    <nuclide name="U-235" ao="1.1350e-03" />
+    <nuclide name="U-238" ao="6.3782e-05" />
+    <nuclide name="F-19"  ao="2.4224e-03" />
+    <element name="O"     ao="3.2898e-02" />
+    <nuclide name="H-2"   ao="6.0768e-02" />
+    <nuclide name="H-1"   ao="1.8285e-04" />
+    <sab name="lwtr" xs="10t" />
+    <sab name="hwtr" xs="10t" />
+  </material>
+
+  <!-- 321 Stainless Steel -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Fe" ao="5.9355e-02" />
+    <element name="Cr" ao="1.6511e-02" />
+    <element name="Ni" ao="7.7203e-03" />
+    <element name="Mn" ao="1.7363e-03" />
+    <element name="Si" ao="1.6982e-03" />
+  </material>
+
+  <!-- Heavy Water -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="H-2" ao="6.6078e-02" />
+    <nuclide name="H-1" ao="3.9886e-04" />
+    <element name="O"   ao="3.3238e-02" />
+    <sab name="lwtr" xs="10t" />
+    <sab name="hwtr" xs="10t" />
+  </material>
+
+</materials>

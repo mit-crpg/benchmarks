@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==========================================================
+  Description: Water-reflected Sphere of Uranium Oxyfluoride
+  Case:        HEU-SOL-THERM-011 Case 2
+  Written By:  Paul Romano
+  Date:        7/11/2013
+  ==========================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Uranium Oxyfluoride Solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="1.3140e-06" />
+    <nuclide name="U-235" ao="1.2440e-04" />
+    <nuclide name="U-236" ao="6.6471e-07" />
+    <nuclide name="U-238" ao="7.0393e-06" />
+    <nuclide name="F-19"  ao="2.6684e-04" />
+    <element name="O"     ao="3.3427e-02" />
+    <nuclide name="H-1"   ao="6.6320e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- 1100 Aluminum -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Al" ao="5.9699e-02" />
+    <element name="Si" ao="5.5202e-04" />
+    <element name="Cu" ao="5.1364e-05" />
+    <element name="Zn" ao="2.4958e-05" />
+    <element name="Mn" ao="1.4853e-05" />
+  </material>
+
+  <!-- Water Reflector -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="H-1" ao="6.6659e-02" />
+    <element name="O"   ao="3.3329e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+</materials>
