@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+      =================================================================
+      Description: Water-reflected 11.5 inch sphere of Pu Nitrate
+      Case:        PU-SOL-THERM-007 Case 7
+      Written By:  Paul Romano
+      Date:        3/16/2014
+      =================================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Plutonium nitrate solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Pu-238" ao="1.5194e-08" />
+    <nuclide name="Pu-239" ao="2.3959e-04" />
+    <nuclide name="Pu-240" ao="1.1722e-05" />
+    <nuclide name="Pu-241" ao="7.6272e-07" />
+    <nuclide name="Pu-242" ao="2.2413e-08" />
+    <nuclide name="N-14"   ao="1.2616e-03" />
+    <nuclide name="H-1"    ao="6.3671e-02" />
+    <nuclide name="O-16"   ao="3.5494e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- 304L stainless steel -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Fe" ao="5.9355e-02" />
+    <element name="Cr" ao="1.7428e-02" />
+    <element name="Ni" ao="7.7203e-03" />
+    <element name="Mn" ao="1.7363e-03" />
+  </material>
+
+  <!-- Water at 25 C -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="H-1"  ao="6.6655e-02" />
+    <nuclide name="O-16" ao="3.3327e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+</materials>
