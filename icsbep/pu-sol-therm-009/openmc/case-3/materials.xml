@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =============================================================
+  Description: Unreflected sphere of Plutonium Nitrate Solution
+  Case:        PU-SOL-INTER-009 Case 3
+  Written By:  Paul Romano
+  Date:        3/18/2014
+  =============================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Plutonium nitrate solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Pu-238" ao="9.7592e-10" />
+    <nuclide name="Pu-239" ao="2.3201e-05" />
+    <nuclide name="Pu-240" ao="5.9809e-07" />
+    <nuclide name="Pu-241" ao="1.7720e-08" />
+    <nuclide name="Pu-242" ao="3.2939e-09" />
+    <nuclide name="N-14"   ao="7.7164e-04" />
+    <nuclide name="H-1"    ao="6.5027e-02" />
+    <nuclide name="O-16"   ao="3.4496e-02" />
+    <sab name="lwtr" xs="10t" />
+    <!-- Impurities -->
+    <element name="Al"    ao="2.1110e-06" />
+    <element name="B"     ao="7.3750e-09" />
+    <element name="Cd"    ao="3.5470e-10" />
+    <element name="Cl"    ao="3.2120e-08" />
+    <element name="Ca"    ao="4.2630e-08" />
+    <element name="Cr"    ao="1.6430e-07" />
+    <element name="Gd"    ao="3.6220e-10" />
+    <element name="Ga"    ao="4.0850e-07" />
+    <element name="Fe"    ao="7.1380e-07" />
+    <element name="F"     ao="2.9980e-07" />
+    <element name="Mg"    ao="4.6850e-08" />
+    <element name="Mn"    ao="1.5550e-08" />
+    <element name="Ni"    ao="9.7040e-08" />
+    <element name="P"     ao="1.8390e-07" />
+    <element name="K"     ao="1.4570e-08" />
+    <element name="S"     ao="1.7760e-07" />
+    <element name="Si"    ao="1.0140e-07" />
+    <element name="Na"    ao="7.4310e-08" />
+    <nuclide name="U-235" ao="7.2690e-09" />
+  </material>
+
+  <!-- 1100 Aluminum -->
+  <material id="2">
+    <density value="2.71" units="g/cm3" />
+    <nuclide name="Al-27"  ao="5.9881e-02" />
+    <nuclide name="Si-28"  ao="3.4835e-04" />
+    <nuclide name="Si-29"  ao="1.7688e-05" />
+    <nuclide name="Si-30"  ao="1.1660e-05" />
+    <nuclide name="Cu-63"  ao="3.5528e-05" />
+    <nuclide name="Cu-65"  ao="1.5836e-05" />
+    <nuclide name="Zn-Nat" ao="2.4958e-05" />
+    <nuclide name="Mn-55"  ao="1.4853e-05" />
+  </material>
+
+</materials>
