@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ======================================================
+  Description: Bare Sphere of Plutonium Nitrate Solution
+  Case:        PU-SOL-INTER-011 Case 18-2
+  ======================================================
+  -->
+
+  <eigenvalue>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <source>
+    <space>
+      <type>box</type>
+      <parameters>-1 -1 -1  1  1  1</parameters>
+    </space>
+  </source>
+
+</settings>
