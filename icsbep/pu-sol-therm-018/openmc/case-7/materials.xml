@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==================================================================
+  Description: Water-reflected 24-in diameter cylinder of Pu nitrate 
+  Case:        PU-SOL-THERM-018, Case 7
+  ==================================================================
+  -->
+
+  <default_xs>70c</default_xs>
+
+  <!-- Plutonium solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Pu-238"  ao="2.8921e-07" />
+    <nuclide name="Pu-239"  ao="5.8681e-05" />
+    <nuclide name="Pu-240"  ao="6.0590e-05" />
+    <nuclide name="Pu-241"  ao="1.5313e-05" />
+    <nuclide name="Pu-242"  ao="6.5922e-06" />
+    <nuclide name="Am-241"  ao="1.5201e-06" />
+    <element name="Gd"      ao="1.9203e-08" />
+    <nuclide name="H-1"     ao="6.2033e-02" />
+    <element name="N"       ao="1.8050e-03" />
+    <element name="O"       ao="3.5814e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+  <!-- steel clad -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Fe" ao="6.3278e-02" />
+    <element name="Cr" ao="1.6532e-02" />
+    <element name="Ni" ao="6.5095e-03" />
+  </material>
+
+  <!-- water -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="H-1" ao="6.6691e-02" />
+    <element name="O"   ao="3.3346e-02" />
+    <sab name="lwtr" xs="10t" />
+  </material>
+
+</materials>
