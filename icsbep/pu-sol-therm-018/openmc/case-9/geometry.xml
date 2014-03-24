@@ -2,12 +2,10 @@
 <geometry>
 
   <!--
-  ==============================================================
-  Description: PNL-11 Water-reflected Pu nitrate tank
-  Case:        PU-SOL-THERM-018, Case 9
-  Written by:  Ruaridh Macdonald, Paul Romano
-  Date:        3/28/2012, Updated 8/25/2012
-  ==============================================================
+  ==================================================================
+  Description: Water-reflected 24-in diameter cylinder of Pu nitrate 
+  Case:        PU-SOL-THERM-018, Case 9 (PNL-11)
+  ==================================================================
   -->
 
   <surface id="10" type="z-cylinder" coeffs="0. 0. 2.555"  />
