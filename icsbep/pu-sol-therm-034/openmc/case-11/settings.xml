@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ==============================================================
+  Description: PNL-10 Water-reflected Pu nitrate tank
+  Case:        PU-SOL-THERM-034, Case 11
+  ==============================================================
+  -->
+
+  <eigenvalue>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <source>
+    <space>
+      <type>box</type>
+      <parameters>
+        -20. -20.   0.
+         20.  20. 143.
+      </parameters>
+    </space>
+  </source>
+
+  <entropy>
+    <lower_left>-50.8 -50.8    0.</lower_left>
+    <upper_right>50.8  50.8  143.</upper_right>
+  </entropy>
+
+</settings>
