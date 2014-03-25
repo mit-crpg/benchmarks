@@ -5,8 +5,6 @@
   ==============================================================
   Description: PNL-10 Water-reflected Pu nitrate tank
   Case:        PU-SOL-THERM-034, Case 1
-  Written by:  Ruaridh Macdonald
-  Date:        3/28/2012
   ==============================================================
   -->
 
@@ -21,34 +19,24 @@
     <nuclide name="Pu-241" ao="2.4661e-06" />
     <nuclide name="Pu-242" ao="1.4141e-07" />
     <nuclide name="H-1"    ao="6.0973e-02" />
-    <nuclide name="N-14"   ao="2.3203e-03" />
-    <nuclide name="O-16"   ao="3.6890e-02" />
+    <element name="N"      ao="2.3203e-03" />
+    <element name="O"      ao="3.6890e-02" />
     <sab name="lwtr" xs="10t" />
   </material>
 
-  <!-- steel clad -->
+  <!-- 304L stainless steel -->
   <material id="2">
-    <density value="7.93" units="g/cm3" />
-    <nuclide name="Fe-54" ao="3.6986e-03" />
-    <nuclide name="Fe-56" ao="5.8060e-02" />
-    <nuclide name="Fe-57" ao="1.3409e-03" />
-    <nuclide name="Fe-58" ao="1.7844e-04" />
-    <nuclide name="Cr-50" ao="7.1832e-04" />
-    <nuclide name="Cr-52" ao="1.3852e-02" />
-    <nuclide name="Cr-53" ao="1.5707e-03" />
-    <nuclide name="Cr-54" ao="3.9098e-04" />
-    <nuclide name="Ni-58" ao="4.4315e-03" />
-    <nuclide name="Ni-60" ao="1.7070e-03" />
-    <nuclide name="Ni-61" ao="7.4202e-05" />
-    <nuclide name="Ni-62" ao="2.3659e-04" />
-    <nuclide name="Ni-64" ao="6.0252e-05" />
+    <density units="sum" />
+    <element name="Fe" ao="6.3278e-02" />
+    <element name="Cr" ao="1.6532e-02" />
+    <element name="Ni" ao="6.5095e-03" />
   </material>
 
-  <!-- water -->
+  <!-- Water at 23 C -->
   <material id="3">
-    <density value="0.99754" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="H-1"  ao="6.6691e-02" />
-    <nuclide name="O-16" ao="3.3346e-02" />
+    <element name="O"    ao="3.3346e-02" />
     <sab name="lwtr" xs="10t" />
   </material>
 
