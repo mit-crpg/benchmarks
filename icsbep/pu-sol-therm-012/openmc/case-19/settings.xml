@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ===========================================================================
+  Description: Plutonium nitrate solution in large water-reflected cubic tank
+  Case:        PU-SOL-THERM-012 Case 19
+  ===========================================================================
+  -->
+
+  <eigenvalue>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <source>
+    <space>
+      <type>box</type>
+      <parameters>-65 -65 0  65  65 23</parameters>
+    </space>
+  </source>
+
+</settings>
