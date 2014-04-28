@@ -10,7 +10,7 @@
       =================================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Plutonium nitrate solution -->
   <material id="1">
@@ -21,7 +21,7 @@
     <nuclide name="H-1"    ao="6.0707e-02" />
     <nuclide name="O-16"   ao="3.7228e-02" />
     <element name="Fe"     ao="2.1243e-06" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- 347 stainless steel -->
@@ -37,7 +37,7 @@
     <density units="sum" />
     <nuclide name="H-1"  ao="6.6622e-02" />
     <nuclide name="O-16" ao="3.3311e-02" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
 </materials>

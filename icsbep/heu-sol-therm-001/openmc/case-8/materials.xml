@@ -10,7 +10,7 @@
   ============================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Uranyl Nitrate Solution -->
   <material id="1">
@@ -22,7 +22,7 @@
     <element name="O"     ao="3.5037e-02" />
     <nuclide name="N-14"  ao="9.2307e-04" />
     <nuclide name="H-1"   ao="6.3220e-02" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Aluminum Tank -->

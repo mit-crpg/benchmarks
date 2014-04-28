@@ -8,7 +8,7 @@
   ===========================================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Plutonium nitrate solution (31.9 g/L) -->
   <material id="1">
@@ -24,7 +24,7 @@
     <element name="Fe"     ao="7.54825e-06" />
     <element name="Cr"     ao="2.42733e-06" />
     <element name="Ni"     ao="1.72038e-06" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Air -->
@@ -55,7 +55,7 @@
     <density units="sum" />
     <nuclide name="H-1" ao="6.6688e-02" />
     <element name="O"   ao="3.3344e-02" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Steel (pool wall) -->

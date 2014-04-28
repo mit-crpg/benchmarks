@@ -18,7 +18,7 @@
   Ga-71 (39.892%)
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <material id="1">
     <density value="0.04055292" units="atom/b-cm" />

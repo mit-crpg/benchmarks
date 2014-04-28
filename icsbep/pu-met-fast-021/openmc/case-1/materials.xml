@@ -10,7 +10,7 @@
   ==========================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Plutonium -->
   <material id="1">
@@ -34,7 +34,7 @@
     <!-- O at 1.0449e-3 atom/b-cm -->
     <nuclide name="O-16" ao="1.0445e-03" />
     <nuclide name="O-17" ao="3.9706e-07" />
-    <sab name="be" xs="10t" />
+    <sab name="be" xs="71t" />
   </material>
 
   <!-- Steel Cover -->

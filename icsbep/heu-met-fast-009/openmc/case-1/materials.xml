@@ -10,7 +10,7 @@
   =========================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- HEU -->
   <material id="1">
@@ -48,7 +48,7 @@
     <nuclide name="Fe-56" ao="4.6732e-05" />
     <nuclide name="Fe-57" ao="1.0792e-06" />
     <nuclide name="Fe-58" ao="1.4363e-07" />
-    <sab name="be" xs="10t" />
+    <sab name="be" xs="71t" />
   </material>
 
   <!-- Fe -->

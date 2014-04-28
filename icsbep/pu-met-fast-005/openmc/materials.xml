@@ -23,7 +23,7 @@
   WARNING: The ENDF/B-VII.0 release does not have W-180 so it is not included.
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <material id="1">
     <density value="0.04070346" units="atom/b-cm" />

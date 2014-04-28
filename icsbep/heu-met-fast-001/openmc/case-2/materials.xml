@@ -10,7 +10,7 @@
   =====================================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Godiva sphere at 18.74 g/cm3 -->
   <material id="1">

@@ -10,7 +10,7 @@
   =============================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Plutonium nitrate solution -->
   <material id="1">
@@ -23,7 +23,7 @@
     <nuclide name="N-14"   ao="7.7494e-04" />
     <nuclide name="H-1"    ao="6.5098e-02" />
     <nuclide name="O-16"   ao="3.4542e-02" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
     <!-- Impurities -->
     <element name="Al"    ao="2.1110e-06" />
     <element name="B"     ao="7.3750e-09" />

@@ -10,7 +10,7 @@
   =================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- UO2(NO3)2 Solution -->
   <material id="1">
@@ -24,7 +24,7 @@
     <nuclide name="O-16"   ao="3.345628178e-2" />
     <nuclide name="O-17"   ao="1.271822e-5" />
     <nuclide name="Th-232" ao="1.4756e-7" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Type 1100 Aluminum -->

@@ -10,7 +10,7 @@
   =========================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- HEU -->
   <material id="1">
@@ -43,7 +43,7 @@
     <nuclide name="C-Nat" ao="3.9047e-02" />
     <nuclide name="H-1" ao="7.8085e-02" />
     <nuclide name="H-2" ao="8.9808e-06" />
-    <sab name="poly" xs="10t" />
+    <sab name="poly" xs="71t" />
   </material>
 
   <!-- Fe -->

@@ -10,7 +10,7 @@
   ===============================================================
   -->
 
-  <default_xs>70c</default_xs>  
+  <default_xs>71c</default_xs>  
 
   <!-- UO2-PuO2 Mixture -->
   <material id="1">
@@ -88,7 +88,7 @@
     <!-- Boron at 687.9 ppm -->
     <nuclide name="B-10" ao="7.5838e-06" />
     <nuclide name="B-11" ao="3.0718e-05" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
     
   <!-- 6061 Aluminum -->

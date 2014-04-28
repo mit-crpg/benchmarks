@@ -10,7 +10,7 @@
   ==========================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Water with 1384 PPM Boron -->
   <material id="1">
@@ -19,7 +19,7 @@
     <nuclide name="O-16" ao="3.3369e-02" />
     <nuclide name="B-10" ao="1.5359e-05" />
     <nuclide name="B-11" ao="6.1824e-05" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Fuel (2.459 w/o with B-10 for impurities) -->

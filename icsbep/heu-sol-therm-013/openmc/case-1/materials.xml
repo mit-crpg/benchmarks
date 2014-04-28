@@ -10,7 +10,7 @@
   ===========================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Uranium Nitrate Solution -->
   <material id="1">
@@ -23,7 +23,7 @@
     <nuclide name="O-16"  ao="3.3629e-02" />
     <nuclide name="O-17"  ao="1.2784e-05" />
     <nuclide name="H-1"   ao="6.6041e-02" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Type 1100 Aluminum -->

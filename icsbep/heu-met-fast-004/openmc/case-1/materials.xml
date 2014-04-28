@@ -10,7 +10,7 @@
   ===========================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Oralloy -->
   <material id="1">
@@ -27,7 +27,7 @@
     <nuclide name="H-1"   ao="5.7745e-2" />
     <nuclide name="C-Nat" ao="3.6090e-2" />
     <nuclide name="O-16"  ao="1.4435e-2" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Water -->
@@ -35,7 +35,7 @@
     <density value="0.99927" units="g/cm3" />
     <nuclide name="H-1"  ao="6.6807e-2" />
     <nuclide name="O-16" ao="3.3403e-2" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
 </materials>

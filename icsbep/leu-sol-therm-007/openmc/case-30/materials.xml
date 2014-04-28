@@ -10,7 +10,7 @@
   ======================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Uranyl Nitrate Solution -->
   <material id="1">
@@ -23,7 +23,7 @@
     <nuclide name="N-14"  ao="2.8156e-3" />
     <nuclide name="O-16"  ao="0.03782162232" />
     <nuclide name="O-17"  ao="1.437768e-05" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Stainless Steel -->
