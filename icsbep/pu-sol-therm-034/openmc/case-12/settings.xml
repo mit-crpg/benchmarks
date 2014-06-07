@@ -15,13 +15,7 @@
   </eigenvalue>
 
   <source>
-    <space>
-      <type>box</type>
-      <parameters>
-        -20. -20.   0.
-         20.  20. 143.
-      </parameters>
-    </space>
+    <space type="point" parameters="0. 0. 30." />
   </source>
 
   <entropy>
