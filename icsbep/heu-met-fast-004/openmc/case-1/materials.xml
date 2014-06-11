@@ -14,7 +14,7 @@
 
   <!-- Oralloy -->
   <material id="1">
-    <density value="18.794" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="U-234" ao="5.3678e-4" />
     <nuclide name="U-235" ao="4.7033e-2" />
     <nuclide name="U-236" ao="9.5896e-5" />
@@ -23,7 +23,7 @@
 
   <!-- Lucite -->
   <material id="2">
-    <density value="1.2" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="H-1"   ao="5.7745e-2" />
     <nuclide name="C-Nat" ao="3.6090e-2" />
     <nuclide name="O-16"  ao="1.4435e-2" />
@@ -32,7 +32,7 @@
 
   <!-- Water -->
   <material id="3">
-    <density value="0.99927" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="H-1"  ao="6.6807e-2" />
     <nuclide name="O-16" ao="3.3403e-2" />
     <sab name="HH2O" xs="71t" />

@@ -14,18 +14,18 @@
 
   <!-- Oralloy -->
   <material id="1">
-    <density value="18.75" units="g/cm3" />
-    <nuclide name="U-234" ao="4.9210e-4" />
-    <nuclide name="U-235" ao="4.4917e-2" />
-    <nuclide name="U-238" ao="2.5993e-3" />
+    <density units="sum" />
+    <nuclide name="U-234" ao="4.9210e-04" />
+    <nuclide name="U-235" ao="4.4917e-02" />
+    <nuclide name="U-238" ao="2.5993e-03" />
   </material>
 
   <!-- Tuballoy -->
   <material id="2">
-    <density value="18.90" units="g/cm3" />
-    <nuclide name="U-234" ao="2.6299e-6" />
-    <nuclide name="U-235" ao="3.4428e-4" />
-    <nuclide name="U-238" ao="4.7470e-2" />
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.6299e-06" />
+    <nuclide name="U-235" ao="3.4428e-04" />
+    <nuclide name="U-238" ao="4.7470e-02" />
   </material>
 
 </materials>
