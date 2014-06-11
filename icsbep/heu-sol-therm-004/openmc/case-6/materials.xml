@@ -23,7 +23,7 @@
     <nuclide name="H-2"   ao="6.6058e-02" />
     <nuclide name="H-1"   ao="1.9877e-04" />
     <sab name="HH2O" xs="71t" />
-    <sab name="hwtr" xs="71t" />
+    <sab name="DD2O" xs="71t" />
   </material>
 
   <!-- 321 Stainless Steel -->
@@ -43,7 +43,7 @@
     <nuclide name="H-1" ao="3.9886e-04" />
     <element name="O"   ao="3.3238e-02" />
     <sab name="HH2O" xs="71t" />
-    <sab name="hwtr" xs="71t" />
+    <sab name="DD2O" xs="71t" />
   </material>
 
 </materials>
