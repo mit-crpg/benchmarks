@@ -30,15 +30,12 @@
 
   <!-- Type 1100 Aluminum -->
   <material id="2">
-    <density value="2.71" units="g/cm3" />
-    <nuclide name="Al-27"  ao="5.9699e-02" />
-    <nuclide name="Si-28"  ao="5.0913e-04" />
-    <nuclide name="Si-29"  ao="2.5852e-05" />
-    <nuclide name="Si-30"  ao="1.7042e-05" />
-    <nuclide name="Cu-63"  ao="3.5528e-05" />
-    <nuclide name="Cu-65"  ao="1.5836e-05" />
-    <nuclide name="Zn-Nat" ao="2.4958e-05" />
-    <nuclide name="Mn-55"  ao="1.4853e-05" />
+    <density units="sum" />
+    <element name="Al" ao="5.9699e-02" />
+    <element name="Si" ao="5.5202e-04" />
+    <element name="Cu" ao="5.1364e-05" />
+    <element name="Zn" ao="2.4958e-05" />
+    <element name="Mn" ao="1.4853e-05" />
   </material>
 
 </materials>
