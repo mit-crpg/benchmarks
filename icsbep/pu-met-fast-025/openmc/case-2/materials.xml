@@ -5,8 +5,6 @@
   ==================================================
   Description: Steel reflected Pu-239 sphere, VNIIEF
   Case:        PU-MET-FAST-025 Simplified model
-  Written By:  Paul Romano
-  Date:        1/30/2012
   ==================================================
   -->
 
@@ -14,46 +12,25 @@
 
   <!-- HEU -->
   <material id="1">
-    <density value="0.04198766" units="atom/b-cm" />
-    <nuclide name="Pu-239" ao="3.6704e-2" />
-    <nuclide name="Pu-240" ao="6.7099e-4" />
-    <nuclide name="Ga-69" ao="0.001323157404" />
-    <nuclide name="Ga-71" ao="0.000878142596" />
-    <nuclide name="Fe-54" ao="8.2759355e-6" />
-    <nuclide name="Fe-56" ao="0.0001299144886" />
-    <nuclide name="Fe-57" ao="3.0002921e-6" />
-    <nuclide name="Fe-58" ao="3.992838e-7" />
-    <nuclide name="C-Nat" ao="2.9038e-4" />
-    <nuclide name="Ni-58" ao="0.0013475141586" />
-    <nuclide name="Ni-60" ao="0.0005190600414" />
-    <nuclide name="Ni-61" ao="2.25631806e-5" />
-    <nuclide name="Ni-62" ao="7.1941293e-5" />
-    <nuclide name="Ni-64" ao="1.83213264e-5" />
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.6704e-02" />
+    <nuclide name="Pu-240" ao="6.7099e-04" />
+    <element name="Ga"     ao="2.2013e-03" />
+    <element name="Fe"     ao="1.4159e-04" />
+    <element name="C"      ao="2.9038e-04" />
+    <element name="Ni"     ao="1.9794e-03" />
   </material>
 
   <!-- Steel reflector -->
   <material id="2">
-    <density value="0.08188112" units="atom/b-cm" />
-    <nuclide name="Fe-54" ao="0.00465010665" />
-    <nuclide name="Fe-56" ao="0.07299672978" />
-    <nuclide name="Fe-57" ao="0.00168581283" />
-    <nuclide name="Fe-58" ao="0.00022435074" />
-    <nuclide name="C-Nat" ao="1.1289e-3" />
-    <nuclide name="Si-28" ao="0.00014842525621" />
-    <nuclide name="Si-29" ao="7.536593295e-6" />
-    <nuclide name="Si-30" ao="4.968150495e-6" />
-    <nuclide name="Cr-50" ao="1.1330891e-5" />
-    <nuclide name="Cr-52" ao="0.0002185049542" />
-    <nuclide name="Cr-53" ao="2.47767078e-5" />
-    <nuclide name="Cr-54" ao="6.167447e-6" />
-    <nuclide name="Mn-55" ao="3.2909e-4" />
-    <nuclide name="Ni-58" ao="0.00015728486976" />
-    <nuclide name="Ni-60" ao="6.058585024e-5" />
-    <nuclide name="Ni-61" ao="2.63362496e-6" />
-    <nuclide name="Ni-62" ao="8.3971488e-6" />
-    <nuclide name="Ni-64" ao="2.13850624e-6" />
-    <nuclide name="Cu-63" ao="0.000147594946" />
-    <nuclide name="Cu-65" ao="6.5785054e-5" />
+    <density units="sum" />
+    <element name="Fe" ao="7.9557e-02" />
+    <element name="C"  ao="1.1289e-03" />
+    <element name="Si" ao="1.6093e-04" />
+    <element name="Cr" ao="2.6078e-04" />
+    <element name="Mn" ao="3.2909e-04" />
+    <element name="Ni" ao="2.3104e-04" />
+    <element name="Cu" ao="2.1338e-04" />
   </material>
 
 </materials>
