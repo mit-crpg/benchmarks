@@ -5,26 +5,25 @@
   ==================================================
   Description: U-233 Sphere reflected by Beryllium
   Case:        U233-MET-FAST-005 (7.6 kg Experiment)
-  Written By:  Paul Romano
-  Date:        1/2/2012
   ==================================================
   -->
 
   <default_xs>71c</default_xs>
 
+  <!-- U233 core -->
   <material id="1">
-    <density value="18.644" units="g/cm3" />
-    <nuclide name="U-233" ao="4.7312e-2" />
-    <nuclide name="U-234" ao="5.2770e-4" />
-    <nuclide name="U-238" ao="3.3015e-4" />
+    <density units="sum" />
+    <nuclide name="U-233" ao="4.7312e-02" />
+    <nuclide name="U-234" ao="5.2770e-04" />
+    <nuclide name="U-238" ao="3.3015e-04" />
   </material>
 
+  <!-- Beryllium reflector -->
   <material id="2">
-    <density value="1.83" units="g/cm3" />
-    <nuclide name="Be-9" ao="0.11984" />
-    <nuclide name="O-16" ao="0.001377076512" />
-    <nuclide name="O-17" ao="5.23488e-07" />
-    <sab name="be" xs="71t" />
+    <density units="sum" />
+    <element name="Be" ao="1.1984e-01" />
+    <element name="O"  ao="1.3776e-03" />
+    <sab name="Be" xs="71t" />
   </material>
 
 </materials>

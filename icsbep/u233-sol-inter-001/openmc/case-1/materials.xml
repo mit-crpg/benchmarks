@@ -14,41 +14,31 @@
 
   <!-- IEU Flouride Solution -->
   <material id="1">
-    <density value="1.9712" units="g/cm3" />
-    <nuclide name="U-232" ao="4.5608e-8" />
-    <nuclide name="U-233" ao="2.2379e-3" />
-    <nuclide name="U-234" ao="2.4316e-5" />
-    <nuclide name="U-235" ao="8.9598e-7" />
-    <nuclide name="U-238" ao="7.1284e-6" />
-    <nuclide name="H-1"   ao="5.5183e-2" />
-    <nuclide name="O-16"  ao="3.2043e-2" />
-    <nuclide name="F-19"  ao="4.7182e-3" />
+    <density units="sum" />
+    <nuclide name="U-232" ao="4.5608e-08" />
+    <nuclide name="U-233" ao="2.2379e-03" />
+    <nuclide name="U-234" ao="2.4316e-05" />
+    <nuclide name="U-235" ao="8.9598e-07" />
+    <nuclide name="U-238" ao="7.1284e-06" />
+    <nuclide name="H-1"   ao="5.5183e-02" />
+    <nuclide name="O-16"  ao="3.2043e-02" />
+    <nuclide name="F-19"  ao="4.7182e-03" />
     <sab name="HH2O" xs="71t" />
   </material>
 
-  <!-- Stainless steel -->
+  <!-- 347 Stainless steel -->
   <material id="2">
-    <density value="8.0" units="g/cm3" />
-    <nuclide name="Fe-54" ao="0.0035799456" />
-    <nuclide name="Fe-56" ao="0.05619748992" />
-    <nuclide name="Fe-57" ao="0.00129784512" />
-    <nuclide name="Fe-58" ao="0.00017271936" />
-    <nuclide name="Cr-50" ao="0.0007246591" />
-    <nuclide name="Cr-52" ao="0.01397432942" />
-    <nuclide name="Cr-53" ao="0.00158457678" />
-    <nuclide name="Cr-54" ao="0.0003944347" />
-    <nuclide name="Ni-58" ao="0.0061448933016" />
-    <nuclide name="Ni-60" ao="0.0023670018984" />
-    <nuclide name="Ni-61" ao="0.0001028919336" />
-    <nuclide name="Ni-62" ao="0.000328064508" />
-    <nuclide name="Ni-64" ao="8.35483584e-05" />
+    <density units="sum" />
+    <element name="Fe" ao="6.1248e-02" />
+    <element name="Cr" ao="1.6678e-02" />
+    <element name="Ni" ao="9.0264e-03" />
   </material>
 
   <!-- Beryllium reflector -->
   <material id="3">
-    <density value="1.82" units="g/cm3" />
-    <nuclide name="Be-9" ao="1.2161e-1" />
-    <sab name="be" xs="71t" />
+    <density units="sum" />
+    <element name="Be" ao="1.2161e-01" />
+    <sab name="Be" xs="71t" />
   </material>
 
 </materials>

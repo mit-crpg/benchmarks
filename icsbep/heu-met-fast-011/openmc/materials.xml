@@ -5,8 +5,6 @@
   =========================================================
   Description: Sphere of HEU Reflected by Polyethylene
   Case:        HEU-MET-FAST-011
-  Written By:  Katie Biegel
-  Date:        4.20.2012
   =========================================================
   -->
 
@@ -14,45 +12,30 @@
 
   <!-- HEU -->
   <material id="1">
-    <density value="18.0044" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="U-234" ao="5.1969e-04" />
     <nuclide name="U-235" ao="4.1018e-02" />
     <nuclide name="U-236" ao="8.9938e-05" />
     <nuclide name="U-238" ao="4.0942e-03" />
-    <nuclide name="C-Nat" ao="4.0450e-04" />
-    <nuclide name="Fe-54" ao="8.3414e-06" />
-    <nuclide name="Fe-56" ao="1.3094e-04" />
-    <nuclide name="Fe-57" ao="3.0240e-06" />
-    <nuclide name="Fe-58" ao="4.0244e-07" />
-    <nuclide name="W-182" ao="3.2995e-06" />
-    <nuclide name="W-183" ao="1.7737e-06" />
-    <nuclide name="W-184" ao="3.7978e-06" />
-    <nuclide name="W-186" ao="3.5239e-06" />
-    <nuclide name="Cu-63" ao="5.2494e-04" />
-    <nuclide name="Cu-65" ao="2.3397e-04" />
-    <nuclide name="Ni-58" ao="2.3974e-04" />
-    <nuclide name="Ni-60" ao="9.2347e-05" />
-    <nuclide name="Ni-61" ao="4.0143e-06" />
-    <nuclide name="Ni-62" ao="1.2799e-05" />
-    <nuclide name="Ni-64" ao="3.2596e-06" />
+    <element name="C"     ao="4.0450e-04" />
+    <element name="Fe"    ao="1.4271e-04" />
+    <element name="W"     ao="1.2395e-05" />
+    <element name="Cu"    ao="7.5891e-04" />
+    <element name="Ni"    ao="3.5216e-04" />
   </material>
 
   <!-- Polyethylene -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="C-Nat" ao="3.9047e-02" />
-    <nuclide name="H-1" ao="7.8085e-02" />
-    <nuclide name="H-2" ao="8.9808e-06" />
-    <sab name="poly" xs="71t" />
+    <element name="C"   ao="3.9047e-02" />
+    <nuclide name="H-1" ao="7.8094e-02" />
+    <sab name="HCH2" xs="71t" />
   </material>
 
   <!-- Fe -->
   <material id="3">
-    <density value="7.5278" units="g/cm3" />
-    <nuclide name="Fe-54" ao="4.7446e-03" />
-    <nuclide name="Fe-56" ao="7.4480e-02" />
-    <nuclide name="Fe-57" ao="1.7201e-03" />
-    <nuclide name="Fe-58" ao="2.2891e-04" />
+    <density units="sum" />
+    <element name="Fe" ao="8.1174e-02" />
   </material>
 
 </materials>

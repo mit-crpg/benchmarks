@@ -5,8 +5,6 @@
   =========================================================
   Description: Sphere of HEU Reflected by Beryllium
   Case:        HEU-MET-FAST-009 Case 1
-  Written By:  Katie Biegel
-  Date:        4.20.2012
   =========================================================
   -->
 
@@ -14,57 +12,38 @@
 
   <!-- HEU -->
   <material id="1">
-    <density value="17.9944" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="U-234" ao="5.2195e-04" />
     <nuclide name="U-235" ao="4.1000e-02" />
     <nuclide name="U-236" ao="8.8422e-05" />
     <nuclide name="U-238" ao="4.0977e-03" />
-    <nuclide name="C-Nat" ao="3.9932e-04" />
-    <nuclide name="Fe-54" ao="7.9089e-06" />
-    <nuclide name="Fe-56" ao="1.2415e-04" />
-    <nuclide name="Fe-57" ao="2.8672e-06" />
-    <nuclide name="Fe-58" ao="3.8157e-07" />
-    <nuclide name="W-182" ao="3.3129e-06" />
-    <nuclide name="W-183" ao="1.7809e-06" />
-    <nuclide name="W-184" ao="3.8131e-06" />
-    <nuclide name="W-186" ao="3.5381e-06" />
-    <nuclide name="Cu-63" ao="5.0725e-04" />
-    <nuclide name="Cu-65" ao="2.2609e-04" />
-    <nuclide name="Ni-58" ao="2.3166e-04" />
-    <nuclide name="Ni-60" ao="8.9235e-05" />
-    <nuclide name="Ni-61" ao="3.8790e-06" />
-    <nuclide name="Ni-62" ao="1.2368e-05" />
-    <nuclide name="Ni-64" ao="3.1497e-06" />
+    <element name="C"     ao="3.9932e-04" />
+    <element name="Fe"    ao="1.3531e-04" />
+    <element name="W"     ao="1.2445e-05" />
+    <element name="Cu"    ao="7.3334e-04" />
+    <element name="Ni"    ao="3.4029e-04" />
   </material>
 
   <!-- Be Reflector -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="Be-9"  ao="1.2080e-01" />
-    <nuclide name="O-16"  ao="8.2022e-05" />
-    <nuclide name="O-17"  ao="3.1180e-08" />
-    <nuclide name="C-Nat" ao="1.0019e-04" />
-    <nuclide name="Fe-54" ao="2.9770e-06" />
-    <nuclide name="Fe-56" ao="4.6732e-05" />
-    <nuclide name="Fe-57" ao="1.0792e-06" />
-    <nuclide name="Fe-58" ao="1.4363e-07" />
-    <sab name="be" xs="71t" />
+    <element name="Be" ao="1.2080e-01" />
+    <element name="O"  ao="8.2053e-05" />
+    <element name="C"  ao="1.0019e-04" />
+    <element name="Fe" ao="5.0932e-05" />
+    <sab name="Be" xs="71t" />
   </material>
 
   <!-- Fe -->
   <material id="3">
-    <density value="7.5278" units="g/cm3" />
-    <nuclide name="Fe-54" ao="4.7446e-03" />
-    <nuclide name="Fe-56" ao="7.4480e-02" />
-    <nuclide name="Fe-57" ao="1.7201e-03" />
-    <nuclide name="Fe-58" ao="2.2891e-04" />
+    <density units="sum" />
+    <element name="Fe" ao="8.1174e-02" />
   </material>
 
   <!-- Copper -->
   <material id="4">
-    <density value="8.6913" units="g/cm3" />
-    <nuclide name="Cu-63" ao="6.9170e-01" />
-    <nuclide name="Cu-65" ao="3.0830e-01" />
+    <density units="sum" />
+    <element name="Cu" ao="8.2365e-02" />
   </material>
 
 </materials>
