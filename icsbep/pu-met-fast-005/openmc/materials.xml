@@ -6,53 +6,25 @@
   Description: Unmoderated Plutonium Metal Button Array Benchmark
   Case:        PU-MET-FAST-005
   Written By:  Paul Romano
-  Date:        9/1/2011
   ===============================================================
-
-  NOTE: The original specification gave an atom densities for natural Ga, W, Ni,
-  Cu, and Zr. Since the ENDF/B-VII cross sections with MCNP do not have natural
-  isotopes, they have been broken up into individual isotopes according to IUPAC
-  recommended isotopic abundances as follows:
-  
-  Ga-69 (60.108%) Ga-71 (39.892%)
-  W-180 (0.12%) W-182 (26.50%) W-183 (14.31%) W-184 (30.64%) W-186 (28.43%)
-  Ni-58 (68.0769%) Ni-60 (26.2231%) Ni-61 (1.1399%) Ni-62 (3.6345%) Ni-64 (0.9256%)
-  Cu-63 (69.17%) Cu-65 (30.83%)
-  Zr-90 (51.45%) Zr-91 (11.22%) Zr-92 (17.15%) Zr-94 (17.38%) Zr-96 (2.80%)
-  
-  WARNING: The ENDF/B-VII.0 release does not have W-180 so it is not included.
   -->
 
   <default_xs>71c</default_xs>
 
   <material id="1">
-    <density value="0.04070346" units="atom/b-cm" />
-    <nuclide name="Pu-239" ao="0.037291" />
-    <nuclide name="Pu-240" ao="0.0019277" />
-    <nuclide name="Pu-241" ao="0.00012196" />
-    <nuclide name="Ga-69"  ao="8.19151824e-4" />
-    <nuclide name="Ga-71"  ao="5.43648176e-4" />
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.7291e-02" />
+    <nuclide name="Pu-240" ao="1.9277e-03" />
+    <nuclide name="Pu-241" ao="1.2196e-04" />
+    <element name="Ga"     ao="1.3628e-03" />
   </material>
 
   <material id="2">
-    <density value="0.06605308" units="atom/b-cm" />
-    <!-- <nuclide name="W-180" ao="6.17616e-05" /> -->
-    <nuclide name="W-182" ao="0.01363902" />
-    <nuclide name="W-183" ao="0.0073650708" />
-    <nuclide name="W-184" ao="0.0157697952" />
-    <nuclide name="W-186" ao="0.0146323524" />
-    <nuclide name="Ni-58" ao="0.0066119008356" />
-    <nuclide name="Ni-60" ao="0.0025468923644" />
-    <nuclide name="Ni-61" ao="0.0001107116476" />
-    <nuclide name="Ni-62" ao="0.000352997178" />
-    <nuclide name="Ni-64" ao="8.98979744e-05" />
-    <nuclide name="Cu-63" ao="0.00282033758" />
-    <nuclide name="Cu-65" ao="0.00125706242" />
-    <nuclide name="Zr-90" ao="0.00040917156" />
-    <nuclide name="Zr-91" ao="8.9230416e-05" />
-    <nuclide name="Zr-92" ao="0.00013639052" />
-    <nuclide name="Zr-94" ao="0.000138219664" />
-    <nuclide name="Zr-96" ao="2.226784e-05" />
+    <density units="sum" />
+    <element name="W"  ao="5.1468e-02" />
+    <element name="Ni" ao="9.7124e-03" />
+    <element name="Cu" ao="4.0774e-03" />
+    <element name="Zr" ao="7.9528e-04" />
   </material>
 
 </materials>
