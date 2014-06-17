@@ -6,19 +6,17 @@
   Description: Plutonium sphere reflected by Thorium using Thor
   Case:        PU-MET-FAST-008
   Written By:  Paul Romano
-  Date:        1/29/2012
   =============================================================
   -->
 
   <default_xs>71c</default_xs>
 
   <material id="1">
-    <density value="15.29" units="g/cm3" />
-    <nuclide name="Pu-239" ao="3.6049e-2" />
-    <nuclide name="Pu-240" ao="1.9562e-3" />
-    <nuclide name="Pu-241" ao="1.1459e-4" />
-    <nuclide name="Ga-69" ao="0.000801720504" />
-    <nuclide name="Ga-71" ao="0.000532079496" />
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.6049e-02" />
+    <nuclide name="Pu-240" ao="1.9562e-03" />
+    <nuclide name="Pu-241" ao="1.1459e-04" />
+    <element name="Ga"     ao="1.3338e-03" />
   </material>
 
   <material id="2">
