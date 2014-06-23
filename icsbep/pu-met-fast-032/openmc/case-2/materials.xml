@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ================================================================
+  Description: Steel-reflect sphere of Pu-239 (alpha, 88%), VNIIEF
+  Case:        PU-MET-FAST-032 Detailed model
+  ================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="4.2126e-02" />
+    <nuclide name="Pu-240" ao="4.5761e-03" />
+    <nuclide name="Pu-241" ao="6.7271e-04" />
+    <element name="Fe"     ao="2.8619e-04" />
+    <element name="C"      ao="1.2600e-03" />
+    <element name="H"      ao="3.2400e-04" />
+    <element name="N"      ao="3.4972e-05" />
+    <element name="O"      ao="5.1843e-05" />
+  </material>
+
+  <!-- Steel reflector -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Fe" ao="7.9924e-02" />
+    <element name="C"  ao="1.1341e-03" />
+    <element name="Si" ao="1.6167e-04" />
+    <element name="Cr" ao="2.6198e-04" />
+    <element name="Mn" ao="3.3061e-04" />
+    <element name="Ni" ao="2.3210e-04" />
+    <element name="Cu" ao="2.1437e-04" />
+  </material>
+
+</materials>
