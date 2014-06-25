@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ================================================================
+  Description: Copper reflected Pu-239 (delta, 98%) sphere, VNIIEF
+  Case:        PU-MET-FAST-040
+  ================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Layer 1 -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.6849e-02" />
+    <nuclide name="Pu-240" ao="6.7362e-04" />
+    <element name="Ga"     ao="2.3193e-03" />
+    <element name="C"      ao="3.0425e-04" />
+    <element name="Ni"     ao="1.4908e-03" />
+  </material>
+
+  <!-- Layer 2 -->
+  <material id="2">
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.6579e-02" />
+    <nuclide name="Pu-240" ao="6.6875e-04" />
+    <element name="Ga"     ao="2.3155e-03" />
+    <element name="C"      ao="3.0205e-04" />
+    <element name="Ni"     ao="1.9330e-03" />
+  </material>
+
+  <!-- Layer 3 -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.6512e-02" />
+    <nuclide name="Pu-240" ao="6.6739e-04" />
+    <element name="Ga"     ao="2.2978e-03" />
+    <element name="C"      ao="2.2608e-04" />
+    <element name="Ni"     ao="2.3056e-03" />
+  </material>
+
+  <!-- Layer 4 -->
+  <material id="4">
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.6576e-02" />
+    <nuclide name="Pu-240" ao="6.6878e-04" />
+    <element name="Ga"     ao="2.3286e-03" />
+    <element name="C"      ao="3.0206e-04" />
+    <element name="Ni"     ao="1.8631e-03" />
+  </material>
+
+  <!-- Layer 5 -->
+  <material id="5">
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.6471e-02" />
+    <nuclide name="Pu-240" ao="6.6665e-04" />
+    <element name="Ga"     ao="2.2823e-03" />
+    <element name="C"      ao="3.0110e-04" />
+    <element name="Ni"     ao="1.9715e-03" />
+  </material>
+
+  <!-- Copper reflector -->
+  <material id="6">
+    <density units="sum" />
+    <element name="Cu" ao="8.4168e-02" />
+    <element name="Fe" ao="5.0504e-06" />
+  </material>
+
+</materials>
