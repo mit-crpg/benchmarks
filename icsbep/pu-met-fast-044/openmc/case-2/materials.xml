@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ========================================================================
+  Description: Pu (5.1 wt% 240) metal sphere with tampers and polyethylene
+  Case:        PU-MET-FAST-044 Case 2 (Iron tamper)
+  ========================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Plutonium-Gallium alloy -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.7028e-02" />
+    <nuclide name="Pu-240" ao="1.9931e-03" />
+    <nuclide name="Pu-240" ao="1.3594e-04" />
+    <element name="Ga"     ao="1.2880e-03" />
+  </material>
+
+  <!-- Nickel coating -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Ni" ao="1.2962e-01" />
+  </material>
+
+  <!-- Air -->
+  <material id="3">
+    <density units="sum" />
+    <element name="N" ao="3.9933e-05" />
+    <element name="O" ao="8.7399e-06" />
+  </material>
+
+  <!-- Tamper -->
+  <material id="4">
+    <density units="sum" />
+    <element name="Fe" ao="8.5834e-02" />
+  </material>
+
+  <!-- Polyethylene -->
+  <material id="5">
+    <density units="sum" />
+    <element name="C" ao="4.1216e-02" />
+    <element name="H" ao="8.2431e-02" />
+    <sab name="HCH2" xs="71t" />
+  </material>
+
+</materials>
