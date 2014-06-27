@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ===================================================
+  Description: ZPR-6/10, cylindrical Pu/C/SS assembly
+  Case:        PU-MET-INTER-002
+  ===================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Core region -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Pu-238" ao="1.69380e-09" />
+    <nuclide name="Pu-239" ao="1.06299e-03" />
+    <nuclide name="Pu-240" ao="5.03037e-05" />
+    <nuclide name="Pu-241" ao="1.70034e-06" />
+    <nuclide name="Pu-242" ao="1.15592e-07" />
+    <nuclide name="Am-241" ao="2.98613e-06" />
+    <element name="Cr"     ao="9.84199e-03" />
+    <element name="Al"     ao="1.11659e-04" />
+    <element name="Mn"     ao="8.05254e-04" />
+    <element name="Co"     ao="3.71924e-06" />
+    <element name="Ni"     ao="4.08528e-03" />
+    <element name="C"      ao="2.58213e-02" />
+    <element name="Cu"     ao="1.01231e-04" />
+    <element name="Fe"     ao="3.52607e-02" />
+    <element name="Mo"     ao="7.42792e-05" />
+    <element name="Si"     ao="2.79577e-04" />
+  </material>
+
+  <!-- Axial stainless steel -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Cr" ao="1.57277e-02" />
+    <element name="Mn" ao="1.56081e-03" />
+    <element name="Co" ao="3.73582e-06" />
+    <element name="Ni" ao="6.94657e-03" />
+    <element name="C"  ao="2.35948e-04" />
+    <element name="Cu" ao="2.98115e-05" />
+    <element name="Fe" ao="5.55221e-02" />
+    <element name="Mo" ao="1.52120e-05" />
+    <element name="Si" ao="9.45490e-04" />
+  </material>
+
+  <!-- Radial stainless steel -->
+  <material id="3">
+    <density units="sum" />
+    <element name="Cr" ao="1.56286e-02" />
+    <element name="Mn" ao="1.42057e-03" />
+    <element name="Co" ao="3.77932e-06" />
+    <element name="Ni" ao="6.78410e-03" />
+    <element name="C"  ao="2.37106e-04" />
+    <element name="Cu" ao="5.04052e-05" />
+    <element name="Fe" ao="5.51964e-02" />
+    <element name="Mo" ao="4.64023e-05" />
+    <element name="Si" ao="8.63360e-04" />
+  </material>
+
+  <!-- Iron radial reflector -->
+  <material id="4">
+    <density units="sum" />
+    <element name="Cr" ao="1.82758e-03" />
+    <element name="Mn" ao="5.50350e-04" />
+    <element name="Co" ao="3.77222e-06" />
+    <element name="Ni" ao="7.61435e-04" />
+    <element name="C"  ao="4.27315e-04" />
+    <element name="Cu" ao="2.90457e-05" />
+    <element name="Fe" ao="7.66532e-02" />
+    <element name="Mo" ao="1.46235e-05" />
+    <element name="Si" ao="1.45148e-04" />
+  </material>
+
+  <!-- Empty matrix -->
+  <material id="5">
+    <density units="sum" />
+    <element name="Cr" ao="1.18727e-03" />
+    <element name="Mn" ao="1.05699e-04" />
+    <element name="Ni" ao="4.79539e-04" />
+    <element name="C"  ao="1.87078e-05" />
+    <element name="Cu" ao="1.71849e-05" />
+    <element name="Fe" ao="4.27243e-03" />
+    <element name="Mo" ao="8.23697e-06" />
+    <element name="Si" ao="6.81747e-05" />
+  </material>
+
+</materials>
