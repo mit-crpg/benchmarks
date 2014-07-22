@@ -13,3 +13,6 @@ comou?
 *.binary
 *.h5
 *.ppm
+
+# Compiled python files
+*.pyc
