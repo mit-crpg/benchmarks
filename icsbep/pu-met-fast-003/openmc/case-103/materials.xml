@@ -5,8 +5,6 @@
   =========================================================
   Description: 3x3x3 Pu Buttons
   Case:        PU-MET-FAST-003 Case 103
-  Written By:  Katie Biegel, Paul Romano
-  Date:        7/12/2012, 2/4/2013
   =========================================================
   -->
 
@@ -14,7 +12,7 @@
 
   <!-- Pure Pu -->
   <material id="1">
-    <density value="19.522" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="Pu-239" ao="4.6010e-02" />
     <nuclide name="Pu-240" ao="2.9236e-03" />
     <nuclide name="Pu-241" ao="2.2433e-04" />
@@ -24,53 +22,44 @@
   <!-- Aluminum  -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="Al-27" ao="6.0263e-02" />
+    <element name="Al" ao="6.0263e-02" />
   </material>
 
   <!-- Aluminum  -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="Al-27" ao="5.3031e-02" />
+    <element name="Al" ao="5.3031e-02" />
   </material>
 
   <!-- Al Heat Sink: Top -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="Al-27" ao="3.6742e-02" />
+    <element name="Al" ao="3.6742e-02" />
   </material>
 
   <!-- Al Heat Sink: Bottom -->
   <material id="5">
     <density units="sum" />
-    <nuclide name="Al-27" ao="3.0139e-02" />
+    <element name="Al" ao="3.0139e-02" />
   </material>
 
   <!-- Steel -->
   <material id="6">
     <density units="sum" />
-    <nuclide name="Fe-54" ao="4.9169e-03" />
-    <nuclide name="Fe-56" ao="7.7185e-02" />
-    <nuclide name="Fe-57" ao="1.7825e-03" />
-    <nuclide name="Fe-58" ao="2.3722e-04" />
+    <element name="Fe" ao="8.4122e-02" />
   </material>
 
   <!-- Steel (Table Support at 7% density) -->
   <material id="7">
     <density units="sum" />
-    <nuclide name="Fe-54" ao="3.4418e-4" />
-    <nuclide name="Fe-56" ao="5.4029e-3" />
-    <nuclide name="Fe-57" ao="1.2478e-4" />
-    <nuclide name="Fe-58" ao="1.6606e-5" />
+    <element name="Fe" ao="5.8885e-03" />
   </material>
 
   <!-- Stainless Steel: Shoe -->
   <material id="8">
     <density units="sum" />
-    <nuclide name="Al-27" ao="2.9260e-02" />
-    <nuclide name="Fe-54" ao="4.5539e-04" />
-    <nuclide name="Fe-56" ao="7.1486e-03" />
-    <nuclide name="Fe-57" ao="1.6509e-04" />
-    <nuclide name="Fe-58" ao="2.1971e-05" />
+    <element name="Al" ao="2.9260e-02" />
+    <element name="Fe" ao="7.7911e-03" />
   </material>
 
 </materials>
