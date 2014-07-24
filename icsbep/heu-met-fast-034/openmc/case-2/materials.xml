@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =======================================================================
+  Description: Three heterogeneous cylinders of HEU with polyethylene and
+               titanium, aluminium, or steel
+  Case:        HEU-MET-FAST-034 Case 2
+  =======================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- HEU -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-235" ao="4.5694e-02" />
+    <nuclide name="U-238" ao="1.3350e-03" />
+    <nuclide name="U-234" ao="5.6419e-04" />
+    <element name="C"     ao="7.4560e-05" />
+    <element name="Fe"    ao="1.8040e-05" />
+    <element name="W"     ao="9.1332e-07" />
+  </material>
+
+  <!-- Polyethylene -->
+  <material id="2">
+    <density units="sum" />
+    <element name="C"   ao="3.9290e-02" />
+    <nuclide name="H-1" ao="7.8579e-02" />
+    <sab name="HCH2" xs="71t" />
+  </material>
+
+  <!-- Titanium -->
+  <material id="3">
+    <density units="sum" />
+    <element name="Ti" ao="5.6632e-02" />
+    <element name="Al" ao="1.0151e-03" />
+  </material>
+
+  <!-- Aluminium -->
+  <material id="4">
+    <density units="sum" />
+    <element name="Al" ao="5.9154e-02" />
+    <element name="Mn" ao="3.8519e-04" />
+    <element name="Si" ao="1.7387e-04" />
+    <element name="Fe" ao="1.0202e-04" />
+  </material>
+
+  <!-- Steel -->
+  <material id="5">
+    <density units="sum" />
+    <element name="Fe" ao="8.2807e-02" />
+    <element name="C"  ao="4.0815e-04" />
+    <element name="Si" ao="4.4883e-04" />
+    <element name="Mn" ao="4.2492e-04" />
+    <element name="Cr" ao="6.7345e-05" />
+  </material>
+
+</materials>
