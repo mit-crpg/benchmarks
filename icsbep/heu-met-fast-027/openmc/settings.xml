@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ==========================================================================
+  Description: Spherical assembly of 235U (90%) with a 3.25cm lead reflector
+  Case:        HEU-MET-FAST-027
+  ==========================================================================
+  -->
+ 
+  <eigenvalue>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <source>
+    <space type="point" parameters="0. 0. 0." />
+  </source>
+
+</settings>
