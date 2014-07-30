@@ -5,8 +5,6 @@
   =========================================================
   Description: ZEUS Criticality Experiments
   Case:        HEU-MET-INTER-006 Case 1
-  Written By:  Katie Biegel
-  Date:        4.26.2012
   =========================================================
   -->
 
@@ -15,53 +13,37 @@
   <!-- HEU -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9483e-4" />
-    <nuclide name="U-235" ao="4.4918e-2" />
-    <nuclide name="U-236" ao="1.5917e-4" />
-    <nuclide name="U-238" ao="2.5740e-3" />
+    <nuclide name="U-234" ao="4.9483e-04" />
+    <nuclide name="U-235" ao="4.4918e-02" />
+    <nuclide name="U-236" ao="1.5917e-04" />
+    <nuclide name="U-238" ao="2.5740e-03" />
   </material>
 
   <!-- Graphite -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="C-Nat" ao="8.5380e-2" />
+    <element name="C" ao="8.5380e-02" />
     <sab name="Graph" xs="71t" />
   </material>
 
   <!-- Cu -->
   <material id="3">
-    <density value="8.7351" units="g/cm3" />
-    <nuclide name="Cu-63" ao="5.7259e-2" />
-    <nuclide name="Cu-65" ao="2.5521e-2" />
+    <density units="sum" />
+    <element name="Cu" ao="8.2780e-02" />
   </material>
 
   <!-- Al 6061-T6 -->
   <material id="4">
-    <density value="2.6657" units="g/cm3" />
-    <nuclide name="Mg-24" ao="5.2172e-4" />
-    <nuclide name="Mg-25" ao="6.6049e-5" />
-    <nuclide name="Mg-26" ao="7.2720e-5" />
-    <nuclide name="Al-27" ao="5.7816e-2" />
-    <nuclide name="Si-28" ao="3.1630e-4" />
-    <nuclide name="Si-29" ao="1.6061e-5" />
-    <nuclide name="Si-30" ao="1.0587e-5" />
-    <nuclide name="Ti-46" ao="2.0745e-6" />
-    <nuclide name="Ti-47" ao="1.8709e-6" />
-    <nuclide name="Ti-48" ao="1.8538e-5" />
-    <nuclide name="Ti-49" ao="1.3604e-6" />
-    <nuclide name="Ti-50" ao="1.3026e-6" />
-    <nuclide name="Cr-50" ao="3.3537e-6" />
-    <nuclide name="Cr-52" ao="6.4673e-5" />
-    <nuclide name="Cr-53" ao="7.3333e-6" />
-    <nuclide name="Cr-54" ao="1.8254e-6" />
-    <nuclide name="Mn-55" ao="2.1915e-5" />
-    <nuclide name="Fe-54" ao="5.8807e-6" />
-    <nuclide name="Fe-56" ao="9.2314e-5" />
-    <nuclide name="Fe-57" ao="2.1319e-6" />
-    <nuclide name="Fe-58" ao="2.8372e-7" />
-    <nuclide name="Cu-63" ao="4.8053e-5" />
-    <nuclide name="Cu-65" ao="2.1418e-5" />
-    <nuclide name="Zn-Nat" ao="3.0687e-5" />
+    <density units="sum" />
+    <element name="Si" ao="3.4295e-04" />
+    <element name="Fe" ao="1.0061e-04" />
+    <element name="Cu" ao="6.9471e-05" />
+    <element name="Mn" ao="2.1915e-05" />
+    <element name="Mg" ao="6.6049e-04" />
+    <element name="Cr" ao="7.7185e-05" />
+    <element name="Zn" ao="3.0687e-05" />
+    <element name="Ti" ao="2.5146e-05" />
+    <element name="Al" ao="5.7816e-02" />
   </material>
 
 </materials>
