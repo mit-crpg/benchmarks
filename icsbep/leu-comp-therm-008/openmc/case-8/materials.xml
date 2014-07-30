@@ -5,8 +5,6 @@
   ==========================================================
   Description: B&W Critical Lattices Core XI
   Case:        LEU-COMP-THERM Loading 8
-  Written By:  Nick Horelik, Paul Romano
-  Date:        03/12/2012
   ==========================================================
   -->
 
@@ -35,39 +33,15 @@
   <!-- Aluminum 6061 Cladding for Fuel -->
   <material id="3">
     <density units="sum" />
-    <!-- Mg at 6.2072e-4 atom/b-cm -->
-    <nuclide name="Mg-24"  ao="4.9031e-04" />
-    <nuclide name="Mg-25"  ao="6.2072e-05" />
-    <nuclide name="Mg-26"  ao="6.8341e-05" />
-    <!-- Al at 5.3985e-2 atom/b-cm -->
-    <nuclide name="Al-27"  ao="5.3985e-02" />
-    <!-- Si at 3.2230e-4 atom/b-cm -->
-    <nuclide name="Si-28"  ao="2.9726e-04" />
-    <nuclide name="Si-29"  ao="1.5094e-05" />
-    <nuclide name="Si-30"  ao="9.9499e-06" />
-    <!-- Ti at 4.7263e-5 atom/b-cm -->
-    <nuclide name="Ti-46"  ao="3.8992e-06" />
-    <nuclide name="Ti-47"  ao="3.5164e-06" />
-    <nuclide name="Ti-48"  ao="3.4842e-05" />
-    <nuclide name="Ti-49"  ao="2.5569e-06" />
-    <nuclide name="Ti-50"  ao="2.4482e-06" />
-    <!-- Cr at 5.8029e-5 atom/b-cm -->
-    <nuclide name="Cr-50"  ao="2.5214e-06" />
-    <nuclide name="Cr-52"  ao="4.8622e-05" />
-    <nuclide name="Cr-53"  ao="5.5133e-06" />
-    <nuclide name="Cr-54"  ao="1.3724e-06" />
-    <!-- Mn at 4.1191e-5 atom/b-cm -->
-    <nuclide name="Mn-55"  ao="4.1191e-05" />
-    <!-- Fe at 1.8910e-4 atom/b-cm -->
-    <nuclide name="Fe-54"  ao="1.1053e-05" />
-    <nuclide name="Fe-56"  ao="1.7351e-04" />
-    <nuclide name="Fe-57"  ao="4.0070e-06" />
-    <nuclide name="Fe-58"  ao="5.3326e-07" />
-    <!-- Cu at 5.9353e-5 atom/b-cm -->
-    <nuclide name="Cu-63"  ao="4.1054e-05" />
-    <nuclide name="Cu-65"  ao="1.8299e-05" />
-    <!-- Zn at 5.7679e-5 atom/b-cm -->
-    <nuclide name="Zn-Nat" ao="5.7679e-05" />
+    <element name="Mg" ao="6.2072e-04" />
+    <element name="Al" ao="5.3985e-02" />
+    <element name="Si" ao="3.2230e-04" />
+    <element name="Ti" ao="4.7263e-05" />
+    <element name="Cr" ao="5.8029e-05" />
+    <element name="Mn" ao="4.1191e-05" />
+    <element name="Fe" ao="1.8910e-04" />
+    <element name="Cu" ao="5.9353e-05" />
+    <element name="Zn" ao="5.7679e-05" />
   </material>
 
   <!-- Pyrex -->
@@ -78,9 +52,7 @@
     <nuclide name="O-16" ao="4.4829e-02" />
     <nuclide name="Na-23" ao="1.7444e-03" />
     <nuclide name="Al-27" ao="1.0018e-03" />
-    <nuclide name="Si-28" ao="1.6884e-02" />
-    <nuclide name="Si-29" ao="8.5730e-04" />
-    <nuclide name="Si-30" ao="5.6513e-04" />
+    <element name="Si"    ao="1.8306e-02" />
   </material>
 
 </materials>
