@@ -5,8 +5,6 @@
   =========================================================
   Description: Bare Spherical Assembly of 90% U-235, VNIIEF
   Case:        HEU-MET-FAST-018 Simplified model
-  Written By:  Paul Romano
-  Date:        1/3/2012
   =========================================================
   -->
 
@@ -18,18 +16,9 @@
     <nuclide name="U-234" ao="5.2111e-04" />
     <nuclide name="U-235" ao="4.2064e-02" />
     <nuclide name="U-238" ao="4.3626e-03" />
-    <!-- C at 1.1074e-3 atom/b-cm -->
-    <nuclide name="C-Nat" ao="1.1074e-03" />
-    <!-- Fe at 1.9320e-4 atom/b-cm -->
-    <nuclide name="Fe-54" ao="1.1293e-05" />
-    <nuclide name="Fe-56" ao="1.7727e-04" />
-    <nuclide name="Fe-57" ao="4.0939e-06" />
-    <nuclide name="Fe-58" ao="5.4482e-07" />
-    <!-- W at 5.3798e-5 atom/b-cm -->
-    <nuclide name="W-182" ao="1.4321e-05" />
-    <nuclide name="W-183" ao="7.6985e-06" />
-    <nuclide name="W-184" ao="1.6484e-05" />
-    <nuclide name="W-186" ao="1.5295e-05" />
+    <element name="C"     ao="1.1074e-03" />
+    <element name="Fe"    ao="1.9320e-04" />
+    <element name="W"     ao="5.3798e-05" />
   </material>
 
 </materials>
