@@ -2,11 +2,9 @@
 <materials>
 
   <!--
-  =======================================================
+  ========================================================
   Description: Sphere of HEU reflected By Depleted Uranium
   Case:        HEU-MET-FAST-014
-  Written By:  Steven Fine
-  Date:        3/20/2012
   ========================================================
   -->
 
@@ -14,63 +12,36 @@
 
   <!-- HEU -->
   <material id="1">
-    <density value="18.0053" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="U-234" ao="5.2275e-04" />
     <nuclide name="U-235" ao="4.1032e-02" />
     <nuclide name="U-236" ao="8.8021e-05" />
     <nuclide name="U-238" ao="4.1010e-03" />
-    <!-- C at 3.9536e-4 atom/b-cm -->
-    <nuclide name="C-Nat" ao="3.9536e-04" />
-    <!-- Fe at 1.3512e-4 atom/b-cm -->
-    <nuclide name="Fe-54" ao="7.8978e-06" />
-    <nuclide name="Fe-56" ao="1.2398e-04" />
-    <nuclide name="Fe-57" ao="2.8632e-06" />
-    <nuclide name="Fe-58" ao="3.8104e-07" />
-    <!-- W at 1.2426e-5 atom/b-cm -->
-    <nuclide name="W-182" ao="3.3078e-06" />
-    <nuclide name="W-183" ao="1.7782e-06" />
-    <nuclide name="W-184" ao="3.8073e-06" />
-    <nuclide name="W-186" ao="3.5327e-06" />
-    <!-- Cu at 7.1251e-4 atom/b-cm -->
-    <nuclide name="Cu-63" ao="4.9284e-04" />
-    <nuclide name="Cu-65" ao="2.1967e-04" />
-    <!-- Ni at 3.3062e-4 atom/b-cm -->
-    <nuclide name="Ni-58" ao="2.2508e-04" />
-    <nuclide name="Ni-60" ao="8.6699e-05" />
-    <nuclide name="Ni-61" ao="3.7687e-06" />
-    <nuclide name="Ni-62" ao="1.2016e-05" />
-    <nuclide name="Ni-64" ao="3.0602e-06" />
+    <element name="C"     ao="3.9536e-04" />
+    <element name="Fe"    ao="1.3512e-04" />
+    <element name="W"     ao="1.2426e-05" />
+    <element name="Cu"    ao="7.1251e-04" />
+    <element name="Ni"    ao="3.3062e-04" />
   </material>
 
   <!-- Duralumin -->
   <material id="2">
-    <density value="6.0426e-02" units="atom/b-cm" />
-    <!-- Al at 5.8077e-2 atom/b-cm -->
-    <nuclide name="Al-27" ao="5.8077e-02" />
-    <!-- Mg at 1.0332e-3 atom/b-cm -->
-    <nuclide name="Mg-24" ao="8.1612e-04" />
-    <nuclide name="Mg-25" ao="1.0332e-04" />
-    <nuclide name="Mg-26" ao="1.1376e-04" />
-    <!-- Mn at 1.8284e-4 atom/b-cm -->
-    <nuclide name="Mn-55" ao="1.8284e-04" />
-    <!-- Cu at 1.1329e-3 atom/b-cm -->
-    <nuclide name="Cu-63" ao="7.8363e-04" />
-    <nuclide name="Cu-65" ao="3.4927e-04" />
+    <density units="sum" />
+    <element name="Al" ao="5.8077e-02" />
+    <element name="Mg" ao="1.0332e-03" />
+    <element name="Mn" ao="1.8284e-04" />
+    <element name="Cu" ao="1.1329e-03" />
   </material>
 
   <!-- Pure Fe -->
   <material id="3">
-    <density value="7.5278" units="g/cm3" />
-    <!-- Fe at 8.1174e-2 atom/b-cm -->
-    <nuclide name="Fe-54" ao="4.7446e-03" />
-    <nuclide name="Fe-56" ao="7.4480e-02" />
-    <nuclide name="Fe-57" ao="1.7201e-03" />
-    <nuclide name="Fe-58" ao="2.2891e-04" />
+    <density units="sum" />
+    <element name="Fe" ao="8.1174e-02" />
   </material>
 
   <!-- Depleted Uranium -->
   <material id="4">
-    <density value="18.6032" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="U-235" ao="2.3832e-04" />
     <nuclide name="U-238" ao="4.6826e-02" />
   </material>
