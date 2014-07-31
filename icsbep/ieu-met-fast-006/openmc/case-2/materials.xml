@@ -5,8 +5,6 @@
   ================================================================
   Description: Duralumin-reflected Spherical Assembly of 36% U-235
   Case:        IEU-MET-FAST-006 Simplified model
-  Written By:  Paul Romano
-  Date:        1/8/2012, 8/25/2012
   ================================================================
   -->
 
@@ -18,55 +16,27 @@
     <nuclide name="U-234" ao="1.5518e-04" />
     <nuclide name="U-235" ao="1.7161e-02" />
     <nuclide name="U-238" ao="2.9310e-02" />
-    <!-- W at 1.0721e-5 atom/b-cm -->
-    <nuclide name="W-182" ao="2.8539e-06" />
-    <nuclide name="W-183" ao="1.5342e-06" />
-    <nuclide name="W-184" ao="3.2849e-06" />
-    <nuclide name="W-186" ao="3.0480e-06" />
-    <!-- Fe at 1.2345e-4 atom/b-cm -->
-    <nuclide name="Fe-54" ao="7.2157e-06" />
-    <nuclide name="Fe-56" ao="1.1327e-04" />
-    <nuclide name="Fe-57" ao="2.6159e-06" />
-    <nuclide name="Fe-58" ao="3.4813e-07" />
-    <!-- C at 6.4888e-4 atom/b-cm -->
-    <nuclide name="C-Nat" ao="6.4888e-04" />
-    <!-- Cu at 2.6755e-4 atom/b-cm -->
-    <nuclide name="Cu-63" ao="1.8506e-04" />
-    <nuclide name="Cu-65" ao="8.2486e-05" />
-    <!-- Ni at 2.8969e-4 atom/b-cm -->
-    <nuclide name="Ni-58" ao="1.9721e-04" />
-    <nuclide name="Ni-60" ao="7.5966e-05" />
-    <nuclide name="Ni-61" ao="3.3022e-06" />
-    <nuclide name="Ni-62" ao="1.0529e-05" />
-    <nuclide name="Ni-64" ao="2.6814e-06" />
+    <element name="W"     ao="1.0721e-05" />
+    <element name="Fe"    ao="1.2345e-04" />
+    <element name="C"     ao="6.4888e-04" />
+    <element name="Cu"    ao="2.6755e-04" />
+    <element name="Ni"    ao="2.8969e-04" />
   </material>
 
   <!-- Duralumin reflector #1 -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="Al-27" ao="5.2342e-02" />
-    <!-- Fe at 9.5788e-4 atom/b-cm -->
-    <nuclide name="Fe-54" ao="5.5988e-05" />
-    <nuclide name="Fe-56" ao="8.7889e-04" />
-    <nuclide name="Fe-57" ao="2.0297e-05" />
-    <nuclide name="Fe-58" ao="2.7012e-06" />
-    <!-- Cu at 9.8614e-4 atom/b-cm -->
-    <nuclide name="Cu-63" ao="6.8211e-04" />
-    <nuclide name="Cu-65" ao="3.0403e-04" />
+    <element name="Al" ao="5.2342e-02" />
+    <element name="Fe" ao="9.5788e-04" />
+    <element name="Cu" ao="9.8614e-04" />
   </material>
 
   <!-- Duralumin reflector #2 -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="Al-27" ao="5.2067e-02" />
-    <!-- Fe at 9.5286e-4 atom/b-cm -->
-    <nuclide name="Fe-54" ao="5.5695e-05" />
-    <nuclide name="Fe-56" ao="8.7429e-04" />
-    <nuclide name="Fe-57" ao="2.0191e-05" />
-    <nuclide name="Fe-58" ao="2.6871e-06" />
-    <!-- Cu at 9.8097e-4 atom/b-cm -->
-    <nuclide name="Cu-63" ao="6.7854e-04" />
-    <nuclide name="Cu-65" ao="3.0243e-04" />
+    <element name="Al" ao="5.2067e-02" />
+    <element name="Fe" ao="9.5286e-04" />
+    <element name="Cu" ao="9.8097e-04" />
   </material>
 
 </materials>
