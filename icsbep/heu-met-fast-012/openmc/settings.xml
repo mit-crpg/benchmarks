@@ -2,13 +2,10 @@
 <settings>
 
   <!--
-  ==========================================================
-  Description: Sphere of Highly Enriched Uranium Reflected
-               by Aluminum
+  ================================================
+  Description: Sphere of HEU Reflected by Aluminum
   Case:        HEU-MET-FAST-012
-  Written By:  Steven Fine
-  Date:        3/29/2012
-  ==========================================================
+  ================================================
   -->
 
  <eigenvalue>
