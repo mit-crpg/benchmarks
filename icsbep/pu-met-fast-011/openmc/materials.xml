@@ -5,26 +5,23 @@
   ================================================
   Description: Plutonium sphere reflected by Water
   Case:        PU-MET-FAST-011
-  Written By:  Paul Romano
-  Date:        1/29/2012
   ================================================
   -->
 
   <default_xs>71c</default_xs>
 
   <material id="1">
-    <density value="19.74" units="g/cm3" />
-    <nuclide name="Pu-239" ao="4.6982e-2" />
-    <nuclide name="Pu-240" ao="2.5852e-3" />
-    <nuclide name="Pu-241" ao="1.4915e-4" />
-    <nuclide name="Pu-242" ao="9.9432e-6" />
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="4.6982e-02" />
+    <nuclide name="Pu-240" ao="2.5852e-03" />
+    <nuclide name="Pu-241" ao="1.4915e-04" />
+    <nuclide name="Pu-242" ao="9.9432e-06" />
   </material>
 
   <material id="2">
-    <density value="0.100149" units="atom/b-cm" />
-    <nuclide name="H-1" ao="6.6766e-2" />
-    <nuclide name="O-16" ao="0.03337031446" />
-    <nuclide name="O-17" ao="1.268554e-5" />
+    <density units="sum" />
+    <nuclide name="H-1" ao="6.6766e-02" />
+    <element name="O"   ao="3.3383e-02" />
     <sab name="HH2O" xs="71t" />
   </material>
 

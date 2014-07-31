@@ -5,24 +5,22 @@
   ================================================
   Description: U-233 Sphere surrounded by U-235 
   Case:        U233-MET-FAST-002 (7 kg Experiment)
-  Written By:  Paul Romano
-  Date:        1/2/2012
   ================================================
   -->
 
   <default_xs>71c</default_xs>
 
   <material id="1">
-    <density value="18.644" units="g/cm3" />
-    <nuclide name="U-233" ao="4.7312e-2" />
-    <nuclide name="U-234" ao="5.2770e-4" />
-    <nuclide name="U-238" ao="3.3015e-4" />
+    <density units="sum" />
+    <nuclide name="U-233" ao="4.7312e-02" />
+    <nuclide name="U-234" ao="5.2770e-04" />
+    <nuclide name="U-238" ao="3.3015e-04" />
   </material>
 
   <material id="2">
-    <density value="18.80" units="g/cm3" />
-    <nuclide name="U-235" ao="4.4892e-2" />
-    <nuclide name="U-238" ao="3.2340e-3" />
+    <density units="sum" />
+    <nuclide name="U-235" ao="4.4892e-02" />
+    <nuclide name="U-238" ao="3.2340e-03" />
   </material>
 
 </materials>

@@ -5,8 +5,6 @@
   ==========================================================
   Description: U-235 Sphere reflected by Natural U (FLATTOP)
   Case:        HEU-MET-FAST-028
-  Written By:  Paul Romano
-  Date:        1/3/2012
   ==========================================================
   -->
 
@@ -14,18 +12,18 @@
 
   <!-- 93.24 wt% U-235 -->
   <material id="1">
-    <density value="18.62" units="g/cm3" />
-    <nuclide name="U-234" ao="4.8869e-4" />
-    <nuclide name="U-235" ao="4.4482e-2" />
-    <nuclide name="U-238" ao="2.7038e-3" />
+    <density units="sum" />
+    <nuclide name="U-234" ao="4.8869e-04" />
+    <nuclide name="U-235" ao="4.4482e-02" />
+    <nuclide name="U-238" ao="2.7038e-03" />
   </material>
 
   <!-- Natural Uranium -->
   <material id="2">
-    <density value="19.0" units="g/cm3" />
-    <nuclide name="U-234" ao="2.6438e-6" />
-    <nuclide name="U-235" ao="3.4610e-4" />
-    <nuclide name="U-238" ao="4.7721e-2" />
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.6438e-06" />
+    <nuclide name="U-235" ao="3.4610e-04" />
+    <nuclide name="U-238" ao="4.7721e-02" />
   </material>
 
 </materials>

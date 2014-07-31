@@ -51,7 +51,7 @@
 
   <!-- Duralumin top cylindrical shell (0.417 g/cm3) -->
   <material id="5">
-    <density value="0.417" units="g/cm3" />
+    <density units="sum" />
     <element name="Al" ao="8.7115e-03" />
     <element name="Mg" ao="1.5498e-04" />
     <element name="Mn" ao="2.7426e-05" />

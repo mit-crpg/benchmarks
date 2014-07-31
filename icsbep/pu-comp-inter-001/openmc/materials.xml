@@ -5,31 +5,23 @@
   ==============================================================
   Description: k-inf Experiment Intermediate Spectrum for Pu-239
   Case:        PU-COMP-INTER-001
-  Written By:  Paul Romano
-  Date:        1/30/2012
   ==============================================================
   -->
 
   <default_xs>71c</default_xs>
 
   <material id="1">
-    <density value="0.07534292" units="atom/b-cm" />
-    <nuclide name="Pu-239" ao="2.735e-4" />
-    <nuclide name="Pu-240" ao="1.549e-5" />
-    <nuclide name="Pu-241" ao="1.072e-6" />
-    <nuclide name="Pu-242" ao="5.800e-8" />
-    <nuclide name="H-1"    ao="1.077e-4" />
-    <nuclide name="B-10"   ao="1.0151e-4" />
-    <nuclide name="B-11"   ao="4.0859e-4" />
-    <nuclide name="C-Nat"  ao="7.090e-2" />
-    <nuclide name="O-16"   ao="2.7060e-3" />
-    <nuclide name="O-17"   ao="1.0287e-6" />
-    <nuclide name="Ca-40"  ao="8.0267e-4" />
-    <nuclide name="Ca-42"  ao="5.3572e-6" />
-    <nuclide name="Ca-43"  ao="1.1178e-6" />
-    <nuclide name="Ca-44"  ao="1.7272e-5" />
-    <nuclide name="Ca-46"  ao="3.3120e-8" />
-    <nuclide name="Ca-48"  ao="1.5484e-6" />
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="2.735e-04" />
+    <nuclide name="Pu-240" ao="1.549e-05" />
+    <nuclide name="Pu-241" ao="1.072e-06" />
+    <nuclide name="Pu-242" ao="5.800e-08" />
+    <nuclide name="H-1"    ao="1.077e-04" />
+    <nuclide name="B-10"   ao="1.0151e-04" />
+    <nuclide name="B-11"   ao="4.0859e-04" />
+    <element name="C"      ao="7.090e-02" />
+    <element name="O"      ao="2.707e-03" />
+    <element name="Ca"     ao="8.280e-04" />
     <sab name="Graph" xs="71t" />
   </material>
 

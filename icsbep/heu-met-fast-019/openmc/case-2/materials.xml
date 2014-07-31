@@ -23,8 +23,8 @@
 
   <!-- Graphite -->
   <material id="2">
-    <density value="7.6716e-2" units="atom/b-cm" />
-    <nuclide name="C-Nat" ao="7.6716e-2" />
+    <density units="sum" />
+    <element name="C" ao="7.6716e-02" />
     <sab name="Graph" xs="71t" />
   </material>
 

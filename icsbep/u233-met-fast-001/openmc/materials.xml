@@ -5,19 +5,17 @@
   ==========================================
   Description: Bare U-233 Jezebel Benchmark
   Case:        U233-MET-FAST-001
-  Written By:  Paul Romano
-  Date:        1/2/2012
   ==========================================
   -->
 
   <default_xs>71c</default_xs>
 
   <material id="1">
-    <density value="18.424" units="g/cm3" />
-    <nuclide name="U-233" ao="4.6712e-2" />
-    <nuclide name="U-234" ao="5.9026e-4" />
-    <nuclide name="U-235" ao="1.4281e-5" />
-    <nuclide name="U-238" ao="2.8561e-4" />
+    <density units="sum" />
+    <nuclide name="U-233" ao="4.6712e-02" />
+    <nuclide name="U-234" ao="5.9026e-04" />
+    <nuclide name="U-235" ao="1.4281e-05" />
+    <nuclide name="U-238" ao="2.8561e-04" />
   </material>
 
 </materials>
