@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ===============================================================
+  Description: HEU Metal Sphere with Beryllium Reflectors, Nimbus
+  Case:        HEU-MET-FAST-058 case 5
+  ===============================================================
+  -->
+
+  <eigenvalue>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <source>
+    <space type="point" parameters="0. 0. 0." />
+  </source>
+
+</settings>
