@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==============================================================================
+  Description: Unreflected cylinders of uranyl-fluoride solutions in heavy water
+  Case:        HEU-SOL-THERM-020 Case 4
+  ==============================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- UO2F2/D2O Solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="8.4356e-07" />
+    <nuclide name="U-235" ao="7.7120e-05" />
+    <nuclide name="U-238" ao="4.3338e-06" />
+    <element name="F"     ao="1.6459e-04" />
+    <element name="O"     ao="3.3172e-02" />
+    <nuclide name="H-2"   ao="6.5354e-02" />
+    <nuclide name="H-1"   ao="6.6014e-04" />
+    <sab name="HH2O" xs="71t" />
+    <sab name="DD2O" xs="71t" />
+  </material>
+
+  <!-- 321 Stainless Steel -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Fe" ao="5.9355e-02" />
+    <element name="Cr" ao="1.6511e-02" />
+    <element name="Ni" ao="7.7203e-03" />
+    <element name="Mn" ao="1.7363e-03" />
+    <element name="Si" ao="1.6982e-03" />
+  </material>
+
+  <!-- Dry Air -->
+  <material id="3">
+    <density units="sum" />
+    <element name="N" ao="3.2269e-05" />
+    <element name="O" ao="8.6569e-06" />
+  </material>
+
+  <!-- Aluminum -->
+  <material id="4">
+    <density units="sum" />
+    <element name="Al" ao="6.0262e-02" />
+  </material>
+
+</materials>

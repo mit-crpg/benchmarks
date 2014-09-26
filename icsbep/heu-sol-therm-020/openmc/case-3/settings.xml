@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ==============================================================================
+  Description: Unreflected cylinders of uranyl-fluoride solutions in heavy water
+  Case:        HEU-SOL-THERM-020 Case 3
+  ==============================================================================
+  -->
+
+  <eigenvalue>
+    <batches>5100</batches>
+    <inactive>100</inactive>
+    <particles>20000</particles>
+  </eigenvalue>
+
+  <source>
+    <space>
+      <type>point</type>
+      <parameters>0. 0. 0.</parameters>
+    </space>
+  </source>
+
+</settings>

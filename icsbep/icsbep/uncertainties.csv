@@ -130,6 +130,11 @@ heu-sol-therm-013, case-1, 1.0012, 0.0026
 heu-sol-therm-013, case-2, 1.0007, 0.0036
 heu-sol-therm-013, case-3, 1.0009, 0.0036
 heu-sol-therm-013, case-4, 1.0003, 0.0036
+heu-sol-therm-020, case-1, 0.9966, 0.0116
+heu-sol-therm-020, case-2, 0.9956, 0.0093
+heu-sol-therm-020, case-3, 0.9957, 0.0079
+heu-sol-therm-020, case-4, 0.9955, 0.0078
+heu-sol-therm-020, case-5, 0.9959, 0.0077
 heu-sol-therm-032, , 1.0015, 0.0026
 heu-sol-therm-042, case-1, 0.9957, 0.0039
 heu-sol-therm-042, case-2, 0.9965, 0.0036
