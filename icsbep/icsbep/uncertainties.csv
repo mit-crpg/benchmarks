@@ -126,6 +126,7 @@ heu-sol-therm-010, case-3, 1.0, 0.0029
 heu-sol-therm-010, case-4, 0.9992, 0.0029
 heu-sol-therm-011, case-1, 1.0, 0.0023
 heu-sol-therm-011, case-2, 1.0, 0.0023
+heu-sol-therm-012, , 0.9999, 0.0058
 heu-sol-therm-013, case-1, 1.0012, 0.0026
 heu-sol-therm-013, case-2, 1.0007, 0.0036
 heu-sol-therm-013, case-3, 1.0009, 0.0036
@@ -262,8 +263,8 @@ pu-met-fast-010, case-1, 1.0, 0.0018
 pu-met-fast-011, , 1.0, 0.0010
 pu-met-fast-012, case-1, 1.0009, 0.0021
 pu-met-fast-015, case-1, 1.0041, 0.0026
-pu-met-fast-018, case-1, 1.0, 0.0030
-pu-met-fast-019, case-1, 0.9992, 0.0015
+pu-met-fast-018, , 1.0, 0.0030
+pu-met-fast-019, , 0.9992, 0.0015
 pu-met-fast-020, case-1, 0.9993, 0.0017
 pu-met-fast-021, case-1, 1.0, 0.0026
 pu-met-fast-021, case-2, 1.0, 0.0026
@@ -344,8 +345,11 @@ pu-sol-therm-007, case-7, 1.0, 0.0047
 pu-sol-therm-007, case-8, 1.0, 0.0047
 pu-sol-therm-007, case-9, 1.0, 0.0047
 pu-sol-therm-007, case-10, 1.0, 0.0047
+pu-sol-therm-009, case-1, 1.0000, 0.0033
 pu-sol-therm-009, case-1a, 1.0003, 0.0033
+pu-sol-therm-009, case-2, 1.0000, 0.0033
 pu-sol-therm-009, case-2a, 1.0003, 0.0033
+pu-sol-therm-009, case-3, 1.0000, 0.0033
 pu-sol-therm-009, case-3a, 1.0003, 0.0033
 pu-sol-therm-011, case-16-1, 1.0, 0.0052
 pu-sol-therm-011, case-16-2, 1.0, 0.0052
