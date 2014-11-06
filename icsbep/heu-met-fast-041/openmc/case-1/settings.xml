@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  =======================================================================
+  Description: 235U (94%) spheres surrounded by Be or C reflectors
+  Case:        HEU-MET-FAST-041 Case 1
+  =======================================================================
+  -->
+
+  <eigenvalue>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <source>
+    <space type="point" parameters="0. 0. 0." />
+  </source>
+
+</settings>

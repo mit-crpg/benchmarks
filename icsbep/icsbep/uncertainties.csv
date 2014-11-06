@@ -87,6 +87,12 @@ heu-met-fast-032, case-4, 1.0, 0.0017
 heu-met-fast-034, case-1, 0.9990, 0.0012
 heu-met-fast-034, case-2, 0.9990, 0.0012
 heu-met-fast-034, case-3, 0.9990, 0.0012
+heu-met-fast-041, case-1, 1.0013, 0.0030
+heu-met-fast-041, case-2, 1.0022, 0.0043
+heu-met-fast-041, case-3, 1.0006, 0.0029
+heu-met-fast-041, case-4, 1.0006, 0.0025
+heu-met-fast-041, case-5, 1.0006, 0.0031
+heu-met-fast-041, case-6, 1.0006, 0.0045
 heu-met-fast-058, case-1, 1.0, 0.0025
 heu-met-fast-058, case-2, 1.0, 0.0035
 heu-met-fast-058, case-3, 1.0, 0.0027
