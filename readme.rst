@@ -28,7 +28,7 @@ opr
   Number of Cycles", *Proceedings of PHYSOR 2012*, Knoxville, TN (2012).
 
 source-convergence
-  The `OECD/NEA Source Convergence Benchmarks`_ which include a checkboard
+  The `OECD/NEA Source Convergence Benchmarks`_ which include a checkerboard
   storage of assemblies, a pincell array with irradiated fuel, three thick
   one-dimensional slabs, and an array of interacting spheres.
 
