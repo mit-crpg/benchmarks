@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ==========================================================================
+  Description: Oralloy (93.2 wt% U-235) Metal Cylinder with Be Top Reflector
+  Case:        HEU-MET-FAST-069 Detailed model
+  ==========================================================================
+  -->
+
+  <eigenvalue>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <energy_grid>nuclide</energy_grid>
+
+  <source>
+    <space type="point" parameters="0. 0. 10." />
+  </source>
+
+</settings>
