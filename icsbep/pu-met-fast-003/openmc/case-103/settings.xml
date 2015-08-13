@@ -9,10 +9,10 @@
   -->
 
   <eigenvalue>
+    <batches>600</batches>
+    <inactive>20</inactive>
     <particles>10000</particles>
   </eigenvalue>
-
-  <state_point batches="148" />
 
   <source>
     <space>
