@@ -106,10 +106,10 @@
   <cell id="39" material="void" surfaces="41  -2 42 -43  7 -27" />
   <cell id="40" material="void" surfaces=" 1  -2 43  -4  7 -27" />
 
-  <lattice id="100" type="rectangular">
+  <lattice id="100">
     <dimension>3 3</dimension>
     <lower_left>-14.4 -14.4</lower_left>
-    <width>9.60 9.60</width>
+    <pitch>9.60 9.60</pitch>
     <universes>
       1 1 1
       1 1 1

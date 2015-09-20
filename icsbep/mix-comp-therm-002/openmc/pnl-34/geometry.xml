@@ -49,10 +49,9 @@
 
   <!-- Fuel Lattice -->
   <lattice id="11">
-    <type>rectangular</type>
     <dimension>25 25</dimension>
     <lower_left>-1.257235 -1.257235</lower_left>
-    <width>2.51447 2.51447</width>
+    <pitch>2.51447 2.51447</pitch>
     <universes>
       2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
       2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2

@@ -128,10 +128,9 @@
   <!-- Lattice -->
   <cell id="11" fill="100"   surfaces=" 6 -10 12 -13 14 -15" />
   <lattice id="100">
-    <type>rectangular</type>
     <dimension>18 16</dimension>
     <lower_left>-8.27532 -7.35584</lower_left>
-    <width>0.91948 0.91948</width>
+    <pitch>0.91948 0.91948</pitch>
     <universes>
       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
       1 1 1 1 4 2 2 2 2 2 2 2 2 5 1 1 1 1

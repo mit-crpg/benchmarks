@@ -49,10 +49,9 @@
 
   <!-- Cube cell filled Fuel -->
   <lattice id="11">
-    <type>rectangular</type>
     <dimension>28 28</dimension>
     <lower_left>-1.10457 -1.10457</lower_left>
-    <width>2.20914 2.20914</width>
+    <pitch>2.20914 2.20914</pitch>
     <universes>
       2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
       2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
