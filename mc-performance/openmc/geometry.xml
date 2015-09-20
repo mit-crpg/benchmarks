@@ -55,13 +55,13 @@
   <cell id="32" universe="4" material="4" surfaces="4"    />
 
   <!-- cell for water assembly (cold) -->
-  <cell id="50" universe="5" material="4" surfaces="34 -35" />
+  <cell id="50" universe="5" material="3" surfaces="34 -35" />
 
   <!-- containing cell for fuel assembly -->
   <cell id="60" universe="6" fill="100"   surfaces="34 -35" />
 
   <!-- cell for water assembly (hot) -->
-  <cell id="70" universe="7" material="3" surfaces="35 -36" />
+  <cell id="70" universe="7" material="4" surfaces="35 -36" />
 
   <!-- containing cell for fuel assembly -->
   <cell id="80" universe="8" fill="101"   surfaces="35 -36" />

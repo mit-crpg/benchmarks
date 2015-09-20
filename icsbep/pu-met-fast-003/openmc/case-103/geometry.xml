@@ -31,7 +31,7 @@
   <surface id="21" type="z-plane" coeffs="29.949" /> <!-- top of top spacer -->
   <surface id="22" type="z-plane" coeffs="30.584" /> <!-- top of bottom heat sink -->
   <surface id="23" type="z-plane" coeffs="30.605" /> <!-- top of steel lid -->
-  <surface id="24" type="z-plane" coeffs="35.238" /> <!-- top of middle button -->
+  <surface id="24" type="z-plane" coeffs="35.238" /> <!-- top of top button -->
   <surface id="25" type="z-plane" coeffs="35.325" /> <!-- top of aluminum -->
   <surface id="26" type="z-plane" coeffs="35.804" /> <!-- top of top heat sink -->
   <surface id="27" type="z-plane" coeffs="45.733" boundary="vacuum" /> <!-- top -->
