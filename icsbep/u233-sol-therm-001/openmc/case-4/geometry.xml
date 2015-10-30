@@ -10,8 +10,8 @@
   =================================================
   -->
 
-  <cell id="1" material="1" surfaces="-1" />
-  <cell id="2" material="2" surfaces="1 -2" />
+  <cell id="1" material="1" region="-1" />
+  <cell id="2" material="2" region="1 -2" />
 
   <surface id="1" type="sphere" coeffs="0. 0. 0. 34.595" />
   <surface id="2" type="sphere" coeffs="0. 0. 0. 34.915" boundary="vacuum" />

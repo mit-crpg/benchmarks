@@ -53,55 +53,55 @@
   <surface id="55" type="z-plane" coeffs=" 986.7" boundary="vacuum" />
 
 
-  <cell id="1" material="1" surfaces="3 -6 13 -16 23 -24" /> <!-- Fuel solution -->
-  <cell id="2" material="2" surfaces="3 -6 13 -16 24 -25" /> <!-- Air above fuel -->
+  <cell id="1" material="1" region="3 -6 13 -16 23 -24" /> <!-- Fuel solution -->
+  <cell id="2" material="2" region="3 -6 13 -16 24 -25" /> <!-- Air above fuel -->
 
   <!-- Stainless steel tank -->
-  <cell id="10" material="3" surfaces="2 -7 12 -17 22 -23" />
-  <cell id="11" material="3" surfaces="2 -3 12 -17 23 -28" />
-  <cell id="12" material="3" surfaces="3 -6 12 -13 23 -28" />
-  <cell id="13" material="3" surfaces="3 -6 16 -17 23 -28" />
-  <cell id="14" material="3" surfaces="6 -7 12 -17 23 -28" />
+  <cell id="10" material="3" region="2 -7 12 -17 22 -23" />
+  <cell id="11" material="3" region="2 -3 12 -17 23 -28" />
+  <cell id="12" material="3" region="3 -6 12 -13 23 -28" />
+  <cell id="13" material="3" region="3 -6 16 -17 23 -28" />
+  <cell id="14" material="3" region="6 -7 12 -17 23 -28" />
 
   <!-- Lucoflex box -->
-  <cell id="20" material="4" surfaces="3 -6 13 -16 25 -26" />
-  <cell id="21" material="4" surfaces="3 -4 13 -16 26 -27" />
-  <cell id="22" material="4" surfaces="4 -5 13 -14 26 -27" />
-  <cell id="23" material="4" surfaces="4 -5 15 -16 26 -27" />
-  <cell id="24" material="4" surfaces="5 -6 13 -16 26 -27" />
-  <cell id="25" material="4" surfaces="3 -6 13 -16 27 -28" />
+  <cell id="20" material="4" region="3 -6 13 -16 25 -26" />
+  <cell id="21" material="4" region="3 -4 13 -16 26 -27" />
+  <cell id="22" material="4" region="4 -5 13 -14 26 -27" />
+  <cell id="23" material="4" region="4 -5 15 -16 26 -27" />
+  <cell id="24" material="4" region="5 -6 13 -16 26 -27" />
+  <cell id="25" material="4" region="3 -6 13 -16 27 -28" />
 
   <!-- Water in lucoflex box -->
-  <cell id="26" material="5" surfaces="4 -5 14 -15 26 -27" />
+  <cell id="26" material="5" region="4 -5 14 -15 26 -27" />
 
   <!-- Air -->
-  <cell id="30" material="2" surfaces="1 -8 11 -18 21 -22" />
-  <cell id="31" material="2" surfaces="1 -2 11 -18 22 -28" />
-  <cell id="32" material="2" surfaces="2 -7 11 -12 22 -28" />
-  <cell id="33" material="2" surfaces="2 -7 17 -18 22 -28" />
-  <cell id="34" material="2" surfaces="7 -8 11 -18 22 -28" />
+  <cell id="30" material="2" region="1 -8 11 -18 21 -22" />
+  <cell id="31" material="2" region="1 -2 11 -18 22 -28" />
+  <cell id="32" material="2" region="2 -7 11 -12 22 -28" />
+  <cell id="33" material="2" region="2 -7 17 -18 22 -28" />
+  <cell id="34" material="2" region="7 -8 11 -18 22 -28" />
 
   <!-- Concrete -->
-  <cell id="41" material="7" surfaces="31 -36 41 -46 51 -52" />
-  <cell id="42" material="7" surfaces="31 -32 41 -46 52 -54" />
-  <cell id="43" material="7" surfaces="32 -35 41 -42 52 -54" />
-  <cell id="44" material="7" surfaces="32 -35 45 -46 52 -54" />
-  <cell id="45" material="7" surfaces="35 -36 41 -46 52 -54" />
-  <cell id="46" material="7" surfaces="31 -36 41 -46 54 -55" />
+  <cell id="41" material="7" region="31 -36 41 -46 51 -52" />
+  <cell id="42" material="7" region="31 -32 41 -46 52 -54" />
+  <cell id="43" material="7" region="32 -35 41 -42 52 -54" />
+  <cell id="44" material="7" region="32 -35 45 -46 52 -54" />
+  <cell id="45" material="7" region="35 -36 41 -46 52 -54" />
+  <cell id="46" material="7" region="31 -36 41 -46 54 -55" />
 
   <!-- Air in room -->
-  <cell id="51" material="2" surfaces="32 -35 42 -45 52 -53" />
-  <cell id="52" material="2" surfaces="32 -33 42 -45 53 -28" />
-  <cell id="53" material="2" surfaces="33 -34 42 -43 53 -28" />
-  <cell id="54" material="2" surfaces="33 -34 44 -45 53 -28" />
-  <cell id="55" material="2" surfaces="34 -35 42 -45 53 -28" />
-  <cell id="56" material="2" surfaces="32 -35 42 -45 28 -54" />
+  <cell id="51" material="2" region="32 -35 42 -45 52 -53" />
+  <cell id="52" material="2" region="32 -33 42 -45 53 -28" />
+  <cell id="53" material="2" region="33 -34 42 -43 53 -28" />
+  <cell id="54" material="2" region="33 -34 44 -45 53 -28" />
+  <cell id="55" material="2" region="34 -35 42 -45 53 -28" />
+  <cell id="56" material="2" region="32 -35 42 -45 28 -54" />
 
   <!-- Steel pool -->
-  <cell id="61" material="6" surfaces="33 -34 43 -44 53 -21" />
-  <cell id="62" material="6" surfaces="33  -1 43 -44 21 -28" />
-  <cell id="63" material="6" surfaces=" 1  -8 43 -11 21 -28" />
-  <cell id="64" material="6" surfaces=" 1  -8 18 -44 21 -28" />
-  <cell id="65" material="6" surfaces=" 8 -34 43 -44 21 -28" />
+  <cell id="61" material="6" region="33 -34 43 -44 53 -21" />
+  <cell id="62" material="6" region="33  -1 43 -44 21 -28" />
+  <cell id="63" material="6" region=" 1  -8 43 -11 21 -28" />
+  <cell id="64" material="6" region=" 1  -8 18 -44 21 -28" />
+  <cell id="65" material="6" region=" 8 -34 43 -44 21 -28" />
 
 </geometry>

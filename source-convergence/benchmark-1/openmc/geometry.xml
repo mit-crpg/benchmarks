@@ -42,36 +42,36 @@
   <surface id="63" type="z-plane" coeffs="390." boundary="vacuum" />
 
   <!-- pin cell in water -->
-  <cell id="1" universe="3" material="1" surfaces="   -10" />
-  <cell id="2" universe="3" material="2" surfaces="10 -11" />
-  <cell id="3" universe="3" material="3" surfaces="11"     />
+  <cell id="1" universe="3" material="1" region="   -10" />
+  <cell id="2" universe="3" material="2" region="10 -11" />
+  <cell id="3" universe="3" material="3" region="11"     />
 
   <!-- water assembly -->
-  <cell id="10" universe="1" material="4" surfaces="   -20       " /> <!-- box -->
-  <cell id="11" universe="1" material="4" surfaces="20 -23    -30" /> <!-- box -->
-  <cell id="12" universe="1" material="3" surfaces="20 -23 30 -33" /> <!-- water -->
-  <cell id="13" universe="1" material="4" surfaces="20 -23 33    " /> <!-- box -->
-  <cell id="14" universe="1" material="4" surfaces="23           " /> <!-- box -->
+  <cell id="10" universe="1" material="4" region="   -20       " /> <!-- box -->
+  <cell id="11" universe="1" material="4" region="20 -23    -30" /> <!-- box -->
+  <cell id="12" universe="1" material="3" region="20 -23 30 -33" /> <!-- water -->
+  <cell id="13" universe="1" material="4" region="20 -23 33    " /> <!-- box -->
+  <cell id="14" universe="1" material="4" region="23           " /> <!-- box -->
 
   <!-- fuel assembly -->
-  <cell id="20" universe="2" material="4" surfaces="   -20       " /> <!-- box -->
-  <cell id="21" universe="2" material="4" surfaces="20 -23    -30" /> <!-- box -->
-  <cell id="22" universe="2" material="3" surfaces="20 -23 30 -31" /> <!-- water -->
-  <cell id="23" universe="2" material="3" surfaces="20 -21 31 -32" /> <!-- water -->
-  <cell id="24" universe="2" fill="200"   surfaces="21 -22 31 -32" /> <!-- fuel -->
-  <cell id="25" universe="2" material="3" surfaces="22 -23 31 -32" /> <!-- water -->
-  <cell id="26" universe="2" material="3" surfaces="20 -23 32 -33" /> <!-- water -->
-  <cell id="27" universe="2" material="4" surfaces="20 -23 33    " /> <!-- box -->
-  <cell id="28" universe="2" material="4" surfaces="23           " /> <!-- box -->
+  <cell id="20" universe="2" material="4" region="   -20       " /> <!-- box -->
+  <cell id="21" universe="2" material="4" region="20 -23    -30" /> <!-- box -->
+  <cell id="22" universe="2" material="3" region="20 -23 30 -31" /> <!-- water -->
+  <cell id="23" universe="2" material="3" region="20 -21 31 -32" /> <!-- water -->
+  <cell id="24" universe="2" fill="200"   region="21 -22 31 -32" /> <!-- fuel -->
+  <cell id="25" universe="2" material="3" region="22 -23 31 -32" /> <!-- water -->
+  <cell id="26" universe="2" material="3" region="20 -23 32 -33" /> <!-- water -->
+  <cell id="27" universe="2" material="4" region="20 -23 33    " /> <!-- box -->
+  <cell id="28" universe="2" material="4" region="23           " /> <!-- box -->
 
   <!-- checkerboard and surrounding materials -->
-  <cell id="31" material="5" surfaces="40 -41 50 -53 60 -63" /> <!-- left concrete -->
-  <cell id="32" material="3" surfaces="41 -42 50 -51 60 -63" /> <!-- bottom water (x,y plane) -->
-  <cell id="33" material="3" surfaces="41 -42 51 -52 60 -61" /> <!-- bottom water (y,x plane) -->
-  <cell id="34" fill="100"   surfaces="41 -42 51 -52 61 -62" /> <!-- checkerboard -->
-  <cell id="35" material="3" surfaces="41 -42 51 -52 62 -63" /> <!-- top water (y,x plane) -->
-  <cell id="36" material="5" surfaces="41 -42 52 -53 60 -63" /> <!-- top concrete -->
-  <cell id="37" material="5" surfaces="42 -43 50 -53 60 -63" /> <!-- right concrete -->
+  <cell id="31" material="5" region="40 -41 50 -53 60 -63" /> <!-- left concrete -->
+  <cell id="32" material="3" region="41 -42 50 -51 60 -63" /> <!-- bottom water (x,y plane) -->
+  <cell id="33" material="3" region="41 -42 51 -52 60 -61" /> <!-- bottom water (y,x plane) -->
+  <cell id="34" fill="100"   region="41 -42 51 -52 61 -62" /> <!-- checkerboard -->
+  <cell id="35" material="3" region="41 -42 51 -52 62 -63" /> <!-- top water (y,x plane) -->
+  <cell id="36" material="5" region="41 -42 52 -53 60 -63" /> <!-- top concrete -->
+  <cell id="37" material="5" region="42 -43 50 -53 60 -63" /> <!-- right concrete -->
 
   <lattice id="200" type="rectangular" dimension="15 15" lower_left="-10.5 -10.5" width="1.4 1.4">
     <universes>

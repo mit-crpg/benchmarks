@@ -8,9 +8,9 @@
   =======================================================
   -->
 
-  <cell id="1" material="1" surfaces="  -1" /> <!-- Solution -->
-  <cell id="2" material="2" surfaces="1 -2" /> <!-- Aluminum 1100 shell -->
-  <cell id="3" material="3" surfaces="2 -3" /> <!-- Water reflector -->
+  <cell id="1" material="1" region="  -1" /> <!-- Solution -->
+  <cell id="2" material="2" region="1 -2" /> <!-- Aluminum 1100 shell -->
+  <cell id="3" material="3" region="2 -3" /> <!-- Water reflector -->
 
   <surface id="1" type="sphere" coeffs="0. 0. 0. 34.3990" />
   <surface id="2" type="sphere" coeffs="0. 0. 0. 34.5578" />

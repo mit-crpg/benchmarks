@@ -43,53 +43,53 @@
   <surface id="32" type="z-cylinder" coeffs="0. 0. 10.0609" boundary="vacuum" />
 
   <!-- Bottom Shielding -->
-  <cell id="1"  material="1"    surfaces=" 1  -2 -32" />
-  <cell id="2"  material="2"    surfaces=" 2  -3 -28" />
+  <cell id="1"  material="1"    region=" 1  -2 -32" />
+  <cell id="2"  material="2"    region=" 2  -3 -28" />
   <!-- Steel Filler -->
-  <cell id="3"  material="3"    surfaces=" 3  -4 -27" />
-  <cell id="4"  material="void" surfaces=" 3  -4  27 -28" />
+  <cell id="3"  material="3"    region=" 3  -4 -27" />
+  <cell id="4"  material="void" region=" 3  -4  27 -28" />
   <!-- Can B -->
-  <cell id="5"  material="3"    surfaces=" 4  -5 -28" />
-  <cell id="6"  material="16"   surfaces=" 5  -6 -27" />
-  <cell id="7"  material="3"    surfaces=" 5  -6  27 -28" />
-  <cell id="8"  material="3"    surfaces=" 6  -7 -28" />
+  <cell id="5"  material="3"    region=" 4  -5 -28" />
+  <cell id="6"  material="16"   region=" 5  -6 -27" />
+  <cell id="7"  material="3"    region=" 5  -6  27 -28" />
+  <cell id="8"  material="3"    region=" 6  -7 -28" />
   <!-- Steel Filler -->
-  <cell id="9"  material="3"    surfaces=" 7  -8 -27" />
-  <cell id="10" material="void" surfaces=" 7  -8  27 -28" />
+  <cell id="9"  material="3"    region=" 7  -8 -27" />
+  <cell id="10" material="void" region=" 7  -8  27 -28" />
   <!-- Can A -->
-  <cell id="11" material="3"    surfaces=" 8  -9 -28" />
-  <cell id="12" material="15"   surfaces=" 9 -10 -27" />
-  <cell id="13" material="3"    surfaces=" 9 -10  27 -28" />
-  <cell id="14" material="3"    surfaces="10 -11 -28" />
+  <cell id="11" material="3"    region=" 8  -9 -28" />
+  <cell id="12" material="15"   region=" 9 -10 -27" />
+  <cell id="13" material="3"    region=" 9 -10  27 -28" />
+  <cell id="14" material="3"    region="10 -11 -28" />
   <!-- Can III -->
-  <cell id="15" material="3"    surfaces="11 -12 -28" />
-  <cell id="16" material="13"   surfaces="12 -13 -27" />
-  <cell id="17" material="3"    surfaces="12 -13  27 -28" />
-  <cell id="18" material="3"    surfaces="13 -14 -28" />
+  <cell id="15" material="3"    region="11 -12 -28" />
+  <cell id="16" material="13"   region="12 -13 -27" />
+  <cell id="17" material="3"    region="12 -13  27 -28" />
+  <cell id="18" material="3"    region="13 -14 -28" />
   <!-- Al Spacer -->
-  <cell id="19" material="void" surfaces="14 -15 -25" />
-  <cell id="20" material="1"    surfaces="14 -15  25 -26" />
-  <cell id="21" material="void" surfaces="14 -15  26 -28" />
+  <cell id="19" material="void" region="14 -15 -25" />
+  <cell id="20" material="1"    region="14 -15  25 -26" />
+  <cell id="21" material="void" region="14 -15  26 -28" />
   <!-- Can II -->
-  <cell id="22" material="3"    surfaces="15 -16 -28" />
-  <cell id="23" material="12"   surfaces="16 -17 -27" />
-  <cell id="24" material="3"    surfaces="16 -17  27 -28" />
-  <cell id="25" material="3"    surfaces="17 -18 -28" />
+  <cell id="22" material="3"    region="15 -16 -28" />
+  <cell id="23" material="12"   region="16 -17 -27" />
+  <cell id="24" material="3"    region="16 -17  27 -28" />
+  <cell id="25" material="3"    region="17 -18 -28" />
   <!-- Can I -->
-  <cell id="26" material="3"    surfaces="18 -19 -28" />
-  <cell id="27" material="11"   surfaces="19 -20 -27" />
-  <cell id="28" material="3"    surfaces="19 -20  27 -28" />
-  <cell id="29" material="3"    surfaces="20 -21 -28" />
+  <cell id="26" material="3"    region="18 -19 -28" />
+  <cell id="27" material="11"   region="19 -20 -27" />
+  <cell id="28" material="3"    region="19 -20  27 -28" />
+  <cell id="29" material="3"    region="20 -21 -28" />
   <!-- Steel Filler -->
-  <cell id="30" material="3"    surfaces="21 -22 -27" />
-  <cell id="31" material="void" surfaces="21 -22  27 -28" />
+  <cell id="30" material="3"    region="21 -22 -27" />
+  <cell id="31" material="void" region="21 -22  27 -28" />
   <!--Top Shielding -->
-  <cell id="32" material="2"    surfaces="22 -23 -28" />
-  <cell id="33" material="void" surfaces="23 -24 -28" />
+  <cell id="32" material="2"    region="22 -23 -28" />
+  <cell id="33" material="void" region="23 -24 -28" />
   <!-- Cylindrical Shielding -->
-  <cell id="34" material="void" surfaces="2 -24 28 -29" />
-  <cell id="35" material="4"    surfaces="2 -24 29 -30" /> <!-- Fe Sleeve -->
-  <cell id="36" material="void" surfaces="2 -24 30 -31" />
-  <cell id="37" material="2"    surfaces="2 -24 31 -32" /> <!-- Radial Reflector -->
+  <cell id="34" material="void" region="2 -24 28 -29" />
+  <cell id="35" material="4"    region="2 -24 29 -30" /> <!-- Fe Sleeve -->
+  <cell id="36" material="void" region="2 -24 30 -31" />
+  <cell id="37" material="2"    region="2 -24 31 -32" /> <!-- Radial Reflector -->
 
 </geometry>

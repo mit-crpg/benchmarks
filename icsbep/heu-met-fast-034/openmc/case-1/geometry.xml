@@ -60,54 +60,54 @@
   <surface id="53" type="z-cylinder" coeffs="0. 0. 13.0" boundary="vacuum" />
 
   <!-- Bottom assembly -->
-  <cell id="1"  material="3"    surfaces=" 1  -2 -51" />
-  <cell id="2"  material="2"    surfaces=" 2  -3 -51" />
-  <cell id="3"  material="3"    surfaces=" 3  -4 -51" />
-  <cell id="4"  material="1"    surfaces=" 4  -5 -51" />
-  <cell id="5"  material="3"    surfaces=" 5  -6 -51" />
-  <cell id="6"  material="2"    surfaces=" 6  -7 -51" />
-  <cell id="7"  material="3"    surfaces=" 7  -8 -51" />
-  <cell id="8"  material="1"    surfaces=" 8  -9 -51" />
-  <cell id="9"  material="3"    surfaces=" 9 -10 -51" />
-  <cell id="10" material="2"    surfaces="10 -11 -51" />
-  <cell id="11" material="3"    surfaces="11 -12 -51" />
-  <cell id="12" material="1"    surfaces="12 -13 -51" />
-  <cell id="13" material="3"    surfaces="13 -14 -51" />
-  <cell id="14" material="2"    surfaces="14 -15 -51" />
-  <cell id="15" material="3"    surfaces="15 -16 -51" />
-  <cell id="16" material="1"    surfaces="16 -17 -51" />
-  <cell id="17" material="3"    surfaces="17 -18 -51" />
-  <cell id="18" material="2"    surfaces="18 -19  50 -51" />
-  <cell id="19" material="void" surfaces="18 -19 -50" />
+  <cell id="1"  material="3"    region=" 1  -2 -51" />
+  <cell id="2"  material="2"    region=" 2  -3 -51" />
+  <cell id="3"  material="3"    region=" 3  -4 -51" />
+  <cell id="4"  material="1"    region=" 4  -5 -51" />
+  <cell id="5"  material="3"    region=" 5  -6 -51" />
+  <cell id="6"  material="2"    region=" 6  -7 -51" />
+  <cell id="7"  material="3"    region=" 7  -8 -51" />
+  <cell id="8"  material="1"    region=" 8  -9 -51" />
+  <cell id="9"  material="3"    region=" 9 -10 -51" />
+  <cell id="10" material="2"    region="10 -11 -51" />
+  <cell id="11" material="3"    region="11 -12 -51" />
+  <cell id="12" material="1"    region="12 -13 -51" />
+  <cell id="13" material="3"    region="13 -14 -51" />
+  <cell id="14" material="2"    region="14 -15 -51" />
+  <cell id="15" material="3"    region="15 -16 -51" />
+  <cell id="16" material="1"    region="16 -17 -51" />
+  <cell id="17" material="3"    region="17 -18 -51" />
+  <cell id="18" material="2"    region="18 -19  50 -51" />
+  <cell id="19" material="void" region="18 -19 -50" />
 
   <!-- Top assembly -->
-  <cell id="20" material="void" surfaces="19 -20 -51" />
-  <cell id="21" material="2"    surfaces="20 -23 -51" />
-  <cell id="22" material="3"    surfaces="23 -24 -51" />
-  <cell id="23" material="1"    surfaces="24 -25 -51" />
-  <cell id="24" material="3"    surfaces="25 -26 -51" />
-  <cell id="25" material="2"    surfaces="26 -27 -51" />
-  <cell id="26" material="3"    surfaces="27 -28 -51" />
-  <cell id="27" material="1"    surfaces="28 -29 -51" />
-  <cell id="28" material="3"    surfaces="29 -30 -51" />
-  <cell id="29" material="2"    surfaces="30 -31 -51" />
-  <cell id="30" material="3"    surfaces="31 -32 -51" />
-  <cell id="31" material="1"    surfaces="32 -33 -51" />
-  <cell id="32" material="3"    surfaces="33 -34 -51" />
-  <cell id="33" material="2"    surfaces="34 -35 -51" />
-  <cell id="34" material="3"    surfaces="35 -36 -51" />
-  <cell id="35" material="1"    surfaces="36 -37 -51" />
-  <cell id="36" material="3"    surfaces="37 -38 -51" />
-  <cell id="37" material="2"    surfaces="38 -39 -51" />
-  <cell id="38" material="3"    surfaces="39 -40 -51" />
+  <cell id="20" material="void" region="19 -20 -51" />
+  <cell id="21" material="2"    region="20 -23 -51" />
+  <cell id="22" material="3"    region="23 -24 -51" />
+  <cell id="23" material="1"    region="24 -25 -51" />
+  <cell id="24" material="3"    region="25 -26 -51" />
+  <cell id="25" material="2"    region="26 -27 -51" />
+  <cell id="26" material="3"    region="27 -28 -51" />
+  <cell id="27" material="1"    region="28 -29 -51" />
+  <cell id="28" material="3"    region="29 -30 -51" />
+  <cell id="29" material="2"    region="30 -31 -51" />
+  <cell id="30" material="3"    region="31 -32 -51" />
+  <cell id="31" material="1"    region="32 -33 -51" />
+  <cell id="32" material="3"    region="33 -34 -51" />
+  <cell id="33" material="2"    region="34 -35 -51" />
+  <cell id="34" material="3"    region="35 -36 -51" />
+  <cell id="35" material="1"    region="36 -37 -51" />
+  <cell id="36" material="3"    region="37 -38 -51" />
+  <cell id="37" material="2"    region="38 -39 -51" />
+  <cell id="38" material="3"    region="39 -40 -51" />
 
   <!-- Steel diaphragm -->
-  <cell id="39" material="5"    surfaces="20 -21  51 -52" />
-  <cell id="40" material="5"    surfaces="20 -22  52 -53" />
-  <cell id="41" material="void" surfaces="21 -22  51 -52" />
+  <cell id="39" material="5"    region="20 -21  51 -52" />
+  <cell id="40" material="5"    region="20 -22  52 -53" />
+  <cell id="41" material="void" region="21 -22  51 -52" />
 
   <!-- Outside void -->
-  <cell id="42" material="void" surfaces=" 1 -20  51 -53" />
-  <cell id="43" material="void" surfaces="22 -40  51 -53" />
+  <cell id="42" material="void" region=" 1 -20  51 -53" />
+  <cell id="43" material="void" region="22 -40  51 -53" />
 
 </geometry>

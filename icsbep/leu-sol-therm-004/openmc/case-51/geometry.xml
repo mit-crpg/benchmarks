@@ -21,13 +21,13 @@
   <surface id="9"  type="z-plane"    coeffs="152.5" />
   <surface id="10" type="z-plane"    coeffs="172.5" boundary="vacuum" />
 
-  <cell id="1" material="3" surfaces="4 -5    -3" /> <!-- lower reflector -->
-  <cell id="2" material="2" surfaces="5 -6    -1" /> <!-- bottom of core tank -->
-  <cell id="3" material="1" surfaces="6 -7    -1" /> <!-- fuel solution -->
-  <cell id="4" material="4" surfaces="7 -8    -1" /> <!-- air -->
-  <cell id="5" material="2" surfaces="8 -9    -1" /> <!-- top of core tank -->
-  <cell id="6" material="2" surfaces="5 -9  1 -2" /> <!-- side of core tank -->
-  <cell id="7" material="3" surfaces="5 -9  2 -3" /> <!-- side reflector -->
-  <cell id="8" material="3" surfaces="9 -10   -3" /> <!-- top reflector -->
+  <cell id="1" material="3" region="4 -5    -3" /> <!-- lower reflector -->
+  <cell id="2" material="2" region="5 -6    -1" /> <!-- bottom of core tank -->
+  <cell id="3" material="1" region="6 -7    -1" /> <!-- fuel solution -->
+  <cell id="4" material="4" region="7 -8    -1" /> <!-- air -->
+  <cell id="5" material="2" region="8 -9    -1" /> <!-- top of core tank -->
+  <cell id="6" material="2" region="5 -9  1 -2" /> <!-- side of core tank -->
+  <cell id="7" material="3" region="5 -9  2 -3" /> <!-- side reflector -->
+  <cell id="8" material="3" region="9 -10   -3" /> <!-- top reflector -->
 
 </geometry>

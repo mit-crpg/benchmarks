@@ -13,7 +13,7 @@
   <surface id="1" type="sphere" coeffs="0. 0. 0. 34.5948" />
   <surface id="2" type="sphere" coeffs="0. 0. 0. 34.9148" boundary="vacuum" />
 
-  <cell id="1" material="1" surfaces="  -1" /> <!-- UO2F2 -->
-  <cell id="2" material="2" surfaces="1 -2" /> <!-- aluminum -->
+  <cell id="1" material="1" region="  -1" /> <!-- UO2F2 -->
+  <cell id="2" material="2" region="1 -2" /> <!-- aluminum -->
 
 </geometry>
