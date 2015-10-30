@@ -25,17 +25,17 @@
   <surface id="13" type="z-plane"    coeffs=" 23.81250" />
   <surface id="14" type="z-plane"    coeffs=" 39.05250" boundary="vacuum" />
 
-  <cell id="1"  material="2" surfaces="   -3   8 -10" />
-  <cell id="2"  material="2" surfaces="   -4  10 -11" />
-  <cell id="3"  material="2" surfaces="   -2  11 -13" />
-  <cell id="4"  material="2" surfaces="   -1  13 -14" />
-  <cell id="5"  material="3" surfaces="3  -5   8  -9" />
-  <cell id="6"  material="1" surfaces="3  -5   9 -10" />
-  <cell id="7"  material="1" surfaces="4  -5  10 -11" />
-  <cell id="8"  material="1" surfaces="2  -5  11 -12" />
-  <cell id="9"  material="3" surfaces="2  -5  12 -13" />
-  <cell id="10" material="4" surfaces="5  -6   7 -14" />
-  <cell id="11" material="4" surfaces="   -5   7  -8" />
-  <cell id="12" material="4" surfaces="1  -5  13 -14" />
+  <cell id="1"  material="2" region="   -3   8 -10" />
+  <cell id="2"  material="2" region="   -4  10 -11" />
+  <cell id="3"  material="2" region="   -2  11 -13" />
+  <cell id="4"  material="2" region="   -1  13 -14" />
+  <cell id="5"  material="3" region="3  -5   8  -9" />
+  <cell id="6"  material="1" region="3  -5   9 -10" />
+  <cell id="7"  material="1" region="4  -5  10 -11" />
+  <cell id="8"  material="1" region="2  -5  11 -12" />
+  <cell id="9"  material="3" region="2  -5  12 -13" />
+  <cell id="10" material="4" region="5  -6   7 -14" />
+  <cell id="11" material="4" region="   -5   7  -8" />
+  <cell id="12" material="4" region="1  -5  13 -14" />
 
 </geometry>

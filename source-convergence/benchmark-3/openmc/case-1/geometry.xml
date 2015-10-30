@@ -20,8 +20,8 @@
   <surface id="12" type="z-plane" coeffs="-10.0" boundary="reflective" />
   <surface id="13" type="z-plane" coeffs="10.0" boundary="reflective" />
 
-  <cell id="1" material="1" surfaces="1 -2 10 -11 12 -13" />
-  <cell id="2" material="2" surfaces="2 -3 10 -11 12 -13" />
-  <cell id="3" material="1" surfaces="3 -4 10 -11 12 -13" />
+  <cell id="1" material="1" region="1 -2 10 -11 12 -13" />
+  <cell id="2" material="2" region="2 -3 10 -11 12 -13" />
+  <cell id="3" material="1" region="3 -4 10 -11 12 -13" />
 
 </geometry>

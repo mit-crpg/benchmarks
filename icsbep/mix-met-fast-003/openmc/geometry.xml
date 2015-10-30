@@ -27,21 +27,21 @@
   <surface id="18" type="z-plane"    coeffs="-14.7"      boundary="vacuum" />
   <surface id="19" type="z-plane"    coeffs="9.0"        boundary="vacuum" />
 
-  <cell id="1"  material="void" surfaces="-1" />                 <!-- central cavity -->
-  <cell id="2"  material="1"    surfaces=" 1  -5" />             <!-- Pu -->
-  <cell id="3"  material="void" surfaces=" 5  -6  12" />         <!-- crescent gap -->
-  <cell id="4"  material="void" surfaces=" 5  -2  11 -12" />     <!-- diaphragm gap -->
-  <cell id="5"  material="2"    surfaces=" 5  -7 -10  15" />     <!-- bottom U -->
-  <cell id="6"  material="2"    surfaces=" 3   6  -8  12  16" /> <!-- top U -->
-  <cell id="7"  material="void" surfaces=" 5  -7 -10 -15" />     <!-- bottom groove in U -->
-  <cell id="8"  material="void" surfaces=" 6  -8  12 -16" />     <!-- top groove in U -->
-  <cell id="9"  material="void" surfaces=" 5  10 -11 -17" />     <!-- critical gap -->
-  <cell id="10" material="5"    surfaces=" 2  11 -12 -17" />     <!-- diaphragm -->
-  <cell id="11" material="void" surfaces=" 7 -10  13 -17  18" />     <!-- bottom void -->
-  <cell id="12" material="void" surfaces=" 8  12 -17 -19" />     <!-- top void -->
-  <cell id="13" material="4"    surfaces=" 7  -9 -13 -10" />     <!-- cup -->
-  <cell id="14" material="3"    surfaces=" 9 -10 -14  18" />     <!-- shaft -->
-  <cell id="15" material="void" surfaces=" 9 -10 -13  14  18" /> <!-- void under cup -->
-  <cell id="16" material="void" surfaces="-3   6  -8  12" />     <!-- hole in top U -->
+  <cell id="1"  material="void" region="-1" />                 <!-- central cavity -->
+  <cell id="2"  material="1"    region=" 1  -5" />             <!-- Pu -->
+  <cell id="3"  material="void" region=" 5  -6  12" />         <!-- crescent gap -->
+  <cell id="4"  material="void" region=" 5  -2  11 -12" />     <!-- diaphragm gap -->
+  <cell id="5"  material="2"    region=" 5  -7 -10  15" />     <!-- bottom U -->
+  <cell id="6"  material="2"    region=" 3   6  -8  12  16" /> <!-- top U -->
+  <cell id="7"  material="void" region=" 5  -7 -10 -15" />     <!-- bottom groove in U -->
+  <cell id="8"  material="void" region=" 6  -8  12 -16" />     <!-- top groove in U -->
+  <cell id="9"  material="void" region=" 5  10 -11 -17" />     <!-- critical gap -->
+  <cell id="10" material="5"    region=" 2  11 -12 -17" />     <!-- diaphragm -->
+  <cell id="11" material="void" region=" 7 -10  13 -17  18" />     <!-- bottom void -->
+  <cell id="12" material="void" region=" 8  12 -17 -19" />     <!-- top void -->
+  <cell id="13" material="4"    region=" 7  -9 -13 -10" />     <!-- cup -->
+  <cell id="14" material="3"    region=" 9 -10 -14  18" />     <!-- shaft -->
+  <cell id="15" material="void" region=" 9 -10 -13  14  18" /> <!-- void under cup -->
+  <cell id="16" material="void" region="-3   6  -8  12" />     <!-- hole in top U -->
 
 </geometry>

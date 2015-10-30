@@ -34,24 +34,24 @@
   <surface id="23" type="y-plane" coeffs="0.665"  boundary="reflective" />
 
   <!-- Surrounding water -->
-  <cell id="1" material="1" surfaces="20 -21 22 -23 3   -4"    />
-  <cell id="2" material="1" surfaces="20 -21 22 -23 4  -15  2" />
-  <cell id="3" material="1" surfaces="20 -21 22 -23 15 -16"  />
+  <cell id="1" material="1" region="20 -21 22 -23 3   -4"    />
+  <cell id="2" material="1" region="20 -21 22 -23 4  -15  2" />
+  <cell id="3" material="1" region="20 -21 22 -23 15 -16"  />
 
   <!-- Cladding, end plugs -->
-  <cell id="4" material="2" surfaces="  -2 4  -5"  />
-  <cell id="5" material="2" surfaces="1 -2 5  -14" />
-  <cell id="6" material="2" surfaces="  -2 14 -15" />
+  <cell id="4" material="2" region="  -2 4  -5"  />
+  <cell id="5" material="2" region="1 -2 5  -14" />
+  <cell id="6" material="2" region="  -2 14 -15" />
 
   <!-- Fuel regions 9->1 -->
-  <cell id="7"  material="4" surfaces="-1  5 -6"  />
-  <cell id="8"  material="4" surfaces="-1  6 -7"  />
-  <cell id="9"  material="3" surfaces="-1  7 -8"  />
-  <cell id="10" material="3" surfaces="-1  8 -9"  />
-  <cell id="11" material="5" surfaces="-1  9 -10" />
-  <cell id="12" material="3" surfaces="-1 10 -11" />
-  <cell id="13" material="3" surfaces="-1 11 -12" />
-  <cell id="14" material="3" surfaces="-1 12 -13" />
-  <cell id="15" material="3" surfaces="-1 13 -14" />
+  <cell id="7"  material="4" region="-1  5 -6"  />
+  <cell id="8"  material="4" region="-1  6 -7"  />
+  <cell id="9"  material="3" region="-1  7 -8"  />
+  <cell id="10" material="3" region="-1  8 -9"  />
+  <cell id="11" material="5" region="-1  9 -10" />
+  <cell id="12" material="3" region="-1 10 -11" />
+  <cell id="13" material="3" region="-1 11 -12" />
+  <cell id="14" material="3" region="-1 12 -13" />
+  <cell id="15" material="3" region="-1 13 -14" />
 
 </geometry>

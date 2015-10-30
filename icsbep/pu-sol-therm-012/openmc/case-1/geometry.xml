@@ -36,40 +36,40 @@
   <surface id="28" type="z-plane" coeffs="100.0" boundary="vacuum" />
 
   <!-- Fuel solution -->
-  <cell id="1" material="1" surfaces="3 -6 13 -16 23 -24" />
+  <cell id="1" material="1" region="3 -6 13 -16 23 -24" />
 
   <!-- Stainless steel tank -->
-  <cell id="10" material="3" surfaces="2 -7 12 -17 22 -23" />
-  <cell id="11" material="3" surfaces="2 -3 12 -17 23 -28" />
-  <cell id="12" material="3" surfaces="3 -6 12 -13 23 -28" />
-  <cell id="13" material="3" surfaces="3 -6 16 -17 23 -28" />
-  <cell id="14" material="3" surfaces="6 -7 12 -17 23 -28" />
+  <cell id="10" material="3" region="2 -7 12 -17 22 -23" />
+  <cell id="11" material="3" region="2 -3 12 -17 23 -28" />
+  <cell id="12" material="3" region="3 -6 12 -13 23 -28" />
+  <cell id="13" material="3" region="3 -6 16 -17 23 -28" />
+  <cell id="14" material="3" region="6 -7 12 -17 23 -28" />
 
   <!-- Lucoflex box -->
-  <cell id="20" material="4" surfaces="3 -6 13 -16 24 -25" />
-  <cell id="21" material="4" surfaces="3 -4 13 -16 25 -26" />
-  <cell id="22" material="4" surfaces="4 -5 13 -14 25 -26" />
-  <cell id="23" material="4" surfaces="4 -5 15 -16 25 -26" />
-  <cell id="24" material="4" surfaces="5 -6 13 -16 25 -26" />
-  <cell id="25" material="4" surfaces="3 -6 13 -16 26 -27" />
+  <cell id="20" material="4" region="3 -6 13 -16 24 -25" />
+  <cell id="21" material="4" region="3 -4 13 -16 25 -26" />
+  <cell id="22" material="4" region="4 -5 13 -14 25 -26" />
+  <cell id="23" material="4" region="4 -5 15 -16 25 -26" />
+  <cell id="24" material="4" region="5 -6 13 -16 25 -26" />
+  <cell id="25" material="4" region="3 -6 13 -16 26 -27" />
 
   <!-- Water in lucoflex box -->
-  <cell id="26" material="5" surfaces="4 -5 14 -15 25 -26" />
+  <cell id="26" material="5" region="4 -5 14 -15 25 -26" />
 
   <!-- Air above lucoflux box -->
-  <cell id="27" material="2" surfaces="3 -6 13 -16 27 -28" />
+  <cell id="27" material="2" region="3 -6 13 -16 27 -28" />
 
   <!-- Water -->
-  <cell id="30" material="5" surfaces="1 -8 11 -18 21 -22" />
-  <cell id="31" material="5" surfaces="1 -2 11 -18 22 -27" />
-  <cell id="32" material="5" surfaces="2 -7 11 -12 22 -27" />
-  <cell id="33" material="5" surfaces="2 -7 17 -18 22 -27" />
-  <cell id="34" material="5" surfaces="7 -8 11 -18 22 -27" />
+  <cell id="30" material="5" region="1 -8 11 -18 21 -22" />
+  <cell id="31" material="5" region="1 -2 11 -18 22 -27" />
+  <cell id="32" material="5" region="2 -7 11 -12 22 -27" />
+  <cell id="33" material="5" region="2 -7 17 -18 22 -27" />
+  <cell id="34" material="5" region="7 -8 11 -18 22 -27" />
 
   <!-- Air above water -->
-  <cell id="35" material="2" surfaces="1 -2 11 -18 27 -28" />
-  <cell id="36" material="2" surfaces="2 -7 11 -12 27 -28" />
-  <cell id="37" material="2" surfaces="2 -7 17 -18 27 -28" />
-  <cell id="38" material="2" surfaces="7 -8 11 -18 27 -28" />
+  <cell id="35" material="2" region="1 -2 11 -18 27 -28" />
+  <cell id="36" material="2" region="2 -7 11 -12 27 -28" />
+  <cell id="37" material="2" region="2 -7 17 -18 27 -28" />
+  <cell id="38" material="2" region="7 -8 11 -18 27 -28" />
 
 </geometry>

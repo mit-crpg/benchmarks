@@ -32,25 +32,25 @@
   <surface id="20" type="z-plane"    coeffs="-14.15" boundary="vacuum" />
   <surface id="21" type="z-plane"    coeffs="14."    boundary="vacuum" />
 
-  <cell id="1"  material="void" surfaces="-16  -2" />                  <!-- equatorial hole -->
-  <cell id="2"  material="void" surfaces="-15   5  -7  11" />          <!-- polar hole in reflector -->
-  <cell id="3"  material="1"    surfaces=" -2  16" />                  <!-- U sphere -->
-  <cell id="4"  material="void" surfaces="  2  -3  11" />              <!-- spherical crit gap -->
-  <cell id="5"  material="1"    surfaces="  2  -4  -9  16" />          <!-- bottom U -->
-  <cell id="6"  material="1"    surfaces="  3  -5  11  17" />          <!-- top U -->
-  <cell id="7"  material="2"    surfaces="  4  -6 -18" />              <!-- bottom reflector -->
-  <cell id="8"  material="2"    surfaces="  5  -7  19  15" />          <!-- top reflector -->
-  <cell id="9"  material="void" surfaces="  2   9 -10 -14" />          <!-- crit gap -->
-  <cell id="10" material="3"    surfaces="  1  10 -11 -14" />          <!-- diaphragm -->
-  <cell id="11" material="void" surfaces="  6 -14  -9  12  20" />      <!-- bottom void -->
-  <cell id="12" material="void" surfaces="  7 -14  11 -21" />          <!-- top void -->
-  <cell id="13" material="4"    surfaces="  6  -8 -12  -9" />          <!-- Cu cup -->
-  <cell id="14" material="3"    surfaces="  8 -14 -13  -9  20" />      <!-- Fe shaft -->
-  <cell id="15" material="void" surfaces="  8 -14  13 -12  -9  20" />  <!-- bottom void 2 -->
-  <cell id="16" material="void" surfaces="  2  -1  10 -11" />          <!-- void in diaphragm -->
-  <cell id="17" material="void" surfaces="  4  -6  18  -9" />          <!-- bottom Be cut -->
-  <cell id="18" material="void" surfaces="  5  -7  11 -19" />          <!-- top Be cut -->
-  <cell id="19" material="void" surfaces=" -9   2  -4 -16" />          <!-- bottom U groove -->
-  <cell id="20" material="void" surfaces="  3  -5  11 -17" />          <!-- top U groove -->
+  <cell id="1"  material="void" region="-16  -2" />                  <!-- equatorial hole -->
+  <cell id="2"  material="void" region="-15   5  -7  11" />          <!-- polar hole in reflector -->
+  <cell id="3"  material="1"    region=" -2  16" />                  <!-- U sphere -->
+  <cell id="4"  material="void" region="  2  -3  11" />              <!-- spherical crit gap -->
+  <cell id="5"  material="1"    region="  2  -4  -9  16" />          <!-- bottom U -->
+  <cell id="6"  material="1"    region="  3  -5  11  17" />          <!-- top U -->
+  <cell id="7"  material="2"    region="  4  -6 -18" />              <!-- bottom reflector -->
+  <cell id="8"  material="2"    region="  5  -7  19  15" />          <!-- top reflector -->
+  <cell id="9"  material="void" region="  2   9 -10 -14" />          <!-- crit gap -->
+  <cell id="10" material="3"    region="  1  10 -11 -14" />          <!-- diaphragm -->
+  <cell id="11" material="void" region="  6 -14  -9  12  20" />      <!-- bottom void -->
+  <cell id="12" material="void" region="  7 -14  11 -21" />          <!-- top void -->
+  <cell id="13" material="4"    region="  6  -8 -12  -9" />          <!-- Cu cup -->
+  <cell id="14" material="3"    region="  8 -14 -13  -9  20" />      <!-- Fe shaft -->
+  <cell id="15" material="void" region="  8 -14  13 -12  -9  20" />  <!-- bottom void 2 -->
+  <cell id="16" material="void" region="  2  -1  10 -11" />          <!-- void in diaphragm -->
+  <cell id="17" material="void" region="  4  -6  18  -9" />          <!-- bottom Be cut -->
+  <cell id="18" material="void" region="  5  -7  11 -19" />          <!-- top Be cut -->
+  <cell id="19" material="void" region=" -9   2  -4 -16" />          <!-- bottom U groove -->
+  <cell id="20" material="void" region="  3  -5  11 -17" />          <!-- top U groove -->
 
 </geometry>

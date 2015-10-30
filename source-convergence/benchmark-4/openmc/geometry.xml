@@ -23,7 +23,7 @@
   <surface id="15" type="z-plane" coeffs="20.0"  boundary="vacuum" />
 
   <!-- Outermost cell and lattice -->
-  <cell id="1" fill="100" surfaces="10 -11 12 -13 14 -15" />
+  <cell id="1" fill="100" region="10 -11 12 -13 14 -15" />
   <lattice id="100" type="rectangular" dimension="5 5" lower_left="-200. -200." width="80. 80.">
     <universes>
       1 1 1 1 1
@@ -35,11 +35,11 @@
   </lattice>
 
   <!-- Small metal sphere -->
-  <cell id="10" universe="1" material="1" surfaces="-1" />
-  <cell id="11" universe="1" material="2" surfaces="1"  />
+  <cell id="10" universe="1" material="1" region="-1" />
+  <cell id="11" universe="1" material="2" region="1"  />
 
   <!-- Large metal sphere -->
-  <cell id="20" universe="2" material="1" surfaces="-2" />
-  <cell id="21" universe="2" material="2" surfaces="2"  />
+  <cell id="20" universe="2" material="1" region="-2" />
+  <cell id="21" universe="2" material="2" region="2"  />
 
 </geometry>

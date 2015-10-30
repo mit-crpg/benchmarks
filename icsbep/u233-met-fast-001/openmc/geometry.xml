@@ -10,7 +10,7 @@
   ==========================================
   -->
 
-  <cell id="1" material="1" surfaces="-1" />
+  <cell id="1" material="1" region="-1" />
 
   <surface id="1">
     <type>sphere</type>

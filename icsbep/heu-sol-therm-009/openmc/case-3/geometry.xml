@@ -14,8 +14,8 @@
   <surface id="2" type="sphere" coeffs="0. 0. 0. 11.6764" />
   <surface id="3" type="sphere" coeffs="0. 0. 0. 35.0" boundary="vacuum" />
 
-  <cell id="1" material="1" surfaces="  -1" /> <!-- UO2F2 -->
-  <cell id="2" material="2" surfaces="1 -2" /> <!-- aluminum -->
-  <cell id="3" material="3" surfaces="2 -3" /> <!-- water -->
+  <cell id="1" material="1" region="  -1" /> <!-- UO2F2 -->
+  <cell id="2" material="2" region="1 -2" /> <!-- aluminum -->
+  <cell id="3" material="3" region="2 -3" /> <!-- water -->
 
 </geometry>

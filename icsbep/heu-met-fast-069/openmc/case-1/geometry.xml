@@ -34,30 +34,30 @@
   <surface id="24"  type="z-cylinder" coeffs="0. 0. 8.886030" boundary="vacuum" /> <!-- 17.772060 cm OD -->
 
   <!-- HEU cylinders -->
-  <cell id="1" material="2" surfaces=" 1  -2 -24" /> <!-- 2733 -->
-  <cell id="2" material="3" surfaces=" 3  -4 -21" /> <!-- 2734 -->
-  <cell id="3" material="1" surfaces=" 5  -6 -20" /> <!-- 2732 -->
-  <cell id="4" material="4" surfaces=" 7  -8 -23" /> <!-- 2768 -->
+  <cell id="1" material="2" region=" 1  -2 -24" /> <!-- 2733 -->
+  <cell id="2" material="3" region=" 3  -4 -21" /> <!-- 2734 -->
+  <cell id="3" material="1" region=" 5  -6 -20" /> <!-- 2732 -->
+  <cell id="4" material="4" region=" 7  -8 -23" /> <!-- 2768 -->
 
   <!-- Be cylinders -->
-  <cell id="5" material="8" surfaces=" 9 -10 -22" /> <!-- 1.5" Be -->
-  <cell id="6" material="9" surfaces="11 -12 -22" /> <!-- 2" Be -->
-  <cell id="7" material="7" surfaces="13 -14 -22" /> <!-- 1" Be -->
-  <cell id="8" material="5" surfaces="15 -16 -22" /> <!-- 1/2" Be -->
-  <cell id="9" material="6" surfaces="17 -18 -22" /> <!-- 9/16" Be -->
+  <cell id="5" material="8" region=" 9 -10 -22" /> <!-- 1.5" Be -->
+  <cell id="6" material="9" region="11 -12 -22" /> <!-- 2" Be -->
+  <cell id="7" material="7" region="13 -14 -22" /> <!-- 1" Be -->
+  <cell id="8" material="5" region="15 -16 -22" /> <!-- 1/2" Be -->
+  <cell id="9" material="6" region="17 -18 -22" /> <!-- 9/16" Be -->
 
   <!-- void to fill in spaces -->
-  <cell id="10" material="void" surfaces=" 2  -3    -24" />
-  <cell id="11" material="void" surfaces=" 3  -4 21 -24" />
-  <cell id="12" material="void" surfaces=" 4  -5    -24" />
-  <cell id="13" material="void" surfaces=" 5  -6 20 -24" />
-  <cell id="14" material="void" surfaces=" 6  -7    -24" />
-  <cell id="15" material="void" surfaces=" 7  -8 23 -24" />
-  <cell id="16" material="void" surfaces=" 8  -9    -22" />
-  <cell id="17" material="void" surfaces="10 -11    -22" />
-  <cell id="18" material="void" surfaces="12 -13    -22" />
-  <cell id="19" material="void" surfaces="14 -15    -22" />
-  <cell id="20" material="void" surfaces="16 -17    -22" />
-  <cell id="21" material="void" surfaces=" 8 -18 22 -24" />
+  <cell id="10" material="void" region=" 2  -3    -24" />
+  <cell id="11" material="void" region=" 3  -4 21 -24" />
+  <cell id="12" material="void" region=" 4  -5    -24" />
+  <cell id="13" material="void" region=" 5  -6 20 -24" />
+  <cell id="14" material="void" region=" 6  -7    -24" />
+  <cell id="15" material="void" region=" 7  -8 23 -24" />
+  <cell id="16" material="void" region=" 8  -9    -22" />
+  <cell id="17" material="void" region="10 -11    -22" />
+  <cell id="18" material="void" region="12 -13    -22" />
+  <cell id="19" material="void" region="14 -15    -22" />
+  <cell id="20" material="void" region="16 -17    -22" />
+  <cell id="21" material="void" region=" 8 -18 22 -24" />
 
 </geometry>

@@ -21,12 +21,12 @@
   <surface id="11" type="z-plane" coeffs="  3.2075" />
   <surface id="12" type="z-plane" coeffs=" 23.5275" boundary="vacuum" />
 
-  <cell id="1" material="2" surfaces="1 -2 5 -8  9 -12" />
-  <cell id="2" material="2" surfaces="2 -3 5 -6  9 -12" />
-  <cell id="3" material="2" surfaces="2 -3 6 -7  9 -10" />
-  <cell id="4" material="1" surfaces="2 -3 6 -7 10 -11" />
-  <cell id="5" material="2" surfaces="2 -3 6 -7 11 -12" />
-  <cell id="6" material="2" surfaces="2 -3 7 -8  9 -12" />
-  <cell id="7" material="2" surfaces="3 -4 5 -8  9 -12" />
+  <cell id="1" material="2" region="1 -2 5 -8  9 -12" />
+  <cell id="2" material="2" region="2 -3 5 -6  9 -12" />
+  <cell id="3" material="2" region="2 -3 6 -7  9 -10" />
+  <cell id="4" material="1" region="2 -3 6 -7 10 -11" />
+  <cell id="5" material="2" region="2 -3 6 -7 11 -12" />
+  <cell id="6" material="2" region="2 -3 7 -8  9 -12" />
+  <cell id="7" material="2" region="3 -4 5 -8  9 -12" />
 
 </geometry>

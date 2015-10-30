@@ -72,63 +72,63 @@
   <surface id="49" type="y-plane" coeffs="44.1452" boundary="vacuum" />
 
   <!-- Aluminum rod -->
-  <cell id="1" material="void" surfaces="1 -11 -36" />
-  <cell id="2" material="4" surfaces="1 -11 36 -37" />
-  <cell id="3" material="void" surfaces="1 -11 37 -38" />
+  <cell id="1" material="void" region="1 -11 -36" />
+  <cell id="2" material="4" region="1 -11 36 -37" />
+  <cell id="3" material="void" region="1 -11 37 -38" />
   <!-- Lower Shielding -->
-  <cell id="4" material="void" surfaces="1 -2 46 -47 48 -49" />
-  <cell id="5" material="void" surfaces="2 -3 38 -41" />
-  <cell id="6" material="void" surfaces="3 -4 38 -39" />
-  <cell id="7" material="4" surfaces="3 -4 39 -40" />
-  <cell id="8" material="void" surfaces="3 -4 40 -41" />
-  <cell id="9" material="3" surfaces="4 -5 38 -40" />
-  <cell id="10" material="void" surfaces="4 -5 40 -41" />
+  <cell id="4" material="void" region="1 -2 46 -47 48 -49" />
+  <cell id="5" material="void" region="2 -3 38 -41" />
+  <cell id="6" material="void" region="3 -4 38 -39" />
+  <cell id="7" material="4" region="3 -4 39 -40" />
+  <cell id="8" material="void" region="3 -4 40 -41" />
+  <cell id="9" material="3" region="4 -5 38 -40" />
+  <cell id="10" material="void" region="4 -5 40 -41" />
   <!-- Unit 1 -->
-  <cell id="11" material="2" surfaces="5 -6 38 -40" />
-  <cell id="12" material="1" surfaces="6 -7 38 -40" />
-  <cell id="13" material="2" surfaces="7 -8 38 -40" />
+  <cell id="11" material="2" region="5 -6 38 -40" />
+  <cell id="12" material="1" region="6 -7 38 -40" />
+  <cell id="13" material="2" region="7 -8 38 -40" />
   <!-- Unit 2 -->
-  <cell id="14" material="2" surfaces="8 -9 38 -40" />
-  <cell id="15" material="1" surfaces="9 -10 38 -40" />
-  <cell id="16" material="2" surfaces="10 -11 38 -40" />
+  <cell id="14" material="2" region="8 -9 38 -40" />
+  <cell id="15" material="1" region="9 -10 38 -40" />
+  <cell id="16" material="2" region="10 -11 38 -40" />
   <!-- Unit 3 -->
-  <cell id="17" material="2" surfaces="11 -12 -40" />
-  <cell id="18" material="1" surfaces="12 -13 -40" />
-  <cell id="19" material="2" surfaces="13 -14 -40" />
+  <cell id="17" material="2" region="11 -12 -40" />
+  <cell id="18" material="1" region="12 -13 -40" />
+  <cell id="19" material="2" region="13 -14 -40" />
   <!-- Unit 4 -->
-  <cell id="20" material="2" surfaces="14 -15 -40" />
-  <cell id="21" material="1" surfaces="15 -16 -40" />
-  <cell id="22" material="2" surfaces="16 -17 -40" />
+  <cell id="20" material="2" region="14 -15 -40" />
+  <cell id="21" material="1" region="15 -16 -40" />
+  <cell id="22" material="2" region="16 -17 -40" />
   <!-- Unit 5 -->
-  <cell id="23" material="2" surfaces="17 -18 -40" />
-  <cell id="24" material="1" surfaces="18 -19 -40" />
-  <cell id="25" material="2" surfaces="19 -20 -40" />
+  <cell id="23" material="2" region="17 -18 -40" />
+  <cell id="24" material="1" region="18 -19 -40" />
+  <cell id="25" material="2" region="19 -20 -40" />
   <!-- Unit 6 -->
-  <cell id="26" material="2" surfaces="20 -21 -40" />
-  <cell id="27" material="1" surfaces="21 -22 -40" />
-  <cell id="28" material="2" surfaces="22 -23 -40" />
+  <cell id="26" material="2" region="20 -21 -40" />
+  <cell id="27" material="1" region="21 -22 -40" />
+  <cell id="28" material="2" region="22 -23 -40" />
   <!-- Unit 7 -->
-  <cell id="29" material="2" surfaces="23 -24 -40" />
-  <cell id="30" material="1" surfaces="24 -25 -40" />
-  <cell id="31" material="2" surfaces="25 -26 -40" />
+  <cell id="29" material="2" region="23 -24 -40" />
+  <cell id="30" material="1" region="24 -25 -40" />
+  <cell id="31" material="2" region="25 -26 -40" />
   <!-- Unit 8 -->
-  <cell id="32" material="2" surfaces="26 -27 -40" />
-  <cell id="33" material="1" surfaces="27 -28 -40" />
-  <cell id="34" material="2" surfaces="28 -29 -40" />
+  <cell id="32" material="2" region="26 -27 -40" />
+  <cell id="33" material="1" region="27 -28 -40" />
+  <cell id="34" material="2" region="28 -29 -40" />
   <!-- Unit 9 -->
-  <cell id="35" material="2" surfaces="29 -30 -40" />
-  <cell id="36" material="1" surfaces="30 -31 -40" />
-  <cell id="37" material="2" surfaces="31 -32 -40" />
+  <cell id="35" material="2" region="29 -30 -40" />
+  <cell id="36" material="1" region="30 -31 -40" />
+  <cell id="37" material="2" region="31 -32 -40" />
   <!-- Upper shielding -->
-  <cell id="38" material="void" surfaces="32 -33 -40" />
-  <cell id="39" material="3" surfaces="33 -34 -41" />
-  <cell id="40" material="void" surfaces="34 -35 42 -43 44 -45" />
-  <cell id="41" material="3" surfaces="34 -35 46 -42 48 -49" />
-  <cell id="42" material="3" surfaces="34 -35 43 -47 48 -49" />
-  <cell id="43" material="3" surfaces="34 -35 42 -43 48 -44" />
-  <cell id="44" material="3" surfaces="34 -35 42 -43 45 -49" />
+  <cell id="38" material="void" region="32 -33 -40" />
+  <cell id="39" material="3" region="33 -34 -41" />
+  <cell id="40" material="void" region="34 -35 42 -43 44 -45" />
+  <cell id="41" material="3" region="34 -35 46 -42 48 -49" />
+  <cell id="42" material="3" region="34 -35 43 -47 48 -49" />
+  <cell id="43" material="3" region="34 -35 42 -43 48 -44" />
+  <cell id="44" material="3" region="34 -35 42 -43 45 -49" />
   <!-- Side shielding -->
-  <cell id="45" material="void" surfaces="5 -33 40 -41" />
-  <cell id="46" material="3" surfaces="2 -34 41 46 -47 48 -49" />
+  <cell id="45" material="void" region="5 -33 40 -41" />
+  <cell id="46" material="3" region="2 -34 41 46 -47 48 -49" />
 
 </geometry>

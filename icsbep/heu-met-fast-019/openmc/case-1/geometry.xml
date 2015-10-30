@@ -18,14 +18,14 @@
   <surface id="8" type="sphere" coeffs="0. 0. 0.  9.15" />
   <surface id="9" type="sphere" coeffs="0. 0. 0. 12.60" boundary="vacuum" />
 
-  <cell id="1" material="void" surfaces="  -1" />
-  <cell id="2" material="1"    surfaces="1 -2" />
-  <cell id="3" material="2"    surfaces="2 -3" />
-  <cell id="4" material="3"    surfaces="3 -4" />
-  <cell id="5" material="4"    surfaces="4 -5" />
-  <cell id="6" material="5"    surfaces="5 -6" />
-  <cell id="7" material="6"    surfaces="6 -7" />
-  <cell id="8" material="7"    surfaces="7 -8" />
-  <cell id="9" material="8"    surfaces="8 -9" />
+  <cell id="1" material="void" region="  -1" />
+  <cell id="2" material="1"    region="1 -2" />
+  <cell id="3" material="2"    region="2 -3" />
+  <cell id="4" material="3"    region="3 -4" />
+  <cell id="5" material="4"    region="4 -5" />
+  <cell id="6" material="5"    region="5 -6" />
+  <cell id="7" material="6"    region="6 -7" />
+  <cell id="8" material="7"    region="7 -8" />
+  <cell id="9" material="8"    region="8 -9" />
 
 </geometry>
