@@ -1,0 +1,2655 @@
+<?xml version="1.0"?>
+<tallies>
+
+  <mesh id="1">
+    <type>rectangular</type>
+    <lower_left>-182.07 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="1">
+    <filter type="mesh" bins="1" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="2">
+    <type>rectangular</type>
+    <lower_left>-182.07 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="2">
+    <filter type="mesh" bins="2" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="3">
+    <type>rectangular</type>
+    <lower_left>-182.07 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="3">
+    <filter type="mesh" bins="3" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="4">
+    <type>rectangular</type>
+    <lower_left>-182.07 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="4">
+    <filter type="mesh" bins="4" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="5">
+    <type>rectangular</type>
+    <lower_left>-182.07 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="5">
+    <filter type="mesh" bins="5" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="6">
+    <type>rectangular</type>
+    <lower_left>-182.07 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="6">
+    <filter type="mesh" bins="6" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="7">
+    <type>rectangular</type>
+    <lower_left>-182.07 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="7">
+    <filter type="mesh" bins="7" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="8">
+    <type>rectangular</type>
+    <lower_left>-160.65 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="8">
+    <filter type="mesh" bins="8" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="9">
+    <type>rectangular</type>
+    <lower_left>-160.65 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="9">
+    <filter type="mesh" bins="9" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="10">
+    <type>rectangular</type>
+    <lower_left>-160.65 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="10">
+    <filter type="mesh" bins="10" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="11">
+    <type>rectangular</type>
+    <lower_left>-160.65 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="11">
+    <filter type="mesh" bins="11" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="12">
+    <type>rectangular</type>
+    <lower_left>-160.65 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="12">
+    <filter type="mesh" bins="12" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="13">
+    <type>rectangular</type>
+    <lower_left>-160.65 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="13">
+    <filter type="mesh" bins="13" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="14">
+    <type>rectangular</type>
+    <lower_left>-160.65 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="14">
+    <filter type="mesh" bins="14" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="15">
+    <type>rectangular</type>
+    <lower_left>-160.65 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="15">
+    <filter type="mesh" bins="15" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="16">
+    <type>rectangular</type>
+    <lower_left>-160.65 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="16">
+    <filter type="mesh" bins="16" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="17">
+    <type>rectangular</type>
+    <lower_left>-160.65 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="17">
+    <filter type="mesh" bins="17" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="18">
+    <type>rectangular</type>
+    <lower_left>-160.65 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="18">
+    <filter type="mesh" bins="18" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="19">
+    <type>rectangular</type>
+    <lower_left>-139.23 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="19">
+    <filter type="mesh" bins="19" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="20">
+    <type>rectangular</type>
+    <lower_left>-139.23 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="20">
+    <filter type="mesh" bins="20" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="21">
+    <type>rectangular</type>
+    <lower_left>-139.23 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="21">
+    <filter type="mesh" bins="21" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="22">
+    <type>rectangular</type>
+    <lower_left>-139.23 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="22">
+    <filter type="mesh" bins="22" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="23">
+    <type>rectangular</type>
+    <lower_left>-139.23 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="23">
+    <filter type="mesh" bins="23" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="24">
+    <type>rectangular</type>
+    <lower_left>-139.23 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="24">
+    <filter type="mesh" bins="24" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="25">
+    <type>rectangular</type>
+    <lower_left>-139.23 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="25">
+    <filter type="mesh" bins="25" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="26">
+    <type>rectangular</type>
+    <lower_left>-139.23 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="26">
+    <filter type="mesh" bins="26" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="27">
+    <type>rectangular</type>
+    <lower_left>-139.23 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="27">
+    <filter type="mesh" bins="27" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="28">
+    <type>rectangular</type>
+    <lower_left>-139.23 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="28">
+    <filter type="mesh" bins="28" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="29">
+    <type>rectangular</type>
+    <lower_left>-139.23 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="29">
+    <filter type="mesh" bins="29" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="30">
+    <type>rectangular</type>
+    <lower_left>-139.23 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="30">
+    <filter type="mesh" bins="30" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="31">
+    <type>rectangular</type>
+    <lower_left>-139.23 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="31">
+    <filter type="mesh" bins="31" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="32">
+    <type>rectangular</type>
+    <lower_left>-117.81 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="32">
+    <filter type="mesh" bins="32" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="33">
+    <type>rectangular</type>
+    <lower_left>-117.81 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="33">
+    <filter type="mesh" bins="33" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="34">
+    <type>rectangular</type>
+    <lower_left>-117.81 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="34">
+    <filter type="mesh" bins="34" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="35">
+    <type>rectangular</type>
+    <lower_left>-117.81 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="35">
+    <filter type="mesh" bins="35" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="36">
+    <type>rectangular</type>
+    <lower_left>-117.81 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="36">
+    <filter type="mesh" bins="36" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="37">
+    <type>rectangular</type>
+    <lower_left>-117.81 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="37">
+    <filter type="mesh" bins="37" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="38">
+    <type>rectangular</type>
+    <lower_left>-117.81 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="38">
+    <filter type="mesh" bins="38" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="39">
+    <type>rectangular</type>
+    <lower_left>-117.81 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="39">
+    <filter type="mesh" bins="39" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="40">
+    <type>rectangular</type>
+    <lower_left>-117.81 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="40">
+    <filter type="mesh" bins="40" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="41">
+    <type>rectangular</type>
+    <lower_left>-117.81 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="41">
+    <filter type="mesh" bins="41" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="42">
+    <type>rectangular</type>
+    <lower_left>-117.81 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="42">
+    <filter type="mesh" bins="42" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="43">
+    <type>rectangular</type>
+    <lower_left>-117.81 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="43">
+    <filter type="mesh" bins="43" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="44">
+    <type>rectangular</type>
+    <lower_left>-117.81 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="44">
+    <filter type="mesh" bins="44" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="45">
+    <type>rectangular</type>
+    <lower_left>-117.81 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="45">
+    <filter type="mesh" bins="45" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="46">
+    <type>rectangular</type>
+    <lower_left>-117.81 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="46">
+    <filter type="mesh" bins="46" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="47">
+    <type>rectangular</type>
+    <lower_left>-96.39 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="47">
+    <filter type="mesh" bins="47" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="48">
+    <type>rectangular</type>
+    <lower_left>-96.39 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="48">
+    <filter type="mesh" bins="48" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="49">
+    <type>rectangular</type>
+    <lower_left>-96.39 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="49">
+    <filter type="mesh" bins="49" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="50">
+    <type>rectangular</type>
+    <lower_left>-96.39 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="50">
+    <filter type="mesh" bins="50" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="51">
+    <type>rectangular</type>
+    <lower_left>-96.39 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="51">
+    <filter type="mesh" bins="51" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="52">
+    <type>rectangular</type>
+    <lower_left>-96.39 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="52">
+    <filter type="mesh" bins="52" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="53">
+    <type>rectangular</type>
+    <lower_left>-96.39 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="53">
+    <filter type="mesh" bins="53" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="54">
+    <type>rectangular</type>
+    <lower_left>-96.39 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="54">
+    <filter type="mesh" bins="54" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="55">
+    <type>rectangular</type>
+    <lower_left>-96.39 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="55">
+    <filter type="mesh" bins="55" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="56">
+    <type>rectangular</type>
+    <lower_left>-96.39 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="56">
+    <filter type="mesh" bins="56" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="57">
+    <type>rectangular</type>
+    <lower_left>-96.39 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="57">
+    <filter type="mesh" bins="57" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="58">
+    <type>rectangular</type>
+    <lower_left>-96.39 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="58">
+    <filter type="mesh" bins="58" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="59">
+    <type>rectangular</type>
+    <lower_left>-96.39 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="59">
+    <filter type="mesh" bins="59" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="60">
+    <type>rectangular</type>
+    <lower_left>-96.39 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="60">
+    <filter type="mesh" bins="60" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="61">
+    <type>rectangular</type>
+    <lower_left>-96.39 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="61">
+    <filter type="mesh" bins="61" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="62">
+    <type>rectangular</type>
+    <lower_left>-74.97 -182.07</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="62">
+    <filter type="mesh" bins="62" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="63">
+    <type>rectangular</type>
+    <lower_left>-74.97 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="63">
+    <filter type="mesh" bins="63" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="64">
+    <type>rectangular</type>
+    <lower_left>-74.97 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="64">
+    <filter type="mesh" bins="64" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="65">
+    <type>rectangular</type>
+    <lower_left>-74.97 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="65">
+    <filter type="mesh" bins="65" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="66">
+    <type>rectangular</type>
+    <lower_left>-74.97 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="66">
+    <filter type="mesh" bins="66" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="67">
+    <type>rectangular</type>
+    <lower_left>-74.97 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="67">
+    <filter type="mesh" bins="67" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="68">
+    <type>rectangular</type>
+    <lower_left>-74.97 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="68">
+    <filter type="mesh" bins="68" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="69">
+    <type>rectangular</type>
+    <lower_left>-74.97 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="69">
+    <filter type="mesh" bins="69" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="70">
+    <type>rectangular</type>
+    <lower_left>-74.97 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="70">
+    <filter type="mesh" bins="70" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="71">
+    <type>rectangular</type>
+    <lower_left>-74.97 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="71">
+    <filter type="mesh" bins="71" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="72">
+    <type>rectangular</type>
+    <lower_left>-74.97 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="72">
+    <filter type="mesh" bins="72" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="73">
+    <type>rectangular</type>
+    <lower_left>-74.97 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="73">
+    <filter type="mesh" bins="73" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="74">
+    <type>rectangular</type>
+    <lower_left>-74.97 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="74">
+    <filter type="mesh" bins="74" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="75">
+    <type>rectangular</type>
+    <lower_left>-74.97 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="75">
+    <filter type="mesh" bins="75" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="76">
+    <type>rectangular</type>
+    <lower_left>-74.97 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="76">
+    <filter type="mesh" bins="76" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="77">
+    <type>rectangular</type>
+    <lower_left>-74.97 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="77">
+    <filter type="mesh" bins="77" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="78">
+    <type>rectangular</type>
+    <lower_left>-74.97 160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="78">
+    <filter type="mesh" bins="78" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="79">
+    <type>rectangular</type>
+    <lower_left>-53.55 -182.07</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="79">
+    <filter type="mesh" bins="79" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="80">
+    <type>rectangular</type>
+    <lower_left>-53.55 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="80">
+    <filter type="mesh" bins="80" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="81">
+    <type>rectangular</type>
+    <lower_left>-53.55 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="81">
+    <filter type="mesh" bins="81" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="82">
+    <type>rectangular</type>
+    <lower_left>-53.55 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="82">
+    <filter type="mesh" bins="82" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="83">
+    <type>rectangular</type>
+    <lower_left>-53.55 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="83">
+    <filter type="mesh" bins="83" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="84">
+    <type>rectangular</type>
+    <lower_left>-53.55 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="84">
+    <filter type="mesh" bins="84" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="85">
+    <type>rectangular</type>
+    <lower_left>-53.55 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="85">
+    <filter type="mesh" bins="85" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="86">
+    <type>rectangular</type>
+    <lower_left>-53.55 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="86">
+    <filter type="mesh" bins="86" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="87">
+    <type>rectangular</type>
+    <lower_left>-53.55 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="87">
+    <filter type="mesh" bins="87" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="88">
+    <type>rectangular</type>
+    <lower_left>-53.55 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="88">
+    <filter type="mesh" bins="88" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="89">
+    <type>rectangular</type>
+    <lower_left>-53.55 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="89">
+    <filter type="mesh" bins="89" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="90">
+    <type>rectangular</type>
+    <lower_left>-53.55 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="90">
+    <filter type="mesh" bins="90" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="91">
+    <type>rectangular</type>
+    <lower_left>-53.55 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="91">
+    <filter type="mesh" bins="91" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="92">
+    <type>rectangular</type>
+    <lower_left>-53.55 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="92">
+    <filter type="mesh" bins="92" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="93">
+    <type>rectangular</type>
+    <lower_left>-53.55 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="93">
+    <filter type="mesh" bins="93" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="94">
+    <type>rectangular</type>
+    <lower_left>-53.55 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="94">
+    <filter type="mesh" bins="94" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="95">
+    <type>rectangular</type>
+    <lower_left>-53.55 160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="95">
+    <filter type="mesh" bins="95" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="96">
+    <type>rectangular</type>
+    <lower_left>-32.13 -182.07</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="96">
+    <filter type="mesh" bins="96" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="97">
+    <type>rectangular</type>
+    <lower_left>-32.13 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="97">
+    <filter type="mesh" bins="97" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="98">
+    <type>rectangular</type>
+    <lower_left>-32.13 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="98">
+    <filter type="mesh" bins="98" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="99">
+    <type>rectangular</type>
+    <lower_left>-32.13 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="99">
+    <filter type="mesh" bins="99" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="100">
+    <type>rectangular</type>
+    <lower_left>-32.13 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="100">
+    <filter type="mesh" bins="100" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="101">
+    <type>rectangular</type>
+    <lower_left>-32.13 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="101">
+    <filter type="mesh" bins="101" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="102">
+    <type>rectangular</type>
+    <lower_left>-32.13 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="102">
+    <filter type="mesh" bins="102" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="103">
+    <type>rectangular</type>
+    <lower_left>-32.13 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="103">
+    <filter type="mesh" bins="103" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="104">
+    <type>rectangular</type>
+    <lower_left>-32.13 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="104">
+    <filter type="mesh" bins="104" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="105">
+    <type>rectangular</type>
+    <lower_left>-32.13 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="105">
+    <filter type="mesh" bins="105" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="106">
+    <type>rectangular</type>
+    <lower_left>-32.13 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="106">
+    <filter type="mesh" bins="106" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="107">
+    <type>rectangular</type>
+    <lower_left>-32.13 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="107">
+    <filter type="mesh" bins="107" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="108">
+    <type>rectangular</type>
+    <lower_left>-32.13 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="108">
+    <filter type="mesh" bins="108" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="109">
+    <type>rectangular</type>
+    <lower_left>-32.13 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="109">
+    <filter type="mesh" bins="109" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="110">
+    <type>rectangular</type>
+    <lower_left>-32.13 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="110">
+    <filter type="mesh" bins="110" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="111">
+    <type>rectangular</type>
+    <lower_left>-32.13 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="111">
+    <filter type="mesh" bins="111" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="112">
+    <type>rectangular</type>
+    <lower_left>-32.13 160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="112">
+    <filter type="mesh" bins="112" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="113">
+    <type>rectangular</type>
+    <lower_left>-10.71 -182.07</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="113">
+    <filter type="mesh" bins="113" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="114">
+    <type>rectangular</type>
+    <lower_left>-10.71 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="114">
+    <filter type="mesh" bins="114" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="115">
+    <type>rectangular</type>
+    <lower_left>-10.71 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="115">
+    <filter type="mesh" bins="115" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="116">
+    <type>rectangular</type>
+    <lower_left>-10.71 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="116">
+    <filter type="mesh" bins="116" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="117">
+    <type>rectangular</type>
+    <lower_left>-10.71 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="117">
+    <filter type="mesh" bins="117" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="118">
+    <type>rectangular</type>
+    <lower_left>-10.71 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="118">
+    <filter type="mesh" bins="118" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="119">
+    <type>rectangular</type>
+    <lower_left>-10.71 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="119">
+    <filter type="mesh" bins="119" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="120">
+    <type>rectangular</type>
+    <lower_left>-10.71 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="120">
+    <filter type="mesh" bins="120" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="121">
+    <type>rectangular</type>
+    <lower_left>-10.71 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="121">
+    <filter type="mesh" bins="121" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="122">
+    <type>rectangular</type>
+    <lower_left>-10.71 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="122">
+    <filter type="mesh" bins="122" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="123">
+    <type>rectangular</type>
+    <lower_left>-10.71 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="123">
+    <filter type="mesh" bins="123" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="124">
+    <type>rectangular</type>
+    <lower_left>-10.71 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="124">
+    <filter type="mesh" bins="124" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="125">
+    <type>rectangular</type>
+    <lower_left>-10.71 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="125">
+    <filter type="mesh" bins="125" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="126">
+    <type>rectangular</type>
+    <lower_left>-10.71 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="126">
+    <filter type="mesh" bins="126" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="127">
+    <type>rectangular</type>
+    <lower_left>-10.71 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="127">
+    <filter type="mesh" bins="127" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="128">
+    <type>rectangular</type>
+    <lower_left>-10.71 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="128">
+    <filter type="mesh" bins="128" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="129">
+    <type>rectangular</type>
+    <lower_left>-10.71 160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="129">
+    <filter type="mesh" bins="129" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="130">
+    <type>rectangular</type>
+    <lower_left>10.71 -182.07</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="130">
+    <filter type="mesh" bins="130" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="131">
+    <type>rectangular</type>
+    <lower_left>10.71 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="131">
+    <filter type="mesh" bins="131" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="132">
+    <type>rectangular</type>
+    <lower_left>10.71 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="132">
+    <filter type="mesh" bins="132" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="133">
+    <type>rectangular</type>
+    <lower_left>10.71 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="133">
+    <filter type="mesh" bins="133" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="134">
+    <type>rectangular</type>
+    <lower_left>10.71 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="134">
+    <filter type="mesh" bins="134" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="135">
+    <type>rectangular</type>
+    <lower_left>10.71 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="135">
+    <filter type="mesh" bins="135" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="136">
+    <type>rectangular</type>
+    <lower_left>10.71 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="136">
+    <filter type="mesh" bins="136" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="137">
+    <type>rectangular</type>
+    <lower_left>10.71 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="137">
+    <filter type="mesh" bins="137" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="138">
+    <type>rectangular</type>
+    <lower_left>10.71 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="138">
+    <filter type="mesh" bins="138" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="139">
+    <type>rectangular</type>
+    <lower_left>10.71 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="139">
+    <filter type="mesh" bins="139" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="140">
+    <type>rectangular</type>
+    <lower_left>10.71 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="140">
+    <filter type="mesh" bins="140" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="141">
+    <type>rectangular</type>
+    <lower_left>10.71 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="141">
+    <filter type="mesh" bins="141" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="142">
+    <type>rectangular</type>
+    <lower_left>10.71 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="142">
+    <filter type="mesh" bins="142" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="143">
+    <type>rectangular</type>
+    <lower_left>10.71 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="143">
+    <filter type="mesh" bins="143" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="144">
+    <type>rectangular</type>
+    <lower_left>10.71 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="144">
+    <filter type="mesh" bins="144" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="145">
+    <type>rectangular</type>
+    <lower_left>10.71 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="145">
+    <filter type="mesh" bins="145" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="146">
+    <type>rectangular</type>
+    <lower_left>10.71 160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="146">
+    <filter type="mesh" bins="146" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="147">
+    <type>rectangular</type>
+    <lower_left>32.13 -182.07</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="147">
+    <filter type="mesh" bins="147" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="148">
+    <type>rectangular</type>
+    <lower_left>32.13 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="148">
+    <filter type="mesh" bins="148" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="149">
+    <type>rectangular</type>
+    <lower_left>32.13 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="149">
+    <filter type="mesh" bins="149" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="150">
+    <type>rectangular</type>
+    <lower_left>32.13 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="150">
+    <filter type="mesh" bins="150" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="151">
+    <type>rectangular</type>
+    <lower_left>32.13 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="151">
+    <filter type="mesh" bins="151" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="152">
+    <type>rectangular</type>
+    <lower_left>32.13 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="152">
+    <filter type="mesh" bins="152" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="153">
+    <type>rectangular</type>
+    <lower_left>32.13 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="153">
+    <filter type="mesh" bins="153" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="154">
+    <type>rectangular</type>
+    <lower_left>32.13 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="154">
+    <filter type="mesh" bins="154" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="155">
+    <type>rectangular</type>
+    <lower_left>32.13 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="155">
+    <filter type="mesh" bins="155" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="156">
+    <type>rectangular</type>
+    <lower_left>32.13 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="156">
+    <filter type="mesh" bins="156" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="157">
+    <type>rectangular</type>
+    <lower_left>32.13 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="157">
+    <filter type="mesh" bins="157" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="158">
+    <type>rectangular</type>
+    <lower_left>32.13 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="158">
+    <filter type="mesh" bins="158" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="159">
+    <type>rectangular</type>
+    <lower_left>32.13 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="159">
+    <filter type="mesh" bins="159" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="160">
+    <type>rectangular</type>
+    <lower_left>32.13 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="160">
+    <filter type="mesh" bins="160" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="161">
+    <type>rectangular</type>
+    <lower_left>32.13 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="161">
+    <filter type="mesh" bins="161" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="162">
+    <type>rectangular</type>
+    <lower_left>32.13 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="162">
+    <filter type="mesh" bins="162" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="163">
+    <type>rectangular</type>
+    <lower_left>32.13 160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="163">
+    <filter type="mesh" bins="163" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="164">
+    <type>rectangular</type>
+    <lower_left>53.55 -182.07</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="164">
+    <filter type="mesh" bins="164" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="165">
+    <type>rectangular</type>
+    <lower_left>53.55 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="165">
+    <filter type="mesh" bins="165" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="166">
+    <type>rectangular</type>
+    <lower_left>53.55 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="166">
+    <filter type="mesh" bins="166" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="167">
+    <type>rectangular</type>
+    <lower_left>53.55 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="167">
+    <filter type="mesh" bins="167" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="168">
+    <type>rectangular</type>
+    <lower_left>53.55 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="168">
+    <filter type="mesh" bins="168" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="169">
+    <type>rectangular</type>
+    <lower_left>53.55 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="169">
+    <filter type="mesh" bins="169" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="170">
+    <type>rectangular</type>
+    <lower_left>53.55 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="170">
+    <filter type="mesh" bins="170" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="171">
+    <type>rectangular</type>
+    <lower_left>53.55 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="171">
+    <filter type="mesh" bins="171" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="172">
+    <type>rectangular</type>
+    <lower_left>53.55 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="172">
+    <filter type="mesh" bins="172" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="173">
+    <type>rectangular</type>
+    <lower_left>53.55 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="173">
+    <filter type="mesh" bins="173" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="174">
+    <type>rectangular</type>
+    <lower_left>53.55 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="174">
+    <filter type="mesh" bins="174" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="175">
+    <type>rectangular</type>
+    <lower_left>53.55 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="175">
+    <filter type="mesh" bins="175" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="176">
+    <type>rectangular</type>
+    <lower_left>53.55 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="176">
+    <filter type="mesh" bins="176" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="177">
+    <type>rectangular</type>
+    <lower_left>53.55 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="177">
+    <filter type="mesh" bins="177" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="178">
+    <type>rectangular</type>
+    <lower_left>53.55 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="178">
+    <filter type="mesh" bins="178" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="179">
+    <type>rectangular</type>
+    <lower_left>53.55 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="179">
+    <filter type="mesh" bins="179" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="180">
+    <type>rectangular</type>
+    <lower_left>53.55 160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="180">
+    <filter type="mesh" bins="180" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="181">
+    <type>rectangular</type>
+    <lower_left>74.97 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="181">
+    <filter type="mesh" bins="181" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="182">
+    <type>rectangular</type>
+    <lower_left>74.97 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="182">
+    <filter type="mesh" bins="182" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="183">
+    <type>rectangular</type>
+    <lower_left>74.97 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="183">
+    <filter type="mesh" bins="183" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="184">
+    <type>rectangular</type>
+    <lower_left>74.97 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="184">
+    <filter type="mesh" bins="184" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="185">
+    <type>rectangular</type>
+    <lower_left>74.97 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="185">
+    <filter type="mesh" bins="185" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="186">
+    <type>rectangular</type>
+    <lower_left>74.97 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="186">
+    <filter type="mesh" bins="186" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="187">
+    <type>rectangular</type>
+    <lower_left>74.97 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="187">
+    <filter type="mesh" bins="187" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="188">
+    <type>rectangular</type>
+    <lower_left>74.97 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="188">
+    <filter type="mesh" bins="188" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="189">
+    <type>rectangular</type>
+    <lower_left>74.97 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="189">
+    <filter type="mesh" bins="189" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="190">
+    <type>rectangular</type>
+    <lower_left>74.97 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="190">
+    <filter type="mesh" bins="190" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="191">
+    <type>rectangular</type>
+    <lower_left>74.97 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="191">
+    <filter type="mesh" bins="191" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="192">
+    <type>rectangular</type>
+    <lower_left>74.97 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="192">
+    <filter type="mesh" bins="192" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="193">
+    <type>rectangular</type>
+    <lower_left>74.97 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="193">
+    <filter type="mesh" bins="193" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="194">
+    <type>rectangular</type>
+    <lower_left>74.97 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="194">
+    <filter type="mesh" bins="194" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="195">
+    <type>rectangular</type>
+    <lower_left>74.97 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="195">
+    <filter type="mesh" bins="195" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="196">
+    <type>rectangular</type>
+    <lower_left>96.39 -160.65</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="196">
+    <filter type="mesh" bins="196" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="197">
+    <type>rectangular</type>
+    <lower_left>96.39 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="197">
+    <filter type="mesh" bins="197" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="198">
+    <type>rectangular</type>
+    <lower_left>96.39 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="198">
+    <filter type="mesh" bins="198" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="199">
+    <type>rectangular</type>
+    <lower_left>96.39 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="199">
+    <filter type="mesh" bins="199" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="200">
+    <type>rectangular</type>
+    <lower_left>96.39 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="200">
+    <filter type="mesh" bins="200" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="201">
+    <type>rectangular</type>
+    <lower_left>96.39 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="201">
+    <filter type="mesh" bins="201" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="202">
+    <type>rectangular</type>
+    <lower_left>96.39 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="202">
+    <filter type="mesh" bins="202" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="203">
+    <type>rectangular</type>
+    <lower_left>96.39 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="203">
+    <filter type="mesh" bins="203" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="204">
+    <type>rectangular</type>
+    <lower_left>96.39 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="204">
+    <filter type="mesh" bins="204" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="205">
+    <type>rectangular</type>
+    <lower_left>96.39 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="205">
+    <filter type="mesh" bins="205" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="206">
+    <type>rectangular</type>
+    <lower_left>96.39 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="206">
+    <filter type="mesh" bins="206" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="207">
+    <type>rectangular</type>
+    <lower_left>96.39 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="207">
+    <filter type="mesh" bins="207" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="208">
+    <type>rectangular</type>
+    <lower_left>96.39 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="208">
+    <filter type="mesh" bins="208" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="209">
+    <type>rectangular</type>
+    <lower_left>96.39 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="209">
+    <filter type="mesh" bins="209" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="210">
+    <type>rectangular</type>
+    <lower_left>96.39 139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="210">
+    <filter type="mesh" bins="210" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="211">
+    <type>rectangular</type>
+    <lower_left>117.81 -139.23</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="211">
+    <filter type="mesh" bins="211" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="212">
+    <type>rectangular</type>
+    <lower_left>117.81 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="212">
+    <filter type="mesh" bins="212" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="213">
+    <type>rectangular</type>
+    <lower_left>117.81 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="213">
+    <filter type="mesh" bins="213" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="214">
+    <type>rectangular</type>
+    <lower_left>117.81 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="214">
+    <filter type="mesh" bins="214" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="215">
+    <type>rectangular</type>
+    <lower_left>117.81 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="215">
+    <filter type="mesh" bins="215" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="216">
+    <type>rectangular</type>
+    <lower_left>117.81 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="216">
+    <filter type="mesh" bins="216" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="217">
+    <type>rectangular</type>
+    <lower_left>117.81 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="217">
+    <filter type="mesh" bins="217" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="218">
+    <type>rectangular</type>
+    <lower_left>117.81 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="218">
+    <filter type="mesh" bins="218" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="219">
+    <type>rectangular</type>
+    <lower_left>117.81 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="219">
+    <filter type="mesh" bins="219" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="220">
+    <type>rectangular</type>
+    <lower_left>117.81 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="220">
+    <filter type="mesh" bins="220" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="221">
+    <type>rectangular</type>
+    <lower_left>117.81 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="221">
+    <filter type="mesh" bins="221" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="222">
+    <type>rectangular</type>
+    <lower_left>117.81 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="222">
+    <filter type="mesh" bins="222" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="223">
+    <type>rectangular</type>
+    <lower_left>117.81 117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="223">
+    <filter type="mesh" bins="223" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="224">
+    <type>rectangular</type>
+    <lower_left>139.23 -117.81</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="224">
+    <filter type="mesh" bins="224" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="225">
+    <type>rectangular</type>
+    <lower_left>139.23 -96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="225">
+    <filter type="mesh" bins="225" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="226">
+    <type>rectangular</type>
+    <lower_left>139.23 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="226">
+    <filter type="mesh" bins="226" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="227">
+    <type>rectangular</type>
+    <lower_left>139.23 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="227">
+    <filter type="mesh" bins="227" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="228">
+    <type>rectangular</type>
+    <lower_left>139.23 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="228">
+    <filter type="mesh" bins="228" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="229">
+    <type>rectangular</type>
+    <lower_left>139.23 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="229">
+    <filter type="mesh" bins="229" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="230">
+    <type>rectangular</type>
+    <lower_left>139.23 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="230">
+    <filter type="mesh" bins="230" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="231">
+    <type>rectangular</type>
+    <lower_left>139.23 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="231">
+    <filter type="mesh" bins="231" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="232">
+    <type>rectangular</type>
+    <lower_left>139.23 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="232">
+    <filter type="mesh" bins="232" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="233">
+    <type>rectangular</type>
+    <lower_left>139.23 74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="233">
+    <filter type="mesh" bins="233" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="234">
+    <type>rectangular</type>
+    <lower_left>139.23 96.39</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="234">
+    <filter type="mesh" bins="234" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="235">
+    <type>rectangular</type>
+    <lower_left>160.65 -74.97</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="235">
+    <filter type="mesh" bins="235" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="236">
+    <type>rectangular</type>
+    <lower_left>160.65 -53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="236">
+    <filter type="mesh" bins="236" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="237">
+    <type>rectangular</type>
+    <lower_left>160.65 -32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="237">
+    <filter type="mesh" bins="237" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="238">
+    <type>rectangular</type>
+    <lower_left>160.65 -10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="238">
+    <filter type="mesh" bins="238" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="239">
+    <type>rectangular</type>
+    <lower_left>160.65 10.71</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="239">
+    <filter type="mesh" bins="239" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="240">
+    <type>rectangular</type>
+    <lower_left>160.65 32.13</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="240">
+    <filter type="mesh" bins="240" />
+    <scores>nu-fission</scores>
+  </tally>
+
+  <mesh id="241">
+    <type>rectangular</type>
+    <lower_left>160.65 53.55</lower_left>
+    <width>1.26 1.26</width>
+    <dimension>17 17</dimension>
+  </mesh>
+  <tally id="241">
+    <filter type="mesh" bins="241" />
+    <scores>nu-fission</scores>
+  </tally>
+
+</tallies>

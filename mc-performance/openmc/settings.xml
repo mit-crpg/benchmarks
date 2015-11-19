@@ -22,4 +22,6 @@
     <upper_right>182.07  182.07  183.00</upper_right>
   </entropy>
 
+  <output> summary cross_sections </output>
+
 </settings>

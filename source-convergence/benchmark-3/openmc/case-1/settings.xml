@@ -31,4 +31,12 @@
     <upper_right>70. 10. 10.</upper_right>
   </entropy>
 
+  <survival_biasing> true </survival_biasing>
+  
+  <state_point>
+    <interval> 10 </interval>
+  </state_point>
+  
+  <output> summary cross_sections tallies </output>
+
 </settings>
