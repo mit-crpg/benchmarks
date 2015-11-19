@@ -3,7 +3,7 @@
 
   <tally id="1">
     <filter type="mesh" bins="1" />
-    <filter type="energy" />
+    <filter type="energy" bins="1E-11 0.0635E-6 10.0E-6 1.0E-4 1.0E-3 0.5 1.0 20.0"/>
     <scores>flux</scores>
   </tally>
 
@@ -14,7 +14,7 @@
 
   <mesh>
     <id>1</id>
-    <type>rectangular</type>
+    <type>regular</type>
     <lower_left> 0.0 0.0 0.0 </lower_left>
     <upper_right> 64.26 64.26 214.2 </upper_right>
     <dimension> 51 51 60 </dimension>
@@ -22,7 +22,7 @@
 
   <mesh>
     <id>2</id>
-    <type>rectangular</type>
+    <type>regular</type>
     <lower_left>   0.0  21.42 0.0 </lower_left>
     <upper_right> 42.84 64.26 192.78 </upper_right>
     <dimension> 34 34 54 </dimension>
