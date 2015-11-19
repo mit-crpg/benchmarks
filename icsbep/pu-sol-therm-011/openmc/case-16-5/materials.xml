@@ -4,46 +4,30 @@
   <!--
   ======================================================
   Description: Bare Sphere of Plutonium Nitrate Solution
-  Case:        PU-SOL-INTER-011 Case 16-5
-  Written By:  Paul Romano
-  Date:        1/31/2012
+  Case:        PU-SOL-THERM-011 Case 16-5
   ======================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Plutonium nitrate solution -->
   <material id="1">
-    <density value="1.1958" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="Pu-239" ao="1.0484e-04" />
     <nuclide name="Pu-240" ao="4.5432e-06" />
     <nuclide name="N-14"   ao="2.7369e-03" />
     <nuclide name="H-1"    ao="6.0233e-02" />
-    <nuclide name="O-16"   ao="3.7163e-02" />
-    <nuclide name="O-17"   ao="1.4127e-05" />    
-    <nuclide name="Fe-54"  ao="1.1282e-07" />
-    <nuclide name="Fe-56"  ao="1.7710e-06" />
-    <nuclide name="Fe-57"  ao="4.0901e-08" />
-    <nuclide name="Fe-58"  ao="5.4432e-09" />
-    <sab name="lwtr" xs="10t" />
+    <nuclide name="O-16"   ao="3.7177e-02" />
+    <element name="Fe"     ao="1.9302e-06" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- 347 Stainless Steel -->
   <material id="2">
-    <density value="8.0" units="g/cm3" />
-    <nuclide name="Fe-54" ao="3.5296e-03" />
-    <nuclide name="Fe-56" ao="5.5407e-02" />
-    <nuclide name="Fe-57" ao="1.2796e-03" />
-    <nuclide name="Fe-58" ao="1.7029e-04" />
-    <nuclide name="Cr-50" ao="7.2466e-04" />
-    <nuclide name="Cr-52" ao="1.3974e-02" />
-    <nuclide name="Cr-53" ao="1.5846e-03" />
-    <nuclide name="Cr-54" ao="3.9443e-04" />
-    <nuclide name="Ni-58" ao="6.7058e-03" />
-    <nuclide name="Ni-60" ao="2.5831e-03" />
-    <nuclide name="Ni-61" ao="1.1228e-04" />
-    <nuclide name="Ni-62" ao="3.5801e-04" />
-    <nuclide name="Ni-64" ao="9.1175e-05" />
+    <density units="sum" />
+    <element name="Fe" ao="6.0386e-03" />
+    <element name="Cr" ao="1.6678e-02" />
+    <element name="Ni" ao="9.8504e-03" />
   </material>
 
 </materials>

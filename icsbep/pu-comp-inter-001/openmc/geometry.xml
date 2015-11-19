@@ -12,6 +12,6 @@
 
   <surface id="1" type="sphere" coeffs="0. 0. 0. 100.0" boundary="reflective" />
 
-  <cell id="1" material="1" surfaces="-1" />
+  <cell id="1" material="1" region="-1" />
 
 </geometry>

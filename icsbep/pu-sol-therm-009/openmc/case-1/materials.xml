@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =============================================================
+  Description: Unreflected sphere of Plutonium Nitrate Solution
+  Case:        PU-SOL-INTER-009 Case 1
+  Written By:  Paul Romano
+  Date:        3/18/2014
+  =============================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Plutonium nitrate solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Pu-238" ao="1.0139e-09" />
+    <nuclide name="Pu-239" ao="2.4582e-05" />
+    <nuclide name="Pu-240" ao="6.3369e-07" />
+    <nuclide name="Pu-241" ao="1.8774e-08" />
+    <nuclide name="Pu-242" ao="3.4900e-09" />
+    <nuclide name="N-14"   ao="7.7494e-04" />
+    <nuclide name="H-1"    ao="6.5098e-02" />
+    <nuclide name="O-16"   ao="3.4542e-02" />
+    <sab name="HH2O" xs="71t" />
+    <!-- Impurities -->
+    <element name="Al"    ao="2.1110e-06" />
+    <element name="B"     ao="7.3750e-09" />
+    <element name="Cd"    ao="3.5470e-10" />
+    <element name="Cl"    ao="3.2120e-08" />
+    <element name="Ca"    ao="4.2630e-08" />
+    <element name="Cr"    ao="1.6430e-07" />
+    <element name="Gd"    ao="3.6220e-10" />
+    <element name="Ga"    ao="4.0850e-07" />
+    <element name="Fe"    ao="7.1380e-07" />
+    <element name="F"     ao="2.9980e-07" />
+    <element name="Mg"    ao="4.6850e-08" />
+    <element name="Mn"    ao="1.5550e-08" />
+    <element name="Ni"    ao="9.7040e-08" />
+    <element name="P"     ao="1.8390e-07" />
+    <element name="K"     ao="1.4570e-08" />
+    <element name="S"     ao="1.7760e-07" />
+    <element name="Si"    ao="1.0140e-07" />
+    <element name="Na"    ao="7.4310e-08" />
+    <nuclide name="U-235" ao="7.2690e-09" />
+  </material>
+
+  <!-- 1100 Aluminum -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Al"  ao="5.9881e-02" />
+    <element name="Si"  ao="3.7770e-04" />
+    <element name="Cu"  ao="5.1364e-05" />
+    <element name="Zn"  ao="2.4958e-05" />
+    <element name="Mn"  ao="1.4853e-05" />
+  </material>
+
+</materials>

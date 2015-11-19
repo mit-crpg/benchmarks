@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =========================================================
+  Description: Reflected Uranium-Hydride Critical Assembly
+  Case:        HEU-COMP-INTER-003 Case 4
+  =========================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Aluminum -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Al-27" ao="6.0239e-02" />
+  </material>
+
+  <!-- Depleted Uranium -->
+  <material id="2">
+    <density units="sum" />
+    <nuclide name="U-235" ao="9.7360e-05" />
+    <nuclide name="U-238" ao="4.7969e-02" />
+  </material>
+
+  <!-- SAE 1020 Steel -->
+  <material id="3">
+    <density units="sum" />
+    <element name="Fe" ao="6.9267e-02" />
+    <element name="C"  ao="5.4977e-04" />
+    <element name="Mn" ao="1.6969e-04" />
+  </material>
+
+  <!-- Fe -->
+  <material id="4">
+    <density units="sum" />
+    <element name="Fe" ao="8.5834e-02" />
+  </material>
+
+  <!-- Be -->
+  <material id="5">
+    <density units="sum" />
+    <nuclide name="Be-9" ao="1.2295e-01" />
+  </material>
+
+  <!-- HEU, Can I -->
+  <material id="11">
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.5279e-04" />
+    <nuclide name="U-235" ao="2.3450e-02" />
+    <nuclide name="U-236" ao="1.1027e-04" />
+    <nuclide name="U-238" ao="1.3421e-03" />
+    <element name="H"     ao="7.3871e-02" />
+    <element name="O"     ao="8.5553e-04" />
+    <element name="C"     ao="1.4562e-04" />
+    <element name="N"     ao="1.3593e-03" />
+    <element name="Fe"    ao="3.6677e-05" />
+    <element name="Au"    ao="3.3980e-04" />
+  </material>
+
+  <!-- HEU, Can II -->
+  <material id="12">
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.5484e-04" />
+    <nuclide name="U-235" ao="2.3409e-02" />
+    <nuclide name="U-236" ao="1.0757e-04" />
+    <nuclide name="U-238" ao="1.3371e-03" />
+    <element name="H"     ao="7.5396e-02" />
+    <element name="O"     ao="5.6703e-04" />
+    <element name="C"     ao="1.9893e-04" />
+    <element name="N"     ao="1.9699e-04" />
+    <element name="Fe"    ao="3.8266e-05" />
+    <element name="Au"    ao="3.3787e-04" />
+  </material>
+
+  <!-- HEU, Can III -->
+  <material id="13">
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.5651e-04" />
+    <nuclide name="U-235" ao="2.3550e-02" />
+    <nuclide name="U-236" ao="1.0829e-04" />
+    <nuclide name="U-238" ao="1.3584e-03" />
+    <element name="H"     ao="6.9913e-02" />
+    <element name="O"     ao="4.8424e-04" />
+    <element name="C"     ao="1.5288e-04" />
+    <element name="N"     ao="2.0644e-04" />
+    <element name="Fe"    ao="1.0366e-04" />
+    <element name="Au"    ao="3.4242e-04" />
+  </material>
+
+  <!-- HEU, Can IV -->
+  <material id="14">
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.4873e-04" />
+    <nuclide name="U-235" ao="2.2939e-02" />
+    <nuclide name="U-236" ao="1.0390e-04" />
+    <nuclide name="U-238" ao="1.3117e-03" />
+    <element name="H"     ao="7.2725e-02" />
+    <element name="O"     ao="6.3713e-04" />
+    <element name="C"     ao="1.5539e-04" />
+    <element name="N"     ao="2.4400e-04" />
+    <element name="Fe"    ao="2.0435e-05" />
+    <element name="Au"    ao="3.4196e-04" />
+  </material>
+
+  <!-- HEU, Can A -->
+  <material id="15">
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.4557e-04" />
+    <nuclide name="U-235" ao="2.3030e-02" />
+    <nuclide name="U-236" ao="1.0085e-04" />
+    <nuclide name="U-238" ao="1.3124e-03" />
+    <element name="H"     ao="7.0290e-02" />
+    <element name="O"     ao="6.0031e-04" />
+    <element name="C"     ao="9.6792e-05" />
+    <element name="N"     ao="2.6305e-04" />
+    <element name="Fe"    ao="8.9855e-05" />
+    <element name="Au"    ao="3.2844e-04" />
+  </material>
+
+  <!-- HEU, Can B -->
+  <material id="16">
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.5226e-04" />
+    <nuclide name="U-235" ao="2.2951e-02" />
+    <nuclide name="U-236" ao="1.0055e-04" />
+    <nuclide name="U-238" ao="1.3058e-03" />
+    <element name="H"     ao="7.3240e-02" />
+    <element name="O"     ao="4.9360e-04" />
+    <element name="C"     ao="1.2804e-04" />
+    <element name="N"     ao="2.3019e-04" />
+    <element name="Fe"    ao="6.7706e-05" />
+    <element name="Au"    ao="3.0140e-04" />
+  </material>
+
+</materials>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ===================================================
+  Description: ZPR-6/10, cylindrical Pu/C/SS assembly
+  Case:        PU-MET-INTER-002
+  ===================================================
+  -->
+
+  <surface id="1" type="z-cylinder" coeffs="0. 0.  41.93313" />
+  <surface id="2" type="z-cylinder" coeffs="0. 0.  86.88175" />
+  <surface id="3" type="z-cylinder" coeffs="0. 0. 104.17047" />
+  <surface id="4" type="z-cylinder" coeffs="0. 0. 115.32402" boundary="vacuum" />
+  <surface id="10" type="z-plane" coeffs="-121.92000" boundary="vacuum" />
+  <surface id="11" type="z-plane" coeffs="-92.08002" />
+  <surface id="12" type="z-plane" coeffs="-38.17874" />
+  <surface id="13" type="z-plane" coeffs=" 38.17874" />
+  <surface id="14" type="z-plane" coeffs=" 92.08002" />
+  <surface id="15" type="z-plane" coeffs="121.92000" boundary="vacuum" />
+
+  <cell id="1" material="5" region="  -4 10 -11" /> <!-- Empty matrix -->
+  <cell id="2" material="2" region="  -1 11 -12" /> <!-- SS axial reflector -->
+  <cell id="3" material="1" region="  -1 12 -13" /> <!-- Pu/C/SST core -->
+  <cell id="4" material="2" region="  -1 13 -14" /> <!-- SS axial reflector -->
+  <cell id="5" material="3" region="1 -2 11 -14" /> <!-- SS radial reflector -->
+  <cell id="6" material="4" region="2 -3 11 -14" /> <!-- Iron radial reflector -->
+  <cell id="7" material="5" region="3 -4 11 -14" /> <!-- Empty matrix -->
+  <cell id="8" material="5" region="  -4 14 -15" /> <!-- Empty matrix -->
+
+</geometry>

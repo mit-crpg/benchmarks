@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =======================================================
+  Description: Bare sphere of Pu-239 (alpha, 88%), VNIIEF
+  Case:        PU-MET-FAST-029 Detailed model
+  =======================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 0.800" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 1.400" />
+  <surface id="3" type="sphere" coeffs="0. 0. 0. 3.150" />
+  <surface id="4" type="sphere" coeffs="0. 0. 0. 4.020" />
+  <surface id="5" type="sphere" coeffs="0. 0. 0. 4.660" />
+  <surface id="6" type="sphere" coeffs="0. 0. 0. 5.350" boundary="vacuum" />
+
+  <cell id="1" material="void" region="  -1" />
+  <cell id="2" material="1"    region="1 -2" />
+  <cell id="3" material="2"    region="2 -3" />
+  <cell id="4" material="3"    region="3 -4" />
+  <cell id="5" material="4"    region="4 -5" />
+  <cell id="6" material="5"    region="5 -6" />
+
+</geometry>

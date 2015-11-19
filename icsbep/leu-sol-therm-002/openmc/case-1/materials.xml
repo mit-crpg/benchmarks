@@ -5,46 +5,39 @@
   =======================================================
   Description: Sphere of Low-enriched Uranium Oxyfluoride
   Case:        LEU-SOL-THERM-002 Experiment 1
-  Written By:  Paul Romano
-  Date:        1/29/2012
   =======================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Uranium Oxyfluoride Solution -->
   <material id="1">
-    <density value="1.516" units="g/cm3" />
-    <nuclide name="U-234" ao="2.3271e-7" />
-    <nuclide name="U-235" ao="5.6655e-5" />
-    <nuclide name="U-238" ao="1.0878e-3" />
-    <nuclide name="F-19"  ao="2.2893e-3" />
-    <nuclide name="O-16"  ao="0.03338930724" />
-    <nuclide name="O-17"  ao="1.269276e-5" />
-    <nuclide name="H-1"   ao="6.2226e-2" />
-    <sab name="lwtr" xs="10t" />
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.3271e-07" />
+    <nuclide name="U-235" ao="5.6655e-05" />
+    <nuclide name="U-238" ao="1.0878e-03" />
+    <element name="F"     ao="2.2893e-03" />
+    <element name="O"     ao="3.3402e-02" />
+    <nuclide name="H-1"   ao="6.2226e-02" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Type 1100 Aluminum -->
   <material id="2">
-    <density value="2.71" units="g/cm3" />
-    <nuclide name="Al-27"  ao="5.9699e-2" />
-    <nuclide name="Si-28"  ao="0.00050912638994" />
-    <nuclide name="Si-29"  ao="2.585192463e-5" />
-    <nuclide name="Si-30"  ao="1.704168543e-5" />
-    <nuclide name="Cu-63"  ao="3.55284788e-5" />
-    <nuclide name="Cu-65"  ao="1.58355212e-5" />
-    <nuclide name="Zn-Nat" ao="2.4958e-5" />
-    <nuclide name="Mn-55"  ao="1.4853e-5" />
+    <density units="sum" />
+    <element name="Al" ao="5.9699e-02" />
+    <element name="Si" ao="5.5202e-04" />
+    <element name="Cu" ao="5.1364e-05" />
+    <element name="Zn" ao="2.4958e-05" />
+    <element name="Mn" ao="1.4853e-05" />
   </material>
 
   <!-- Water -->
   <material id="3">
-    <density value="0.99705" units="g/cm3" />
-    <nuclide name="H-1"  ao="6.6659e-2" />
-    <nuclide name="O-16" ao="0.03331633498" />
-    <nuclide name="O-17" ao="1.266502e-05" />
-    <sab name="lwtr" xs="10t" />
+    <density units="sum" />
+    <nuclide name="H-1" ao="6.6659e-02" />
+    <element name="O"   ao="3.3329e-02" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
 </materials>

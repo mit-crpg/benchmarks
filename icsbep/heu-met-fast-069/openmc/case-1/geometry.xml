@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==========================================================================
+  Description: Oralloy (93.2 wt% U-235) Metal Cylinder with Be Top Reflector
+  Case:        HEU-MET-FAST-069 Detailed model
+  ==========================================================================
+  -->
+
+  <surface id="1"  type="z-plane" coeffs="0.0" boundary="vacuum" />
+  <surface id="2"  type="z-plane" coeffs="3.816604" /> <!-- top of 2733 -->
+  <surface id="3"  type="z-plane" coeffs="3.818382" /> <!-- bottom of 2734 -->
+  <surface id="4"  type="z-plane" coeffs="7.632573" />
+  <surface id="5"  type="z-plane" coeffs="7.634351" /> <!-- bottom of 2732 -->
+  <surface id="6"  type="z-plane" coeffs="10.177526" />
+  <surface id="7"  type="z-plane" coeffs="10.179304" /> <!-- bottom of 2768 -->
+  <surface id="8"  type="z-plane" coeffs="10.496804" />
+  <surface id="9"  type="z-plane" coeffs="10.50163" /> <!-- bottom of 1.5" Be -->
+  <surface id="10" type="z-plane" coeffs="14.31163" />
+  <surface id="11" type="z-plane" coeffs="14.316456" /> <!-- bottom of 2" Be -->
+  <surface id="12" type="z-plane" coeffs="19.396456" />
+  <surface id="13" type="z-plane" coeffs="19.401282" /> <!-- bottom of 1" Be -->
+  <surface id="14" type="z-plane" coeffs="21.941282" />
+  <surface id="15" type="z-plane" coeffs="21.946108" /> <!-- bottom of 1/2" Be -->
+  <surface id="16" type="z-plane" coeffs="23.216108" />
+  <surface id="17" type="z-plane" coeffs="23.220934" /> <!-- Bottom of 9/16" Be -->
+  <surface id="18" type="z-plane" coeffs="24.649684" boundary="vacuum" />
+
+  <surface id="20"  type="z-cylinder" coeffs="0. 0. 8.884920" /> <!-- 17.769840 cm OD -->
+  <surface id="21"  type="z-cylinder" coeffs="0. 0. 8.885428" /> <!-- 17.770856 cm OD -->
+  <surface id="22"  type="z-cylinder" coeffs="0. 0. 8.885460" /> <!-- 17.770920 cm OD -->
+  <surface id="23"  type="z-cylinder" coeffs="0. 0. 8.885555" /> <!-- 17.771110 cm OD -->
+  <surface id="24"  type="z-cylinder" coeffs="0. 0. 8.886030" boundary="vacuum" /> <!-- 17.772060 cm OD -->
+
+  <!-- HEU cylinders -->
+  <cell id="1" material="2" region=" 1  -2 -24" /> <!-- 2733 -->
+  <cell id="2" material="3" region=" 3  -4 -21" /> <!-- 2734 -->
+  <cell id="3" material="1" region=" 5  -6 -20" /> <!-- 2732 -->
+  <cell id="4" material="4" region=" 7  -8 -23" /> <!-- 2768 -->
+
+  <!-- Be cylinders -->
+  <cell id="5" material="8" region=" 9 -10 -22" /> <!-- 1.5" Be -->
+  <cell id="6" material="9" region="11 -12 -22" /> <!-- 2" Be -->
+  <cell id="7" material="7" region="13 -14 -22" /> <!-- 1" Be -->
+  <cell id="8" material="5" region="15 -16 -22" /> <!-- 1/2" Be -->
+  <cell id="9" material="6" region="17 -18 -22" /> <!-- 9/16" Be -->
+
+  <!-- void to fill in spaces -->
+  <cell id="10" material="void" region=" 2  -3    -24" />
+  <cell id="11" material="void" region=" 3  -4 21 -24" />
+  <cell id="12" material="void" region=" 4  -5    -24" />
+  <cell id="13" material="void" region=" 5  -6 20 -24" />
+  <cell id="14" material="void" region=" 6  -7    -24" />
+  <cell id="15" material="void" region=" 7  -8 23 -24" />
+  <cell id="16" material="void" region=" 8  -9    -22" />
+  <cell id="17" material="void" region="10 -11    -22" />
+  <cell id="18" material="void" region="12 -13    -22" />
+  <cell id="19" material="void" region="14 -15    -22" />
+  <cell id="20" material="void" region="16 -17    -22" />
+  <cell id="21" material="void" region=" 8 -18 22 -24" />
+
+</geometry>

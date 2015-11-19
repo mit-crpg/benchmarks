@@ -5,37 +5,27 @@
   ============================================================
   Description: Graphite-reflected sphere of 98% Pu-239, VNIIEF
   Case:        PU-MET-FAST-023 Simplified model
-  Written By:  Paul Romano
-  Date:        1/29/2012
   ============================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- 98% Pu-239 in delta phase -->
   <material id="1">
-    <density value="0.04184626" units="atom/b-cm" />
-    <nuclide name="Pu-239" ao="3.6603e-2" />
-    <nuclide name="Pu-240" ao="6.6913e-4" />
-    <nuclide name="Ga-69" ao="0.001319731248" />
-    <nuclide name="Ga-71" ao="0.000875868752" />
-    <nuclide name="Fe-54" ao="8.233267e-6" />
-    <nuclide name="Fe-56" ao="0.0001292446844" />
-    <nuclide name="Fe-57" ao="2.9848234e-6" />
-    <nuclide name="Fe-58" ao="3.972252e-7" />
-    <nuclide name="C-Nat" ao="2.8927e-4" />
-    <nuclide name="Ni-58" ao="0.0013264103196" />
-    <nuclide name="Ni-60" ao="0.0005109308804" />
-    <nuclide name="Ni-61" ao="2.22098116e-5" />
-    <nuclide name="Ni-62" ao="7.0814598e-5" />
-    <nuclide name="Ni-64" ao="1.80343904e-5" />
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.6603e-02" />
+    <nuclide name="Pu-240" ao="6.6913e-04" />
+    <element name="Ga"     ao="2.1956e-03" />
+    <element name="Fe"     ao="1.4086e-04" />
+    <element name="C"      ao="2.8927e-04" />
+    <element name="Ni"     ao="1.9484e-03" />
   </material>
 
   <!-- Graphite -->
   <material id="2">
-    <density value="9.1842e-2" units="atom/b-cm" />
-    <nuclide name="C-Nat" ao="1.0" />
-    <sab name="grph" xs="10t" />
+    <density units="sum" />
+    <element name="C" ao="9.1842e-02" />
+    <sab name="Graph" xs="71t" />
   </material>
 
 </materials>

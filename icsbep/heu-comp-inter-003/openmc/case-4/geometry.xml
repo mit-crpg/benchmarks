@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =========================================================
+  Description: Reflected Uranium Hydride Critical Assembly
+  Case:        HEU-COMP-INTER-003 Case 4
+  =========================================================
+  -->
+
+  <surface id="1"  type="z-plane" coeffs="-1.2700" boundary="vacuum" />
+  <surface id="2"  type="z-plane" coeffs="0.0000" />
+  <surface id="3"  type="z-plane" coeffs="5.0800" /> <!-- Botton of Fe reflector -->
+  <surface id="4"  type="z-plane" coeffs="7.4200" /> <!-- Bottom of Filler -->
+  <surface id="5"  type="z-plane" coeffs="7.5788" /> <!-- Bottom of A -->
+  <surface id="6"  type="z-plane" coeffs="7.5998" />
+  <surface id="7"  type="z-plane" coeffs="9.6089" /> 
+  <surface id="8"  type="z-plane" coeffs="9.6299" /> <!-- Bottom of II -->
+  <surface id="9"  type="z-plane" coeffs="9.6553" />
+  <surface id="10" type="z-plane" coeffs="12.6274" />
+  <surface id="11" type="z-plane" coeffs="12.6528" /> <!-- Bottom of spacer -->
+  <surface id="12" type="z-plane" coeffs="14.0259" /> <!-- Bottom of I -->
+  <surface id="13" type="z-plane" coeffs="14.0513" />
+  <surface id="14" type="z-plane" coeffs="17.0519" />
+  <surface id="15" type="z-plane" coeffs="17.0773" /> <!-- Bottom of B -->
+  <surface id="16" type="z-plane" coeffs="17.0983" />
+  <surface id="17" type="z-plane" coeffs="19.1108" />
+  <surface id="18" type="z-plane" coeffs="19.1318" /> <!-- Bottom of Filler -->
+  <surface id="19" type="z-plane" coeffs="19.2906" /> <!-- Bottom of Fe reflector -->
+  <surface id="20" type="z-plane" coeffs="21.6306" />
+  <surface id="21" type="z-plane" coeffs="24.9885" />
+  <surface id="22" type="z-plane" coeffs="26.7106" />
+  <surface id="23" type="z-plane" coeffs="30.0685" boundary="vacuum" />
+  <surface id="24" type="z-cylinder" coeffs="0. 0. 6.0325" /> <!-- Al spacer IR -->
+  <surface id="25" type="z-cylinder" coeffs="0. 0. 6.3500" /> <!-- Al spacer OR -->
+  <surface id="26" type="z-cylinder" coeffs="0. 0. 7.5050" /> <!-- Can IR -->
+  <surface id="27" type="z-cylinder" coeffs="0. 0. 7.5438" /> <!-- Can OR -->
+  <surface id="28" type="z-cylinder" coeffs="0. 0. 7.5489" /> <!-- Iron sleeve IR -->
+  <surface id="29" type="z-cylinder" coeffs="0. 0. 7.6759" /> <!-- Iron sleeve OR -->
+  <surface id="30" type="z-cylinder" coeffs="0. 0. 7.7013" /> <!-- Inner reflector IR -->
+  <surface id="31" type="z-cylinder" coeffs="0. 0. 10.0609" /> <!-- Outer reflector IR -->
+  <surface id="32" type="z-cylinder" coeffs="0. 0. 15.1409" boundary="vacuum" />
+
+  <!-- Bottom Shielding -->
+  <cell id="1"  material="1"    region=" 1  -2 -32" />
+  <cell id="2"  material="2"    region=" 2  -3 -27" />
+  <!-- Fe reflector -->
+  <cell id="3"  material="4"    region=" 3  -4 -27" />
+  <!-- Steel Filler -->
+  <cell id="4"  material="3"    region=" 4  -5 -26" />
+  <cell id="5"  material="void" region=" 4  -5  26 -27" />
+  <!-- Can A -->
+  <cell id="6"  material="3"    region=" 5  -6 -27" />
+  <cell id="7"  material="15"   region=" 6  -7 -26" />
+  <cell id="8"  material="3"    region=" 6  -7  26 -27" />
+  <cell id="9"  material="3"    region=" 7  -8 -27" />
+  <!-- Can II -->
+  <cell id="10" material="3"    region=" 8  -9 -27" />
+  <cell id="11" material="12"   region=" 9 -10 -26" />
+  <cell id="12" material="3"    region=" 9 -10  26 -27" />
+  <cell id="13" material="3"    region="10 -11 -27" />
+  <!-- Al Spacer -->
+  <cell id="14" material="void" region="11 -12 -24" />
+  <cell id="15" material="1"    region="11 -12  24 -25" />
+  <cell id="16" material="void" region="11 -12  25 -27" />
+  <!-- Can I -->
+  <cell id="17" material="3"    region="12 -13 -27" />
+  <cell id="18" material="11"   region="13 -14 -26" />
+  <cell id="19" material="3"    region="13 -14  26 -27" />
+  <cell id="20" material="3"    region="14 -15 -27" />
+  <!-- Can B -->
+  <cell id="21" material="3"    region="15 -16 -27" />
+  <cell id="22" material="16"   region="16 -17 -26" />
+  <cell id="23" material="3"    region="16 -17  26 -27" />
+  <cell id="24" material="3"    region="17 -18 -27" />
+  <!-- Steel Filler -->
+  <cell id="25" material="3"    region="18 -19 -26" />
+  <cell id="26" material="void" region="18 -19  26 -27" />
+  <!-- Fe reflector -->
+  <cell id="27" material="4"    region="19 -20 -27" />
+  <!--Top Shielding -->
+  <cell id="28" material="2"    region="20 -22 -27" />
+  <cell id="29" material="void" region="22 -23 -27" />
+  <!-- Fe inner reflector -->
+  <cell id="30" material="4"    region=" 3 -21  30 -31" />
+  <!-- Cylindrical Shielding -->
+  <cell id="31" material="void" region=" 2 -23 27 -28" />
+  <cell id="32" material="4"    region=" 2 -23 28 -29" /> <!-- Fe Sleeve -->
+  <cell id="33" material="void" region=" 2 -23 29 -30" />
+  <cell id="34" material="2"    region=" 2  -3 30 -31" /> <!-- DU Reflector -->
+  <cell id="35" material="2"    region="21 -23 30 -31" /> <!-- DU Reflector -->
+  <cell id="36" material="2"    region=" 2 -23 31 -32" /> <!-- DU Reflector -->
+
+</geometry>

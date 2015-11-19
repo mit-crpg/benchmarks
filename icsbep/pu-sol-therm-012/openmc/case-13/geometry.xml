@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ===========================================================================
+  Description: Plutonium nitrate solution in large water-reflected cubic tank
+  Case:        PU-SOL-THERM-012 Case 13
+  ===========================================================================
+  -->
+
+  <surface id="1" type="x-plane" coeffs="-90.5" boundary="vacuum" />
+  <surface id="2" type="x-plane" coeffs="-65.5" />
+  <surface id="3" type="x-plane" coeffs="-65.0" />
+  <surface id="4" type="x-plane" coeffs="-64.0" />
+  <surface id="5" type="x-plane" coeffs=" 64.0" />
+  <surface id="6" type="x-plane" coeffs=" 65.0" />
+  <surface id="7" type="x-plane" coeffs=" 65.5" />
+  <surface id="8" type="x-plane" coeffs=" 90.5" boundary="vacuum" />
+
+  <surface id="11" type="y-plane" coeffs="-90.5" boundary="vacuum" />
+  <surface id="12" type="y-plane" coeffs="-65.5" />
+  <surface id="13" type="y-plane" coeffs="-65.0" />
+  <surface id="14" type="y-plane" coeffs="-64.0" />
+  <surface id="15" type="y-plane" coeffs=" 64.0" />
+  <surface id="16" type="y-plane" coeffs=" 65.0" />
+  <surface id="17" type="y-plane" coeffs=" 65.5" />
+  <surface id="18" type="y-plane" coeffs=" 90.5" boundary="vacuum" />
+
+  <surface id="21" type="z-plane" coeffs="-25.5" boundary="vacuum" />
+  <surface id="22" type="z-plane" coeffs=" -0.5" />
+  <surface id="23" type="z-plane" coeffs="  0.0" />
+  <surface id="24" type="z-plane" coeffs=" 67.46" />
+  <surface id="25" type="z-plane" coeffs=" 80.0" />
+  <surface id="26" type="z-plane" coeffs=" 81.0" />
+  <surface id="27" type="z-plane" coeffs=" 99.0" />
+  <surface id="28" type="z-plane" coeffs="100.0" boundary="vacuum" />
+
+  <cell id="1" material="1" region="3 -6 13 -16 23 -24" /> <!-- Fuel solution -->
+  <cell id="2" material="2" region="3 -6 13 -16 24 -25" /> <!-- Air above fuel -->
+
+  <!-- Stainless steel tank -->
+  <cell id="10" material="3" region="2 -7 12 -17 22 -23" />
+  <cell id="11" material="3" region="2 -3 12 -17 23 -28" />
+  <cell id="12" material="3" region="3 -6 12 -13 23 -28" />
+  <cell id="13" material="3" region="3 -6 16 -17 23 -28" />
+  <cell id="14" material="3" region="6 -7 12 -17 23 -28" />
+
+  <!-- Lucoflex box -->
+  <cell id="20" material="4" region="3 -6 13 -16 25 -26" />
+  <cell id="21" material="4" region="3 -4 13 -16 26 -27" />
+  <cell id="22" material="4" region="4 -5 13 -14 26 -27" />
+  <cell id="23" material="4" region="4 -5 15 -16 26 -27" />
+  <cell id="24" material="4" region="5 -6 13 -16 26 -27" />
+  <cell id="25" material="4" region="3 -6 13 -16 27 -28" />
+
+  <!-- Air in lucoflex box -->
+  <cell id="26" material="2" region="4 -5 14 -15 26 -27" />
+
+  <!-- Water -->
+  <cell id="30" material="5" region="1 -8 11 -18 21 -22" />
+  <cell id="31" material="5" region="1 -2 11 -18 22 -24" />
+  <cell id="32" material="5" region="2 -7 11 -12 22 -24" />
+  <cell id="33" material="5" region="2 -7 17 -18 22 -24" />
+  <cell id="34" material="5" region="7 -8 11 -18 22 -24" />
+
+  <!-- Air above water -->
+  <cell id="35" material="2" region="1 -2 11 -18 24 -28" />
+  <cell id="36" material="2" region="2 -7 11 -12 24 -28" />
+  <cell id="37" material="2" region="2 -7 17 -18 24 -28" />
+  <cell id="38" material="2" region="7 -8 11 -18 24 -28" />
+
+</geometry>

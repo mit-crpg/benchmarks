@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ======================================================
+  Description: Bare Sphere of Plutonium Nitrate Solution
+  Case:        PU-SOL-THERM-011 Case 16-4
+  ======================================================
+  -->
+
+  <cell id="1" material="1" region="-1" />
+  <cell id="2" material="2" region="1 -2" />
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 20.1206" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 20.2476" boundary="vacuum" />
+
+</geometry>

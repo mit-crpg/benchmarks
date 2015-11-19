@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==================================================================================
+  Description: Spherical assembly of 235U (36%) with a 5.75cm Polyethylene Reflector
+  Case:        IEU-MET-FAST-009
+  ==================================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- 36 wt% U-235, Layer 1 -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="1.5922e-04" />
+    <nuclide name="U-235" ao="1.7440e-02" />
+    <nuclide name="U-238" ao="2.9990e-02" />
+    <element name="C"     ao="4.7009e-04" />
+    <element name="Fe"    ao="1.6176e-04" />
+    <element name="W"     ao="1.2284e-05" />
+  </material>
+
+  <!-- 36 wt% U-235, Layer 2 -->
+  <material id="2">
+    <density units="sum" />
+    <nuclide name="U-234" ao="1.5878e-04" />
+    <nuclide name="U-235" ao="1.7415e-02" />
+    <nuclide name="U-238" ao="2.9887e-02" />
+    <element name="C"     ao="3.7502e-04" />
+    <element name="Fe"    ao="1.6131e-04" />
+    <element name="W"     ao="1.2250e-05" />
+  </material>
+
+  <!-- 36 wt% U-235, Layer 3 -->
+  <material id="3">
+    <density units="sum" />
+    <nuclide name="U-234" ao="1.5803e-04" />
+    <nuclide name="U-235" ao="1.7418e-02" />
+    <nuclide name="U-238" ao="2.9651e-02" />
+    <element name="C"     ao="5.5986e-04" />
+    <element name="Fe"    ao="1.6054e-04" />
+    <element name="W"     ao="1.2192e-05" />
+  </material>
+
+  <!-- 36 wt% U-235, Layer 4 -->
+  <material id="4">
+    <density units="sum" />
+    <nuclide name="U-234" ao="1.3423e-04" />
+    <nuclide name="U-235" ao="1.7356e-02" />
+    <nuclide name="U-238" ao="2.9786e-02" />
+    <element name="C"     ao="7.4727e-04" />
+    <element name="Fe"    ao="1.2054e-04" />
+    <element name="W"     ao="1.2205e-05" />
+  </material>
+
+  <!-- 36 wt% U-235, Layer 5 -->
+  <material id="5">
+    <density units="sum" />
+    <nuclide name="U-234" ao="1.6281e-04" />
+    <nuclide name="U-235" ao="1.7417e-02" />
+    <nuclide name="U-238" ao="2.9663e-02" />
+    <element name="C"     ao="5.5983e-04" />
+    <element name="Fe"    ao="1.0034e-04" />
+    <element name="W"     ao="6.0956e-06" />
+  </material>
+
+  <!-- Polyethylene, Layer 1 -->
+  <material id="6">
+    <density units="sum" />
+    <nuclide name="H-1" ao="7.5542e-02" />
+    <element name="C"   ao="3.7771e-02" />
+    <sab name="HCH2" xs="71t" />
+  </material>
+
+  <!-- Polyethylene, Layer 2 -->
+  <material id="7">
+    <density units="sum" />
+    <nuclide name="H-1" ao="7.4170e-02" />
+    <element name="C"   ao="3.7085e-02" />
+    <sab name="HCH2" xs="71t" />
+  </material>
+
+</materials>

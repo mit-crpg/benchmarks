@@ -2,62 +2,44 @@
 <materials>
 
   <!--
-  ==========================================================
-  Description: Sphere of Highly Enriched Uranium Reflected
-               by Aluminum
+  ================================================
+  Description: Sphere of HEU Reflected by Aluminum
   Case:        HEU-MET-FAST-012
-  Written By:  Steven Fine
-  Date:        3/29/2012
-  ==========================================================
+  ================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- HEU -->
   <material id="1">
-    <density value="17.9924" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="U-235" ao="4.0999e-02" />
     <nuclide name="U-238" ao="4.0989e-03" />
     <nuclide name="U-234" ao="5.2246e-04" />
     <nuclide name="U-236" ao="8.7970e-05" />
-    <nuclide name="C-Nat" ao="3.8652e-04" />
-    <nuclide name="Fe-54" ao="7.9165e-06" />
-    <nuclide name="Fe-56" ao="1.2427e-04" />
-    <nuclide name="Fe-57" ao="2.8700e-06" />
-    <nuclide name="Fe-58" ao="3.8194e-07" />
-    <nuclide name="W-182" ao="3.3046e-06" />
-    <nuclide name="W-183" ao="1.7764e-06" />
-    <nuclide name="W-184" ao="3.8036e-06" />
-    <nuclide name="W-186" ao="3.5293e-06" />
-    <nuclide name="Cu-63" ao="4.9836e-04" />
-    <nuclide name="Cu-65" ao="2.2213e-04" />
-    <nuclide name="Ni-58" ao="2.2760e-04" />
-    <nuclide name="Ni-60" ao="8.7672e-05" />
-    <nuclide name="Ni-61" ao="3.8110e-06" />
-    <nuclide name="Ni-62" ao="1.2151e-05" />
-    <nuclide name="Ni-64" ao="3.0946e-06" />
+    <element name="C"     ao="3.8652e-04" />
+    <element name="Fe"    ao="1.3544e-04" />
+    <element name="W"     ao="1.2414e-05" />
+    <element name="Cu"    ao="7.2049e-04" />
+    <element name="Ni"    ao="3.3433e-04" />
   </material>
 
   <!-- Aluminum reflector -->
   <material id="2">
-    <density value="5.8566e-02" units="atom/b-cm" />
-    <nuclide name="Al-27" ao="5.8566e-02" />
+    <density units="sum" />
+    <element name="Al" ao="5.8566e-02" />
   </material>
 
   <!-- Steel -->
   <material id="3">
-    <density value="7.5278" units="g/cm3" />
-    <nuclide name="Fe-54" ao="4.7446e-03" />
-    <nuclide name="Fe-56" ao="7.4480e-02" />
-    <nuclide name="Fe-57" ao="1.7201e-03" />
-    <nuclide name="Fe-58" ao="2.2891e-04" />
+    <density units="sum" />
+    <element name="Fe" ao="8.1174e-02" />
   </material>
 
   <!-- Copper -->
   <material id="4">
-    <density value="8.6913" units="g/cm3" />
-    <nuclide name="Cu-63" ao="5.6972e-02" />
-    <nuclide name="Cu-65" ao="2.5393e-02" />
+    <density units="sum" />
+    <element name="Cu" ao="8.2365e-02" />
   </material>
 
 </materials>

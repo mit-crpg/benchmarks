@@ -5,13 +5,11 @@
   =======================================================
   Description: Sphere of Low-enriched Uranium Oxyfluoride
   Case:        LEU-SOL-THERM-002 Experiment 2
-  Written By:  Paul Romano
-  Date:        1/29/2012
   =======================================================
   -->
 
-  <cell id="1" material="1" surfaces="  -1" /> <!-- Solution -->
-  <cell id="2" material="2" surfaces="1 -2" /> <!-- Aluminum 1100 shell -->
+  <cell id="1" material="1" region="  -1" /> <!-- Solution -->
+  <cell id="2" material="2" region="1 -2" /> <!-- Aluminum 1100 shell -->
 
   <surface id="1" type="sphere" coeffs="0. 0. 0. 34.4995" />
   <surface id="2" type="sphere" coeffs="0. 0. 0. 34.6583" boundary="vacuum" />

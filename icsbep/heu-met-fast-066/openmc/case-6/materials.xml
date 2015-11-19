@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ========================================================================
+  Description: Metal spherical shells of HEU moderated and reflected by Be
+  Case:        HEU-MET-FAST-066 Case 6
+  ========================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Beryllium (source) -->
+  <material id="1">
+    <density units="sum" />
+    <element name="Be" ao="1.1862e-01" />
+    <sab name="Be" xs="71t" />
+  </material>
+
+  <!-- Nickel -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Ni" ao="9.1290e-02" />
+  </material>
+
+  <!-- Air -->
+  <material id="3">
+    <density units="sum" />
+    <element name="N"  ao="3.8595e-05" />
+    <element name="O"  ao="1.0386e-05" />
+    <element name="Ar" ao="4.6160e-07" />
+    <element name="C"  ao="1.6307e-08" />
+  </material>
+
+  <!-- Beryllium (moderator/reflector) -->
+  <material id="4">
+    <density units="sum" />
+    <element name="Be" ao="1.2295e-01" />
+    <sab name="Be" xs="71t" />
+  </material>
+
+  <!-- HEU -->
+  <material id="5">
+    <density units="sum" />
+    <nuclide name="U-234" ao="4.8048e-04" />
+    <nuclide name="U-235" ao="4.4575e-02" />
+    <nuclide name="U-238" ao="2.7540e-03" />
+  </material>
+
+
+</materials>

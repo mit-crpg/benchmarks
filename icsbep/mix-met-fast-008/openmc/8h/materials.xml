@@ -5,86 +5,50 @@
   ==========================================
   Description: ZEBRA k-infinity experiment
   Case:        MIX-MET-FAST-008 Case 8H
-  Written By:  Paul Romano
-  Date:        2/5/2011
   ==========================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Enriched U metal (37.5 w/o) -->
   <material id="1">
-    <density value="18.3890" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="U-235" ao="1.7730e-02" />
     <nuclide name="U-238" ao="2.8957e-02" />
-    <nuclide name="C-Nat" ao="1.8452e-04" />
-    <nuclide name="O-16"  ao="3.4618e-04" />
-    <nuclide name="O-17"  ao="1.3160e-07" />
-    <nuclide name="Fe-54" ao="3.4794e-06" />
-    <nuclide name="Fe-56" ao="5.4618e-05" />
-    <nuclide name="Fe-57" ao="1.2614e-06" />
-    <nuclide name="Fe-58" ao="1.6787e-07" />
-    <nuclide name="Al-27" ao="4.1070e-05" />
-    <nuclide name="H-1"   ao="4.3978e-05" />
-    <nuclide name="Si-28" ao="3.6390e-05" />
-    <nuclide name="Si-29" ao="1.8478e-06" />
-    <nuclide name="Si-30" ao="1.2181e-06" />
+    <element name="C"     ao="1.8452e-04" />
+    <element name="O"     ao="3.4631e-04" />
+    <element name="Fe"    ao="5.9527e-05" />
+    <element name="Al"    ao="4.1070e-05" />
+    <element name="H"     ao="4.3978e-05" />
+    <element name="Si"    ao="3.9456e-05" />
   </material>
 
   <!-- Natural U metal -->
   <material id="2">
-    <density value="18.3227" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="U-235" ao="3.3316e-04" />
     <nuclide name="U-238" ao="4.5948e-02" />
-    <nuclide name="C-Nat" ao="4.9205e-04" />
-    <nuclide name="Fe-54" ao="6.1858e-06" />
-    <nuclide name="Fe-56" ao="9.7103e-05" />
-    <nuclide name="Fe-57" ao="2.2425e-06" />
-    <nuclide name="Fe-58" ao="2.9844e-07" />
-    <nuclide name="H-1"   ao="4.3978e-05" />
-    <nuclide name="Si-28" ao="1.9408e-04" />
-    <nuclide name="Si-29" ao="9.8548e-06" />
-    <nuclide name="Si-30" ao="6.4963e-06" />
+    <element name="C"     ao="4.9205e-04" />
+    <element name="Fe"    ao="1.0583e-04" />
+    <element name="H"     ao="4.3978e-05" />
+    <element name="Si"    ao="2.1043e-04" />
   </material>
 
   <!-- Sheath -->
   <material id="3">
-    <density value="7.7681" units="g/cm3" />
-    <nuclide name="C-Nat"  ao="7.7829e-04" />
-    <nuclide name="Fe-54"  ao="3.3097e-03" />
-    <nuclide name="Fe-56"  ao="5.1955e-02" />
-    <nuclide name="Fe-57"  ao="1.1999e-03" />
-    <nuclide name="Fe-58"  ao="1.5968e-04" />
-    <nuclide name="Cr-50"  ao="6.9985e-04" />
-    <nuclide name="Cr-52"  ao="1.3496e-02" />
-    <nuclide name="Cr-53"  ao="1.5303e-03" />
-    <nuclide name="Cr-54"  ao="3.8093e-04" />
-    <nuclide name="Cu-63"  ao="5.1084e-05" />
-    <nuclide name="Cu-65"  ao="2.2769e-05" />
-    <nuclide name="Mo-92"  ao="2.1718e-05" />
-    <nuclide name="Mo-94"  ao="1.3537e-05" />
-    <nuclide name="Mo-95"  ao="2.3299e-05" />
-    <nuclide name="Mo-96"  ao="2.4411e-05" />
-    <nuclide name="Mo-97"  ao="1.3976e-05" />
-    <nuclide name="Mo-98"  ao="3.5314e-05" />
-    <nuclide name="Mo-100" ao="1.4094e-05" />
-    <nuclide name="Mn-55"  ao="1.1918e-03" />
-    <nuclide name="Ni-58"  ao="6.1297e-03" />
-    <nuclide name="Ni-60"  ao="2.3612e-03" />
-    <nuclide name="Ni-61"  ao="1.0264e-04" />
-    <nuclide name="Ni-62"  ao="3.2725e-04" />
-    <nuclide name="Ni-64"  ao="8.3342e-05" />
-    <nuclide name="Al-27"  ao="3.4646e-04" />
-    <nuclide name="Ti-46"  ao="2.4194e-05" />
-    <nuclide name="Ti-47"  ao="2.1819e-05" />
-    <nuclide name="Ti-48"  ao="2.1619e-04" />
-    <nuclide name="Ti-49"  ao="1.5865e-05" />
-    <nuclide name="Ti-50"  ao="1.5191e-05" />
-    <nuclide name="H-1"    ao="2.2714e-05" />
-    <nuclide name="Si-28"  ao="9.2219e-04" />
-    <nuclide name="Si-29"  ao="4.6826e-05" />
-    <nuclide name="Si-30"  ao="3.0868e-05" />
-    <nuclide name="V-Nat"  ao="9.2127e-05" />
+    <density units="sum" />
+    <element name="C"  ao="7.7829e-04" />
+    <element name="Fe" ao="5.6624e-02" />
+    <element name="Cr" ao="1.6107e-02" />
+    <element name="Cu" ao="7.3853e-05" />
+    <element name="Mo" ao="1.4635e-04" />
+    <element name="Mn" ao="1.1918e-03" />
+    <element name="Ni" ao="9.0041e-03" />
+    <element name="Al" ao="3.4646e-04" />
+    <element name="Ti" ao="2.9326e-04" />
+    <element name="H"  ao="2.2714e-05" />
+    <element name="Si" ao="9.9988e-04" />
+    <element name="V"  ao="9.2127e-05" />
   </material>
 
 </materials>

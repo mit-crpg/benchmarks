@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+      =================================================================
+      Description: Water-reflected 14 inch sphere of Pu Nitrate
+      Case:        PU-SOL-THERM-005 Case 8
+      Written By:  Paul Romano
+      Date:        3/15/2014
+      =================================================================
+  -->
+
+  <cell id="1" material="1" region="  -1" /> <!-- Plutonium nitrate -->
+  <cell id="2" material="2" region="1 -2" /> <!-- Steel shell -->
+  <cell id="3" material="3" region="2 -3" /> <!-- water reflector -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 17.7865" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 17.9135" />
+  <surface id="3" type="sphere" coeffs="0. 0. 0. 47.9135" boundary="vacuum" />
+
+</geometry>

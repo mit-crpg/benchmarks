@@ -31,26 +31,26 @@
   <surface id="19" type="z-plane"    coeffs="-14.74" />
   <surface id="20" type="z-cylinder" coeffs="0. 0. 15.0" boundary="vacuum" />
   
-  <cell id="1"  material="void" surfaces=" -1 -10" />              <!-- cavity -->
-  <cell id="2"  material="void" surfaces=" 12  -2" />              <!-- cavity -->
-  <cell id="3"  material="1"    surfaces="  1  -3   7 -10" />      <!-- bottom inner U -->
-  <cell id="4"  material="1"    surfaces="  2  -4   8  12  16" />  <!-- top inner U -->
-  <cell id="5"  material="2"    surfaces="  3  -5 -10  16" />      <!-- bottom outer U -->
-  <cell id="6"  material="2"    surfaces="  4  -6  12  16" />      <!-- top outer U -->
-  <cell id="7"  material="void" surfaces="  1  -3  -7 -10" />      <!-- bottom groove -->
-  <cell id="8"  material="void" surfaces="  2  -4  -8  12" />      <!-- top groove -->
-  <cell id="9"  material="void" surfaces=" 10 -11 -15" />          <!-- gap -->
-  <cell id="10" material="3"    surfaces=" 11 -12 -20  17" />      <!-- diaphragm Fe -->
-  <cell id="11" material="void" surfaces="  5 -15 -10  13" />      <!-- bottom outside -->
-  <cell id="12" material="void" surfaces="  6 -15  12" />          <!-- top outside -->
-  <cell id="13" material="4"    surfaces=" 18  -9 -13 -10" />      <!-- Cu cup -->
-  <cell id="14" material="3"    surfaces="  9  19 -14 -10" />      <!-- Fe cylinder -->
-  <cell id="15" material="void" surfaces="  9 -15  14 -13 -10" />  <!-- void under Cu cap -->
-  <cell id="16" material="void" surfaces="  3  -5 -16 -10" />      <!-- bottom polar hole -->
-  <cell id="17" material="void" surfaces="  2  -6 -16  12" />      <!-- top polar hole -->
-  <cell id="18" material="void" surfaces=" 11 -12 -17" />          <!-- diaphragm hole -->
-  <cell id="19" material="void" surfaces="  5 -13 -18 -10" />      <!-- gap over cup -->
-  <cell id="20" material="void" surfaces="-14 -15 -19" />          <!-- void under cylinder -->
-  <cell id="21" material="void" surfaces=" 11 -12 -15  20" />      <!-- void outside diaphragm -->
+  <cell id="1"  material="void" region=" -1 -10" />              <!-- cavity -->
+  <cell id="2"  material="void" region=" 12  -2" />              <!-- cavity -->
+  <cell id="3"  material="1"    region="  1  -3   7 -10" />      <!-- bottom inner U -->
+  <cell id="4"  material="1"    region="  2  -4   8  12  16" />  <!-- top inner U -->
+  <cell id="5"  material="2"    region="  3  -5 -10  16" />      <!-- bottom outer U -->
+  <cell id="6"  material="2"    region="  4  -6  12  16" />      <!-- top outer U -->
+  <cell id="7"  material="void" region="  1  -3  -7 -10" />      <!-- bottom groove -->
+  <cell id="8"  material="void" region="  2  -4  -8  12" />      <!-- top groove -->
+  <cell id="9"  material="void" region=" 10 -11 -15" />          <!-- gap -->
+  <cell id="10" material="3"    region=" 11 -12 -20  17" />      <!-- diaphragm Fe -->
+  <cell id="11" material="void" region="  5 -15 -10  13" />      <!-- bottom outside -->
+  <cell id="12" material="void" region="  6 -15  12" />          <!-- top outside -->
+  <cell id="13" material="4"    region=" 18  -9 -13 -10" />      <!-- Cu cup -->
+  <cell id="14" material="3"    region="  9  19 -14 -10" />      <!-- Fe cylinder -->
+  <cell id="15" material="void" region="  9 -15  14 -13 -10" />  <!-- void under Cu cap -->
+  <cell id="16" material="void" region="  3  -5 -16 -10" />      <!-- bottom polar hole -->
+  <cell id="17" material="void" region="  2  -6 -16  12" />      <!-- top polar hole -->
+  <cell id="18" material="void" region=" 11 -12 -17" />          <!-- diaphragm hole -->
+  <cell id="19" material="void" region="  5 -13 -18 -10" />      <!-- gap over cup -->
+  <cell id="20" material="void" region="-14 -15 -19" />          <!-- void under cylinder -->
+  <cell id="21" material="void" region=" 11 -12 -15  20" />      <!-- void outside diaphragm -->
 
 </geometry>

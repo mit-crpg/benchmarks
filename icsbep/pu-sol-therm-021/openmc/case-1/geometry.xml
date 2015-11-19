@@ -5,13 +5,13 @@
   =============================================================
   Description: Unreflected sphere of Plutonium Nitrate Solution
   Case:        PU-SOL-THERM-021 Case 1
-  Written By:  Paul Romano
-  Date:        1/31/2012
   =============================================================
   -->
 
-  <cell id="1" material="1" surfaces="-1" />
-  <cell id="2" material="2" surfaces="1 -2" />
+  <!-- TODO: Geometry doesn't match spec. Need support tubes -->
+
+  <cell id="1" material="1" region="-1" />
+  <cell id="2" material="2" region="1 -2" />
 
   <surface id="1" type="sphere" coeffs="0. 0. 0. 19.3304" />
   <surface id="2" type="sphere" coeffs="0. 0. 0. 19.4523" boundary="vacuum" />

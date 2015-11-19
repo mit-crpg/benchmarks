@@ -5,46 +5,44 @@
   =========================================================
   Description: Big Ten Improved Benchmark (from MCNP suite)
   Case:        IEU-MET-FAST-007 Case 4
-  Written By:  Paul Romano
-  Date:        1/3/2012
   =========================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Homogenized HEU, Natural U, and Voids -->
   <material id="1">
-    <density value="0.048159" units="atom/b-cm" />
-    <nuclide name="U-234" ao="5.4058e-5" />
-    <nuclide name="U-235" ao="4.9831e-3" />
-    <nuclide name="U-236" ao="1.3733e-5" />
-    <nuclide name="U-238" ao="4.3108e-2" />
+    <density units="sum" />
+    <nuclide name="U-234" ao="5.4058e-05" />
+    <nuclide name="U-235" ao="4.9831e-03" />
+    <nuclide name="U-236" ao="1.3733e-05" />
+    <nuclide name="U-238" ao="4.3108e-02" />
   </material>
 
   <!-- Intermediate Enriched Uranium (10 wt%) -->
   <material id="2">
-    <density value="0.047609" units="atom/b-cm" />
-    <nuclide name="U-234" ao="2.4761e-5" />
-    <nuclide name="U-235" ao="4.8461e-3" />
-    <nuclide name="U-236" ao="4.3348e-5" />
-    <nuclide name="U-238" ao="4.2695e-2" />
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.4761e-05" />
+    <nuclide name="U-235" ao="4.8461e-03" />
+    <nuclide name="U-236" ao="4.3348e-05" />
+    <nuclide name="U-238" ao="4.2695e-02" />
   </material>
 
   <!-- Natural Uranium -->
   <material id="3">
-    <density value="0.048196" units="atom/b-cm" />
-    <nuclide name="U-234" ao="2.6518e-6" />
-    <nuclide name="U-235" ao="3.4701e-4" />
-    <nuclide name="U-238" ao="4.7846e-2" />
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.6518e-06" />
+    <nuclide name="U-235" ao="3.4701e-04" />
+    <nuclide name="U-238" ao="4.7846e-02" />
   </material>
 
   <!-- Depleted Uranium -->
   <material id="4">
-    <density value="0.047779" units="atom/b-cm" />
-    <nuclide name="U-234" ao="2.8672e-7" />
-    <nuclide name="U-235" ao="1.0058e-4" />
-    <nuclide name="U-236" ao="1.1468e-6" />
-    <nuclide name="U-238" ao="4.7677e-2" />
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.8672e-07" />
+    <nuclide name="U-235" ao="1.0058e-04" />
+    <nuclide name="U-236" ao="1.1468e-06" />
+    <nuclide name="U-238" ao="4.7677e-02" />
   </material>
 
 </materials>

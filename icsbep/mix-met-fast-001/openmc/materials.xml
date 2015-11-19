@@ -5,28 +5,26 @@
   ================================================================
   Description: Plutonium sphere surrounded by HEU, Planet assembly
   Case:        MIX-MET-FAST-001
-  Written By:  Paul Romano
-  Date:        1/30/2012
   ================================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- delta-phase plutonium -->
   <material id="1">
-    <density value="15.778" units="g/cm3" />
-    <nuclide name="Pu-239" ao="3.7291e-2" />
-    <nuclide name="Pu-240" ao="1.9277e-3" />
-    <nuclide name="Pu-241" ao="1.2196e-4" />
-    <nuclide name="Ga-69"  ao="8.1915e-4" />
-    <nuclide name="Ga-71"  ao="5.4365e-4" />
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.7291e-02" />
+    <nuclide name="Pu-240" ao="1.9277e-03" />
+    <nuclide name="Pu-241" ao="1.2196e-04" />
+    <nuclide name="Ga-69"  ao="8.1915e-04" />
+    <nuclide name="Ga-71"  ao="5.4365e-04" />
   </material>
 
   <!-- HEU -->
   <material id="2">
-    <density value="18.80" units="g/cm3" />
-    <nuclide name="U-235" ao="4.4892e-2" />
-    <nuclide name="U-238" ao="3.2340e-3" />
+    <density units="sum" />
+    <nuclide name="U-235" ao="4.4892e-02" />
+    <nuclide name="U-238" ao="3.2340e-03" />
   </material>
 
 </materials>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ======================================================
+  Description: Bare Sphere of Plutonium Nitrate Solution
+  Case:        PU-SOL-THERM-011 Case 18-2
+  ======================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Plutonium nitrate solution -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="5.6159e-05" />
+    <nuclide name="Pu-240" ao="2.4518e-06" />
+    <nuclide name="N-14"   ao="9.4957e-04" />
+    <nuclide name="H-1"    ao="6.4659e-02" />
+    <nuclide name="O-16"   ao="3.4820e-02" />
+    <element name="Fe"     ao="1.3587e-06" />
+    <sab name="HH2O" xs="71t" />
+  </material>
+
+  <!-- 347 Stainless Steel -->
+  <material id="2">
+    <density units="sum" />
+    <element name="Fe" ao="6.0386e-03" />
+    <element name="Cr" ao="1.6678e-02" />
+    <element name="Ni" ao="9.8504e-03" />
+  </material>
+
+  <!-- Cadmium -->
+  <material id="3">
+    <density units="sum" />
+    <element name="Cd" ao="4.6340e-02" />
+  </material>
+
+</materials>

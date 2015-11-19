@@ -5,61 +5,37 @@
   ==========================================================
   Description: Bare HEU cylinder, VNIITF
   Case:        HEU-MET-FAST-015
-  Written By:  Jedidiah Phillips
-  Date:        3/13/2012
   ==========================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Bottom HEU -->
   <material id="1">
-    <density value="18.6216" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="U-234" ao="5.6597e-04" />
     <nuclide name="U-235" ao="4.5774e-02" />
     <nuclide name="U-238" ao="1.3381e-03" />
-    <!-- C at 1.0270e-4 atom/b-cm -->
-    <nuclide name="C-Nat" ao="1.0270e-04" />
-    <!-- Fe at 5.0201e-5 atom/b-cm -->
-    <nuclide name="Fe-54" ao="2.9342e-06" />
-    <nuclide name="Fe-56" ao="4.6061e-05" />
-    <nuclide name="Fe-57" ao="1.0638e-06" />
-    <nuclide name="Fe-58" ao="1.4157e-07" />
-    <!-- W at 1.2199e-6 atom/b-cm -->
-    <nuclide name="W-182" ao="3.2474e-07" />
-    <nuclide name="W-183" ao="1.7457e-07" />
-    <nuclide name="W-184" ao="3.7378e-07" />
-    <nuclide name="W-186" ao="3.4682e-07" />
+    <element name="C"     ao="1.0270e-04" />
+    <element name="Fe"    ao="5.0201e-05" />
+    <element name="W"     ao="1.2199e-06" />
   </material>
 
   <!-- Top HEU -->
   <material id="2">
-    <density value="18.5963" units="g/cm3" />
+    <density units="sum" />
     <nuclide name="U-234" ao="5.6404e-04" />
     <nuclide name="U-235" ao="4.5708e-02" />
     <nuclide name="U-238" ao="1.3404e-03" />
-    <!-- C at 1.0256e-4 atom/b-cm -->
-    <nuclide name="C-Nat" ao="1.0256e-04" />
-    <!-- Fe at 5.0131e-5 atom/b-cm -->
-    <nuclide name="Fe-54" ao="2.9302e-06" />
-    <nuclide name="Fe-56" ao="4.5997e-05" />
-    <nuclide name="Fe-57" ao="1.0623e-06" />
-    <nuclide name="Fe-58" ao="1.4137e-07" />
-    <!-- W at 1.2183e-6 atom/b-cm -->
-    <nuclide name="W-182" ao="3.2431e-07" />
-    <nuclide name="W-183" ao="1.7434e-07" />
-    <nuclide name="W-184" ao="3.7329e-07" />
-    <nuclide name="W-186" ao="3.4636e-07" />
+    <element name="C"     ao="1.0256e-04" />
+    <element name="Fe"    ao="5.0131e-05" />
+    <element name="W"     ao="1.2183e-06" />
   </material>
 
   <!-- Steel Diaphragm and Steel Plate -->
   <material id="3">
-    <density value="7.6" units="g/cm3" />
-    <!-- Fe at 8.1133e-2 atom/b-cm -->
-    <nuclide name="Fe-54" ao="4.7422e-03" />
-    <nuclide name="Fe-56" ao="7.4443e-02" />
-    <nuclide name="Fe-57" ao="1.7192e-03" />
-    <nuclide name="Fe-58" ao="2.2880e-04" />
+    <density units="sum" />
+    <element name="Fe" ao="8.1133e-02" />
   </material>
 
 </materials>

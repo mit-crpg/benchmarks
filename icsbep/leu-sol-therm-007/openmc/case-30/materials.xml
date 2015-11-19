@@ -5,61 +5,42 @@
   ======================================================
   Description: STACY Unreflected Uranyl Nitrate Solution
   Case:        LEU-SOL-THERM-007 Run 30
-  Written By:  Paul Romano
-  Date:        1/29/2012
   ======================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Uranyl Nitrate Solution -->
   <material id="1">
-    <density value="0.09856395" units="atom/b-cm" />
-    <nuclide name="U-234" ao="5.9840e-7" />
-    <nuclide name="U-235" ao="7.4257e-5" />
-    <nuclide name="U-236" ao="7.4165e-8" />
-    <nuclide name="U-238" ao="6.6142e-4" />
-    <nuclide name="H-1"   ao="5.7176e-2" />
-    <nuclide name="N-14"  ao="2.8156e-3" />
-    <nuclide name="O-16"  ao="0.03782162232" />
-    <nuclide name="O-17"  ao="1.437768e-05" />
-    <sab name="lwtr" xs="10t" />
+    <density units="sum" />
+    <nuclide name="U-234" ao="5.9840e-07" />
+    <nuclide name="U-235" ao="7.4257e-05" />
+    <nuclide name="U-236" ao="7.4165e-08" />
+    <nuclide name="U-238" ao="6.6142e-04" />
+    <nuclide name="H-1"   ao="5.7176e-02" />
+    <element name="N"     ao="2.8156e-03" />
+    <element name="O"     ao="3.7836e-02" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Stainless Steel -->
   <material id="2">
-    <density value="7.93" units="g/cm3" />
-    <nuclide name="C-Nat" ao="4.3736e-5" />
-    <nuclide name="Si-28" ao="0.0009801250219" />
-    <nuclide name="Si-29" ao="4.976783505e-5" />
-    <nuclide name="Si-30" ao="3.280714305e-5" />
-    <nuclide name="Mn-55" ao="0.0011561" />
-    <nuclide name="P-31" ao="4.317e-5" />
-    <nuclide name="S-32" ao="2.82720526e-6" />
-    <nuclide name="S-33" ao="2.263432e-8" />
-    <nuclide name="S-34" ao="1.2776478e-7" />
-    <nuclide name="S-36" ao="5.9564e-10" />
-    <nuclide name="Ni-58" ao="0.0056778176907" />
-    <nuclide name="Ni-60" ao="0.0021870852093" />
-    <nuclide name="Ni-61" ao="9.50710797e-5" />
-    <nuclide name="Ni-62" ao="0.0003031282035" />
-    <nuclide name="Ni-64" ao="7.71978168e-5" />
-    <nuclide name="Cr-50" ao="0.00072887375" />
-    <nuclide name="Cr-52" ao="0.01405560475" />
-    <nuclide name="Cr-53" ao="0.00159379275" />
-    <nuclide name="Cr-54" ao="0.00039672875" />
-    <nuclide name="Fe-54" ao="0.00347315745" />
-    <nuclide name="Fe-56" ao="0.05452114434" />
-    <nuclide name="Fe-57" ao="0.00125913099" />
-    <nuclide name="Fe-58" ao="0.00016756722" />
+    <density units="sum" />
+    <element name="C"  ao="4.3736e-05" />
+    <element name="Si" ao="1.0627e-03" />
+    <element name="Mn" ao="1.1561e-03" />
+    <element name="P"  ao="4.3170e-05" />
+    <element name="S"  ao="2.9782e-06" />
+    <element name="Ni" ao="8.3403e-03" />
+    <element name="Cr" ao="1.6775e-02" />
+    <element name="Fe" ao="5.9421e-02" />
   </material>
 
   <!-- Air -->
   <material id="3">
-    <density value="0.00184" units="g/cm3" />
-    <nuclide name="N-14" ao="3.9016e-5" />
-    <nuclide name="O-16" ao="1.040504458e-5" />
-    <nuclide name="O-17" ao="3.95542e-9" />
+    <density units="sum" />
+    <element name="N" ao="3.9016e-05" />
+    <element name="O" ao="1.0409e-05" />
   </material>
     
 </materials>

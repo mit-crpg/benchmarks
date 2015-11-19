@@ -5,10 +5,7 @@
   ==========================================================
   Description: The Early Jemima Experiments: Bare Cylindrical
                Configurations of Enriched and Natural Uranium
-  Case:        IEU-MET-FAST-001
-               Case-3
-  Written By:  Steven Fine
-  Date:        5/6/2012
+  Case:        IEU-MET-FAST-001 Case-3
   ==========================================================
   --> 
 
@@ -71,62 +68,62 @@
   <surface id="205" type="z-plane" coeffs="-6.0325" />
   <surface id="206" type="z-plane" coeffs="-8.5725" boundary="vacuum" />
 
-  <cell id="51"   material="1"    surfaces="101 -103 -12" />
-  <cell id="52"   material="2"    surfaces="103 -106 -12" />
-  <cell id="53"   material="1"    surfaces="106 -108 -12" />
-  <cell id="54"   material="1"    surfaces="108 -109 -12" />
-  <cell id="55"   material="2"    surfaces="109 -112 -12" />
-  <cell id="56"   material="1"    surfaces="112 -114 -12" />
-  <cell id="57"   material="1"    surfaces="114 -115 -12" />
-  <cell id="58"   material="2"    surfaces="115 -118 -12" />
-  <cell id="59"   material="1"    surfaces="118 -120 -12" />
-  <cell id="60"   material="1"    surfaces="120 -121 -12" />
-  <cell id="61"   material="2"    surfaces="121 -124 -12" />
-  <cell id="62"   material="1"    surfaces="124 -126 -12" />
-  <cell id="63"   material="1"    surfaces="126 -127 -12" />
-  <cell id="64"   material="2"    surfaces="127 -130 -12" />
-  <cell id="65"   material="1"    surfaces="130 -132 -12" />
-  <cell id="66"   material="1"    surfaces="132 -133 -12" />
-  <cell id="67"   material="2"    surfaces="133 -136 -12" />
-  <cell id="68"   material="1"    surfaces="136 -138 -12" />
-  <cell id="69"   material="1"    surfaces="138 -139 -12" />
-  <cell id="70"   material="2"    surfaces="139 -142 -12" />
-  <cell id="71"   material="1"    surfaces="142 -144 -12" />
-  <cell id="72"   material="1"    surfaces="144 -146 -10" />
-  <cell id="73"   material="2"    surfaces="146 -149 -12" />
-  <cell id="74"   material="1"    surfaces="149 -151 -12" />
-  <cell id="75"   material="1"    surfaces="151 -153 -12" />
-  <cell id="76"   material="2"    surfaces="153 -155 -12" />
-  <cell id="77"   material="1"    surfaces="155 -157 -12" />
-  <cell id="78"   material="1"    surfaces="157 -159 -12" />
-  <cell id="79"   material="2"    surfaces="159 -161 -12" />
-  <cell id="80"   material="1"    surfaces="161 -163 -12" />
-  <cell id="81"   material="1"    surfaces="163 -165 -12" />
-  <cell id="82"   material="2"    surfaces="165 -167 -12" />
-  <cell id="83"   material="1"    surfaces="167 -169 -12" />
-  <cell id="84"   material="1"    surfaces="169 -171 -12" />
-  <cell id="85"   material="2"    surfaces="171 -173 -12" />
-  <cell id="86"   material="1"    surfaces="173 -175 -12" />
-  <cell id="87"   material="1"    surfaces="175 -177 -12" />
-  <cell id="88"   material="1"    surfaces="177 -179 -12" />
-  <cell id="103"  material="3"    surfaces="144 -146 10 -17" />
-  <cell id="106"  material="void" surfaces="201 -101 -8" />
-  <cell id="107"  material="void" surfaces="202 -201 3 -8" />
-  <cell id="108"  material="3"    surfaces="202 -101 8 -18" />
-  <cell id="110"  material="3"    surfaces="203 -201 -3" />
-  <cell id="111"  material="3"    surfaces="205 -203 -7" />
-  <cell id="112"  material="3"    surfaces="204 -202 12 -14" />
-  <cell id="114"  material="void" surfaces="204 -202 14 -21" />
-  <cell id="118"  material="3"    surfaces="205 -204 11 -19" />
-  <cell id="119"  material="void" surfaces="205 -204 7 -11" />
-  <cell id="120"  material="4"    surfaces="206 -205 -20" />
-  <cell id="122"  material="void" surfaces="205 -204 19 -21" />
-  <cell id="123"  material="void" surfaces="206 -205 20 -21" />
-  <cell id="113"  material="void" surfaces="3 -12 -202 203" />
-  <cell id="1132" material="void" surfaces="-203 -12 204 7" />
-  <cell id="121"  material="void" surfaces="-21 12 -179 146" />
-  <cell id="1212" material="void" surfaces="-21 17 -146 144" />
-  <cell id="1213" material="void" surfaces="-21 12 -144 101" />
-  <cell id="1214" material="void" surfaces="-21 18 -101 202" />
+  <cell id="51"   material="1"    region="101 -103 -12" />
+  <cell id="52"   material="2"    region="103 -106 -12" />
+  <cell id="53"   material="1"    region="106 -108 -12" />
+  <cell id="54"   material="1"    region="108 -109 -12" />
+  <cell id="55"   material="2"    region="109 -112 -12" />
+  <cell id="56"   material="1"    region="112 -114 -12" />
+  <cell id="57"   material="1"    region="114 -115 -12" />
+  <cell id="58"   material="2"    region="115 -118 -12" />
+  <cell id="59"   material="1"    region="118 -120 -12" />
+  <cell id="60"   material="1"    region="120 -121 -12" />
+  <cell id="61"   material="2"    region="121 -124 -12" />
+  <cell id="62"   material="1"    region="124 -126 -12" />
+  <cell id="63"   material="1"    region="126 -127 -12" />
+  <cell id="64"   material="2"    region="127 -130 -12" />
+  <cell id="65"   material="1"    region="130 -132 -12" />
+  <cell id="66"   material="1"    region="132 -133 -12" />
+  <cell id="67"   material="2"    region="133 -136 -12" />
+  <cell id="68"   material="1"    region="136 -138 -12" />
+  <cell id="69"   material="1"    region="138 -139 -12" />
+  <cell id="70"   material="2"    region="139 -142 -12" />
+  <cell id="71"   material="1"    region="142 -144 -12" />
+  <cell id="72"   material="1"    region="144 -146 -10" />
+  <cell id="73"   material="2"    region="146 -149 -12" />
+  <cell id="74"   material="1"    region="149 -151 -12" />
+  <cell id="75"   material="1"    region="151 -153 -12" />
+  <cell id="76"   material="2"    region="153 -155 -12" />
+  <cell id="77"   material="1"    region="155 -157 -12" />
+  <cell id="78"   material="1"    region="157 -159 -12" />
+  <cell id="79"   material="2"    region="159 -161 -12" />
+  <cell id="80"   material="1"    region="161 -163 -12" />
+  <cell id="81"   material="1"    region="163 -165 -12" />
+  <cell id="82"   material="2"    region="165 -167 -12" />
+  <cell id="83"   material="1"    region="167 -169 -12" />
+  <cell id="84"   material="1"    region="169 -171 -12" />
+  <cell id="85"   material="2"    region="171 -173 -12" />
+  <cell id="86"   material="1"    region="173 -175 -12" />
+  <cell id="87"   material="1"    region="175 -177 -12" />
+  <cell id="88"   material="1"    region="177 -179 -12" />
+  <cell id="103"  material="3"    region="144 -146 10 -17" />
+  <cell id="106"  material="void" region="201 -101 -8" />
+  <cell id="107"  material="void" region="202 -201 3 -8" />
+  <cell id="108"  material="3"    region="202 -101 8 -18" />
+  <cell id="110"  material="3"    region="203 -201 -3" />
+  <cell id="111"  material="3"    region="205 -203 -7" />
+  <cell id="112"  material="3"    region="204 -202 12 -14" />
+  <cell id="114"  material="void" region="204 -202 14 -21" />
+  <cell id="118"  material="3"    region="205 -204 11 -19" />
+  <cell id="119"  material="void" region="205 -204 7 -11" />
+  <cell id="120"  material="4"    region="206 -205 -20" />
+  <cell id="122"  material="void" region="205 -204 19 -21" />
+  <cell id="123"  material="void" region="206 -205 20 -21" />
+  <cell id="113"  material="void" region="3 -12 -202 203" />
+  <cell id="1132" material="void" region="-203 -12 204 7" />
+  <cell id="121"  material="void" region="-21 12 -179 146" />
+  <cell id="1212" material="void" region="-21 17 -146 144" />
+  <cell id="1213" material="void" region="-21 12 -144 101" />
+  <cell id="1214" material="void" region="-21 18 -101 202" />
 
 </geometry>

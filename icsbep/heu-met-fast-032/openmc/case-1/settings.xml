@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  ========================================================================
+  Description: 235U (94%) Spheres Surrounded by Natural Uranium Reflectors
+  Case:        HEU-MET-FAST-032 case 1
+  ========================================================================
+  -->
+ 
+  <eigenvalue>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <source>
+    <space type="point" parameters="0. 0. 0." />
+  </source>
+
+</settings>

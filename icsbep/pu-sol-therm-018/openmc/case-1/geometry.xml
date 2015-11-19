@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==================================================================
+  Description: Water-reflected 24-in diameter cylinder of Pu nitrate 
+  Case:        PU-SOL-THERM-018, Case 1
+  ==================================================================
+  -->
+
+  <surface id="10" type="z-cylinder" coeffs="0. 0. 2.555"  />
+  <surface id="11" type="z-cylinder" coeffs="0. 0. 2.86"   />
+  <surface id="12" type="z-cylinder" coeffs="0. 0. 30.514" />
+  <surface id="13" type="z-cylinder" coeffs="0. 0. 30.593" />
+  <surface id="14" type="z-cylinder" coeffs="0. 0. 50.523" />
+  <surface id="15" type="z-cylinder" coeffs="0. 0. 50.8"  boundary="vacuum" />
+
+  <surface id="20" type="z-plane" coeffs="  0.000" boundary="vacuum" />
+  <surface id="21" type="z-plane" coeffs="  0.277" />
+  <surface id="22" type="z-plane" coeffs=" 21.227" />
+  <surface id="23" type="z-plane" coeffs=" 22.177" />
+  <surface id="24" type="z-plane" coeffs=" 76.277" />
+  <surface id="25" type="z-plane" coeffs="127.828" />
+  <surface id="26" type="z-plane" coeffs="127.907" />
+  <surface id="27" type="z-plane" coeffs="143.000" boundary="vacuum" />
+
+  <cell id="1"  material="1"    region="   -12 23 -24" /> <!-- nitrate solution         -->
+  <cell id="2"  material="2"    region="10 -15 20 -21" /> <!-- bottom of reflector tank -->
+  <cell id="3"  material="2"    region="10 -11 21 -22" /> <!-- support pipe             -->
+  <cell id="4"  material="2"    region="   -13 22 -23" /> <!-- bottom of solution tank  -->
+  <cell id="5"  material="2"    region="12 -13 23 -25" /> <!-- wall of solution tank    -->
+  <cell id="6"  material="2"    region="   -13 25 -26" /> <!-- top of solution tank     -->
+  <cell id="7"  material="2"    region="14 -15 21 -27" /> <!-- wall of reflector tank   -->
+  <cell id="8"  material="3"    region="11 -14 21 -22" /> <!-- water surrounding pipe   -->
+  <cell id="9"  material="3"    region="13 -14 22 -26" /> <!-- water surrounding tank   -->
+  <cell id="10" material="void" region="   -10 20 -22" /> <!-- center of support pipe   -->
+  <cell id="11" material="void" region="   -12 24 -25" /> <!-- void in solution tank    -->
+  <cell id="12" material="void" region="   -14 26 -27" /> <!-- void above solution tank -->
+
+</geometry>

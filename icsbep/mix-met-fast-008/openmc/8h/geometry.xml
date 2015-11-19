@@ -5,8 +5,6 @@
   ==========================================
   Description: ZEBRA k-infinity experiment
   Case:        MIX-MET-FAST-008 Case 8H
-  Written By:  Paul Romano
-  Date:        2/5/2011
   ==========================================
   -->
 
@@ -31,20 +29,20 @@
   <surface id="19" type="z-plane" coeffs=" 0.79375" />
   <surface id="20" type="z-plane" coeffs=" 1.11125" boundary="reflective" />
 
-  <cell id="1"  material="2"    surfaces="3 -4  9 -10 13 -14" /> <!-- bottom nat-U plate -->
-  <cell id="2"  material="2"    surfaces="3 -4  9 -10 14 -15" /> <!-- 2nd nat-U plate -->
-  <cell id="3"  material="2"    surfaces="3 -4  9 -10 15 -16" /> <!-- 3rd nat-U plate -->
-  <cell id="4"  material="1"    surfaces="3 -4  9 -10 16 -17" /> <!-- enirched U plate -->
-  <cell id="5"  material="2"    surfaces="3 -4  9 -10 17 -18" /> <!-- 4th nat-U plate -->
-  <cell id="6"  material="2"    surfaces="3 -4  9 -10 18 -19" /> <!-- 5th nat-U plate -->
-  <cell id="7"  material="2"    surfaces="3 -4  9 -10 19 -20" /> <!-- top nat-U plate -->
-  <cell id="8"  material="void" surfaces="2 -3  8 -11 13 -20" /> <!-- left gap -->
-  <cell id="9"  material="void" surfaces="3 -4  8  -9 13 -20" /> <!-- front gap -->
-  <cell id="10" material="void" surfaces="4 -5  8 -11 13 -20" /> <!-- right gap -->
-  <cell id="11" material="void" surfaces="3 -4 10 -11 13 -20" /> <!-- back gap -->
-  <cell id="12" material="3"    surfaces="1 -2  7 -12 13 -20" /> <!-- left sheath side -->
-  <cell id="13" material="3"    surfaces="2 -5  7  -8 13 -20" /> <!-- front sheath side -->
-  <cell id="14" material="3"    surfaces="5 -6  7 -12 13 -20" /> <!-- right sheath side -->
-  <cell id="15" material="3"    surfaces="2 -5 11 -12 13 -20" /> <!-- back sheath side -->
+  <cell id="1"  material="2"    region="3 -4  9 -10 13 -14" /> <!-- bottom nat-U plate -->
+  <cell id="2"  material="2"    region="3 -4  9 -10 14 -15" /> <!-- 2nd nat-U plate -->
+  <cell id="3"  material="2"    region="3 -4  9 -10 15 -16" /> <!-- 3rd nat-U plate -->
+  <cell id="4"  material="1"    region="3 -4  9 -10 16 -17" /> <!-- enirched U plate -->
+  <cell id="5"  material="2"    region="3 -4  9 -10 17 -18" /> <!-- 4th nat-U plate -->
+  <cell id="6"  material="2"    region="3 -4  9 -10 18 -19" /> <!-- 5th nat-U plate -->
+  <cell id="7"  material="2"    region="3 -4  9 -10 19 -20" /> <!-- top nat-U plate -->
+  <cell id="8"  material="void" region="2 -3  8 -11 13 -20" /> <!-- left gap -->
+  <cell id="9"  material="void" region="3 -4  8  -9 13 -20" /> <!-- front gap -->
+  <cell id="10" material="void" region="4 -5  8 -11 13 -20" /> <!-- right gap -->
+  <cell id="11" material="void" region="3 -4 10 -11 13 -20" /> <!-- back gap -->
+  <cell id="12" material="3"    region="1 -2  7 -12 13 -20" /> <!-- left sheath side -->
+  <cell id="13" material="3"    region="2 -5  7  -8 13 -20" /> <!-- front sheath side -->
+  <cell id="14" material="3"    region="5 -6  7 -12 13 -20" /> <!-- right sheath side -->
+  <cell id="15" material="3"    region="2 -5 11 -12 13 -20" /> <!-- back sheath side -->
 
 </geometry>

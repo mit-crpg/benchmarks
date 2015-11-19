@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==============================================================================
+  Description: Unreflected cylinders of uranyl-fluoride solutions in heavy water
+  Case:        HEU-SOL-THERM-020 Case 4
+  ==============================================================================
+  -->
+
+  <surface id="1"  type="z-plane" coeffs=" -0.3175" boundary="vacuum" /> <!-- Bottom of cylinder bottom -->
+  <surface id="2"  type="z-plane" coeffs="  0.0   " /> <!-- Top of cylinder bottom -->
+  <surface id="3"  type="z-plane" coeffs=" 60.83  " /> <!-- Top of solution -->
+  <surface id="4"  type="z-plane" coeffs="121.92  " /> <!-- Bottom of cylinder top plate -->
+  <surface id="5"  type="z-plane" coeffs="122.8725" boundary="vacuum"/> <!-- Top of cylinder top plate -->
+  <surface id="6"  type="z-cylinder" coeffs="0. 0.  1.27  " /> <!-- Glory hole inner radius -->
+  <surface id="7"  type="z-cylinder" coeffs="0. 0.  1.42875" /> <!-- Glory hole outer radius -->
+  <surface id="8"  type="z-cylinder" coeffs="0. 0. 38.1   " /> <!-- Cylinder wall inner radius -->
+  <surface id="9"  type="z-cylinder" coeffs="0. 0. 38.4175" boundary="vacuum" /> <!-- Cylinder wall outer radius -->
+
+  <!-- Dimensions for the level tube are taken from section 1, which have been
+       confirmed to agree with the original Los Alamos drawings. The dimension
+       in section 3 are incorrect -->
+  <surface id="10" type="z-cylinder" coeffs="21.590 0. 1.27" />   <!-- Level tube inner radius -->
+  <surface id="11" type="z-cylinder" coeffs="21.590 0. 1.5875" /> <!-- Level tube outer radius -->
+
+  <cell id="1"  material="2" region="1 -2     -9   " /> <!-- bottom plate -->
+  <cell id="2"  material="2" region="2 -4  8  -9   " /> <!-- outer wall -->
+  <cell id="3"  material="2" region="4 -5  7  -9 11" /> <!-- top plate -->
+  <cell id="4"  material="1" region="2 -3  7  -8 11" /> <!-- solution -->
+  <cell id="5"  material="3" region="3 -4  7  -8 11" /> <!-- above solution -->
+  <cell id="6"  material="3" region="2 -5     -6   " /> <!-- glory hole air -->
+  <cell id="7"  material="4" region="2 -5  6  -7   " /> <!-- glory tube -->
+  <cell id="8"  material="1" region="2 -3    -10   " /> <!-- solution in level tube -->
+  <cell id="9"  material="3" region="3 -5    -10   " /> <!-- air in level tube -->
+  <cell id="10" material="2" region="2 -5 10 -11   " /> <!-- level tube -->
+
+</geometry>

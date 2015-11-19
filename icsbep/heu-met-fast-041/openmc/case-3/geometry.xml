@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =======================================================================
+  Description: 235U (94%) spheres surrounded by Be or C reflectors
+  Case:        HEU-MET-FAST-041 Case 3
+  =======================================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 7.38298" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 12.46298" boundary="vacuum" />
+
+  <cell id="1" material="1" region="  -1" /> <!-- HEU Core -->
+  <cell id="2" material="2" region="1 -2" /> <!-- Reflector -->
+
+</geometry>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ========================================================================
+  Description: Metal spherical shells of HEU moderated and reflected by Be
+  Case:        HEU-MET-FAST-066 Case 1
+  ========================================================================
+  -->
+
+  <surface id="1"  type="sphere" coeffs="0. 0. 0.  0.4983" />
+  <surface id="2"  type="sphere" coeffs="0. 0. 0.  0.5207" />
+  <surface id="3"  type="sphere" coeffs="0. 0. 0.  0.5555" />
+  <surface id="4"  type="sphere" coeffs="0. 0. 0.  3.1460" />
+  <surface id="5"  type="sphere" coeffs="0. 0. 0.  6.5445" />
+  <surface id="6"  type="sphere" coeffs="0. 0. 0. 15.2845" boundary="vacuum" />
+
+  <cell id="1"  material="1" region="  -1" /> <!-- Beryllium -->
+  <cell id="2"  material="2" region="1 -2" /> <!-- Nickel -->
+  <cell id="3"  material="3" region="2 -3" /> <!-- Air -->
+  <cell id="4"  material="4" region="3 -4" /> <!-- Beryllium -->
+  <cell id="5"  material="5" region="4 -5" /> <!-- HEU -->
+  <cell id="6"  material="4" region="5 -6" /> <!-- Beryllium -->
+
+</geometry>

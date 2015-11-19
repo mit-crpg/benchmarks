@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =============================================================
+  Description: Plutonium sphere reflected by Thorium using Thor
+  Case:        PU-MET-FAST-008 One-dimensional model
+  =============================================================
+  -->
+
+  <cell id="1" material="1" region="-1" />
+  <cell id="2" material="2" region="1 -2" />
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 5.310" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 29.88" boundary="vacuum" />
+
+</geometry>

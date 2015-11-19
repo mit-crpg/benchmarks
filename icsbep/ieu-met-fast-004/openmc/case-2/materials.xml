@@ -5,12 +5,10 @@
   ===============================================================
   Description: Graphite-reflected Spherical Assembly of 36% U-235
   Case:        IEU-MET-FAST-004 Simplified model
-  Written By:  Paul Romano
-  Date:        1/8/2012, 8/25/2012
   ===============================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- 36 wt% U-235 -->
   <material id="1">
@@ -18,22 +16,16 @@
     <nuclide name="U-234" ao="1.5652e-04" />
     <nuclide name="U-235" ao="1.7384e-02" />
     <nuclide name="U-238" ao="2.9662e-02" />
-    <nuclide name="C-Nat" ao="6.5752e-04" />
-    <nuclide name="Fe-54" ao="7.0713e-06" />
-    <nuclide name="Fe-56" ao="1.1100e-04" />
-    <nuclide name="Fe-57" ao="2.5636e-06" />
-    <nuclide name="Fe-58" ao="3.4116e-07" />
-    <nuclide name="W-182" ao="2.6942e-06" />
-    <nuclide name="W-183" ao="1.4483e-06" />
-    <nuclide name="W-184" ao="3.1011e-06" />
-    <nuclide name="W-186" ao="2.8774e-06" />
+    <element name="C"     ao="6.5752e-04" />
+    <element name="Fe"    ao="1.2098e-04" />
+    <element name="W"     ao="1.0121e-05" />
   </material>
 
   <!-- Graphite -->
   <material id="2">
-    <density value="7.7716e-2" units="atom/b-cm" />
-    <nuclide name="C-Nat" ao="7.7716e-2" />
-    <sab name="grph" xs="10t" />
+    <density units="sum" />
+    <element name="C" ao="7.7716e-02" />
+    <sab name="Graph" xs="71t" />
   </material>
 
 </materials>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =======================================================
+  Description: Bare sphere of Pu-239 (alpha, 88%), VNIIEF
+  Case:        PU-MET-FAST-029 Simplified model
+  =======================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="4.1923e-02" />
+    <nuclide name="Pu-240" ao="4.6622e-03" />
+    <nuclide name="Pu-241" ao="7.3273e-04" />
+    <element name="Fe"     ao="3.1294e-04" />
+    <element name="C"      ao="1.2949e-03" />
+    <element name="H"      ao="3.0212e-04" />
+    <element name="N"      ao="3.2610e-05" />
+    <element name="O"      ao="4.8343e-05" />
+  </material>
+
+</materials>

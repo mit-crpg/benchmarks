@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ===========================================================================
+  Description: Plutonium nitrate solution in large water-reflected cubic tank
+  Case:        PU-SOL-THERM-012 Case 17
+  ===========================================================================
+  -->
+
+  <surface id="1" type="x-plane" coeffs="-105.0" />
+  <surface id="2" type="x-plane" coeffs=" -65.5" />
+  <surface id="3" type="x-plane" coeffs=" -65.0" />
+  <surface id="4" type="x-plane" coeffs=" -64.0" />
+  <surface id="5" type="x-plane" coeffs="  64.0" />
+  <surface id="6" type="x-plane" coeffs="  65.0" />
+  <surface id="7" type="x-plane" coeffs="  65.5" />
+  <surface id="8" type="x-plane" coeffs=" 105.0" />
+  <surface id="31" type="x-plane" coeffs="-655.0" boundary="vacuum" />
+  <surface id="32" type="x-plane" coeffs="-605.0" />
+  <surface id="33" type="x-plane" coeffs="-105.8" />
+  <surface id="34" type="x-plane" coeffs=" 105.8" />
+  <surface id="35" type="x-plane" coeffs=" 605.0" />
+  <surface id="36" type="x-plane" coeffs=" 655.0" boundary="vacuum" />
+
+  <surface id="11" type="y-plane" coeffs="-160.0" />
+  <surface id="12" type="y-plane" coeffs=" -65.5" />
+  <surface id="13" type="y-plane" coeffs=" -65.0" />
+  <surface id="14" type="y-plane" coeffs=" -64.0" />
+  <surface id="15" type="y-plane" coeffs="  64.0" />
+  <surface id="16" type="y-plane" coeffs="  65.0" />
+  <surface id="17" type="y-plane" coeffs="  65.5" />
+  <surface id="18" type="y-plane" coeffs=" 160.0" />
+  <surface id="41" type="y-plane" coeffs="-490.0" boundary="vacuum" />
+  <surface id="42" type="y-plane" coeffs="-440.0" />
+  <surface id="43" type="y-plane" coeffs="-160.8" />
+  <surface id="44" type="y-plane" coeffs=" 160.8" />
+  <surface id="45" type="y-plane" coeffs=" 440.0" />
+  <surface id="46" type="y-plane" coeffs=" 490.0" boundary="vacuum" />
+
+  <surface id="21" type="z-plane" coeffs=" -50.5" />
+  <surface id="22" type="z-plane" coeffs="  -0.5" />
+  <surface id="23" type="z-plane" coeffs="   0.0" />
+  <surface id="24" type="z-plane" coeffs="  28.80" />
+  <surface id="25" type="z-plane" coeffs="  80.0" />
+  <surface id="26" type="z-plane" coeffs="  81.0" />
+  <surface id="27" type="z-plane" coeffs="  99.0" />
+  <surface id="28" type="z-plane" coeffs=" 100.0" />
+  <surface id="51" type="z-plane" coeffs="-103.3" boundary="vacuum" />
+  <surface id="52" type="z-plane" coeffs=" -63.3" />
+  <surface id="53" type="z-plane" coeffs=" -51.3" />
+  <surface id="54" type="z-plane" coeffs=" 936.7" />
+  <surface id="55" type="z-plane" coeffs=" 986.7" boundary="vacuum" />
+
+
+  <cell id="1" material="1" region="3 -6 13 -16 23 -24" /> <!-- Fuel solution -->
+  <cell id="2" material="2" region="3 -6 13 -16 24 -25" /> <!-- Air above fuel -->
+
+  <!-- Stainless steel tank -->
+  <cell id="10" material="3" region="2 -7 12 -17 22 -23" />
+  <cell id="11" material="3" region="2 -3 12 -17 23 -28" />
+  <cell id="12" material="3" region="3 -6 12 -13 23 -28" />
+  <cell id="13" material="3" region="3 -6 16 -17 23 -28" />
+  <cell id="14" material="3" region="6 -7 12 -17 23 -28" />
+
+  <!-- Lucoflex box -->
+  <cell id="20" material="4" region="3 -6 13 -16 25 -26" />
+  <cell id="21" material="4" region="3 -4 13 -16 26 -27" />
+  <cell id="22" material="4" region="4 -5 13 -14 26 -27" />
+  <cell id="23" material="4" region="4 -5 15 -16 26 -27" />
+  <cell id="24" material="4" region="5 -6 13 -16 26 -27" />
+  <cell id="25" material="4" region="3 -6 13 -16 27 -28" />
+
+  <!-- Air in lucoflex box -->
+  <cell id="26" material="2" region="4 -5 14 -15 26 -27" />
+
+  <!-- Air -->
+  <cell id="30" material="2" region="1 -8 11 -18 21 -22" />
+  <cell id="31" material="2" region="1 -2 11 -18 22 -28" />
+  <cell id="32" material="2" region="2 -7 11 -12 22 -28" />
+  <cell id="33" material="2" region="2 -7 17 -18 22 -28" />
+  <cell id="34" material="2" region="7 -8 11 -18 22 -28" />
+
+  <!-- Concrete -->
+  <cell id="41" material="7" region="31 -36 41 -46 51 -52" />
+  <cell id="42" material="7" region="31 -32 41 -46 52 -54" />
+  <cell id="43" material="7" region="32 -35 41 -42 52 -54" />
+  <cell id="44" material="7" region="32 -35 45 -46 52 -54" />
+  <cell id="45" material="7" region="35 -36 41 -46 52 -54" />
+  <cell id="46" material="7" region="31 -36 41 -46 54 -55" />
+
+  <!-- Air in room -->
+  <cell id="51" material="2" region="32 -35 42 -45 52 -53" />
+  <cell id="52" material="2" region="32 -33 42 -45 53 -28" />
+  <cell id="53" material="2" region="33 -34 42 -43 53 -28" />
+  <cell id="54" material="2" region="33 -34 44 -45 53 -28" />
+  <cell id="55" material="2" region="34 -35 42 -45 53 -28" />
+  <cell id="56" material="2" region="32 -35 42 -45 28 -54" />
+
+  <!-- Steel pool -->
+  <cell id="61" material="6" region="33 -34 43 -44 53 -21" />
+  <cell id="62" material="6" region="33  -1 43 -44 21 -28" />
+  <cell id="63" material="6" region=" 1  -8 43 -11 21 -28" />
+  <cell id="64" material="6" region=" 1  -8 18 -44 21 -28" />
+  <cell id="65" material="6" region=" 8 -34 43 -44 21 -28" />
+
+</geometry>

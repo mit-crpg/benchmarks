@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ========================================================================
+  Description: Pu (5.1 wt% 240) metal sphere with tampers and polyethylene
+  Case:        PU-MET-FAST-044 Case 5 (Graphite tamper)
+  ========================================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 5.295" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 5.308" />
+  <surface id="3" type="sphere" coeffs="0. 0. 0. 5.335" />
+  <surface id="4" type="sphere" coeffs="0. 0. 0. 6.335" />
+  <surface id="5" type="sphere" coeffs="0. 0. 0. 6.342" />
+  <surface id="6" type="sphere" coeffs="0. 0. 0. 9.1274" boundary="vacuum" />
+
+  <cell id="1" material="1" region="  -1" /> <!-- Core -->
+  <cell id="2" material="2" region="1 -2" /> <!-- Nickel -->
+  <cell id="3" material="3" region="2 -3" /> <!-- Air -->
+  <cell id="4" material="4" region="3 -4" /> <!-- Tamper -->
+  <cell id="5" material="3" region="4 -5" /> <!-- Air -->
+  <cell id="6" material="5" region="5 -6" /> <!-- Polyethylene -->
+
+</geometry>

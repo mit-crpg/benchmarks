@@ -10,7 +10,7 @@
   =================================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Uranyl Nitrate -->
   <material id="1">
@@ -20,7 +20,7 @@
     <nuclide name="O-16"  ao="3.7258e-02" />
     <nuclide name="U-235" ao="7.6864e-05" />
     <nuclide name="U-238" ao="6.8303e-04" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Water -->
@@ -28,7 +28,7 @@
     <density value="0.099987" units="atom/b-cm" />
     <nuclide name="H-1" ao="6.6658e-02" />
     <nuclide name="O-16" ao="3.3329e-02" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
 </materials>

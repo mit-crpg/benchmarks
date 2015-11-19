@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =================================================================
+  Description: 8-inch tuballoy-reflected oralloy assemblies (Topsy)
+  Case:        HEU-MET-FAST-002 case 1
+  =================================================================
+  -->
+
+  <surface id="1"  type="sphere" coeffs="0. 0. 0. 6.0509" />
+  <surface id="2"  type="sphere" coeffs="0. 0. 0. 26.3709" boundary="vacuum" />
+
+  <cell id="1" material="1" region="  -1" /> <!-- Oralloy -->
+  <cell id="2" material="2" region="1 -2" /> <!-- Tuballoy -->
+
+</geometry>

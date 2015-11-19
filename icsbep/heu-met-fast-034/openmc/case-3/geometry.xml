@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =======================================================================
+  Description: Three heterogeneous cylinders of HEU with polyethylene and
+               titanium, aluminium, or steel
+  Case:        HEU-MET-FAST-034 Case 3
+  =======================================================================
+  -->
+
+  <!-- Surfaces for bottom half -->
+  <surface id="1"  type="z-plane" coeffs="-21.24" boundary="vacuum" />
+  <surface id="2"  type="z-plane" coeffs="-20.75" />
+  <surface id="3"  type="z-plane" coeffs="-18.78" />
+  <surface id="4"  type="z-plane" coeffs="-18.29" />
+  <surface id="5"  type="z-plane" coeffs="-16.30" />
+  <surface id="6"  type="z-plane" coeffs="-15.81" />
+  <surface id="7"  type="z-plane" coeffs="-13.84" />
+  <surface id="8"  type="z-plane" coeffs="-13.35" />
+  <surface id="9"  type="z-plane" coeffs="-11.36" />
+  <surface id="10" type="z-plane" coeffs="-10.87" />
+  <surface id="11" type="z-plane" coeffs=" -8.90" />
+  <surface id="12" type="z-plane" coeffs=" -8.41" />
+  <surface id="13" type="z-plane" coeffs=" -6.42" />
+  <surface id="14" type="z-plane" coeffs=" -5.93" />
+  <surface id="15" type="z-plane" coeffs=" -3.96" />
+  <surface id="16" type="z-plane" coeffs=" -3.47" />
+  <surface id="17" type="z-plane" coeffs=" -1.48" />
+  <surface id="18" type="z-plane" coeffs=" -0.99" />
+  <surface id="19" type="z-plane" coeffs="  0.00" />
+
+  <!-- Surfaces for top half -->
+  <surface id="20" type="z-plane" coeffs="  1.11" /> <!-- Critical height -->
+  <surface id="21" type="z-plane" coeffs="  1.31" />
+  <surface id="22" type="z-plane" coeffs="  1.91" />
+  <surface id="23" type="z-plane" coeffs="  2.09" />
+  <surface id="24" type="z-plane" coeffs="  2.58" />
+  <surface id="25" type="z-plane" coeffs="  4.57" />
+  <surface id="26" type="z-plane" coeffs="  5.06" />
+  <surface id="27" type="z-plane" coeffs="  7.03" />
+  <surface id="28" type="z-plane" coeffs="  7.52" />
+  <surface id="29" type="z-plane" coeffs="  9.51" />
+  <surface id="30" type="z-plane" coeffs=" 10.00" />
+  <surface id="31" type="z-plane" coeffs=" 11.97" />
+  <surface id="32" type="z-plane" coeffs=" 12.46" />
+  <surface id="33" type="z-plane" coeffs=" 14.45" />
+  <surface id="34" type="z-plane" coeffs=" 14.94" />
+  <surface id="35" type="z-plane" coeffs=" 16.91" />
+  <surface id="36" type="z-plane" coeffs=" 17.40" />
+  <surface id="37" type="z-plane" coeffs=" 19.39" />
+  <surface id="38" type="z-plane" coeffs=" 19.88" />
+  <surface id="39" type="z-plane" coeffs=" 21.85" />
+  <surface id="40" type="z-plane" coeffs=" 22.34" boundary="vacuum" />
+
+  <!-- Cylindrical surfaces -->
+  <surface id="50" type="z-cylinder" coeffs="0. 0. 0.6" />
+  <surface id="51" type="z-cylinder" coeffs="0. 0. 9.995" />
+  <surface id="52" type="z-cylinder" coeffs="0. 0. 12.0" />
+  <surface id="53" type="z-cylinder" coeffs="0. 0. 13.0" boundary="vacuum" />
+
+  <!-- Bottom assembly -->
+  <cell id="1"  material="5"    region=" 1  -2 -51" />
+  <cell id="2"  material="2"    region=" 2  -3 -51" />
+  <cell id="3"  material="5"    region=" 3  -4 -51" />
+  <cell id="4"  material="1"    region=" 4  -5 -51" />
+  <cell id="5"  material="5"    region=" 5  -6 -51" />
+  <cell id="6"  material="2"    region=" 6  -7 -51" />
+  <cell id="7"  material="5"    region=" 7  -8 -51" />
+  <cell id="8"  material="1"    region=" 8  -9 -51" />
+  <cell id="9"  material="5"    region=" 9 -10 -51" />
+  <cell id="10" material="2"    region="10 -11 -51" />
+  <cell id="11" material="5"    region="11 -12 -51" />
+  <cell id="12" material="1"    region="12 -13 -51" />
+  <cell id="13" material="5"    region="13 -14 -51" />
+  <cell id="14" material="2"    region="14 -15 -51" />
+  <cell id="15" material="5"    region="15 -16 -51" />
+  <cell id="16" material="1"    region="16 -17 -51" />
+  <cell id="17" material="5"    region="17 -18 -51" />
+  <cell id="18" material="2"    region="18 -19  50 -51" />
+  <cell id="19" material="void" region="18 -19 -50" />
+
+  <!-- Top assembly -->
+  <cell id="20" material="void" region="19 -20 -51" />
+  <cell id="21" material="2"    region="20 -23 -51" />
+  <cell id="22" material="5"    region="23 -24 -51" />
+  <cell id="23" material="1"    region="24 -25 -51" />
+  <cell id="24" material="5"    region="25 -26 -51" />
+  <cell id="25" material="2"    region="26 -27 -51" />
+  <cell id="26" material="5"    region="27 -28 -51" />
+  <cell id="27" material="1"    region="28 -29 -51" />
+  <cell id="28" material="5"    region="29 -30 -51" />
+  <cell id="29" material="2"    region="30 -31 -51" />
+  <cell id="30" material="5"    region="31 -32 -51" />
+  <cell id="31" material="1"    region="32 -33 -51" />
+  <cell id="32" material="5"    region="33 -34 -51" />
+  <cell id="33" material="2"    region="34 -35 -51" />
+  <cell id="34" material="5"    region="35 -36 -51" />
+  <cell id="35" material="1"    region="36 -37 -51" />
+  <cell id="36" material="5"    region="37 -38 -51" />
+  <cell id="37" material="2"    region="38 -39 -51" />
+  <cell id="38" material="5"    region="39 -40 -51" />
+
+  <!-- Steel diaphragm -->
+  <cell id="39" material="5"    region="20 -21  51 -52" />
+  <cell id="40" material="5"    region="20 -22  52 -53" />
+  <cell id="41" material="void" region="21 -22  51 -52" />
+
+  <!-- Outside void -->
+  <cell id="42" material="void" region=" 1 -20  51 -53" />
+  <cell id="43" material="void" region="22 -40  51 -53" />
+
+</geometry>

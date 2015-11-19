@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ========================================================================
+  Description: 235U (94%) Spheres Surrounded by Natural Uranium Reflectors
+  Case:        HEU-MET-FAST-032 case 4
+  ========================================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 7.75520" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 9.49002" boundary="vacuum" />
+
+  <cell id="1" material="1" region="-1" />
+  <cell id="2" material="2" region="1 -2" />
+
+</geometry>

@@ -2,15 +2,13 @@
 <materials>
 
   <!--
-  ==============================================================
-  Description: PNL-11 Water-reflected Pu nitrate tank
-  Case:        PU-SOL-THERM-018, Case 9
-  Written by:  Ruaridh Macdonald
-  Date:        3/28/2012
-  ==============================================================
+  ==================================================================
+  Description: Water-reflected 24-in diameter cylinder of Pu nitrate 
+  Case:        PU-SOL-THERM-018, Case 9 (PNL-11)
+  ==================================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- fissile solution -->
   <material id="1">
@@ -21,43 +19,27 @@
     <nuclide name="Pu-241"  ao="1.1029e-05" />
     <nuclide name="Pu-242"  ao="4.7482e-06" />
     <nuclide name="Am-241"  ao="1.0949e-06" />
-    <nuclide name="Gd-152"  ao="2.7662e-11" />
-    <nuclide name="Gd-154"  ao="3.0152e-10" />
-    <nuclide name="Gd-155"  ao="2.0470e-09" />
-    <nuclide name="Gd-156"  ao="2.8312e-09" />
-    <nuclide name="Gd-157"  ao="2.1646e-09" />
-    <nuclide name="Gd-158"  ao="3.4356e-09" />
-    <nuclide name="Gd-160"  ao="3.0235e-09" />
+    <element name="Gd"      ao="1.3831e-08" />
     <nuclide name="H-1"     ao="6.3362e-02" />
-    <nuclide name="N-14"    ao="1.2902e-03" />
-    <nuclide name="O-16"    ao="3.5112e-02" />
-    <sab name="lwtr" xs="10t" />
+    <element name="N"       ao="1.2902e-03" />
+    <element name="O"       ao="3.5112e-02" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- steel clad -->
   <material id="2">
-    <density value="7.93" units="g/cm3" />
-    <nuclide name="Fe-54" ao="3.6986e-03" />
-    <nuclide name="Fe-56" ao="5.8060e-02" />
-    <nuclide name="Fe-57" ao="1.3409e-03" />
-    <nuclide name="Fe-58" ao="1.7844e-04" />
-    <nuclide name="Cr-50" ao="7.1832e-04" />
-    <nuclide name="Cr-52" ao="1.3852e-02" />
-    <nuclide name="Cr-53" ao="1.5707e-03" />
-    <nuclide name="Cr-54" ao="3.9098e-04" />
-    <nuclide name="Ni-58" ao="4.4315e-03" />
-    <nuclide name="Ni-60" ao="1.7070e-03" />
-    <nuclide name="Ni-61" ao="7.4202e-05" />
-    <nuclide name="Ni-62" ao="2.3659e-04" />
-    <nuclide name="Ni-64" ao="6.0252e-05" />
+    <density units="sum" />
+    <element name="Fe" ao="6.3278e-02" />
+    <element name="Cr" ao="1.6532e-02" />
+    <element name="Ni" ao="6.5095e-03" />
   </material>
 
   <!-- water -->
   <material id="3">
-    <density value="0.99754" units="g/cm3" />
-    <nuclide name="H-1"  ao="6.6691e-02" />
-    <nuclide name="O-16" ao="3.3346e-02" />
-    <sab name="lwtr" xs="10t" />
+    <density units="sum" />
+    <nuclide name="H-1" ao="6.6691e-02" />
+    <element name="O"   ao="3.3346e-02" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
 </materials>

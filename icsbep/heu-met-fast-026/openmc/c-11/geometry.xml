@@ -58,38 +58,37 @@
   <surface id="43" type="z-plane" coeffs="936.0475" boundary="vacuum" />  <!-- top of room -->
 
   <!-- Bottom fuel cylinder universe -->
-  <cell id="10" universe="1" material="1" surfaces="-1  2  3  7 -8" /> <!-- HEU Cylinder -->
-  <cell id="11" universe="1" material="2" surfaces="-2 7" />           <!-- Left SS Rod -->
-  <cell id="12" universe="1" material="2" surfaces="-3 7" />           <!-- Right SS Rod -->
-  <cell id="13" universe="1" material="void" surfaces="1  7 -8" />     <!-- Side Void -->
-  <cell id="14" universe="1" material="void" surfaces="     -7" />     <!-- Bottom Void -->
-  <cell id="15" universe="1" material="void" surfaces="2  3  8" />     <!-- Top Void -->
+  <cell id="10" universe="1" material="1" region="-1  2  3  7 -8" /> <!-- HEU Cylinder -->
+  <cell id="11" universe="1" material="2" region="-2 7" />           <!-- Left SS Rod -->
+  <cell id="12" universe="1" material="2" region="-3 7" />           <!-- Right SS Rod -->
+  <cell id="13" universe="1" material="void" region="1  7 -8" />     <!-- Side Void -->
+  <cell id="14" universe="1" material="void" region="     -7" />     <!-- Bottom Void -->
+  <cell id="15" universe="1" material="void" region="2  3  8" />     <!-- Top Void -->
 
   <!-- Middle fuel cylinder universe -->
-  <cell id="20" universe="2" material="1" surfaces="-1  2  3  7 -8" /> <!-- HEU Cylinder -->
-  <cell id="21" universe="2" material="2" surfaces="-2" />             <!-- Left SS Rod -->
-  <cell id="22" universe="2" material="2" surfaces="-3" />             <!-- Right SS Rod -->
-  <cell id="23" universe="2" material="void" surfaces="1  7 -8" />     <!-- Side Void -->
-  <cell id="24" universe="2" material="void" surfaces="2  3 -7" />     <!-- Bottom Void -->
-  <cell id="25" universe="2" material="void" surfaces="2  3  8" />     <!-- Top Void -->
+  <cell id="20" universe="2" material="1" region="-1  2  3  7 -8" /> <!-- HEU Cylinder -->
+  <cell id="21" universe="2" material="2" region="-2" />             <!-- Left SS Rod -->
+  <cell id="22" universe="2" material="2" region="-3" />             <!-- Right SS Rod -->
+  <cell id="23" universe="2" material="void" region="1  7 -8" />     <!-- Side Void -->
+  <cell id="24" universe="2" material="void" region="2  3 -7" />     <!-- Bottom Void -->
+  <cell id="25" universe="2" material="void" region="2  3  8" />     <!-- Top Void -->
 
   <!-- Top fuel cylinder universe -->
-  <cell id="30" universe="3" material="1" surfaces="-1  2  3  7 -8" /> <!-- HEU Cylinder -->
-  <cell id="31" universe="3" material="2" surfaces="-2 -8" />          <!-- Left SS Rod -->
-  <cell id="32" universe="3" material="2" surfaces="-3 -8" />          <!-- Right SS Rod -->
-  <cell id="33" universe="3" material="void" surfaces="1  7 -8" />     <!-- Side Void -->
-  <cell id="34" universe="3" material="void" surfaces="2  3 -7" />     <!-- Bottom Void -->
-  <cell id="35" universe="3" material="void" surfaces="      8" />     <!-- Top Void -->
+  <cell id="30" universe="3" material="1" region="-1  2  3  7 -8" /> <!-- HEU Cylinder -->
+  <cell id="31" universe="3" material="2" region="-2 -8" />          <!-- Left SS Rod -->
+  <cell id="32" universe="3" material="2" region="-3 -8" />          <!-- Right SS Rod -->
+  <cell id="33" universe="3" material="void" region="1  7 -8" />     <!-- Side Void -->
+  <cell id="34" universe="3" material="void" region="2  3 -7" />     <!-- Bottom Void -->
+  <cell id="35" universe="3" material="void" region="      8" />     <!-- Top Void -->
 
   <!-- Cells containing Lattices -->
-  <cell id="100" fill="101" surfaces="5 -10  13 -16  19 -28" />
+  <cell id="100" fill="101" region="5 -10  13 -16  19 -28" />
 
   <!-- Lattice with uranium cylinder -->
   <lattice id="101">
-    <type>rectangular</type>
     <dimension>3 3 3</dimension>
     <lower_left>-45.306 -45.306 -44.2275</lower_left>
-    <width>30.204 30.204 29.485</width>
+    <pitch>30.204 30.204 29.485</pitch>
     <universes>
       1 1 1 1 1 1 1 1 1
       2 2 2 2 2 2 2 2 2
@@ -98,42 +97,42 @@
   </lattice>
 
   <!-- Paraffin and voids -->
-  <cell id="40" material="4"    surfaces="19 -20  13 -16  4  -5" /> <!-- Lower Reflector -->
-  <cell id="41" material="void" surfaces="20 -21  13 -16  4  -5" /> <!-- Left Void -->
-  <cell id="42" material="4"    surfaces="21 -23  13 -16  4  -5" /> <!-- Lower Reflector -->
-  <cell id="43" material="void" surfaces="23 -24  13 -16  4  -5" /> <!-- Center Void -->
-  <cell id="44" material="4"    surfaces="24 -26  13 -16  4  -5" /> <!-- Lower Reflector -->
-  <cell id="45" material="void" surfaces="26 -27  13 -16  4  -5" /> <!-- Right Void -->
-  <cell id="46" material="4"    surfaces="27 -28  13 -16  4  -5" /> <!-- Lower Reflector -->
-  <cell id="47" material="4"    surfaces="19 -20  13 -16 10 -11" /> <!-- Upper Reflector -->
-  <cell id="48" material="void" surfaces="20 -21  13 -16 10 -11" /> <!-- Left Void -->
-  <cell id="49" material="4"    surfaces="21 -23  13 -16 10 -11" /> <!-- Upper Reflector -->
-  <cell id="50" material="void" surfaces="23 -24  13 -16 10 -11" /> <!-- Center Void -->
-  <cell id="51" material="4"    surfaces="24 -26  13 -16 10 -11" /> <!-- Upper Reflector -->
-  <cell id="52" material="void" surfaces="26 -27  13 -16 10 -11" /> <!-- Right Void -->
-  <cell id="53" material="4"    surfaces="27 -28  13 -16 10 -11" /> <!-- Upper Reflector -->
-  <cell id="54" material="4"    surfaces="18 -29  12 -13  4 -11" /> <!-- Back Reflector -->
-  <cell id="55" material="4"    surfaces="18 -29  16 -17  4 -11" /> <!-- Front Reflector -->
-  <cell id="56" material="4"    surfaces="18 -19  13 -16  4 -11" /> <!-- Left Reflector -->
-  <cell id="57" material="4"    surfaces="28 -29  13 -16  4 -11" /> <!-- Right Reflector -->
+  <cell id="40" material="4"    region="19 -20  13 -16  4  -5" /> <!-- Lower Reflector -->
+  <cell id="41" material="void" region="20 -21  13 -16  4  -5" /> <!-- Left Void -->
+  <cell id="42" material="4"    region="21 -23  13 -16  4  -5" /> <!-- Lower Reflector -->
+  <cell id="43" material="void" region="23 -24  13 -16  4  -5" /> <!-- Center Void -->
+  <cell id="44" material="4"    region="24 -26  13 -16  4  -5" /> <!-- Lower Reflector -->
+  <cell id="45" material="void" region="26 -27  13 -16  4  -5" /> <!-- Right Void -->
+  <cell id="46" material="4"    region="27 -28  13 -16  4  -5" /> <!-- Lower Reflector -->
+  <cell id="47" material="4"    region="19 -20  13 -16 10 -11" /> <!-- Upper Reflector -->
+  <cell id="48" material="void" region="20 -21  13 -16 10 -11" /> <!-- Left Void -->
+  <cell id="49" material="4"    region="21 -23  13 -16 10 -11" /> <!-- Upper Reflector -->
+  <cell id="50" material="void" region="23 -24  13 -16 10 -11" /> <!-- Center Void -->
+  <cell id="51" material="4"    region="24 -26  13 -16 10 -11" /> <!-- Upper Reflector -->
+  <cell id="52" material="void" region="26 -27  13 -16 10 -11" /> <!-- Right Void -->
+  <cell id="53" material="4"    region="27 -28  13 -16 10 -11" /> <!-- Upper Reflector -->
+  <cell id="54" material="4"    region="18 -29  12 -13  4 -11" /> <!-- Back Reflector -->
+  <cell id="55" material="4"    region="18 -29  16 -17  4 -11" /> <!-- Front Reflector -->
+  <cell id="56" material="4"    region="18 -19  13 -16  4 -11" /> <!-- Left Reflector -->
+  <cell id="57" material="4"    region="28 -29  13 -16  4 -11" /> <!-- Right Reflector -->
 
   <!-- Concrete Room -->
-  <cell id="80" material="void" surfaces="31 -32 36 -37 40  -4" /> <!-- Room void (below 12 ft) -->
-  <cell id="81" material="void" surfaces="31 -32 36 -12  4 -11" /> <!-- Room void (below 12 ft) -->
-  <cell id="82" material="void" surfaces="31 -18 12 -17  4 -11" /> <!-- Room void (below 12 ft) -->
-  <cell id="83" material="void" surfaces="29 -32 12 -17  4 -11" /> <!-- Room void (below 12 ft) -->
-  <cell id="84" material="void" surfaces="31 -32 17 -37  4 -11" /> <!-- Room void (below 12 ft) -->
-  <cell id="85" material="void" surfaces="31 -32 36 -37 11 -41" /> <!-- Room void (below 12 ft) -->
-  <cell id="86" material="void" surfaces="31 -32 35 -37 41 -42" /> <!-- Room void (above 12 ft) -->
+  <cell id="80" material="void" region="31 -32 36 -37 40  -4" /> <!-- Room void (below 12 ft) -->
+  <cell id="81" material="void" region="31 -32 36 -12  4 -11" /> <!-- Room void (below 12 ft) -->
+  <cell id="82" material="void" region="31 -18 12 -17  4 -11" /> <!-- Room void (below 12 ft) -->
+  <cell id="83" material="void" region="29 -32 12 -17  4 -11" /> <!-- Room void (below 12 ft) -->
+  <cell id="84" material="void" region="31 -32 17 -37  4 -11" /> <!-- Room void (below 12 ft) -->
+  <cell id="85" material="void" region="31 -32 36 -37 11 -41" /> <!-- Room void (below 12 ft) -->
+  <cell id="86" material="void" region="31 -32 35 -37 41 -42" /> <!-- Room void (above 12 ft) -->
 
-  <cell id="87" material="3" surfaces="30 -33 34 -38 39 -40" /> <!-- floor of room -->
-  <cell id="88" material="3" surfaces="30 -33 34 -36 40 -41" /> <!-- ledge -->
-  <cell id="89" material="3" surfaces="30 -33 34 -35 41 -42" /> <!-- wall above ledge (south) -->
-  <cell id="90" material="3" surfaces="30 -31 35 -36 41 -42" /> <!-- wall above ledge (west) -->
-  <cell id="91" material="3" surfaces="32 -33 35 -36 41 -42" /> <!-- wall above ledge (east) -->
-  <cell id="92" material="3" surfaces="30 -31 36 -37 40 -42" /> <!-- west wall -->
-  <cell id="93" material="3" surfaces="32 -33 36 -37 40 -42" /> <!-- east wall -->
-  <cell id="94" material="3" surfaces="30 -33 37 -38 40 -42" /> <!-- north wall -->
-  <cell id="95" material="3" surfaces="30 -33 34 -38 42 -43" /> <!-- ceiling of room -->
-  
+  <cell id="87" material="3" region="30 -33 34 -38 39 -40" /> <!-- floor of room -->
+  <cell id="88" material="3" region="30 -33 34 -36 40 -41" /> <!-- ledge -->
+  <cell id="89" material="3" region="30 -33 34 -35 41 -42" /> <!-- wall above ledge (south) -->
+  <cell id="90" material="3" region="30 -31 35 -36 41 -42" /> <!-- wall above ledge (west) -->
+  <cell id="91" material="3" region="32 -33 35 -36 41 -42" /> <!-- wall above ledge (east) -->
+  <cell id="92" material="3" region="30 -31 36 -37 40 -42" /> <!-- west wall -->
+  <cell id="93" material="3" region="32 -33 36 -37 40 -42" /> <!-- east wall -->
+  <cell id="94" material="3" region="30 -33 37 -38 40 -42" /> <!-- north wall -->
+  <cell id="95" material="3" region="30 -33 34 -38 42 -43" /> <!-- ceiling of room -->
+
 </geometry>

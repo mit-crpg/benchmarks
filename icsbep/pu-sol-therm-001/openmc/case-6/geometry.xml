@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+      =================================================================
+      Description: Water-reflected sphere of Plutonium Nitrate Solution
+      Case:        PU-SOL-THERM-001 Case 6 (simple)
+      Written By:  Paul Romano
+      Date:        3/11/2014
+      =================================================================
+  -->
+
+  <cell id="1" material="1" region="  -1" /> <!-- Plutonium nitrate -->
+  <cell id="2" material="2" region="1 -2" /> <!-- Steel shell -->
+  <cell id="3" material="3" region="2 -3" /> <!-- water reflector -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 14.5189" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 14.6434" />
+  <surface id="3" type="sphere" coeffs="0. 0. 0. 44.6434" boundary="vacuum" />
+
+</geometry>

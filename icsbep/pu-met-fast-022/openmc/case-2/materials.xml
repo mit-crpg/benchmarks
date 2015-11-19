@@ -5,30 +5,20 @@
   ==========================================================
   Description: Bare Spherical Assembly of 98% Pu-239, VNIIEF
   Case:        PU-MET-FAST-022 Simplified model
-  Written By:  Paul Romano
-  Date:        1/29/2012
   ==========================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- 98% Pu-239 in delta phase -->
   <material id="1">
-    <density value="0.04178839" units="atom/b-cm" />
-    <nuclide name="Pu-239" ao="3.6623e-2" />
-    <nuclide name="Pu-240" ao="6.6951e-4" />
-    <nuclide name="Ga-69" ao="0.001321113732" />
-    <nuclide name="Ga-71" ao="0.000876786268" />
-    <nuclide name="Fe-54" ao="8.3273715e-6" />
-    <nuclide name="Fe-56" ao="0.0001307219238" />
-    <nuclide name="Fe-57" ao="3.0189393e-6" />
-    <nuclide name="Fe-58" ao="4.017654e-7" />
-    <nuclide name="C-Nat" ao="2.9311e-4" />
-    <nuclide name="Ni-58" ao="0.0012678641856" />
-    <nuclide name="Ni-60" ao="0.0004883790144" />
-    <nuclide name="Ni-61" ao="2.12294976e-5" />
-    <nuclide name="Ni-62" ao="6.7688928e-5" />
-    <nuclide name="Ni-64" ao="1.72383744e-5" />
+    <density units="sum" />
+    <nuclide name="Pu-239" ao="3.6623e-02" />
+    <nuclide name="Pu-240" ao="6.6951e-04" />
+    <element name="Ga"     ao="2.1979e-03" />
+    <element name="Fe"     ao="1.4247e-04" />
+    <element name="C"      ao="2.9311e-04" />
+    <element name="Ni"     ao="1.8624e-03" />
   </material>
 
 </materials>

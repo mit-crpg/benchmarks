@@ -10,7 +10,7 @@
   ==========================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- Uranium Oxyfluoride Solution -->
   <material id="1">
@@ -22,7 +22,7 @@
     <nuclide name="F-19"  ao="5.7107e-04" />
     <element name="O"     ao="3.2371e-02" />
     <nuclide name="H-1"   ao="6.3600e-02" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- 1100 Aluminum -->
@@ -40,7 +40,7 @@
     <density units="sum" />
     <nuclide name="H-1" ao="6.4736e-02" />
     <element name="O"   ao="3.2368e-02" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
 </materials>

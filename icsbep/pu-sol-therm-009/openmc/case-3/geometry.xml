@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =============================================================
+  Description: Unreflected sphere of Plutonium Nitrate Solution
+  Case:        PU-SOL-INTER-009 Case 3
+  Written By:  Paul Romano
+  Date:        3/18/2014
+  =============================================================
+  -->
+
+  <cell id="1" material="1" region="-1" />
+  <cell id="2" material="2" region="1 -2" />
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 60.964" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 61.734" boundary="vacuum" />
+
+</geometry>

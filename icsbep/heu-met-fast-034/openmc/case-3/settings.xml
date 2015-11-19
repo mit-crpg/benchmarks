@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  =======================================================================
+  Description: Three heterogeneous cylinders of HEU with polyethylene and
+               titanium, aluminium, or steel
+  Case:        HEU-MET-FAST-034 Case 3
+  =======================================================================
+  -->
+
+  <eigenvalue>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <source>
+    <space>
+      <type>box</type>
+      <parameters>-1 -1 -1  1  1  1</parameters>
+    </space>
+  </source>
+
+</settings>

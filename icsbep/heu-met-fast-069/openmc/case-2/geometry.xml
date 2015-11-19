@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==========================================================================
+  Description: Oralloy (93.2 wt% U-235) Metal Cylinder with Be Top Reflector
+  Case:        HEU-MET-FAST-069 Simplified model
+  ==========================================================================
+  -->
+
+  <surface id="1" type="z-plane" coeffs="-10.4775" boundary="vacuum" />
+  <surface id="2" type="z-plane" coeffs="0.0" />
+  <surface id="3" type="z-plane" coeffs="14.12875" boundary="vacuum" />
+  <surface id="4" type="z-cylinder" coeffs="0. 0. 8.89" boundary="vacuum" />
+
+  <cell id="1" material="1" region="1 -2 -4" /> <!-- HEU -->
+  <cell id="2" material="2" region="2 -3 -4" /> <!-- Beryllium -->
+
+</geometry>

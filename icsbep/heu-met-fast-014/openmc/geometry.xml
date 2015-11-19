@@ -5,8 +5,6 @@
   ========================================================
   Description: Sphere of HEU reflected by Depleted Uranium
   Case:        HEU-MET-FAST-014
-  Written By:  Steven Fine
-  Date:        3/20/2012
   ========================================================
   -->
 
@@ -33,27 +31,27 @@
   <surface id="21" type="z-plane"    coeffs="-16.0" boundary="vacuum" />
   <surface id="22" type="z-plane"    coeffs="14.0"  boundary="vacuum" />
 
-  <cell id="1"  material="void" surfaces="-1 -10" />
-  <cell id="2"  material="void" surfaces="12 -2" />
-  <cell id="3"  material="1"    surfaces="1 -3 -10 16 18" />
-  <cell id="4"  material="1"    surfaces="2 -4 12 16 19" />
-  <cell id="5"  material="4"    surfaces="3 -5 -10 17" />
-  <cell id="6"  material="4"    surfaces="4 -6 12 17" />
-  <cell id="7"  material="4"    surfaces="5 -7 -10" />
-  <cell id="8"  material="4"    surfaces="6 -8 12 20" />
-  <cell id="9"  material="void" surfaces="10 -11 -15" />
-  <cell id="10" material="3"    surfaces="11 -12 -15" />
-  <cell id="11" material="void" surfaces="7 -15 -10 13 21" />
-  <cell id="12" material="void" surfaces="8 -15 12 -22" />
-  <cell id="13" material="2"    surfaces="7 -9 -13 -10" />
-  <cell id="14" material="2"    surfaces="   9 -14 -10 21" />
-  <cell id="15" material="void" surfaces="9 14 -13 -10 21" />
-  <cell id="16" material="void" surfaces="1 -3 -10 -16" />
-  <cell id="17" material="void" surfaces="2 -4 12 -16" />
-  <cell id="18" material="void" surfaces="3 -5 -17 -10" />
-  <cell id="19" material="void" surfaces="4 -6 12 -17" />
-  <cell id="20" material="void" surfaces="1 -3 -10 16 -18" />
-  <cell id="21" material="void" surfaces="2 -4 12 16 -19" />
-  <cell id="22" material="void" surfaces="6 -8 12 -20" />
+  <cell id="1"  material="void" region="-1 -10" />
+  <cell id="2"  material="void" region="12 -2" />
+  <cell id="3"  material="1"    region="1 -3 -10 16 18" />
+  <cell id="4"  material="1"    region="2 -4 12 16 19" />
+  <cell id="5"  material="4"    region="3 -5 -10 17" />
+  <cell id="6"  material="4"    region="4 -6 12 17" />
+  <cell id="7"  material="4"    region="5 -7 -10" />
+  <cell id="8"  material="4"    region="6 -8 12 20" />
+  <cell id="9"  material="void" region="10 -11 -15" />
+  <cell id="10" material="3"    region="11 -12 -15" />
+  <cell id="11" material="void" region="7 -15 -10 13 21" />
+  <cell id="12" material="void" region="8 -15 12 -22" />
+  <cell id="13" material="2"    region="7 -9 -13 -10" />
+  <cell id="14" material="2"    region="   9 -14 -10 21" />
+  <cell id="15" material="void" region="9 14 -13 -10 21" />
+  <cell id="16" material="void" region="1 -3 -10 -16" />
+  <cell id="17" material="void" region="2 -4 12 -16" />
+  <cell id="18" material="void" region="3 -5 -17 -10" />
+  <cell id="19" material="void" region="4 -6 12 -17" />
+  <cell id="20" material="void" region="1 -3 -10 16 -18" />
+  <cell id="21" material="void" region="2 -4 12 16 -19" />
+  <cell id="22" material="void" region="6 -8 12 -20" />
 
 </geometry>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =================================================================
+  Description: 8-inch tuballoy-reflected oralloy assemblies (Topsy)
+  Case:        HEU-MET-FAST-002 case 3
+  =================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Oralloy -->
+  <material id="1">
+    <density units="sum" />
+    <nuclide name="U-234" ao="4.9210e-04" />
+    <nuclide name="U-235" ao="4.4917e-02" />
+    <nuclide name="U-238" ao="2.5993e-03" />
+  </material>
+
+  <!-- Tuballoy -->
+  <material id="2">
+    <density units="sum" />
+    <nuclide name="U-234" ao="2.6299e-06" />
+    <nuclide name="U-235" ao="3.4428e-04" />
+    <nuclide name="U-238" ao="4.7470e-02" />
+  </material>
+
+</materials>

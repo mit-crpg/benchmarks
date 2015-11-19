@@ -5,48 +5,35 @@
   =================================================
   Description: Unreflected sphere of U233 nitrate
   Case:        U233-SOL-THERM-001 Experiment 4
-  Written By:  Paul Romano
-  Date:        1/2/2012
   =================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <!-- UO2(NO3)2 Solution -->
   <material id="1">
-    <density value="0.10017" units="atom/b-cm" />
+    <density units="sum" />
     <nuclide name="U-233"  ao="4.8433e-05" />
     <nuclide name="U-234"  ao="7.9965e-07" />
     <nuclide name="U-235"  ao="1.9660e-08" />
     <nuclide name="U-238"  ao="3.1059e-07" />
     <nuclide name="N-14"   ao="1.3173e-04" />
     <nuclide name="H-1"    ao="6.6337e-02" />
-    <nuclide name="O-16"   ao="3.3640e-02" />
-    <nuclide name="O-17"   ao="1.2788e-05" />
+    <element name="O"      ao="3.3653e-02" />
     <nuclide name="B-10"   ao="7.6312e-07" />
     <nuclide name="B-11"   ao="3.0716e-06" />
     <nuclide name="Th-232" ao="2.2133e-07" />
-    <sab name="lwtr" xs="10t" />
+    <sab name="HH2O" xs="71t" />
   </material>
 
   <!-- Type 1100 Aluminum -->
   <material id="2">
-    <density value="2.71" units="g/cm3" />
-    <nuclide name="Al-27" ao="5.9881e-02" />
-    <!-- Si at 2.1790e-4 atom/b-cm -->
-    <nuclide name="Si-28" ao="2.0097e-04" />
-    <nuclide name="Si-29" ao="1.0205e-05" />
-    <nuclide name="Si-30" ao="6.7269e-06" />
-    <!-- Fe at 1.0958e-4 atom/b-cm -->
-    <nuclide name="Fe-54" ao="6.4050e-06" />
-    <nuclide name="Fe-56" ao="1.0054e-04" />
-    <nuclide name="Fe-57" ao="2.3220e-06" />
-    <nuclide name="Fe-58" ao="3.0902e-07" />
-    <!-- Cu at 5.1364e-5 atom/b-cm -->
-    <nuclide name="Cu-63" ao="3.5528e-05" />
-    <nuclide name="Cu-65" ao="1.5836e-05" />
-    <!-- Mn at 1.4853e-5 atom/b-cm -->
-    <nuclide name="Mn-55" ao="1.4853e-05" />
+    <density units="sum" />
+    <element name="Al" ao="5.9881e-02" />
+    <element name="Si" ao="2.1790e-04" />
+    <element name="Fe" ao="1.0958e-04" />
+    <element name="Cu" ao="5.1364e-05" />
+    <element name="Mn" ao="1.4853e-05" />
   </material>
 
 </materials>

@@ -5,25 +5,23 @@
   =================================================
   Description: U-233 Sphere surrounded by Uranium
   Case:        U233-MET-FAST-006
-  Written By:  Paul Romano
-  Date:        1/2/2012
   =================================================
   -->
 
-  <default_xs>70c</default_xs>
+  <default_xs>71c</default_xs>
 
   <material id="1">
-    <density value="18.42" units="g/cm3" />
-    <nuclide name="U-233" ao="4.6710e-2" />
-    <nuclide name="U-234" ao="5.8772e-4" />
-    <nuclide name="U-235" ao="1.4158e-5" />
-    <nuclide name="U-238" ao="2.7959e-4" />
+    <density units="sum" />
+    <nuclide name="U-233" ao="4.6710e-02" />
+    <nuclide name="U-234" ao="5.8772e-04" />
+    <nuclide name="U-235" ao="1.4158e-05" />
+    <nuclide name="U-238" ao="2.7959e-04" />
   </material>
 
   <material id="2">
-    <density value="19.00" units="g/cm3" />
-    <nuclide name="U-235" ao="3.5050e-4" />
-    <nuclide name="U-238" ao="4.7719e-2" />
+    <density units="sum" />
+    <nuclide name="U-235" ao="3.5050e-04" />
+    <nuclide name="U-238" ao="4.7719e-02" />
   </material>
 
 </materials>
