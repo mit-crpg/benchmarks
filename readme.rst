@@ -54,4 +54,4 @@ c5g7_3d_extension
 
 .. _C5G7: https://www.oecd-nea.org/science/docs/2003/nsc-doc2003-16.pdf
 
-.. _C5G7_3d: https://www.oecd-nea.org/science/docs/2003/nsc-doc2003-16.pdf
+.. _C5G7_3d: https://www.oecd-nea.org/science/docs/2005/nsc-doc2005-16.pdf

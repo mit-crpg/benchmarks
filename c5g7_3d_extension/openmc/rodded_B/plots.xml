@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<plots>
+
+<plot>
+  <id>1</id>
+  <filename>mat</filename>
+  <color>material</color>
+  <origin>32.13 32.13 32.13</origin>
+  <width>64.26 64.26</width>
+  <type>slice</type>
+  <pixels>1000 1000 </pixels>
+  <basis>xz</basis>
+</plot>
+
+<plot>
+  <id>2</id>
+  <filename>mat_xy</filename>
+  <color>material</color>
+  <origin>32.13 32.13 40.0</origin>
+  <width>64.26 64.26</width>
+  <type>slice</type>
+  <pixels>1000 1000 </pixels>
+  <basis>xy</basis>
+</plot>
+
+</plots>
