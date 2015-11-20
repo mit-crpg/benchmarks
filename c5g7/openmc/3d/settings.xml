@@ -33,7 +33,7 @@
 
   <!-- Establish statepoints -->
   <state_point>
-    <interval>2000</interval>
+    <interval>5000</interval>
   </state_point>
 
   <output>

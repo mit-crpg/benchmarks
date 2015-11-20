@@ -6,7 +6,7 @@
     in an eigenvalue calculation mode
   -->
   <eigenvalue>
-    <batches>2000</batches>
+    <batches>20000</batches>
     <inactive>500</inactive>
     <particles>10000</particles>
   </eigenvalue>
@@ -27,7 +27,7 @@
 
   <!-- Establish statepoints to aid in examining convergence -->
   <state_point>
-    <interval> 2000 </interval>
+    <interval> 5000 </interval>
     <source_write>true</source_write>
   </state_point>
 
