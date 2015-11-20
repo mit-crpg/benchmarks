@@ -10,7 +10,7 @@ doppler-defect
   Benchmark for Doppler reactivity defect by Russell Mosteller. Described in
   LA-UR-06-2968_.
 
-icsbep 
+icsbep
   Problems from the `International Handbook of Evaluated Criticality Safety
   Benchmark Experiments`_.
 
@@ -38,6 +38,10 @@ c5g7
   2D 2x2 UO2 and MOX assembly array, and a 3D version of the 2x2 UO2 and MOX
   assembly array.
 
+c5g7_3d_extension
+  The OECD/NEA C5G7_3D_ Benchmarks extend the previous C5G7_ set to include
+  rodded 3D problems to increase the difficulty.
+
 .. _LA-UR-06-2968: http://mcd.ans.org/jb/bench/Doppler/Overview.pdf
 
 .. _International Handbook of Evaluated Criticality Safety Benchmark Experiments: http://icsbep.inel.gov/handbook.shtml
@@ -49,3 +53,5 @@ c5g7
 .. _OECD/NEA Source Convergence Benchmarks: http://www.oecd-nea.org/science/wpncs/convergence/specifications/index.html
 
 .. _C5G7: https://www.oecd-nea.org/science/docs/2003/nsc-doc2003-16.pdf
+
+.. _C5G7_3d: https://www.oecd-nea.org/science/docs/2003/nsc-doc2003-16.pdf
