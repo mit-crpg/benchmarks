@@ -1,8 +1,9 @@
 import openmc
-from lattices import lattices, universes, cells, surfaces
-from tallies import tallies, mesh
 from openmc.source import Source
 from openmc.stats import Box
+import sys
+sys.path.append('../')
+import cells
 
 ###############################################################################
 #                      Simulation Input File Parameters
@@ -32,18 +33,9 @@ materials_file.export_to_xml()
 ###############################################################################
 
 # Instantiate Core boundaries
-cells['Core'].region = +surfaces['Core x-min'] & +surfaces['Core y-min'] & \
-                       -surfaces['Core x-max'] & -surfaces['Core y-max']
-
-lattices['Core'] = openmc.RectLattice(lattice_id=201, name='3x3 core lattice')
-lattices['Core'].dimension = [3,3]
-lattices['Core'].lower_left = [-32.13, -32.13]
-lattices['Core'].pitch = [21.42, 21.42]
-w = universes['Reflector Unrodded Assembly']
-u = universes['UO2 Unrodded Assembly']
-m = universes['MOX Unrodded Assembly']
-lattices['Core'].universes = [[u, m, w], [m, u, w], [w, w, w]]
-cells['Core'].fill = lattices['Core']
+universes = {}
+universes['Root'] = openmc.Universe(universe_id=0,  name='Root')
+universes['Root'].add_cells([cells.cells['UO2'], cells.cells['UO2 Pin']])
 
 # Instantiate a Geometry and register the root Universe
 geometry = openmc.Geometry()
@@ -67,11 +59,12 @@ settings_file.batches = batches
 settings_file.inactive = inactive
 settings_file.particles = particles
 settings_file.output = {'tallies': True, 'summary': True}
-settings_file.source = Source(space=Box([-32.13, -10.71, -1.0],
-                                        [10.71, 32.13, 1.0]))
-settings_file.entropy_lower_left = [-32.13, -32.13, -1.E50]
-settings_file.entropy_upper_right = [32.13, 32.13, 1.E50]
-settings_file.entropy_dimension = [51, 51, 1]
+settings_file.source = Source(space=Box([-0.63,-0.63,-1.E50],
+                                        [ 0.63, 0.63, 1.E50],
+                                        only_fissionable=True))
+settings_file.entropy_lower_left  = [-0.63,-0.63,-1.E50]
+settings_file.entropy_upper_right = [ 0.63, 0.63, 1.E50]
+settings_file.entropy_dimension = [10,10,1]
 settings_file.export_to_xml()
 
 
@@ -82,7 +75,7 @@ settings_file.export_to_xml()
 plot_1 = openmc.Plot(plot_id=1)
 plot_1.filename = 'plot_1'
 plot_1.origin = [0.0, 0.0, 0.0]
-plot_1.width = [64.26, 64.26]
+plot_1.width = [1.26, 1.26]
 plot_1.pixels = [500, 500]
 plot_1.color = 'mat'
 plot_1.basis = 'xy'
@@ -95,6 +88,32 @@ plot_file.export_to_xml()
 ###############################################################################
 #                   Exporting to OpenMC tallies.xml File
 ###############################################################################
+
+
+tallies = {}
+
+# Instantiate a tally mesh
+mesh = openmc.Mesh(mesh_id=1)
+mesh.type = 'regular'
+mesh.dimension = [51, 51, 1]
+mesh.lower_left  = [-0.63,-0.63,-1.e50]
+mesh.upper_right = [ 0.63, 0.63, 1.e50]
+
+# Instantiate some tally Filters
+mesh_filter = openmc.Filter()
+mesh_filter.mesh = mesh
+
+# Instantiate the Tally
+tallies['Mesh Rates'] = openmc.Tally(tally_id=1, name='tally 1')
+tallies['Mesh Rates'].add_filter(mesh_filter)
+tallies['Mesh Rates'].add_score('flux')
+tallies['Mesh Rates'].add_score('fission')
+tallies['Mesh Rates'].add_score('nu-fission')
+
+tallies['Global Rates'] = openmc.Tally(tally_id=2, name='tally 2')
+tallies['Global Rates'].add_score('flux')
+tallies['Global Rates'].add_score('fission')
+tallies['Global Rates'].add_score('nu-fission')
 
 # Instantiate a TalliesFile, register Tally/Mesh, and export to XML
 tallies_file = openmc.TalliesFile()

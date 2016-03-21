@@ -30,6 +30,7 @@ cells['MOX Rodded Assembly']         = openmc.Cell(cell_id=19, name='MOX Rodded 
 cells['Reflector Unrodded Assembly'] = openmc.Cell(cell_id=20, name='Water Unrodded Assembly')
 cells['Reflector Rodded Assembly']   = openmc.Cell(cell_id=21, name='Water Rodded Assembly')
 cells['Core']                        = openmc.Cell(cell_id=22, name='Core')
+cells['UO2 Pin']                     = openmc.Cell(cell_id=23, name='UO2 Pin')
 
 # Use surface half-spaces to define regions
 cells['UO2'].region                       = -surfaces['Pin Cell ZCylinder']
@@ -46,6 +47,11 @@ cells['MOX 8.7% Moderator'].region        = +surfaces['Pin Cell ZCylinder']
 cells['Fission Chamber Moderator'].region = +surfaces['Pin Cell ZCylinder']
 cells['Guide Tube Moderator'].region      = +surfaces['Pin Cell ZCylinder']
 cells['Control Rod Moderator'].region     = +surfaces['Pin Cell ZCylinder']
+cells['UO2 Pin'].region                   = +surfaces['Pin Cell ZCylinder'] & \
+                                            +surfaces['Pin x-min'] & \
+                                            -surfaces['Pin x-max'] & \
+                                            +surfaces['Pin y-min'] & \
+                                            -surfaces['Pin y-max']
 
 # Register Materials with Cells
 cells['UO2'].fill                       = materials['UO2']
@@ -63,3 +69,4 @@ cells['Fission Chamber Moderator'].fill = materials['Water']
 cells['Guide Tube Moderator'].fill      = materials['Water']
 cells['Control Rod Moderator'].fill     = materials['Water']
 cells['Reflector'].fill                 = materials['Water']
+cells['UO2 Pin'].fill                   = materials['Water']

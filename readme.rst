@@ -36,11 +36,8 @@ c5g7
   The OECD/NEA C5G7_ Benchmarks which include multi-group benchmarks typically
   for deterministic transport problems.  This set includes a pincell, the
   2D 2x2 UO2 and MOX assembly array, and a 3D version of the 2x2 UO2 and MOX
-  assembly array.
-
-c5g7_3d_extension
-  The OECD/NEA C5G7_3D_ Benchmarks extend the previous C5G7_ set to include
-  rodded 3D problems to increase the difficulty.
+  assembly array.  This set also includes the additional set of problems from
+  the OECD/NEA C5G7_3D_ Benchmark extension,
 
 .. _LA-UR-06-2968: http://mcd.ans.org/jb/bench/Doppler/Overview.pdf
 
