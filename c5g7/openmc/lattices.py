@@ -96,22 +96,22 @@ o = universes['MOX 8.7%']
 r = universes['Control Rod']
 f = universes['Fission Chamber']
 lattices['MOX Rodded Assembly'].universes = [[m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m],
-                                               [m, n, n, n, n, n, n, n, n, n, n, n, n, n, n, n, m],
-                                               [m, n, n, n, n, r, n, n, r, n, n, r, n, n, n, n, m],
-                                               [m, n, n, r, n, o, o, o, o, o, o, o, n, r, n, n, m],
-                                               [m, n, n, n, o, o, o, o, o, o, o, o, o, n, n, n, m],
-                                               [m, n, r, o, o, r, o, o, r, o, o, r, o, o, r, n, m],
-                                               [m, n, n, o, o, o, o, o, o, o, o, o, o, o, n, n, m],
-                                               [m, n, n, o, o, o, o, o, o, o, o, o, o, o, n, n, m],
-                                               [m, n, r, o, o, r, o, o, f, o, o, r, o, o, r, n, m],
-                                               [m, n, n, o, o, o, o, o, o, o, o, o, o, o, n, n, m],
-                                               [m, n, n, o, o, o, o, o, o, o, o, o, o, o, n, n, m],
-                                               [m, n, r, o, o, r, o, o, r, o, o, r, o, o, r, n, m],
-                                               [m, n, n, n, o, o, o, o, o, o, o, o, o, n, n, n, m],
-                                               [m, n, n, r, n, o, o, o, o, o, o, o, n, r, n, n, m],
-                                               [m, n, n, n, n, r, n, n, r, n, n, r, n, n, n, n, m],
-                                               [m, n, n, n, n, n, n, n, n, n, n, n, n, n, n, n, m],
-                                               [m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]]
+                                             [m, n, n, n, n, n, n, n, n, n, n, n, n, n, n, n, m],
+                                             [m, n, n, n, n, r, n, n, r, n, n, r, n, n, n, n, m],
+                                             [m, n, n, r, n, o, o, o, o, o, o, o, n, r, n, n, m],
+                                             [m, n, n, n, o, o, o, o, o, o, o, o, o, n, n, n, m],
+                                             [m, n, r, o, o, r, o, o, r, o, o, r, o, o, r, n, m],
+                                             [m, n, n, o, o, o, o, o, o, o, o, o, o, o, n, n, m],
+                                             [m, n, n, o, o, o, o, o, o, o, o, o, o, o, n, n, m],
+                                             [m, n, r, o, o, r, o, o, f, o, o, r, o, o, r, n, m],
+                                             [m, n, n, o, o, o, o, o, o, o, o, o, o, o, n, n, m],
+                                             [m, n, n, o, o, o, o, o, o, o, o, o, o, o, n, n, m],
+                                             [m, n, r, o, o, r, o, o, r, o, o, r, o, o, r, n, m],
+                                             [m, n, n, n, o, o, o, o, o, o, o, o, o, n, n, n, m],
+                                             [m, n, n, r, n, o, o, o, o, o, o, o, n, r, n, n, m],
+                                             [m, n, n, n, n, r, n, n, r, n, n, r, n, n, n, n, m],
+                                             [m, n, n, n, n, n, n, n, n, n, n, n, n, n, n, n, m],
+                                             [m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m, m]]
 
 lattices['Reflector Unrodded Assembly'] = openmc.RectLattice(lattice_id=105, name='Reflector Unrodded Assembly')
 lattices['Reflector Unrodded Assembly'].dimension = [1,1]
