@@ -1,6 +1,4 @@
 import openmc
-from openmc.source import Source
-from openmc.stats import Box
 import sys
 sys.path.append('../')
 from lattices import lattices, universes, cells, surfaces
@@ -22,10 +20,9 @@ particles = 10000
 
 from materials import materials
 
-# Instantiate a MaterialsFile, register all Materials, and export to XML
-materials_file = openmc.MaterialsFile()
+# Instantiate a Materials and export to XML
+materials_file = openmc.Materials(materials.values())
 materials_file.default_xs = '300k'
-materials_file.add_materials(materials.values())
 materials_file.export_to_xml()
 
 
@@ -54,29 +51,26 @@ lattices['Core'].universes = [[[u, m, w], [m, u, w], [w, w, w]]] * 6 + \
 # Add Core lattice to Core cell
 cells['Core'].fill = lattices['Core']
 
-# Instantiate a Geometry and register the root Universe
+# Instantiate a Geometry, register the root Universe, and export to XML
 geometry = openmc.Geometry()
 geometry.root_universe = universes['Root']
-
-# Instantiate a GeometryFile, register Geometry, and export to XML
-geometry_file = openmc.GeometryFile()
-geometry_file.geometry = geometry
-geometry_file.export_to_xml()
+geometry.export_to_xml()
 
 
 ###############################################################################
 #                   Exporting to OpenMC settings.xml File
 ###############################################################################
 
-# Instantiate a SettingsFile, set all runtime parameters, and export to XML
-settings_file = openmc.SettingsFile()
+# Instantiate a Settings, set all runtime parameters, and export to XML
+settings_file = openmc.Settings()
 settings_file.energy_mode = "multi-group"
 settings_file.cross_sections = "./mg_cross_sections.xml"
 settings_file.batches = batches
 settings_file.inactive = inactive
 settings_file.particles = particles
 settings_file.output = {'tallies': True, 'summary': True}
-settings_file.source = Source(space=Box([-32.13, -10.71, -107.1], [10.71, 32.13, 85.68]))
+settings_file.source = openmc.Source(space=openmc.stats.Box(
+    [-32.13, -10.71, -107.1], [10.71, 32.13, 85.68]))
 settings_file.entropy_lower_left = [-32.13, -32.13, -107.1]
 settings_file.entropy_upper_right = [32.13,  32.13,  107.1]
 settings_file.entropy_dimension = [51, 51, 30]
@@ -103,21 +97,14 @@ plot_2.pixels = [500, 500]
 plot_2.color = 'mat'
 plot_2.basis = 'xz'
 
-# Instantiate a PlotsFile, add Plot, and export to XML
-plot_file = openmc.PlotsFile()
-plot_file.add_plot(plot_1)
-plot_file.add_plot(plot_2)
+# Instantiate a Plots collection and export to XML
+plot_file = openmc.Plots([plot_1, plot_2])
 plot_file.export_to_xml()
 
 ###############################################################################
 #                   Exporting to OpenMC tallies.xml File
 ###############################################################################
 
-# Instantiate a TalliesFile, register Tally/Mesh, and export to XML
-tallies_file = openmc.TalliesFile()
-tallies_file.add_mesh(mesh)
-
-for tally in tallies.values():
-    tallies_file.add_tally(tally)
-
+# Instantiate a Tallies collection and export to XML
+tallies_file = openmc.Tallies(tallies.values())
 tallies_file.export_to_xml()

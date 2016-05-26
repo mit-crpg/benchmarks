@@ -16,3 +16,6 @@ comou?
 
 # Compiled python files
 *.pyc
+
+# Python API-generated XML files
+c5g7/openmc/**/*.xml

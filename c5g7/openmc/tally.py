@@ -19,12 +19,8 @@ mesh_filter.mesh = mesh
 
 # Instantiate the Tally
 tallies['Mesh Rates'] = openmc.Tally(tally_id=1, name='tally 1')
-tallies['Mesh Rates'].add_filter(mesh_filter)
-tallies['Mesh Rates'].add_score('flux')
-tallies['Mesh Rates'].add_score('fission')
-tallies['Mesh Rates'].add_score('nu-fission')
+tallies['Mesh Rates'].filters = [mesh_filter]
+tallies['Mesh Rates'].scores = ['flux', 'fission', 'nu-fission']
 
 tallies['Global Rates'] = openmc.Tally(tally_id=2, name='tally 2')
-tallies['Global Rates'].add_score('flux')
-tallies['Global Rates'].add_score('fission')
-tallies['Global Rates'].add_score('nu-fission')
+tallies['Global Rates'].scores = ['flux', 'fission', 'nu-fission']
