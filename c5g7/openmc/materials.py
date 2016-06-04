@@ -130,7 +130,7 @@ control_rod_xsdata.fission = np.zeros(7)
 control_rod_xsdata.nu_fission = np.zeros(7)
 control_rod_xsdata.chi = np.zeros(7)
 
-mg_cross_sections_file = openmc.MGXSLibraryFile(groups)
+mg_cross_sections_file = openmc.MGXSLibrary(groups)
 mg_cross_sections_file.add_xsdatas([uo2_xsdata, mox43_xsdata, mox7_xsdata, mox87_xsdata,
                                     fiss_chamber_xsdata, guide_tube_xsdata, water_xsdata,
                                     control_rod_xsdata])
