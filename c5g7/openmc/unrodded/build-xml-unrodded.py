@@ -64,13 +64,13 @@ geometry.export_to_xml()
 # Instantiate a Settings, set all runtime parameters, and export to XML
 settings_file = openmc.Settings()
 settings_file.energy_mode = "multi-group"
-settings_file.cross_sections = "./mg_cross_sections.xml"
+settings_file.cross_sections = "./mgxs.xml"
 settings_file.batches = batches
 settings_file.inactive = inactive
 settings_file.particles = particles
 settings_file.output = {'tallies': True, 'summary': True}
 settings_file.source = openmc.Source(space=openmc.stats.Box(
-    [-32.13, -10.71, -107.1], [10.71, 32.13, 85.68]))
+    [-32.13, -10.71, -107.1], [10.71, 32.13, 85.68], only_fissionable=True))
 settings_file.entropy_lower_left = [-32.13, -32.13, -107.1]
 settings_file.entropy_upper_right = [32.13,  32.13,  107.1]
 settings_file.entropy_dimension = [51, 51, 30]

@@ -47,7 +47,7 @@ geometry.export_to_xml()
 # Instantiate a Settings, set all runtime parameters, and export to XML
 settings_file = openmc.Settings()
 settings_file.energy_mode = "multi-group"
-settings_file.cross_sections = "./mg_cross_sections.xml"
+settings_file.cross_sections = "./mgxs.xml"
 settings_file.batches = batches
 settings_file.inactive = inactive
 settings_file.particles = particles
@@ -73,7 +73,7 @@ plot_1.color = 'mat'
 plot_1.basis = 'xy'
 
 # Instantiate a Plots collection and export to XML
-plot_file = openmc.PlotsFile([plot_1])
+plot_file = openmc.Plots([plot_1])
 plot_file.export_to_xml()
 
 ###############################################################################
