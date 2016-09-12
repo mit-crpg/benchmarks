@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import openmc
+
 # Set up list of assembly positions
 assemblies = ([(1,i) for i in range(6,13)] +
               [(2,i) for i in range(4,15)] +
@@ -19,26 +21,19 @@ assemblies = ([(1,i) for i in range(6,13)] +
               [(16,i) for i in range(4,15)] +
               [(17,i) for i in range(6,13)])
 
-# Open tallies.xml file
-fh = open('tallies.xml','w')
-
-# Write header tags
-fh.write('<?xml version="1.0"?>\n<tallies>\n\n')
-
 # Write meshes and assemblies
+tallies = openmc.Tallies()
 for i, assem in enumerate(assemblies):
     x, y = assem
-    fh.write('  <mesh id="{0}">\n'.format(i+1))
-    fh.write('    <type>rectangular</type>\n')
-    fh.write('    <lower_left>{0} {1}</lower_left>\n'.format(
-            -182.07 + 21.42*(x-1), -182.07 + 21.42*(y-1)))
-    fh.write('    <width>1.26 1.26</width>\n')
-    fh.write('    <dimension>17 17</dimension>\n')
-    fh.write('  </mesh>\n')
-    fh.write('  <tally id="{0}">\n'.format(i+1))
-    fh.write('    <filter type="mesh" bins="{0}" />\n'.format(i+1))
-    fh.write('    <scores>nu-fission</scores>\n')
-    fh.write('  </tally>\n\n')
+    mesh = openmc.Mesh()
+    mesh.lower_left = (-182.07 + 21.42*(x-1), -182.07 + 21.42*(y-1))
+    mesh.width = (1.26, 1.26)
+    mesh.dimension = (17, 17)
 
-# Write closing tags
-fh.write('</tallies>\n')
+    tally = openmc.Tally()
+    tally.filters = [openmc.MeshFilter(mesh)]
+    tally.nuclides = ['all']
+    tally.scores = ['total']
+    tallies.append(tally)
+
+tallies.export_to_xml()
