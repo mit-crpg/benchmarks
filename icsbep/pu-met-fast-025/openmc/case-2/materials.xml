@@ -13,8 +13,8 @@
   <!-- HEU -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.6704e-02" />
-    <nuclide name="Pu-240" ao="6.7099e-04" />
+    <nuclide name="Pu239" ao="3.6704e-02" />
+    <nuclide name="Pu240" ao="6.7099e-04" />
     <element name="Ga"     ao="2.2013e-03" />
     <element name="Fe"     ao="1.4159e-04" />
     <element name="C"      ao="2.9038e-04" />

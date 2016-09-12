@@ -12,16 +12,16 @@
 
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.7291e-02" />
-    <nuclide name="Pu-240" ao="1.9277e-03" />
-    <nuclide name="Pu-241" ao="1.2196e-04" />
+    <nuclide name="Pu239" ao="3.7291e-02" />
+    <nuclide name="Pu240" ao="1.9277e-03" />
+    <nuclide name="Pu241" ao="1.2196e-04" />
     <element name="Ga"     ao="1.3628e-03" />
   </material>
 
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-235" ao="3.4902e-04" />
-    <nuclide name="U-238" ao="4.7518e-02" />
+    <nuclide name="U235" ao="3.4902e-04" />
+    <nuclide name="U238" ao="4.7518e-02" />
   </material>
 
 </materials>

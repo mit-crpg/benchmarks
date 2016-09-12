@@ -13,27 +13,27 @@
   <!-- UO2-PuO2 Mixture -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-238" ao="3.8836e-08" />
-    <nuclide name="Pu-239" ao="3.9462e-04" />
-    <nuclide name="Pu-240" ao="3.3206e-05" />
-    <nuclide name="Pu-241" ao="1.6081e-06" />
-    <nuclide name="Pu-242" ao="1.1882e-07" />
-    <nuclide name="Am-241" ao="1.4954e-06" />
-    <nuclide name="U-234"  ao="1.2458e-06" />
-    <nuclide name="U-235"  ao="1.4886e-04" />
-    <nuclide name="U-236"  ao="2.0936e-09" />
-    <nuclide name="U-238"  ao="2.0611e-02" />
-    <nuclide name="O-16"   ao="4.3779e-02" />
+    <nuclide name="Pu238" ao="3.8836e-08" />
+    <nuclide name="Pu239" ao="3.9462e-04" />
+    <nuclide name="Pu240" ao="3.3206e-05" />
+    <nuclide name="Pu241" ao="1.6081e-06" />
+    <nuclide name="Pu242" ao="1.1882e-07" />
+    <nuclide name="Am241" ao="1.4954e-06" />
+    <nuclide name="U234"  ao="1.2458e-06" />
+    <nuclide name="U235"  ao="1.4886e-04" />
+    <nuclide name="U236"  ao="2.0936e-09" />
+    <nuclide name="U238"  ao="2.0611e-02" />
+    <nuclide name="O16"   ao="4.3779e-02" />
   </material>
     
   <!-- Natural UO2 Layer -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-234"  ao="1.2406e-06" />
-    <nuclide name="U-235"  ao="1.4824e-04" />
-    <nuclide name="U-236"  ao="2.0848e-09" />
-    <nuclide name="U-238"  ao="2.0525e-02" />
-    <nuclide name="O-16"   ao="4.1943e-02" />
+    <nuclide name="U234"  ao="1.2406e-06" />
+    <nuclide name="U235"  ao="1.4824e-04" />
+    <nuclide name="U236"  ao="2.0848e-09" />
+    <nuclide name="U238"  ao="2.0525e-02" />
+    <nuclide name="O16"   ao="4.1943e-02" />
   </material>
     
   <!-- Cladding -->
@@ -49,12 +49,12 @@
   <!-- Moderator -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="H-1" ao="6.6706e-02" />
+    <nuclide name="H1" ao="6.6706e-02" />
     <element name="O"   ao="3.3353e-02" />
     <!-- Boron at 0.9 ppm -->
-    <nuclide name="B-10" ao="9.9034e-09" />
-    <nuclide name="B-11" ao="4.0114e-08" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="B10" ao="9.9034e-09" />
+    <nuclide name="B11" ao="4.0114e-08" />
+    <sab name="c_H_in_H2O" />
   </material>
     
   <!-- 6061 Aluminum -->

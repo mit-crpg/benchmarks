@@ -13,17 +13,17 @@
   <!-- Plutonium solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-238"  ao="2.8921e-07" />
-    <nuclide name="Pu-239"  ao="5.8681e-05" />
-    <nuclide name="Pu-240"  ao="6.0590e-05" />
-    <nuclide name="Pu-241"  ao="1.5313e-05" />
-    <nuclide name="Pu-242"  ao="6.5922e-06" />
-    <nuclide name="Am-241"  ao="1.5201e-06" />
+    <nuclide name="Pu238"  ao="2.8921e-07" />
+    <nuclide name="Pu239"  ao="5.8681e-05" />
+    <nuclide name="Pu240"  ao="6.0590e-05" />
+    <nuclide name="Pu241"  ao="1.5313e-05" />
+    <nuclide name="Pu242"  ao="6.5922e-06" />
+    <nuclide name="Am241"  ao="1.5201e-06" />
     <element name="Gd"      ao="1.9203e-08" />
-    <nuclide name="H-1"     ao="6.2033e-02" />
+    <nuclide name="H1"     ao="6.2033e-02" />
     <element name="N"       ao="1.8050e-03" />
     <element name="O"       ao="3.5814e-02" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- steel clad -->
@@ -37,9 +37,9 @@
   <!-- water -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="H-1" ao="6.6691e-02" />
+    <nuclide name="H1" ao="6.6691e-02" />
     <element name="O"   ao="3.3346e-02" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
 </materials>

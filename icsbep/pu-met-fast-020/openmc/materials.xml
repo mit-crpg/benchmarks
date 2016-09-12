@@ -13,9 +13,9 @@
   <!-- Plutonium alloy -->  
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.3930e-02" />
-    <nuclide name="Pu-240" ao="3.5043e-03" />
-    <nuclide name="Pu-241" ao="3.9189e-04" />
+    <nuclide name="Pu239" ao="3.3930e-02" />
+    <nuclide name="Pu240" ao="3.5043e-03" />
+    <nuclide name="Pu241" ao="3.9189e-04" />
     <element name="Ga"     ao="2.2105e-03" />
     <element name="C"      ao="3.0246e-04" />
     <element name="Fe"     ao="3.2525e-04" />
@@ -26,8 +26,8 @@
   <!-- Depleted Uranium -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-235" ao="2.3787e-04" />
-    <nuclide name="U-238" ao="4.6738e-02" />
+    <nuclide name="U235" ao="2.3787e-04" />
+    <nuclide name="U238" ao="4.6738e-02" />
   </material>
 
   <!-- Duralumin -->

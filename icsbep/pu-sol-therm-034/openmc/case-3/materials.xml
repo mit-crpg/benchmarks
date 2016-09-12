@@ -13,16 +13,16 @@
   <!-- fissile solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-238" ao="1.2912e-07" />
-    <nuclide name="Pu-239" ao="2.6498e-04" />
-    <nuclide name="Pu-240" ao="2.4383e-05" />
-    <nuclide name="Pu-241" ao="2.4661e-06" />
-    <nuclide name="Pu-242" ao="1.4141e-07" />
+    <nuclide name="Pu238" ao="1.2912e-07" />
+    <nuclide name="Pu239" ao="2.6498e-04" />
+    <nuclide name="Pu240" ao="2.4383e-05" />
+    <nuclide name="Pu241" ao="2.4661e-06" />
+    <nuclide name="Pu242" ao="1.4141e-07" />
     <element name="Gd"     ao="3.6764e-06" />
-    <nuclide name="H-1"    ao="6.0973e-02" />
+    <nuclide name="H1"    ao="6.0973e-02" />
     <element name="N"      ao="2.3203e-03" />
     <element name="O"      ao="3.6890e-02" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- 304L stainless steel -->
@@ -36,9 +36,9 @@
   <!-- Water at 23 C -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="H-1"  ao="6.6691e-02" />
+    <nuclide name="H1"  ao="6.6691e-02" />
     <element name="O"    ao="3.3346e-02" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
 </materials>

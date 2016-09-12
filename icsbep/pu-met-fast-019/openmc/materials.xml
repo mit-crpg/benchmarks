@@ -13,9 +13,9 @@
   <!-- Plutonium -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.3930e-02" />
-    <nuclide name="Pu-240" ao="3.5043e-03" />
-    <nuclide name="Pu-241" ao="3.9189e-04" />
+    <nuclide name="Pu239" ao="3.3930e-02" />
+    <nuclide name="Pu240" ao="3.5043e-03" />
+    <nuclide name="Pu241" ao="3.9189e-04" />
     <element name="Ga"     ao="2.2105e-03" />
     <element name="C"      ao="3.0246e-03" />
     <element name="Fe"     ao="3.2525e-04" />
@@ -26,11 +26,11 @@
   <!-- Reflector -->
   <material id="2">
     <density units="sum" />
-    <element name="Be"  ao="1.2081e-01" />
+    <element name="c_Be"  ao="1.2081e-01" />
     <element name="O"   ao="8.2064e-05" />
     <element name="C"   ao="1.0020e-04" />
     <element name="Fe"  ao="5.0939e-05" />
-    <sab name="Be" xs="71t" />
+    <sab name="c_Be" />
   </material>
 
   <!-- Steel Diaphragm and Steel Shaft -->

@@ -13,15 +13,15 @@
   <!-- UO2F2/D2O Solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="1.7095e-06" />
-    <nuclide name="U-235" ao="1.5629e-04" />
-    <nuclide name="U-238" ao="8.7827e-06" />
+    <nuclide name="U234" ao="1.7095e-06" />
+    <nuclide name="U235" ao="1.5629e-04" />
+    <nuclide name="U238" ao="8.7827e-06" />
     <element name="F"     ao="3.3356e-04" />
     <element name="O"     ao="3.3076e-02" />
-    <nuclide name="H-2"   ao="6.4830e-02" />
-    <nuclide name="H-1"   ao="6.5485e-04" />
-    <sab name="HH2O" xs="71t" />
-    <sab name="DD2O" xs="71t" />
+    <nuclide name="H2"   ao="6.4830e-02" />
+    <nuclide name="H1"   ao="6.5485e-04" />
+    <sab name="c_H_in_H2O" />
+    <sab name="c_D_in_D2O" />
   </material>
 
   <!-- 321 Stainless Steel -->

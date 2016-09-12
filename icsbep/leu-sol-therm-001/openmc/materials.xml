@@ -29,14 +29,14 @@
   <!-- Fuel Solution -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="U-234" ao="6.7855e-07" />
-    <nuclide name="U-235" ao="1.2377e-04" />
-    <nuclide name="U-236" ao="1.2085e-06" />
-    <nuclide name="U-238" ao="2.3508e-03" />
-    <nuclide name="H-1"   ao="5.6179e-02" />
+    <nuclide name="U234" ao="6.7855e-07" />
+    <nuclide name="U235" ao="1.2377e-04" />
+    <nuclide name="U236" ao="1.2085e-06" />
+    <nuclide name="U238" ao="2.3508e-03" />
+    <nuclide name="H1"   ao="5.6179e-02" />
     <element name="O"     ao="3.2967e-02" />
     <element name="F"     ao="5.1035e-03" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
 </materials>

@@ -13,10 +13,10 @@
   <!-- Pure Pu -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="4.6010e-02" />
-    <nuclide name="Pu-240" ao="2.9236e-03" />
-    <nuclide name="Pu-241" ao="2.2433e-04" />
-    <nuclide name="Pu-242" ao="4.8566e-06" />
+    <nuclide name="Pu239" ao="4.6010e-02" />
+    <nuclide name="Pu240" ao="2.9236e-03" />
+    <nuclide name="Pu241" ao="2.2433e-04" />
+    <nuclide name="Pu242" ao="4.8566e-06" />
   </material>
 
   <!-- Aluminum  -->

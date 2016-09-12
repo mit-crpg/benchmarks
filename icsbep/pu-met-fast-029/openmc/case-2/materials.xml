@@ -12,9 +12,9 @@
 
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="4.1923e-02" />
-    <nuclide name="Pu-240" ao="4.6622e-03" />
-    <nuclide name="Pu-241" ao="7.3273e-04" />
+    <nuclide name="Pu239" ao="4.1923e-02" />
+    <nuclide name="Pu240" ao="4.6622e-03" />
+    <nuclide name="Pu241" ao="7.3273e-04" />
     <element name="Fe"     ao="3.1294e-04" />
     <element name="C"      ao="1.2949e-03" />
     <element name="H"      ao="3.0212e-04" />

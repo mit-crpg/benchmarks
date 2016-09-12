@@ -43,9 +43,9 @@
 <!-- Assembly construction -->
 
   <!-- Assembly Type 2 -->
-  <lattice id="20" type="rectangular" dimension="16 16">
+  <lattice id="20" dimension="16 16">
     <lower_left> -10.3888 -10.3888 </lower_left>
-    <width>    1.2986 1.2986 </width>
+    <pitch>    1.2986 1.2986 </pitch>
     <universes>
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
@@ -79,9 +79,9 @@
   <surface id="9" type="z-plane" coeffs="     0.5" boundary="reflective"/>
 
   <!-- Core lattice -->
-  <lattice id="99" type="rectangular" dimension="1 1">
+  <lattice id="99" dimension="1 1">
     <lower_left> -10.3888 -10.3888   </lower_left>
-    <width>    20.7776 20.7776 </width>
+    <pitch>    20.7776 20.7776 </pitch>
     <universes>            200 </universes>
   </lattice>
 

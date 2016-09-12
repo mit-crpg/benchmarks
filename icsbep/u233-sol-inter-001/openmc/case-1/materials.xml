@@ -15,15 +15,15 @@
   <!-- IEU Flouride Solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-232" ao="4.5608e-08" />
-    <nuclide name="U-233" ao="2.2379e-03" />
-    <nuclide name="U-234" ao="2.4316e-05" />
-    <nuclide name="U-235" ao="8.9598e-07" />
-    <nuclide name="U-238" ao="7.1284e-06" />
-    <nuclide name="H-1"   ao="5.5183e-02" />
-    <nuclide name="O-16"  ao="3.2043e-02" />
-    <nuclide name="F-19"  ao="4.7182e-03" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="U232" ao="4.5608e-08" />
+    <nuclide name="U233" ao="2.2379e-03" />
+    <nuclide name="U234" ao="2.4316e-05" />
+    <nuclide name="U235" ao="8.9598e-07" />
+    <nuclide name="U238" ao="7.1284e-06" />
+    <nuclide name="H1"   ao="5.5183e-02" />
+    <nuclide name="O16"  ao="3.2043e-02" />
+    <nuclide name="F19"  ao="4.7182e-03" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- 347 Stainless steel -->
@@ -37,8 +37,8 @@
   <!-- Beryllium reflector -->
   <material id="3">
     <density units="sum" />
-    <element name="Be" ao="1.2161e-01" />
-    <sab name="Be" xs="71t" />
+    <element name="c_Be" ao="1.2161e-01" />
+    <sab name="c_Be" />
   </material>
 
 </materials>

@@ -14,17 +14,17 @@
 
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.7291e-02" />
-    <nuclide name="Pu-240" ao="1.9277e-03" />
-    <nuclide name="Pu-241" ao="1.2196e-04" />
+    <nuclide name="Pu239" ao="3.7291e-02" />
+    <nuclide name="Pu240" ao="1.9277e-03" />
+    <nuclide name="Pu241" ao="1.2196e-04" />
     <element name="Ga"     ao="1.3628e-03" />
   </material>
 
   <material id="2">
     <density units="sum" />
-    <element name="Be" ao="1.1984e-01" />
+    <element name="c_Be" ao="1.1984e-01" />
     <element name="O"  ao="1.3776e-03" />
-    <sab name="Be" xs="71t" />
+    <sab name="c_Be" />
   </material>
 
 </materials>

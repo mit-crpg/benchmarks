@@ -13,21 +13,21 @@
   <!-- Water with 1511 PPM -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="H-1"  ao="6.6737e-02" />
-    <nuclide name="O-16" ao="3.3369e-02" />
-    <nuclide name="B-10" ao="1.6769e-05" />
-    <nuclide name="B-11" ao="6.7497e-05" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="H1"  ao="6.6737e-02" />
+    <nuclide name="O16" ao="3.3369e-02" />
+    <nuclide name="B10" ao="1.6769e-05" />
+    <nuclide name="B11" ao="6.7497e-05" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Fuel (2.459 w/o with B-10 for impurities) -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.5689e-06" />
-    <nuclide name="U-235" ao="5.6868e-04" />
-    <nuclide name="U-238" ao="2.2268e-02" />
-    <nuclide name="O-16"  ao="4.5683e-02" />
-    <nuclide name="B-10"  ao="2.6055e-07" />
+    <nuclide name="U234" ao="4.5689e-06" />
+    <nuclide name="U235" ao="5.6868e-04" />
+    <nuclide name="U238" ao="2.2268e-02" />
+    <nuclide name="O16"  ao="4.5683e-02" />
+    <nuclide name="B10"  ao="2.6055e-07" />
   </material>
 
   <!-- Aluminum 6061 Cladding for Fuel -->

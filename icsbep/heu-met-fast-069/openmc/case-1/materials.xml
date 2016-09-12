@@ -13,10 +13,10 @@
   <!-- HEU part 2732 -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.5765e-04" />
-    <nuclide name="U-235" ao="4.4692e-02" />
-    <nuclide name="U-236" ao="1.0030e-04" />
-    <nuclide name="U-238" ao="2.6854e-03" />
+    <nuclide name="U234" ao="4.5765e-04" />
+    <nuclide name="U235" ao="4.4692e-02" />
+    <nuclide name="U236" ao="1.0030e-04" />
+    <nuclide name="U238" ao="2.6854e-03" />
     <element name="Ag"    ao="8.3658e-07" />
     <element name="Ba"    ao="4.1070e-10" />
     <element name="Bi"    ao="8.8522e-06" />
@@ -42,10 +42,10 @@
   <!-- HEU part 2733 -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.6267e-04" />
-    <nuclide name="U-235" ao="4.4702e-02" />
-    <nuclide name="U-236" ao="1.2424e-04" />
-    <nuclide name="U-238" ao="2.6677e-03" />
+    <nuclide name="U234" ao="4.6267e-04" />
+    <nuclide name="U235" ao="4.4702e-02" />
+    <nuclide name="U236" ao="1.2424e-04" />
+    <nuclide name="U238" ao="2.6677e-03" />
     <element name="Ag"    ao="8.3696e-07" />
     <element name="Ba"    ao="4.1089e-10" />
     <element name="Bi"    ao="8.8562e-06" />
@@ -71,10 +71,10 @@
   <!-- HEU part 2734 -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.5821e-04" />
-    <nuclide name="U-235" ao="4.4751e-02" />
-    <nuclide name="U-236" ao="1.1477e-04" />
-    <nuclide name="U-238" ao="2.6697e-03" />
+    <nuclide name="U234" ao="4.5821e-04" />
+    <nuclide name="U235" ao="4.4751e-02" />
+    <nuclide name="U236" ao="1.1477e-04" />
+    <nuclide name="U238" ao="2.6697e-03" />
     <element name="Ag"    ao="8.3760e-07" />
     <element name="Ba"    ao="4.1120e-10" />
     <element name="Bi"    ao="8.8630e-06" />
@@ -100,10 +100,10 @@
   <!-- HEU part 2768 -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.4496e-04" />
-    <nuclide name="U-235" ao="4.4855e-02" />
-    <nuclide name="U-236" ao="1.2468e-04" />
-    <nuclide name="U-238" ao="2.7009e-03" />
+    <nuclide name="U234" ao="4.4496e-04" />
+    <nuclide name="U235" ao="4.4855e-02" />
+    <nuclide name="U236" ao="1.2468e-04" />
+    <nuclide name="U238" ao="2.7009e-03" />
     <element name="Ag"    ao="8.3992e-07" />
     <element name="Ba"    ao="4.1234e-10" />
     <element name="Bi"    ao="8.8875e-06" />
@@ -129,7 +129,7 @@
   <!-- 0.5" Be disc -->
   <material id="5">
     <density units="sum" />
-    <element name="Be" ao="1.1959e-01" />
+    <element name="c_Be" ao="1.1959e-01" />
     <element name="Al" ao="2.4360e-05" />
     <element name="B"  ao="1.0133e-06" />
     <element name="Bi" ao="2.6209e-06" />
@@ -143,13 +143,13 @@
     <element name="Ni" ao="1.8665e-08" />
     <element name="O"  ao="8.4529e-04" />
     <element name="Sm" ao="7.2855e-09" />
-    <sab name="Be" xs="71t" />
+    <sab name="c_Be" />
   </material>
 
   <!-- 9/16" Be disc -->
   <material id="6">
     <density units="sum" />
-    <element name="Be" ao="1.1984e-01" />
+    <element name="c_Be" ao="1.1984e-01" />
     <element name="Al" ao="2.4412e-05" />
     <element name="B"  ao="1.0154e-06" />
     <element name="Bi" ao="2.6265e-06" />
@@ -163,13 +163,13 @@
     <element name="Ni" ao="1.8705e-08" />
     <element name="O"  ao="8.4709e-04" />
     <element name="Sm" ao="7.3010e-09" />
-    <sab name="Be" xs="71t" />
+    <sab name="c_Be" />
   </material>
 
   <!-- 1" Be disc -->
   <material id="7">
     <density units="sum" />
-    <element name="Be" ao="1.2094e-01" />
+    <element name="c_Be" ao="1.2094e-01" />
     <element name="Al" ao="2.4636e-05" />
     <element name="B"  ao="1.0248e-06" />
     <element name="Bi" ao="2.6507e-06" />
@@ -183,13 +183,13 @@
     <element name="Ni" ao="1.8877e-08" />
     <element name="O"  ao="8.5488e-04" />
     <element name="Sm" ao="7.3681e-09" />
-    <sab name="Be" xs="71t" />
+    <sab name="c_Be" />
   </material>
 
   <!-- 1.5" Be disc -->
   <material id="8">
     <density units="sum" />
-    <element name="Be" ao="1.2112e-01" />
+    <element name="c_Be" ao="1.2112e-01" />
     <element name="Al" ao="2.4672e-05" />
     <element name="B"  ao="1.0262e-06" />
     <element name="Bi" ao="2.6545e-06" />
@@ -203,13 +203,13 @@
     <element name="Ni" ao="1.8904e-08" />
     <element name="O"  ao="8.5611e-04" />
     <element name="Sm" ao="7.3787e-09" />
-    <sab name="Be" xs="71t" />
+    <sab name="c_Be" />
   </material>
 
   <!-- 2" Be disc -->
   <material id="9">
     <density units="sum" />
-    <element name="Be" ao="1.2073e-01" />
+    <element name="c_Be" ao="1.2073e-01" />
     <element name="Al" ao="2.4594e-05" />
     <element name="B"  ao="1.0230e-06" />
     <element name="Bi" ao="2.6461e-06" />
@@ -223,7 +223,7 @@
     <element name="Ni" ao="1.8844e-08" />
     <element name="O"  ao="8.5340e-04" />
     <element name="Sm" ao="7.3554e-09" />
-    <sab name="Be" xs="71t" />
+    <sab name="c_Be" />
   </material>
 
 </materials>

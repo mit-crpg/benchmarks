@@ -13,25 +13,25 @@
   <!-- Plutonium nitrate solution (21.7 g/L) -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="4.06270e-05" />
-    <nuclide name="Pu-240" ao="1.02943e-05" />
-    <nuclide name="Pu-241" ao="3.05154e-06" />
-    <nuclide name="Pu-242" ao="6.16420e-07" />
-    <nuclide name="Am-241" ao="3.30688e-07" />
+    <nuclide name="Pu239" ao="4.06270e-05" />
+    <nuclide name="Pu240" ao="1.02943e-05" />
+    <nuclide name="Pu241" ao="3.05154e-06" />
+    <nuclide name="Pu242" ao="6.16420e-07" />
+    <nuclide name="Am241" ao="3.30688e-07" />
     <element name="N"      ao="1.41749e-03" />
     <element name="O"      ao="3.54903e-02" />
-    <nuclide name="H-1"    ao="6.36500e-02" />
+    <nuclide name="H1"    ao="6.36500e-02" />
     <element name="Fe"     ao="5.39161e-06" />
     <element name="Cr"     ao="1.73381e-06" />
     <element name="Ni"     ao="1.22885e-06" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Air -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="O-16" ao="1.0784e-05" />
-    <nuclide name="N-14" ao="4.3090e-05" />
+    <nuclide name="O16" ao="1.0784e-05" />
+    <nuclide name="N14" ao="4.3090e-05" />
   </material>
 
   <!-- Stainless steel -->
@@ -46,16 +46,16 @@
   <material id="4">
     <density units="sum" />
     <element name="C"   ao="2.7365e-02" />
-    <nuclide name="H-1" ao="4.1047e-02" />
+    <nuclide name="H1" ao="4.1047e-02" />
     <element name="Cl"  ao="1.3682e-02" />
   </material>
 
   <!-- Water -->
   <material id="5">
     <density units="sum" />
-    <nuclide name="H-1" ao="6.6688e-02" />
+    <nuclide name="H1" ao="6.6688e-02" />
     <element name="O"   ao="3.3344e-02" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
 </materials>

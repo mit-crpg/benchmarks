@@ -15,15 +15,15 @@
   <!-- UO2F2/D2O Solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="8.4636e-06" />
-    <nuclide name="U-235" ao="7.7376e-04" />
-    <nuclide name="U-238" ao="4.3482e-05" />
-    <nuclide name="F-19"  ao="1.6514e-03" />
+    <nuclide name="U234" ao="8.4636e-06" />
+    <nuclide name="U235" ao="7.7376e-04" />
+    <nuclide name="U238" ao="4.3482e-05" />
+    <nuclide name="F19"  ao="1.6514e-03" />
     <element name="O"     ao="3.3066e-02" />
-    <nuclide name="H-2"   ao="6.2641e-02" />
-    <nuclide name="H-1"   ao="1.8849e-04" />
-    <sab name="HH2O" xs="71t" />
-    <sab name="DD2O" xs="71t" />
+    <nuclide name="H2"   ao="6.2641e-02" />
+    <nuclide name="H1"   ao="1.8849e-04" />
+    <sab name="c_H_in_H2O" />
+    <sab name="c_D_in_D2O" />
   </material>
 
   <!-- 321 Stainless Steel -->
@@ -39,11 +39,11 @@
   <!-- Heavy Water -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="H-2" ao="6.6078e-02" />
-    <nuclide name="H-1" ao="3.9886e-04" />
+    <nuclide name="H2" ao="6.6078e-02" />
+    <nuclide name="H1" ao="3.9886e-04" />
     <element name="O"   ao="3.3238e-02" />
-    <sab name="HH2O" xs="71t" />
-    <sab name="DD2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
+    <sab name="c_D_in_D2O" />
   </material>
 
 </materials>

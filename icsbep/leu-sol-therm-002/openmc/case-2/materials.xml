@@ -13,13 +13,13 @@
   <!-- Uranium Oxyfluoride Solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="2.5304e-07" />
-    <nuclide name="U-235" ao="6.1604e-05" />
-    <nuclide name="U-238" ao="1.1828e-03" />
+    <nuclide name="U234" ao="2.5304e-07" />
+    <nuclide name="U235" ao="6.1604e-05" />
+    <nuclide name="U238" ao="1.1828e-03" />
     <element name="F"     ao="2.4893e-03" />
     <element name="O"     ao="3.3331e-02" />
-    <nuclide name="H-1"   ao="6.1683e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="H1"   ao="6.1683e-02" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Type 1100 Aluminum -->

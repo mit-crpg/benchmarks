@@ -24,7 +24,7 @@
 
   <!-- Outermost cell and lattice -->
   <cell id="1" fill="100" region="10 -11 12 -13 14 -15" />
-  <lattice id="100" type="rectangular" dimension="5 5" lower_left="-200. -200." width="80. 80.">
+  <lattice id="100" dimension="5 5" lower_left="-200. -200." pitch="80. 80.">
     <universes>
       1 1 1 1 1
       1 1 1 1 1

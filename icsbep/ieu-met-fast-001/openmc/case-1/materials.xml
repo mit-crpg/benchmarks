@@ -14,25 +14,25 @@
   <!-- Tuballoy -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="2.6423e-06" />
-    <nuclide name="U-235" ao="3.4591e-04" />
-    <nuclide name="U-238" ao="4.7694e-02" />
+    <nuclide name="U234" ao="2.6423e-06" />
+    <nuclide name="U235" ao="3.4591e-04" />
+    <nuclide name="U238" ao="4.7694e-02" />
   </material>
 
   <!-- Oralloy -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9156e-04" />
-    <nuclide name="U-235" ao="4.4824e-02" />
-    <nuclide name="U-238" ao="2.6391e-03" />
+    <nuclide name="U234" ao="4.9156e-04" />
+    <nuclide name="U235" ao="4.4824e-02" />
+    <nuclide name="U238" ao="2.6391e-03" />
   </material>
 
   <!-- Mixed Uranium -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="U-234" ao="2.5561e-04" />
-    <nuclide name="U-235" ao="2.3353e-02" />
-    <nuclide name="U-238" ao="2.1939e-02" />
+    <nuclide name="U234" ao="2.5561e-04" />
+    <nuclide name="U235" ao="2.3353e-02" />
+    <nuclide name="U238" ao="2.1939e-02" />
   </material>
 
   <!-- 2024 Aluminum -->

@@ -13,9 +13,9 @@
   <!-- Plutonium-Gallium alloy -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.7028e-02" />
-    <nuclide name="Pu-240" ao="1.9931e-03" />
-    <nuclide name="Pu-240" ao="1.3594e-04" />
+    <nuclide name="Pu239" ao="3.7028e-02" />
+    <nuclide name="Pu240" ao="1.9931e-03" />
+    <nuclide name="Pu240" ao="1.3594e-04" />
     <element name="Ga"     ao="1.2880e-03" />
   </material>
 
@@ -43,7 +43,7 @@
     <density units="sum" />
     <element name="C" ao="4.1216e-02" />
     <element name="H" ao="8.2431e-02" />
-    <sab name="HCH2" xs="71t" />
+    <sab name="c_H_in_CH2" />
   </material>
 
 </materials>

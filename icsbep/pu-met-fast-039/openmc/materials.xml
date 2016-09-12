@@ -13,8 +13,8 @@
   <!-- Layer 1 -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.6581e-02" />
-    <nuclide name="Pu-240" ao="6.6880e-04" />
+    <nuclide name="Pu239" ao="3.6581e-02" />
+    <nuclide name="Pu240" ao="6.6880e-04" />
     <element name="Ga"     ao="2.3152e-03" />
     <element name="C"      ao="3.0207e-04" />
     <element name="Ni"     ao="1.9212e-03" />
@@ -23,8 +23,8 @@
   <!-- Layer 2 -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.6512e-02" />
-    <nuclide name="Pu-240" ao="6.6739e-04" />
+    <nuclide name="Pu239" ao="3.6512e-02" />
+    <nuclide name="Pu240" ao="6.6739e-04" />
     <element name="Ga"     ao="2.2978e-03" />
     <element name="C"      ao="2.2608e-04" />
     <element name="Ni"     ao="2.3056e-03" />
@@ -33,8 +33,8 @@
   <!-- Layer 3 -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.6576e-02" />
-    <nuclide name="Pu-240" ao="6.6878e-04" />
+    <nuclide name="Pu239" ao="3.6576e-02" />
+    <nuclide name="Pu240" ao="6.6878e-04" />
     <element name="Ga"     ao="2.3286e-03" />
     <element name="C"      ao="3.0206e-04" />
     <element name="Ni"     ao="1.8631e-03" />
@@ -43,8 +43,8 @@
   <!-- Layer 4 -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.6471e-02" />
-    <nuclide name="Pu-240" ao="6.6665e-04" />
+    <nuclide name="Pu239" ao="3.6471e-02" />
+    <nuclide name="Pu240" ao="6.6665e-04" />
     <element name="Ga"     ao="2.2823e-03" />
     <element name="C"      ao="3.0110e-04" />
     <element name="Ni"     ao="1.9715e-03" />
@@ -53,8 +53,8 @@
   <!-- Layer 5 -->
   <material id="5">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.6707e-02" />
-    <nuclide name="Pu-240" ao="6.7110e-04" />
+    <nuclide name="Pu239" ao="3.6707e-02" />
+    <nuclide name="Pu240" ao="6.7110e-04" />
     <element name="Ga"     ao="2.3236e-03" />
     <element name="C"      ao="3.0311e-04" />
     <element name="Ni"     ao="1.6483e-03" />

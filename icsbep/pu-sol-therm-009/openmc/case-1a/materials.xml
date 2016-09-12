@@ -15,15 +15,15 @@
   <!-- Plutonium nitrate solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-238" ao="1.0139e-09" />
-    <nuclide name="Pu-239" ao="2.4582e-05" />
-    <nuclide name="Pu-240" ao="6.3369e-07" />
-    <nuclide name="Pu-241" ao="1.8774e-08" />
-    <nuclide name="Pu-242" ao="3.4900e-09" />
-    <nuclide name="N-14"   ao="7.6339e-04" />
-    <nuclide name="H-1"    ao="6.5198e-02" />
-    <nuclide name="O-16"   ao="3.4558e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="Pu238" ao="1.0139e-09" />
+    <nuclide name="Pu239" ao="2.4582e-05" />
+    <nuclide name="Pu240" ao="6.3369e-07" />
+    <nuclide name="Pu241" ao="1.8774e-08" />
+    <nuclide name="Pu242" ao="3.4900e-09" />
+    <nuclide name="N14"   ao="7.6339e-04" />
+    <nuclide name="H1"    ao="6.5198e-02" />
+    <nuclide name="O16"   ao="3.4558e-02" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- 1100 Aluminum -->

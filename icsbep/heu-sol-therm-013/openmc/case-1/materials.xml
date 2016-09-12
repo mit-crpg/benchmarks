@@ -13,15 +13,15 @@
   <!-- Uranium Nitrate Solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.3850e-07" />
-    <nuclide name="U-235" ao="4.8042e-05" />
-    <nuclide name="U-236" ao="1.3862e-07" />
-    <nuclide name="U-238" ao="2.8050e-06" />
-    <nuclide name="N-14"  ao="1.8685e-04" />
-    <nuclide name="O-16"  ao="3.3629e-02" />
-    <nuclide name="O-17"  ao="1.2784e-05" />
-    <nuclide name="H-1"   ao="6.6041e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="U234" ao="5.3850e-07" />
+    <nuclide name="U235" ao="4.8042e-05" />
+    <nuclide name="U236" ao="1.3862e-07" />
+    <nuclide name="U238" ao="2.8050e-06" />
+    <nuclide name="N14"  ao="1.8685e-04" />
+    <nuclide name="O16"  ao="3.3629e-02" />
+    <nuclide name="O17"  ao="1.2784e-05" />
+    <nuclide name="H1"   ao="6.6041e-02" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Type 1100 Aluminum -->

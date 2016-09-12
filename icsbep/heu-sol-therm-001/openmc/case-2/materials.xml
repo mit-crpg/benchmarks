@@ -15,14 +15,14 @@
   <!-- Uranyl Nitrate Solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="9.1180e-06" />
-    <nuclide name="U-235" ao="8.2771e-04" />
-    <nuclide name="U-236" ao="3.8392e-06" />
-    <nuclide name="U-238" ao="4.7120e-05" />
+    <nuclide name="U234" ao="9.1180e-06" />
+    <nuclide name="U235" ao="8.2771e-04" />
+    <nuclide name="U236" ao="3.8392e-06" />
+    <nuclide name="U238" ao="4.7120e-05" />
     <element name="O"     ao="3.7135e-02" />
-    <nuclide name="N-14"  ao="2.1020e-03" />
-    <nuclide name="H-1"   ao="5.8433e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="N14"  ao="2.1020e-03" />
+    <nuclide name="H1"   ao="5.8433e-02" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- SS-304 Tank -->

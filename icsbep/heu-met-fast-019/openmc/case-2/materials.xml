@@ -3,7 +3,7 @@
 
   <!--
   ===========================================================
-  Description: Graphite-reflected sphere of 90% U-235, VNIIEF
+  Description: c_Graphiteite-reflected sphere of 90% U-235, VNIIEF
   Case:        HEU-MET-FAST-019 Simplified model
   ===========================================================
   -->
@@ -13,19 +13,19 @@
   <!-- HEU -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.2315e-04" />
-    <nuclide name="U-235" ao="4.2256e-02" />
-    <nuclide name="U-238" ao="4.3799e-03" />
+    <nuclide name="U234" ao="5.2315e-04" />
+    <nuclide name="U235" ao="4.2256e-02" />
+    <nuclide name="U238" ao="4.3799e-03" />
     <element name="C"     ao="1.0894e-03" />
     <element name="Fe"    ao="1.9121e-04" />
     <element name="W"     ao="5.3019e-05" />
   </material>
 
-  <!-- Graphite -->
+  <!-- c_Graphiteite -->
   <material id="2">
     <density units="sum" />
     <element name="C" ao="7.6716e-02" />
-    <sab name="Graph" xs="71t" />
+    <sab name="c_Graphite" />
   </material>
 
 </materials>

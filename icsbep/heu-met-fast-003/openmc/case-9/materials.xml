@@ -13,18 +13,18 @@
   <!-- Oralloy -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9210e-04" />
-    <nuclide name="U-235" ao="4.4917e-02" />
-    <nuclide name="U-238" ao="2.5993e-03" />
+    <nuclide name="U234" ao="4.9210e-04" />
+    <nuclide name="U235" ao="4.4917e-02" />
+    <nuclide name="U238" ao="2.5993e-03" />
   </material>
 
   <!-- Tungsten carbide -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="W-182" ao="1.2697e-02" />
-    <nuclide name="W-183" ao="6.8626e-03" />
-    <nuclide name="W-184" ao="1.4754e-02" />
-    <nuclide name="W-186" ao="1.3744e-02" />
+    <nuclide name="W182" ao="1.2697e-02" />
+    <nuclide name="W183" ao="6.8626e-03" />
+    <nuclide name="W184" ao="1.4754e-02" />
+    <nuclide name="W186" ao="1.3744e-02" />
     <element name="C"     ao="4.8057e-02" />
   </material>
 

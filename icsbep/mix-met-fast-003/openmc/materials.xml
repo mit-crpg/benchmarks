@@ -13,9 +13,9 @@
   <!-- Plutonium -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.3928e-02" />
-    <nuclide name="Pu-240" ao="3.5032e-03" />
-    <nuclide name="Pu-241" ao="3.9158e-04" />
+    <nuclide name="Pu239" ao="3.3928e-02" />
+    <nuclide name="Pu240" ao="3.5032e-03" />
+    <nuclide name="Pu241" ao="3.9158e-04" />
     <element name="Ga"     ao="2.2104e-03" />
     <element name="C"      ao="3.0244e-04" />
     <element name="Fe"     ao="3.2523e-04" />
@@ -26,10 +26,10 @@
   <!-- HEU -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-235" ao="4.1081e-02" />
-    <nuclide name="U-238" ao="4.1002e-03" />
-    <nuclide name="U-234" ao="5.2253e-04" />
-    <nuclide name="U-236" ao="8.8981e-05" />
+    <nuclide name="U235" ao="4.1081e-02" />
+    <nuclide name="U238" ao="4.1002e-03" />
+    <nuclide name="U234" ao="5.2253e-04" />
+    <nuclide name="U236" ao="8.8981e-05" />
     <element name="C"     ao="3.8650e-04" />
     <element name="Fe"    ao="1.5027e-04" />
     <element name="W"     ao="1.2329e-05" />

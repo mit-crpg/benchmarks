@@ -13,15 +13,15 @@
   <!-- UO2(NO3)2 Solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-233"  ao="3.3441e-05" />
-    <nuclide name="U-234"  ao="5.2503e-07" />
-    <nuclide name="U-235"  ao="1.0184e-08" />
-    <nuclide name="U-238"  ao="2.5474e-07" />
-    <nuclide name="N-14"   ao="7.4943e-05" />
-    <nuclide name="H-1"    ao="6.6357e-02" />
+    <nuclide name="U233"  ao="3.3441e-05" />
+    <nuclide name="U234"  ao="5.2503e-07" />
+    <nuclide name="U235"  ao="1.0184e-08" />
+    <nuclide name="U238"  ao="2.5474e-07" />
+    <nuclide name="N14"   ao="7.4943e-05" />
+    <nuclide name="H1"    ao="6.6357e-02" />
     <element name="O"      ao="3.3469e-02" />
-    <nuclide name="Th-232" ao="1.4756e-07" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="Th232" ao="1.4756e-07" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Type 1100 Aluminum -->

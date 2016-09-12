@@ -13,10 +13,10 @@
   <!-- HEU -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.8271e-04" />
-    <nuclide name="U-235" ao="4.4797e-02" />
-    <nuclide name="U-236" ao="9.5723e-05" />
-    <nuclide name="U-238" ao="2.6577e-03" />
+    <nuclide name="U234" ao="4.8271e-04" />
+    <nuclide name="U235" ao="4.4797e-02" />
+    <nuclide name="U236" ao="9.5723e-05" />
+    <nuclide name="U238" ao="2.6577e-03" />
   </material>
 
   <!-- Stainless Steel -->
@@ -47,9 +47,9 @@
   <!-- Paraffin -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="H-1" ao="8.2574e-02" />
+    <nuclide name="H1" ao="8.2574e-02" />
     <element name="C"   ao="3.9699e-02" />
-    <sab name="HCH2" xs="71t" />
+    <sab name="c_H_in_CH2" />
   </material>
 
 </materials>

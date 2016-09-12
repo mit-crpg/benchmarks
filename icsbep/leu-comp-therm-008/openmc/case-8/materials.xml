@@ -13,21 +13,21 @@
   <!-- Water with 794 PPM Boron -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="H-1"  ao="6.6737e-02" />
-    <nuclide name="O-16" ao="3.3369e-02" />
-    <nuclide name="B-10" ao="8.8117e-06" />
-    <nuclide name="B-11" ao="3.5468e-05" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="H1"  ao="6.6737e-02" />
+    <nuclide name="O16" ao="3.3369e-02" />
+    <nuclide name="B10" ao="8.8117e-06" />
+    <nuclide name="B11" ao="3.5468e-05" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Fuel (2.459 w/o with B-10 for impurities) -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.5689e-06" />
-    <nuclide name="U-235" ao="5.6868e-04" />
-    <nuclide name="U-238" ao="2.2268e-02" />
-    <nuclide name="O-16"  ao="4.5683e-02" />
-    <nuclide name="B-10"  ao="2.6055e-07" />
+    <nuclide name="U234" ao="4.5689e-06" />
+    <nuclide name="U235" ao="5.6868e-04" />
+    <nuclide name="U238" ao="2.2268e-02" />
+    <nuclide name="O16"  ao="4.5683e-02" />
+    <nuclide name="B10"  ao="2.6055e-07" />
   </material>
 
   <!-- Aluminum 6061 Cladding for Fuel -->
@@ -47,11 +47,11 @@
   <!-- Pyrex -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="B-10" ao="9.7491e-04" />
-    <nuclide name="B-11" ao="3.9241e-03" />
-    <nuclide name="O-16" ao="4.4829e-02" />
-    <nuclide name="Na-23" ao="1.7444e-03" />
-    <nuclide name="Al-27" ao="1.0018e-03" />
+    <nuclide name="B10" ao="9.7491e-04" />
+    <nuclide name="B11" ao="3.9241e-03" />
+    <nuclide name="O16" ao="4.4829e-02" />
+    <nuclide name="Na23" ao="1.7444e-03" />
+    <nuclide name="Al27" ao="1.0018e-03" />
     <element name="Si"    ao="1.8306e-02" />
   </material>
 

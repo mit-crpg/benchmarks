@@ -12,9 +12,9 @@
 
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-233" ao="4.7253e-2" />
-    <nuclide name="U-234" ao="5.2705e-4" />
-    <nuclide name="U-238" ao="3.2975e-4" />
+    <nuclide name="U233" ao="4.7253e-2" />
+    <nuclide name="U234" ao="5.2705e-4" />
+    <nuclide name="U238" ao="3.2975e-4" />
   </material>
 
   <!-- Tungsten reflector -->

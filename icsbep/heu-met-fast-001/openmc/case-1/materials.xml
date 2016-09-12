@@ -15,56 +15,56 @@
   <!-- Shell #1 -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9357e-04" />
-    <nuclide name="U-235" ao="4.4936e-02" />
-    <nuclide name="U-238" ao="2.7213e-03" />
+    <nuclide name="U234" ao="4.9357e-04" />
+    <nuclide name="U235" ao="4.4936e-02" />
+    <nuclide name="U238" ao="2.7213e-03" />
   </material>
 
   <!-- Shell #2 -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9357e-04" />
-    <nuclide name="U-235" ao="4.5244e-02" />
-    <nuclide name="U-238" ao="2.4168e-03" />
+    <nuclide name="U234" ao="4.9357e-04" />
+    <nuclide name="U235" ao="4.5244e-02" />
+    <nuclide name="U238" ao="2.4168e-03" />
   </material>
 
   <!-- Shell #3 -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9357e-04" />
-    <nuclide name="U-235" ao="4.5268e-02" />
-    <nuclide name="U-238" ao="2.3930e-03" />
+    <nuclide name="U234" ao="4.9357e-04" />
+    <nuclide name="U235" ao="4.5268e-02" />
+    <nuclide name="U238" ao="2.3930e-03" />
   </material>
 
   <!-- Shell #4 -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9357e-04" />
-    <nuclide name="U-235" ao="4.5090e-02" />
-    <nuclide name="U-238" ao="2.5690e-03" />
+    <nuclide name="U234" ao="4.9357e-04" />
+    <nuclide name="U235" ao="4.5090e-02" />
+    <nuclide name="U238" ao="2.5690e-03" />
   </material>
 
   <!-- Shell #5 -->
   <material id="5">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9357e-04" />
-    <nuclide name="U-235" ao="4.5239e-02" />
-    <nuclide name="U-238" ao="2.4215e-03" />
+    <nuclide name="U234" ao="4.9357e-04" />
+    <nuclide name="U235" ao="4.5239e-02" />
+    <nuclide name="U238" ao="2.4215e-03" />
   </material>
 
   <!-- Shell #6 -->
   <material id="6">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9357e-04" />
-    <nuclide name="U-235" ao="4.4874e-02" />
-    <nuclide name="U-238" ao="2.4169e-03" />
+    <nuclide name="U234" ao="4.9357e-04" />
+    <nuclide name="U235" ao="4.4874e-02" />
+    <nuclide name="U238" ao="2.4169e-03" />
   </material>
 
   <!-- Air -->
   <material id="7">
     <density units="sum" />
-    <nuclide name="N-14" ao="3.5214e-05" />
-    <nuclide name="O-16" ao="1.5092e-05" />
+    <nuclide name="N14" ao="3.5214e-05" />
+    <nuclide name="O16" ao="1.5092e-05" />
   </material>
 
 </materials>

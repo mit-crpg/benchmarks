@@ -13,18 +13,18 @@
   <!-- delta-phase plutonium -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.7291e-02" />
-    <nuclide name="Pu-240" ao="1.9277e-03" />
-    <nuclide name="Pu-241" ao="1.2196e-04" />
-    <nuclide name="Ga-69"  ao="8.1915e-04" />
-    <nuclide name="Ga-71"  ao="5.4365e-04" />
+    <nuclide name="Pu239" ao="3.7291e-02" />
+    <nuclide name="Pu240" ao="1.9277e-03" />
+    <nuclide name="Pu241" ao="1.2196e-04" />
+    <nuclide name="Ga69"  ao="8.1915e-04" />
+    <nuclide name="Ga71"  ao="5.4365e-04" />
   </material>
 
   <!-- HEU -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-235" ao="4.4892e-02" />
-    <nuclide name="U-238" ao="3.2340e-03" />
+    <nuclide name="U235" ao="4.4892e-02" />
+    <nuclide name="U238" ao="3.2340e-03" />
   </material>
 
 </materials>

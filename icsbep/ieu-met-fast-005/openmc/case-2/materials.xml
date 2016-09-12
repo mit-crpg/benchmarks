@@ -13,9 +13,9 @@
   <!-- 36 wt% U-235 -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="1.5511e-04" />
-    <nuclide name="U-235" ao="1.7154e-02" />
-    <nuclide name="U-238" ao="2.9297e-02" />
+    <nuclide name="U234" ao="1.5511e-04" />
+    <nuclide name="U235" ao="1.7154e-02" />
+    <nuclide name="U238" ao="2.9297e-02" />
     <element name="W"     ao="1.0711e-05" />
     <element name="Fe"    ao="1.2324e-04" />
     <element name="C"     ao="6.4945e-04" />

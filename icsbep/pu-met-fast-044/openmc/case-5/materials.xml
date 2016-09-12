@@ -4,7 +4,7 @@
   <!--
   ========================================================================
   Description: Pu (5.1 wt% 240) metal sphere with tampers and polyethylene
-  Case:        PU-MET-FAST-044 Case 5 (Graphite tamper)
+  Case:        PU-MET-FAST-044 Case 5 (c_Graphiteite tamper)
   ========================================================================
   -->
 
@@ -13,9 +13,9 @@
   <!-- Plutonium-Gallium alloy -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.7028e-02" />
-    <nuclide name="Pu-240" ao="1.9931e-03" />
-    <nuclide name="Pu-240" ao="1.3594e-04" />
+    <nuclide name="Pu239" ao="3.7028e-02" />
+    <nuclide name="Pu240" ao="1.9931e-03" />
+    <nuclide name="Pu240" ao="1.3594e-04" />
     <element name="Ga"     ao="1.2880e-03" />
   </material>
 
@@ -36,7 +36,7 @@
   <material id="4">
     <density units="sum" />
     <element name="C" ao="8.6272e-02" />
-    <sab name="Graph" xs="71t" />
+    <sab name="c_Graphite" />
   </material>
 
   <!-- Polyethylene -->
@@ -44,7 +44,7 @@
     <density units="sum" />
     <element name="C" ao="3.9756e-02" />
     <element name="H" ao="7.9512e-02" />
-    <sab name="HCH2" xs="71t" />
+    <sab name="c_H_in_CH2" />
   </material>
 
 </materials>

@@ -4,68 +4,68 @@
 <!-- material 1: Water -->
   <material id="1">
     <density value="0.735" units="g/cc" />
-    <nuclide name="H-1"  xs="71c" wo="0.1118" />
-    <nuclide name="O-16" xs="71c" wo="0.8872" />
-    <nuclide name="B-10" xs="71c" wo="0.0002" />
-    <nuclide name="B-11" xs="71c" wo="0.0008" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="H1"  wo="0.1118" />
+    <nuclide name="O16" wo="0.8872" />
+    <nuclide name="B10" wo="0.0002" />
+    <nuclide name="B11" wo="0.0008" />
+    <sab name="c_H_in_H2O" />
   </material>
 
 <!-- material 2: 6% GD+NU -->
   <material id="2">
     <density value="10.24" units="g/cc" />
-    <nuclide name="U-235"  xs="71c" wo="0.0058918" />
-    <nuclide name="U-238"  xs="71c" wo="0.8227710" />
-    <nuclide name="Gd-152" xs="71c" wo="0.0001006" />
-    <nuclide name="Gd-154" xs="71c" wo="0.0011109" />
-    <nuclide name="Gd-155" xs="71c" wo="0.0075907" />
-    <nuclide name="Gd-156" xs="71c" wo="0.0105664" />
-    <nuclide name="Gd-157" xs="71c" wo="0.0081303" />
-    <nuclide name="Gd-158" xs="71c" wo="0.0129868" />
-    <nuclide name="Gd-160" xs="71c" wo="0.0115737" />
-    <nuclide name="O-16"   xs="71c" wo="0.1192779" />
+    <nuclide name="U235"  wo="0.0058918" />
+    <nuclide name="U238"  wo="0.8227710" />
+    <nuclide name="Gd152" wo="0.0001006" />
+    <nuclide name="Gd154" wo="0.0011109" />
+    <nuclide name="Gd155" wo="0.0075907" />
+    <nuclide name="Gd156" wo="0.0105664" />
+    <nuclide name="Gd157" wo="0.0081303" />
+    <nuclide name="Gd158" wo="0.0129868" />
+    <nuclide name="Gd160" wo="0.0115737" />
+    <nuclide name="O16"   wo="0.1192779" />
   </material>
 
 <!-- material 3: UO2 2.0% -->
   <material id="3">
     <density value="10.24" units="g/cc" />
-    <nuclide name="U-235" xs="71c" wo="0.0176308" />
-    <nuclide name="U-238" xs="71c" wo="0.8639082" />
-    <nuclide name="O-16"  xs="71c" wo="0.1184610" />
+    <nuclide name="U235" wo="0.0176308" />
+    <nuclide name="U238" wo="0.8639082" />
+    <nuclide name="O16"  wo="0.1184610" />
   </material>
 
 <!-- material 4: UO2 2.37% -->
   <material id="4">
     <density value="10.24" units="g/cc" />
-    <nuclide name="U-235" xs="71c" wo="0.0208924" />
-    <nuclide name="U-238" xs="71c" wo="0.8606417" />
-    <nuclide name="O-16"  xs="71c" wo="0.1184660" />
+    <nuclide name="U235" wo="0.0208924" />
+    <nuclide name="U238" wo="0.8606417" />
+    <nuclide name="O16"  wo="0.1184660" />
   </material>
 
 <!-- material 5: UO2 2.87% -->
   <material id="5">
     <density value="10.24" units="g/cc" />
-    <nuclide name="U-235" xs="71c" wo="0.0252998" />
-    <nuclide name="U-238" xs="71c" wo="0.8562275" />
-    <nuclide name="O-16"  xs="71c" wo="0.1184726" />
+    <nuclide name="U235" wo="0.0252998" />
+    <nuclide name="U238" wo="0.8562275" />
+    <nuclide name="O16"  wo="0.1184726" />
   </material>
 
 <!-- material 6: UO2 3.37% -->
   <material id="6">
     <density value="10.24" units="g/cc" />
-    <nuclide name="U-235" xs="71c" wo="0.0297072" />
-    <nuclide name="U-238" xs="71c" wo="0.8518134" />
-    <nuclide name="O-16"  xs="71c" wo="0.1184793" />
+    <nuclide name="U235" wo="0.0297072" />
+    <nuclide name="U238" wo="0.8518134" />
+    <nuclide name="O16"  wo="0.1184793" />
   </material>
 
 <!-- material 7: Cladding -->
   <material id="7">
     <density value="6.55" units="g/cc" />
-    <nuclide name="Zr-90" xs="71c" ao="0.5145" />
-    <nuclide name="Zr-91" xs="71c" ao="0.1122" />
-    <nuclide name="Zr-92" xs="71c" ao="0.1715" />
-    <nuclide name="Zr-94" xs="71c" ao="0.1738" />
-    <nuclide name="Zr-96" xs="71c" ao="0.0280" />
+    <nuclide name="Zr90" ao="0.5145" />
+    <nuclide name="Zr91" ao="0.1122" />
+    <nuclide name="Zr92" ao="0.1715" />
+    <nuclide name="Zr94" ao="0.1738" />
+    <nuclide name="Zr96" ao="0.0280" />
   </material>
 
 </materials>

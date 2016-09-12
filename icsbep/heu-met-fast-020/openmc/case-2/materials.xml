@@ -13,9 +13,9 @@
   <!-- HEU -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.2428e-04" />
-    <nuclide name="U-235" ao="4.2315e-02" />
-    <nuclide name="U-238" ao="4.3901e-03" />
+    <nuclide name="U234" ao="5.2428e-04" />
+    <nuclide name="U235" ao="4.2315e-02" />
+    <nuclide name="U238" ao="4.3901e-03" />
     <element name="C"     ao="1.0548e-03" />
     <element name="Fe"    ao="1.8627e-04" />
     <element name="W"     ao="5.2040e-05" />
@@ -24,9 +24,9 @@
   <!-- Polyethylene -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="H-1" ao="7.7711e-02" />
+    <nuclide name="H1" ao="7.7711e-02" />
     <element name="C"   ao="3.8856e-02" />
-    <sab name="HCH2" xs="71t" />
+    <sab name="c_H_in_CH2" />
   </material>
 
 </materials>

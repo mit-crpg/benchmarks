@@ -12,10 +12,10 @@
 
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-233" ao="4.6712e-02" />
-    <nuclide name="U-234" ao="5.9026e-04" />
-    <nuclide name="U-235" ao="1.4281e-05" />
-    <nuclide name="U-238" ao="2.8561e-04" />
+    <nuclide name="U233" ao="4.6712e-02" />
+    <nuclide name="U234" ao="5.9026e-04" />
+    <nuclide name="U235" ao="1.4281e-05" />
+    <nuclide name="U238" ao="2.8561e-04" />
   </material>
 
 </materials>

@@ -13,25 +13,25 @@
   <!-- Plutonium nitrate solution (31.9 g/L) -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="5.97235e-05" />
-    <nuclide name="Pu-240" ao="1.51330e-05" />
-    <nuclide name="Pu-241" ao="4.48591e-06" />
-    <nuclide name="Pu-242" ao="9.06167e-07" />
-    <nuclide name="Am-241" ao="4.86126e-07" />
+    <nuclide name="Pu239" ao="5.97235e-05" />
+    <nuclide name="Pu240" ao="1.51330e-05" />
+    <nuclide name="Pu241" ao="4.48591e-06" />
+    <nuclide name="Pu242" ao="9.06167e-07" />
+    <nuclide name="Am241" ao="4.86126e-07" />
     <element name="N"      ao="1.56626e-03" />
     <element name="O"      ao="3.55707e-02" />
-    <nuclide name="H-1"    ao="6.29542e-02" />
+    <nuclide name="H1"    ao="6.29542e-02" />
     <element name="Fe"     ao="7.54825e-06" />
     <element name="Cr"     ao="2.42733e-06" />
     <element name="Ni"     ao="1.72038e-06" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Air -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="O-16" ao="1.0784e-05" />
-    <nuclide name="N-14" ao="4.3090e-05" />
+    <nuclide name="O16" ao="1.0784e-05" />
+    <nuclide name="N14" ao="4.3090e-05" />
   </material>
 
   <!-- Stainless steel -->
@@ -46,16 +46,16 @@
   <material id="4">
     <density units="sum" />
     <element name="C"   ao="2.7365e-02" />
-    <nuclide name="H-1" ao="4.1047e-02" />
+    <nuclide name="H1" ao="4.1047e-02" />
     <element name="Cl"  ao="1.3682e-02" />
   </material>
 
   <!-- Water -->
   <material id="5">
     <density units="sum" />
-    <nuclide name="H-1" ao="6.6688e-02" />
+    <nuclide name="H1" ao="6.6688e-02" />
     <element name="O"   ao="3.3344e-02" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Steel (pool wall) -->
@@ -68,8 +68,8 @@
   <!-- Concrete -->
   <material id="7">
     <density units="sum" />
-    <nuclide name="H-1"  ao="1.035e-02" />
-    <nuclide name="B-10" ao="1.602e-06" />
+    <nuclide name="H1"  ao="1.035e-02" />
+    <nuclide name="B10" ao="1.602e-06" />
     <element name="O"    ao="4.347e-02" />
     <element name="Al"   ao="1.563e-03" />
     <element name="Si"   ao="1.417e-02" />

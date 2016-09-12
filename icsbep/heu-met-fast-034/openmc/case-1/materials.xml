@@ -14,9 +14,9 @@
   <!-- HEU -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-235" ao="4.5694e-02" />
-    <nuclide name="U-238" ao="1.3350e-03" />
-    <nuclide name="U-234" ao="5.6419e-04" />
+    <nuclide name="U235" ao="4.5694e-02" />
+    <nuclide name="U238" ao="1.3350e-03" />
+    <nuclide name="U234" ao="5.6419e-04" />
     <element name="C"     ao="7.4560e-05" />
     <element name="Fe"    ao="1.8040e-05" />
     <element name="W"     ao="9.1332e-07" />
@@ -26,8 +26,8 @@
   <material id="2">
     <density units="sum" />
     <element name="C"   ao="3.9290e-02" />
-    <nuclide name="H-1" ao="7.8579e-02" />
-    <sab name="HCH2" xs="71t" />
+    <nuclide name="H1" ao="7.8579e-02" />
+    <sab name="c_H_in_CH2" />
   </material>
 
   <!-- Titanium -->

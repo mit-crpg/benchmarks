@@ -13,10 +13,10 @@
   <!-- HEU -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.2209e-04" />
-    <nuclide name="U-235" ao="4.1011e-02" />
-    <nuclide name="U-236" ao="8.8453e-05" />
-    <nuclide name="U-238" ao="4.0989e-03" />
+    <nuclide name="U234" ao="5.2209e-04" />
+    <nuclide name="U235" ao="4.1011e-02" />
+    <nuclide name="U236" ao="8.8453e-05" />
+    <nuclide name="U238" ao="4.0989e-03" />
     <element name="C"     ao="3.9946e-04" />
     <element name="Fe"    ao="1.3536e-04" />
     <element name="W"     ao="1.2450e-05" />
@@ -27,10 +27,10 @@
   <!-- BeO Reflector -->
   <material id="2">
     <density units="sum" />
-    <element name="Be" ao="6.7634e-02" />
+    <element name="c_Be" ao="6.7634e-02" />
     <element name="O"  ao="6.7634e-02" />
-    <sab name="BeBeO" xs="71t" />
-    <sab name="OBeO" xs="71t" />
+    <sab name="c_Be_in_BeO" />
+    <sab name="c_O_in_BeO" />
   </material>
 
   <!-- Fe -->

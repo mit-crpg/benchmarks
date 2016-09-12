@@ -13,9 +13,9 @@
   <!-- Layer 1 -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="4.1607e-02" />
-    <nuclide name="Pu-240" ao="4.8551e-03" />
-    <nuclide name="Pu-241" ao="9.0948e-04" />
+    <nuclide name="Pu239" ao="4.1607e-02" />
+    <nuclide name="Pu240" ao="4.8551e-03" />
+    <nuclide name="Pu241" ao="9.0948e-04" />
     <element name="Fe"     ao="3.0510e-04" />
     <element name="C"      ao="1.9920e-03" />
     <element name="H"      ao="8.3342e-04" />
@@ -26,9 +26,9 @@
   <!-- Layer 2 -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="4.2276e-02" />
-    <nuclide name="Pu-240" ao="4.6060e-03" />
-    <nuclide name="Pu-241" ao="6.7147e-04" />
+    <nuclide name="Pu239" ao="4.2276e-02" />
+    <nuclide name="Pu240" ao="4.6060e-03" />
+    <nuclide name="Pu241" ao="6.7147e-04" />
     <element name="Fe"     ao="2.6534e-04" />
     <element name="C"      ao="1.1053e-03" />
     <element name="H"      ao="2.0011e-04" />
@@ -39,9 +39,9 @@
   <!-- Layer 3 -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="4.1681e-02" />
-    <nuclide name="Pu-240" ao="4.7176e-03" />
-    <nuclide name="Pu-241" ao="7.4079e-04" />
+    <nuclide name="Pu239" ao="4.1681e-02" />
+    <nuclide name="Pu240" ao="4.7176e-03" />
+    <nuclide name="Pu241" ao="7.4079e-04" />
     <element name="Fe"     ao="3.0356e-04" />
     <element name="C"      ao="1.1922e-03" />
     <element name="H"      ao="2.7505e-04" />
@@ -52,9 +52,9 @@
   <!-- Layer 4 -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="4.2431e-02" />
-    <nuclide name="Pu-240" ao="4.3997e-03" />
-    <nuclide name="Pu-241" ao="5.9425e-04" />
+    <nuclide name="Pu239" ao="4.2431e-02" />
+    <nuclide name="Pu240" ao="4.3997e-03" />
+    <nuclide name="Pu241" ao="5.9425e-04" />
     <element name="Fe"     ao="2.8500e-04" />
     <element name="C"      ao="1.3956e-03" />
     <element name="H"      ao="4.3308e-04" />

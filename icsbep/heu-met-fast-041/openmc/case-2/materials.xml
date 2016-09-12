@@ -13,16 +13,16 @@
   <!-- HEU -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.8817e-04" />
-    <nuclide name="U-235" ao="4.4605e-02" />
-    <nuclide name="U-238" ao="2.5315e-03" />
+    <nuclide name="U234" ao="4.8817e-04" />
+    <nuclide name="U235" ao="4.4605e-02" />
+    <nuclide name="U238" ao="2.5315e-03" />
   </material>
 
   <!-- Beryllium -->
   <material id="2">
     <density units="sum" />
-    <element name="Be" ao="1.2295e-01" />
-    <sab name="Be" xs="71t" />
+    <element name="c_Be" ao="1.2295e-01" />
+    <sab name="c_Be" />
   </material>
 
 </materials>

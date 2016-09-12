@@ -15,14 +15,14 @@
   <!-- Uranyl Nitrate Solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.5579e-07" />
-    <nuclide name="U-235" ao="6.8970e-05" />
-    <nuclide name="U-236" ao="6.8884e-08" />
-    <nuclide name="U-238" ao="6.1432e-04" />
-    <nuclide name="H-1"   ao="5.8085e-02" />
-    <nuclide name="N-14"  ao="2.6927e-03" />
+    <nuclide name="U234" ao="5.5579e-07" />
+    <nuclide name="U235" ao="6.8970e-05" />
+    <nuclide name="U236" ao="6.8884e-08" />
+    <nuclide name="U238" ao="6.1432e-04" />
+    <nuclide name="H1"   ao="5.8085e-02" />
+    <nuclide name="N14"  ao="2.6927e-03" />
     <element name="O"     ao="3.7826e-02" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Stainless steel -->
@@ -41,15 +41,15 @@
   <!-- Water at 25 C -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="H-1" ao="6.6658e-02" />
+    <nuclide name="H1" ao="6.6658e-02" />
     <element name="O"   ao="3.3329e-02" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Air -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="N-14" ao="3.9016e-05" />
+    <nuclide name="N14" ao="3.9016e-05" />
     <element name="O"    ao="1.0409e-05" />
   </material>
 

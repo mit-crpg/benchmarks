@@ -15,17 +15,17 @@
   <!-- Tuballoy -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="2.6428e-06" />
-    <nuclide name="U-235" ao="3.4597e-04" />
-    <nuclide name="U-238" ao="4.7702e-02" />
+    <nuclide name="U234" ao="2.6428e-06" />
+    <nuclide name="U235" ao="3.4597e-04" />
+    <nuclide name="U238" ao="4.7702e-02" />
   </material>
 
   <!-- Oralloy -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9157e-04" />
-    <nuclide name="U-235" ao="4.4825e-02" />
-    <nuclide name="U-238" ao="2.6391e-03" />
+    <nuclide name="U234" ao="4.9157e-04" />
+    <nuclide name="U235" ao="4.4825e-02" />
+    <nuclide name="U238" ao="2.6391e-03" />
   </material>
 
   <!-- 2024 Aluminum -->

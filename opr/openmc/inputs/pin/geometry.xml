@@ -5,13 +5,13 @@
 
   <!-- fuel pellet surface -->
   <surface id="1">
-    <type>      z-cylinder </type>
+    <type>z-cylinder</type>
     <coeffs> 0.0 0.0 0.413 </coeffs>
   </surface>
 
   <!-- fuel rod surface -->
   <surface id="2">
-    <type>      z-cylinder </type>
+    <type>z-cylinder</type>
     <coeffs> 0.0 0.0 0.485 </coeffs>
   </surface>
 
@@ -31,104 +31,104 @@
   <!-- Water pin-cell -->
   <cell id="11">
     <universe>  1 </universe>
-    <material>  1 </material>
-    <surfaces> -3 </surfaces>
+    <material> 1 </material>
+    <region> -3 </region>
   </cell>
   <cell id="12">
     <universe> 1 </universe>
     <material> 1 </material>
-    <surfaces> 3 </surfaces>
+    <region> 3 </region>
   </cell>
 
   <!-- 6% GD + Natural Uranium pin-cell -->
   <cell id="21"><!-- fuel -->
     <universe>  2 </universe>
     <material>  3 </material>
-    <surfaces> -1 </surfaces>
+    <region> -1 </region>
   </cell>
   <cell id="22"><!-- clad -->
     <universe>    2 </universe>
     <material>    7 </material>
-    <surfaces> 1 -2 </surfaces>
+    <region> 1 -2 </region>
   </cell>
   <cell id="23"><!-- water -->
     <universe> 2 </universe>
     <material> 1 </material>
-    <surfaces> 2 </surfaces>
+    <region> 2 </region>
   </cell>
 
   <!-- 2.00% Enriched UO2 pin-cell -->
   <cell id="31"><!-- fuel -->
     <universe>  3 </universe>
     <material>  3 </material>
-    <surfaces> -1 </surfaces>
+    <region> -1 </region>
   </cell>
   <cell id="32"><!-- clad -->
     <universe>    3 </universe>
     <material>    7 </material>
-    <surfaces> 1 -2 </surfaces>
+    <region> 1 -2 </region>
   </cell>
   <cell id="33"><!-- water -->
     <universe> 3 </universe>
     <material> 1 </material>
-    <surfaces> 2 </surfaces>
+    <region> 2 </region>
   </cell>
 
   <!-- 2.37% Enriched UO2 pin-cell -->
   <cell id="41"><!-- fuel -->
     <universe>  4 </universe>
     <material>  4 </material>
-    <surfaces> -1 </surfaces>
+    <region> -1 </region>
   </cell>
   <cell id="42"><!-- clad -->
     <universe>    4 </universe>
-    <material>    7 </material>
-    <surfaces> 1 -2 </surfaces>
+    <material>7</material>
+    <region> 1 -2 </region>
   </cell>
   <cell id="43"><!-- water -->
     <universe> 4 </universe>
     <material> 1 </material>
-    <surfaces> 2 </surfaces>
+    <region> 2 </region>
   </cell>
 
   <!-- 2.87% Enriched UO2 pin-cell -->
   <cell id="51"><!-- fuel -->
     <universe>  5 </universe>
     <material>  5 </material>
-    <surfaces> -1 </surfaces>
+    <region> -1 </region>
   </cell>
   <cell id="52"><!-- clad -->
     <universe>    5 </universe>
     <material>    7 </material>
-    <surfaces> 1 -2 </surfaces>
+    <region> 1 -2 </region>
   </cell>
   <cell id="53"><!-- water -->
     <universe> 5 </universe>
     <material> 1 </material>
-    <surfaces> 2 </surfaces>
+    <region> 2 </region>
   </cell>
 
   <!-- 3.37% Enriched UO2 pin-cell -->
   <cell id="61"><!-- fuel -->
     <universe>  6 </universe>
     <material>  6 </material>
-    <surfaces> -1 </surfaces>
+    <region> -1 </region>
   </cell>
   <cell id="52"><!-- clad -->
     <universe>    6 </universe>
     <material>    7 </material>
-    <surfaces> 1 -2 </surfaces>
+    <region> 1 -2 </region>
   </cell>
   <cell id="53"><!-- water -->
     <universe> 6 </universe>
     <material> 1 </material>
-    <surfaces> 2 </surfaces>
+    <region> 2 </region>
   </cell>
 
 
 <!-- Assembly construction -->
 
-  <!-- Assembly Surfaces -->
+  <!-- Assembly Region -->
   <surface id="4">
     <type>   x-plane </type>
     <coeffs> -0.6493 </coeffs>
@@ -162,10 +162,9 @@
 
   <!-- Assembly Type 2 -->
   <lattice id="20">
-    <type>         rectangular </type>
     <dimension>          1  1  </dimension>
     <lower_left> -0.6493 -0.6493 </lower_left>
-    <width>    1.2986 1.2986 </width>
+    <pitch>    1.2986 1.2986 </pitch>
     <universes>
       3
     </universes>
@@ -173,7 +172,7 @@
   <cell id="2">
     <universe>       0 </universe>
     <fill>            20 </fill>
-    <surfaces>4 -5 6 -7 8 -9</surfaces>
+    <region>4 -5 6 -7 8 -9</region>
   </cell>
 
 </geometry>

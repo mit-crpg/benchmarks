@@ -13,16 +13,16 @@
   <!-- HEU -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9210e-04" />
-    <nuclide name="U-235" ao="4.5010e-02" />
-    <nuclide name="U-238" ao="2.4096e-03" />
+    <nuclide name="U234" ao="4.9210e-04" />
+    <nuclide name="U235" ao="4.5010e-02" />
+    <nuclide name="U238" ao="2.4096e-03" />
   </material>
 
-  <!-- Graphite -->
+  <!-- c_Graphiteite -->
   <material id="2">
     <density units="sum" />
     <element name="C" ao="8.3731e-02" />
-    <sab name="Graph" xs="71t" />
+    <sab name="c_Graphite" />
   </material>
 
 </materials>

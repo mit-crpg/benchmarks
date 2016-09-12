@@ -22,17 +22,17 @@
   <!-- Polyethylene (0.9183 g/cm3) -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="H-1" ao="7.8854e-02" />
+    <nuclide name="H1" ao="7.8854e-02" />
     <element name="C"   ao="3.9427e-02" />
-    <sab name="HCH2" xs="71t" />
+    <sab name="c_H_in_CH2" />
   </material>
 
   <!-- Water (0.9982 g/cm3) -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="H-1" ao="6.6735e-02" />
+    <nuclide name="H1" ao="6.6735e-02" />
     <element name="O"   ao="3.3368e-02" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Borated Steel -->
@@ -42,15 +42,15 @@
     <element name="Cr"   ao="1.7428e-02" />
     <element name="Mn"   ao="8.6816e-04" />
     <element name="Ni"   ao="7.5171e-03" />
-    <nuclide name="B-10" ao="3.7488e-03" />
+    <nuclide name="B10" ao="3.7488e-03" />
   </material>
 
   <!-- UO2-ZrO2 Seed Fuel (97.29 w/o U-233) -->
   <material id="5">
     <density units="sum" />
-    <nuclide name="U-233" ao="3.9891e-03" />
-    <nuclide name="U-234" ao="6.3690e-05" />
-    <nuclide name="U-238" ao="4.5759e-05" />
+    <nuclide name="U233" ao="3.9891e-03" />
+    <nuclide name="U234" ao="6.3690e-05" />
+    <nuclide name="U238" ao="4.5759e-05" />
     <element name="O"     ao="5.3932e-02" />
     <element name="Zr"    ao="2.2867e-02" />
   </material>

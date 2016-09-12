@@ -14,9 +14,9 @@
   <!-- HEU, Layer 1 -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.6992e-04" />
-    <nuclide name="U-235" ao="4.1441e-02" />
-    <nuclide name="U-238" ao="4.2953e-03" />
+    <nuclide name="U234" ao="4.6992e-04" />
+    <nuclide name="U235" ao="4.1441e-02" />
+    <nuclide name="U238" ao="4.2953e-03" />
     <element name="Cu"    ao="7.3933e-04" />
     <element name="C"     ao="5.4396e-04" />
     <element name="Ni"    ao="5.3510e-04" />
@@ -25,9 +25,9 @@
   <!-- HEU, Layer 2 -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.7441e-04" />
-    <nuclide name="U-235" ao="4.1478e-02" />
-    <nuclide name="U-238" ao="4.2390e-03" />
+    <nuclide name="U234" ao="4.7441e-04" />
+    <nuclide name="U235" ao="4.1478e-02" />
+    <nuclide name="U238" ao="4.2390e-03" />
     <element name="Cu"    ao="7.4815e-04" />
     <element name="C"     ao="5.4378e-04" />
     <element name="Ni"    ao="5.9549e-04" />
@@ -36,9 +36,9 @@
   <!-- HEU, Layer 3 -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.6924e-04" />
-    <nuclide name="U-235" ao="4.0925e-02" />
-    <nuclide name="U-238" ao="4.2922e-03" />
+    <nuclide name="U234" ao="4.6924e-04" />
+    <nuclide name="U235" ao="4.0925e-02" />
+    <nuclide name="U238" ao="4.2922e-03" />
     <element name="Cu"    ao="9.2744e-04" />
     <element name="C"     ao="5.3785e-04" />
     <element name="Ni"    ao="6.7552e-04" />
@@ -47,9 +47,9 @@
   <!-- HEU, Layer 4 -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.2726e-04" />
-    <nuclide name="U-235" ao="4.1135e-02" />
-    <nuclide name="U-238" ao="4.2744e-03" />
+    <nuclide name="U234" ao="5.2726e-04" />
+    <nuclide name="U235" ao="4.1135e-02" />
+    <nuclide name="U238" ao="4.2744e-03" />
     <element name="Cu"    ao="8.6198e-04" />
     <element name="C"     ao="5.4074e-04" />
     <element name="Ni"    ao="4.3585e-04" />
@@ -58,9 +58,9 @@
   <!-- HEU, Layer 5 -->
   <material id="5">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.8840e-04" />
-    <nuclide name="U-235" ao="4.1062e-02" />
-    <nuclide name="U-238" ao="4.2174e-03" />
+    <nuclide name="U234" ao="4.8840e-04" />
+    <nuclide name="U235" ao="4.1062e-02" />
+    <nuclide name="U238" ao="4.2174e-03" />
     <element name="Cu"    ao="8.3777e-04" />
     <element name="C"     ao="4.4891e-04" />
     <element name="Ni"    ao="4.9452e-04" />
@@ -69,9 +69,9 @@
   <!-- HEU, Layer 6 -->
   <material id="6">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.0504e-04" />
-    <nuclide name="U-235" ao="4.1306e-02" />
-    <nuclide name="U-238" ao="4.2137e-03" />
+    <nuclide name="U234" ao="5.0504e-04" />
+    <nuclide name="U235" ao="4.1306e-02" />
+    <nuclide name="U238" ao="4.2137e-03" />
     <element name="Cu"    ao="8.0432e-04" />
     <element name="C"     ao="3.6114e-04" />
     <element name="Ni"    ao="5.5572e-04" />
@@ -80,9 +80,9 @@
   <!-- HEU, Layer 7 -->
   <material id="7">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.8000e-04" />
-    <nuclide name="U-235" ao="4.1191e-02" />
-    <nuclide name="U-238" ao="4.1791e-03" />
+    <nuclide name="U234" ao="4.8000e-04" />
+    <nuclide name="U235" ao="4.1191e-02" />
+    <nuclide name="U238" ao="4.1791e-03" />
     <element name="Cu"    ao="6.3602e-04" />
     <element name="C"     ao="3.5973e-04" />
     <element name="Ni"    ao="3.5410e-04" />
@@ -91,8 +91,8 @@
   <!-- Depleted uranium, Layer 1 -->
   <material id="8">
     <density units="sum" />
-    <nuclide name="U-235" ao="2.1044e-04" />
-    <nuclide name="U-238" ao="4.6780e-02" />
+    <nuclide name="U235" ao="2.1044e-04" />
+    <nuclide name="U238" ao="4.6780e-02" />
     <element name="C"     ao="2.9015e-03" />
     <element name="Fe"    ao="3.8246e-04" />
   </material>
@@ -100,8 +100,8 @@
   <!-- Depleted uranium, Layer 2 -->
   <material id="9">
     <density units="sum" />
-    <nuclide name="U-235" ao="2.1047e-04" />
-    <nuclide name="U-238" ao="4.6786e-02" />
+    <nuclide name="U235" ao="2.1047e-04" />
+    <nuclide name="U238" ao="4.6786e-02" />
     <element name="C"     ao="2.9018e-03" />
     <element name="Fe"    ao="3.8251e-04" />
   </material>
@@ -109,8 +109,8 @@
   <!-- Depleted uranium, Layer 3 -->
   <material id="10">
     <density units="sum" />
-    <nuclide name="U-235" ao="2.1912e-04" />
-    <nuclide name="U-238" ao="4.5586e-02" />
+    <nuclide name="U235" ao="2.1912e-04" />
+    <nuclide name="U238" ao="4.5586e-02" />
     <element name="C"     ao="2.8282e-03" />
     <element name="Fe"    ao="3.7281e-04" />
   </material>
@@ -118,8 +118,8 @@
   <!-- Depleted uranium, Layer 4 -->
   <material id="11">
     <density units="sum" />
-    <nuclide name="U-235" ao="2.1059e-04" />
-    <nuclide name="U-238" ao="4.5767e-02" />
+    <nuclide name="U235" ao="2.1059e-04" />
+    <nuclide name="U238" ao="4.5767e-02" />
     <element name="C"     ao="2.8389e-03" />
     <element name="Fe"    ao="3.7422e-04" />
   </material>

@@ -13,8 +13,8 @@
   <!-- Enriched U metal (37.5 w/o) -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-235" ao="1.7730e-02" />
-    <nuclide name="U-238" ao="2.8957e-02" />
+    <nuclide name="U235" ao="1.7730e-02" />
+    <nuclide name="U238" ao="2.8957e-02" />
     <element name="C"     ao="1.8452e-04" />
     <element name="O"     ao="3.4631e-04" />
     <element name="Fe"    ao="5.9527e-05" />
@@ -26,8 +26,8 @@
   <!-- Natural U metal -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-235" ao="3.3316e-04" />
-    <nuclide name="U-238" ao="4.5948e-02" />
+    <nuclide name="U235" ao="3.3316e-04" />
+    <nuclide name="U238" ao="4.5948e-02" />
     <element name="C"     ao="4.9205e-04" />
     <element name="Fe"    ao="1.0583e-04" />
     <element name="H"     ao="4.3978e-05" />

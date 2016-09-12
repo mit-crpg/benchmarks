@@ -3,7 +3,7 @@
 
   <!--
   ===============================================================
-  Description: Graphite-reflected Spherical Assembly of 36% U-235
+  Description: c_Graphiteite-reflected Spherical Assembly of 36% U-235
   Case:        IEU-MET-FAST-004 Simplified model
   ===============================================================
   -->
@@ -13,19 +13,19 @@
   <!-- 36 wt% U-235 -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="1.5652e-04" />
-    <nuclide name="U-235" ao="1.7384e-02" />
-    <nuclide name="U-238" ao="2.9662e-02" />
+    <nuclide name="U234" ao="1.5652e-04" />
+    <nuclide name="U235" ao="1.7384e-02" />
+    <nuclide name="U238" ao="2.9662e-02" />
     <element name="C"     ao="6.5752e-04" />
     <element name="Fe"    ao="1.2098e-04" />
     <element name="W"     ao="1.0121e-05" />
   </material>
 
-  <!-- Graphite -->
+  <!-- c_Graphiteite -->
   <material id="2">
     <density units="sum" />
     <element name="C" ao="7.7716e-02" />
-    <sab name="Graph" xs="71t" />
+    <sab name="c_Graphite" />
   </material>
 
 </materials>

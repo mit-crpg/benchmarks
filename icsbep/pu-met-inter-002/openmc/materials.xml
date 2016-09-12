@@ -13,12 +13,12 @@
   <!-- Core region -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-238" ao="1.69380e-09" />
-    <nuclide name="Pu-239" ao="1.06299e-03" />
-    <nuclide name="Pu-240" ao="5.03037e-05" />
-    <nuclide name="Pu-241" ao="1.70034e-06" />
-    <nuclide name="Pu-242" ao="1.15592e-07" />
-    <nuclide name="Am-241" ao="2.98613e-06" />
+    <nuclide name="Pu238" ao="1.69380e-09" />
+    <nuclide name="Pu239" ao="1.06299e-03" />
+    <nuclide name="Pu240" ao="5.03037e-05" />
+    <nuclide name="Pu241" ao="1.70034e-06" />
+    <nuclide name="Pu242" ao="1.15592e-07" />
+    <nuclide name="Am241" ao="2.98613e-06" />
     <element name="Cr"     ao="9.84199e-03" />
     <element name="Al"     ao="1.11659e-04" />
     <element name="Mn"     ao="8.05254e-04" />

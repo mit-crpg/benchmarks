@@ -13,8 +13,8 @@
   <!-- 98% Pu-239 in delta phase -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.6620e-02" />
-    <nuclide name="Pu-240" ao="6.6944e-04" />
+    <nuclide name="Pu239" ao="3.6620e-02" />
+    <nuclide name="Pu240" ao="6.6944e-04" />
     <element name="Ga"     ao="2.1962e-03" />
     <element name="Fe"     ao="1.4126e-04" />
     <element name="C"      ao="2.8972e-04" />
@@ -24,9 +24,9 @@
   <!-- Polyethylene -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="H-1" ao="7.7628e-02" />
+    <nuclide name="H1" ao="7.7628e-02" />
     <element name="C"   ao="3.8814e-02" />
-    <sab name="HCH2" xs="71t" />
+    <sab name="c_H_in_CH2" />
   </material>
 
 </materials>

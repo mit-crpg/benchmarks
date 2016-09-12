@@ -13,10 +13,10 @@
   <!-- HEU -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.2275e-04" />
-    <nuclide name="U-235" ao="4.1032e-02" />
-    <nuclide name="U-236" ao="8.8021e-05" />
-    <nuclide name="U-238" ao="4.1010e-03" />
+    <nuclide name="U234" ao="5.2275e-04" />
+    <nuclide name="U235" ao="4.1032e-02" />
+    <nuclide name="U236" ao="8.8021e-05" />
+    <nuclide name="U238" ao="4.1010e-03" />
     <element name="C"     ao="3.9536e-04" />
     <element name="Fe"    ao="1.3512e-04" />
     <element name="W"     ao="1.2426e-05" />
@@ -42,8 +42,8 @@
   <!-- Depleted Uranium -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="U-235" ao="2.3832e-04" />
-    <nuclide name="U-238" ao="4.6826e-02" />
+    <nuclide name="U235" ao="2.3832e-04" />
+    <nuclide name="U238" ao="4.6826e-02" />
   </material>
 
 </materials>

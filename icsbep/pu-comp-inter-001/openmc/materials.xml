@@ -12,17 +12,17 @@
 
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="2.735e-04" />
-    <nuclide name="Pu-240" ao="1.549e-05" />
-    <nuclide name="Pu-241" ao="1.072e-06" />
-    <nuclide name="Pu-242" ao="5.800e-08" />
-    <nuclide name="H-1"    ao="1.077e-04" />
-    <nuclide name="B-10"   ao="1.0151e-04" />
-    <nuclide name="B-11"   ao="4.0859e-04" />
+    <nuclide name="Pu239" ao="2.735e-04" />
+    <nuclide name="Pu240" ao="1.549e-05" />
+    <nuclide name="Pu241" ao="1.072e-06" />
+    <nuclide name="Pu242" ao="5.800e-08" />
+    <nuclide name="H1"    ao="1.077e-04" />
+    <nuclide name="B10"   ao="1.0151e-04" />
+    <nuclide name="B11"   ao="4.0859e-04" />
     <element name="C"      ao="7.090e-02" />
     <element name="O"      ao="2.707e-03" />
     <element name="Ca"     ao="8.280e-04" />
-    <sab name="Graph" xs="71t" />
+    <sab name="c_Graphite" />
   </material>
 
 </materials>

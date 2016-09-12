@@ -15,15 +15,15 @@
   <!-- Plutonium nitrate solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-238" ao="3.5214e-08" />
-    <nuclide name="Pu-239" ao="5.5529e-04" />
-    <nuclide name="Pu-240" ao="2.7168e-05" />
-    <nuclide name="Pu-241" ao="1.7677e-06" />
-    <nuclide name="Pu-242" ao="5.1947e-08" />
-    <nuclide name="N-14"   ao="2.6320e-03" />
-    <nuclide name="H-1"    ao="6.0833e-02" />
-    <nuclide name="O-16"   ao="3.8165e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="Pu238" ao="3.5214e-08" />
+    <nuclide name="Pu239" ao="5.5529e-04" />
+    <nuclide name="Pu240" ao="2.7168e-05" />
+    <nuclide name="Pu241" ao="1.7677e-06" />
+    <nuclide name="Pu242" ao="5.1947e-08" />
+    <nuclide name="N14"   ao="2.6320e-03" />
+    <nuclide name="H1"    ao="6.0833e-02" />
+    <nuclide name="O16"   ao="3.8165e-02" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- 304L stainless steel -->
@@ -38,9 +38,9 @@
   <!-- Water at 25 C -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="H-1"  ao="6.6655e-02" />
-    <nuclide name="O-16" ao="3.3327e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="H1"  ao="6.6655e-02" />
+    <nuclide name="O16" ao="3.3327e-02" />
+    <sab name="c_H_in_H2O" />
   </material>
 
 </materials>

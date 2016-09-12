@@ -13,8 +13,8 @@
   <!-- Beryllium (source) -->
   <material id="1">
     <density units="sum" />
-    <element name="Be" ao="1.1862e-01" />
-    <sab name="Be" xs="71t" />
+    <element name="c_Be" ao="1.1862e-01" />
+    <sab name="c_Be" />
   </material>
 
   <!-- Nickel -->
@@ -35,16 +35,16 @@
   <!-- Beryllium (moderator/reflector) -->
   <material id="4">
     <density units="sum" />
-    <element name="Be" ao="1.2295e-01" />
-    <sab name="Be" xs="71t" />
+    <element name="c_Be" ao="1.2295e-01" />
+    <sab name="c_Be" />
   </material>
 
   <!-- HEU -->
   <material id="5">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.7717e-04" />
-    <nuclide name="U-235" ao="4.4268e-02" />
-    <nuclide name="U-238" ao="2.7350e-03" />
+    <nuclide name="U234" ao="4.7717e-04" />
+    <nuclide name="U235" ao="4.4268e-02" />
+    <nuclide name="U238" ao="2.7350e-03" />
   </material>
 
 

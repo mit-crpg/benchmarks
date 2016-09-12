@@ -3,7 +3,7 @@
 
   <!--
   ============================================================
-  Description: Graphite-reflected sphere of 98% Pu-239, VNIIEF
+  Description: c_Graphiteite-reflected sphere of 98% Pu-239, VNIIEF
   Case:        PU-MET-FAST-023 Simplified model
   ============================================================
   -->
@@ -13,19 +13,19 @@
   <!-- 98% Pu-239 in delta phase -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.6603e-02" />
-    <nuclide name="Pu-240" ao="6.6913e-04" />
+    <nuclide name="Pu239" ao="3.6603e-02" />
+    <nuclide name="Pu240" ao="6.6913e-04" />
     <element name="Ga"     ao="2.1956e-03" />
     <element name="Fe"     ao="1.4086e-04" />
     <element name="C"      ao="2.8927e-04" />
     <element name="Ni"     ao="1.9484e-03" />
   </material>
 
-  <!-- Graphite -->
+  <!-- c_Graphiteite -->
   <material id="2">
     <density units="sum" />
     <element name="C" ao="9.1842e-02" />
-    <sab name="Graph" xs="71t" />
+    <sab name="c_Graphite" />
   </material>
 
 </materials>

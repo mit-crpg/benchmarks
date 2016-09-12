@@ -15,14 +15,14 @@
   <!-- Uranium Oxyfluoride Solution -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="2.9381e-06" />
-    <nuclide name="U-235" ao="2.4768e-04" />
-    <nuclide name="U-236" ao="1.3241e-06" />
-    <nuclide name="U-238" ao="1.3839e-05" />
-    <nuclide name="F-19"  ao="5.3157e-04" />
+    <nuclide name="U234" ao="2.9381e-06" />
+    <nuclide name="U235" ao="2.4768e-04" />
+    <nuclide name="U236" ao="1.3241e-06" />
+    <nuclide name="U238" ao="1.3839e-05" />
+    <nuclide name="F19"  ao="5.3157e-04" />
     <element name="O"     ao="3.3255e-02" />
-    <nuclide name="H-1"   ao="6.5447e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="H1"   ao="6.5447e-02" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- 1100 Aluminum -->
@@ -38,9 +38,9 @@
   <!-- Water Reflector at 39.5 C -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="H-1" ao="6.6348e-02" />
+    <nuclide name="H1" ao="6.6348e-02" />
     <element name="O"   ao="3.3174e-02" />
-    <sab name="HH2O" xs="71t" />
+    <sab name="c_H_in_H2O" />
   </material>
 
 </materials>
