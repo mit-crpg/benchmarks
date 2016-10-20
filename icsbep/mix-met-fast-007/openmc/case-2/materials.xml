@@ -26,7 +26,7 @@
   <!-- Beryllium -->
   <material id="3">
     <density units="sum" />
-    <element name="c_Be" ao="1.2295e-01" />
+    <element name="Be" ao="1.2295e-01" />
     <sab name="c_Be" />
   </material>
 

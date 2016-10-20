@@ -24,7 +24,7 @@
   <!-- Reflector -->
   <material id="2">
     <density units="sum" />
-    <element name="c_Be"  ao="1.2081e-01" />
+    <element name="Be"  ao="1.2081e-01" />
     <element name="O"   ao="8.2064e-05" />
     <element name="C"   ao="1.0020e-04" />
     <element name="Fe"  ao="5.0939e-05" />

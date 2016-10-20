@@ -11,7 +11,7 @@
   <!-- Beryllium (source) -->
   <material id="1">
     <density units="sum" />
-    <element name="c_Be" ao="1.1862e-01" />
+    <element name="Be" ao="1.1862e-01" />
     <sab name="c_Be" />
   </material>
 
@@ -33,7 +33,7 @@
   <!-- Beryllium (moderator/reflector) -->
   <material id="4">
     <density units="sum" />
-    <element name="c_Be" ao="1.2295e-01" />
+    <element name="Be" ao="1.2295e-01" />
     <sab name="c_Be" />
   </material>
 

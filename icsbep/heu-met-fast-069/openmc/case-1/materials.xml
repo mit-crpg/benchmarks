@@ -127,7 +127,7 @@
   <!-- 0.5" Be disc -->
   <material id="5">
     <density units="sum" />
-    <element name="c_Be" ao="1.1959e-01" />
+    <element name="Be" ao="1.1959e-01" />
     <element name="Al" ao="2.4360e-05" />
     <element name="B"  ao="1.0133e-06" />
     <element name="Bi" ao="2.6209e-06" />
@@ -147,7 +147,7 @@
   <!-- 9/16" Be disc -->
   <material id="6">
     <density units="sum" />
-    <element name="c_Be" ao="1.1984e-01" />
+    <element name="Be" ao="1.1984e-01" />
     <element name="Al" ao="2.4412e-05" />
     <element name="B"  ao="1.0154e-06" />
     <element name="Bi" ao="2.6265e-06" />
@@ -167,7 +167,7 @@
   <!-- 1" Be disc -->
   <material id="7">
     <density units="sum" />
-    <element name="c_Be" ao="1.2094e-01" />
+    <element name="Be" ao="1.2094e-01" />
     <element name="Al" ao="2.4636e-05" />
     <element name="B"  ao="1.0248e-06" />
     <element name="Bi" ao="2.6507e-06" />
@@ -187,7 +187,7 @@
   <!-- 1.5" Be disc -->
   <material id="8">
     <density units="sum" />
-    <element name="c_Be" ao="1.2112e-01" />
+    <element name="Be" ao="1.2112e-01" />
     <element name="Al" ao="2.4672e-05" />
     <element name="B"  ao="1.0262e-06" />
     <element name="Bi" ao="2.6545e-06" />
@@ -207,7 +207,7 @@
   <!-- 2" Be disc -->
   <material id="9">
     <density units="sum" />
-    <element name="c_Be" ao="1.2073e-01" />
+    <element name="Be" ao="1.2073e-01" />
     <element name="Al" ao="2.4594e-05" />
     <element name="B"  ao="1.0230e-06" />
     <element name="Bi" ao="2.6461e-06" />

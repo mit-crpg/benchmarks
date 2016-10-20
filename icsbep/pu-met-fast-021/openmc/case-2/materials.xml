@@ -21,7 +21,7 @@
   <!-- Berylium-oxide Reflector -->
   <material id="2">
     <density units="sum" />
-    <element name="c_Be" ao="6.9041e-02" />
+    <element name="Be" ao="6.9041e-02" />
     <element name="O"  ao="6.9041e-02" />
     <sab name="c_Be_in_BeO" />
     <sab name="c_O_in_BeO" />

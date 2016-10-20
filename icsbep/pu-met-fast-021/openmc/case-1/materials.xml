@@ -21,7 +21,7 @@
   <!-- Berylium Reflector -->
   <material id="2">
     <density units="sum" />
-    <element name="c_Be" ao="1.2099e-01" />
+    <element name="Be" ao="1.2099e-01" />
     <element name="O"  ao="1.0449e-03" />
     <sab name="c_Be" />
   </material>

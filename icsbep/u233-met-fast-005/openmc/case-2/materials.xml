@@ -19,7 +19,7 @@
   <!-- Beryllium reflector -->
   <material id="2">
     <density units="sum" />
-    <element name="c_Be" ao="1.1984e-01" />
+    <element name="Be" ao="1.1984e-01" />
     <element name="O"  ao="1.3776e-03" />
     <sab name="c_Be" />
   </material>
