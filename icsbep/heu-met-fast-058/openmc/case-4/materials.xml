@@ -8,8 +8,6 @@
   ===============================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Beryllium (internal) -->
   <material id="1">
     <density units="sum" />

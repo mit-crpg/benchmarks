@@ -10,8 +10,6 @@
   ====================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- U fuel -->
   <material id="1">
     <density value="0.04805" units="atom/b-cm" />

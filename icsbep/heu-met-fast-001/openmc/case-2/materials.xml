@@ -10,8 +10,6 @@
   =====================================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Godiva sphere at 18.74 g/cm3 -->
   <material id="1">
     <density units="sum" />

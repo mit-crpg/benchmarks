@@ -8,8 +8,6 @@
   ==============================================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- UO2F2/D2O Solution -->
   <material id="1">
     <density units="sum" />

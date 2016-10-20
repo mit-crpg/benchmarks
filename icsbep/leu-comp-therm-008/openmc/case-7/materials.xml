@@ -8,8 +8,6 @@
   ==========================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Water with 1032.5 PPM Boron -->
   <material id="1">
     <density units="sum" />

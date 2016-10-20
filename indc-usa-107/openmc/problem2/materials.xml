@@ -10,8 +10,6 @@
       ====================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Fuel composed of 96.5 a/o U-238 and 3.5 a/o U-235 -->
   <material id="1">
     <density value="18.8" units="g/cc" />

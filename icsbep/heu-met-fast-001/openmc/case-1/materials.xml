@@ -10,8 +10,6 @@
   ==========================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Shell #1 -->
   <material id="1">
     <density units="sum" />

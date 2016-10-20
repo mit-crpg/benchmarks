@@ -12,8 +12,6 @@
   NOTE THE FUEL DENSITIES NEED UPDATING
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Water, 25 deg.C -->
   <material id="1">
     <density value="0.099987" units="atom/b-cm" />
@@ -238,4 +236,3 @@
   </material>
 
 </materials>
-

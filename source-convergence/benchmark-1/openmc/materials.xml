@@ -10,8 +10,6 @@
   ==============================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- UO2 fuel -->
   <material id="1">
     <density value="0.06925613" units="atom/b-cm" />

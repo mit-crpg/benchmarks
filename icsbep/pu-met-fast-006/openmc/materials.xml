@@ -9,8 +9,6 @@
   =======================================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <material id="1">
     <density units="sum" />
     <nuclide name="Pu239" ao="3.6697e-02" />

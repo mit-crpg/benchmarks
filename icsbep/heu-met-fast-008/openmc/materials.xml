@@ -10,8 +10,6 @@
   ===================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Core, R < 9.15 -->
   <material id="1">
     <density units="sum" />

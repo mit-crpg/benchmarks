@@ -8,8 +8,6 @@
   ===============================================================
   -->
 
-  <default_xs>71c</default_xs>  
-
   <!-- UO2-PuO2 Mixture -->
   <material id="1">
     <density units="sum" />

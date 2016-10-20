@@ -8,8 +8,6 @@
   ==========================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Enriched U metal (37.5 w/o) -->
   <material id="1">
     <density units="sum" />

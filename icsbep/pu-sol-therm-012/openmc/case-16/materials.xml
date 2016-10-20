@@ -8,8 +8,6 @@
   ===========================================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Plutonium nitrate solution (26.9 g/L) -->
   <material id="1">
     <density units="sum" />
