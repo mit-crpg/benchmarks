@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+    <material id="1">
+        <density units="atom/b-cm" value="0.099278205" />
+        <nuclide ao="2.2491e-09" name="U232" />
+        <nuclide ao="0.00033761" name="U233" />
+        <nuclide ao="3.6085e-06" name="U234" />
+        <nuclide ao="8.9226e-08" name="U235" />
+        <nuclide ao="3.4172e-09" name="U236" />
+        <nuclide ao="4.6964e-06" name="U238" />
+        <nuclide ao="4.341e-06" name="Th232" />
+        <nuclide ao="0.063366" name="H1" />
+        <nuclide ao="0.00080048" name="N14" />
+        <nuclide ao="0.03473" name="O16" />
+        <sab name="c_H_in_H2O" />
+    </material>
+    <material id="2">
+        <density units="atom/b-cm" value="0.08926494" />
+        <nuclide ao="0.040575" name="H1" />
+        <nuclide ao="0.040575" name="C0" />
+        <nuclide ao="0.0074387" name="O16" />
+        <nuclide ao="3.9898e-05" name="Fe54" />
+        <nuclide ao="0.00062025" name="Fe56" />
+        <nuclide ao="1.4201e-05" name="Fe57" />
+        <nuclide ao="1.8935e-06" name="Fe58" />
+        <sab name="c_H_in_H2O" />
+    </material>
+    <material id="3">
+        <density units="atom/b-cm" value="0.0602069389" />
+        <nuclide ao="0.059746" name="Al27" />
+        <nuclide ao="0.000253992" name="Si28" />
+        <nuclide ao="1.28607e-05" name="Si29" />
+        <nuclide ao="8.53709e-06" name="Si30" />
+        <nuclide ao="1.482e-05" name="Mn55" />
+        <nuclide ao="8.1715e-06" name="Fe54" />
+        <nuclide ao="0.00012703" name="Fe56" />
+        <nuclide ao="2.9085e-06" name="Fe57" />
+        <nuclide ao="3.878e-07" name="Fe58" />
+        <nuclide ao="2.2155e-05" name="Cu63" />
+        <nuclide ao="9.8748e-06" name="Cu65" />
+    </material>
+</materials>
