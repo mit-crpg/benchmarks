@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==================================================================================
+  Description: ZPR-3/53 (Pu-DU-C w/ thick DU reflector
+  Case:        MIX-MET-INTER-004
+  ==================================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Core -->
+  <material id="1">
+    <density units="sum"/>
+    <nuclide name="Pu-240" ao="1.06605E-04"/>
+    <nuclide name="Pu-241" ao="8.37189E-06"/>
+    <nuclide name="U-235" ao="6.02719E-06"/>
+    <nuclide name="U-238" ao="2.60196E-03"/>
+    <nuclide name="Pu-239" ao="1.65490E-03"/>
+    <nuclide name="Pu-242" ao="3.42379E-07"/>
+    <nuclide name="Am-241" ao="2.91589E-06"/>
+    <element name="Cr" ao="1.84075E-03"/>
+    <element name="Ni" ao="7.90457E-04"/>
+    <element name="Fe" ao="7.27891E-03"/>
+    <element name="Al" ao="1.10408E-04"/>
+    <element name="C" ao="5.56078E-02"/>
+    <element name="Mo" ao="2.09495E-04"/>
+    <nuclide name="Mn-55" ao="9.83153E-05"/>
+    <element name="Cu" ao="2.79163E-06"/>
+    <element name="Si" ao="9.24362E-05"/>
+  </material>
+
+  <!-- Axial blanket -->
+  <material id="2">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="8.28476E-05"/>
+    <nuclide name="U-238" ao="3.96350E-02"/>
+    <element name="Cr" ao="1.44924E-03"/>
+    <element name="Ni" ao="6.18487E-04"/>
+    <element name="Fe" ao="5.82611E-03"/>
+    <element name="C" ao="1.37151E-05"/>
+    <nuclide name="Mn-55" ao="7.06576E-05"/>
+    <nuclide name="H-1" ao="3.97871E-06"/>
+    <element name="Si" ao="7.39858E-05"/>
+    <element name="Cl" ao="6.87973E-06"/>
+    <nuclide name="F-19" ao="2.03717E-05"/>
+  </material>
+
+  <!-- Radial blanket -->
+  <material id="3">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="8.34523E-05"/>
+    <nuclide name="U-238" ao="3.99253E-02"/>
+    <element name="Cr" ao="1.10716E-03"/>
+    <element name="Ni" ao="4.52773E-04"/>
+    <element name="Fe" ao="4.51901E-03"/>
+    <element name="C" ao="8.40260E-06"/>
+    <nuclide name="Mn-55" ao="4.35132E-05"/>
+    <nuclide name="H-1" ao="2.43087E-06"/>
+    <element name="Si" ao="6.05928E-05"/>
+    <element name="Cl" ao="4.21476E-06"/>
+    <nuclide name="F-19" ao="1.24811E-05"/>
+  </material>
+
+  <!-- Drawer gap -->
+  <material id="4">
+    <density units="sum"/>
+    <element name="Cr" ao="3.45718E-03"/>
+    <element name="Ni" ao="1.59962E-03"/>
+    <element name="Fe" ao="1.92112E-02"/>
+    <element name="C" ao="2.62585E-04"/>
+    <nuclide name="Mn-55" ao="2.34487E-04"/>
+    <element name="Si" ao="1.50898E-04"/>
+  </material>
+
+  <!-- Matrix -->
+  <material id="5">
+    <density units="sum"/>
+    <element name="Cr" ao="1.10960E-03"/>
+    <element name="Ni" ao="4.53554E-04"/>
+    <element name="Fe" ao="4.52968E-03"/>
+    <nuclide name="Mn-55" ao="4.34957E-05"/>
+    <element name="Si" ao="6.07700E-05"/>
+  </material>
+
+</materials>
