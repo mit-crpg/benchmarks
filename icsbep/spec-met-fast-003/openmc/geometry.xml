@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  =====================================================================
+  Description: Np-237 sphere reflected by HEU using Flattop
+  Case:        SPEC-MET-FAST-003
+  =====================================================================
+  -->
+
+  <surface id="1" type="sphere" coeffs="0. 0. 0. 0.6921"/>
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 0.7062"/>
+  <surface id="3" type="sphere" coeffs="0. 0. 0. 0.7266"/>
+  <surface id="4" type="sphere" coeffs="0. 0. 0. 6.1156"/>
+  <surface id="5" type="sphere" coeffs="0. 0. 0. 24.1242" boundary="vacuum"/>
+
+  <!-- Np-237 -->
+  <cell id="1" material="1" region="-1" />
+
+  <!-- Ni coating -->
+  <cell id="2" material="2" region="1 -2" />
+
+  <!-- Gap -->
+  <cell id="3" material="void" region="2 -3" />
+
+  <!-- HEU -->
+  <cell id="4" material="3" region="3 -4" />
+
+  <!-- Nat U -->
+  <cell id="5" material="4" region="4 -5" />
+
+</geometry>
