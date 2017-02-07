@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==================================================================================
+  Description: U9 Benchmark (9% enr. U-235 core w/ thick DU reflector)
+  Case:        IEU-MET-FAST-010
+  ==================================================================================
+  -->
+
+  <surface id="1"  type="z-cylinder" coeffs="0. 0. 40.996"/>
+  <surface id="2"  type="z-cylinder" coeffs="0. 0. 65.157"/>
+  <surface id="3"  type="z-cylinder" coeffs="0. 0. 96.623" boundary="vacuum"/>
+  <surface id="4"  type="z-plane" coeffs="-121.920" boundary="vacuum"/>
+  <surface id="5"  type="z-plane" coeffs="-120.975"/>
+  <surface id="6"  type="z-plane" coeffs="-120.461"/>
+  <surface id="7"  type="z-plane" coeffs="-38.181"/>
+  <surface id="8"  type="z-plane" coeffs="-22.941"/>
+  <surface id="9"  type="z-plane" coeffs="0.000"/>
+  <surface id="10" type="z-plane" coeffs="22.941"/>
+  <surface id="11" type="z-plane" coeffs="38.181"/>
+  <surface id="12" type="z-plane" coeffs="120.461"/>
+  <surface id="13" type="z-plane" coeffs="120.975"/>
+  <surface id="14" type="z-plane" coeffs="121.920" boundary="vacuum"/>
+
+  <!-- Lower void, R1 -->
+  <cell id="1" material="1" region="-1 4 -6"/>
+
+  <!-- Lower void, R2 -->
+  <cell id="2" material="1" region="1 -2 4 -5"/>
+
+  <!-- Upper void, R1 -->
+  <cell id="3" material="1" region="-1 12 -14"/>
+
+  <!-- Upper void, R2 -->
+  <cell id="4" material="1" region="1 -2 13 -14"/>
+
+  <!-- Outer cylindrical void -->
+  <cell id="5" material="2" region="2 -3 4 -14"/>
+
+  <!-- DU radial reflector -->
+  <cell id="6" material="3" region="1 -2 5 -13"/>
+
+  <!-- Lower DU axial reflector -->
+  <cell id="7" material="4" region="-1 6 -7"/>
+
+  <!-- Upper DU axial reflector -->
+  <cell id="8" material="5" region="-1 11 -12"/>
+
+  <!-- Core 1 -->
+  <cell id="9" material="6" region="-1 9 -10"/>
+
+  <!-- Core 2 -->
+  <cell id="10" material="7" region="-1 10 -11"/>
+
+  <!-- Core 3 -->
+  <cell id="11" material="8" region="-1 8 -9"/>
+
+  <!-- Core 4 -->
+  <cell id="12" material="9" region="-1 7 -8"/>
+
+</geometry>

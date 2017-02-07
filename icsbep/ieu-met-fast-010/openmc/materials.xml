@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==================================================================================
+  Description: U9 Benchmark (9% enr. U-235 core w/ thick DU reflector)
+  Case:        IEU-MET-FAST-010
+  ==================================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Empty matrix above and below reflector -->
+  <material id="1">
+    <density units="sum"/>
+    <element name="Cr" ao="1.18909e-3"/>
+    <element name="Ni" ao="4.80175e-4"/>
+    <element name="Fe" ao="4.27914e-3"/>
+    <element name="C"  ao="1.87415e-5"/>
+    <element name="Mo" ao="8.25653e-6"/>
+    <element name="Mn" ao="1.05905e-4"/>
+    <element name="Cu" ao="1.72319e-5"/>
+    <element name="Si" ao="6.83105e-5"/>
+  </material>
+
+  <!-- Empty matrix surrounding radial reflector -->
+  <material id="2">
+    <density units="sum"/>
+    <element name="Cr" ao="1.17957e-3"/>
+    <element name="Ni" ao="4.76329e-4"/>
+    <element name="Fe" ao="4.24488e-3"/>
+    <element name="C"  ao="1.85933e-5"/>
+    <element name="Mo" ao="8.19076e-6"/>
+    <element name="Mn" ao="1.05057e-4"/>
+    <element name="Cu" ao="1.70944e-5"/>
+    <element name="Si" ao="6.77630e-5"/>
+  </material>
+
+  <!-- DU radial reflector -->
+  <material id="3">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="8.56868e-5"/>
+    <nuclide name="U-238" ao="3.83747e-2"/>
+    <element name="Cr" ao="1.69502e-3"/>
+    <element name="Ni" ao="6.86302e-4"/>
+    <element name="Fe" ao="6.13244e-3"/>
+    <element name="C"  ao="3.77935e-5"/>
+    <element name="Mo" ao="1.07671e-5"/>
+    <element name="Mn" ao="1.46803e-4"/>
+    <element name="Cu" ao="2.16820e-5"/>
+    <element name="H"  ao="2.53803e-6"/>
+    <element name="Si" ao="7.69676e-5"/>
+    <element name="Cl" ao="4.39454e-6"/>
+    <element name="F"  ao="1.30132e-5"/>
+  </material>
+
+  <!-- Lower DU axial reflector -->
+  <material id="4">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="8.24312e-5"/>
+    <nuclide name="U-238" ao="3.69113e-2"/>
+    <element name="Cr" ao="1.72627e-3"/>
+    <element name="Ni" ao="7.03836e-4"/>
+    <element name="Fe" ao="6.26607e-3"/>
+    <element name="Al" ao="4.16747e-4"/>
+    <element name="C"  ao="3.97675e-5"/>
+    <element name="Mo" ao="1.12206e-5"/>
+    <element name="Mn" ao="1.46859e-4"/>
+    <element name="Cu" ao="2.13537e-5"/>
+    <element name="H"  ao="2.81777e-6"/>
+    <element name="Si" ao="8.31237e-5"/>
+    <element name="Cl" ao="4.87118e-6"/>
+    <element name="F"  ao="1.44249e-5"/>
+  </material>
+
+  <!-- Upper DU axial reflector -->
+  <material id="5">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="8.31425e-5"/>
+    <nuclide name="U-238" ao="3.72293e-2"/>
+    <element name="Cr" ao="1.72627e-3"/>
+    <element name="Ni" ao="7.03836e-4"/>
+    <element name="Fe" ao="6.26656e-3"/>
+    <element name="Al" ao="4.16747e-4"/>
+    <element name="C"  ao="3.99149e-5"/>
+    <element name="Mo" ao="1.12206e-5"/>
+    <element name="Mn" ao="1.46859e-4"/>
+    <element name="Cu" ao="2.13537e-5"/>
+    <element name="H"  ao="2.85427e-6"/>
+    <element name="Si" ao="8.31237e-5"/>
+    <element name="Cl" ao="4.93394e-6"/>
+    <element name="F"  ao="1.46107e-5"/>
+  </material>
+
+  <!-- Core 1 -->
+  <material id="6">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="3.48543e-3"/>
+    <nuclide name="U-238" ao="3.52634e-2"/>
+    <nuclide name="U-234" ao="3.34211e-5"/>
+    <nuclide name="U-236" ao="1.60227e-5"/>
+    <element name="Cr" ao="1.86067e-3"/>
+    <element name="Ni" ao="7.49053e-4"/>
+    <element name="Fe" ao="6.65688e-3"/>
+    <element name="C"  ao="9.62990e-5"/>
+    <element name="Mo" ao="1.18327e-5"/>
+    <element name="Mn" ao="1.63509e-4"/>
+    <element name="Cu" ao="2.38833e-5"/>
+    <element name="H"  ao="1.94580e-5"/>
+    <element name="Si" ao="7.16001e-5"/>
+    <element name="Cl" ao="3.33506e-5"/>
+    <element name="F"  ao="9.91220e-5"/>
+  </material>
+
+  <!-- Core 2 -->
+  <material id="7">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="3.47666e-3"/>
+    <nuclide name="U-238" ao="3.53869e-2"/>
+    <nuclide name="U-234" ao="3.33328e-5"/>
+    <nuclide name="U-236" ao="1.59801e-5"/>
+    <element name="Cr" ao="1.87418e-3"/>
+    <element name="Ni" ao="7.54654e-4"/>
+    <element name="Fe" ao="6.70752e-3"/>
+    <element name="C"  ao="9.64166e-5"/>
+    <element name="Mo" ao="1.19799e-5"/>
+    <element name="Mn" ao="1.64823e-4"/>
+    <element name="Cu" ao="2.42329e-5"/>
+    <element name="H"  ao="1.94498e-5"/>
+    <element name="Si" ao="7.42038e-5"/>
+    <element name="Cl" ao="3.34686e-5"/>
+    <element name="F"  ao="9.94726e-5"/>
+  </material>
+
+  <!-- Core 3 -->
+  <material id="8">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="3.48543e-3"/>
+    <nuclide name="U-238" ao="3.52634e-2"/>
+    <nuclide name="U-234" ao="3.34211e-5"/>
+    <nuclide name="U-236" ao="1.60227e-5"/>
+    <element name="Cr" ao="1.86067e-3"/>
+    <element name="Ni" ao="7.49053e-4"/>
+    <element name="Fe" ao="6.65688e-3"/>
+    <element name="C"  ao="9.62606e-5"/>
+    <element name="Mo" ao="1.18327e-5"/>
+    <element name="Mn" ao="1.63509e-4"/>
+    <element name="Cu" ao="2.38833e-5"/>
+    <element name="H"  ao="1.94471e-5"/>
+    <element name="Si" ao="7.16001e-5"/>
+    <element name="Cl" ao="3.33314e-5"/>
+    <element name="F"  ao="9.90650e-5"/>
+  </material>
+
+  <!-- Core 4 -->
+  <material id="9">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="3.47666e-3"/>
+    <nuclide name="U-238" ao="3.53869e-2"/>
+    <nuclide name="U-234" ao="3.33328e-5"/>
+    <nuclide name="U-236" ao="1.59801e-5"/>
+    <element name="Cr" ao="1.87418e-3"/>
+    <element name="Ni" ao="7.54654e-4"/>
+    <element name="Fe" ao="6.70752e-3"/>
+    <element name="C"  ao="9.63781e-5"/>
+    <element name="Mo" ao="1.19799e-5"/>
+    <element name="Mn" ao="1.64823e-4"/>
+    <element name="Cu" ao="2.42329e-5"/>
+    <element name="H"  ao="1.94388e-5"/>
+    <element name="Si" ao="7.42038e-5"/>
+    <element name="Cl" ao="3.34493e-5"/>
+    <element name="F"  ao="9.94154e-5"/>
+  </material>
+
+</materials>
