@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  ==================================================================================
+  Description: ZPR-6/6A UOX, Na, thick DU blanket
+  Case:        IEU-COMP-FAST-001
+  ==================================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <!-- Inner Core 1 -->
+  <material id="1">
+    <density units="sum"/>
+    <nuclide name="U-234" ao="1.12777E-05"/>
+    <nuclide name="U-235" ao="1.15084E-03"/>
+    <nuclide name="U-236" ao="5.40689E-06"/>
+    <nuclide name="U-238" ao="5.79612E-03"/>
+    <element name="C" ao="4.97945E-05"/>
+    <element name="Cl" ao="3.92603E-06"/>
+    <element name="Co" ao="8.32631E-07"/>
+    <element name="Cr" ao="2.82309E-03"/>
+    <element name="Cu" ao="2.66986E-05"/>
+    <element name="F" ao="1.07411E-05"/>
+    <element name="Fe" ao="1.33669E-02"/>
+    <element name="H" ao="2.07879E-06"/>
+    <element name="Mn" ao="2.34499E-04"/>
+    <element name="Mo" ao="1.42366E-05"/>
+    <element name="Na" ao="9.27752E-03"/>
+    <element name="Ni" ao="1.22558E-03"/>
+    <element name="O" ao="1.37526E-02"/>
+    <element name="Si" ao="1.56998E-04"/>
+    <element name="Al" ao="2.87511E-06"/>
+  </material>
+
+  <!-- Outer Core 1 -->
+  <material id="2">
+    <density units="sum"/>
+    <nuclide name="U-234" ao="1.11611E-05"/>
+    <nuclide name="U-235" ao="1.14390E-03"/>
+    <nuclide name="U-236" ao="5.35052E-06"/>
+    <nuclide name="U-238" ao="5.79503E-03"/>
+    <element name="C" ao="4.73406E-05"/>
+    <element name="Cl" ao="3.68590E-06"/>
+    <element name="Co" ao="2.58295E-07"/>
+    <element name="Cr" ao="2.82546E-03"/>
+    <element name="Cu" ao="2.68600E-05"/>
+    <element name="F" ao="1.00311E-05"/>
+    <element name="Fe" ao="1.38058E-02"/>
+    <element name="H" ao="1.92854E-06"/>
+    <element name="Mn" ao="2.33663E-04"/>
+    <element name="Mo" ao="1.50069E-05"/>
+    <element name="Na" ao="9.16324E-03"/>
+    <element name="Ni" ao="1.22087E-03"/>
+    <element name="O" ao="1.43094E-02"/>
+    <element name="Si" ao="1.50839E-04"/>
+    <element name="Al" ao="2.45958E-06"/>
+  </material>
+
+  <!-- Inner Axial reflector 1 -->
+  <material id="4">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="8.27435E-05"/>
+    <nuclide name="U-238" ao="3.72332E-02"/>
+    <element name="C" ao="3.67130E-05"/>
+    <element name="Cl" ao="3.03952E-06"/>
+    <element name="Cr" ao="1.45838E-03"/>
+    <element name="Cu" ao="1.84170E-05"/>
+    <element name="F" ao="9.00934E-06"/>
+    <element name="Fe" ao="5.35598E-03"/>
+    <element name="H" ao="1.78500E-06"/>
+    <element name="Mn" ao="1.27853E-04"/>
+    <element name="Mo" ao="9.33261E-06"/>
+    <element name="Ni" ao="5.97500E-04"/>
+    <element name="Si" ao="8.68258E-05"/>
+  </material>
+
+  <!-- Inner Axial reflector 2 -->
+  <material id="6">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="8.65264E-05"/>
+    <nuclide name="U-238" ao="3.87479E-02"/>
+    <element name="C" ao="1.87415E-05"/>
+    <element name="Cr" ao="1.18909E-03"/>
+    <element name="Cu" ao="1.72319E-05"/>
+    <element name="Fe" ao="4.27914E-03"/>
+    <element name="Mn" ao="1.05905E-04"/>
+    <element name="Mo" ao="8.25653E-06"/>
+    <element name="Ni" ao="4.80175E-04"/>
+    <element name="Si" ao="6.83105E-05"/>
+  </material>
+
+  <!-- Outer Axial Reflector 1 -->
+  <material id="5">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="8.25608E-05"/>
+    <nuclide name="U-238" ao="3.71671E-02"/>
+    <element name="C" ao="3.73230E-05"/>
+    <element name="Cl" ao="3.33753E-06"/>
+    <element name="Cr" ao="1.46756E-03"/>
+    <element name="Cu" ao="1.84934E-05"/>
+    <element name="F" ao="9.89177E-06"/>
+    <element name="Fe" ao="5.38691E-03"/>
+    <element name="H" ao="1.95551E-06"/>
+    <element name="Mn" ao="1.28517E-04"/>
+    <element name="Mo" ao="9.39069E-06"/>
+    <element name="Ni" ao="6.01401E-04"/>
+    <element name="Si" ao="8.69821E-05"/>
+  </material>
+
+  <!-- Outer Axial Reflector 2 -->
+  <material id="7">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="8.57702E-05"/>
+    <nuclide name="U-238" ao="3.84184E-02"/>
+    <element name="C" ao="1.92861E-05"/>
+    <element name="Cl" ao="1.62215E-07"/>
+    <element name="Cr" ao="1.20685E-03"/>
+    <element name="Cu" ao="1.73693E-05"/>
+    <element name="F" ao="4.80817E-07"/>
+    <element name="Fe" ao="4.34188E-03"/>
+    <element name="H" ao="9.52633E-08"/>
+    <element name="Mn" ao="1.07236E-04"/>
+    <element name="Mo" ao="8.40584E-06"/>
+    <element name="Ni" ao="4.87712E-04"/>
+    <element name="Si" ao="6.88811E-05"/>
+  </material>
+
+  <!-- Radial Reflector 1 & 2 -->
+  <material id="8">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="8.66555E-05"/>
+    <nuclide name="U-238" ao="3.88076E-02"/>
+    <element name="C" ao="1.85721E-05"/>
+    <element name="Cr" ao="1.17821E-03"/>
+    <element name="Cu" ao="1.70748E-05"/>
+    <element name="Fe" ao="4.23998E-03"/>
+    <element name="Mn" ao="1.04936E-04"/>
+    <element name="Mo" ao="8.18136E-06"/>
+    <element name="Ni" ao="4.75780E-04"/>
+    <element name="Si" ao="6.76848E-05"/>
+  </material>
+
+  <!-- Empty Matrix -->
+  <material id="10">
+    <density units="sum"/>
+    <element name="C" ao="1.86434E-05"/>
+    <element name="Cr" ao="1.18315E-03"/>
+    <element name="Cu" ao="1.71350E-05"/>
+    <element name="Fe" ao="4.25767E-03"/>
+    <element name="Mn" ao="1.05352E-04"/>
+    <element name="Mo" ao="8.21868E-06"/>
+    <element name="Ni" ao="4.77814E-04"/>
+    <element name="Si" ao="6.79300E-05"/>
+  </material>
+
+</materials>

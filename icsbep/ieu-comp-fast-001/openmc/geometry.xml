@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+  ==================================================================================
+  Description: ZPR-6/6A UOX, Na, thick DU blanket
+  Case:        IEU-COMP-FAST-001
+  ==================================================================================
+  -->
+
+  <surface id="1"   type="z-cylinder" coeffs="0. 0. 24.3435"/>
+  <surface id="2"   type="z-cylinder" coeffs="0. 0. 91.2449"/>
+  <surface id="3"   type="z-cylinder" coeffs="0. 0. 119.9487"/>
+  <surface id="4"   type="z-cylinder" coeffs="0. 0. 140.2589" boundary="vacuum"/>
+  <surface id="5"   type="z-plane"    coeffs="0." boundary="reflective"/>
+  <surface id="6"   type="z-plane"    coeffs="76.2813"/>
+  <surface id="7"   type="z-plane"    coeffs="101.7257"/>
+  <surface id="8"   type="z-plane"    coeffs="106.6800"/>
+  <surface id="9"   type="z-plane"    coeffs="110.4544"/>
+  <surface id="10"  type="z-plane"    coeffs="121.9200" boundary="vacuum"/>
+
+  <!-- Inner Core 1 -->
+  <cell id="1"  material="1" region="-1 5 -6"/>
+
+  <!-- Outer Core 1 -->
+  <cell id="2"  material="2" region="1 -2 5 -6"/>
+
+  <!-- Inner Axial reflector 1 -->
+  <cell id="3"  material="4" region="-1 6 -7"/>
+
+  <!-- Outer Axial Reflector 1 -->
+  <cell id="4"  material="5" region="1 -2 6 -7"/>
+
+  <!-- Inner Axial reflector 2 -->
+  <cell id="5"  material="6" region="-1 7 -9"/>
+
+  <!-- Outer Axial Reflector 2 -->
+  <cell id="6"  material="7" region="1 -2 7 -9"/>
+
+  <!-- Radial Reflector 1 -->
+  <cell id="7"  material="8" region="2 -3 5 -8"/>
+
+  <!-- Radial Reflector 2 -->
+  <cell id="8"  material="8" region="2 -3 8 -9"/>
+
+  <!-- Empty Axial Matrix -->
+  <cell id="9"  material="10" region="-3 9 -10"/>
+
+  <!-- Empty Radial Matrix -->
+  <cell id="10" material="10" region="3 -4 5 -10"/>
+
+</geometry>
