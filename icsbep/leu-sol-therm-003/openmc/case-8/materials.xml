@@ -1,36 +1,39 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ================================================================
-  Description: Bare Sphere of 10% enriched Uranyl Nitrate Solution
-  Case:        LEU-SOL-THERM-003 Case 8
-  Written By:  Paul Romano
-  Date:        7/12/2013
-  ================================================================
-  -->
-
-  <!-- Uranyl Nitrate Solution -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="U234" ao="3.8984e-07" />
-    <nuclide name="U235" ao="4.4138e-05" />
-    <nuclide name="U238" ao="3.8862e-04" />
-    <nuclide name="N14"  ao="1.3661e-03" />
-    <element name="O"     ao="3.5868e-02" />
-    <nuclide name="H1"   ao="6.2307e-02" />
-    <sab name="c_H_in_H2O" />
-  </material>
-
-  <!-- Stainless steel -->
-  <material id="2">
-    <density units="sum" />
-    <element name="Fe" ao="5.9088e-02" />
-    <element name="Cr" ao="1.6532e-02" />
-    <element name="Ni" ao="8.1369e-02" />
-    <element name="Mn" ao="1.3039e-02" />
-    <element name="Si" ao="1.3603e-02" />
-    <element name="Ti" ao="5.9844e-02" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="3.8984e-07" name="U234" />
+        <nuclide ao="4.4138e-05" name="U235" />
+        <nuclide ao="0.00038862" name="U238" />
+        <nuclide ao="0.0013661" name="N14" />
+        <nuclide ao="0.062307" name="H1" />
+        <nuclide ao="0.035854406028" name="O16" />
+        <nuclide ao="1.3593971999999999e-05" name="O17" />
+        <sab name="c_H_in_H2O" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.0034536936" name="Fe54" />
+        <nuclide ao="0.05421560352" name="Fe56" />
+        <nuclide ao="0.00125207472" name="Fe57" />
+        <nuclide ao="0.00016662816" name="Fe58" />
+        <nuclide ao="0.0007183154000000001" name="Cr50" />
+        <nuclide ao="0.013851997480000001" name="Cr52" />
+        <nuclide ao="0.0015707053200000002" name="Cr53" />
+        <nuclide ao="0.00039098180000000005" name="Cr54" />
+        <nuclide ao="0.055393492760999995" name="Ni58" />
+        <nuclide ao="0.021337474239" name="Ni60" />
+        <nuclide ao="0.000927525231" name="Ni61" />
+        <nuclide ao="0.002957356305" name="Ni62" />
+        <nuclide ao="0.000753151464" name="Ni64" />
+        <nuclide ao="0.013039" name="Mn55" />
+        <nuclide ao="0.0125460033704" name="Si28" />
+        <nuclide ao="0.0006370502548" name="Si29" />
+        <nuclide ao="0.0004199463748" name="Si30" />
+        <nuclide ao="0.0049371300000000005" name="Ti46" />
+        <nuclide ao="0.0044523936" name="Ti47" />
+        <nuclide ao="0.0441169968" name="Ti48" />
+        <nuclide ao="0.0032375604" name="Ti49" />
+        <nuclide ao="0.0030999192" name="Ti50" />
+    </material>
 </materials>

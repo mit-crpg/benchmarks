@@ -1,52 +1,57 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ===================================================
-  Description: Bare Sphere of Highly Enriched Uranium
-  Case:        HEU-MET-FAST-008
-  Written By:  Steven Fine
-  Date:        3/15/2012
-  ===================================================
-  -->
-
-  <!-- Core, R < 9.15 -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="U235" ao="4.1031e-02" />
-    <nuclide name="U238" ao="4.1021e-03" />
-    <nuclide name="U234" ao="5.2273e-04" />
-    <nuclide name="U236" ao="8.8071e-05" />
-    <element name="C"     ao="3.8642e-04" />
-    <element name="Fe"    ao="1.3562e-04" />
-    <element name="W"     ao="1.2415e-05" />
-    <element name="Cu"    ao="7.1031e-04" />
-    <element name="Ni"    ao="3.2961e-04" />
-  </material>
-
-  <!-- Core, outer shell -->
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="U235" ao="4.2698e-02" />
-    <nuclide name="U238" ao="4.0143e-03" />
-    <nuclide name="U234" ao="5.3154e-04" />
-    <nuclide name="U236" ao="1.7489e-04" />
-    <element name="C"     ao="1.4403e-04" />
-    <element name="Fe"    ao="3.7972e-05" />
-    <element name="W"     ao="6.0708e-07" />
-    <element name="Al"    ao="5.4473e-04" />
-  </material>
-
-  <!-- Steel (pure Fe) -->
-  <material id="3">
-    <density units="sum" />
-    <element name="Fe" ao="8.1174e-02" />
-  </material>
-
-  <!-- M1 copper (pure Cu) -->
-  <material id="4">
-    <density units="sum" />
-    <element name="Cu" ao="8.2365e-02" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.041031" name="U235" />
+        <nuclide ao="0.0041021" name="U238" />
+        <nuclide ao="0.00052273" name="U234" />
+        <nuclide ao="8.8071e-05" name="U236" />
+        <nuclide ao="0.00038642" name="C0" />
+        <nuclide ao="7.926989e-06" name="Fe54" />
+        <nuclide ao="0.0001244367748" name="Fe56" />
+        <nuclide ao="2.8737878e-06" name="Fe57" />
+        <nuclide ao="3.824484e-07" name="Fe58" />
+        <nuclide ao="1.4897999999999999e-08" name="W180" />
+        <nuclide ao="3.289975e-06" name="W182" />
+        <nuclide ao="1.7765865000000002e-06" name="W183" />
+        <nuclide ao="3.8039560000000004e-06" name="W184" />
+        <nuclide ao="3.5295845e-06" name="W186" />
+        <nuclide ao="0.0004911793650000001" name="Cu63" />
+        <nuclide ao="0.000219130635" name="Cu65" />
+        <nuclide ao="0.00022438827009" name="Ni58" />
+        <nuclide ao="8.643395990999999e-05" name="Ni60" />
+        <nuclide ao="3.7572243899999995e-06" name="Ni61" />
+        <nuclide ao="1.197967545e-05" name="Ni62" />
+        <nuclide ao="3.05087016e-06" name="Ni64" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.042698" name="U235" />
+        <nuclide ao="0.0040143" name="U238" />
+        <nuclide ao="0.00053154" name="U234" />
+        <nuclide ao="0.00017489" name="U236" />
+        <nuclide ao="0.00014403" name="C0" />
+        <nuclide ao="2.2194634000000003e-06" name="Fe54" />
+        <nuclide ao="3.484082888e-05" name="Fe56" />
+        <nuclide ao="8.046266800000001e-07" name="Fe57" />
+        <nuclide ao="1.0708104e-07" name="Fe58" />
+        <nuclide ao="7.284959999999999e-10" name="W180" />
+        <nuclide ao="1.608762e-07" name="W182" />
+        <nuclide ao="8.6873148e-08" name="W183" />
+        <nuclide ao="1.86009312e-07" name="W184" />
+        <nuclide ao="1.7259284399999998e-07" name="W186" />
+        <nuclide ao="0.00054473" name="Al27" />
+    </material>
+    <material id="3">
+        <density units="sum" />
+        <nuclide ao="0.0047446203" name="Fe54" />
+        <nuclide ao="0.07448039196" name="Fe56" />
+        <nuclide ao="0.00172007706" name="Fe57" />
+        <nuclide ao="0.00022891068" name="Fe58" />
+    </material>
+    <material id="4">
+        <density units="sum" />
+        <nuclide ao="0.0569553975" name="Cu63" />
+        <nuclide ao="0.025409602499999996" name="Cu65" />
+    </material>
 </materials>

@@ -1,56 +1,65 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ===============================================================
-  Description: LWBR Core SB-2 1/2
-  Case:        U233-COMP-THERM-001 Case 3
-  Written By:  Paul Romano
-  Date:        9/6/2012
-  ===============================================================
-  -->
-
-  <!-- Zircaloy-2 -->
-  <material id="1">
-    <density units="sum" />
-    <element name="Zr" ao="4.2537e-02" />
-    <element name="Sn" ao="4.9918e-04" />
-  </material>
-
-  <!-- Polyethylene (0.9183 g/cm3) -->
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="H1" ao="7.8854e-02" />
-    <element name="C"   ao="3.9427e-02" />
-    <sab name="c_H_in_CH2" />
-  </material>
-
-  <!-- Water (0.9982 g/cm3) -->
-  <material id="3">
-    <density units="sum" />
-    <nuclide name="H1" ao="6.6735e-02" />
-    <element name="O"   ao="3.3368e-02" />
-    <sab name="c_H_in_H2O" />
-  </material>
-
-  <!-- Borated Steel -->
-  <material id="4">
-    <density units="sum" />
-    <element name="Fe"   ao="5.9259e-02" />
-    <element name="Cr"   ao="1.7428e-02" />
-    <element name="Mn"   ao="8.6816e-04" />
-    <element name="Ni"   ao="7.5171e-03" />
-    <nuclide name="B10" ao="3.7488e-03" />
-  </material>
-
-  <!-- UO2-ZrO2 Seed Fuel (97.29 w/o U-233) -->
-  <material id="5">
-    <density units="sum" />
-    <nuclide name="U233" ao="3.9891e-03" />
-    <nuclide name="U234" ao="6.3690e-05" />
-    <nuclide name="U238" ao="4.5759e-05" />
-    <element name="O"     ao="5.3932e-02" />
-    <element name="Zr"    ao="2.2867e-02" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.021885286499999997" name="Zr90" />
+        <nuclide ao="0.004772651399999999" name="Zr91" />
+        <nuclide ao="0.0072950955" name="Zr92" />
+        <nuclide ao="0.0073929306" name="Zr94" />
+        <nuclide ao="0.001191036" name="Zr96" />
+        <nuclide ao="4.842046e-06" name="Sn112" />
+        <nuclide ao="3.294588e-06" name="Sn114" />
+        <nuclide ao="1.697212e-06" name="Sn115" />
+        <nuclide ao="7.2580772e-05" name="Sn116" />
+        <nuclide ao="3.8337023999999995e-05" name="Sn117" />
+        <nuclide ao="0.000120901396" name="Sn118" />
+        <nuclide ao="4.2879562000000005e-05" name="Sn119" />
+        <nuclide ao="0.000162632844" name="Sn120" />
+        <nuclide ao="2.3112034e-05" name="Sn122" />
+        <nuclide ao="2.8902522e-05" name="Sn124" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.078854" name="H1" />
+        <nuclide ao="0.039427" name="C0" />
+        <sab name="c_H_in_CH2" />
+    </material>
+    <material id="3">
+        <density units="sum" />
+        <nuclide ao="0.066735" name="H1" />
+        <nuclide ao="0.033355353528" name="O16" />
+        <nuclide ao="1.2646472e-05" name="O17" />
+        <sab name="c_H_in_H2O" />
+    </material>
+    <material id="4">
+        <density units="sum" />
+        <nuclide ao="0.0037488" name="B10" />
+        <nuclide ao="0.00346368855" name="Fe54" />
+        <nuclide ao="0.05437250286" name="Fe56" />
+        <nuclide ao="0.00125569821" name="Fe57" />
+        <nuclide ao="0.00016711038" name="Fe58" />
+        <nuclide ao="0.0007572466" name="Cr50" />
+        <nuclide ao="0.01460274692" name="Cr52" />
+        <nuclide ao="0.0016558342799999999" name="Cr53" />
+        <nuclide ao="0.0004121722" name="Cr54" />
+        <nuclide ao="0.00086816" name="Mn55" />
+        <nuclide ao="0.0051174086499" name="Ni58" />
+        <nuclide ao="0.0019712166501" name="Ni60" />
+        <nuclide ao="8.56874229e-05" name="Ni61" />
+        <nuclide ao="0.0002732089995" name="Ni62" />
+        <nuclide ao="6.95782776e-05" name="Ni64" />
+    </material>
+    <material id="5">
+        <density units="sum" />
+        <nuclide ao="0.0039891" name="U233" />
+        <nuclide ao="6.369e-05" name="U234" />
+        <nuclide ao="4.5759e-05" name="U238" />
+        <nuclide ao="0.053911559771999996" name="O16" />
+        <nuclide ao="2.0440228e-05" name="O17" />
+        <nuclide ao="0.011765071499999998" name="Zr90" />
+        <nuclide ao="0.0025656774" name="Zr91" />
+        <nuclide ao="0.0039216905" name="Zr92" />
+        <nuclide ao="0.0039742846" name="Zr94" />
+        <nuclide ao="0.000640276" name="Zr96" />
+    </material>
 </materials>

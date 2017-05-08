@@ -1,85 +1,111 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ================================================================
-  Description: Polyethylene-reflected sphere of 98% Pu-239, VNIIEF
-  Case:        PU-MET-FAST-024 Detailed model
-  ================================================================
-  -->
-
-  <!-- Layer 1 -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="3.6180e-02" />
-    <nuclide name="Pu240" ao="6.6139e-04" />
-    <element name="Ga"     ao="2.1485e-03" />
-    <element name="Fe"     ao="1.6062e-04" />
-    <element name="C"      ao="2.9873e-04" />
-    <element name="Ni"     ao="4.2527e-03" />
-  </material>
-
-  <!-- Layer 2 -->
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="3.6826e-02" />
-    <nuclide name="Pu240" ao="6.7320e-04" />
-    <element name="Ga"     ao="2.2000e-03" />
-    <element name="Fe"     ao="1.4714e-04" />
-    <element name="C"      ao="3.0406e-04" />
-    <element name="Ni"     ao="1.5722e-03" />
-  </material>
-
-  <!-- Layer 3 -->
-  <material id="3">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="3.6579e-02" />
-    <nuclide name="Pu240" ao="6.6875e-04" />
-    <element name="Ga"     ao="2.2114e-03" />
-    <element name="Fe"     ao="1.2992e-04" />
-    <element name="C"      ao="3.0205e-04" />
-    <element name="Ni"     ao="1.9330e-03" />
-  </material>
-
-  <!-- Layer 4 -->
-  <material id="4">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="3.6512e-02" />
-    <nuclide name="Pu240" ao="6.6739e-04" />
-    <element name="Ga"     ao="2.1940e-03" />
-    <element name="Fe"     ao="1.2966e-04" />
-    <element name="C"      ao="2.2608e-04" />
-    <element name="Ni"     ao="2.3056e-03" />
-  </material>
-
-  <!-- Layer 5 -->
-  <material id="5">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="3.6576e-02" />
-    <nuclide name="Pu240" ao="6.6878e-04" />
-    <element name="Ga"     ao="2.2115e-03" />
-    <element name="Fe"     ao="1.4617e-04" />
-    <element name="C"      ao="3.0206e-04" />
-    <element name="Ni"     ao="1.8631e-03" />
-  </material>
-
-  <!-- Layer 6 -->
-  <material id="6">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="3.6616e-02" />
-    <nuclide name="Pu240" ao="6.6930e-04" />
-    <element name="Ga"     ao="2.1742e-03" />
-    <element name="Fe"     ao="1.4628e-04" />
-    <element name="C"      ao="3.0230e-04" />
-    <element name="Ni"     ao="1.9794e-03" />
-  </material>
-
-  <!-- Polyethylene -->
-  <material id="7">
-    <density units="sum" />
-    <nuclide name="H1" ao="7.7628e-02" />
-    <element name="C"   ao="3.8814e-02" />
-    <sab name="c_H_in_CH2" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.03618" name="Pu239" />
+        <nuclide ao="0.00066139" name="Pu240" />
+        <nuclide ao="0.0012914203799999997" name="Ga69" />
+        <nuclide ao="0.0008570796199999999" name="Ga71" />
+        <nuclide ao="9.388239e-06" name="Fe54" />
+        <nuclide ao="0.0001473752748" name="Fe56" />
+        <nuclide ao="3.4035378e-06" name="Fe57" />
+        <nuclide ao="4.5294839999999996e-07" name="Fe58" />
+        <nuclide ao="0.00029873" name="C0" />
+        <nuclide ao="0.0028951063262999998" name="Ni58" />
+        <nuclide ao="0.0011151897736999998" name="Ni60" />
+        <nuclide ao="4.84765273e-05" name="Ni61" />
+        <nuclide ao="0.0001545643815" name="Ni62" />
+        <nuclide ao="3.93629912e-05" name="Ni64" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.036826" name="Pu239" />
+        <nuclide ao="0.0006732" name="Pu240" />
+        <nuclide ao="0.0013223759999999999" name="Ga69" />
+        <nuclide ao="0.000877624" name="Ga71" />
+        <nuclide ao="8.600333e-06" name="Fe54" />
+        <nuclide ao="0.00013500683560000002" name="Fe56" />
+        <nuclide ao="3.1178966e-06" name="Fe57" />
+        <nuclide ao="4.149348e-07" name="Fe58" />
+        <nuclide ao="0.00030406" name="C0" />
+        <nuclide ao="0.0010703050217999999" name="Ni58" />
+        <nuclide ao="0.00041227957819999996" name="Ni60" />
+        <nuclide ao="1.79215078e-05" name="Ni61" />
+        <nuclide ao="5.7141609e-05" name="Ni62" />
+        <nuclide ao="1.45522832e-05" name="Ni64" />
+    </material>
+    <material id="3">
+        <density units="sum" />
+        <nuclide ao="0.036579" name="Pu239" />
+        <nuclide ao="0.00066875" name="Pu240" />
+        <nuclide ao="0.0013292283119999998" name="Ga69" />
+        <nuclide ao="0.000882171688" name="Ga71" />
+        <nuclide ao="7.593824000000001e-06" name="Fe54" />
+        <nuclide ao="0.0001192067968" name="Fe56" />
+        <nuclide ao="2.7530048e-06" name="Fe57" />
+        <nuclide ao="3.663744e-07" name="Fe58" />
+        <nuclide ao="0.00030205" name="C0" />
+        <nuclide ao="0.0013159264769999999" name="Ni58" />
+        <nuclide ao="0.000506892523" name="Ni60" />
+        <nuclide ao="2.2034267e-05" name="Ni61" />
+        <nuclide ao="7.025488500000001e-05" name="Ni62" />
+        <nuclide ao="1.7891848000000002e-05" name="Ni64" />
+    </material>
+    <material id="4">
+        <density units="sum" />
+        <nuclide ao="0.036512" name="Pu239" />
+        <nuclide ao="0.00066739" name="Pu240" />
+        <nuclide ao="0.00131876952" name="Ga69" />
+        <nuclide ao="0.0008752304800000001" name="Ga71" />
+        <nuclide ao="7.578627e-06" name="Fe54" />
+        <nuclide ao="0.0001189682364" name="Fe56" />
+        <nuclide ao="2.7474954e-06" name="Fe57" />
+        <nuclide ao="3.656412e-07" name="Fe58" />
+        <nuclide ao="0.00022608" name="C0" />
+        <nuclide ao="0.0015695810064" name="Ni58" />
+        <nuclide ao="0.0006045997936" name="Ni60" />
+        <nuclide ao="2.62815344e-05" name="Ni61" />
+        <nuclide ao="8.3797032e-05" name="Ni62" />
+        <nuclide ao="2.13406336e-05" name="Ni64" />
+    </material>
+    <material id="5">
+        <density units="sum" />
+        <nuclide ao="0.036576" name="Pu239" />
+        <nuclide ao="0.00066878" name="Pu240" />
+        <nuclide ao="0.00132928842" name="Ga69" />
+        <nuclide ao="0.00088221158" name="Ga71" />
+        <nuclide ao="8.5436365e-06" name="Fe54" />
+        <nuclide ao="0.0001341168218" name="Fe56" />
+        <nuclide ao="3.0973422999999997e-06" name="Fe57" />
+        <nuclide ao="4.121994e-07" name="Fe58" />
+        <nuclide ao="0.00030206" name="C0" />
+        <nuclide ao="0.0012683407238999998" name="Ni58" />
+        <nuclide ao="0.0004885625761" name="Ni60" />
+        <nuclide ao="2.1237476899999997e-05" name="Ni61" />
+        <nuclide ao="6.77143695e-05" name="Ni62" />
+        <nuclide ao="1.72448536e-05" name="Ni64" />
+    </material>
+    <material id="6">
+        <density units="sum" />
+        <nuclide ao="0.036616" name="Pu239" />
+        <nuclide ao="0.0006693" name="Pu240" />
+        <nuclide ao="0.0013068681359999998" name="Ga69" />
+        <nuclide ao="0.000867331864" name="Ga71" />
+        <nuclide ao="8.550066e-06" name="Fe54" />
+        <nuclide ao="0.0001342177512" name="Fe56" />
+        <nuclide ao="3.0996732e-06" name="Fe57" />
+        <nuclide ao="4.1250959999999996e-07" name="Fe58" />
+        <nuclide ao="0.0003023" name="C0" />
+        <nuclide ao="0.0013475141586" name="Ni58" />
+        <nuclide ao="0.0005190600414" name="Ni60" />
+        <nuclide ao="2.25631806e-05" name="Ni61" />
+        <nuclide ao="7.1941293e-05" name="Ni62" />
+        <nuclide ao="1.83213264e-05" name="Ni64" />
+    </material>
+    <material id="7">
+        <density units="sum" />
+        <nuclide ao="0.077628" name="H1" />
+        <nuclide ao="0.038814" name="C0" />
+        <sab name="c_H_in_CH2" />
+    </material>
 </materials>

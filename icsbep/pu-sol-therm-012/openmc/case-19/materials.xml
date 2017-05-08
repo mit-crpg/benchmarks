@@ -1,78 +1,94 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ===========================================================================
-  Description: Plutonium nitrate solution in large water-reflected cubic tank
-  Case:        PU-SOL-THERM-012 Case 19
-  ===========================================================================
-  -->
-
-  <!-- Plutonium nitrate solution (17.7 g/L) -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="3.31381e-05" />
-    <nuclide name="Pu240" ao="8.39670e-06" />
-    <nuclide name="Pu241" ao="2.48905e-06" />
-    <nuclide name="Pu242" ao="5.02795e-07" />
-    <nuclide name="Am241" ao="2.69732e-07" />
-    <element name="N"      ao="1.38481e-03" />
-    <element name="O"      ao="3.53758e-02" />
-    <nuclide name="H1"    ao="6.36291e-02" />
-    <element name="Fe"     ao="4.42112e-06" />
-    <element name="Cr"     ao="1.42172e-06" />
-    <element name="Ni"     ao="1.00765e-06" />
-    <sab name="c_H_in_H2O" />
-  </material>
-
-  <!-- Air -->
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="O16" ao="1.0784e-05" />
-    <nuclide name="N14" ao="4.3090e-05" />
-  </material>
-
-  <!-- Stainless steel -->
-  <material id="3">
-    <density units="sum" />
-    <element name="Fe" ao="6.1344e-02" />
-    <element name="Cr" ao="1.6472e-02" />
-    <element name="Ni" ao="8.1050e-03" />
-  </material>
-
-  <!-- Lucoflex -->
-  <material id="4">
-    <density units="sum" />
-    <element name="C"   ao="2.7365e-02" />
-    <nuclide name="H1" ao="4.1047e-02" />
-    <element name="Cl"  ao="1.3682e-02" />
-  </material>
-
-  <!-- Water -->
-  <material id="5">
-    <density units="sum" />
-    <nuclide name="H1" ao="6.6688e-02" />
-    <element name="O"   ao="3.3344e-02" />
-    <sab name="c_H_in_H2O" />
-  </material>
-
-  <!-- Steel (pool wall) -->
-  <material id="6">
-    <density units="sum" />
-    <element name="Fe" ao="8.5068e-02" />
-    <element name="C"  ao="5.5545e-04" />
-  </material>    
-
-  <!-- Concrete -->
-  <material id="7">
-    <density units="sum" />
-    <nuclide name="H1"  ao="1.035e-02" />
-    <nuclide name="B10" ao="1.602e-06" />
-    <element name="O"    ao="4.347e-02" />
-    <element name="Al"   ao="1.563e-03" />
-    <element name="Si"   ao="1.417e-02" />
-    <element name="Ca"   ao="6.424e-03" />
-    <element name="Fe"   ao="7.621e-04" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="3.31381e-05" name="Pu239" />
+        <nuclide ao="8.3967e-06" name="Pu240" />
+        <nuclide ao="2.48905e-06" name="Pu241" />
+        <nuclide ao="5.02795e-07" name="Pu242" />
+        <nuclide ao="2.69732e-07" name="Am241" />
+        <nuclide ao="0.0636291" name="H1" />
+        <nuclide ao="0.0013797374409700001" name="N14" />
+        <nuclide ao="5.07255903e-06" name="N15" />
+        <nuclide ao="0.035362392571799996" name="O16" />
+        <nuclide ao="1.34074282e-05" name="O17" />
+        <nuclide ao="2.58414464e-07" name="Fe54" />
+        <nuclide ao="4.0565544447999995e-06" name="Fe56" />
+        <nuclide ao="9.368353279999999e-08" name="Fe57" />
+        <nuclide ao="1.24675584e-08" name="Fe58" />
+        <nuclide ao="6.177373400000001e-08" name="Cr50" />
+        <nuclide ao="1.1912449708e-06" name="Cr52" />
+        <nuclide ao="1.350776172e-07" name="Cr53" />
+        <nuclide ao="3.3623678e-08" name="Cr54" />
+        <nuclide ao="6.8597688285e-07" name="Ni58" />
+        <nuclide ao="2.6423706715e-07" name="Ni60" />
+        <nuclide ao="1.148620235e-08" name="Ni61" />
+        <nuclide ao="3.662303925e-08" name="Ni62" />
+        <nuclide ao="9.3268084e-09" name="Ni64" />
+        <sab name="c_H_in_H2O" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="1.0784e-05" name="O16" />
+        <nuclide ao="4.309e-05" name="N14" />
+    </material>
+    <material id="3">
+        <density units="sum" />
+        <nuclide ao="0.0035855568000000004" name="Fe54" />
+        <nuclide ao="0.056285573760000006" name="Fe56" />
+        <nuclide ao="0.0012998793600000002" name="Fe57" />
+        <nuclide ao="0.00017299008000000001" name="Fe58" />
+        <nuclide ao="0.0007157084" name="Cr50" />
+        <nuclide ao="0.013801724080000001" name="Cr52" />
+        <nuclide ao="0.00156500472" name="Cr53" />
+        <nuclide ao="0.00038956280000000004" name="Cr54" />
+        <nuclide ao="0.005517632744999999" name="Ni58" />
+        <nuclide ao="0.0021253822549999997" name="Ni60" />
+        <nuclide ao="9.238889499999999e-05" name="Ni61" />
+        <nuclide ao="0.000294576225" name="Ni62" />
+        <nuclide ao="7.501988e-05" name="Ni64" />
+    </material>
+    <material id="4">
+        <density units="sum" />
+        <nuclide ao="0.041047" name="H1" />
+        <nuclide ao="0.027365" name="C0" />
+        <nuclide ao="0.010366126254" name="Cl35" />
+        <nuclide ao="0.003315873746" name="Cl37" />
+    </material>
+    <material id="5">
+        <density units="sum" />
+        <nuclide ao="0.066688" name="H1" />
+        <nuclide ao="0.033331362624" name="O16" />
+        <nuclide ao="1.2637376e-05" name="O17" />
+        <sab name="c_H_in_H2O" />
+    </material>
+    <material id="6">
+        <density units="sum" />
+        <nuclide ao="0.0049722246" name="Fe54" />
+        <nuclide ao="0.07805329272" name="Fe56" />
+        <nuclide ao="0.0018025909200000002" name="Fe57" />
+        <nuclide ao="0.00023989176000000002" name="Fe58" />
+        <nuclide ao="0.00055545" name="C0" />
+    </material>
+    <material id="7">
+        <density units="sum" />
+        <nuclide ao="0.01035" name="H1" />
+        <nuclide ao="1.602e-06" name="B10" />
+        <nuclide ao="0.04345352487" name="O16" />
+        <nuclide ao="1.647513e-05" name="O17" />
+        <nuclide ao="0.001563" name="Al27" />
+        <nuclide ao="0.013068945656000001" name="Si28" />
+        <nuclide ao="0.0006636037720000001" name="Si29" />
+        <nuclide ao="0.00043745057199999997" name="Si30" />
+        <nuclide ao="0.00622748984" name="Ca40" />
+        <nuclide ao="4.156328e-05" name="Ca42" />
+        <nuclide ao="8.6724e-06" name="Ca43" />
+        <nuclide ao="0.00013400464" name="Ca44" />
+        <nuclide ao="2.5696000000000005e-07" name="Ca46" />
+        <nuclide ao="1.201288e-05" name="Ca48" />
+        <nuclide ao="4.4544745000000004e-05" name="Fe54" />
+        <nuclide ao="0.000699257234" name="Fe56" />
+        <nuclide ao="1.6148899e-05" name="Fe57" />
+        <nuclide ao="2.149122e-06" name="Fe58" />
+    </material>
 </materials>

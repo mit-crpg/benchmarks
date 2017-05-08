@@ -1,53 +1,63 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =========================================================
-  Description: Tinkertoy II
-  Case:        HEU-MET-FAST-026 Case c-11
-  =========================================================
-  -->
-
-  <!-- HEU -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="U234" ao="4.8271e-04" />
-    <nuclide name="U235" ao="4.4797e-02" />
-    <nuclide name="U236" ao="9.5723e-05" />
-    <nuclide name="U238" ao="2.6577e-03" />
-  </material>
-
-  <!-- Stainless Steel -->
-  <material id="2">
-    <density units="sum" />
-    <element name="C"  ao="3.1691e-04" />
-    <element name="Mn" ao="1.7321e-03" />
-    <element name="Si" ao="1.6940e-03" />
-    <element name="Cr" ao="1.6472e-02" />
-    <element name="Fe" ao="6.0360e-02" />
-    <element name="Ni" ao="6.4834e-03" />
-  </material>
-
-  <!-- Concrete -->
-  <material id="3">
-    <density units="sum" />
-    <element name="H"  ao="1.4868e-02" />
-    <element name="C"  ao="3.8144e-03" />
-    <element name="O"  ao="4.1519e-02" />
-    <element name="Na" ao="3.0400e-04" />
-    <element name="Mg" ao="5.8700e-04" />
-    <element name="Al" ao="7.3500e-04" />
-    <element name="Si" ao="6.0370e-03" />
-    <element name="Ca" ao="1.1588e-02" />
-    <element name="Fe" ao="1.9680e-04" />
-  </material>
-
-  <!-- Paraffin -->
-  <material id="4">
-    <density units="sum" />
-    <nuclide name="H1" ao="8.2574e-02" />
-    <element name="C"   ao="3.9699e-02" />
-    <sab name="c_H_in_CH2" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.00048271" name="U234" />
+        <nuclide ao="0.044797" name="U235" />
+        <nuclide ao="9.5723e-05" name="U236" />
+        <nuclide ao="0.0026577" name="U238" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.00031691" name="C0" />
+        <nuclide ao="0.0017321" name="Mn55" />
+        <nuclide ao="0.0015623707792" name="Si28" />
+        <nuclide ao="7.93327304e-05" name="Si29" />
+        <nuclide ao="5.2296490399999995e-05" name="Si30" />
+        <nuclide ao="0.0007157084" name="Cr50" />
+        <nuclide ao="0.013801724080000001" name="Cr52" />
+        <nuclide ao="0.00156500472" name="Cr53" />
+        <nuclide ao="0.00038956280000000004" name="Cr54" />
+        <nuclide ao="0.003528042" name="Fe54" />
+        <nuclide ao="0.0553827144" name="Fe56" />
+        <nuclide ao="0.0012790284" name="Fe57" />
+        <nuclide ao="0.0001702152" name="Fe58" />
+        <nuclide ao="0.0044136977346" name="Ni58" />
+        <nuclide ao="0.0017001484654" name="Ni60" />
+        <nuclide ao="7.39042766e-05" name="Ni61" />
+        <nuclide ao="0.000235639173" name="Ni62" />
+        <nuclide ao="6.001035040000001e-05" name="Ni64" />
+    </material>
+    <material id="3">
+        <density units="sum" />
+        <nuclide ao="0.01486568445768" name="H1" />
+        <nuclide ao="2.31554232e-06" name="H2" />
+        <nuclide ao="0.0038144" name="C0" />
+        <nuclide ao="0.041503264298999996" name="O16" />
+        <nuclide ao="1.5735701e-05" name="O17" />
+        <nuclide ao="0.000304" name="Na23" />
+        <nuclide ao="0.00046344237" name="Mg24" />
+        <nuclide ao="5.88174e-05" name="Mg25" />
+        <nuclide ao="6.474023e-05" name="Mg26" />
+        <nuclide ao="0.000735" name="Al27" />
+        <nuclide ao="0.0055679057816" name="Si28" />
+        <nuclide ao="0.0002827223692" name="Si29" />
+        <nuclide ao="0.0001863718492" name="Si30" />
+        <nuclide ao="0.01123352308" name="Ca40" />
+        <nuclide ao="7.497436e-05" name="Ca42" />
+        <nuclide ao="1.56438e-05" name="Ca43" />
+        <nuclide ao="0.00024172567999999997" name="Ca44" />
+        <nuclide ao="4.6352e-07" name="Ca46" />
+        <nuclide ao="2.1669559999999997e-05" name="Ca48" />
+        <nuclide ao="1.150296e-05" name="Fe54" />
+        <nuclide ao="0.00018057187200000002" name="Fe56" />
+        <nuclide ao="4.170192e-06" name="Fe57" />
+        <nuclide ao="5.549760000000001e-07" name="Fe58" />
+    </material>
+    <material id="4">
+        <density units="sum" />
+        <nuclide ao="0.082574" name="H1" />
+        <nuclide ao="0.039699" name="C0" />
+        <sab name="c_H_in_CH2" />
+    </material>
 </materials>

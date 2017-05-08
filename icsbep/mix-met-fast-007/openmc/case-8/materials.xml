@@ -1,33 +1,19 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==============================================================================
-  Description: Critical experiments of spherical composite cores reflected by Be
-  Case:        MIX-MET-FAST-007
-  ==============================================================================
-  -->
-
-  <!-- Pu core -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="4.5536e-02" />
-    <nuclide name="Pu240" ao="2.7719e-03" />
-    <nuclide name="Pu241" ao="1.7313e-04" />
-  </material>
-
-  <!-- HEU -->
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="U235" ao="4.4401e-02" />
-    <nuclide name="U238" ao="3.2137e-03" />
-  </material>
-
-  <!-- Beryllium -->
-  <material id="3">
-    <density units="sum" />
-    <element name="Be" ao="1.2295e-01" />
-    <sab name="c_Be" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.045536" name="Pu239" />
+        <nuclide ao="0.0027719" name="Pu240" />
+        <nuclide ao="0.00017313" name="Pu241" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.044401" name="U235" />
+        <nuclide ao="0.0032137" name="U238" />
+    </material>
+    <material id="3">
+        <density units="sum" />
+        <nuclide ao="0.12295" name="Be9" />
+        <sab name="c_Be" />
+    </material>
 </materials>

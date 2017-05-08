@@ -1,29 +1,25 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ============================================================
-  Description: c_Graphiteite-reflected sphere of 98% Pu-239, VNIIEF
-  Case:        PU-MET-FAST-023 Simplified model
-  ============================================================
-  -->
-
-  <!-- 98% Pu-239 in delta phase -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="3.6603e-02" />
-    <nuclide name="Pu240" ao="6.6913e-04" />
-    <element name="Ga"     ao="2.1956e-03" />
-    <element name="Fe"     ao="1.4086e-04" />
-    <element name="C"      ao="2.8927e-04" />
-    <element name="Ni"     ao="1.9484e-03" />
-  </material>
-
-  <!-- c_Graphiteite -->
-  <material id="2">
-    <density units="sum" />
-    <element name="C" ao="9.1842e-02" />
-    <sab name="c_Graphite" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.036603" name="Pu239" />
+        <nuclide ao="0.00066913" name="Pu240" />
+        <nuclide ao="0.0013197312479999999" name="Ga69" />
+        <nuclide ao="0.000875868752" name="Ga71" />
+        <nuclide ao="8.233267000000001e-06" name="Fe54" />
+        <nuclide ao="0.0001292446844" name="Fe56" />
+        <nuclide ao="2.9848234e-06" name="Fe57" />
+        <nuclide ao="3.972252e-07" name="Fe58" />
+        <nuclide ao="0.00028927" name="C0" />
+        <nuclide ao="0.0013264103196" name="Ni58" />
+        <nuclide ao="0.0005109308804" name="Ni60" />
+        <nuclide ao="2.22098116e-05" name="Ni61" />
+        <nuclide ao="7.081459800000001e-05" name="Ni62" />
+        <nuclide ao="1.80343904e-05" name="Ni64" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.091842" name="C0" />
+        <sab name="c_Graphite" />
+    </material>
 </materials>

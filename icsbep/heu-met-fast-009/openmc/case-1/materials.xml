@@ -1,47 +1,51 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =========================================================
-  Description: Sphere of HEU Reflected by Beryllium
-  Case:        HEU-MET-FAST-009 Case 1
-  =========================================================
-  -->
-
-  <!-- HEU -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="U234" ao="5.2195e-04" />
-    <nuclide name="U235" ao="4.1000e-02" />
-    <nuclide name="U236" ao="8.8422e-05" />
-    <nuclide name="U238" ao="4.0977e-03" />
-    <element name="C"     ao="3.9932e-04" />
-    <element name="Fe"    ao="1.3531e-04" />
-    <element name="W"     ao="1.2445e-05" />
-    <element name="Cu"    ao="7.3334e-04" />
-    <element name="Ni"    ao="3.4029e-04" />
-  </material>
-
-  <!-- Be Reflector -->
-  <material id="2">
-    <density units="sum" />
-    <element name="Be" ao="1.2080e-01" />
-    <element name="O"  ao="8.2053e-05" />
-    <element name="C"  ao="1.0019e-04" />
-    <element name="Fe" ao="5.0932e-05" />
-    <sab name="c_Be" />
-  </material>
-
-  <!-- Fe -->
-  <material id="3">
-    <density units="sum" />
-    <element name="Fe" ao="8.1174e-02" />
-  </material>
-
-  <!-- Copper -->
-  <material id="4">
-    <density units="sum" />
-    <element name="Cu" ao="8.2365e-02" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.00052195" name="U234" />
+        <nuclide ao="0.041" name="U235" />
+        <nuclide ao="8.8422e-05" name="U236" />
+        <nuclide ao="0.0040977" name="U238" />
+        <nuclide ao="0.00039932" name="C0" />
+        <nuclide ao="7.9088695e-06" name="Fe54" />
+        <nuclide ao="0.00012415233740000002" name="Fe56" />
+        <nuclide ao="2.8672189000000002e-06" name="Fe57" />
+        <nuclide ao="3.8157420000000004e-07" name="Fe58" />
+        <nuclide ao="1.4934e-08" name="W180" />
+        <nuclide ao="3.2979250000000003e-06" name="W182" />
+        <nuclide ao="1.7808795000000001e-06" name="W183" />
+        <nuclide ao="3.813148e-06" name="W184" />
+        <nuclide ao="3.5381135e-06" name="W186" />
+        <nuclide ao="0.00050710461" name="Cu63" />
+        <nuclide ao="0.00022623539" name="Cu65" />
+        <nuclide ao="0.00023165888300999998" name="Ni58" />
+        <nuclide ao="8.923458698999999e-05" name="Ni60" />
+        <nuclide ao="3.87896571e-06" name="Ni61" />
+        <nuclide ao="1.236784005e-05" name="Ni62" />
+        <nuclide ao="3.14972424e-06" name="Ni64" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.1208" name="Be9" />
+        <nuclide ao="8.202190191299999e-05" name="O16" />
+        <nuclide ao="3.1098086999999996e-08" name="O17" />
+        <nuclide ao="0.00010019" name="C0" />
+        <nuclide ao="2.9769754e-06" name="Fe54" />
+        <nuclide ao="4.673214728e-05" name="Fe56" />
+        <nuclide ao="1.07924908e-06" name="Fe57" />
+        <nuclide ao="1.4362824e-07" name="Fe58" />
+        <sab name="c_Be" />
+    </material>
+    <material id="3">
+        <density units="sum" />
+        <nuclide ao="0.0047446203" name="Fe54" />
+        <nuclide ao="0.07448039196" name="Fe56" />
+        <nuclide ao="0.00172007706" name="Fe57" />
+        <nuclide ao="0.00022891068" name="Fe58" />
+    </material>
+    <material id="4">
+        <density units="sum" />
+        <nuclide ao="0.0569553975" name="Cu63" />
+        <nuclide ao="0.025409602499999996" name="Cu65" />
+    </material>
 </materials>

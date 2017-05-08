@@ -1,56 +1,61 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==========================================================
-  Description: B&W Critical Lattices Core XI
-  Case:        LEU-COMP-THERM Loading 8
-  ==========================================================
-  -->
-
-  <!-- Water with 794 PPM Boron -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="H1"  ao="6.6737e-02" />
-    <nuclide name="O16" ao="3.3369e-02" />
-    <nuclide name="B10" ao="8.8117e-06" />
-    <nuclide name="B11" ao="3.5468e-05" />
-    <sab name="c_H_in_H2O" />
-  </material>
-
-  <!-- Fuel (2.459 w/o with B-10 for impurities) -->
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="U234" ao="4.5689e-06" />
-    <nuclide name="U235" ao="5.6868e-04" />
-    <nuclide name="U238" ao="2.2268e-02" />
-    <nuclide name="O16"  ao="4.5683e-02" />
-    <nuclide name="B10"  ao="2.6055e-07" />
-  </material>
-
-  <!-- Aluminum 6061 Cladding for Fuel -->
-  <material id="3">
-    <density units="sum" />
-    <element name="Mg" ao="6.2072e-04" />
-    <element name="Al" ao="5.3985e-02" />
-    <element name="Si" ao="3.2230e-04" />
-    <element name="Ti" ao="4.7263e-05" />
-    <element name="Cr" ao="5.8029e-05" />
-    <element name="Mn" ao="4.1191e-05" />
-    <element name="Fe" ao="1.8910e-04" />
-    <element name="Cu" ao="5.9353e-05" />
-    <element name="Zn" ao="5.7679e-05" />
-  </material>
-
-  <!-- Pyrex -->
-  <material id="4">
-    <density units="sum" />
-    <nuclide name="B10" ao="9.7491e-04" />
-    <nuclide name="B11" ao="3.9241e-03" />
-    <nuclide name="O16" ao="4.4829e-02" />
-    <nuclide name="Na23" ao="1.7444e-03" />
-    <nuclide name="Al27" ao="1.0018e-03" />
-    <element name="Si"    ao="1.8306e-02" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.066737" name="H1" />
+        <nuclide ao="0.033369" name="O16" />
+        <nuclide ao="8.8117e-06" name="B10" />
+        <nuclide ao="3.5468e-05" name="B11" />
+        <sab name="c_H_in_H2O" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="4.5689e-06" name="U234" />
+        <nuclide ao="0.00056868" name="U235" />
+        <nuclide ao="0.022268" name="U238" />
+        <nuclide ao="0.045683" name="O16" />
+        <nuclide ao="2.6055e-07" name="B10" />
+    </material>
+    <material id="3">
+        <density units="sum" />
+        <nuclide ao="0.0004900646472" name="Mg24" />
+        <nuclide ao="6.219614399999999e-05" name="Mg25" />
+        <nuclide ao="6.84592088e-05" name="Mg26" />
+        <nuclide ao="0.053985" name="Al27" />
+        <nuclide ao="0.00029725625863999996" name="Si28" />
+        <nuclide ao="1.5093824679999998e-05" name="Si29" />
+        <nuclide ao="9.949916679999998e-06" name="Si30" />
+        <nuclide ao="3.8991975e-06" name="Ti46" />
+        <nuclide ao="3.5163671999999995e-06" name="Ti47" />
+        <nuclide ao="3.48422836e-05" name="Ti48" />
+        <nuclide ao="2.5569283e-06" name="Ti49" />
+        <nuclide ao="2.4482234e-06" name="Ti50" />
+        <nuclide ao="2.5213600500000003e-06" name="Cr50" />
+        <nuclide ao="4.862191881e-05" name="Cr52" />
+        <nuclide ao="5.51333529e-06" name="Cr53" />
+        <nuclide ao="1.3723858500000001e-06" name="Cr54" />
+        <nuclide ao="4.1191e-05" name="Mn55" />
+        <nuclide ao="1.1052895e-05" name="Fe54" />
+        <nuclide ao="0.000173506814" name="Fe56" />
+        <nuclide ao="4.007029e-06" name="Fe57" />
+        <nuclide ao="5.33262e-07" name="Fe58" />
+        <nuclide ao="4.10425995e-05" name="Cu63" />
+        <nuclide ao="1.8310400499999998e-05" name="Cu65" />
+        <nuclide ao="2.83607643e-05" name="Zn64" />
+        <nuclide ao="1.59943867e-05" name="Zn66" />
+        <nuclide ao="2.3302316e-06" name="Zn67" />
+        <nuclide ao="1.06417755e-05" name="Zn68" />
+        <nuclide ao="3.518419e-07" name="Zn70" />
+    </material>
+    <material id="4">
+        <density units="sum" />
+        <nuclide ao="0.00097491" name="B10" />
+        <nuclide ao="0.0039241" name="B11" />
+        <nuclide ao="0.044829" name="O16" />
+        <nuclide ao="0.0017444" name="Na23" />
+        <nuclide ao="0.0010018" name="Al27" />
+        <nuclide ao="0.0168835652208" name="Si28" />
+        <nuclide ao="0.0008572992695999999" name="Si29" />
+        <nuclide ao="0.0005651355095999999" name="Si30" />
+    </material>
 </materials>

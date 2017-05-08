@@ -1,27 +1,17 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =======================================================================
-  Description: Plutonium sphere reflected by Normal Uranium using Flaptop
-  Case:        PU-MET-FAST-006
-  Written By:  Paul Romano
-  =======================================================================
-  -->
-
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="3.6697e-02" />
-    <nuclide name="Pu240" ao="1.8700e-03" />
-    <nuclide name="Pu241" ao="1.1639e-04" />
-    <element name="Ga"     ao="1.4755e-03" />
-  </material>
-
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="U234" ao="2.6438e-06" />
-    <nuclide name="U235" ao="3.4610e-04" />
-    <nuclide name="U238" ao="4.7721e-02" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.036697" name="Pu239" />
+        <nuclide ao="0.00187" name="Pu240" />
+        <nuclide ao="0.00011639" name="Pu241" />
+        <nuclide ao="0.0008868935399999999" name="Ga69" />
+        <nuclide ao="0.00058860646" name="Ga71" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="2.6438e-06" name="U234" />
+        <nuclide ao="0.0003461" name="U235" />
+        <nuclide ao="0.047721" name="U238" />
+    </material>
 </materials>

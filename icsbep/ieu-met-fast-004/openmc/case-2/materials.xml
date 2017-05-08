@@ -1,29 +1,24 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ===============================================================
-  Description: c_Graphiteite-reflected Spherical Assembly of 36% U-235
-  Case:        IEU-MET-FAST-004 Simplified model
-  ===============================================================
-  -->
-
-  <!-- 36 wt% U-235 -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="U234" ao="1.5652e-04" />
-    <nuclide name="U235" ao="1.7384e-02" />
-    <nuclide name="U238" ao="2.9662e-02" />
-    <element name="C"     ao="6.5752e-04" />
-    <element name="Fe"    ao="1.2098e-04" />
-    <element name="W"     ao="1.0121e-05" />
-  </material>
-
-  <!-- c_Graphiteite -->
-  <material id="2">
-    <density units="sum" />
-    <element name="C" ao="7.7716e-02" />
-    <sab name="c_Graphite" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.00015652" name="U234" />
+        <nuclide ao="0.017384" name="U235" />
+        <nuclide ao="0.029662" name="U238" />
+        <nuclide ao="0.00065752" name="C0" />
+        <nuclide ao="7.071281e-06" name="Fe54" />
+        <nuclide ao="0.0001110039892" name="Fe56" />
+        <nuclide ao="2.5635662e-06" name="Fe57" />
+        <nuclide ao="3.411636e-07" name="Fe58" />
+        <nuclide ao="1.21452e-08" name="W180" />
+        <nuclide ao="2.6820650000000002e-06" name="W182" />
+        <nuclide ao="1.4483151000000001e-06" name="W183" />
+        <nuclide ao="3.1010744e-06" name="W184" />
+        <nuclide ao="2.8774003e-06" name="W186" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.077716" name="C0" />
+        <sab name="c_Graphite" />
+    </material>
 </materials>

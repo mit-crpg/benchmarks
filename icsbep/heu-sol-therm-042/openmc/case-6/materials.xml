@@ -1,37 +1,41 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ============================================================
-  Description: Unreflected large cylinders of Uranium Nitrate
-  Case:        HEU-SOL-THERM-042 Case 6
-  Written By:  Paul Romano
-  Date:        7/10/2013
-  ============================================================
-  -->
-
-  <!-- Uranyl Nitrate Solution -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="U234" ao="3.9660e-07" />
-    <nuclide name="U235" ao="3.3929e-05" />
-    <nuclide name="U236" ao="2.4031e-07" />
-    <nuclide name="U238" ao="1.9749e-06" />
-    <nuclide name="N14"  ao="1.4059e-04" />
-    <nuclide name="H1"   ao="6.6161e-02" />
-    <element name="O"     ao="3.3542e-02" />
-    <sab name="c_H_in_H2O" />
-  </material>
-
-  <!-- SS-304 Tank -->
-  <material id="2">
-    <density units="sum" />
-    <element name="Fe" ao="5.8200e-02" />
-    <element name="C"  ao="3.1687e-04" />
-    <element name="Cr" ao="1.5554e-02" />
-    <element name="Ni" ao="9.7273e-03" />
-    <element name="Mo" ao="1.2397e-03" />
-    <element name="N"  ao="3.3966e-04" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="3.966e-07" name="U234" />
+        <nuclide ao="3.3929e-05" name="U235" />
+        <nuclide ao="2.4031e-07" name="U236" />
+        <nuclide ao="1.9749e-06" name="U238" />
+        <nuclide ao="0.00014059" name="N14" />
+        <nuclide ao="0.066161" name="H1" />
+        <nuclide ao="0.033529287582" name="O16" />
+        <nuclide ao="1.2712418000000001e-05" name="O17" />
+        <sab name="c_H_in_H2O" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.00340179" name="Fe54" />
+        <nuclide ao="0.053400828000000004" name="Fe56" />
+        <nuclide ao="0.001233258" name="Fe57" />
+        <nuclide ao="0.000164124" name="Fe58" />
+        <nuclide ao="0.00031687" name="C0" />
+        <nuclide ao="0.0006758213000000001" name="Cr50" />
+        <nuclide ao="0.01303254106" name="Cr52" />
+        <nuclide ao="0.00147778554" name="Cr53" />
+        <nuclide ao="0.00036785210000000004" name="Cr54" />
+        <nuclide ao="0.006622044293699999" name="Ni58" />
+        <nuclide ao="0.0025507996062999997" name="Ni60" />
+        <nuclide ao="0.00011088149269999999" name="Ni61" />
+        <nuclide ao="0.0003535387185" name="Ni62" />
+        <nuclide ao="9.00358888e-05" name="Ni64" />
+        <nuclide ao="0.00012079636800000001" name="Mo100" />
+        <nuclide ao="0.000181603653" name="Mo92" />
+        <nuclide ao="0.00011389123899999999" name="Mo94" />
+        <nuclide ao="0.000196777581" name="Mo95" />
+        <nuclide ao="0.000206695181" name="Mo96" />
+        <nuclide ao="0.000118788054" name="Mo97" />
+        <nuclide ao="0.00030114792400000003" name="Mo98" />
+        <nuclide ao="0.00033841582542" name="N14" />
+        <nuclide ao="1.24417458e-06" name="N15" />
+    </material>
 </materials>

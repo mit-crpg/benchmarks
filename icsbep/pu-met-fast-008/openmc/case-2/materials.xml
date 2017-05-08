@@ -1,26 +1,15 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =============================================================
-  Description: Plutonium sphere reflected by Thorium using Thor
-  Case:        PU-MET-FAST-008 Two-dimensional model
-  =============================================================
-  -->
-
-  <!-- Plutonium core -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="Pu239" ao="3.6049e-02" />
-    <nuclide name="Pu240" ao="1.9562e-03" />
-    <nuclide name="Pu241" ao="1.1459e-04" />
-    <element name="Ga"     ao="1.3338e-03" />
-  </material>
-
-  <!-- Thorium reflector -->
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="Th232" ao="3.0054e-02" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.036049" name="Pu239" />
+        <nuclide ao="0.0019562" name="Pu240" />
+        <nuclide ao="0.00011459" name="Pu241" />
+        <nuclide ao="0.000801720504" name="Ga69" />
+        <nuclide ao="0.000532079496" name="Ga71" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.030054" name="Th232" />
+    </material>
 </materials>

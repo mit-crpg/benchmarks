@@ -1,52 +1,76 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==========================================
-  Description: ZEBRA k-infinity experiment
-  Case:        MIX-MET-FAST-008 Case 8H
-  ==========================================
-  -->
-
-  <!-- Enriched U metal (37.5 w/o) -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="U235" ao="1.7730e-02" />
-    <nuclide name="U238" ao="2.8957e-02" />
-    <element name="C"     ao="1.8452e-04" />
-    <element name="O"     ao="3.4631e-04" />
-    <element name="Fe"    ao="5.9527e-05" />
-    <element name="Al"    ao="4.1070e-05" />
-    <element name="H"     ao="4.3978e-05" />
-    <element name="Si"    ao="3.9456e-05" />
-  </material>
-
-  <!-- Natural U metal -->
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="U235" ao="3.3316e-04" />
-    <nuclide name="U238" ao="4.5948e-02" />
-    <element name="C"     ao="4.9205e-04" />
-    <element name="Fe"    ao="1.0583e-04" />
-    <element name="H"     ao="4.3978e-05" />
-    <element name="Si"    ao="2.1043e-04" />
-  </material>
-
-  <!-- Sheath -->
-  <material id="3">
-    <density units="sum" />
-    <element name="C"  ao="7.7829e-04" />
-    <element name="Fe" ao="5.6624e-02" />
-    <element name="Cr" ao="1.6107e-02" />
-    <element name="Cu" ao="7.3853e-05" />
-    <element name="Mo" ao="1.4635e-04" />
-    <element name="Mn" ao="1.1918e-03" />
-    <element name="Ni" ao="9.0041e-03" />
-    <element name="Al" ao="3.4646e-04" />
-    <element name="Ti" ao="2.9326e-04" />
-    <element name="H"  ao="2.2714e-05" />
-    <element name="Si" ao="9.9988e-04" />
-    <element name="V"  ao="9.2127e-05" />
-  </material>
-
+    <material id="1">
+        <density units="sum" />
+        <nuclide ao="0.01773" name="U235" />
+        <nuclide ao="0.028957" name="U238" />
+        <nuclide ao="0.00018452" name="C0" />
+        <nuclide ao="0.00034617874851" name="O16" />
+        <nuclide ao="1.3125149e-07" name="O17" />
+        <nuclide ao="3.47935315e-06" name="Fe54" />
+        <nuclide ao="5.4618403580000004e-05" name="Fe56" />
+        <nuclide ao="1.26137713e-06" name="Fe57" />
+        <nuclide ao="1.6786614e-07" name="Fe58" />
+        <nuclide ao="4.107e-05" name="Al27" />
+        <nuclide ao="4.397115086628e-05" name="H1" />
+        <nuclide ao="6.84913372e-09" name="H2" />
+        <nuclide ao="3.639014254080001e-05" name="Si28" />
+        <nuclide ao="1.8477876096000002e-06" name="Si29" />
+        <nuclide ao="1.2180698496e-06" name="Si30" />
+    </material>
+    <material id="2">
+        <density units="sum" />
+        <nuclide ao="0.00033316" name="U235" />
+        <nuclide ao="0.045948" name="U238" />
+        <nuclide ao="0.00049205" name="C0" />
+        <nuclide ao="6.1857635e-06" name="Fe54" />
+        <nuclide ao="9.71032582e-05" name="Fe56" />
+        <nuclide ao="2.2425377e-06" name="Fe57" />
+        <nuclide ao="2.9844059999999997e-07" name="Fe58" />
+        <nuclide ao="4.397115086628e-05" name="H1" />
+        <nuclide ao="6.84913372e-09" name="H2" />
+        <nuclide ao="0.00019407891562400002" name="Si28" />
+        <nuclide ao="9.854773588e-06" name="Si29" />
+        <nuclide ao="6.496310788e-06" name="Si30" />
+    </material>
+    <material id="3">
+        <density units="sum" />
+        <nuclide ao="0.00077829" name="C0" />
+        <nuclide ao="0.0033096728000000003" name="Fe54" />
+        <nuclide ao="0.05195478496" name="Fe56" />
+        <nuclide ao="0.00119986256" name="Fe57" />
+        <nuclide ao="0.00015967968" name="Fe58" />
+        <nuclide ao="0.00069984915" name="Cr50" />
+        <nuclide ao="0.01349589423" name="Cr52" />
+        <nuclide ao="0.00153032607" name="Cr53" />
+        <nuclide ao="0.00038093055" name="Cr54" />
+        <nuclide ao="5.10693495e-05" name="Cu63" />
+        <nuclide ao="2.2783650499999998e-05" name="Cu65" />
+        <nuclide ao="1.4260344e-05" name="Mo100" />
+        <nuclide ao="2.1438811500000004e-05" name="Mo92" />
+        <nuclide ao="1.34451745e-05" name="Mo94" />
+        <nuclide ao="2.3230135500000004e-05" name="Mo95" />
+        <nuclide ao="2.44009355e-05" name="Mo96" />
+        <nuclide ao="1.4023257e-05" name="Mo97" />
+        <nuclide ao="3.5551342e-05" name="Mo98" />
+        <nuclide ao="0.0011918" name="Mn55" />
+        <nuclide ao="0.006129712152899999" name="Ni58" />
+        <nuclide ao="0.0023611541470999996" name="Ni60" />
+        <nuclide ao="0.00010263773589999998" name="Ni61" />
+        <nuclide ao="0.0003272540145" name="Ni62" />
+        <nuclide ao="8.334194959999999e-05" name="Ni64" />
+        <nuclide ao="0.00034646" name="Al27" />
+        <nuclide ao="2.419395e-05" name="Ti46" />
+        <nuclide ao="2.1818543999999998e-05" name="Ti47" />
+        <nuclide ao="0.000216191272" name="Ti48" />
+        <nuclide ao="1.5865366e-05" name="Ti49" />
+        <nuclide ao="1.5190868e-05" name="Ti50" />
+        <nuclide ao="2.271046252164e-05" name="H1" />
+        <nuclide ao="3.53747836e-09" name="H2" />
+        <nuclide ao="0.0009221861243840001" name="Si28" />
+        <nuclide ao="4.6825980208000006e-05" name="Si29" />
+        <nuclide ao="3.0867895408e-05" name="Si30" />
+        <nuclide ao="2.303175e-07" name="V50" />
+        <nuclide ao="9.18966825e-05" name="V51" />
+    </material>
 </materials>
