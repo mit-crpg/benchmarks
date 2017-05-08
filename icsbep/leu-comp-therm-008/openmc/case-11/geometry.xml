@@ -62,15 +62,6 @@
   <cell id="22" universe="2" material="3" region="1 -2"/>  <!-- clad  -->
   <cell id="23" universe="2" material="1" region="   2"/>  <!-- water -->
 
-  <!-- Pyrex Rod -->
-  <cell id="31" universe="3" material="4" region="  -3"/>  <!-- pyrex -->
-  <cell id="32" universe="3" material="1" region="   3"/>  <!-- water -->
-
-  <!-- Vicor Rod -->
-  <cell id="41" universe="4" material="2" region="  -4"/>  <!-- vicor -->
-  <cell id="42" universe="4" material="3" region="4 -5"/>  <!-- clad  -->
-  <cell id="43" universe="4" material="1" region="   5"/>  <!-- water -->
-
   <!-- Al2O3 Rod -->
   <cell id="51" universe="5" material="4" region="  -6"/>  <!-- al2o3 -->
   <cell id="52" universe="5" material="5" region="6 -7"/>  <!-- clad  -->
