@@ -10,14 +10,12 @@
   =====================================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Godiva sphere at 18.74 g/cm3 -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9184e-04" />
-    <nuclide name="U-235" ao="4.4994e-02" />
-    <nuclide name="U-238" ao="2.4984e-03" />
+    <nuclide name="U234" ao="4.9184e-04" />
+    <nuclide name="U235" ao="4.4994e-02" />
+    <nuclide name="U238" ao="2.4984e-03" />
   </material>
 
 </materials>

@@ -1,24 +1,12 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==========================================
-  Description: Bare Pu-240 Jezebel Benchmark
-  Case:        PU-MET-FAST-002
-  Written By:  Paul Romano
-  Date:        9/1/2011
-  ==========================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <material id="1">
+  <material depletable="true" id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="2.9934e-02" />
-    <nuclide name="Pu-240" ao="7.8754e-03" />
-    <nuclide name="Pu-241" ao="1.2146e-03" />
-    <nuclide name="Pu-242" ao="1.5672e-04" />
-    <element name="Ga"     ao="1.3722e-03" />
+    <nuclide ao="0.029934" name="Pu239" />
+    <nuclide ao="0.0078754" name="Pu240" />
+    <nuclide ao="0.0012146" name="Pu241" />
+    <nuclide ao="0.00015672" name="Pu242" />
+    <nuclide ao="0.000824801976" name="Ga69" />
+    <nuclide ao="0.0005473980240000001" name="Ga71" />
   </material>
-
 </materials>

@@ -1,47 +1,41 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==========================================================
-  Description: The Early Jemima Experiments: Bare Cylindrical
-               Configurations of Enriched and Natural Uranium
-  Case:        IEU-MET-FAST-001 Case-3
-  ==========================================================
-  --> 
-
-  <default_xs>71c</default_xs>
-
-  <!-- Tuballoy -->
-  <material id="1">
+  <material depletable="true" id="1" name="Tuballoy">
     <density units="sum" />
-    <nuclide name="U-234" ao="2.6418e-06" />
-    <nuclide name="U-235" ao="3.4583e-04" />
-    <nuclide name="U-238" ao="4.7684e-02" />
+    <nuclide ao="2.6418e-06" name="U234" />
+    <nuclide ao="0.00034583" name="U235" />
+    <nuclide ao="0.047684" name="U238" />
   </material>
-
-  <!-- Oralloy -->
-  <material id="2">
+  <material depletable="true" id="2" name="Oralloy">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9172e-04" />
-    <nuclide name="U-235" ao="4.4849e-02" />
-    <nuclide name="U-238" ao="2.6305e-03" />
+    <nuclide ao="0.00049172" name="U234" />
+    <nuclide ao="0.044849" name="U235" />
+    <nuclide ao="0.0026305" name="U238" />
   </material>
-
-  <!-- 2024 Aluminum -->
-  <material id="3">
+  <material id="3" name="2024 Aluminum">
     <density units="sum" />
-    <element name="Mg" ao="1.0295e-03" />
-    <element name="Al" ao="5.7868e-02" />
-    <element name="Mn" ao="1.5182e-04" />
-    <element name="Cu" ao="1.1550e-03" />
+    <nuclide ao="0.0008128005450000001" name="Mg24" />
+    <nuclide ao="0.0001031559" name="Mg25" />
+    <nuclide ao="0.000113543555" name="Mg26" />
+    <nuclide ao="0.057868" name="Al27" />
+    <nuclide ao="0.00015182" name="Mn55" />
+    <nuclide ao="0.0007986825" name="Cu63" />
+    <nuclide ao="0.0003563175" name="Cu65" />
   </material>
-
-  <!-- Stainless Steel -->
-  <material id="4">
+  <material id="4" name="Stainless Steel">
     <density units="sum" />
-    <element name="Cr" ao="1.6532e-02" />
-    <element name="Fe" ao="6.3278e-02" />
-    <element name="Ni" ao="6.5095e-03" />
+    <nuclide ao="0.0007183154000000001" name="Cr50" />
+    <nuclide ao="0.013851997480000001" name="Cr52" />
+    <nuclide ao="0.0015707053200000002" name="Cr53" />
+    <nuclide ao="0.00039098180000000005" name="Cr54" />
+    <nuclide ao="0.0036985991000000004" name="Fe54" />
+    <nuclide ao="0.05806009612" name="Fe56" />
+    <nuclide ao="0.0013408608200000001" name="Fe57" />
+    <nuclide ao="0.00017844396" name="Fe58" />
+    <nuclide ao="0.0044314658055" name="Ni58" />
+    <nuclide ao="0.0017069926944999999" name="Ni60" />
+    <nuclide ao="7.420179049999999e-05" name="Ni61" />
+    <nuclide ao="0.0002365877775" name="Ni62" />
+    <nuclide ao="6.0251932e-05" name="Ni64" />
   </material>
-
 </materials>

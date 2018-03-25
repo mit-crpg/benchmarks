@@ -46,9 +46,9 @@
   <cell id="1" universe="100" fill="1" region="-3"/>
 
   <!-- Assembly Type 2 -->
-  <lattice id="20" type="rectangular" dimension="16 16">
+  <lattice id="20" dimension="16 16">
     <lower_left> -10.3888 -10.3888 </lower_left>
-    <width>    1.2986 1.2986 </width>
+    <pitch>    1.2986 1.2986 </pitch>
     <universes>
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
@@ -71,9 +71,9 @@
   <cell id="2" universe="200" fill="20" region="-3"/>
 
   <!-- Assembly Type 3 -->
-  <lattice id="30" type="rectangular" dimension="16 16">
+  <lattice id="30" dimension="16 16">
     <lower_left> -10.3888 -10.3888 </lower_left>
-    <width>    1.2986 1.2986 </width>
+    <pitch>    1.2986 1.2986 </pitch>
     <universes>
       4 4 5 5 5 5 5 5 5 5 5 5 5 5 4 4
       4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 4
@@ -96,9 +96,9 @@
   <cell id="3" universe="300" fill="30" region="-3"/>
 
   <!-- Assembly Type 4 -->
-  <lattice id="40" type="rectangular" dimension="16 16">
+  <lattice id="40" dimension="16 16">
     <lower_left> -10.3888 -10.3888 </lower_left>
-    <width>    1.2986 1.2986 </width>
+    <pitch>    1.2986 1.2986 </pitch>
     <universes>
       4 4 5 5 5 5 5 5 5 5 5 5 5 5 4 4
       4 2 5 5 5 5 5 5 5 5 5 5 5 5 2 4
@@ -121,9 +121,9 @@
   <cell id="4" universe="400" fill="40" region="-3"/>
 
   <!-- Assembly Type 5 -->
-  <lattice id="50" type="rectangular" dimension="16 16">
+  <lattice id="50" dimension="16 16">
     <lower_left> -10.3888 -10.3888 </lower_left>
-    <width>    1.2986 1.2986 </width>
+    <pitch>    1.2986 1.2986 </pitch>
     <universes>
       5 5 6 6 6 6 6 6 6 6 6 6 6 6 5 5
       5 6 6 6 6 6 6 6 6 6 6 6 6 6 6 5
@@ -146,9 +146,9 @@
   <cell id="5" universe="500" fill="50" region="-3"/>
 
   <!-- Assembly Type 6 -->
-  <lattice id="60" type="rectangular" dimension="16 16">
+  <lattice id="60" dimension="16 16">
     <lower_left> -10.3888 -10.3888 </lower_left>
-    <width>    1.2986 1.2986 </width>
+    <pitch>    1.2986 1.2986 </pitch>
     <universes>
       5 5 6 6 6 6 6 6 6 6 6 6 6 6 5 5
       5 2 6 6 6 6 6 6 6 6 6 6 6 6 2 5
@@ -182,9 +182,9 @@
   <surface id="9" type="z-plane" coeffs="    100.0" boundary="reflective"/>
 
   <!-- Core lattice -->
-  <lattice id="99" type="rectangular" dimension="17 17">
+  <lattice id="99" dimension="17 17">
     <lower_left> -176.6096 -176.6096 </lower_left>
-    <width>   20.7776  20.7776 </width>
+    <pitch>   20.7776  20.7776 </pitch>
     <universes>
       100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
       100 100 100 100 100 100 300 500 300 500 300 100 100 100 100 100 100

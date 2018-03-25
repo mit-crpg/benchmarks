@@ -1,44 +1,34 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==============================================================
-  Description: Uranyl-Flouride Solution with Beryllium Reflector
-  Case:        U233-SOL-INTER-001 Solution 1 Sphere 1
-  Written By:  Paul Romano
-  Date:        1/2/2012
-  ==============================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- IEU Flouride Solution -->
-  <material id="1">
+  <material depletable="true" id="1" name="IEU Flouride Solution">
     <density units="sum" />
-    <nuclide name="U-232" ao="4.5608e-08" />
-    <nuclide name="U-233" ao="2.2379e-03" />
-    <nuclide name="U-234" ao="2.4316e-05" />
-    <nuclide name="U-235" ao="8.9598e-07" />
-    <nuclide name="U-238" ao="7.1284e-06" />
-    <nuclide name="H-1"   ao="5.5183e-02" />
-    <nuclide name="O-16"  ao="3.2043e-02" />
-    <nuclide name="F-19"  ao="4.7182e-03" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide ao="4.5608e-08" name="U232" />
+    <nuclide ao="0.0022379" name="U233" />
+    <nuclide ao="2.4316e-05" name="U234" />
+    <nuclide ao="8.9598e-07" name="U235" />
+    <nuclide ao="7.1284e-06" name="U238" />
+    <nuclide ao="0.055183" name="H1" />
+    <nuclide ao="0.032043" name="O16" />
+    <nuclide ao="0.0047182" name="F19" />
   </material>
-
-  <!-- 347 Stainless steel -->
-  <material id="2">
+  <material id="2" name="347 Stainless steel">
     <density units="sum" />
-    <element name="Fe" ao="6.1248e-02" />
-    <element name="Cr" ao="1.6678e-02" />
-    <element name="Ni" ao="9.0264e-03" />
+    <nuclide ao="0.0035799456" name="Fe54" />
+    <nuclide ao="0.056197489919999996" name="Fe56" />
+    <nuclide ao="0.00129784512" name="Fe57" />
+    <nuclide ao="0.00017271936" name="Fe58" />
+    <nuclide ao="0.0007246590999999999" name="Cr50" />
+    <nuclide ao="0.013974329419999999" name="Cr52" />
+    <nuclide ao="0.0015845767799999998" name="Cr53" />
+    <nuclide ao="0.00039443469999999995" name="Cr54" />
+    <nuclide ao="0.0061448933015999995" name="Ni58" />
+    <nuclide ao="0.0023670018984" name="Ni60" />
+    <nuclide ao="0.0001028919336" name="Ni61" />
+    <nuclide ao="0.000328064508" name="Ni62" />
+    <nuclide ao="8.35483584e-05" name="Ni64" />
   </material>
-
-  <!-- Beryllium reflector -->
-  <material id="3">
+  <material id="3" name="Beryllium reflector">
     <density units="sum" />
-    <element name="Be" ao="1.2161e-01" />
-    <sab name="Be" xs="71t" />
+    <nuclide ao="0.12161" name="Be9" />
   </material>
-
 </materials>

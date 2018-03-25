@@ -1,44 +1,45 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==============================================================
-  Description: PNL-10 Water-reflected Pu nitrate tank
-  Case:        PU-SOL-THERM-034, Case 2
-  ==============================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- fissile solution -->
-  <material id="1">
+  <material depletable="true" id="1" name="fissile solution">
     <density units="sum" />
-    <nuclide name="Pu-238" ao="1.2912e-07" />
-    <nuclide name="Pu-239" ao="2.6498e-04" />
-    <nuclide name="Pu-240" ao="2.4383e-05" />
-    <nuclide name="Pu-241" ao="2.4661e-06" />
-    <nuclide name="Pu-242" ao="1.4141e-07" />
-    <element name="Gd"     ao="1.8382e-06" />
-    <nuclide name="H-1"    ao="6.0973e-02" />
-    <element name="N"      ao="2.3203e-03" />
-    <element name="O"      ao="3.6890e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide ao="1.2912e-07" name="Pu238" />
+    <nuclide ao="0.00026498" name="Pu239" />
+    <nuclide ao="2.4383e-05" name="Pu240" />
+    <nuclide ao="2.4661e-06" name="Pu241" />
+    <nuclide ao="1.4141e-07" name="Pu242" />
+    <nuclide ao="3.6764000000000002e-09" name="Gd152" />
+    <nuclide ao="4.007276e-08" name="Gd154" />
+    <nuclide ao="2.720536e-07" name="Gd155" />
+    <nuclide ao="3.7627954e-07" name="Gd156" />
+    <nuclide ao="2.876783e-07" name="Gd157" />
+    <nuclide ao="4.5660888e-07" name="Gd158" />
+    <nuclide ao="4.0183051999999997e-07" name="Gd160" />
+    <nuclide ao="0.060973" name="H1" />
+    <nuclide ao="0.0023118007411" name="N14" />
+    <nuclide ao="8.4992589e-06" name="N15" />
+    <nuclide ao="0.03687601869" name="O16" />
+    <nuclide ao="1.398131e-05" name="O17" />
   </material>
-
-  <!-- 304L stainless steel -->
-  <material id="2">
+  <material id="2" name="304L stainless steel">
     <density units="sum" />
-    <element name="Fe" ao="6.3278e-02" />
-    <element name="Cr" ao="1.6532e-02" />
-    <element name="Ni" ao="6.5095e-03" />
+    <nuclide ao="0.0036985991000000004" name="Fe54" />
+    <nuclide ao="0.05806009612" name="Fe56" />
+    <nuclide ao="0.0013408608200000001" name="Fe57" />
+    <nuclide ao="0.00017844396" name="Fe58" />
+    <nuclide ao="0.0007183154000000001" name="Cr50" />
+    <nuclide ao="0.013851997480000001" name="Cr52" />
+    <nuclide ao="0.0015707053200000002" name="Cr53" />
+    <nuclide ao="0.00039098180000000005" name="Cr54" />
+    <nuclide ao="0.0044314658055" name="Ni58" />
+    <nuclide ao="0.0017069926944999999" name="Ni60" />
+    <nuclide ao="7.420179049999999e-05" name="Ni61" />
+    <nuclide ao="0.0002365877775" name="Ni62" />
+    <nuclide ao="6.0251932e-05" name="Ni64" />
   </material>
-
-  <!-- Water at 23 C -->
-  <material id="3">
+  <material id="3" name="Water at 23 C">
     <density units="sum" />
-    <nuclide name="H-1"  ao="6.6691e-02" />
-    <element name="O"    ao="3.3346e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide ao="0.066691" name="H1" />
+    <nuclide ao="0.033333361866" name="O16" />
+    <nuclide ao="1.2638134e-05" name="O17" />
   </material>
-
 </materials>

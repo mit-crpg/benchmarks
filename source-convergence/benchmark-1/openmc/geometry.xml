@@ -73,9 +73,9 @@
   <cell id="36" material="5" region="41 -42 52 -53 60 -63" /> <!-- top concrete -->
   <cell id="37" material="5" region="42 -43 50 -53 60 -63" /> <!-- right concrete -->
 
-  <lattice id="200" type="rectangular" dimension="15 15" lower_left="-10.5 -10.5" width="1.4 1.4">
+  <lattice id="200" dimension="15 15" lower_left="-10.5 -10.5" pitch="1.4 1.4">
     <universes>
-      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+      3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
       3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
@@ -93,7 +93,7 @@
     </universes>
   </lattice>
 
-  <lattice id="100" type="rectangular" dimension="24 3" lower_left="0. 0." width="27. 27.">
+  <lattice id="100" dimension="24 3" lower_left="0. 0." pitch="27. 27.">
     <universes>
       2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1
       1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2

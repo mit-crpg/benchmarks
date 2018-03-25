@@ -1,34 +1,18 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ============================================================
-  Description: Minimally reflected cylinders of Uranyl Nitrate
-  Case:        HEU-SOL-THERM-001 Experiment 7
-  Written By:  Paul Romano
-  Date:        7/9/2013
-  ============================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- Uranyl Nitrate Solution -->
-  <material id="1">
+  <material depletable="true" id="1" name="Uranyl Nitrate Solution">
     <density units="sum" />
-    <nuclide name="U-234" ao="3.6132e-06" />
-    <nuclide name="U-235" ao="3.2800e-04" />
-    <nuclide name="U-236" ao="1.5214e-06" />
-    <nuclide name="U-238" ao="1.8673e-05" />
-    <element name="O"     ao="3.4945e-02" />
-    <nuclide name="N-14"  ao="8.7645e-04" />
-    <nuclide name="H-1"   ao="6.3397e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide ao="3.6132e-06" name="U234" />
+    <nuclide ao="0.000328" name="U235" />
+    <nuclide ao="1.5214e-06" name="U236" />
+    <nuclide ao="1.8673e-05" name="U238" />
+    <nuclide ao="0.034931755844999995" name="O16" />
+    <nuclide ao="1.3244154999999998e-05" name="O17" />
+    <nuclide ao="0.00087645" name="N14" />
+    <nuclide ao="0.063397" name="H1" />
   </material>
-
-  <!-- Aluminum Tank -->
-  <material id="2">
+  <material id="2" name="Aluminum Tank">
     <density units="sum" />
-    <nuclide name="Al-27" ao="5.9469e-02" />
+    <nuclide ao="0.059469" name="Al27" />
   </material>
-
 </materials>

@@ -1,31 +1,24 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ===================================================
-  Description: Plutonium sphere reflected by Aluminum
-  Case:        PU-MET-FAST-009
-  Written By:  Paul Romano
-  ===================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <material id="1">
+  <material depletable="true" id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.7592e-02" />
-    <nuclide name="Pu-240" ao="1.9349e-03" />
-    <nuclide name="Pu-241" ao="1.1797e-04" />
-    <element name="Ga"     ao="1.3733e-03" />
+    <nuclide ao="0.037592" name="Pu239" />
+    <nuclide ao="0.0019349" name="Pu240" />
+    <nuclide ao="0.00011797" name="Pu241" />
+    <nuclide ao="0.0008254631639999999" name="Ga69" />
+    <nuclide ao="0.000547836836" name="Ga71" />
   </material>
-
   <material id="2">
     <density units="sum" />
-    <element name="Al" ao="5.8787e-02" />
-    <element name="Cu" ao="1.1759e-03" />
-    <element name="Si" ao="2.4187e-04" />
-    <element name="Mn" ao="2.4729e-04" />
-    <element name="Mg" ao="3.4936e-04" />
+    <nuclide ao="0.058787" name="Al27" />
+    <nuclide ao="0.0008131348499999999" name="Cu63" />
+    <nuclide ao="0.00036276514999999997" name="Cu65" />
+    <nuclide ao="0.000223075927016" name="Si28" />
+    <nuclide ao="1.1327159091999999e-05" name="Si29" />
+    <nuclide ao="7.466913892e-06" name="Si30" />
+    <nuclide ao="0.00024729" name="Mn55" />
+    <nuclide ao="0.0002758232136" name="Mg24" />
+    <nuclide ao="3.5005872e-05" name="Mg25" />
+    <nuclide ao="3.85309144e-05" name="Mg26" />
   </material>
-
 </materials>

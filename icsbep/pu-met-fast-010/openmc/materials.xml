@@ -1,27 +1,16 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =========================================================
-  Description: Plutonium sphere reflected by Normal Uranium
-  Case:        PU-MET-FAST-010
-  =========================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <material id="1">
+  <material depletable="true" id="1">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.7291e-02" />
-    <nuclide name="Pu-240" ao="1.9277e-03" />
-    <nuclide name="Pu-241" ao="1.2196e-04" />
-    <element name="Ga"     ao="1.3628e-03" />
+    <nuclide ao="0.037291" name="Pu239" />
+    <nuclide ao="0.0019277" name="Pu240" />
+    <nuclide ao="0.00012196" name="Pu241" />
+    <nuclide ao="0.0008191518239999999" name="Ga69" />
+    <nuclide ao="0.0005436481759999999" name="Ga71" />
   </material>
-
-  <material id="2">
+  <material depletable="true" id="2">
     <density units="sum" />
-    <nuclide name="U-235" ao="3.4902e-04" />
-    <nuclide name="U-238" ao="4.7518e-02" />
+    <nuclide ao="0.00034902" name="U235" />
+    <nuclide ao="0.047518" name="U238" />
   </material>
-
 </materials>

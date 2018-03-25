@@ -1,84 +1,93 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==================================================================================
-  Description: Spherical assembly of 235U (36%) with a 5.75cm Polyethylene Reflector
-  Case:        IEU-MET-FAST-009
-  ==================================================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- 36 wt% U-235, Layer 1 -->
-  <material id="1">
+  <material depletable="true" id="1" name="36 wt% U-235, Layer 1">
     <density units="sum" />
-    <nuclide name="U-234" ao="1.5922e-04" />
-    <nuclide name="U-235" ao="1.7440e-02" />
-    <nuclide name="U-238" ao="2.9990e-02" />
-    <element name="C"     ao="4.7009e-04" />
-    <element name="Fe"    ao="1.6176e-04" />
-    <element name="W"     ao="1.2284e-05" />
+    <nuclide ao="0.00015922" name="U234" />
+    <nuclide ao="0.01744" name="U235" />
+    <nuclide ao="0.02999" name="U238" />
+    <nuclide ao="0.00047009" name="C0" />
+    <nuclide ao="9.454872e-06" name="Fe54" />
+    <nuclide ao="0.0001484212704" name="Fe56" />
+    <nuclide ao="3.4276944e-06" name="Fe57" />
+    <nuclide ao="4.561632e-07" name="Fe58" />
+    <nuclide ao="1.4740799999999999e-08" name="W180" />
+    <nuclide ao="3.25526e-06" name="W182" />
+    <nuclide ao="1.7578404e-06" name="W183" />
+    <nuclide ao="3.7638175999999998e-06" name="W184" />
+    <nuclide ao="3.4923412e-06" name="W186" />
   </material>
-
-  <!-- 36 wt% U-235, Layer 2 -->
-  <material id="2">
+  <material depletable="true" id="2" name="36 wt% U-235, Layer 2">
     <density units="sum" />
-    <nuclide name="U-234" ao="1.5878e-04" />
-    <nuclide name="U-235" ao="1.7415e-02" />
-    <nuclide name="U-238" ao="2.9887e-02" />
-    <element name="C"     ao="3.7502e-04" />
-    <element name="Fe"    ao="1.6131e-04" />
-    <element name="W"     ao="1.2250e-05" />
+    <nuclide ao="0.00015878" name="U234" />
+    <nuclide ao="0.017415" name="U235" />
+    <nuclide ao="0.029887" name="U238" />
+    <nuclide ao="0.00037502" name="C0" />
+    <nuclide ao="9.428569500000001e-06" name="Fe54" />
+    <nuclide ao="0.00014800837740000001" name="Fe56" />
+    <nuclide ao="3.4181589e-06" name="Fe57" />
+    <nuclide ao="4.5489420000000006e-07" name="Fe58" />
+    <nuclide ao="1.4699999999999998e-08" name="W180" />
+    <nuclide ao="3.24625e-06" name="W182" />
+    <nuclide ao="1.752975e-06" name="W183" />
+    <nuclide ao="3.7534e-06" name="W184" />
+    <nuclide ao="3.4826749999999997e-06" name="W186" />
   </material>
-
-  <!-- 36 wt% U-235, Layer 3 -->
-  <material id="3">
+  <material depletable="true" id="3" name="36 wt% U-235, Layer 3">
     <density units="sum" />
-    <nuclide name="U-234" ao="1.5803e-04" />
-    <nuclide name="U-235" ao="1.7418e-02" />
-    <nuclide name="U-238" ao="2.9651e-02" />
-    <element name="C"     ao="5.5986e-04" />
-    <element name="Fe"    ao="1.6054e-04" />
-    <element name="W"     ao="1.2192e-05" />
+    <nuclide ao="0.00015803" name="U234" />
+    <nuclide ao="0.017418" name="U235" />
+    <nuclide ao="0.029651" name="U238" />
+    <nuclide ao="0.00055986" name="C0" />
+    <nuclide ao="9.383563e-06" name="Fe54" />
+    <nuclide ao="0.0001473018716" name="Fe56" />
+    <nuclide ao="3.4018426e-06" name="Fe57" />
+    <nuclide ao="4.5272280000000004e-07" name="Fe58" />
+    <nuclide ao="1.4630399999999998e-08" name="W180" />
+    <nuclide ao="3.23088e-06" name="W182" />
+    <nuclide ao="1.7446752e-06" name="W183" />
+    <nuclide ao="3.7356287999999997e-06" name="W184" />
+    <nuclide ao="3.4661856e-06" name="W186" />
   </material>
-
-  <!-- 36 wt% U-235, Layer 4 -->
-  <material id="4">
+  <material depletable="true" id="4" name="36 wt% U-235, Layer 4">
     <density units="sum" />
-    <nuclide name="U-234" ao="1.3423e-04" />
-    <nuclide name="U-235" ao="1.7356e-02" />
-    <nuclide name="U-238" ao="2.9786e-02" />
-    <element name="C"     ao="7.4727e-04" />
-    <element name="Fe"    ao="1.2054e-04" />
-    <element name="W"     ao="1.2205e-05" />
+    <nuclide ao="0.00013423" name="U234" />
+    <nuclide ao="0.017356" name="U235" />
+    <nuclide ao="0.029786" name="U238" />
+    <nuclide ao="0.00074727" name="C0" />
+    <nuclide ao="7.0455629999999995e-06" name="Fe54" />
+    <nuclide ao="0.0001106002716" name="Fe56" />
+    <nuclide ao="2.5542426e-06" name="Fe57" />
+    <nuclide ao="3.399228e-07" name="Fe58" />
+    <nuclide ao="1.4645999999999998e-08" name="W180" />
+    <nuclide ao="3.234325e-06" name="W182" />
+    <nuclide ao="1.7465355e-06" name="W183" />
+    <nuclide ao="3.7396119999999996e-06" name="W184" />
+    <nuclide ao="3.4698815e-06" name="W186" />
   </material>
-
-  <!-- 36 wt% U-235, Layer 5 -->
-  <material id="5">
+  <material depletable="true" id="5" name="36 wt% U-235, Layer 5">
     <density units="sum" />
-    <nuclide name="U-234" ao="1.6281e-04" />
-    <nuclide name="U-235" ao="1.7417e-02" />
-    <nuclide name="U-238" ao="2.9663e-02" />
-    <element name="C"     ao="5.5983e-04" />
-    <element name="Fe"    ao="1.0034e-04" />
-    <element name="W"     ao="6.0956e-06" />
+    <nuclide ao="0.00016281" name="U234" />
+    <nuclide ao="0.017417" name="U235" />
+    <nuclide ao="0.029663" name="U238" />
+    <nuclide ao="0.00055983" name="C0" />
+    <nuclide ao="5.864873000000001e-06" name="Fe54" />
+    <nuclide ao="9.206596360000001e-05" name="Fe56" />
+    <nuclide ao="2.1262046000000002e-06" name="Fe57" />
+    <nuclide ao="2.8295880000000003e-07" name="Fe58" />
+    <nuclide ao="7.314719999999999e-09" name="W180" />
+    <nuclide ao="1.6153340000000001e-06" name="W182" />
+    <nuclide ao="8.7228036e-07" name="W183" />
+    <nuclide ao="1.86769184e-06" name="W184" />
+    <nuclide ao="1.7329790799999999e-06" name="W186" />
   </material>
-
-  <!-- Polyethylene, Layer 1 -->
-  <material id="6">
+  <material id="6" name="Polyethylene, Layer 1">
     <density units="sum" />
-    <nuclide name="H-1" ao="7.5542e-02" />
-    <element name="C"   ao="3.7771e-02" />
-    <sab name="HCH2" xs="71t" />
+    <nuclide ao="0.075542" name="H1" />
+    <nuclide ao="0.037771" name="C0" />
   </material>
-
-  <!-- Polyethylene, Layer 2 -->
-  <material id="7">
+  <material id="7" name="Polyethylene, Layer 2">
     <density units="sum" />
-    <nuclide name="H-1" ao="7.4170e-02" />
-    <element name="C"   ao="3.7085e-02" />
-    <sab name="HCH2" xs="71t" />
+    <nuclide ao="0.07417" name="H1" />
+    <nuclide ao="0.037085" name="C0" />
   </material>
-
 </materials>

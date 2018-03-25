@@ -1,39 +1,31 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =================================================
-  Description: Unreflected sphere of U233 nitrate
-  Case:        U233-SOL-THERM-001 Experiment 5
-  =================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- UO2(NO3)2 Solution -->
-  <material id="1">
+  <material depletable="true" id="1" name="UO2(NO3)2 Solution">
     <density units="sum" />
-    <nuclide name="U-233"  ao="5.0043e-05" />
-    <nuclide name="U-234"  ao="8.2623e-07" />
-    <nuclide name="U-235"  ao="2.0314e-08" />
-    <nuclide name="U-238"  ao="3.2091e-07" />
-    <nuclide name="N-14"   ao="1.3586e-04" />
-    <nuclide name="H-1"    ao="6.6329e-02" />
-    <element name="O"      ao="3.3666e-02" />
-    <nuclide name="B-10"   ao="1.0114e-06" />
-    <nuclide name="B-11"   ao="4.0708e-06" />
-    <nuclide name="Th-232" ao="2.2691e-07" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide ao="5.0043e-05" name="U233" />
+    <nuclide ao="8.2623e-07" name="U234" />
+    <nuclide ao="2.0314e-08" name="U235" />
+    <nuclide ao="3.2091e-07" name="U238" />
+    <nuclide ao="0.00013586" name="N14" />
+    <nuclide ao="0.066329" name="H1" />
+    <nuclide ao="0.033653240586" name="O16" />
+    <nuclide ao="1.2759414e-05" name="O17" />
+    <nuclide ao="1.0114e-06" name="B10" />
+    <nuclide ao="4.0708e-06" name="B11" />
+    <nuclide ao="2.2691e-07" name="Th232" />
   </material>
-
-  <!-- Type 1100 Aluminum -->
-  <material id="2">
+  <material id="2" name="Type 1100 Aluminum">
     <density units="sum" />
-    <element name="Al" ao="5.9881e-02" />
-    <element name="Si" ao="2.1790e-04" />
-    <element name="Fe" ao="1.0958e-04" />
-    <element name="Cu" ao="5.1364e-05" />
-    <element name="Mn" ao="1.4853e-05" />
+    <nuclide ao="0.059881" name="Al27" />
+    <nuclide ao="0.00020096847272000002" name="Si28" />
+    <nuclide ao="1.0204605640000001e-05" name="Si29" />
+    <nuclide ao="6.7269216400000005e-06" name="Si30" />
+    <nuclide ao="6.404951000000001e-06" name="Fe54" />
+    <nuclide ao="0.0001005440332" name="Fe56" />
+    <nuclide ao="2.3220002000000003e-06" name="Fe57" />
+    <nuclide ao="3.090156e-07" name="Fe58" />
+    <nuclide ao="3.5518206e-05" name="Cu63" />
+    <nuclide ao="1.5845794e-05" name="Cu65" />
+    <nuclide ao="1.4853e-05" name="Mn55" />
   </material>
-
 </materials>

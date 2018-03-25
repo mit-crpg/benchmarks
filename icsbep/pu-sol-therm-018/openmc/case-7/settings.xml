@@ -8,11 +8,10 @@
   ==============================================================
   -->
 
-  <eigenvalue>
-    <batches>3000</batches>
-    <inactive>20</inactive>
-    <particles>10000</particles>
-  </eigenvalue>
+  <run_mode>eigenvalue</run_mode>
+  <batches>3000</batches>
+  <inactive>20</inactive>
+  <particles>10000</particles>
 
   <source>
     <space>
@@ -24,9 +23,11 @@
     </space>
   </source>
 
-  <entropy>
+  <mesh id="1">
     <lower_left>-50.8 -50.8  0.</lower_left>
     <upper_right>50.8  50.8  143.</upper_right>
-  </entropy>
+  </mesh>
+
+  <entropy_mesh>1</entropy_mesh>
 
 </settings>

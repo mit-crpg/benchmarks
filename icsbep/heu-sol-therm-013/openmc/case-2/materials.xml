@@ -1,39 +1,31 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ===========================================================
-  Description: Unreflected sphere of enriched Uranium Nitrate
-  Case:        HEU-SOL-THERM-013 Experiment 2
-  ===========================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- Uranium Nitrate Solution -->
-  <material id="1">
+  <material depletable="true" id="1" name="Uranium Nitrate Solution">
     <density units="sum" />
-    <nuclide name="U-234" ao="6.2962e-07" />
-    <nuclide name="U-235" ao="5.6171e-05" />
-    <nuclide name="U-236" ao="1.6207e-07" />
-    <nuclide name="U-238" ao="3.2796e-06" />
-    <nuclide name="N-14"  ao="2.1276e-04" />
-    <nuclide name="B-10"  ao="1.0366e-06" />
-    <nuclide name="B-11"  ao="4.1724e-06" />
-    <nuclide name="O-16"  ao="3.3654e-02" />
-    <nuclide name="O-17"  ao="1.2793e-05" />
-    <nuclide name="H-1"   ao="6.5892e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide ao="6.2962e-07" name="U234" />
+    <nuclide ao="5.6171e-05" name="U235" />
+    <nuclide ao="1.6207e-07" name="U236" />
+    <nuclide ao="3.2796e-06" name="U238" />
+    <nuclide ao="0.00021276" name="N14" />
+    <nuclide ao="1.0366e-06" name="B10" />
+    <nuclide ao="4.1724e-06" name="B11" />
+    <nuclide ao="0.033654" name="O16" />
+    <nuclide ao="1.2793e-05" name="O17" />
+    <nuclide ao="0.065892" name="H1" />
   </material>
-
-  <!-- Type 1100 Aluminum -->
-  <material id="2">
+  <material id="2" name="Type 1100 Aluminum">
     <density units="sum" />
-    <element name="Al" ao="5.9699e-02" />
-    <element name="Si" ao="5.5202e-04" />
-    <element name="Cu" ao="5.1364e-05" />
-    <element name="Zn" ao="2.4958e-05" />
-    <element name="Mn" ao="1.4853e-05" />
+    <nuclide ao="0.059699" name="Al27" />
+    <nuclide ao="0.000509126279536" name="Si28" />
+    <nuclide ao="2.5851979831999998e-05" name="Si29" />
+    <nuclide ao="1.7041740632e-05" name="Si30" />
+    <nuclide ao="3.5518206e-05" name="Cu63" />
+    <nuclide ao="1.5845794e-05" name="Cu65" />
+    <nuclide ao="1.2271848600000001e-05" name="Zn64" />
+    <nuclide ao="6.9208534e-06" name="Zn66" />
+    <nuclide ao="1.0083032e-06" name="Zn67" />
+    <nuclide ao="4.604751e-06" name="Zn68" />
+    <nuclide ao="1.522438e-07" name="Zn70" />
+    <nuclide ao="1.4853e-05" name="Mn55" />
   </material>
-
 </materials>

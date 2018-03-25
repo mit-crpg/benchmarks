@@ -1,49 +1,39 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ========================================================================
-  Description: Pu (5.1 wt% 240) metal sphere with tampers and polyethylene
-  Case:        PU-MET-FAST-044 Case 2 (Iron tamper)
-  ========================================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- Plutonium-Gallium alloy -->
-  <material id="1">
+  <material depletable="true" id="1" name="Plutonium-Gallium alloy">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="3.7028e-02" />
-    <nuclide name="Pu-240" ao="1.9931e-03" />
-    <nuclide name="Pu-240" ao="1.3594e-04" />
-    <element name="Ga"     ao="1.2880e-03" />
+    <nuclide ao="0.037028" name="Pu239" />
+    <nuclide ao="0.0019931" name="Pu240" />
+    <nuclide ao="0.00013594" name="Pu240" />
+    <nuclide ao="0.00077419104" name="Ga69" />
+    <nuclide ao="0.00051380896" name="Ga71" />
   </material>
-
-  <!-- Nickel coating -->
-  <material id="2">
+  <material id="2" name="Nickel coating">
     <density units="sum" />
-    <element name="Ni" ao="1.2962e-01" />
+    <nuclide ao="0.08824127778" name="Ni58" />
+    <nuclide ao="0.033990382220000004" name="Ni60" />
+    <nuclide ao="0.00147753838" name="Ni61" />
+    <nuclide ao="0.004711038900000001" name="Ni62" />
+    <nuclide ao="0.0011997627200000002" name="Ni64" />
   </material>
-
-  <!-- Air -->
-  <material id="3">
+  <material id="3" name="Air">
     <density units="sum" />
-    <element name="N" ao="3.9933e-05" />
-    <element name="O" ao="8.7399e-06" />
+    <nuclide ao="3.9786725421e-05" name="N14" />
+    <nuclide ao="1.4627457899999999e-07" name="N15" />
+    <nuclide ao="8.7365875779e-06" name="O16" />
+    <nuclide ao="3.3124221000000003e-09" name="O17" />
   </material>
-
-  <!-- Tamper -->
-  <material id="4">
+  <material id="4" name="Tamper">
     <density units="sum" />
-    <element name="Fe" ao="8.5834e-02" />
+    <nuclide ao="0.0050169973" name="Fe54" />
+    <nuclide ao="0.07875612836" name="Fe56" />
+    <nuclide ao="0.00181882246" name="Fe57" />
+    <nuclide ao="0.00024205187999999997" name="Fe58" />
   </material>
-
-  <!-- Polyethylene -->
-  <material id="5">
+  <material id="5" name="Polyethylene">
     <density units="sum" />
-    <element name="C" ao="4.1216e-02" />
-    <element name="H" ao="8.2431e-02" />
-    <sab name="HCH2" xs="71t" />
+    <nuclide ao="0.041216" name="C0" />
+    <nuclide ao="0.08241816219606" name="H1" />
+    <nuclide ao="1.283780394e-05" name="H2" />
   </material>
-
 </materials>

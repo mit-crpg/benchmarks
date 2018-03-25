@@ -1,36 +1,26 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =====================================================================
-  Description: Np-237 sphere reflected by HEU using Flattop
-  Case:        SPEC-MET-FAST-003
-  =====================================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <material id="1">
-    <density units="sum"/>
-    <nuclide name="Np-237" ao="5.1876e-2"/>
+  <material depletable="true" id="1">
+    <density units="sum" />
+    <nuclide ao="0.051876" name="Np237" />
   </material>
-
   <material id="2">
-    <density units="sum"/>
-    <element name="Ni" ao="9.1322e-2"/>
+    <density units="sum" />
+    <nuclide ao="0.062169186618" name="Ni58" />
+    <nuclide ao="0.023947459382" name="Ni60" />
+    <nuclide ao="0.0010409794779999999" name="Ni61" />
+    <nuclide ao="0.0033190980900000004" name="Ni62" />
+    <nuclide ao="0.0008452764320000001" name="Ni64" />
   </material>
-
-  <material id="3">
-    <density units="sum"/>
-    <nuclide name="U-234" ao="4.8869e-4"/>
-    <nuclide name="U-235" ao="4.4482e-2"/>
-    <nuclide name="U-238" ao="2.7038e-3"/>
+  <material depletable="true" id="3">
+    <density units="sum" />
+    <nuclide ao="0.00048869" name="U234" />
+    <nuclide ao="0.044482" name="U235" />
+    <nuclide ao="0.0027038" name="U238" />
   </material>
-
-  <material id="4">
-    <density units="sum"/>
-    <nuclide name="U-235" ao="3.5050e-4"/>
-    <nuclide name="U-238" ao="4.7717e-2"/>
+  <material depletable="true" id="4">
+    <density units="sum" />
+    <nuclide ao="0.0003505" name="U235" />
+    <nuclide ao="0.047717" name="U238" />
   </material>
-
 </materials>

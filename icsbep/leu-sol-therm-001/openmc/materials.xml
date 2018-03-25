@@ -1,42 +1,38 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =================================================================
-  Description: Unreflected UO2F2+H2O Cylindrical Assembly, SHEBA-II
-  Case:        LEU-SOL-THERM-001
-  =================================================================
-  -->
-
-  <default_xs>71c</default_xs>
- 
-  <!-- SS304L -->
-  <material id="1">
+  <material id="1" name="SS304L">
     <density units="sum" />
-    <element name="Cr" ao="1.6348e-02" />
-    <element name="Mn" ao="1.7192e-03" />
-    <element name="Fe" ao="6.0038e-02" />
-    <element name="Ni" ao="7.2418e-03" />
+    <nuclide ao="0.0007103206000000001" name="Cr50" />
+    <nuclide ao="0.013697825720000001" name="Cr52" />
+    <nuclide ao="0.00155322348" name="Cr53" />
+    <nuclide ao="0.00038663020000000007" name="Cr54" />
+    <nuclide ao="0.0017192" name="Mn55" />
+    <nuclide ao="0.0035092211000000003" name="Fe54" />
+    <nuclide ao="0.055087266520000004" name="Fe56" />
+    <nuclide ao="0.00127220522" name="Fe57" />
+    <nuclide ao="0.00016930716" name="Fe58" />
+    <nuclide ao="0.0049299929442" name="Ni58" />
+    <nuclide ao="0.0018990244557999998" name="Ni60" />
+    <nuclide ao="8.25492782e-05" name="Ni61" />
+    <nuclide ao="0.000263203221" name="Ni62" />
+    <nuclide ao="6.70301008e-05" name="Ni64" />
   </material>
-
-  <!-- Air -->
-  <material id="2">
+  <material id="2" name="Air">
     <density units="sum" />
-    <element name="N" ao="3.5214e-05" />
-    <element name="O" ao="1.5092e-05" />
+    <nuclide ao="3.5085011118e-05" name="N14" />
+    <nuclide ao="1.2898888199999999e-07" name="N15" />
+    <nuclide ao="1.5086280132e-05" name="O16" />
+    <nuclide ao="5.719868e-09" name="O17" />
   </material>
-
-  <!-- Fuel Solution -->
-  <material id="3">
+  <material depletable="true" id="3" name="Fuel Solution">
     <density units="sum" />
-    <nuclide name="U-234" ao="6.7855e-07" />
-    <nuclide name="U-235" ao="1.2377e-04" />
-    <nuclide name="U-236" ao="1.2085e-06" />
-    <nuclide name="U-238" ao="2.3508e-03" />
-    <nuclide name="H-1"   ao="5.6179e-02" />
-    <element name="O"     ao="3.2967e-02" />
-    <element name="F"     ao="5.1035e-03" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide ao="6.7855e-07" name="U234" />
+    <nuclide ao="0.00012377" name="U235" />
+    <nuclide ao="1.2085e-06" name="U236" />
+    <nuclide ao="0.0023508" name="U238" />
+    <nuclide ao="0.056179" name="H1" />
+    <nuclide ao="0.032954505507" name="O16" />
+    <nuclide ao="1.2494493000000001e-05" name="O17" />
+    <nuclide ao="0.0051035" name="F19" />
   </material>
-
 </materials>

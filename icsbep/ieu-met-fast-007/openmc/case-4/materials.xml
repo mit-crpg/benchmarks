@@ -8,41 +8,39 @@
   =========================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Homogenized HEU, Natural U, and Voids -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.4058e-05" />
-    <nuclide name="U-235" ao="4.9831e-03" />
-    <nuclide name="U-236" ao="1.3733e-05" />
-    <nuclide name="U-238" ao="4.3108e-02" />
+    <nuclide name="U234" ao="5.4058e-05" />
+    <nuclide name="U235" ao="4.9831e-03" />
+    <nuclide name="U236" ao="1.3733e-05" />
+    <nuclide name="U238" ao="4.3108e-02" />
   </material>
 
   <!-- Intermediate Enriched Uranium (10 wt%) -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-234" ao="2.4761e-05" />
-    <nuclide name="U-235" ao="4.8461e-03" />
-    <nuclide name="U-236" ao="4.3348e-05" />
-    <nuclide name="U-238" ao="4.2695e-02" />
+    <nuclide name="U234" ao="2.4761e-05" />
+    <nuclide name="U235" ao="4.8461e-03" />
+    <nuclide name="U236" ao="4.3348e-05" />
+    <nuclide name="U238" ao="4.2695e-02" />
   </material>
 
   <!-- Natural Uranium -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="U-234" ao="2.6518e-06" />
-    <nuclide name="U-235" ao="3.4701e-04" />
-    <nuclide name="U-238" ao="4.7846e-02" />
+    <nuclide name="U234" ao="2.6518e-06" />
+    <nuclide name="U235" ao="3.4701e-04" />
+    <nuclide name="U238" ao="4.7846e-02" />
   </material>
 
   <!-- Depleted Uranium -->
   <material id="4">
     <density units="sum" />
-    <nuclide name="U-234" ao="2.8672e-07" />
-    <nuclide name="U-235" ao="1.0058e-04" />
-    <nuclide name="U-236" ao="1.1468e-06" />
-    <nuclide name="U-238" ao="4.7677e-02" />
+    <nuclide name="U234" ao="2.8672e-07" />
+    <nuclide name="U235" ao="1.0058e-04" />
+    <nuclide name="U236" ao="1.1468e-06" />
+    <nuclide name="U238" ao="4.7677e-02" />
   </material>
 
 </materials>

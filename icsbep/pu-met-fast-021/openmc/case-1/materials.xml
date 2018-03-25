@@ -1,70 +1,76 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==========================================================
-  Description: Pu cylinder reflected by Be, assembly 50
-  Case:        pu-met-fast-021 case-1
-  ==========================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- Plutonium -->
-  <material id="1">
+  <material depletable="true" id="1" name="Plutonium">
     <density units="sum" />
-    <nuclide name="Pu-239" ao="4.4422e-02" />
-    <nuclide name="Pu-240" ao="2.1326e-03" />
-    <nuclide name="Pu-241" ao="9.2538e-05" />
-    <element name="C"      ao="1.9515e-04" />
-    <element name="Fe"     ao="8.1943e-05" />
+    <nuclide ao="0.044422" name="Pu239" />
+    <nuclide ao="0.0021326" name="Pu240" />
+    <nuclide ao="9.2538e-05" name="Pu241" />
+    <nuclide ao="0.00019515" name="C0" />
+    <nuclide ao="4.7895683500000004e-06" name="Fe54" />
+    <nuclide ao="7.518598022e-05" name="Fe56" />
+    <nuclide ao="1.73637217e-06" name="Fe57" />
+    <nuclide ao="2.3107926e-07" name="Fe58" />
   </material>
-
-  <!-- Berylium Reflector -->
-  <material id="2">
+  <material id="2" name="Berylium Reflector">
     <density units="sum" />
-    <element name="Be" ao="1.2099e-01" />
-    <element name="O"  ao="1.0449e-03" />
-    <sab name="Be" xs="71t" />
+    <nuclide ao="0.12099" name="Be9" />
+    <nuclide ao="0.0010445039829000001" name="O16" />
+    <nuclide ao="3.9601710000000004e-07" name="O17" />
   </material>
-
-  <!-- Steel Cover -->
-  <material id="3">
+  <material id="3" name="Steel Cover">
     <density units="sum" />
-    <element name="Fe" ao="5.1280e-02" />
-    <element name="C"  ao="3.4757e-04" />
-    <element name="Si" ao="8.9185e-03" />
-    <element name="Ti" ao="6.1034e-04" />
-    <element name="Cr" ao="1.4452e-02" />
-    <element name="Mn" ao="1.5198e-03" />
-    <element name="Ni" ao="7.1131e-03" />
+    <nuclide ao="0.002997316" name="Fe54" />
+    <nuclide ao="0.047051451200000004" name="Fe56" />
+    <nuclide ao="0.0010866232" name="Fe57" />
+    <nuclide ao="0.0001446096" name="Fe58" />
+    <nuclide ao="0.00034757" name="C0" />
+    <nuclide ao="0.0082255040108" name="Si28" />
+    <nuclide ao="0.00041766762459999996" name="Si29" />
+    <nuclide ao="0.00027532836459999996" name="Si30" />
+    <nuclide ao="5.035305e-05" name="Ti46" />
+    <nuclide ao="4.5409295999999995e-05" name="Ti47" />
+    <nuclide ao="0.000449942648" name="Ti48" />
+    <nuclide ao="3.3019394e-05" name="Ti49" />
+    <nuclide ao="3.1615612e-05" name="Ti50" />
+    <nuclide ao="0.0006279394" name="Cr50" />
+    <nuclide ao="0.01210918628" name="Cr52" />
+    <nuclide ao="0.00137308452" name="Cr53" />
+    <nuclide ao="0.0003417898" name="Cr54" />
+    <nuclide ao="0.0015198" name="Mn55" />
+    <nuclide ao="0.0048423779739" name="Ni58" />
+    <nuclide ao="0.0018652753260999999" name="Ni60" />
+    <nuclide ao="8.108222689999999e-05" name="Ni61" />
+    <nuclide ao="0.00025852561950000003" name="Ni62" />
+    <nuclide ao="6.58388536e-05" name="Ni64" />
   </material>
-
-  <!-- Duralumin base and top (2.78 g/cm3) -->
-  <material id="4">
+  <material id="4" name="Duralumin base and top (2.78 g/cm3)">
     <density units="sum" />
-    <element name="Al" ao="5.8077e-02" />
-    <element name="Mg" ao="1.0332e-03" />
-    <element name="Mn" ao="1.8284e-04" />
-    <element name="Cu" ao="1.1329e-03" />
+    <nuclide ao="0.058077" name="Al27" />
+    <nuclide ao="0.000815721732" name="Mg24" />
+    <nuclide ao="0.00010352663999999999" name="Mg25" />
+    <nuclide ao="0.00011395162799999999" name="Mg26" />
+    <nuclide ao="0.00018284" name="Mn55" />
+    <nuclide ao="0.0007834003500000001" name="Cu63" />
+    <nuclide ao="0.00034949965000000003" name="Cu65" />
   </material>
-
-  <!-- Duralumin top cylindrical shell (0.417 g/cm3) -->
-  <material id="5">
+  <material id="5" name="Duralumin top cylindrical shell (0.417 g/cm3)">
     <density units="sum" />
-    <element name="Al" ao="8.7115e-03" />
-    <element name="Mg" ao="1.5498e-04" />
-    <element name="Mn" ao="2.7426e-05" />
-    <element name="Cu" ao="1.6993e-04" />
+    <nuclide ao="0.0087115" name="Al27" />
+    <nuclide ao="0.00012235825980000002" name="Mg24" />
+    <nuclide ao="1.5528996000000002e-05" name="Mg25" />
+    <nuclide ao="1.70927442e-05" name="Mg26" />
+    <nuclide ao="2.7426e-05" name="Mn55" />
+    <nuclide ao="0.00011750659499999999" name="Cu63" />
+    <nuclide ao="5.2423405e-05" name="Cu65" />
   </material>
-
-  <!-- Duralumin bottom cylindrical shell (1.8155 g/cm3) -->
-  <material id="6">
+  <material id="6" name="Duralumin bottom cylindrical shell (1.8155 g/cm3)">
     <density units="sum" />
-    <element name="Al" ao="3.7928e-02" />
-    <element name="Mg" ao="6.7475e-04" />
-    <element name="Mn" ao="1.1941e-04" />
-    <element name="Cu" ao="7.3982e-04" />
+    <nuclide ao="0.037928" name="Al27" />
+    <nuclide ao="0.0005327218725" name="Mg24" />
+    <nuclide ao="6.760995e-05" name="Mg25" />
+    <nuclide ao="7.44181775e-05" name="Mg26" />
+    <nuclide ao="0.00011941" name="Mn55" />
+    <nuclide ao="0.00051158553" name="Cu63" />
+    <nuclide ao="0.00022823447" name="Cu65" />
   </material>
-
 </materials>

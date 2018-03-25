@@ -10,32 +10,30 @@
   ===========================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- Oralloy -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.3678e-4" />
-    <nuclide name="U-235" ao="4.7033e-2" />
-    <nuclide name="U-236" ao="9.5896e-5" />
-    <nuclide name="U-238" ao="4.7782e-4" />
+    <nuclide name="U234" ao="5.3678e-4" />
+    <nuclide name="U235" ao="4.7033e-2" />
+    <nuclide name="U236" ao="9.5896e-5" />
+    <nuclide name="U238" ao="4.7782e-4" />
   </material>
 
   <!-- Lucite -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="H-1"   ao="5.7745e-2" />
-    <nuclide name="C-Nat" ao="3.6090e-2" />
-    <nuclide name="O-16"  ao="1.4435e-2" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="H1"   ao="5.7745e-2" />
+    <nuclide name="C0" ao="3.6090e-2" />
+    <nuclide name="O16"  ao="1.4435e-2" />
+    <sab name="c_H_in_H2O" />
   </material>
 
   <!-- Water -->
   <material id="3">
     <density units="sum" />
-    <nuclide name="H-1"  ao="6.6807e-2" />
-    <nuclide name="O-16" ao="3.3403e-2" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide name="H1"  ao="6.6807e-2" />
+    <nuclide name="O16" ao="3.3403e-2" />
+    <sab name="c_H_in_H2O" />
   </material>
 
 </materials>

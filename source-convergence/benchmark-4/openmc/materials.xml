@@ -10,20 +10,18 @@
   ====================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- U fuel -->
   <material id="1">
     <density value="0.04805" units="atom/b-cm" />
-    <nuclide name="U-235"  ao="4.549e-02" />
-    <nuclide name="U-238"  ao="2.560e-03" />
+    <nuclide name="U235"  ao="4.549e-02" />
+    <nuclide name="U238"  ao="2.560e-03" />
   </material>
 
   <!-- Air -->
   <material id="2">
     <density value="5.406e-05" units="atom/b-cm" />
-    <nuclide name="N-14" ao="4.3250e-05" />
-    <nuclide name="O-16" ao="1.0810e-05"  />
+    <nuclide name="N14" ao="4.3250e-05" />
+    <nuclide name="O16" ao="1.0810e-05"  />
   </material>
 
 </materials>

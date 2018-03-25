@@ -1,56 +1,52 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
- 
-  <!--
-  ========================================================================
-  Description: STACY: Slabs of 10% Enriched Uranyl Nitrate Solution
-  Case:        LEU-SOL-THERM-016 Case 196
-  Written By:  Paul Romano
-  Date:        7/14/2013
-  ========================================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- Uranyl Nitrate Solution -->
-  <material id="1">
+  <material depletable="true" id="1" name="Uranyl Nitrate Solution">
     <density units="sum" />
-    <nuclide name="U-234" ao="6.1672e-07" />
-    <nuclide name="U-235" ao="7.6531e-05" />
-    <nuclide name="U-236" ao="7.6435e-08" />
-    <nuclide name="U-238" ao="6.8167e-04" />
-    <nuclide name="H-1"   ao="5.9066e-02" />
-    <nuclide name="N-14"  ao="2.0989e-03" />
-    <element name="O"     ao="3.7057e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide ao="6.1672e-07" name="U234" />
+    <nuclide ao="7.6531e-05" name="U235" />
+    <nuclide ao="7.6435e-08" name="U236" />
+    <nuclide ao="0.00068167" name="U238" />
+    <nuclide ao="0.059066" name="H1" />
+    <nuclide ao="0.0020989" name="N14" />
+    <nuclide ao="0.037042955397" name="O16" />
+    <nuclide ao="1.4044603e-05" name="O17" />
   </material>
-
-  <!-- Stainless steel -->
-  <material id="2">
+  <material id="2" name="Stainless steel">
     <density units="sum" />
-    <element name="C"  ao="7.1567e-05" />
-    <element name="Si" ao="7.1415e-03" />
-    <element name="Mn" ao="9.9095e-03" />
-    <element name="P"  ao="5.0879e-05" />
-    <element name="S"  ao="1.0424e-06" />
-    <element name="Ni" ao="8.5600e-03" />
-    <element name="Cr" ao="1.6725e-02" />
-    <element name="Fe" ao="5.9560e-02" />
+    <nuclide ao="7.1567e-05" name="C0" />
+    <nuclide ao="0.0065865825972" name="Si28" />
+    <nuclide ao="0.00033444787140000004" name="Si29" />
+    <nuclide ao="0.0002204695314" name="Si30" />
+    <nuclide ao="0.0099095" name="Mn55" />
+    <nuclide ao="5.0879e-05" name="P31" />
+    <nuclide ao="9.9070467376e-07" name="S32" />
+    <nuclide ao="7.80434456e-09" name="S33" />
+    <nuclide ao="4.373899976e-08" name="S34" />
+    <nuclide ao="1.5198192e-10" name="S36" />
+    <nuclide ao="0.00582738264" name="Ni58" />
+    <nuclide ao="0.00224469736" name="Ni60" />
+    <nuclide ao="9.757543999999999e-05" name="Ni61" />
+    <nuclide ao="0.00031111320000000003" name="Ni62" />
+    <nuclide ao="7.923136e-05" name="Ni64" />
+    <nuclide ao="0.00072670125" name="Cr50" />
+    <nuclide ao="0.01401371025" name="Cr52" />
+    <nuclide ao="0.00158904225" name="Cr53" />
+    <nuclide ao="0.00039554625" name="Cr54" />
+    <nuclide ao="0.003481282" name="Fe54" />
+    <nuclide ao="0.0546486824" name="Fe56" />
+    <nuclide ao="0.0012620764000000001" name="Fe57" />
+    <nuclide ao="0.0001679592" name="Fe58" />
   </material>
-
-  <!-- Water at 25 C -->
-  <material id="3">
+  <material id="3" name="Water at 25 C">
     <density units="sum" />
-    <nuclide name="H-1" ao="6.6658e-02" />
-    <element name="O"   ao="3.3329e-02" />
-    <sab name="HH2O" xs="71t" />
+    <nuclide ao="0.066658" name="H1" />
+    <nuclide ao="0.033316368309" name="O16" />
+    <nuclide ao="1.2631690999999998e-05" name="O17" />
   </material>
-
-  <!-- Air -->
-  <material id="4">
+  <material id="4" name="Air">
     <density units="sum" />
-    <nuclide name="N-14" ao="3.9016e-05" />
-    <element name="O"    ao="1.0409e-05" />
+    <nuclide ao="3.9016e-05" name="N14" />
+    <nuclide ao="1.0405054989e-05" name="O16" />
+    <nuclide ao="3.945011e-09" name="O17" />
   </material>
-
 </materials>

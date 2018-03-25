@@ -8,19 +8,17 @@
   ================================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-233" ao="4.7253e-02" />
-    <nuclide name="U-234" ao="5.2705e-04" />
-    <nuclide name="U-238" ao="3.2975e-04" />
+    <nuclide name="U233" ao="4.7253e-02" />
+    <nuclide name="U234" ao="5.2705e-04" />
+    <nuclide name="U238" ao="3.2975e-04" />
   </material>
 
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-235" ao="4.4892e-02" />
-    <nuclide name="U-238" ao="3.2340e-03" />
+    <nuclide name="U235" ao="4.4892e-02" />
+    <nuclide name="U238" ao="3.2340e-03" />
   </material>
 
 </materials>

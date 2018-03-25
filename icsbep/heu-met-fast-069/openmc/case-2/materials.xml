@@ -1,29 +1,14 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==========================================================================
-  Description: Oralloy (93.2 wt% U-235) Metal Cylinder with Be Top Reflector
-  Case:        HEU-MET-FAST-069 Simplified model
-  ==========================================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- HEU -->
-  <material id="1">
+  <material depletable="true" id="1" name="HEU">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.5958e-04" />
-    <nuclide name="U-235" ao="4.4736e-02" />
-    <nuclide name="U-236" ao="1.1523e-04" />
-    <nuclide name="U-238" ao="2.6745e-03" />
+    <nuclide ao="0.00045958" name="U234" />
+    <nuclide ao="0.044736" name="U235" />
+    <nuclide ao="0.00011523" name="U236" />
+    <nuclide ao="0.0026745" name="U238" />
   </material>
-
-  <!-- Beryllium -->
-  <material id="2">
+  <material id="2" name="Beryllium">
     <density units="sum" />
-    <element name="Be" ao="1.2056e-01" />
-    <sab name="Be" xs="71t" />
+    <nuclide ao="0.12056" name="Be9" />
   </material>
-
 </materials>

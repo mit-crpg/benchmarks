@@ -8,22 +8,20 @@
   ========================================================================
   -->
 
-  <default_xs>71c</default_xs>
-
   <!-- HEU Core -->
   <material id="1">
     <density units="sum" />
-    <nuclide name="U-234" ao="4.9210e-04" />
-    <nuclide name="U-235" ao="4.5109e-02" />
-    <nuclide name="U-238" ao="2.4096e-03" />
+    <nuclide name="U234" ao="4.9210e-04" />
+    <nuclide name="U235" ao="4.5109e-02" />
+    <nuclide name="U238" ao="2.4096e-03" />
   </material>
 
   <!-- Natural Uranium Reflector -->
   <material id="2">
     <density units="sum" />
-    <nuclide name="U-234" ao="2.6438e-06" />
-    <nuclide name="U-235" ao="3.4610e-04" />
-    <nuclide name="U-238" ao="4.7721e-02" />
+    <nuclide name="U234" ao="2.6438e-06" />
+    <nuclide name="U235" ao="3.4610e-04" />
+    <nuclide name="U238" ao="4.7721e-02" />
   </material>
 
 </materials>

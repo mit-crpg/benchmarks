@@ -1,32 +1,24 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ===============================================================
-  Description: Polyethylene-reflected sphere of 90% U-235, VNIIEF
-  Case:        HEU-MET-FAST-020 Simplified model
-  ===============================================================
-  -->
-
-  <default_xs>71c</default_xs>
-
-  <!-- HEU -->
-  <material id="1">
+  <material depletable="true" id="1" name="HEU">
     <density units="sum" />
-    <nuclide name="U-234" ao="5.2428e-04" />
-    <nuclide name="U-235" ao="4.2315e-02" />
-    <nuclide name="U-238" ao="4.3901e-03" />
-    <element name="C"     ao="1.0548e-03" />
-    <element name="Fe"    ao="1.8627e-04" />
-    <element name="W"     ao="5.2040e-05" />
+    <nuclide ao="0.00052428" name="U234" />
+    <nuclide ao="0.042315" name="U235" />
+    <nuclide ao="0.0043901" name="U238" />
+    <nuclide ao="0.0010548" name="C0" />
+    <nuclide ao="1.08874815e-05" name="Fe54" />
+    <nuclide ao="0.0001709101758" name="Fe56" />
+    <nuclide ao="3.9470613e-06" name="Fe57" />
+    <nuclide ao="5.252813999999999e-07" name="Fe58" />
+    <nuclide ao="6.2448e-08" name="W180" />
+    <nuclide ao="1.3790600000000001e-05" name="W182" />
+    <nuclide ao="7.4469240000000005e-06" name="W183" />
+    <nuclide ao="1.5945056e-05" name="W184" />
+    <nuclide ao="1.4794972000000002e-05" name="W186" />
   </material>
-
-  <!-- Polyethylene -->
-  <material id="2">
+  <material id="2" name="Polyethylene">
     <density units="sum" />
-    <nuclide name="H-1" ao="7.7711e-02" />
-    <element name="C"   ao="3.8856e-02" />
-    <sab name="HCH2" xs="71t" />
+    <nuclide ao="0.077711" name="H1" />
+    <nuclide ao="0.038856" name="C0" />
   </material>
-
 </materials>
