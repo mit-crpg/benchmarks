@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<materials>
+
+  <!--
+  =====================================================================
+  Description: Np-237 sphere reflected by HEU using Flattop
+  Case:        SPEC-MET-FAST-003
+  =====================================================================
+  -->
+
+  <default_xs>71c</default_xs>
+
+  <material id="1">
+    <density units="sum"/>
+    <nuclide name="Np-237" ao="5.1876e-2"/>
+  </material>
+
+  <material id="2">
+    <density units="sum"/>
+    <element name="Ni" ao="9.1322e-2"/>
+  </material>
+
+  <material id="3">
+    <density units="sum"/>
+    <nuclide name="U-234" ao="4.8869e-4"/>
+    <nuclide name="U-235" ao="4.4482e-2"/>
+    <nuclide name="U-238" ao="2.7038e-3"/>
+  </material>
+
+  <material id="4">
+    <density units="sum"/>
+    <nuclide name="U-235" ao="3.5050e-4"/>
+    <nuclide name="U-238" ao="4.7717e-2"/>
+  </material>
+
+</materials>

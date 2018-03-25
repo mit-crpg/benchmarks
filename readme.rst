@@ -39,6 +39,12 @@ c5g7
   assembly array.  This set also includes the additional set of problems from
   the OECD/NEA C5G7_3D_ Benchmark extension,
 
+mg-criticality
+  The suite of multi-group eigenvalue benchmarks from the
+  `Analytical Benchmark Test Set for Criticality Code Verification`_ paper by
+  A. Sood, R. A. Foster, and D. K. Parsons.
+
+
 .. _LA-UR-06-2968: http://mcd.ans.org/jb/bench/Doppler/Overview.pdf
 
 .. _International Handbook of Evaluated Criticality Safety Benchmark Experiments: http://icsbep.inel.gov/handbook.shtml
@@ -52,3 +58,5 @@ c5g7
 .. _C5G7: https://www.oecd-nea.org/science/docs/2003/nsc-doc2003-16.pdf
 
 .. _C5G7_3d: https://www.oecd-nea.org/science/docs/2005/nsc-doc2005-16.pdf
+
+.. _Analytical Benchmark Test Set for Criticality Code Verification: https://www.osti.gov/scitech/servlets/purl/762839

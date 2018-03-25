@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<settings>
+
+  <!--
+  =====================================================================
+  Description: Np-237 sphere reflected by HEU using Flattop
+  Case:        SPEC-MET-FAST-003
+  =====================================================================
+  -->
+ 
+  <eigenvalue>
+    <batches>3000</batches>
+    <inactive>20</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <source>
+    <space>
+      <type>box</type>
+      <parameters>-25. -25. -25. 25. 25. 25.</parameters>
+    </space>
+  </source>
+
+</settings>
