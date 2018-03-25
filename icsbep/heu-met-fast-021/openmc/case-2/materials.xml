@@ -1,48 +1,65 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ===============================================
-  Description: Steel reflected HEU sphere, VNIIEF
-  Case:        HEU-MET-FAST-021 Simplified model
-  Written By:  Paul Romano
-  Date:        1/3/2012
-  ===============================================
-  -->
-
-  <!-- HEU -->
-  <material id="1">
+  <material depletable="true" id="1" name="HEU">
     <density units="sum" />
-    <nuclide name="U234" ao="5.2087e-04" />
-    <nuclide name="U235" ao="4.2023e-02" />
-    <nuclide name="U238" ao="4.3613e-03" />
-    <element name="C"     ao="1.0919e-03" />
-    <element name="Fe"    ao="1.9435e-04" />
-    <element name="W"     ao="5.5050e-05" />
+    <nuclide ao="0.00052087" name="U234" />
+    <nuclide ao="0.042023" name="U235" />
+    <nuclide ao="0.0043613" name="U238" />
+    <nuclide ao="0.0010919" name="C0" />
+    <nuclide ao="1.1359757500000001e-05" name="Fe54" />
+    <nuclide ao="0.00017832389900000002" name="Fe56" />
+    <nuclide ao="4.1182765e-06" name="Fe57" />
+    <nuclide ao="5.48067e-07" name="Fe58" />
+    <nuclide ao="6.606e-08" name="W180" />
+    <nuclide ao="1.4588250000000002e-05" name="W182" />
+    <nuclide ao="7.877655000000001e-06" name="W183" />
+    <nuclide ao="1.686732e-05" name="W184" />
+    <nuclide ao="1.5650715e-05" name="W186" />
   </material>
-
-  <!-- Steel reflector 1 -->
-  <material id="2">
+  <material id="2" name="Steel reflector 1">
     <density units="sum" />
-    <element name="Fe" ao="7.9417e-02" />
-    <element name="C"  ao="1.1269e-03" />
-    <element name="Si" ao="1.6065e-04" />
-    <element name="Cr" ao="2.6032e-04" />
-    <element name="Mn" ao="3.2851e-04" />
-    <element name="Ni" ao="2.3063e-04" />
-    <element name="Cu" ao="2.1301e-04" />
+    <nuclide ao="0.00464192365" name="Fe54" />
+    <nuclide ao="0.07286827418" name="Fe56" />
+    <nuclide ao="0.0016828462300000002" name="Fe57" />
+    <nuclide ao="0.00022395594" name="Fe58" />
+    <nuclide ao="0.0011269" name="C0" />
+    <nuclide ao="0.00014816698092000002" name="Si28" />
+    <nuclide ao="7.523496540000001e-06" name="Si29" />
+    <nuclide ao="4.95952254e-06" name="Si30" />
+    <nuclide ao="1.1310904e-05" name="Cr50" />
+    <nuclide ao="0.0002181195248" name="Cr52" />
+    <nuclide ao="2.4733003199999997e-05" name="Cr53" />
+    <nuclide ao="6.156568e-06" name="Cr54" />
+    <nuclide ao="0.00032851" name="Mn55" />
+    <nuclide ao="0.00015700575447" name="Ni58" />
+    <nuclide ao="6.0478335529999997e-05" name="Ni60" />
+    <nuclide ao="2.6289513699999997e-06" name="Ni61" />
+    <nuclide ao="8.38224735e-06" name="Ni62" />
+    <nuclide ao="2.1347112800000003e-06" name="Ni64" />
+    <nuclide ao="0.000147296415" name="Cu63" />
+    <nuclide ao="6.571358499999999e-05" name="Cu65" />
   </material>
-
-  <!-- Steel reflector 2 -->
-  <material id="3">
+  <material id="3" name="Steel reflector 2">
     <density units="sum" />
-    <element name="Fe" ao="7.9045e-02" />
-    <element name="C"  ao="1.1217e-03" />
-    <element name="Si" ao="1.5990e-04" />
-    <element name="Cr" ao="2.5910e-04" />
-    <element name="Mn" ao="3.2697e-04" />
-    <element name="Ni" ao="2.2955e-04" />
-    <element name="Cu" ao="2.1201e-04" />
+    <nuclide ao="0.0046201802500000005" name="Fe54" />
+    <nuclide ao="0.0725269493" name="Fe56" />
+    <nuclide ao="0.0016749635500000002" name="Fe57" />
+    <nuclide ao="0.00022290690000000002" name="Fe58" />
+    <nuclide ao="0.0011217" name="C0" />
+    <nuclide ao="0.00014747525832000001" name="Si28" />
+    <nuclide ao="7.488372840000001e-06" name="Si29" />
+    <nuclide ao="4.93636884e-06" name="Si30" />
+    <nuclide ao="1.1257895e-05" name="Cr50" />
+    <nuclide ao="0.00021709729900000002" name="Cr52" />
+    <nuclide ao="2.4617091e-05" name="Cr53" />
+    <nuclide ao="6.127715000000001e-06" name="Cr54" />
+    <nuclide ao="0.00032697" name="Mn55" />
+    <nuclide ao="0.00015627052395" name="Ni58" />
+    <nuclide ao="6.0195126049999996e-05" name="Ni60" />
+    <nuclide ao="2.6166404499999996e-06" name="Ni61" />
+    <nuclide ao="8.34299475e-06" name="Ni62" />
+    <nuclide ao="2.1247148e-06" name="Ni64" />
+    <nuclide ao="0.000146604915" name="Cu63" />
+    <nuclide ao="6.5405085e-05" name="Cu65" />
   </material>
-
 </materials>

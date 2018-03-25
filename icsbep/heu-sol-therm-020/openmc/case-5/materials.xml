@@ -1,48 +1,45 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==============================================================================
-  Description: Unreflected cylinders of uranyl-fluoride solutions in heavy water
-  Case:        HEU-SOL-THERM-020 Case 5
-  ==============================================================================
-  -->
-
-  <!-- UO2F2/D2O Solution -->
-  <material id="1">
+  <material depletable="true" id="1" name="UO2F2/D2O Solution">
     <density units="sum" />
-    <nuclide name="U234" ao="3.4751e-07" />
-    <nuclide name="U235" ao="3.1770e-05" />
-    <nuclide name="U238" ao="1.7853e-06" />
-    <element name="F"     ao="6.7806e-05" />
-    <element name="O"     ao="3.3125e-02" />
-    <nuclide name="H2"   ao="6.5453e-02" />
-    <nuclide name="H1"   ao="6.6114e-04" />
-    <sab name="c_H_in_H2O" />
-    <sab name="c_D_in_D2O" />
+    <nuclide ao="3.4751e-07" name="U234" />
+    <nuclide ao="3.177e-05" name="U235" />
+    <nuclide ao="1.7853e-06" name="U238" />
+    <nuclide ao="6.7806e-05" name="F19" />
+    <nuclide ao="0.033112445625" name="O16" />
+    <nuclide ao="1.2554375000000001e-05" name="O17" />
+    <nuclide ao="0.065453" name="H2" />
+    <nuclide ao="0.00066114" name="H1" />
   </material>
-
-  <!-- 321 Stainless Steel -->
-  <material id="2">
+  <material id="2" name="321 Stainless Steel">
     <density units="sum" />
-    <element name="Fe" ao="5.9355e-02" />
-    <element name="Cr" ao="1.6511e-02" />
-    <element name="Ni" ao="7.7203e-03" />
-    <element name="Mn" ao="1.7363e-03" />
-    <element name="Si" ao="1.6982e-03" />
+    <nuclide ao="0.00346929975" name="Fe54" />
+    <nuclide ao="0.0544605867" name="Fe56" />
+    <nuclide ao="0.00125773245" name="Fe57" />
+    <nuclide ao="0.0001673811" name="Fe58" />
+    <nuclide ao="0.0007174029500000001" name="Cr50" />
+    <nuclide ao="0.01383440179" name="Cr52" />
+    <nuclide ao="0.00156871011" name="Cr53" />
+    <nuclide ao="0.00039048515000000004" name="Cr54" />
+    <nuclide ao="0.0052557409107" name="Ni58" />
+    <nuclide ao="0.0020245019893" name="Ni60" />
+    <nuclide ao="8.80036997e-05" name="Ni61" />
+    <nuclide ao="0.00028059430350000004" name="Ni62" />
+    <nuclide ao="7.14590968e-05" name="Ni64" />
+    <nuclide ao="0.0017363" name="Mn55" />
+    <nuclide ao="0.00156624442576" name="Si28" />
+    <nuclide ao="7.952942312e-05" name="Si29" />
+    <nuclide ao="5.242615112e-05" name="Si30" />
   </material>
-
-  <!-- Dry Air -->
-  <material id="3">
+  <material id="3" name="Dry Air">
     <density units="sum" />
-    <element name="N" ao="3.2269e-05" />
-    <element name="O" ao="8.6569e-06" />
+    <nuclide ao="3.2150798653e-05" name="N14" />
+    <nuclide ao="1.18201347e-07" name="N15" />
+    <nuclide ao="8.6536190349e-06" name="O16" />
+    <nuclide ao="3.2809651e-09" name="O17" />
   </material>
-
-  <!-- Aluminum -->
-  <material id="4">
+  <material id="4" name="Aluminum">
     <density units="sum" />
-    <element name="Al" ao="6.0262e-02" />
+    <nuclide ao="0.060262" name="Al27" />
   </material>
-
 </materials>

@@ -1,26 +1,13 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =======================================================================
-  Description: 235U (94%) spheres surrounded by Be or C reflectors
-  Case:        HEU-MET-FAST-041 Case 2
-  =======================================================================
-  -->
-
-  <!-- HEU -->
-  <material id="1">
+  <material depletable="true" id="1" name="HEU">
     <density units="sum" />
-    <nuclide name="U234" ao="4.8817e-04" />
-    <nuclide name="U235" ao="4.4605e-02" />
-    <nuclide name="U238" ao="2.5315e-03" />
+    <nuclide ao="0.00048817" name="U234" />
+    <nuclide ao="0.044605" name="U235" />
+    <nuclide ao="0.0025315" name="U238" />
   </material>
-
-  <!-- Beryllium -->
-  <material id="2">
+  <material id="2" name="Beryllium">
     <density units="sum" />
-    <element name="Be" ao="1.2295e-01" />
-    <sab name="c_Be" />
+    <nuclide ao="0.12295" name="Be9" />
   </material>
-
 </materials>

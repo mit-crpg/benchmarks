@@ -1,0 +1,19 @@
+import openmc
+
+mats = openmc.Materials()
+
+mat = openmc.Material(1)
+mat.name = "HEU"
+mat.set_density('sum')
+mat.add_nuclide('U234', 4.8554e-04)
+mat.add_nuclide('U235', 4.4508e-02)
+mat.add_nuclide('U238', 2.3775e-03)
+mats.append(mat)
+
+mat = openmc.Material(2)
+mat.name = "Beryllium"
+mat.set_density('sum')
+mat.add_element('Be', 1.2295e-01)
+mats.append(mat)
+
+mats.export_to_xml()

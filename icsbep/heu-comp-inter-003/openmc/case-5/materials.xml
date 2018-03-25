@@ -1,104 +1,108 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =========================================================
-  Description: Reflected Uranium-Hydride Critical Assembly
-  Case:        HEU-COMP-INTER-003 Case 5
-  =========================================================
-  -->
-
-  <!-- Aluminum -->
-  <material id="1">
+  <material id="1" name="Aluminum">
     <density units="sum" />
-    <nuclide name="Al27" ao="6.0239e-02" />
+    <nuclide ao="0.060239" name="Al27" />
   </material>
-
-  <!-- Depleted Uranium -->
-  <material id="2">
+  <material depletable="true" id="2" name="Depleted Uranium">
     <density units="sum" />
-    <nuclide name="U235" ao="9.7360e-05" />
-    <nuclide name="U238" ao="4.7969e-02" />
+    <nuclide ao="9.736e-05" name="U235" />
+    <nuclide ao="0.047969" name="U238" />
   </material>
-
-  <!-- SAE 1020 Steel -->
-  <material id="3">
+  <material id="3" name="SAE 1020 Steel">
     <density units="sum" />
-    <element name="Fe" ao="6.9267e-02" />
-    <element name="C"  ao="5.4977e-04" />
-    <element name="Mn" ao="1.6969e-04" />
+    <nuclide ao="0.00404865615" name="Fe54" />
+    <nuclide ao="0.06355524318" name="Fe56" />
+    <nuclide ao="0.00146776773" name="Fe57" />
+    <nuclide ao="0.00019533293999999998" name="Fe58" />
+    <nuclide ao="0.00054977" name="C0" />
+    <nuclide ao="0.00016969" name="Mn55" />
   </material>
-
-  <!-- Fe -->
-  <material id="4">
+  <material id="4" name="Fe">
     <density units="sum" />
-    <element name="Fe" ao="8.5834e-02" />
+    <nuclide ao="0.0050169973" name="Fe54" />
+    <nuclide ao="0.07875612836" name="Fe56" />
+    <nuclide ao="0.00181882246" name="Fe57" />
+    <nuclide ao="0.00024205187999999997" name="Fe58" />
   </material>
-
-  <!-- Be -->
-  <material id="5">
+  <material id="5" name="Be">
     <density units="sum" />
-    <nuclide name="Be9" ao="1.2295e-01" />
+    <nuclide ao="0.12295" name="Be9" />
   </material>
-
-  <!-- HEU, Can I -->
-  <material id="11">
+  <material depletable="true" id="11" name="HEU, Can I">
     <density units="sum" />
-    <nuclide name="U234" ao="2.5279e-04" />
-    <nuclide name="U235" ao="2.3450e-02" />
-    <nuclide name="U236" ao="1.1027e-04" />
-    <nuclide name="U238" ao="1.3421e-03" />
-    <element name="H"     ao="7.3871e-02" />
-    <element name="O"     ao="8.5553e-04" />
-    <element name="C"     ao="1.4562e-04" />
-    <element name="N"     ao="1.3593e-03" />
-    <element name="Fe"    ao="3.6677e-05" />
-    <element name="Au"    ao="3.3980e-04" />
+    <nuclide ao="0.00025279" name="U234" />
+    <nuclide ao="0.02345" name="U235" />
+    <nuclide ao="0.00011027" name="U236" />
+    <nuclide ao="0.0013421" name="U238" />
+    <nuclide ao="0.07385949533046" name="H1" />
+    <nuclide ao="1.1504669540000001e-05" name="H2" />
+    <nuclide ao="0.0008552057541299999" name="O16" />
+    <nuclide ao="3.2424587e-07" name="O17" />
+    <nuclide ao="0.00014562" name="C0" />
+    <nuclide ao="0.0013543208841" name="N14" />
+    <nuclide ao="4.9791159e-06" name="N15" />
+    <nuclide ao="2.14377065e-06" name="Fe54" />
+    <nuclide ao="3.3652614580000005e-05" name="Fe56" />
+    <nuclide ao="7.7718563e-07" name="Fe57" />
+    <nuclide ao="1.0342914000000001e-07" name="Fe58" />
+    <nuclide ao="0.0003398" name="Au197" />
   </material>
-
-  <!-- HEU, Can II -->
-  <material id="12">
+  <material depletable="true" id="12" name="HEU, Can II">
     <density units="sum" />
-    <nuclide name="U234" ao="2.5484e-04" />
-    <nuclide name="U235" ao="2.3409e-02" />
-    <nuclide name="U236" ao="1.0757e-04" />
-    <nuclide name="U238" ao="1.3371e-03" />
-    <element name="H"     ao="7.5396e-02" />
-    <element name="O"     ao="5.6703e-04" />
-    <element name="C"     ao="1.9893e-04" />
-    <element name="N"     ao="1.9699e-04" />
-    <element name="Fe"    ao="3.8266e-05" />
-    <element name="Au"    ao="3.3787e-04" />
+    <nuclide ao="0.00025484" name="U234" />
+    <nuclide ao="0.023409" name="U235" />
+    <nuclide ao="0.00010757" name="U236" />
+    <nuclide ao="0.0013371" name="U238" />
+    <nuclide ao="0.07538425782696001" name="H1" />
+    <nuclide ao="1.174217304e-05" name="H2" />
+    <nuclide ao="0.00056681509563" name="O16" />
+    <nuclide ao="2.1490437000000002e-07" name="O17" />
+    <nuclide ao="0.00019893" name="C0" />
+    <nuclide ao="0.00019626842563" name="N14" />
+    <nuclide ao="7.2157437e-07" name="N15" />
+    <nuclide ao="2.2366477e-06" name="Fe54" />
+    <nuclide ao="3.5110585640000004e-05" name="Fe56" />
+    <nuclide ao="8.1085654e-07" name="Fe57" />
+    <nuclide ao="1.0791012e-07" name="Fe58" />
+    <nuclide ao="0.00033787" name="Au197" />
   </material>
-
-  <!-- HEU, Can III -->
-  <material id="13">
+  <material depletable="true" id="13" name="HEU, Can III">
     <density units="sum" />
-    <nuclide name="U234" ao="2.5651e-04" />
-    <nuclide name="U235" ao="2.3550e-02" />
-    <nuclide name="U236" ao="1.0829e-04" />
-    <nuclide name="U238" ao="1.3584e-03" />
-    <element name="H"     ao="6.9913e-02" />
-    <element name="O"     ao="4.8424e-04" />
-    <element name="C"     ao="1.5288e-04" />
-    <element name="N"     ao="2.0644e-04" />
-    <element name="Fe"    ao="1.0366e-04" />
-    <element name="Au"    ao="3.4242e-04" />
+    <nuclide ao="0.00025651" name="U234" />
+    <nuclide ao="0.02355" name="U235" />
+    <nuclide ao="0.00010829" name="U236" />
+    <nuclide ao="0.0013584" name="U238" />
+    <nuclide ao="0.06990211174938" name="H1" />
+    <nuclide ao="1.088825062e-05" name="H2" />
+    <nuclide ao="0.00048405647304" name="O16" />
+    <nuclide ao="1.8352696e-07" name="O17" />
+    <nuclide ao="0.00015288" name="C0" />
+    <nuclide ao="0.00020568381028" name="N14" />
+    <nuclide ao="7.5618972e-07" name="N15" />
+    <nuclide ao="6.058927e-06" name="Fe54" />
+    <nuclide ao="9.51121964e-05" name="Fe56" />
+    <nuclide ao="2.1965554e-06" name="Fe57" />
+    <nuclide ao="2.9232119999999997e-07" name="Fe58" />
+    <nuclide ao="0.00034242" name="Au197" />
   </material>
-
-  <!-- HEU, Can IV -->
-  <material id="14">
+  <material depletable="true" id="14" name="HEU, Can IV">
     <density units="sum" />
-    <nuclide name="U234" ao="2.4873e-04" />
-    <nuclide name="U235" ao="2.2939e-02" />
-    <nuclide name="U236" ao="1.0390e-04" />
-    <nuclide name="U238" ao="1.3117e-03" />
-    <element name="H"     ao="7.2725e-02" />
-    <element name="O"     ao="6.3713e-04" />
-    <element name="C"     ao="1.5539e-04" />
-    <element name="N"     ao="2.4400e-04" />
-    <element name="Fe"    ao="2.0435e-05" />
-    <element name="Au"    ao="3.4196e-04" />
+    <nuclide ao="0.00024873" name="U234" />
+    <nuclide ao="0.022939" name="U235" />
+    <nuclide ao="0.0001039" name="U236" />
+    <nuclide ao="0.0013117" name="U238" />
+    <nuclide ao="0.0727136738085" name="H1" />
+    <nuclide ao="1.13261915e-05" name="H2" />
+    <nuclide ao="0.00063688852773" name="O16" />
+    <nuclide ao="2.4147227e-07" name="O17" />
+    <nuclide ao="0.00015539" name="C0" />
+    <nuclide ao="0.000243106228" name="N14" />
+    <nuclide ao="8.93772e-07" name="N15" />
+    <nuclide ao="1.19442575e-06" name="Fe54" />
+    <nuclide ao="1.8749929900000002e-05" name="Fe56" />
+    <nuclide ao="4.3301765e-07" name="Fe57" />
+    <nuclide ao="5.76267e-08" name="Fe58" />
+    <nuclide ao="0.00034196" name="Au197" />
   </material>
-
 </materials>

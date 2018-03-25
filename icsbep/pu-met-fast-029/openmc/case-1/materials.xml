@@ -1,76 +1,88 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =======================================================
-  Description: Bare sphere of Pu-239 (alpha, 88%), VNIIEF
-  Case:        PU-MET-FAST-029 Detailed model
-  =======================================================
-  -->
-
-  <!-- Layer 1 -->
-  <material id="1">
+  <material depletable="true" id="1" name="Layer 1">
     <density units="sum" />
-    <nuclide name="Pu239" ao="4.0892e-02" />
-    <nuclide name="Pu240" ao="4.7716e-03" />
-    <nuclide name="Pu241" ao="8.9384e-04" />
-    <element name="Fe"     ao="2.9986e-04" />
-    <element name="C"      ao="1.9577e-03" />
-    <element name="H"      ao="8.1909e-04" />
-    <element name="N"      ao="8.8411e-05" />
-    <element name="O"      ao="1.3106e-04" />
+    <nuclide ao="0.040892" name="Pu239" />
+    <nuclide ao="0.0047716" name="Pu240" />
+    <nuclide ao="0.00089384" name="Pu241" />
+    <nuclide ao="1.7526817e-05" name="Fe54" />
+    <nuclide ao="0.0002751335444" name="Fe56" />
+    <nuclide ao="6.3540334e-06" name="Fe57" />
+    <nuclide ao="8.456052e-07" name="Fe58" />
+    <nuclide ao="0.0019577" name="C0" />
+    <nuclide ao="0.0008189624349234" name="H1" />
+    <nuclide ao="1.275650766e-07" name="H2" />
+    <nuclide ao="8.808715050700001e-05" name="N14" />
+    <nuclide ao="3.23849493e-07" name="N15" />
+    <nuclide ao="0.00013101032826" name="O16" />
+    <nuclide ao="4.9671740000000006e-08" name="O17" />
   </material>
-
-  <!-- Layer 2 -->
-  <material id="2">
+  <material depletable="true" id="2" name="Layer 2">
     <density units="sum" />
-    <nuclide name="Pu239" ao="4.2276e-02" />
-    <nuclide name="Pu240" ao="4.6060e-03" />
-    <nuclide name="Pu241" ao="6.7147e-04" />
-    <element name="Fe"     ao="2.6534e-04" />
-    <element name="C"      ao="1.1053e-03" />
-    <element name="H"      ao="2.0011e-04" />
-    <element name="N"      ao="2.1600e-05" />
-    <element name="O"      ao="3.2020e-05" />
+    <nuclide ao="0.042276" name="Pu239" />
+    <nuclide ao="0.004606" name="Pu240" />
+    <nuclide ao="0.00067147" name="Pu241" />
+    <nuclide ao="1.5509123e-05" name="Fe54" />
+    <nuclide ao="0.00024346006359999997" name="Fe56" />
+    <nuclide ao="5.6225546e-06" name="Fe57" />
+    <nuclide ao="7.482587999999999e-07" name="Fe58" />
+    <nuclide ao="0.0011053" name="C0" />
+    <nuclide ao="0.00020007883486860002" name="H1" />
+    <nuclide ao="3.11651314e-08" name="H2" />
+    <nuclide ao="2.1520879200000002e-05" name="N14" />
+    <nuclide ao="7.91208e-08" name="N15" />
+    <nuclide ao="3.200786442e-05" name="O16" />
+    <nuclide ao="1.213558e-08" name="O17" />
   </material>
-
-  <!-- Layer 3 -->
-  <material id="3">
+  <material depletable="true" id="3" name="Layer 3">
     <density units="sum" />
-    <nuclide name="Pu239" ao="4.1681e-02" />
-    <nuclide name="Pu240" ao="4.7176e-03" />
-    <nuclide name="Pu241" ao="7.4079e-04" />
-    <element name="Fe"     ao="3.0356e-04" />
-    <element name="C"      ao="1.1922e-03" />
-    <element name="H"      ao="2.7505e-04" />
-    <element name="N"      ao="2.9688e-05" />
-    <element name="O"      ao="4.4011e-05" />
+    <nuclide ao="0.041681" name="Pu239" />
+    <nuclide ao="0.0047176" name="Pu240" />
+    <nuclide ao="0.00074079" name="Pu241" />
+    <nuclide ao="1.7743082e-05" name="Fe54" />
+    <nuclide ao="0.0002785284424" name="Fe56" />
+    <nuclide ao="6.4324363999999995e-06" name="Fe57" />
+    <nuclide ao="8.560391999999999e-07" name="Fe58" />
+    <nuclide ao="0.0011922" name="C0" />
+    <nuclide ao="0.000275007163713" name="H1" />
+    <nuclide ao="4.2836286999999996e-08" name="H2" />
+    <nuclide ao="2.9579252856000002e-05" name="N14" />
+    <nuclide ao="1.0874714400000001e-07" name="N15" />
+    <nuclide ao="4.3994319831e-05" name="O16" />
+    <nuclide ao="1.6680169000000002e-08" name="O17" />
   </material>
-
-  <!-- Layer 4 -->
-  <material id="4">
+  <material depletable="true" id="4" name="Layer 4">
     <density units="sum" />
-    <nuclide name="Pu239" ao="4.2431e-02" />
-    <nuclide name="Pu240" ao="4.3997e-03" />
-    <nuclide name="Pu241" ao="5.9425e-04" />
-    <element name="Fe"     ao="2.8500e-04" />
-    <element name="C"      ao="1.3956e-03" />
-    <element name="H"      ao="4.3308e-04" />
-    <element name="N"      ao="4.6746e-05" />
-    <element name="O"      ao="6.9297e-05" />
+    <nuclide ao="0.042431" name="Pu239" />
+    <nuclide ao="0.0043997" name="Pu240" />
+    <nuclide ao="0.00059425" name="Pu241" />
+    <nuclide ao="1.665825e-05" name="Fe54" />
+    <nuclide ao="0.0002614989" name="Fe56" />
+    <nuclide ao="6.03915e-06" name="Fe57" />
+    <nuclide ao="8.036999999999999e-07" name="Fe58" />
+    <nuclide ao="0.0013956" name="C0" />
+    <nuclide ao="0.0004330125521208" name="H1" />
+    <nuclide ao="6.74478792e-08" name="H2" />
+    <nuclide ao="4.6574769402e-05" name="N14" />
+    <nuclide ao="1.71230598e-07" name="N15" />
+    <nuclide ao="6.9270736437e-05" name="O16" />
+    <nuclide ao="2.6263563e-08" name="O17" />
   </material>
-
-  <!-- Layer 5 -->
-  <material id="5">
+  <material depletable="true" id="5" name="Layer 5">
     <density units="sum" />
-    <nuclide name="Pu239" ao="4.1407e-02" />
-    <nuclide name="Pu240" ao="4.8168e-03" />
-    <nuclide name="Pu241" ao="8.4787e-04" />
-    <element name="Fe"     ao="3.6395e-04" />
-    <element name="C"      ao="1.3617e-03" />
-    <element name="H"      ao="2.6092e-04" />
-    <element name="N"      ao="2.8163e-05" />
-    <element name="O"      ao="4.1749e-05" />
+    <nuclide ao="0.041407" name="Pu239" />
+    <nuclide ao="0.0048168" name="Pu240" />
+    <nuclide ao="0.00084787" name="Pu241" />
+    <nuclide ao="2.12728775e-05" name="Fe54" />
+    <nuclide ao="0.00033393868299999997" name="Fe56" />
+    <nuclide ao="7.7121005e-06" name="Fe57" />
+    <nuclide ao="1.026339e-06" name="Fe58" />
+    <nuclide ao="0.0013617" name="C0" />
+    <nuclide ao="0.0002608793643192" name="H1" />
+    <nuclide ao="4.06356808e-08" name="H2" />
+    <nuclide ao="2.8059838931000004e-05" name="N14" />
+    <nuclide ao="1.03161069e-07" name="N15" />
+    <nuclide ao="4.1733177129e-05" name="O16" />
+    <nuclide ao="1.5822871e-08" name="O17" />
   </material>
-
 </materials>

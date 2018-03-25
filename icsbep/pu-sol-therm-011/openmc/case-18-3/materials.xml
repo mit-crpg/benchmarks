@@ -1,37 +1,42 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ======================================================
-  Description: Bare Sphere of Plutonium Nitrate Solution
-  Case:        PU-SOL-THERM-011 Case 18-3
-  ======================================================
-  -->
-
-  <!-- Plutonium nitrate solution -->
-  <material id="1">
+  <material depletable="true" id="1" name="Plutonium nitrate solution">
     <density units="sum" />
-    <nuclide name="Pu239" ao="5.5748e-05" />
-    <nuclide name="Pu240" ao="2.4339e-06" />
-    <nuclide name="N14"   ao="1.0468e-03" />
-    <nuclide name="H1"    ao="6.4569e-02" />
-    <nuclide name="O16"   ao="3.5018e-02" />
-    <element name="Fe"     ao="1.4557e-06" />
-    <sab name="c_H_in_H2O" />
+    <nuclide ao="5.5748e-05" name="Pu239" />
+    <nuclide ao="2.4339e-06" name="Pu240" />
+    <nuclide ao="0.0010468" name="N14" />
+    <nuclide ao="0.064569" name="H1" />
+    <nuclide ao="0.035018" name="O16" />
+    <nuclide ao="8.508566500000001e-08" name="Fe54" />
+    <nuclide ao="1.3356629780000001e-06" name="Fe56" />
+    <nuclide ao="3.0846283000000005e-08" name="Fe57" />
+    <nuclide ao="4.105074000000001e-09" name="Fe58" />
   </material>
-
-  <!-- 347 Stainless Steel -->
-  <material id="2">
+  <material id="2" name="347 Stainless Steel">
     <density units="sum" />
-    <element name="Fe" ao="6.0386e-03" />
-    <element name="Cr" ao="1.6678e-02" />
-    <element name="Ni" ao="9.8504e-03" />
+    <nuclide ao="0.00035295617" name="Fe54" />
+    <nuclide ao="0.005540657044" name="Fe56" />
+    <nuclide ao="0.000127957934" name="Fe57" />
+    <nuclide ao="1.7028852e-05" name="Fe58" />
+    <nuclide ao="0.0007246590999999999" name="Cr50" />
+    <nuclide ao="0.013974329419999999" name="Cr52" />
+    <nuclide ao="0.0015845767799999998" name="Cr53" />
+    <nuclide ao="0.00039443469999999995" name="Cr54" />
+    <nuclide ao="0.0067058469576" name="Ni58" />
+    <nuclide ao="0.0025830802424" name="Ni60" />
+    <nuclide ao="0.0001122847096" name="Ni61" />
+    <nuclide ao="0.00035801278800000005" name="Ni62" />
+    <nuclide ao="9.117530240000001e-05" name="Ni64" />
   </material>
-
-  <!-- Cadmium -->
-  <material id="3">
+  <material id="3" name="Cadmium">
     <density units="sum" />
-    <element name="Cd" ao="4.6340e-02" />
+    <nuclide ao="0.000576933" name="Cd106" />
+    <nuclide ao="0.0004114992" name="Cd108" />
+    <nuclide ao="0.005778598" name="Cd110" />
+    <nuclide ao="0.005929203" name="Cd111" />
+    <nuclide ao="0.0111721106" name="Cd112" />
+    <nuclide ao="0.0056659918" name="Cd113" />
+    <nuclide ao="0.0133246036" name="Cd114" />
+    <nuclide ao="0.0034810608" name="Cd116" />
   </material>
-
 </materials>

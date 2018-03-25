@@ -1,26 +1,16 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ================================================
-  Description: Plutonium sphere reflected by Water
-  Case:        PU-MET-FAST-011
-  ================================================
-  -->
-
-  <material id="1">
+  <material depletable="true" id="1">
     <density units="sum" />
-    <nuclide name="Pu239" ao="4.6982e-02" />
-    <nuclide name="Pu240" ao="2.5852e-03" />
-    <nuclide name="Pu241" ao="1.4915e-04" />
-    <nuclide name="Pu242" ao="9.9432e-06" />
+    <nuclide ao="0.046982" name="Pu239" />
+    <nuclide ao="0.0025852" name="Pu240" />
+    <nuclide ao="0.00014915" name="Pu241" />
+    <nuclide ao="9.9432e-06" name="Pu242" />
   </material>
-
   <material id="2">
     <density units="sum" />
-    <nuclide name="H1" ao="6.6766e-02" />
-    <element name="O"   ao="3.3383e-02" />
-    <sab name="c_H_in_H2O" />
+    <nuclide ao="0.066766" name="H1" />
+    <nuclide ao="0.033370347843000005" name="O16" />
+    <nuclide ao="1.2652157000000001e-05" name="O17" />
   </material>
-
 </materials>

@@ -1,23 +1,20 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =======================================================
-  Description: Bare sphere of Pu-239 (alpha, 88%), VNIIEF
-  Case:        PU-MET-FAST-029 Simplified model
-  =======================================================
-  -->
-
-  <material id="1">
+  <material depletable="true" id="1">
     <density units="sum" />
-    <nuclide name="Pu239" ao="4.1923e-02" />
-    <nuclide name="Pu240" ao="4.6622e-03" />
-    <nuclide name="Pu241" ao="7.3273e-04" />
-    <element name="Fe"     ao="3.1294e-04" />
-    <element name="C"      ao="1.2949e-03" />
-    <element name="H"      ao="3.0212e-04" />
-    <element name="N"      ao="3.2610e-05" />
-    <element name="O"      ao="4.8343e-05" />
+    <nuclide ao="0.041923" name="Pu239" />
+    <nuclide ao="0.0046622" name="Pu240" />
+    <nuclide ao="0.00073273" name="Pu241" />
+    <nuclide ao="1.8291343e-05" name="Fe54" />
+    <nuclide ao="0.0002871349676" name="Fe56" />
+    <nuclide ao="6.6311986e-06" name="Fe57" />
+    <nuclide ao="8.824908e-07" name="Fe58" />
+    <nuclide ao="0.0012949" name="C0" />
+    <nuclide ao="0.00030207294783120005" name="H1" />
+    <nuclide ao="4.7052168800000004e-08" name="H2" />
+    <nuclide ao="3.2490549570000004e-05" name="N14" />
+    <nuclide ao="1.1945043e-07" name="N15" />
+    <nuclide ao="4.8324678003e-05" name="O16" />
+    <nuclide ao="1.8321997e-08" name="O17" />
   </material>
-
 </materials>

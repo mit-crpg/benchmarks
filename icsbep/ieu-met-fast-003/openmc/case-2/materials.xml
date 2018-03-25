@@ -1,24 +1,26 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =================================================
-  Description: Bare Spherical Assembly of 36% U-235
-  Case:        IEU-MET-FAST-003 Simplified model
-  =================================================
-  -->
-
-  <!-- 36 wt% U-235 -->
-  <material id="1">
+  <material depletable="true" id="1" name="36 wt% U-235">
     <density units="sum" />
-    <nuclide name="U234" ao="1.5272e-04" />
-    <nuclide name="U235" ao="1.7118e-02" />
-    <nuclide name="U238" ao="2.9211e-02" />
-    <element name="C"     ao="7.7389e-04" />
-    <element name="Fe"    ao="1.2058e-04" />
-    <element name="W"     ao="1.0087e-05" />
-    <element name="Cu"    ao="3.8133e-04" />
-    <element name="Ni"    ao="4.1288e-04" />
+    <nuclide ao="0.00015272" name="U234" />
+    <nuclide ao="0.017118" name="U235" />
+    <nuclide ao="0.029211" name="U238" />
+    <nuclide ao="0.00077389" name="C0" />
+    <nuclide ao="7.047901e-06" name="Fe54" />
+    <nuclide ao="0.0001106369732" name="Fe56" />
+    <nuclide ao="2.5550902e-06" name="Fe57" />
+    <nuclide ao="3.400356e-07" name="Fe58" />
+    <nuclide ao="1.2104399999999999e-08" name="W180" />
+    <nuclide ao="2.673055e-06" name="W182" />
+    <nuclide ao="1.4434497e-06" name="W183" />
+    <nuclide ao="3.0906568e-06" name="W184" />
+    <nuclide ao="2.8677341e-06" name="W186" />
+    <nuclide ao="0.000263689695" name="Cu63" />
+    <nuclide ao="0.00011764030499999999" name="Cu65" />
+    <nuclide ao="0.00028107590471999997" name="Ni58" />
+    <nuclide ao="0.00010826993528" name="Ni60" />
+    <nuclide ao="4.70641912e-06" name="Ni61" />
+    <nuclide ao="1.5006123600000001e-05" name="Ni62" />
+    <nuclide ao="3.82161728e-06" name="Ni64" />
   </material>
-
 </materials>

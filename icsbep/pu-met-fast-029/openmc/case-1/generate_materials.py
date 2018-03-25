@@ -1,0 +1,70 @@
+import openmc
+
+mats = openmc.Materials()
+
+mat = openmc.Material(1)
+mat.name = "Layer 1"
+mat.set_density('sum')
+mat.add_nuclide('Pu239', 4.0892e-02)
+mat.add_nuclide('Pu240', 4.7716e-03)
+mat.add_nuclide('Pu241', 8.9384e-04)
+mat.add_element('Fe', 2.9986e-04)
+mat.add_element('C', 1.9577e-03)
+mat.add_element('H', 8.1909e-04)
+mat.add_element('N', 8.8411e-05)
+mat.add_element('O', 1.3106e-04)
+mats.append(mat)
+
+mat = openmc.Material(2)
+mat.name = "Layer 2"
+mat.set_density('sum')
+mat.add_nuclide('Pu239', 4.2276e-02)
+mat.add_nuclide('Pu240', 4.6060e-03)
+mat.add_nuclide('Pu241', 6.7147e-04)
+mat.add_element('Fe', 2.6534e-04)
+mat.add_element('C', 1.1053e-03)
+mat.add_element('H', 2.0011e-04)
+mat.add_element('N', 2.1600e-05)
+mat.add_element('O', 3.2020e-05)
+mats.append(mat)
+
+mat = openmc.Material(3)
+mat.name = "Layer 3"
+mat.set_density('sum')
+mat.add_nuclide('Pu239', 4.1681e-02)
+mat.add_nuclide('Pu240', 4.7176e-03)
+mat.add_nuclide('Pu241', 7.4079e-04)
+mat.add_element('Fe', 3.0356e-04)
+mat.add_element('C', 1.1922e-03)
+mat.add_element('H', 2.7505e-04)
+mat.add_element('N', 2.9688e-05)
+mat.add_element('O', 4.4011e-05)
+mats.append(mat)
+
+mat = openmc.Material(4)
+mat.name = "Layer 4"
+mat.set_density('sum')
+mat.add_nuclide('Pu239', 4.2431e-02)
+mat.add_nuclide('Pu240', 4.3997e-03)
+mat.add_nuclide('Pu241', 5.9425e-04)
+mat.add_element('Fe', 2.8500e-04)
+mat.add_element('C', 1.3956e-03)
+mat.add_element('H', 4.3308e-04)
+mat.add_element('N', 4.6746e-05)
+mat.add_element('O', 6.9297e-05)
+mats.append(mat)
+
+mat = openmc.Material(5)
+mat.name = "Layer 5"
+mat.set_density('sum')
+mat.add_nuclide('Pu239', 4.1407e-02)
+mat.add_nuclide('Pu240', 4.8168e-03)
+mat.add_nuclide('Pu241', 8.4787e-04)
+mat.add_element('Fe', 3.6395e-04)
+mat.add_element('C', 1.3617e-03)
+mat.add_element('H', 2.6092e-04)
+mat.add_element('N', 2.8163e-05)
+mat.add_element('O', 4.1749e-05)
+mats.append(mat)
+
+mats.export_to_xml()

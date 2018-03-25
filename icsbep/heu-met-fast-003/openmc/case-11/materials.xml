@@ -1,29 +1,17 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==========================================================
-  Description: Topsy Reflected Oralloy Spherical Assembly
-  Case:        HEU-MET-FAST-003 6.5-in WC reflector
-  ==========================================================
-  -->
-
-  <!-- Oralloy -->
-  <material id="1">
+  <material depletable="true" id="1" name="Oralloy">
     <density units="sum" />
-    <nuclide name="U234" ao="4.9210e-04" />
-    <nuclide name="U235" ao="4.4917e-02" />
-    <nuclide name="U238" ao="2.5993e-03" />
+    <nuclide ao="0.0004921" name="U234" />
+    <nuclide ao="0.044917" name="U235" />
+    <nuclide ao="0.0025993" name="U238" />
   </material>
-
-  <!-- Tungsten carbide -->
-  <material id="2">
+  <material id="2" name="Tungsten carbide">
     <density units="sum" />
-    <nuclide name="W182" ao="1.2697e-02" />
-    <nuclide name="W183" ao="6.8626e-03" />
-    <nuclide name="W184" ao="1.4754e-02" />
-    <nuclide name="W186" ao="1.3744e-02" />
-    <element name="C"     ao="4.8057e-02" />
+    <nuclide ao="0.012697" name="W182" />
+    <nuclide ao="0.0068626" name="W183" />
+    <nuclide ao="0.014754" name="W184" />
+    <nuclide ao="0.013744" name="W186" />
+    <nuclide ao="0.048057" name="C0" />
   </material>
-
 </materials>

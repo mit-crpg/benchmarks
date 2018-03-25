@@ -1,44 +1,35 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==========================================================
-  Description: Water-reflected Sphere of Uranium Oxyfluoride
-  Case:        HEU-SOL-THERM-010 Case 4
-  Written By:  Paul Romano
-  Date:        7/10/2013
-  ==========================================================
-  -->
-
-  <!-- Uranium Oxyfluoride Solution -->
-  <material id="1">
+  <material depletable="true" id="1" name="Uranium Oxyfluoride Solution">
     <density units="sum" />
-    <nuclide name="U234" ao="3.1564e-06" />
-    <nuclide name="U235" ao="2.6609e-04" />
-    <nuclide name="U236" ao="1.4225e-06" />
-    <nuclide name="U238" ao="1.4867e-05" />
-    <nuclide name="F19"  ao="5.7107e-04" />
-    <element name="O"     ao="3.2371e-02" />
-    <nuclide name="H1"   ao="6.3600e-02" />
-    <sab name="c_H_in_H2O" />
+    <nuclide ao="3.1564e-06" name="U234" />
+    <nuclide ao="0.00026609" name="U235" />
+    <nuclide ao="1.4225e-06" name="U236" />
+    <nuclide ao="1.4867e-05" name="U238" />
+    <nuclide ao="0.00057107" name="F19" />
+    <nuclide ao="0.032358731391" name="O16" />
+    <nuclide ao="1.2268609e-05" name="O17" />
+    <nuclide ao="0.0636" name="H1" />
   </material>
-
-  <!-- 1100 Aluminum -->
-  <material id="2">
+  <material id="2" name="1100 Aluminum">
     <density units="sum" />
-    <element name="Al" ao="5.9699e-02" />
-    <element name="Si" ao="5.5202e-04" />
-    <element name="Cu" ao="5.1364e-05" />
-    <element name="Zn" ao="2.4958e-05" />
-    <element name="Mn" ao="1.4853e-05" />
+    <nuclide ao="0.059699" name="Al27" />
+    <nuclide ao="0.000509126279536" name="Si28" />
+    <nuclide ao="2.5851979831999998e-05" name="Si29" />
+    <nuclide ao="1.7041740632e-05" name="Si30" />
+    <nuclide ao="3.5518206e-05" name="Cu63" />
+    <nuclide ao="1.5845794e-05" name="Cu65" />
+    <nuclide ao="1.2271848600000001e-05" name="Zn64" />
+    <nuclide ao="6.9208534e-06" name="Zn66" />
+    <nuclide ao="1.0083032e-06" name="Zn67" />
+    <nuclide ao="4.604751e-06" name="Zn68" />
+    <nuclide ao="1.522438e-07" name="Zn70" />
+    <nuclide ao="1.4853e-05" name="Mn55" />
   </material>
-
-  <!-- Water Reflector at 85.5 C -->
-  <material id="3">
+  <material id="3" name="Water Reflector at 85.5 C">
     <density units="sum" />
-    <nuclide name="H1" ao="6.4736e-02" />
-    <element name="O"   ao="3.2368e-02" />
-    <sab name="c_H_in_H2O" />
+    <nuclide ao="0.064736" name="H1" />
+    <nuclide ao="0.032355732528" name="O16" />
+    <nuclide ao="1.2267472e-05" name="O17" />
   </material>
-
 </materials>

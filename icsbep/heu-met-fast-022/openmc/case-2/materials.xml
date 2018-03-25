@@ -1,30 +1,29 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ===================================================
-  Description: Duralumin reflected HEU sphere, VNIIEF
-  Case:        HEU-MET-FAST-022 Simplified model
-  ===================================================
-  -->
-
-  <!-- HEU -->
-  <material id="1">
+  <material depletable="true" id="1" name="HEU">
     <density units="sum" />
-    <nuclide name="U234" ao="5.2104e-04" />
-    <nuclide name="U235" ao="4.2055e-02" />
-    <nuclide name="U238" ao="4.3629e-03" />
-    <element name="C"     ao="1.0482e-03" />
-    <element name="Fe"    ao="1.8514e-04" />
-    <element name="W"     ao="5.1713e-05" />
+    <nuclide ao="0.00052104" name="U234" />
+    <nuclide ao="0.042055" name="U235" />
+    <nuclide ao="0.0043629" name="U238" />
+    <nuclide ao="0.0010482" name="C0" />
+    <nuclide ao="1.0821433000000001e-05" name="Fe54" />
+    <nuclide ao="0.0001698733556" name="Fe56" />
+    <nuclide ao="3.9231166e-06" name="Fe57" />
+    <nuclide ao="5.220948e-07" name="Fe58" />
+    <nuclide ao="6.205559999999999e-08" name="W180" />
+    <nuclide ao="1.3703945e-05" name="W182" />
+    <nuclide ao="7.4001303e-06" name="W183" />
+    <nuclide ao="1.58448632e-05" name="W184" />
+    <nuclide ao="1.4702005899999999e-05" name="W186" />
   </material>
-
-  <!-- Duralumin reflector -->
-  <material id="2">
+  <material id="2" name="Duralumin reflector">
     <density units="sum" />
-    <element name="Al" ao="5.3934e-02" />
-    <element name="Fe" ao="9.8702e-04" />
-    <element name="Cu" ao="1.0161e-03" />
+    <nuclide ao="0.053934" name="Al27" />
+    <nuclide ao="5.7691319e-05" name="Fe54" />
+    <nuclide ao="0.0009056303308" name="Fe56" />
+    <nuclide ao="2.09149538e-05" name="Fe57" />
+    <nuclide ao="2.7833964e-06" name="Fe58" />
+    <nuclide ao="0.00070263315" name="Cu63" />
+    <nuclide ao="0.00031346685" name="Cu65" />
   </material>
-
 </materials>

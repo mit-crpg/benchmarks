@@ -1,27 +1,29 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  =================================================
-  Description: U-233 Sphere surrounded by Tungsten
-  Case:        U233-MET-FAST-004 (10 kg Experiment)
-  =================================================
-  -->
-
-  <material id="1">
+  <material depletable="true" id="1">
     <density units="sum" />
-    <nuclide name="U233" ao="4.7253e-2" />
-    <nuclide name="U234" ao="5.2705e-4" />
-    <nuclide name="U238" ao="3.2975e-4" />
+    <nuclide ao="0.047253" name="U233" />
+    <nuclide ao="0.00052705" name="U234" />
+    <nuclide ao="0.00032975" name="U238" />
   </material>
-
-  <!-- Tungsten reflector -->
-  <material id="2">
+  <material id="2" name="Tungsten reflector">
     <density units="sum" />
-    <element name="W"  ao="5.1468e-02" />
-    <element name="Ni" ao="9.7124e-03" />
-    <element name="Cu" ao="4.0774e-03" />
-    <element name="Zr" ao="7.9528e-04" />
+    <nuclide ao="6.17616e-05" name="W180" />
+    <nuclide ao="0.01363902" name="W182" />
+    <nuclide ao="0.0073650708" name="W183" />
+    <nuclide ao="0.0157697952" name="W184" />
+    <nuclide ao="0.0146323524" name="W186" />
+    <nuclide ao="0.006611900835599999" name="Ni58" />
+    <nuclide ao="0.0025468923643999996" name="Ni60" />
+    <nuclide ao="0.00011071164759999998" name="Ni61" />
+    <nuclide ao="0.000352997178" name="Ni62" />
+    <nuclide ao="8.98979744e-05" name="Ni64" />
+    <nuclide ao="0.0028195221" name="Cu63" />
+    <nuclide ao="0.0012578779" name="Cu65" />
+    <nuclide ao="0.00040917155999999993" name="Zr90" />
+    <nuclide ao="8.923041599999999e-05" name="Zr91" />
+    <nuclide ao="0.00013639052" name="Zr92" />
+    <nuclide ao="0.000138219664" name="Zr94" />
+    <nuclide ao="2.226784e-05" name="Zr96" />
   </material>
-
 </materials>
