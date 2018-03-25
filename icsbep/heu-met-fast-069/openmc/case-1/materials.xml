@@ -124,7 +124,7 @@
     <element name="N"     ao="2.4256e-05" />
   </material>
 
-  <!-- 0.5" Be disc -->
+  <!-- 0.5in Be disc -->
   <material id="5">
     <density units="sum" />
     <element name="Be" ao="1.1959e-01" />
@@ -144,7 +144,7 @@
     <sab name="c_Be" />
   </material>
 
-  <!-- 9/16" Be disc -->
+  <!-- 9/16in Be disc -->
   <material id="6">
     <density units="sum" />
     <element name="Be" ao="1.1984e-01" />
@@ -164,7 +164,7 @@
     <sab name="c_Be" />
   </material>
 
-  <!-- 1" Be disc -->
+  <!-- 1in Be disc -->
   <material id="7">
     <density units="sum" />
     <element name="Be" ao="1.2094e-01" />
@@ -184,7 +184,7 @@
     <sab name="c_Be" />
   </material>
 
-  <!-- 1.5" Be disc -->
+  <!-- 1.5in Be disc -->
   <material id="8">
     <density units="sum" />
     <element name="Be" ao="1.2112e-01" />
@@ -204,7 +204,7 @@
     <sab name="c_Be" />
   </material>
 
-  <!-- 2" Be disc -->
+  <!-- 2in Be disc -->
   <material id="9">
     <density units="sum" />
     <element name="Be" ao="1.2073e-01" />
