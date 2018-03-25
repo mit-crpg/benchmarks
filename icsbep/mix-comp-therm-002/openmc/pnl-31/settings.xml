@@ -23,9 +23,10 @@
     </space>
   </source>
 
-  <entropy>
+  <mesh id="1">
     <lower_left>0. 0. 3.5560</lower_left>
     <upper_right>28.448 28.448 94.9960</upper_right>
-  </entropy>
+  </mesh>
+  <entropy_mesh>1</entropy_mesh>
 
 </settings>
