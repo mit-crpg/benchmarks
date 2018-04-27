@@ -3,10 +3,11 @@
 from make_model import Case
 
 # GLOBAL DATA
-batches = 5000
-inactive = 500
-particles = 10000
+batches = 600
+inactive = 100
+particles = 100000
 tab_leg = {'enable': True, 'num_points': 33}
+# tab_leg = {'enable': False, 'num_points': 33}
 
 
 def build_cases():

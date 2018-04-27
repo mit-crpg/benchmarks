@@ -2,6 +2,7 @@
 
 from __future__ import print_function
 from optparse import OptionParser
+import pickle
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -32,6 +33,7 @@ if options.list_cases:
         print('Case Name: {0}'.format(key))
     exit()
 
+results = []
 # Run specific case, if requested
 if options.case_name:
     if options.case_name in repo.names:
@@ -48,6 +50,7 @@ if options.case_name:
             print(case.name + ' Failed Execution!')
         else:
             print_case(case)
+            results.append(case)
 
     else:
         print('Invalid Case Name: ' + options.case)
@@ -66,3 +69,6 @@ else:
             print(case.name + ' Failed Execution!')
         else:
             print_case(case)
+            results.append(case)
+
+pickle.dump(results, open("save.pkl", "wb"))

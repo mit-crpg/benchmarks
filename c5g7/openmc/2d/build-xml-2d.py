@@ -1,6 +1,7 @@
 import openmc
 import sys
 sys.path.append('../')
+from materials import materials
 from lattices import lattices, universes, cells, surfaces
 from tally import tallies, mesh
 
@@ -13,16 +14,13 @@ batches = 20000
 inactive = 500
 particles = 10000
 
-
 ###############################################################################
 #                 Exporting to OpenMC materials.xml File
 ###############################################################################
 
-from materials import materials
-
 # Instantiate a Materials collection, register all Materials, and export to XML
 materials_file = openmc.Materials(materials.values())
-materials_file.default_xs = '300k'
+materials_file.cross_sections = './mgxs.h5'
 materials_file.export_to_xml()
 
 
@@ -32,10 +30,10 @@ materials_file.export_to_xml()
 
 # Instantiate Core boundaries
 cells['Core'].region = +surfaces['Core x-min'] & +surfaces['Core y-min'] & \
-                       -surfaces['Core x-max'] & -surfaces['Core y-max']
+    -surfaces['Core x-max'] & -surfaces['Core y-max']
 
 lattices['Core'] = openmc.RectLattice(lattice_id=201, name='3x3 core lattice')
-lattices['Core'].dimension = [3,3]
+lattices['Core'].dimension = [3, 3]
 lattices['Core'].lower_left = [-32.13, -32.13]
 lattices['Core'].pitch = [21.42, 21.42]
 w = universes['Reflector Unrodded Assembly']
@@ -57,10 +55,10 @@ geometry.export_to_xml()
 # Instantiate a Settings, set all runtime parameters, and export to XML
 settings_file = openmc.Settings()
 settings_file.energy_mode = "multi-group"
-settings_file.cross_sections = "./mgxs.xml"
 settings_file.batches = batches
 settings_file.inactive = inactive
 settings_file.particles = particles
+settings_file.run_mode = 'eigenvalue'
 settings_file.output = {'tallies': True, 'summary': True}
 settings_file.source = openmc.Source(space=openmc.stats.Box(
     [-32.13, -10.71, -1.0], [10.71, 32.13, 1.0], only_fissionable=True))
