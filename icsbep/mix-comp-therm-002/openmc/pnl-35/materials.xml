@@ -60,6 +60,7 @@
     <nuclide ao="1.2660494999999998e-05" name="O17" />
     <nuclide ao="8.4597e-06" name="B10" />
     <nuclide ao="3.4266e-05" name="B11" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="5" name="6061 Aluminum">
     <density units="sum" />

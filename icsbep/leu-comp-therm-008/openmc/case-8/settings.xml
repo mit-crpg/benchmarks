@@ -26,11 +26,4 @@
     </space>
   </source>
 
-  <!-- Shannon Entropy -->
-  <mesh id="1">
-    <lower_left> -85.8774 -85.8774 -81.662 </lower_left>
-    <upper_right> 85.8774  85.8774  81.662 </upper_right>
-  </mesh>
-  <entropy_mesh>1</entropy_mesh>
-
 </settings>

@@ -25,10 +25,4 @@
     </space>
   </source>
 
-  <mesh id="1">
-    <lower_left>-8.27532 -7.35584 -25.8191</lower_left>
-    <upper_right>8.27532  7.35584  25.8191</upper_right>
-  </mesh>
-  <entropy_mesh>1</entropy_mesh>
-
 </settings>

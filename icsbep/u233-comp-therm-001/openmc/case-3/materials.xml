@@ -14,7 +14,7 @@
     <nuclide ao="3.8337023999999995e-05" name="Sn117" />
     <nuclide ao="0.000120901396" name="Sn118" />
     <nuclide ao="4.2879562000000005e-05" name="Sn119" />
-    <nuclide ao="0.000162632844" name="Sn120" />
+    <nuclide ao="1.000162632844" name="Sn120" />
     <nuclide ao="2.3112034e-05" name="Sn122" />
     <nuclide ao="2.8902522e-05" name="Sn124" />
   </material>
@@ -28,6 +28,7 @@
     <nuclide ao="0.066735" name="H1" />
     <nuclide ao="0.033355353528" name="O16" />
     <nuclide ao="1.2646472e-05" name="O17" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="4" name="Borated Steel">
     <density units="sum" />

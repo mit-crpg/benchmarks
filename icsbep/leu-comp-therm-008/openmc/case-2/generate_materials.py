@@ -9,6 +9,7 @@ mat.add_nuclide('H1', 6.6637e-02)
 mat.add_nuclide('O16', 3.3369e-02)
 mat.add_nuclide('B10', 1.4821e-05)
 mat.add_nuclide('B11', 5.9657e-05)
+mat.add_s_alpha_beta('c_H_in_H2O')
 mats.append(mat)
 
 mat = openmc.Material(2)

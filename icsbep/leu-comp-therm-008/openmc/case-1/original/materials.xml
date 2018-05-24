@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material id="1" name="Water with 1182 PPM Boron">
+  <material id="1" name="Water with 1511 PPM">
     <density units="sum" />
     <nuclide ao="0.066737" name="H1" />
     <nuclide ao="0.033369" name="O16" />
-    <nuclide ao="1.3118e-05" name="B10" />
-    <nuclide ao="5.28e-05" name="B11" />
-    <sab name="c_H_in_H2O" />
+    <nuclide ao="1.6769e-05" name="B10" />
+    <nuclide ao="6.7497e-05" name="B11" />
   </material>
   <material depletable="true" id="2" name="Fuel (2.459 w/o with B-10 for impurities)">
     <density units="sum" />
@@ -46,16 +45,5 @@
     <nuclide ao="2.3302316e-06" name="Zn67" />
     <nuclide ao="1.06417755e-05" name="Zn68" />
     <nuclide ao="3.518419e-07" name="Zn70" />
-  </material>
-  <material id="4" name="Pyrex">
-    <density units="sum" />
-    <nuclide ao="0.00097491" name="B10" />
-    <nuclide ao="0.0039241" name="B11" />
-    <nuclide ao="0.044829" name="O16" />
-    <nuclide ao="0.0017444" name="Na23" />
-    <nuclide ao="0.0010018" name="Al27" />
-    <nuclide ao="0.0168835652208" name="Si28" />
-    <nuclide ao="0.0008572992695999999" name="Si29" />
-    <nuclide ao="0.0005651355095999999" name="Si30" />
   </material>
 </materials>
