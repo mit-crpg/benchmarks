@@ -53,7 +53,7 @@
   <!-- Shell #6 -->
   <material id="6">
     <density units="sum" />
-    <nuclide name="U234" ao="4.9357e-04" />
+    <nuclide name="U234" ao="4.8974e-04" />
     <nuclide name="U235" ao="4.4874e-02" />
     <nuclide name="U238" ao="2.4169e-03" />
   </material>
