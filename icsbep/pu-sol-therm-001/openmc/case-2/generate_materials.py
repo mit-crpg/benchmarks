@@ -13,6 +13,7 @@ mat.add_nuclide('Pu242', 2.1495e-08)
 mat.add_nuclide('N14', 1.9726e-03)
 mat.add_nuclide('H1', 6.2392e-02)
 mat.add_nuclide('O16', 3.6611e-02)
+mat.add_s_alpha_beta('c_H_in_H2O')
 mats.append(mat)
 
 mat = openmc.Material(2)
@@ -29,6 +30,7 @@ mat.name = "Water at 25 C"
 mat.set_density('sum')
 mat.add_nuclide('H1', 6.6655e-02)
 mat.add_nuclide('O16', 3.3327e-02)
+mat.add_s_alpha_beta('c_H_in_H2O')
 mats.append(mat)
 
 mats.export_to_xml()

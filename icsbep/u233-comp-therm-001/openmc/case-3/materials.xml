@@ -14,7 +14,7 @@
     <nuclide ao="3.8337023999999995e-05" name="Sn117" />
     <nuclide ao="0.000120901396" name="Sn118" />
     <nuclide ao="4.2879562000000005e-05" name="Sn119" />
-    <nuclide ao="1.000162632844" name="Sn120" />
+    <nuclide ao="0.000162632844" name="Sn120" />
     <nuclide ao="2.3112034e-05" name="Sn122" />
     <nuclide ao="2.8902522e-05" name="Sn124" />
   </material>
@@ -22,6 +22,7 @@
     <density units="sum" />
     <nuclide ao="0.078854" name="H1" />
     <nuclide ao="0.039427" name="C0" />
+    <sab name="c_H_in_CH2" />
   </material>
   <material id="3" name="Water (0.9982 g/cm3)">
     <density units="sum" />

@@ -17,8 +17,9 @@
     <nuclide ao="7.081459800000001e-05" name="Ni62" />
     <nuclide ao="1.80343904e-05" name="Ni64" />
   </material>
-  <material id="2" name="c_Graphiteite">
+  <material id="2" name="c_Graphite">
     <density units="sum" />
     <nuclide ao="0.091842" name="C0" />
+    <sab name="c_Graphite" />
   </material>
 </materials>

@@ -10,6 +10,7 @@
     <nuclide ao="0.06631" name="H1" />
     <nuclide ao="0.03355727697" name="O16" />
     <nuclide ao="1.272303e-05" name="O17" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="2" name="SS-304 Tank">
     <density units="sum" />

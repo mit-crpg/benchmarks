@@ -22,6 +22,7 @@ mat.add_element('Be', 1.2081e-01)
 mat.add_element('O', 8.2064e-05)
 mat.add_element('C', 1.0020e-04)
 mat.add_element('Fe', 5.0939e-05)
+mat.add_s_alpha_beta('c_Be')
 mats.append(mat)
 
 mat = openmc.Material(3)

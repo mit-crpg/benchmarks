@@ -11,7 +11,7 @@
   -->
 
   <eigenvalue>
-    <batches>3000</batches>
+    <batches>520</batches>
     <inactive>20</inactive>
     <particles>10000</particles>
   </eigenvalue>

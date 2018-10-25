@@ -28,6 +28,7 @@
   <material id="5" name="Be">
     <density units="sum" />
     <nuclide ao="0.12295" name="Be9" />
+    <sab name="c_Be" />
   </material>
   <material depletable="true" id="11" name="HEU, Can I">
     <density units="sum" />

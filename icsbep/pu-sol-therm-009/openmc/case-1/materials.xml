@@ -69,6 +69,7 @@
     <nuclide ao="3.13038024e-09" name="Si30" />
     <nuclide ao="7.431e-08" name="Na23" />
     <nuclide ao="7.269e-09" name="U235" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="2" name="1100 Aluminum">
     <density units="sum" />

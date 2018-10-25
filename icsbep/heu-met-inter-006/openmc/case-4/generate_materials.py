@@ -12,9 +12,10 @@ mat.add_nuclide('U238', 2.5779e-03)
 mats.append(mat)
 
 mat = openmc.Material(2)
-mat.name = "c_Graphiteite"
+mat.name = "c_Graphite"
 mat.set_density('sum')
 mat.add_element('C', 8.6552e-02)
+mat.add_s_alpha_beta('c_Graphite')
 mats.append(mat)
 
 mat = openmc.Material(3)
