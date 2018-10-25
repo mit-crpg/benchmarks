@@ -35,5 +35,6 @@
     <nuclide ao="0.041216" name="C0" />
     <nuclide ao="0.08241816219606" name="H1" />
     <nuclide ao="1.283780394e-05" name="H2" />
+    <sab name="c_H_in_CH2" />
   </material>
 </materials>

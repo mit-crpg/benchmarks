@@ -11,6 +11,7 @@
     <nuclide ao="0.033551279244" name="O16" />
     <nuclide ao="1.2720755999999998e-05" name="O17" />
     <nuclide ao="1.9639e-07" name="Th232" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="2" name="Type 1100 Aluminum">
     <density units="sum" />

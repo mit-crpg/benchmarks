@@ -73,6 +73,7 @@ mat.name = "Polyethlyene reflector, layer 1"
 mat.set_density('sum')
 mat.add_element('H', 7.3845e-02)
 mat.add_element('C', 3.6922e-02)
+mat.add_s_alpha_beta('c_H_in_CH2')
 mats.append(mat)
 
 mat = openmc.Material(9)
@@ -80,6 +81,7 @@ mat.name = "Polyethlyene reflector, layer 2"
 mat.set_density('sum')
 mat.add_element('H', 7.8997e-02)
 mat.add_element('C', 3.9498e-02)
+mat.add_s_alpha_beta('c_H_in_CH2')
 mats.append(mat)
 
 mat = openmc.Material(10)
@@ -87,6 +89,7 @@ mat.name = "Polyethlyene reflector, layer 3"
 mat.set_density('sum')
 mat.add_element('H', 7.8996e-02)
 mat.add_element('C', 3.9498e-02)
+mat.add_s_alpha_beta('c_H_in_CH2')
 mats.append(mat)
 
 mats.export_to_xml()

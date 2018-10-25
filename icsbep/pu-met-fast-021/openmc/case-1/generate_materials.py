@@ -17,6 +17,7 @@ mat.name = "Berylium Reflector"
 mat.set_density('sum')
 mat.add_element('Be', 1.2099e-01)
 mat.add_element('O', 1.0449e-03)
+mat.add_s_alpha_beta('c_Be')
 mats.append(mat)
 
 mat = openmc.Material(3)

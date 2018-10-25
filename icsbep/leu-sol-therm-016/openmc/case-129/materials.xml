@@ -10,6 +10,7 @@
     <nuclide ao="0.0022589" name="N14" />
     <nuclide ao="0.037430808345" name="O16" />
     <nuclide ao="1.4191655e-05" name="O17" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="2" name="Stainless steel">
     <density units="sum" />
@@ -42,6 +43,7 @@
     <nuclide ao="0.066658" name="H1" />
     <nuclide ao="0.033316368309" name="O16" />
     <nuclide ao="1.2631690999999998e-05" name="O17" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="4" name="Air">
     <density units="sum" />

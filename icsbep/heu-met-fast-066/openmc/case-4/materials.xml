@@ -3,6 +3,7 @@
   <material id="1" name="Beryllium (source)">
     <density units="sum" />
     <nuclide ao="0.11862" name="Be9" />
+    <sab name="c_Be" />
   </material>
   <material id="2" name="Nickel">
     <density units="sum" />
@@ -26,6 +27,7 @@
   <material id="4" name="Beryllium (moderator/reflector)">
     <density units="sum" />
     <nuclide ao="0.12295" name="Be9" />
+    <sab name="c_Be" />
   </material>
   <material depletable="true" id="5" name="HEU">
     <density units="sum" />

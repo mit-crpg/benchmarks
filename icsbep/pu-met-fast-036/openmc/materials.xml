@@ -94,17 +94,20 @@
     <nuclide ao="0.07383349937969999" name="H1" />
     <nuclide ao="1.15006203e-05" name="H2" />
     <nuclide ao="0.036922" name="C0" />
+    <sab name="c_H_in_CH2" />
   </material>
   <material id="9" name="Polyethlyene reflector, layer 2">
     <density units="sum" />
     <nuclide ao="0.07898469700722" name="H1" />
     <nuclide ao="1.2302992779999999e-05" name="H2" />
     <nuclide ao="0.039498" name="C0" />
+    <sab name="c_H_in_CH2" />
   </material>
   <material id="10" name="Polyethlyene reflector, layer 3">
     <density units="sum" />
     <nuclide ao="0.07898369716296" name="H1" />
     <nuclide ao="1.2302837039999999e-05" name="H2" />
     <nuclide ao="0.039498" name="C0" />
+    <sab name="c_H_in_CH2" />
   </material>
 </materials>

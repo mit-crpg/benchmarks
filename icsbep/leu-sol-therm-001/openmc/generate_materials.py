@@ -28,6 +28,7 @@ mat.add_nuclide('U238', 2.3508e-03)
 mat.add_nuclide('H1', 5.6179e-02)
 mat.add_element('O', 3.2967e-02)
 mat.add_element('F', 5.1035e-03)
+mat.add_s_alpha_beta('c_H_in_H2O')
 mats.append(mat)
 
 mats.export_to_xml()

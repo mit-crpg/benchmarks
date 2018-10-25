@@ -11,6 +11,7 @@ mat.add_nuclide('N14', 7.3930e-04)
 mat.add_nuclide('H1', 6.5147e-02)
 mat.add_nuclide('O16', 3.4534e-02)
 mat.add_element('Fe', 1.2940e-06)
+mat.add_s_alpha_beta('c_H_in_H2O')
 mats.append(mat)
 
 mat = openmc.Material(2)

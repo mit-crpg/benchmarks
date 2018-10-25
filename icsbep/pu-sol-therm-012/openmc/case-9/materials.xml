@@ -25,6 +25,7 @@
     <nuclide ao="1.9610611619999998e-08" name="Ni61" />
     <nuclide ao="6.252721110000001e-08" name="Ni62" />
     <nuclide ao="1.592383728e-08" name="Ni64" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="2" name="Air">
     <density units="sum" />
@@ -59,5 +60,6 @@
     <nuclide ao="0.066688" name="H1" />
     <nuclide ao="0.033331362624" name="O16" />
     <nuclide ao="1.2637376e-05" name="O17" />
+    <sab name="c_H_in_H2O" />
   </material>
 </materials>
