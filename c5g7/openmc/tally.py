@@ -14,8 +14,7 @@ mesh.lower_left = [-32.13, -32.13, -1.e50]
 mesh.upper_right = [32.13, 32.13, 1.e50]
 
 # Instantiate some tally Filters
-mesh_filter = openmc.Filter()
-mesh_filter.mesh = mesh
+mesh_filter = openmc.MeshFilter(mesh)
 
 # Instantiate the Tally
 tallies['Mesh Rates'] = openmc.Tally(tally_id=1, name='tally 1')
