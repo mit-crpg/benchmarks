@@ -19,6 +19,7 @@
     <nuclide ao="2.25589518e-05" name="N15" />
     <nuclide ao="0.041712185088" name="O16" />
     <nuclide ao="1.5814912e-05" name="O17" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="2" name="304L stainless steel">
     <density units="sum" />
@@ -41,5 +42,6 @@
     <nuclide ao="0.066691" name="H1" />
     <nuclide ao="0.033333361866" name="O16" />
     <nuclide ao="1.2638134e-05" name="O17" />
+    <sab name="c_H_in_H2O" />
   </material>
 </materials>

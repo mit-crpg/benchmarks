@@ -20,6 +20,7 @@
     <density units="sum" />
     <nuclide ao="0.03929" name="C0" />
     <nuclide ao="0.078579" name="H1" />
+    <sab name="c_H_in_CH2" />
   </material>
   <material id="3" name="Titanium">
     <density units="sum" />

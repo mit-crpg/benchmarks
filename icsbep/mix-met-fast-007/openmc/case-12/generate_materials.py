@@ -21,6 +21,7 @@ mat = openmc.Material(3)
 mat.name = "Beryllium"
 mat.set_density('sum')
 mat.add_element('Be', 1.2295e-01)
+mat.add_s_alpha_beta('c_Be')
 mats.append(mat)
 
 mats.export_to_xml()

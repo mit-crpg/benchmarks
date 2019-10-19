@@ -80,9 +80,10 @@ mat.add_element('W', 6.0686e-05)
 mats.append(mat)
 
 mat = openmc.Material(8)
-mat.name = "c_Graphiteite"
+mat.name = "c_Graphite"
 mat.set_density('sum')
 mat.add_element('C', 7.6716e-2)
+mat.add_s_alpha_beta('c_Graphite')
 mats.append(mat)
 
 mats.export_to_xml()

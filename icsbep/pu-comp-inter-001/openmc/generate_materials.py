@@ -14,6 +14,7 @@ mat.add_nuclide('B11', 4.0859e-04)
 mat.add_element('C', 7.090e-02)
 mat.add_element('O', 2.707e-03)
 mat.add_element('Ca', 8.280e-04)
+mat.add_s_alpha_beta('c_Graphite')
 mats.append(mat)
 
 mats.export_to_xml()

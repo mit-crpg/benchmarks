@@ -12,5 +12,6 @@
     <nuclide ao="0.066766" name="H1" />
     <nuclide ao="0.033370347843000005" name="O16" />
     <nuclide ao="1.2652157000000001e-05" name="O17" />
+    <sab name="c_H_in_H2O" />
   </material>
 </materials>

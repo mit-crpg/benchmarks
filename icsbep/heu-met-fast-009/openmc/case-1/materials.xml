@@ -34,6 +34,7 @@
     <nuclide ao="4.673214728e-05" name="Fe56" />
     <nuclide ao="1.07924908e-06" name="Fe57" />
     <nuclide ao="1.4362824e-07" name="Fe58" />
+    <sab name="c_Be" />
   </material>
   <material id="3" name="Fe">
     <density units="sum" />

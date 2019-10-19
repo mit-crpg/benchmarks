@@ -6,8 +6,9 @@
     <nuclide ao="0.044388" name="U235" />
     <nuclide ao="0.002371" name="U238" />
   </material>
-  <material id="2" name="c_Graphiteite">
+  <material id="2" name="c_Graphite">
     <density units="sum" />
     <nuclide ao="0.083731" name="C0" />
+    <sab name="c_Graphite" />
   </material>
 </materials>

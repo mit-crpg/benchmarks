@@ -29,6 +29,8 @@
     <nuclide ao="0.067634" name="Be9" />
     <nuclide ao="0.067608366714" name="O16" />
     <nuclide ao="2.5633286e-05" name="O17" />
+    <sab name="c_Be_in_BeO" />
+    <sab name="c_O_in_BeO" />
   </material>
   <material id="3" name="Fe">
     <density units="sum" />

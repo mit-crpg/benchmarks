@@ -341,6 +341,7 @@
     <nuclide ao="5.3694135e-10" name="Sm150" />
     <nuclide ao="1.9481427000000003e-09" name="Sm152" />
     <nuclide ao="1.6567226999999999e-09" name="Sm154" />
+    <sab name="c_Be" />
   </material>
   <material id="6" name="9/16in Be disc">
     <density units="sum" />
@@ -395,6 +396,7 @@
     <nuclide ao="5.380837e-10" name="Sm150" />
     <nuclide ao="1.9522874e-09" name="Sm152" />
     <nuclide ao="1.6602474e-09" name="Sm154" />
+    <sab name="c_Be" />
   </material>
   <material id="7" name="1in Be disc">
     <density units="sum" />
@@ -449,6 +451,7 @@
     <nuclide ao="5.4302897e-10" name="Sm150" />
     <nuclide ao="1.9702299400000003e-09" name="Sm152" />
     <nuclide ao="1.6755059399999998e-09" name="Sm154" />
+    <sab name="c_Be" />
   </material>
   <material id="8" name="1.5in Be disc">
     <density units="sum" />
@@ -503,6 +506,7 @@
     <nuclide ao="5.4381019e-10" name="Sm150" />
     <nuclide ao="1.9730643800000003e-09" name="Sm152" />
     <nuclide ao="1.67791638e-09" name="Sm154" />
+    <sab name="c_Be" />
   </material>
   <material id="9" name="2in Be disc">
     <density units="sum" />
@@ -557,5 +561,6 @@
     <nuclide ao="5.4209298e-10" name="Sm150" />
     <nuclide ao="1.96683396e-09" name="Sm152" />
     <nuclide ao="1.6726179599999998e-09" name="Sm154" />
+    <sab name="c_Be" />
   </material>
 </materials>

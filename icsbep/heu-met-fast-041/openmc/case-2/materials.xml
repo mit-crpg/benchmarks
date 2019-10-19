@@ -9,5 +9,6 @@
   <material id="2" name="Beryllium">
     <density units="sum" />
     <nuclide ao="0.12295" name="Be9" />
+    <sab name="c_Be" />
   </material>
 </materials>

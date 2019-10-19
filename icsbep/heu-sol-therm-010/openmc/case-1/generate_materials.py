@@ -12,6 +12,7 @@ mat.add_nuclide('U238', 1.3607e-05)
 mat.add_nuclide('F19', 5.2267e-04)
 mat.add_element('O', 3.3397e-02)
 mat.add_nuclide('H1', 6.5749e-02)
+mat.add_s_alpha_beta('c_H_in_H2O')
 mats.append(mat)
 
 mat = openmc.Material(2)
@@ -29,6 +30,7 @@ mat.name = "Water Reflector at 27.5 C"
 mat.set_density('sum')
 mat.add_nuclide('H1', 6.6614e-02)
 mat.add_element('O', 3.3307e-02)
+mat.add_s_alpha_beta('c_H_in_H2O')
 mats.append(mat)
 
 mats.export_to_xml()

@@ -84,10 +84,12 @@
     <density units="sum" />
     <nuclide ao="0.075542" name="H1" />
     <nuclide ao="0.037771" name="C0" />
+    <sab name="c_H_in_CH2" />
   </material>
   <material id="7" name="Polyethylene, Layer 2">
     <density units="sum" />
     <nuclide ao="0.07417" name="H1" />
     <nuclide ao="0.037085" name="C0" />
+    <sab name="c_H_in_CH2" />
   </material>
 </materials>

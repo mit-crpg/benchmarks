@@ -112,8 +112,9 @@
     <nuclide ao="1.85941904e-05" name="W184" />
     <nuclide ao="1.72530298e-05" name="W186" />
   </material>
-  <material id="8" name="c_Graphiteite">
+  <material id="8" name="c_Graphite">
     <density units="sum" />
     <nuclide ao="0.076716" name="C0" />
+    <sab name="c_Graphite" />
   </material>
 </materials>

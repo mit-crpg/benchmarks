@@ -11,6 +11,7 @@
     <nuclide ao="1.395027816e-06" name="Fe56" />
     <nuclide ao="3.2217276000000005e-08" name="Fe57" />
     <nuclide ao="4.287528e-09" name="Fe58" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="2" name="347 Stainless Steel">
     <density units="sum" />

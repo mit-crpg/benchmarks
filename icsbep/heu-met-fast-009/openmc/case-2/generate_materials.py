@@ -21,6 +21,8 @@ mat.name = "BeO Reflector"
 mat.set_density('sum')
 mat.add_element('Be', 6.7634e-02)
 mat.add_element('O', 6.7634e-02)
+mat.add_s_alpha_beta('c_Be_in_BeO')
+mat.add_s_alpha_beta('c_O_in_BeO')
 mats.append(mat)
 
 mat = openmc.Material(3)

@@ -33,6 +33,7 @@ mat = openmc.Material(5)
 mat.name = "Be"
 mat.set_density('sum')
 mat.add_nuclide('Be9', 1.2295e-01)
+mat.add_s_alpha_beta('c_Be')
 mats.append(mat)
 
 mat = openmc.Material(11)

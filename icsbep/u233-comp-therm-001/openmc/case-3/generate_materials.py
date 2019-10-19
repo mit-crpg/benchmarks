@@ -14,6 +14,7 @@ mat.name = "Polyethylene (0.9183 g/cm3)"
 mat.set_density('sum')
 mat.add_nuclide('H1', 7.8854e-02)
 mat.add_element('C', 3.9427e-02)
+mat.add_s_alpha_beta('c_H_in_CH2')
 mats.append(mat)
 
 mat = openmc.Material(3)
