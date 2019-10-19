@@ -55,7 +55,7 @@ class Case(object):
             mats.append(openmc.Material(name=self.mat_names[i]))
             mats[-1].set_density('macro', 1.0)
             mats[-1].add_macroscopic(macros[-1])
-            materials_file.add_material(mats[-1])
+            materials_file += [mats[-1]]
 
         materials_file.cross_sections = GROUP_FILES[self.groups]
 
@@ -100,6 +100,8 @@ class Case(object):
             raise NotImplementedError
 
         settings_file.source = openmc.source.Source(space=uniform_dist)
+
+        settings_file.output = {'summary': False}
 
         return settings_file
 
@@ -303,7 +305,7 @@ class Case(object):
     def execute(self, quiet=True):
         returncode = openmc.run(output=(not quiet))
         spfile = 'statepoint.' + str(self.batches) + '.h5'
-        sp = openmc.StatePoint(spfile)
-        self.keff = sp.k_combined[:]
+        sp = openmc.StatePoint(spfile, autolink=False)
+        self.keff = sp.k_combined
 
         return returncode

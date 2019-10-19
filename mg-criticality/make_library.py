@@ -16,6 +16,27 @@ GROUP_STRUCT = {1: openmc.mgxs.EnergyGroups(group_edges=[0.0, 20.0e6]),
 ###############################################################################
 
 
+def check_it(scatter_matrix):
+    import scipy.special as ss
+    groups = scatter_matrix.shape[0]
+    orders = scatter_matrix.shape[2]
+    Nmu = 50
+    mu = np.linspace(-1, 1, Nmu)
+    f = np.zeros(shape=(groups, groups, Nmu))
+    neg = False
+    for gin in range(groups):
+        for gout in range(groups):
+            data = np.array(scatter_matrix[gin, gout, :], copy=True)
+            if np.sum(data) > 0:
+                data /= data[0]
+                for l in range(orders):
+                    f[gin, gout, :] += ((float(l) + 0.5) *
+                                        ss.eval_legendre(l, mu) * data[l])
+                if np.any(f[gin, gout, :] < 0):
+                    neg = True
+    return neg
+
+
 def plot_it(scatter_matrix):
     import matplotlib.pyplot as plt
     import scipy.special as ss
@@ -44,6 +65,9 @@ def plot_it(scatter_matrix):
 
 
 def set_it(name, groups, order, fission, nu, absorption, scatt, total, chi):
+    neg = check_it(scatt)
+    if neg:
+        print(name + ' is negative!')
     xsd = openmc.XSdata(name, groups)
     xsd.order = order
     if fission is not None:
@@ -305,7 +329,6 @@ def create_2g():
     scatter = np.rollaxis(scatter, 0, 3)
     total = [0.2208, 0.3360]
     chi = [0.575, 0.425]
-
     Pu = set_it('Pu', groups, 0, fiss, nu, absorption, scatter, total, chi)
     mg_cross_sections_file.add_xsdata(Pu)
 
@@ -462,7 +485,7 @@ def create_2g():
     capture = [0.0087078, 0.02518]
     absorption = np.add(capture, fiss)
     scatter = np.array(
-        [[[0.31980, 0.0045552],
+        [[[0.31980, 0.004555],
           [0.000000, 0.42410]]])
     scatter = np.rollaxis(scatter, 0, 3)
     total = [0.33588, 0.54628]
@@ -491,8 +514,8 @@ def create_2g():
     ###########################################################################
     # 5.2.2 UD2O-1
     nu = [2.50, 2.50]
-    fiss = np.array([0.0028172, 0.097])
-    capture = [0.0087078, 0.02518]
+    fiss = np.array([0.002817, 0.097])
+    capture = [0.008708, 0.02518]
     absorption = np.add(capture, fiss)
     scatter = np.array(
         [[[0.31980, 0.06694], [0.004555, -0.0003972]],
@@ -526,7 +549,7 @@ def create_3g():
           [0.000, 0.000, 2.000]]])
     scatter = np.rollaxis(scatter, 0, 3)
     total = [0.240, 0.975, 3.10]
-    chi = [0.96, 0.05, 0.0]
+    chi = [0.96, 0.04, 0.0]
 
     URR = set_it('URR', groups, 0, fiss, nu, absorption, scatter, total, chi)
     mg_cross_sections_file.add_xsdata(URR)
@@ -552,10 +575,10 @@ def create_6g():
           [0.000, 0.000, 2.000, 0.00, 0.00, 0.00],
           [0.000, 0.000, 0.000, 2.00, 0.00, 0.00],
           [0.000, 0.000, 0.000, 0.275, 0.60, 0.00],
-          [0.000, 0.000, 2.000, 0.033, 0.171, 0.024]]])
+          [0.000, 0.000, 0.000, 0.033, 0.171, 0.024]]])
     scatter = np.rollaxis(scatter, 0, 3)
     total = [0.240, 0.975, 3.10, 3.10, 0.975, 0.240]
-    chi = [0.48, 0.02, 0.0, 0.0, 0.02, 0.048]
+    chi = [0.48, 0.02, 0.0, 0.0, 0.02, 0.48]
 
     URR = set_it('URR', groups, 0, fiss, nu, absorption, scatter, total, chi)
     mg_cross_sections_file.add_xsdata(URR)
