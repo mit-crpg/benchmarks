@@ -1,8 +1,10 @@
 import openmc
 import sys
 sys.path.append('../')
-from lattices import lattices, universes, cells, surfaces
+from lattices import lattices, universes, cells
+from surfaces import surfaces
 from tally import tallies, mesh
+from materials import materials
 
 ###############################################################################
 #                      Simulation Input File Parameters
@@ -18,11 +20,9 @@ particles = 10000
 #                 Exporting to OpenMC materials.xml File
 ###############################################################################
 
-from materials import materials
-
 # Instantiate a Materials collection, register all Materials, and export to XML
 materials_file = openmc.Materials(materials.values())
-materials_file.default_xs = '300k'
+materials_file.cross_sections = './mgxs.h5'
 materials_file.export_to_xml()
 
 
@@ -36,7 +36,7 @@ cells['Core'].region = +surfaces['Core x-min'] & +surfaces['Core y-min'] & \
                        -surfaces['Core y-max'] & -surfaces['Big Core z-max']
 
 lattices['Core'] = openmc.RectLattice(lattice_id=201, name='3x3 core lattice')
-lattices['Core'].dimension = [3,3,10]
+lattices['Core'].dimension = [3, 3, 10]
 lattices['Core'].lower_left = [-32.13, -32.13, -107.1]
 lattices['Core'].pitch = [21.42, 21.42, 21.42]
 w = universes['Reflector Unrodded Assembly']
@@ -61,7 +61,6 @@ geometry.export_to_xml()
 # Instantiate a Settings, set all runtime parameters, and export to XML
 settings_file = openmc.Settings()
 settings_file.energy_mode = "multi-group"
-settings_file.cross_sections = "./mgxs.xml"
 settings_file.batches = batches
 settings_file.inactive = inactive
 settings_file.particles = particles
@@ -83,7 +82,7 @@ plot_1.filename = 'plot_1'
 plot_1.origin = [0.0, 0.0, 1.0]
 plot_1.width = [64.26, 64.26]
 plot_1.pixels = [500, 500]
-plot_1.color = 'mat'
+plot_1.color_by = 'material'
 plot_1.basis = 'xy'
 
 plot_2 = openmc.Plot(plot_id=2)
@@ -91,7 +90,7 @@ plot_2.filename = 'plot_2'
 plot_2.origin = [0.0, 0.0, 0.0]
 plot_2.width = [64.26, 214.2]
 plot_2.pixels = [500, 500]
-plot_2.color = 'mat'
+plot_2.color_by = 'material'
 plot_2.basis = 'xz'
 
 # Instantiate a Plots collection and export to XML
