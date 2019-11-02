@@ -15,6 +15,7 @@ mat.add_element('O', 3.3653e-02)
 mat.add_nuclide('B10', 7.6312e-07)
 mat.add_nuclide('B11', 3.0716e-06)
 mat.add_nuclide('Th232', 2.2133e-07)
+mat.add_s_alpha_beta('c_H_in_H2O')
 mats.append(mat)
 
 mat = openmc.Material(2)

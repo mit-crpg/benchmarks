@@ -18,5 +18,6 @@
     <nuclide ao="1.727208e-05" name="Ca44" />
     <nuclide ao="3.312e-08" name="Ca46" />
     <nuclide ao="1.5483599999999998e-06" name="Ca48" />
+    <sab name="c_Graphite" />
   </material>
 </materials>

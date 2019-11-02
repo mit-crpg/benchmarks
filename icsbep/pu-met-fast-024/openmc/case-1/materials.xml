@@ -106,5 +106,6 @@
     <density units="sum" />
     <nuclide ao="0.077628" name="H1" />
     <nuclide ao="0.038814" name="C0" />
+    <sab name="c_H_in_CH2" />
   </material>
 </materials>

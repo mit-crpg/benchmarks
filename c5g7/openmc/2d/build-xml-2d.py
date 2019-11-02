@@ -2,8 +2,9 @@ import openmc
 import sys
 sys.path.append('../')
 from materials import materials
-from lattices import lattices, universes, cells, surfaces
-from tally import tallies, mesh
+from lattices import lattices, universes, cells
+from surfaces import surfaces
+from tally import tallies
 
 ###############################################################################
 #                      Simulation Input File Parameters
@@ -77,7 +78,7 @@ plot_1.filename = 'plot_1'
 plot_1.origin = [0.0, 0.0, 0.0]
 plot_1.width = [64.26, 64.26]
 plot_1.pixels = [500, 500]
-plot_1.color = 'mat'
+plot_1.color_by = 'material'
 plot_1.basis = 'xy'
 
 # Instantiate a Plots collection and export to XML

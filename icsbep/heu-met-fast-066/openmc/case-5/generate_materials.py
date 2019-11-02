@@ -6,6 +6,7 @@ mat = openmc.Material(1)
 mat.name = "Beryllium (source)"
 mat.set_density('sum')
 mat.add_element('Be', 1.1862e-01)
+mat.add_s_alpha_beta('c_Be')
 mats.append(mat)
 
 mat = openmc.Material(2)
@@ -27,6 +28,7 @@ mat = openmc.Material(4)
 mat.name = "Beryllium (moderator/reflector)"
 mat.set_density('sum')
 mat.add_element('Be', 1.2295e-01)
+mat.add_s_alpha_beta('c_Be')
 mats.append(mat)
 
 mat = openmc.Material(5)

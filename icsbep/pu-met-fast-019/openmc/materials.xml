@@ -33,6 +33,7 @@
     <nuclide ao="4.6738570060000004e-05" name="Fe56" />
     <nuclide ao="1.0793974100000001e-06" name="Fe57" />
     <nuclide ao="1.4364798e-07" name="Fe58" />
+    <sab name="c_Be" />
   </material>
   <material id="3" name="Steel Diaphragm and Steel Shaft">
     <density units="sum" />

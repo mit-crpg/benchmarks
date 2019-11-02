@@ -10,6 +10,7 @@
     <nuclide ao="0.00075853" name="N14" />
     <nuclide ao="0.065131" name="H1" />
     <nuclide ao="0.03451" name="O16" />
+    <sab name="c_H_in_H2O" />
   </material>
   <material id="2" name="1100 Aluminum">
     <density units="sum" />

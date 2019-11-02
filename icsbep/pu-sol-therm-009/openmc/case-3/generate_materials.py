@@ -32,6 +32,7 @@ mat.add_element('S', 1.7760e-07)
 mat.add_element('Si', 1.0140e-07)
 mat.add_element('Na', 7.4310e-08)
 mat.add_nuclide('U235', 7.2690e-09)
+mat.add_s_alpha_beta('c_H_in_H2O')
 mats.append(mat)
 
 mat = openmc.Material(2)

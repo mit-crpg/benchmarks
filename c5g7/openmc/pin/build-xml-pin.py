@@ -2,6 +2,8 @@ import openmc
 import sys
 sys.path.append('../')
 import cells
+from materials import materials
+
 
 ###############################################################################
 #                      Simulation Input File Parameters
@@ -17,11 +19,9 @@ particles = 10000
 #                 Exporting to OpenMC materials.xml File
 ###############################################################################
 
-from materials import materials
-
 # Instantiate a Materials, register all Materials, and export to XML
 materials_file = openmc.Materials(materials.values())
-materials_file.default_xs = '300k'
+materials_file.cross_sections = './mgxs.h5'
 materials_file.export_to_xml()
 
 
@@ -47,7 +47,6 @@ geometry.export_to_xml()
 # Instantiate a Settings, set all runtime parameters, and export to XML
 settings_file = openmc.Settings()
 settings_file.energy_mode = "multi-group"
-settings_file.cross_sections = "./mgxs.xml"
 settings_file.batches = batches
 settings_file.inactive = inactive
 settings_file.particles = particles
@@ -69,7 +68,7 @@ plot_1.filename = 'plot_1'
 plot_1.origin = [0.0, 0.0, 0.0]
 plot_1.width = [1.26, 1.26]
 plot_1.pixels = [500, 500]
-plot_1.color = 'mat'
+plot_1.color_by = 'material'
 plot_1.basis = 'xy'
 
 # Instantiate a Plots collection and export to XML
@@ -84,15 +83,13 @@ plot_file.export_to_xml()
 tallies = {}
 
 # Instantiate a tally mesh
-mesh = openmc.Mesh(mesh_id=1)
-mesh.type = 'regular'
+mesh = openmc.RegularMesh(mesh_id=1)
 mesh.dimension = [51, 51, 1]
 mesh.lower_left  = [-0.63,-0.63,-1.e50]
 mesh.upper_right = [ 0.63, 0.63, 1.e50]
 
 # Instantiate some tally Filters
-mesh_filter = openmc.Filter()
-mesh_filter.mesh = mesh
+mesh_filter = openmc.MeshFilter(mesh)
 
 # Instantiate the Tally
 tallies['Mesh Rates'] = openmc.Tally(tally_id=1, name='tally 1')

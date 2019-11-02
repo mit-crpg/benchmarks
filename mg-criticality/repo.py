@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from make_model import Case
 
 # GLOBAL OPTIONS

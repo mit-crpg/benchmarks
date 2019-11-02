@@ -3,6 +3,7 @@
   <material id="1" name="Beryllium (internal)">
     <density units="sum" />
     <nuclide ao="0.11862" name="Be9" />
+    <sab name="c_Be" />
   </material>
   <material id="2" name="Nickel">
     <density units="sum" />
@@ -32,5 +33,6 @@
   <material id="5" name="Beryllium (outer)">
     <density units="sum" />
     <nuclide ao="0.12295" name="Be9" />
+    <sab name="c_Be" />
   </material>
 </materials>

@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import numpy as np
 from subprocess import CalledProcessError
 
@@ -226,10 +224,10 @@ class Case(object):
             surfs = []
             for r, rad in enumerate(self.rad):
                 if r == len(self.rad) - 1:
-                    surfs.append(openmc.ZCylinder(R=rad,
+                    surfs.append(openmc.ZCylinder(r=rad,
                                                   boundary_type='vacuum'))
                 else:
-                    surfs.append(openmc.ZCylinder(R=rad))
+                    surfs.append(openmc.ZCylinder(r=rad))
 
             # Instantiate Cells
             cells = []
@@ -245,9 +243,9 @@ class Case(object):
             surfs = []
             for r, rad in enumerate(self.rad):
                 if r == len(self.rad) - 1:
-                    surfs.append(openmc.Sphere(R=rad, boundary_type='vacuum'))
+                    surfs.append(openmc.Sphere(r=rad, boundary_type='vacuum'))
                 else:
-                    surfs.append(openmc.Sphere(R=rad))
+                    surfs.append(openmc.Sphere(r=rad))
 
             # Instantiate Cells
             cells = []

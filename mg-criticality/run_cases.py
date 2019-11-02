@@ -86,8 +86,9 @@ with open("results.csv", mode="w") as csv_file:
 
     # write the header
     writer.writerow(['Case ID', 'Case Name', 'Eigenvalue Bias [pcm]',
-                     'Successful Execution'])
+                     'Eigenvalue Bias Std. Dev. [pcm]', 'Successful Execution'])
 
     # Now run each case
     for i in range(len(case_nums)):
-        writer.writerow([case_nums[i], case_names[i], biases[i], codes[i]])
+        writer.writerow([case_nums[i], case_names[i], biases[i].n,
+                         biases[i].s, codes[i]])

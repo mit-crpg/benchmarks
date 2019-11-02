@@ -41,6 +41,7 @@ mat.name = "Paraffin"
 mat.set_density('sum')
 mat.add_nuclide('H1', 8.2574e-02)
 mat.add_element('C', 3.9699e-02)
+mat.add_s_alpha_beta('c_H_in_CH2')
 mats.append(mat)
 
 mats.export_to_xml()

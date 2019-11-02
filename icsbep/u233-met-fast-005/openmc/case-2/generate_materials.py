@@ -15,6 +15,7 @@ mat.name = "Beryllium reflector"
 mat.set_density('sum')
 mat.add_element('Be', 1.1984e-01)
 mat.add_element('O', 1.3776e-03)
+mat.add_s_alpha_beta('c_Be')
 mats.append(mat)
 
 mats.export_to_xml()

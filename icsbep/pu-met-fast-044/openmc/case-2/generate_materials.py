@@ -35,6 +35,7 @@ mat.name = "Polyethylene"
 mat.set_density('sum')
 mat.add_element('C', 4.1216e-02)
 mat.add_element('H', 8.2431e-02)
+mat.add_s_alpha_beta('c_H_in_CH2')
 mats.append(mat)
 
 mats.export_to_xml()
