@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import numpy as np
+from subprocess import CalledProcessError
 
 import openmc
 import openmc.checkvalue as cv
@@ -55,7 +56,7 @@ class Case(object):
             mats.append(openmc.Material(name=self.mat_names[i]))
             mats[-1].set_density('macro', 1.0)
             mats[-1].add_macroscopic(macros[-1])
-            materials_file += [mats[-1]]
+            materials_file.append(mats[-1])
 
         materials_file.cross_sections = GROUP_FILES[self.groups]
 
@@ -303,9 +304,15 @@ class Case(object):
         geometry.export_to_xml()
 
     def execute(self, quiet=True):
-        returncode = openmc.run(output=(not quiet))
-        spfile = 'statepoint.' + str(self.batches) + '.h5'
-        sp = openmc.StatePoint(spfile, autolink=False)
-        self.keff = sp.k_combined
+        success = True
+        try:
+            openmc.run(output=(not quiet))
+        except CalledProcessError:
+            success = False
 
-        return returncode
+        if success:
+            spfile = 'statepoint.' + str(self.batches) + '.h5'
+            sp = openmc.StatePoint(spfile, autolink=False)
+            self.keff = sp.k_combined
+
+        return success

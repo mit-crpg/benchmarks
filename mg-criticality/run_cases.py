@@ -46,14 +46,15 @@ if options.case_name:
         print('Running Case\n')
         case.make_model()
         code = case.execute(False)
-        if code != 0:
+        if code:
+            bias = print_case(case)
+        else:
             print(case.name + ' Failed Execution!')
             bias = 0.
-        else:
-            bias = print_case(case)
         biases.append(bias)
         case_names.append(case.name)
         case_nums.append(case_num)
+        codes.append(code)
 
     else:
         print('Invalid Case Name: ' + options.case)
@@ -68,13 +69,15 @@ else:
         print(case.number, case.name)
         case.make_model()
         code = case.execute(True)
-        bias = print_case(case)
-
+        if code:
+            bias = print_case(case)
+        else:
+            print(case.name + ' Failed Execution!')
+            bias = 0.
         biases.append(bias)
         case_names.append(case.name)
         codes.append(code)
         case_nums.append(case.number)
-
 
 # Write to a CSV
 with open("results.csv", mode="w") as csv_file:
@@ -83,7 +86,7 @@ with open("results.csv", mode="w") as csv_file:
 
     # write the header
     writer.writerow(['Case ID', 'Case Name', 'Eigenvalue Bias [pcm]',
-                     'Error Code'])
+                     'Successful Execution'])
 
     # Now run each case
     for i in range(len(case_nums)):
