@@ -1,12 +1,10 @@
-#!/usr/bin/env python
-
 from make_model import Case
 
-# GLOBAL DATA
-batches = 5000
-inactive = 500
-particles = 10000
-tab_leg = {'enable': True, 'num_points': 33}
+# GLOBAL OPTIONS
+batches = 1000
+inactive = 50
+particles = 2000
+tab_leg = {'enable': True}
 
 
 def build_cases():
@@ -573,22 +571,6 @@ def build_cases():
     cases.append(Case(case, name, mat_names, groups, order, geom, rad, ref_k,
                       params))
     names[name] = len(cases) - 1
-
-    # # CASE -11
-    # case = -11
-    # name = 'Ua-1-1-IN'
-    # mat_names = ['Ua1']
-    # groups = 1
-    # order = 1
-    # geom = 'IN'
-    # rad = [1.]
-    # ref_k = 2.25
-    # mesh_dim = [20, 1, 1]
-    # params = {'mesh_dim': mesh_dim, 'tab_leg': tab_leg, 'batches': batches,
-    #           'inactive': inactive, 'particles': particles}
-    # cases.append(Case(case, name, mat_names, groups, order, geom, rad, ref_k,
-    #                   params))
-    # names[name] = len(cases) - 1
 
     # CASE 36
     case = 36

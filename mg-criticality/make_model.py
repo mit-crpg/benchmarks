@@ -1,6 +1,5 @@
-#!/usr/bin/env python
-
 import numpy as np
+from subprocess import CalledProcessError
 
 import openmc
 import openmc.checkvalue as cv
@@ -55,7 +54,7 @@ class Case(object):
             mats.append(openmc.Material(name=self.mat_names[i]))
             mats[-1].set_density('macro', 1.0)
             mats[-1].add_macroscopic(macros[-1])
-            materials_file.add_material(mats[-1])
+            materials_file.append(mats[-1])
 
         materials_file.cross_sections = GROUP_FILES[self.groups]
 
@@ -100,6 +99,8 @@ class Case(object):
             raise NotImplementedError
 
         settings_file.source = openmc.source.Source(space=uniform_dist)
+
+        settings_file.output = {'summary': False}
 
         return settings_file
 
@@ -223,10 +224,10 @@ class Case(object):
             surfs = []
             for r, rad in enumerate(self.rad):
                 if r == len(self.rad) - 1:
-                    surfs.append(openmc.ZCylinder(R=rad,
+                    surfs.append(openmc.ZCylinder(r=rad,
                                                   boundary_type='vacuum'))
                 else:
-                    surfs.append(openmc.ZCylinder(R=rad))
+                    surfs.append(openmc.ZCylinder(r=rad))
 
             # Instantiate Cells
             cells = []
@@ -242,9 +243,9 @@ class Case(object):
             surfs = []
             for r, rad in enumerate(self.rad):
                 if r == len(self.rad) - 1:
-                    surfs.append(openmc.Sphere(R=rad, boundary_type='vacuum'))
+                    surfs.append(openmc.Sphere(r=rad, boundary_type='vacuum'))
                 else:
-                    surfs.append(openmc.Sphere(R=rad))
+                    surfs.append(openmc.Sphere(r=rad))
 
             # Instantiate Cells
             cells = []
@@ -301,9 +302,15 @@ class Case(object):
         geometry.export_to_xml()
 
     def execute(self, quiet=True):
-        returncode = openmc.run(output=(not quiet))
-        spfile = 'statepoint.' + str(self.batches) + '.h5'
-        sp = openmc.StatePoint(spfile)
-        self.keff = sp.k_combined[:]
+        success = True
+        try:
+            openmc.run(output=(not quiet))
+        except CalledProcessError:
+            success = False
 
-        return returncode
+        if success:
+            spfile = 'statepoint.' + str(self.batches) + '.h5'
+            sp = openmc.StatePoint(spfile, autolink=False)
+            self.keff = sp.k_combined
+
+        return success

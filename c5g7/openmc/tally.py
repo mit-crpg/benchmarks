@@ -7,15 +7,13 @@ import openmc
 tallies = {}
 
 # Instantiate a tally mesh
-mesh = openmc.Mesh(mesh_id=1)
-mesh.type = 'regular'
+mesh = openmc.RegularMesh(mesh_id=1)
 mesh.dimension = [51, 51, 1]
 mesh.lower_left = [-32.13, -32.13, -1.e50]
 mesh.upper_right = [32.13, 32.13, 1.e50]
 
 # Instantiate some tally Filters
-mesh_filter = openmc.Filter()
-mesh_filter.mesh = mesh
+mesh_filter = openmc.MeshFilter(mesh)
 
 # Instantiate the Tally
 tallies['Mesh Rates'] = openmc.Tally(tally_id=1, name='tally 1')

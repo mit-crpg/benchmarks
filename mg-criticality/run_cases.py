@@ -1,20 +1,18 @@
 #!/usr/bin/env python
 
-from __future__ import print_function
 from optparse import OptionParser
-
-import matplotlib.pyplot as plt
-import numpy as np
+import csv
 
 import repo
 import make_library
 
 
 def print_case(case):
-    bias = np.abs(1.0E5 * (case.keff[0] - case.ref_k))
-    print('\tCalculated keff = {0:1.6f}'.format(case.keff[0]))
+    bias = 1.0E5 * (case.keff - case.ref_k)
+    print('\tCalculated keff = {0:1.6f}'.format(case.keff))
     print('\tReference keff  = {0:1.6f}'.format(case.ref_k))
     print('\tBias [pcm]      = {0:1.1f}'.format(bias))
+    return bias
 
 
 # Command line parsing
@@ -33,6 +31,10 @@ if options.list_cases:
     exit()
 
 # Run specific case, if requested
+case_nums = []
+case_names = []
+biases = []
+codes = []
 if options.case_name:
     if options.case_name in repo.names:
         case_num = repo.names[options.case_name]
@@ -44,10 +46,15 @@ if options.case_name:
         print('Running Case\n')
         case.make_model()
         code = case.execute(False)
-        if code != 0:
-            print(case.name + ' Failed Execution!')
+        if code:
+            bias = print_case(case)
         else:
-            print_case(case)
+            print(case.name + ' Failed Execution!')
+            bias = 0.
+        biases.append(bias)
+        case_names.append(case.name)
+        case_nums.append(case_num)
+        codes.append(code)
 
     else:
         print('Invalid Case Name: ' + options.case)
@@ -62,7 +69,26 @@ else:
         print(case.number, case.name)
         case.make_model()
         code = case.execute(True)
-        if code != 0:
-            print(case.name + ' Failed Execution!')
+        if code:
+            bias = print_case(case)
         else:
-            print_case(case)
+            print(case.name + ' Failed Execution!')
+            bias = 0.
+        biases.append(bias)
+        case_names.append(case.name)
+        codes.append(code)
+        case_nums.append(case.number)
+
+# Write to a CSV
+with open("results.csv", mode="w") as csv_file:
+    writer = csv.writer(csv_file, delimiter=",", quotechar='"',
+                        quoting=csv.QUOTE_NONNUMERIC)
+
+    # write the header
+    writer.writerow(['Case ID', 'Case Name', 'Eigenvalue Bias [pcm]',
+                     'Eigenvalue Bias Std. Dev. [pcm]', 'Successful Execution'])
+
+    # Now run each case
+    for i in range(len(case_nums)):
+        writer.writerow([case_nums[i], case_names[i], biases[i].n,
+                         biases[i].s, codes[i]])
