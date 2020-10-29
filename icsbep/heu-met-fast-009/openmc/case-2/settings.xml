@@ -9,12 +9,11 @@
   Date:        3.15.2012
   =========================================================
   -->
- 
-  <eigenvalue>
-    <batches>1000</batches>
-    <inactive>20</inactive>
-    <particles>10000</particles>
-  </eigenvalue>
+
+  <run_mode>eigenvalue</run_mode>
+  <batches>1000</batches>
+  <inactive>20</inactive>
+  <particles>10000</particles>
 
   <source>
     <space>

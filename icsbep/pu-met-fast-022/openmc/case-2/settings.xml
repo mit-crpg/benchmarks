@@ -7,12 +7,11 @@
   Case:        PU-MET-FAST-022 Simplified model
   ==========================================================
   -->
- 
-  <eigenvalue>
-    <batches>3000</batches>
-    <inactive>20</inactive>
-    <particles>10000</particles>
-  </eigenvalue>
+
+  <run_mode>eigenvalue</run_mode>
+  <batches>3000</batches>
+  <inactive>20</inactive>
+  <particles>10000</particles>
 
   <source>
     <space>

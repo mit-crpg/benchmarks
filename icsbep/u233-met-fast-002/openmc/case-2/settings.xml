@@ -1,20 +1,19 @@
 <?xml version="1.0"?>
 <settings>
- 
+
   <!--
   ================================================
-  Description: U-233 Sphere surrounded by U-235 
+  Description: U-233 Sphere surrounded by U-235
   Case:        U233-MET-FAST-002 (7 kg Experiment)
   Written By:  Paul Romano
   Date:        1/2/2012
   ================================================
   -->
 
-  <eigenvalue>
-    <batches>3000</batches>
-    <inactive>20</inactive>
-    <particles>10000</particles>
-  </eigenvalue>
+  <run_mode>eigenvalue</run_mode>
+  <batches>3000</batches>
+  <inactive>20</inactive>
+  <particles>10000</particles>
 
   <source>
     <space>

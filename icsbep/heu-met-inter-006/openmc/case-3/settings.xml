@@ -7,12 +7,11 @@
   Case:        HEU-MET-INTER-006 Case 3
   =========================================================
   -->
- 
-  <eigenvalue>
-    <batches>1500</batches>
-    <inactive>20</inactive>
-    <particles>10000</particles>
-  </eigenvalue>
+
+  <run_mode>eigenvalue</run_mode>
+  <batches>1500</batches>
+  <inactive>20</inactive>
+  <particles>10000</particles>
 
   <source>
     <space>
