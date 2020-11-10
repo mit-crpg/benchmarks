@@ -18,10 +18,11 @@
     </space>
   </source>
 
-  <entropy>
+  <mesh id="1">
     <dimension>17 17 1</dimension>
     <lower_left>-176.6096 -176.6096 -100</lower_left>
     <upper_right>176.6096  176.6096  100</upper_right>
-  </entropy>
+  </mesh>
+  <entropy_mesh>1</entropy_mesh>
 
 </settings>

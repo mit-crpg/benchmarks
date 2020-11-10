@@ -17,17 +17,18 @@
 
   <source>
     <space>
-      <type>box</type>
+      <type>point</type>
       <parameters>
-        -200. -200. -20.
-        200. 200. 20.
+        0. 0. 0.
       </parameters>
     </space>
   </source>
 
-  <entropy>
+  <mesh id="1">
     <lower_left>-200. -200. -20.</lower_left>
     <upper_right>200. 200. 20.</upper_right>
-  </entropy>
+    <dimension>20 20 1</dimension>
+  </mesh>
+  <entropy_mesh>1</entropy_mesh>
 
 </settings>

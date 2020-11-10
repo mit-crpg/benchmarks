@@ -25,9 +25,11 @@
     </space>
   </source>
 
-  <entropy>
+  <mesh id="1">
     <lower_left>0. -10. -10.</lower_left>
     <upper_right>70. 10. 10.</upper_right>
-  </entropy>
+    <dimension>500 1 1</dimension>
+  </mesh>
+  <entropy_mesh>1</entropy_mesh>
 
 </settings>

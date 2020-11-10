@@ -13,7 +13,7 @@
   <run_mode>eigenvalue</run_mode>
   <batches>520</batches>
   <inactive>20</inactive>
-  <particles>1000</particles>
+  <particles>10000</particles>
 
   <source>
     <space>
@@ -25,9 +25,11 @@
     </space>
   </source>
 
-  <entropy>
+  <mesh id="1">
     <lower_left>0. 0. 0.</lower_left>
     <upper_right>648. 81. 360.</upper_right>
-  </entropy>
+    <dimension>24 3 10</dimension>
+  </mesh>
+  <entropy_mesh>1</entropy_mesh>
 
 </settings>
