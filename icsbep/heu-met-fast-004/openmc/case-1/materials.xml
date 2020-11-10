@@ -1,39 +1,23 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ===========================================================
-  Description: Idealized Oralloy sphere on Lucite ring in H2O
-  Case:        HEU-MET-FAST-004 Three-dimensional
-  Written By:  Paul Romano
-  Date:        2/5/2012
-  ===========================================================
-  -->
-
-  <!-- Oralloy -->
-  <material id="1">
+  <material depletable="true" id="1" name="Oralloy">
     <density units="sum" />
-    <nuclide name="U234" ao="5.3678e-4" />
-    <nuclide name="U235" ao="4.7033e-2" />
-    <nuclide name="U236" ao="9.5896e-5" />
-    <nuclide name="U238" ao="4.7782e-4" />
+    <nuclide ao="0.00053678" name="U234" />
+    <nuclide ao="0.047033" name="U235" />
+    <nuclide ao="9.5896e-05" name="U236" />
+    <nuclide ao="0.00047782" name="U238" />
   </material>
-
-  <!-- Lucite -->
-  <material id="2">
+  <material id="2" name="Lucite">
     <density units="sum" />
-    <nuclide name="H1"   ao="5.7745e-2" />
-    <nuclide name="C0" ao="3.6090e-2" />
-    <nuclide name="O16"  ao="1.4435e-2" />
+    <nuclide ao="0.057745" name="H1" />
+    <nuclide ao="0.03609" name="C0" />
+    <nuclide ao="0.014435" name="O16" />
     <sab name="c_H_in_H2O" />
   </material>
-
-  <!-- Water -->
-  <material id="3">
+  <material id="3" name="Water">
     <density units="sum" />
-    <nuclide name="H1"  ao="6.6807e-2" />
-    <nuclide name="O16" ao="3.3403e-2" />
+    <nuclide ao="0.066807" name="H1" />
+    <nuclide ao="0.033403" name="O16" />
     <sab name="c_H_in_H2O" />
   </material>
-
 </materials>
