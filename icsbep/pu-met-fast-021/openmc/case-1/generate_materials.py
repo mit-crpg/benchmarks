@@ -25,7 +25,7 @@ mat.name = "Steel Cover"
 mat.set_density('sum')
 mat.add_element('Fe', 5.1280e-02)
 mat.add_element('C', 3.4757e-04)
-mat.add_element('Si', 8.9185e-03)
+mat.add_element('Si', 8.9185e-04)
 mat.add_element('Ti', 6.1034e-04)
 mat.add_element('Cr', 1.4452e-02)
 mat.add_element('Mn', 1.5198e-03)

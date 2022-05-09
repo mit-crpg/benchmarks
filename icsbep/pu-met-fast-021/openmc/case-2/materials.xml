@@ -26,9 +26,9 @@
     <nuclide ao="0.0010866232" name="Fe57" />
     <nuclide ao="0.0001446096" name="Fe58" />
     <nuclide ao="0.00034757" name="C0" />
-    <nuclide ao="0.0082255040108" name="Si28" />
-    <nuclide ao="0.00041766762459999996" name="Si29" />
-    <nuclide ao="0.00027532836459999996" name="Si30" />
+    <nuclide ao="0.0008225504010800001" name="Si28" />
+    <nuclide ao="4.176676246e-05" name="Si29" />
+    <nuclide ao="2.753283646e-05" name="Si30" />
     <nuclide ao="5.035305e-05" name="Ti46" />
     <nuclide ao="4.5409295999999995e-05" name="Ti47" />
     <nuclide ao="0.000449942648" name="Ti48" />
