@@ -15,10 +15,10 @@
   </material>
   <material id="2" name="347 Stainless Steel">
     <density units="sum" />
-    <nuclide ao="0.00035295617" name="Fe54" />
-    <nuclide ao="0.005540657044" name="Fe56" />
-    <nuclide ao="0.000127957934" name="Fe57" />
-    <nuclide ao="1.7028852e-05" name="Fe58" />
+    <nuclide ao="0.0035295617000000003" name="Fe54" />
+    <nuclide ao="0.055406570440000004" name="Fe56" />
+    <nuclide ao="0.00127957934" name="Fe57" />
+    <nuclide ao="0.00017028852" name="Fe58" />
     <nuclide ao="0.0007246590999999999" name="Cr50" />
     <nuclide ao="0.013974329419999999" name="Cr52" />
     <nuclide ao="0.0015845767799999998" name="Cr53" />

@@ -17,7 +17,7 @@ mats.append(mat)
 mat = openmc.Material(2)
 mat.name = "347 Stainless Steel"
 mat.set_density('sum')
-mat.add_element('Fe', 6.0386e-03)
+mat.add_element('Fe', 6.0386e-02)
 mat.add_element('Cr', 1.6678e-02)
 mat.add_element('Ni', 9.8504e-03)
 mats.append(mat)
