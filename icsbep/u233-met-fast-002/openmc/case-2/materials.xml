@@ -8,17 +8,17 @@
   ================================================
   -->
 
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="U233" ao="4.7312e-02" />
-    <nuclide name="U234" ao="5.2770e-04" />
-    <nuclide name="U238" ao="3.3015e-04" />
+  <material depletable="true" id="1">
+    <density units="g/cm3" value="18.644" />
+    <nuclide ao="0.047312" name="U233" />
+    <nuclide ao="0.00052707" name="U234" />
+    <nuclide ao="0.00033015" name="U238" />
   </material>
-
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="U235" ao="4.4892e-02" />
-    <nuclide name="U238" ao="3.2340e-03" />
+  
+  <material depletable="true" id="2">
+    <density units="g/cm3" value="18.8" />
+    <nuclide ao="0.044892" name="U235" />
+    <nuclide ao="0.003234" name="U238" />
   </material>
 
 </materials>

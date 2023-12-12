@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material depletable="true" id="1" name="IEU Flouride Solution">
-    <density units="sum" />
+  <material depletable="true" id="1">
+    <density units="g/cm3" value="1.9712" />
     <nuclide ao="4.5608e-08" name="U232" />
     <nuclide ao="0.0022379" name="U233" />
     <nuclide ao="2.4316e-05" name="U234" />
@@ -12,24 +12,24 @@
     <nuclide ao="0.0047182" name="F19" />
     <sab name="c_H_in_H2O" />
   </material>
-  <material id="2" name="347 Stainless steel">
-    <density units="sum" />
+  <material id="2">
+    <density units="g/cm3" value="8.0" />
     <nuclide ao="0.0035799456" name="Fe54" />
-    <nuclide ao="0.056197489919999996" name="Fe56" />
+    <nuclide ao="0.05619748992" name="Fe56" />
     <nuclide ao="0.00129784512" name="Fe57" />
     <nuclide ao="0.00017271936" name="Fe58" />
-    <nuclide ao="0.0007246590999999999" name="Cr50" />
-    <nuclide ao="0.013974329419999999" name="Cr52" />
-    <nuclide ao="0.0015845767799999998" name="Cr53" />
-    <nuclide ao="0.00039443469999999995" name="Cr54" />
-    <nuclide ao="0.0061448933015999995" name="Ni58" />
+    <nuclide ao="0.0007246591" name="Cr50" />
+    <nuclide ao="0.01397432942" name="Cr52" />
+    <nuclide ao="0.00158457678" name="Cr53" />
+    <nuclide ao="0.0003944347" name="Cr54" />
+    <nuclide ao="0.0061448933016" name="Ni58" />
     <nuclide ao="0.0023670018984" name="Ni60" />
     <nuclide ao="0.0001028919336" name="Ni61" />
     <nuclide ao="0.000328064508" name="Ni62" />
     <nuclide ao="8.35483584e-05" name="Ni64" />
   </material>
-  <material id="3" name="Beryllium reflector">
-    <density units="sum" />
+  <material id="3">
+    <density units="g/cm3" value="1.82" />
     <nuclide ao="0.12161" name="Be9" />
     <sab name="c_Be" />
   </material>

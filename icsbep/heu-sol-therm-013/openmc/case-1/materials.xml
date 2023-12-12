@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
   <material depletable="true" id="1" name="Uranium Nitrate Solution">
-    <density units="sum" />
+    <density units="g/cm3" value="1.0288"/>
     <nuclide ao="5.385e-07" name="U234" />
     <nuclide ao="4.8042e-05" name="U235" />
     <nuclide ao="1.3862e-07" name="U236" />
@@ -13,18 +13,18 @@
     <sab name="c_H_in_H2O" />
   </material>
   <material id="2" name="Type 1100 Aluminum">
-    <density units="sum" />
-    <nuclide ao="0.059699" name="Al27" />
-    <nuclide ao="0.000509126279536" name="Si28" />
-    <nuclide ao="2.5851979831999998e-05" name="Si29" />
-    <nuclide ao="1.7041740632e-05" name="Si30" />
-    <nuclide ao="3.5518206e-05" name="Cu63" />
-    <nuclide ao="1.5845794e-05" name="Cu65" />
-    <nuclide ao="1.2271848600000001e-05" name="Zn64" />
-    <nuclide ao="6.9208534e-06" name="Zn66" />
-    <nuclide ao="1.0083032e-06" name="Zn67" />
-    <nuclide ao="4.604751e-06" name="Zn68" />
-    <nuclide ao="1.522438e-07" name="Zn70" />
+    <density units="g/cm3" value="2.71"/>
+    <nuclide ao="0.059699"   name="Al27" />
+    <nuclide ao="0.00050913" name="Si28" />
+    <nuclide ao="2.5852e-05" name="Si29" />
+    <nuclide ao="1.7042e-05" name="Si30" />
+    <nuclide ao="3.5528e-05" name="Cu63" />
+    <nuclide ao="1.5836e-05" name="Cu65" />
+    <nuclide ao="1.2272e-05" name="Zn64" />
+    <nuclide ao="6.9209e-06" name="Zn66" />
+    <nuclide ao="1.0083e-06" name="Zn67" />
+    <nuclide ao="4.6048e-06" name="Zn68" />
+    <nuclide ao="1.5224e-07" name="Zn70" />
     <nuclide ao="1.4853e-05" name="Mn55" />
   </material>
 </materials>
