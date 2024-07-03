@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
   <material depletable="true" id="1" name="98% Pu-239 in delta phase">
-    <density units="atom/b-cm" value="0.04189142"/>
+    <density units="sum"/>
     <nuclide ao="0.03662" name="Pu239"/>
     <nuclide ao="0.00066944" name="Pu240"/>
     <nuclide ao="0.001320091896" name="Ga69"/>
     <nuclide ao="0.000876108104" name="Ga71"/>
-    <nuclide ao="8.256647e-06" name="Fe54"/>
+    <nuclide ao="8.256647000000002e-06" name="Fe54"/>
     <nuclide ao="0.0001296117004" name="Fe56"/>
     <nuclide ao="2.9932994e-06" name="Fe57"/>
-    <nuclide ao="3.983532e-07" name="Fe58"/>
+    <nuclide ao="3.9835320000000003e-07" name="Fe58"/>
     <nuclide ao="0.00028972" name="C0"/>
     <nuclide ao="0.0013443826212" name="Ni58"/>
     <nuclide ao="0.0005178537788" name="Ni60"/>
     <nuclide ao="2.25107452e-05" name="Ni61"/>
     <nuclide ao="7.1774106e-05" name="Ni62"/>
-    <nuclide ao="1.82787488e-05" name="Ni64"/>
+    <nuclide ao="1.8278748800000003e-05" name="Ni64"/>
   </material>
   <material id="2" name="Polyethylene">
-    <density units="atom/b-cm" value="0.116442"/>
-    <nuclide ao="0.077628" name="H1"/>
+    <density units="sum"/>
     <nuclide ao="0.038814" name="C0"/>
+    <nuclide ao="0.077628" name="H1"/>
     <sab name="c_H_in_CH2"/>
   </material>
 </materials>
