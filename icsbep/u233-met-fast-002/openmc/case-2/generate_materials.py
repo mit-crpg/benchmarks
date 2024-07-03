@@ -1,20 +1,13 @@
 import openmc
 
-mats = openmc.Materials()
+inner = openmc.Material(name="U233 Inner Sphere")
+inner.add_nuclide('U233', 4.7312e-02)
+inner.add_nuclide('U235', 5.2770e-04)
+inner.add_nuclide('U238', 3.3015e-04)
 
-mat = openmc.Material(1)
-mat.name = "U-233 Inner Sphere"
-mat.set_density('g/cm3', 18.644)
-mat.add_nuclide('U233', 0.047312)
-mat.add_nuclide('U235', 0.00052707)
-mat.add_nuclide('U238', 0.00033015)
-mats.append(mat)
+outer = openmc.Material(name = "U235 Outer Shell")
+outer.add_nuclide('U235', 4.4892e-02)
+outer.add_nuclide('U238', 3.2340e-03)
 
-mat = openmc.Material(2)
-mat.name = "U-235 Outer Shell"
-mat.set_density('g/cm3', 18.8)
-mat.add_nuclide('U235', 0.044892)
-mat.add_nuclide('U238', 0.003234)
-mats.append(mat)
-
-mats.export_to_xml()
+materials = openmc.Materials([inner, outer])
+materials.export_to_xml()

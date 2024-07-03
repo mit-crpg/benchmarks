@@ -1,24 +1,14 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ================================================
-  Description: U-233 Sphere surrounded by U-235 
-  Case:        U233-MET-FAST-002 (7 kg Experiment)
-  ================================================
-  -->
-
-  <material depletable="true" id="1">
-    <density units="g/cm3" value="18.644" />
-    <nuclide ao="0.047312" name="U233" />
-    <nuclide ao="0.00052707" name="U234" />
-    <nuclide ao="0.00033015" name="U238" />
+  <material depletable="true" id="1" name="U233 Inner Sphere">
+    <density units="sum"/>
+    <nuclide ao="0.047312" name="U233"/>
+    <nuclide ao="0.0005277" name="U235"/>
+    <nuclide ao="0.00033015" name="U238"/>
   </material>
-  
-  <material depletable="true" id="2">
-    <density units="g/cm3" value="18.8" />
-    <nuclide ao="0.044892" name="U235" />
-    <nuclide ao="0.003234" name="U238" />
+  <material depletable="true" id="2" name="U235 Outer Shell">
+    <density units="sum"/>
+    <nuclide ao="0.044892" name="U235"/>
+    <nuclide ao="0.003234" name="U238"/>
   </material>
-
 </materials>
