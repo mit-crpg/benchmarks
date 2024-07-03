@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material depletable="true" id="1">
-    <density units="g/cm3" value="15.53"/>
+  <material depletable="true" id="1" name="Core">
+    <density units="sum"/>
     <nuclide ao="0.036697" name="Pu239"/>
     <nuclide ao="0.00187" name="Pu240"/>
     <nuclide ao="0.00011639" name="Pu241"/>
     <nuclide ao="0.0008868935399999999" name="Ga69"/>
     <nuclide ao="0.00058860646" name="Ga71"/>
   </material>
-  <material depletable="true" id="2">
-    <density units="g/cm3" value="19.0"/>
+  <material depletable="true" id="2" name="Reflector">
+    <density units="sum"/>
     <nuclide ao="2.6438e-06" name="U234"/>
     <nuclide ao="0.0003461" name="U235"/>
     <nuclide ao="0.047721" name="U238"/>
