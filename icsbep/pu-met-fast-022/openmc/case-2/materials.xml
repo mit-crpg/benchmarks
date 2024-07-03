@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
   <material depletable="true" id="1" name="98% Pu-239 in delta phase">
-    <density units="atom/b-cm" value="0.04178839"/>
+    <density units="sum"/>
     <nuclide ao="0.036623" name="Pu239"/>
     <nuclide ao="0.00066951" name="Pu240"/>
-    <nuclide ao="0.0013211" name="Ga69"/>
-    <nuclide ao="0.00087679" name="Ga71"/>
-    <nuclide ao="8.3274e-06" name="Fe54"/>
-    <nuclide ao="0.00013072" name="Fe56"/>
-    <nuclide ao="3.0189e-06" name="Fe57"/>
-    <nuclide ao="4.0177e-07" name="Fe58"/>
+    <nuclide ao="0.001321113732" name="Ga69"/>
+    <nuclide ao="0.000876786268" name="Ga71"/>
+    <nuclide ao="8.327371500000001e-06" name="Fe54"/>
+    <nuclide ao="0.00013072192380000002" name="Fe56"/>
+    <nuclide ao="3.0189393000000003e-06" name="Fe57"/>
+    <nuclide ao="4.017654e-07" name="Fe58"/>
     <nuclide ao="0.00029311" name="C0"/>
-    <nuclide ao="0.0012679" name="Ni58"/>
-    <nuclide ao="0.00048838" name="Ni60"/>
-    <nuclide ao="2.1229e-05" name="Ni61"/>
-    <nuclide ao="6.7689e-05" name="Ni62"/>
-    <nuclide ao="1.7238e-05" name="Ni64"/>
+    <nuclide ao="0.0012678641855999998" name="Ni58"/>
+    <nuclide ao="0.0004883790144" name="Ni60"/>
+    <nuclide ao="2.12294976e-05" name="Ni61"/>
+    <nuclide ao="6.7688928e-05" name="Ni62"/>
+    <nuclide ao="1.72383744e-05" name="Ni64"/>
   </material>
 </materials>
