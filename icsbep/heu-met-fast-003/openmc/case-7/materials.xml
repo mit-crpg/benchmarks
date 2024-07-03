@@ -1,27 +1,15 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <materials>
-
-  <!--
-  ==========================================================
-  Description: Topsy Reflected Oralloy Spherical Assembly
-  Case:        HEU-MET-FAST-003 11-in Tuballoy reflector
-  ==========================================================
-  -->
-
-  <!-- Oralloy -->
-  <material id="1">
-    <density units="sum" />
-    <nuclide name="U234" ao="4.9210e-04" />
-    <nuclide name="U235" ao="4.4917e-02" />
-    <nuclide name="U238" ao="2.5993e-03" />
+  <material depletable="true" id="1" name="Oralloy">
+    <density units="sum"/>
+    <nuclide ao="0.0004921" name="U234"/>
+    <nuclide ao="0.044917" name="U235"/>
+    <nuclide ao="0.0025993" name="U238"/>
   </material>
-
-  <!-- Tuballoy -->
-  <material id="2">
-    <density units="sum" />
-    <nuclide name="U234" ao="2.6299e-06" />
-    <nuclide name="U235" ao="3.4428e-04" />
-    <nuclide name="U238" ao="4.7470e-02" />
+  <material depletable="true" id="2" name="Tuballoy">
+    <density units="sum"/>
+    <nuclide ao="2.6299e-06" name="U234"/>
+    <nuclide ao="0.00034428" name="U235"/>
+    <nuclide ao="0.04747" name="U238"/>
   </material>
-
 </materials>

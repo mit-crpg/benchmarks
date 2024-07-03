@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material depletable="true" id="1">
-    <density units="sum" />
-    <nuclide ao="0.037592" name="Pu239" />
-    <nuclide ao="0.0019349" name="Pu240" />
-    <nuclide ao="0.00011797" name="Pu241" />
-    <nuclide ao="0.0008254631639999999" name="Ga69" />
-    <nuclide ao="0.000547836836" name="Ga71" />
+  <material depletable="true" id="1" name="Core">
+    <density units="sum"/>
+    <nuclide ao="0.037592" name="Pu239"/>
+    <nuclide ao="0.0019349" name="Pu240"/>
+    <nuclide ao="0.00011797" name="Pu241"/>
+    <nuclide ao="0.0008254631639999999" name="Ga69"/>
+    <nuclide ao="0.000547836836" name="Ga71"/>
   </material>
-  <material id="2">
-    <density units="sum" />
-    <nuclide ao="0.058787" name="Al27" />
-    <nuclide ao="0.0008131348499999999" name="Cu63" />
-    <nuclide ao="0.00036276514999999997" name="Cu65" />
-    <nuclide ao="0.000223075927016" name="Si28" />
-    <nuclide ao="1.1327159091999999e-05" name="Si29" />
-    <nuclide ao="7.466913892e-06" name="Si30" />
-    <nuclide ao="0.00024729" name="Mn55" />
-    <nuclide ao="0.0002758232136" name="Mg24" />
-    <nuclide ao="3.5005872e-05" name="Mg25" />
-    <nuclide ao="3.85309144e-05" name="Mg26" />
+  <material id="2" name="Reflector">
+    <density units="sum"/>
+    <nuclide ao="0.058787" name="Al27"/>
+    <nuclide ao="0.0008131348499999999" name="Cu63"/>
+    <nuclide ao="0.00036276514999999997" name="Cu65"/>
+    <nuclide ao="0.000223075927016" name="Si28"/>
+    <nuclide ao="1.1327159091999999e-05" name="Si29"/>
+    <nuclide ao="7.466913892e-06" name="Si30"/>
+    <nuclide ao="0.00024729" name="Mn55"/>
+    <nuclide ao="0.0002758232136" name="Mg24"/>
+    <nuclide ao="3.5005872e-05" name="Mg25"/>
+    <nuclide ao="3.85309144e-05" name="Mg26"/>
   </material>
 </materials>

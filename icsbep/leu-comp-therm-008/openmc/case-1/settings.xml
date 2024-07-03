@@ -8,7 +8,7 @@
   <particles>10000</particles>
 
   <!-- Starting source -->
-  <source>
+  <source particle="neutron" strength="1.0" type="independent">
     <space type="box">
       <parameters>-1 -1 -1  1  1  1</parameters>
     </space>

@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
   <material depletable="true" id="1" name="Oralloy">
-    <density units="sum" />
-    <nuclide ao="0.0004921" name="U234" />
-    <nuclide ao="0.044917" name="U235" />
-    <nuclide ao="0.0025993" name="U238" />
+    <density units="sum"/>
+    <nuclide ao="0.0004921" name="U234"/>
+    <nuclide ao="0.044917" name="U235"/>
+    <nuclide ao="0.0025993" name="U238"/>
   </material>
   <material id="2" name="Tungsten carbide">
-    <density units="sum" />
-    <nuclide ao="0.012697" name="W182" />
-    <nuclide ao="0.0068626" name="W183" />
-    <nuclide ao="0.014754" name="W184" />
-    <nuclide ao="0.013744" name="W186" />
-    <nuclide ao="0.048057" name="C0" />
+    <density units="sum"/>
+    <nuclide ao="0.012697" name="W182"/>
+    <nuclide ao="0.0068626" name="W183"/>
+    <nuclide ao="0.014754" name="W184"/>
+    <nuclide ao="0.013744" name="W186"/>
+    <nuclide ao="0.048057" name="C0"/>
   </material>
 </materials>
