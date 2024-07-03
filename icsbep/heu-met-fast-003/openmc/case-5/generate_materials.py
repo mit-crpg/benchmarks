@@ -1,6 +1,6 @@
 """
 Description: Topsy Reflected Oralloy Spherical Assembly
-Case:        HEU-MET-FAST-003 2-in Tuballoy reflector
+Case:        HEU-MET-FAST-003 7-in Tuballoy reflector
 """
 
 import openmc
