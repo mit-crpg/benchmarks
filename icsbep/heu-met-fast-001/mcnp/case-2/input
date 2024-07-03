@@ -7,8 +7,8 @@ Bare HEU sphere (Godiva), ref. HEU-MET-FAST-001 simplified model
 c
 c Godiva sphere at 18.74 g/cm3
 c
-m1   92234.70c  4.9184e-4
-     92235.70c  4.4994e-2
-     92238.70c  2.4984e-3
+m1   92234.80c  4.9184e-4
+     92235.80c  4.4994e-2
+     92238.80c  2.4984e-3
 kcode 10000 1.0 20 3000 
 ksrc 0 0 0
