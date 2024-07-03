@@ -1,11 +1,11 @@
 B&W Critical Lattice, Core XI Load 1, 1511 ppm, LEU-COMP-THERM-008 case 1
 c    Axially uniform quadrant
-1     1   0.068525    -18                 u=1                 $ Fuel Pin
-2     2   0.055323     18  -19            u=1                 $ Cladding
-3     3   0.10019      19                 u=1                 $ Water
-4     0                20  -21   22  -23  u=2  lat=1  fill=1  $ Pin Cell
+1     1   6.85245095e-02    -18                 u=1                 $ Fuel Pin
+2     2   5.53806350e-02     18  -19            u=1                 $ Cladding
+3     3   1.00190266e-01     19                 u=1                 $ Water
+4     0                      20  -21   22  -23  u=2  lat=1  fill=1  $ Pin Cell
 c    15x15 Assembly Lattice
-5     3   0.10019     -21   20  -23   22  u=3  lat=1
+5     3   1.00190266e-01    -21   20  -23   22  u=3  lat=1
       fill=-7:7 -7:7 0:0
       1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
       1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
@@ -22,21 +22,21 @@ c    15x15 Assembly Lattice
       1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
       1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
       1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
-6     0                24  -25   26  -27  u=4 lat=1  fill=3   $ Assemblies
-7     0                 1   -2    3    4   -8  -14   fill=4   $ Inner Core
-8     0                 1   -2    3    8  -11  -12   fill=2   $ Buffer Zone
-9     0                 1   -2    8  -10   12  -13   fill=2   $ Buffer Zone
-10    0                 1   -2    8   -9   13  -14   fill=2   $ Buffer Zone
-11    0                 1   -2    4   -9   14  -15   fill=2   $ Buffer Zone
-12    0                 1   -2    4   -7   15  -16   fill=2   $ Buffer Zone
-13    0                 1   -2    4   -6   16  -17   fill=2   $ Buffer Zone
-14    3   0.10019       1   -2    3   -5   11                 $ Reflector
-15    3   0.10019       1   -2   -5   10  -11   12            $ Reflector
-16    3   0.10019       1   -2   -5    9  -10   13            $ Reflector
-17    3   0.10019       1   -2   -5    7   -9   15            $ Reflector
-18    3   0.10019       1   -2   -5    6   -7   16            $ Reflector
-19    3   0.10019       1   -2    4   -5   -6   17            $ Reflector
-20    0                -1:2:-3:-4:5
+6     0                       24  -25   26  -27  u=4 lat=1  fill=3   $ Assemblies
+7     0                        1   -2    3    4   -8  -14   fill=4   $ Inner Core
+8     0                        1   -2    3    8  -11  -12   fill=2   $ Buffer Zone
+9     0                        1   -2    8  -10   12  -13   fill=2   $ Buffer Zone
+10    0                        1   -2    8   -9   13  -14   fill=2   $ Buffer Zone
+11    0                        1   -2    4   -9   14  -15   fill=2   $ Buffer Zone
+12    0                        1   -2    4   -7   15  -16   fill=2   $ Buffer Zone
+13    0                        1   -2    4   -6   16  -17   fill=2   $ Buffer Zone
+14    3   1.00190266e-01       1   -2    3   -5   11                 $ Reflector
+15    3   1.00190266e-01       1   -2   -5   10  -11   12            $ Reflector
+16    3   1.00190266e-01       1   -2   -5    9  -10   13            $ Reflector
+17    3   1.00190266e-01       1   -2   -5    7   -9   15            $ Reflector
+18    3   1.00190266e-01       1   -2   -5    6   -7   16            $ Reflector
+19    3   1.00190266e-01       1   -2    4   -5   -6   17            $ Reflector
+20    0                       -1:2:-3:-4:5
 
 c     Problem Boundaries
 1     pz    -81.662                                           $ Bottom
@@ -81,9 +81,9 @@ m1    92234.80c  4.5689e-06
        8016.80c  4.5683e-02
        5010.80c  2.6055e-07
 c     Aluminum 6061 cladding
-m2    12024.80c  4.9031e-04
-      12025.80c  6.2072e-05
-      12026.80c  6.8341e-05
+m2    12024.80c  4.9006e-04
+      12025.80c  6.2196e-05
+      12026.80c  6.8459e-05
       13027.80c  5.3985e-02
       14028.80c  2.9726e-04
       14029.80c  1.5094e-05
@@ -102,8 +102,8 @@ m2    12024.80c  4.9031e-04
       26056.80c  1.7351e-04
       26057.80c  4.0070e-06
       26058.80c  5.3326e-07
-      29063.80c  4.1054e-05
-      29065.80c  1.8299e-05
+      29063.80c  4.1043e-05
+      29065.80c  1.8310e-05
       30064.80c  2.8361e-05
       30066.80c  1.5994e-05
       30067.80c  2.3302e-06

@@ -9,8 +9,8 @@
 
   <!-- Starting source -->
   <source particle="neutron" strength="1.0" type="independent">
-    <space type="point">
-      <parameters>5 5 0</parameters>
+    <space type="box">
+      <parameters>-1 -1 -1  1  1  1</parameters>
     </space>
   </source>
 
