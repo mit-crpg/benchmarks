@@ -9,7 +9,7 @@
   -->
 
   <surface id="1" type="sphere" coeffs="0. 0. 0. 3.8673" />
-  <surface id="2" type="sphere" coeffs="0. 0. 0. 5.6104" />
+  <surface id="2" type="sphere" coeffs="0. 0. 0. 5.1604" />
   <surface id="3" type="sphere" coeffs="0. 0. 0. 7.2504" boundary="vacuum" />
 
   <cell id="1" material="1" region="  -1" />
